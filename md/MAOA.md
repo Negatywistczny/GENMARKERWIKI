@@ -18,19 +18,44 @@
 
 ### 4. Tabela Wariantów
 
-| Identyfikator | Wariant / Allel | Status Aktywności | Wpływ na Fenotyp i Metabolizm |
-| :--- | :--- | :--- | :--- |
-| **MAOA-uVNTR** | 3R, 3.5R | Skrajnie Niska (MAOA-L) | "Gen Wojownika". Akumulacja katecholamin. Warunkuje zachowania antyspołeczne i nagły gniew wyłącznie w przypadku doświadczenia przemocy w dzieciństwie. |
-| **MAOA-uVNTR** | 4R, 4.5R | Wysoka (MAOA-H) | Optymalna, szybka redukcja amin. Opanowanie reakcji stresowych, rzadka agresja. Wyższe ryzyko apatii, zespołów zmęczenia i "chłodnych" prób samobójczych. |
-| **MAOA-uVNTR** | 2R, 2.5R | Dysharmonijna / Rzadka | Silnie redukująca funkcja białka, powiązana z brutalną przestępczością poprzez drastyczny nadmiar katecholamin. |
-| **MAOA-uVNTR** | 3.3R | Wybitnie Wysoka | Unikalny allel (krótszy o 6 nukleotydów). Aktywność do 2x silniejsza niż standard 3.5R, superszybka degradacja amin. |
-| **rs6323** | G | Wysoka (MAOA-H) | Optymalne oczyszczanie szczelin, chroni przed furią, predysponuje do chronicznego marazmu i zmęczenia. |
-| **rs6323** | T | Niska (MAOA-L) | U mężczyzn skorelowany z trudnościami w opanowaniu złości. U kobiet wyższe ryzyko GAD i impulsywnej autoagresji. |
-| **rs1137070** | T | Wysoka (MAOA-H) | Prawidłowa transkrypcja mRNA. Uderza ryzykiem ciężkich schorzeń: duże zaburzenie depresyjne (MDD), choroba dwubiegunowa i schizofrenia poprzez braki amin. |
-| **rs1137070** | C | Zredukowana (MAOA-L) | Tragiczna podatność na uzależnienia od nikotyny i heroiny. Silna korelacja z antyspołecznym zaburzeniem osobowości (ASPD). |
-| **rs909525 (Proxy)** | C | Marker "Wojownika" | Gwarancja blisko 99% na nosicielstwo wolnego uVNTR 3R. Predysponuje do wyników w sportach siłowo-wytrzymałościowych. |
-| **rs909525 (Proxy)** | T | Wariant Bezpieczny | Gwarancja układów 4R lub 5R. Rzadkie wybuchy furii. |
-| **rs72554632** | T | Patologia (Brunner) | Wrodzony brak rozpadu amin. Napady gwałtowności, deficyty IQ, autystyczne tło powiązane z zaburzeniami snu. |
+**MAOA-uVNTR (promotor — liczba powtórzeń, nie klasyczny SNP)**
+
+| Wariant (VNTR) | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **3R, 3.5R** | Skrajnie niska (MAOA-L) | „Gen wojownika”. Akumulacja katecholamin. Zachowania antyspołeczne i nagły gniew głównie po przemocy w dzieciństwie |
+| **4R, 4.5R** | Wysoka (MAOA-H) | Szybka redukcja amin; opanowanie stresu, rzadka agresja. Wyższe ryzyko apatii, zmęczenia i „chłodnych” prób samobójczych |
+| **2R, 2.5R** | Dysharmonijna / rzadka | Silna redukcja funkcji; skrajny nadmiar katecholamin |
+| **3.3R** | Wybitnie wysoka | Unikalny allel; aktywność do ~2× silniejsza niż 3.5R |
+
+**rs6323 (R297R)**
+
+| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Wysoka (MAOA-H) | Optymalne oczyszczanie szczelin; chroni przed furią; predyspozycja do chronicznego marazmu i zmęczenia |
+| **G/T** | Pośrednia | Profil mieszany |
+| **T/T** | Niska (MAOA-L) | U mężczyzn: trudności w opanowaniu złości. U kobiet: wyższe ryzyko GAD i impulsywnej autoagresji |
+
+**rs1137070 (c.1410T>C, synonimiczny)**
+
+| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T/T** | Wysoka (MAOA-H) | Prawidłowa transkrypcja mRNA; ryzyko MDD, choroby dwubiegunowej i schizofrenii przez braki amin |
+| **C/T** | Pośrednia | Profil mieszany |
+| **C/C** | Zredukowana (MAOA-L) | Podatność na uzależnienia od nikotyny i heroiny; korelacja z ASPD |
+
+**rs909525 (proxy uVNTR)**
+
+| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Marker „wojownika” | ~99% nosicielstwo wolnego uVNTR 3R; predyspozycja do sportów siłowo-wytrzymałościowych |
+| **C/T** | Pośredni | Profil mieszany |
+| **T/T** | Wariant bezpieczny | Układy 4R/5R; rzadsze wybuchy furii |
+
+**rs72554632 (p.Gln296Ter, rzadka patologia)**
+
+| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T** (nosiciel) | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak pojedynczej, porównywalnej częstości globalnej ze względu na VNTR, różne definicje alleli i analizy zależne od płci

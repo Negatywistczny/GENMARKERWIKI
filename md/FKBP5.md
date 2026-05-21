@@ -19,14 +19,31 @@
 
 ### 4. Tabela Wariantów
 
-| Identyfikator | Genotyp / allel | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- | :--- |
-| **rs1360780** | **C/C** | Ochronny; sprawne ujemne sprzężenie HPA | Niższe ryzyko PTSD/MDD po ELA; lepszy przyrost VO2peak; mniejsza powysiłkowa hipermetylacja u kobiet |
-| **rs1360780** | **C/T** | Pośredni | Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne |
-| **rs1360780** | **T/T** | Oporność na glukokortykoidy | Wyższe ryzyko MDD (OR≈1,39); lepsza odpowiedź na SSRI/citalopram/wenlafaksynę vs C/C |
-| **rs9296158** | **G/G vs A/A** | Allel A – najwyższy efekt z ELA | Silniejsze PTSD po przemocy w dzieciństwie; ryzyko psychoz w dorosłości |
-| **rs9470080** | **C/C vs T/T** | T/T – złożony fenotyp | PTSD + depresja po katastrofach; ekstremalny stres może maskować genetykę |
-| **Haplotyp** | **A-G-C-T** | Blok ryzyka | rs3800373-A, rs9296158-G, rs1360780-C, rs9470080-T – sprzężone objawy po traumie |
+**rs1360780 (intron 2, główny marker)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Ochronny; sprawne ujemne sprzężenie HPA | Niższe ryzyko PTSD/MDD po ELA; lepszy przyrost VO2peak; mniejsza powysiłkowa hipermetylacja u kobiet |
+| **C/T** | Pośredni | Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne |
+| **T/T** | Oporność na glukokortykoidy | Wyższe ryzyko MDD (OR≈1,39); lepsza odpowiedź na SSRI/citalopram/wenlafaksynę vs C/C |
+
+**rs9296158 (intron 5, trauma dziecięca)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Profil referencyjny | Niższe ryzyko PTSD po ELA przy braku przemocy w dzieciństwie |
+| **G/A** | Pośredni | Umiarkowane nasilenie po traumie |
+| **A/A** | Allel A – najwyższy efekt z ELA | Silniejsze PTSD po przemocy w dzieciństwie; ryzyko psychoz w dorosłości |
+
+**rs9470080**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Profil referencyjny | Standardowa odpowiedź na stres katastroficzny |
+| **C/T** | Pośredni | Złożony fenotyp; częściowe ryzyko PTSD/depresji |
+| **T/T** | Złożony fenotyp | PTSD + depresja po katastrofach; ekstremalny stres może maskować genetykę |
+
+*Haplotyp blokowy ryzyka:* rs3800373-A, rs9296158-G, rs1360780-C, rs9470080-T (A-G-C-T) – sprzężone objawy po traumie; interpretuj łącznie z pojedynczymi SNP.
 
 *Uwaga diagnostyczna:* W gnomAD allel T u rs1360780 jest uznawany za wyższe ryzyko; w starszych publikacjach sprawdź orientację nici (C/G, A/T).
 

@@ -20,7 +20,7 @@
 
 ### 4. Tabela Wariantów
 
-**Główny marker promotorowy: rs1611115**
+**rs1611115 (C-1021T / C-970T, promotor)**
 
 | Genotyp | Aktywność / ekspresja | Profil neurochemiczny | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- | :--- |
@@ -28,16 +28,45 @@
 | **C/T** | Umiarkowanie obniżony | Lekka przewaga dopaminy z kompensacją NE | Pośredni; novelty seeking, łagodna impulsywność; optimum ewolucyjne adaptacji |
 | **T/T** | Skrajnie niski (~11× vs C/C) | Wysoka DA, głęboki brak NE | Ryzyko ADHD; psychozy przy kokainie; lekooporna depresja w alkoholizmie; Parkinson OR≈2,95 |
 
-**Modyfikatory szlaku i farmakogenomika**
+**rs1108580 (444G>A)**
 
-| Polimorfizm (rsID) | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- | :--- |
-| **rs1108580** | **A/A** | Obniżony DBH osoczowy; modulacja płuca/wątroba | Wyższe ryzyko ADHD i schizofrenii; niższe ryzyko zawału (słabszy ton współczulny). W Europie bywa „major allele” w algorytmach, klinicznie negatywny modyfikator |
-| **rs1108580** | **G/G** | Referencyjny | Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym |
-| **rs2519154** | **T/T (C/T)** | Farmakogenomiczny | Wybitnie lepsza remisja na atomoksetynie vs C/C w ADHD |
-| **rs2519152** | **T/T** | Bardzo niski DBH | Hiperaktywność u dzieci; *paternal over-transmission* (kohorty wschodnioindyjskie) |
-| **rs129882** | **C/T, T/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie |
-| **rs7040170** | **G/G, A/G** | Allel G obniża enzym | Zaburzenia koncentracji |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Referencyjny | Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym |
+| **G/A** | Pośrednio obniżony | Profil mieszany; modulacja ekspresji tkankowej |
+| **A/A** | Obniżony DBH osoczowy; modulacja płuca/wątroba | Wyższe ryzyko ADHD i schizofrenii; niższe ryzyko zawału (słabszy ton współczulny). W Europie bywa „major allele” w algorytmach, klinicznie negatywny modyfikator |
+
+**rs2519154 (farmakogenomika atomoksetyny)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Referencyjny | Słabsza remisja na atomoksetynie w ADHD (kohorty porównawcze) |
+| **C/T** | Pośredni | Umiarkowana odpowiedź na atomoksetynę |
+| **T/T** | Farmakogenomiczny | Wybitnie lepsza remisja na atomoksetynie vs C/C w ADHD |
+
+**rs2519152**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Standardowy DBH | Profil referencyjny |
+| **C/T** | Obniżony | Pośrednia hiperaktywność u dzieci (dane ograniczone) |
+| **T/T** | Bardzo niski DBH | Hiperaktywność u dzieci; *paternal over-transmission* (kohorty wschodnioindyjskie) |
+
+**rs129882**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Standardowa transkrypcja | Profil referencyjny |
+| **C/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie (profil pośredni) |
+| **T/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie |
+
+**rs7040170 (A>G)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **A/A** | Referencyjny | Typowa koncentracja i uwaga |
+| **A/G** | Allel G obniża enzym | Zaburzenia koncentracji (profil pośredni) |
+| **G/G** | Obniżona aktywność | Zaburzenia koncentracji |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1611115 – allel C (ochronny) ~79,65%; allel T ~20,16% (gnomAD/ALFA)

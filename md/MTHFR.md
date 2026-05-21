@@ -18,17 +18,29 @@
 
 ### 4. Tabela Wariantów
 
-| Identyfikator | Genotyp | Aktywność Enzymu | Wpływ na Fenotyp i Metabolizm |
-| :--- | :--- | :--- | :--- |
-| **rs1801133 (C677T)** | C/C | 100% (Wild Type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii. |
-| **rs1801133 (C677T)** | C/T | ~65% (Zredukowana) | Pula folianów obniżona, ale przy zdrowej diecie stężenie homocysteiny rzadko ulega klinicznie istotnemu podwyższeniu. |
-| **rs1801133 (C677T)** | T/T | 20-30% (Krytyczna) | Wariant termolabilny. Skutkuje utratą nawet 70-80% zdolności syntezy 5-MTHF. Generuje nagromadzenie toksycznej homocysteiny we krwi i ogromne zapotrzebowanie na dawców grup metylowych. |
-| **rs1801131 (A1298C)** | A/A | 100% (Wild Type) | Nienaruszona domena wiążąca SAMe. Najczęstszy, zdrowy genotyp w populacji. |
-| **rs1801131 (A1298C)** | A/C | Niewielki spadek | Jeden defektywny allel jest sprawnie kompensowany przez organizm, nie powoduje zatorowości. |
-| **rs1801131 (A1298C)** | C/C | ~60-80% (Zredukowana) | Nie winduje samodzielnie tak bardzo homocysteiny, ale mocno zakłóca recykling BH4, uderzając w stabilność nastroju (serotonina/dopamina) i radzenie sobie ze stresem oksydacyjnym. |
-| **Heterozygota Złożona** | 677C/T + 1298A/C | ~50% (Spadek o połowę) | Kaskada obu błędów na jednym łańcuchu. Obraz biochemiczny odpowiada wręcz ciężkiemu defektowi homozygoty 677T/T – uszczuplenie folianów, stała homocysteina, wyższe wskaźniki ryzyka. |
+**rs1801133 (C677T, Ala222Val, egzon 4)**
 
-*(Uwaga: Połączenia 677T/T z 1298C/C uznaje się za letalne embriologicznie – nie występują u zdrowych noworodków.)*
+| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| :--- | :--- | :--- |
+| **C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
+| **C/T** | ~65% (zredukowana) | Pula folianów obniżona; przy zdrowej diecie homocysteina rzadko rośnie klinicznie istotnie |
+| **T/T** | 20–30% (krytyczna) | Wariant termolabilny; utrata 70–80% syntezy 5-MTHF, nagromadzenie homocysteiny, duże zapotrzebowanie na dawców metylowych |
+
+**rs1801131 (A1298C, Glu429Ala, egzon 7)**
+
+| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| :--- | :--- | :--- |
+| **A/A** | 100% (wild type) | Nienaruszona domena wiążąca SAMe; najczęstszy, zdrowy genotyp |
+| **A/C** | Niewielki spadek | Jeden allel defektywny zwykle kompensowany; brak zatorowości metabolicznej |
+| **C/C** | ~60–80% (zredukowana) | Słabszy wpływ na homocysteinę niż C677T, ale zakłócony recykling BH4 (nastrój, stres oksydacyjny) |
+
+**Haplotyp złożony (oba SNP na jednym chromosomie)**
+
+| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| :--- | :--- | :--- |
+| **677C/T + 1298A/C** (heterozygota złożona) | ~50% (spadek o połowę) | Kaskada obu błędów; obraz zbliżony do ciężkiej homozygoty 677 T/T – uszczuplenie folianów, podwyższona homocysteina |
+
+*Uwaga:* Połączenie 677 T/T z 1298 C/C uznaje się za letalne embriologicznie – nie występuje u zdrowych noworodków.
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość alleli zależy od wariantu; dla C677T globalny udział allelu T jest zróżnicowany regionalnie i nie ma jednej stabilnej wartości dla wszystkich kohort

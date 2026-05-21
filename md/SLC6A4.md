@@ -29,12 +29,27 @@
 
 **B. Polimorfizmy modyfikujące**
 
-| Identyfikator | Allele | Opis mechanizmu i skutki kliniczne |
+**rs25532 (C>T)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **rs25532** | C / T | Allel T wycisza transkrypcję o 15–80%; haplotyp L_A z C związany z wyższym ryzykiem Tourette'a (OR=1,33) i OCD |
-| **rs1042173** | T / T | Obniżona inhibicja miRNA-135 → wyższe SERT; skrajne upijanie się (średnio ~11 drinków u alkoholików) |
-| **rs1042173** | G / G lub T / G | Silniejsze tłumienie mRNA; działanie osłonowe przed uzależnieniem (~8,5 drinka) |
-| **I425V** | Mutacja missense (rzadka) | Gain-of-function: hiperaktywny SERT; ryzyko OCD/TD wzrosło nawet ~9-krotnie |
+| **C/C** | Standardowa transkrypcja | Profil referencyjny przy haplotypie L_A |
+| **C/T** | Pośrednio obniżona | Umiarkowane wyciszenie ekspresji |
+| **T/T** | Obniżona o 15–80% | Haplotyp L_A z T związany z wyższym ryzykiem Tourette'a (OR=1,33) i OCD |
+
+**rs1042173 (3'UTR, T>G)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Silniejsze tłumienie mRNA | Działanie osłonowe przed uzależnieniem (~8,5 drinka u alkoholików) |
+| **T/G** | Pośredni | Profil mieszany |
+| **T/T** | Obniżona inhibicja miRNA-135 → wyższe SERT | Skrajne upijanie się (średnio ~11 drinków u alkoholików) |
+
+**I425V (mutacja missense, rzadka)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **I425V** (heterozygota/homozygota) | Gain-of-function: hiperaktywny SERT | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości dla VNTR S/L globalnie; częstość S silnie zróżnicowana geograficznie (od ~43% w Europie do 70–80% u Azjatów)

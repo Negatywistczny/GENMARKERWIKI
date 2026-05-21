@@ -18,7 +18,9 @@
 
 ### 4. Tabela Wariantów
 
-| Locus rs429358 | Locus rs7412 | Izoforma (Genotyp) | Kodowane Aminokwasy (112/158) | Wpływ na Fenotyp, Metabolizm i Rokowania |
+**Haplotypy APOE (rs429358 + rs7412)**
+
+| rs429358 | rs7412 | Izoforma (genotyp) | Kodowane aminokwasy (112/158) | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- | :--- | :--- |
 | **T / T** | **C / C** | **ε3 / ε3 (E3/E3)** | Cys112 / Arg158 | **Typ referencyjny.** Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu. |
 | **C / T** | **C / C** | **ε3 / ε4 (E3/E4)** | Mieszane (Cys/Arg + Arg/Arg) | **Ryzyko podwyższone.** Wyższy poziom utlenionych LDL. Nosiciele są eksponowani na 2- do 4-krotnie wyższe ryzyko rozwoju choroby Alzheimera i większą podatność na miażdżycę. |

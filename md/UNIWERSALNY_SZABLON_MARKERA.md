@@ -19,11 +19,16 @@
 * **Efekt funkcjonalny:** [1-3 zdania: konsekwencja fizjologiczna]
 
 ### 4. Tabela Wariantow
-| Genotyp / Uklad alleli | Nazewnictwo (np. Val/Met) | Aktywnosc / ekspresja | Wplyw fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- | :--- |
-| **[GENOTYP_1]** | [NAZEWNICTWO_1] | [AKTYWNOSC_1] | [OPIS_1] |
-| **[GENOTYP_2]** | [NAZEWNICTWO_2] | [AKTYWNOSC_2] | [OPIS_2] |
-| **[GENOTYP_3]** | [NAZEWNICTWO_3] | [AKTYWNOSC_3] | [OPIS_3] |
+
+**[RSID_GLOWNY] ([OPIS_WARIANTU])**
+
+| Genotyp | Aktywnosc / ekspresja | Wplyw fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **[GENOTYP_REF]** | [AKTYWNOSC_REF] | [OPIS_REF] |
+| **[GENOTYP_HET]** | [AKTYWNOSC_HET] | [OPIS_HET] |
+| **[GENOTYP_ALT]** | [AKTYWNOSC_ALT] | [OPIS_ALT] |
+
+*Przy wielu SNP w jednym pliku: powtorz blok **rsID** + tabele 3-wierszowe dla kazdego markera (nie lacz w jedna tabele z kolumna „Identyfikator”).*
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** [CZESTOSC_ALLELU_LUB_GENOTYPU]

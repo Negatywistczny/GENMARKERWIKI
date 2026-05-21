@@ -1,0 +1,160 @@
+import fs from "fs";
+import path from "path";
+import { fileURLToPath } from "url";
+
+const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
+const app = fs.readFileSync(path.join(root, "html", "app.js"), "utf8");
+const tonesMatch = app.match(/const FIXED_VARIANT_TONES = (\{[\s\S]*?\n\});/);
+const FIXED_VARIANT_TONES = Function(`return ${tonesMatch[1]}`)();
+
+function stripMarkdown(value) {
+  return value
+    .replace(/\*\*([^*]+)\*\*/g, "$1")
+    .replace(/\*([^*]+)\*/g, "$1")
+    .replace(/`([^`]+)`/g, "$1")
+    .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/\s+/g, " ")
+    .trim();
+}
+
+function normalizeToneKey(value) {
+  return stripMarkdown(String(value || ""))
+    .toLowerCase()
+    .replace(/ł/g, "l")
+    .replace(/[ąćęńóśźż]/g, (ch) =>
+      ({ ą: "a", ć: "c", ę: "e", ń: "n", ó: "o", ś: "s", ź: "z", ż: "z" })[ch] || ch
+    )
+    .normalize("NFD")
+    .replace(/[\u0300-\u036f]/g, "")
+    .replace(/[^a-z0-9]+/g, " ")
+    .trim();
+}
+
+function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
+  const byGene = FIXED_VARIANT_TONES[String(geneSymbol || "").toUpperCase()];
+  if (!byGene) return { tone: "neutral", reason: "no-gene" };
+  const headingKey = normalizeToneKey(heading);
+  const genotypeKey = options.lookupKey || normalizeToneKey(genotype);
+  const byHeading = byGene[headingKey] || byGene[""];
+  if (!byHeading) return { tone: "neutral", reason: "no-heading", headingKey };
+  const tone = byHeading[genotypeKey] || "neutral";
+  return {
+    tone,
+    reason: tone === "neutral" && !byHeading[genotypeKey] ? "no-genotype" : "ok",
+    headingKey,
+    genotypeKey,
+  };
+}
+
+function parseSections(md) {
+  const lines = md.split(/\r?\n/);
+  const sections = [];
+  let current = null;
+  for (const line of lines) {
+    const m = line.match(/^###\s+\d+\.\s+(.+)$/);
+    if (m) {
+      if (current) sections.push(current);
+      current = { title: m[1].trim(), body: [] };
+    } else if (current) {
+      current.body.push(line);
+    }
+  }
+  if (current) sections.push(current);
+  return sections;
+}
+
+function splitVariantBlocks(body) {
+  const blocks = [];
+  let current = { title: "", lines: [] };
+  const push = () => {
+    if (current.lines.some((l) => l.trim().startsWith("|"))) {
+      blocks.push({ ...current });
+    }
+    current = { title: "", lines: [] };
+  };
+  for (const line of body) {
+    const t = line.trim();
+    const tm = t.match(/^\*\*([^*]+)\*\*$/);
+    if (tm) {
+      push();
+      current.title = stripMarkdown(tm[1]);
+      continue;
+    }
+    if (t.startsWith("|")) {
+      current.lines.push(line);
+      continue;
+    }
+    if (!t && current.lines.length) {
+      current.lines.push(line);
+      continue;
+    }
+    if (t) {
+      push();
+      current = { title: "", lines: [line] };
+      push();
+    }
+  }
+  push();
+  if (!blocks.length) {
+    const tl = body.filter((l) => l.trim().startsWith("|"));
+    if (tl.length) return [{ title: "", lines: tl }];
+  }
+  return blocks;
+}
+
+function parseTable(lines) {
+  const rows = lines
+    .filter((l) => l.trim().startsWith("|"))
+    .map((l) => l.split("|").slice(1, -1).map((c) => c.trim()));
+  if (rows.length < 2) return null;
+  const data = rows
+    .slice(1)
+    .filter((r) => !r.every((c) => /^:?-+:?$/.test(c.replace(/\s/g, ""))))
+    .map((r) => r.map(stripMarkdown));
+  return { rows: data };
+}
+
+const mdDir = path.join(root, "md");
+const issues = [];
+let total = 0;
+
+for (const file of fs.readdirSync(mdDir)) {
+  if (!file.endsWith(".md") || file === "UNIWERSALNY_SZABLON_MARKERA.md" || file === "index.md") {
+    continue;
+  }
+  const md = fs.readFileSync(path.join(mdDir, file), "utf8");
+  const geneM = md.match(/\*\*Główny symbol genu:\*\*\s*([A-Z0-9]+)/i);
+  const gene = geneM ? geneM[1].trim().toUpperCase() : file.replace(".md", "").toUpperCase();
+  const sec = parseSections(md).find((s) => s.title.toLowerCase().includes("tabela wariant"));
+  if (!sec) {
+    issues.push({ gene, file, type: "no-section" });
+    continue;
+  }
+  if (!FIXED_VARIANT_TONES[gene]) {
+    issues.push({ gene, file, type: "no-map" });
+    continue;
+  }
+  for (const block of splitVariantBlocks(sec.body)) {
+    const table = parseTable(block.lines);
+    if (!table) continue;
+    for (const row of table.rows) {
+      const genotype = row[0] || "";
+      const lookupKey =
+        gene === "APOE" ? normalizeToneKey(row.join(" ")) : normalizeToneKey(genotype);
+      total++;
+      const r = fixedVariantTone(gene, block.title, genotype, { lookupKey });
+      if (r.reason === "no-genotype" || r.reason === "no-heading") {
+        issues.push({ gene, file, heading: block.title, genotype, ...r });
+      }
+    }
+  }
+}
+
+console.log("Genes in map:", Object.keys(FIXED_VARIANT_TONES).length);
+console.log("Rows checked:", total);
+console.log("Unmapped rows:", issues.length);
+for (const i of issues) {
+  console.log(JSON.stringify(i));
+}
+
+process.exit(issues.length ? 1 : 0);

@@ -20,18 +20,37 @@
 
 ### 4. Tabela Wariantów
 
-| Polimorfizm (rsID) | Analizowany genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+**rs1800497 (Taq1A, ANKK1 — nić kodująca G>A; raporty komplementarne C>T)**
+
+| Genotyp | Zapis RFLP (Taq1A) | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- | :--- |
-| **rs1800497 (Taq1A, ANKK1)** | **C/C (A2/A2)** | Standardowa gęstość D2 | Prawidłowy próg nagrody; mniejsze ryzyko alkoholizmu i lekomanii |
-| | **C/T (A1/A2)** | Umiarkowana redukcja (PET) | Profil pośredni; wyższa skłonność do zachowań ryzykownych |
-| | **T/T (A1/A1)** | Spadek gęstości D2 o 30–40% | Silny marker RDS; wyższe zapotrzebowanie na metadon; alkoholizm, objadanie |
-| **rs6277 (C957T)** | **C/C** | Stabilne mRNA, wysoki odzysk białka | Najwyższa gęstość w korze/wzgórzu; niższe ryzyko PVGU |
-| | **C/T** | Skrócony czas półtrwania RNA | Lęk, spadek elastyczności poznawczej |
-| | **T/T** | Szybka degradacja RNA | Deficyty werbalne; silna korelacja z PVGU |
-| **rs1076560** | **G/G (lub C/C)** | Prawidłowy splicing D2S/D2L | Sprawna adaptacja stresowa |
-| | **T/T (lub A/A)** | Niski udział D2S | Impulsywne ADHD, słabsza odpowiedź na neuroleptyki; ryzyko kokainy/opiatów |
-| **rs1799732 (-141C)** | **Ins/Ins** | Standardowy promotor | Typowa odpowiedź metaboliczna na leki |
-| | **Del/Del** | Osłabiona ekspresja | Przyrost masy po olanzapinie; u MMA wzrost sumienności pod reżimem |
+| **G/G** | A2/A2 | Standardowa gęstość D2 | Prawidłowy próg nagrody; mniejsze ryzyko alkoholizmu i lekomanii |
+| **A/G** | A1/A2 | Umiarkowana redukcja (PET) | Profil pośredni; wyższa skłonność do zachowań ryzykownych |
+| **A/A** | A1/A1 | Spadek gęstości D2 o 30–40% | Silny marker RDS; wyższe zapotrzebowanie na metadon; alkoholizm, objadanie |
+
+**rs6277 (C957T, ekson 6)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Stabilne mRNA, wysoki odzysk białka | Najwyższa gęstość w korze/wzgórzu; niższe ryzyko PVGU |
+| **C/T** | Skrócony czas półtrwania RNA | Lęk, spadek elastyczności poznawczej |
+| **T/T** | Szybka degradacja RNA (~2×) | Deficyty werbalne; silna korelacja z PVGU |
+
+**rs1076560 (intron 6, G>T)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Prawidłowy splicing D2S/D2L | Sprawna adaptacja stresowa |
+| **G/T** | Pośrednia proporcja D2S/D2L | Profil pośredni; umiarkowana impulsywność i ryzyko uzależnień |
+| **T/T** | Niski udział D2S (ZRANB2) | Impulsywne ADHD, słabsza odpowiedź na neuroleptyki; ryzyko kokainy/opiatów |
+
+**rs1799732 (-141C Ins/Del, promotor)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **Ins/Ins** | Standardowy promotor | Typowa odpowiedź metaboliczna na leki |
+| **Ins/Del** | Obniżona transkrypcja | Podwyższone ryzyko tycia przy neuroleptykach; profil pośredni |
+| **Del/Del** | Osłabiona ekspresja | Przyrost masy po olanzapinie; u MMA wzrost sumienności pod reżimem |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1800497 – allel T/A1 ok. 32,5% (dbSNP/ALFA); rs6277 – allel T często dominuje w kohortach europejskich (~55%), z dużą heterogenicznością między regionami

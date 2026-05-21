@@ -316,15 +316,52 @@ body {
   background: rgba(122, 162, 255, 0.14);
 }
 
+.variants-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 1.1rem;
+}
+
+.variant-group {
+  padding: 0.85rem;
+  background: rgba(122, 162, 255, 0.06);
+  border: 1px solid var(--border);
+  border-radius: 12px;
+}
+
+.variant-group-title {
+  margin: 0 0 0.65rem;
+  font-size: 0.95rem;
+  font-weight: 700;
+  color: var(--accent);
+  letter-spacing: 0.01em;
+}
+
+.variant-group-note {
+  font-size: 0.9rem;
+}
+
+.variant-group-note > *:first-child {
+  margin-top: 0;
+}
+
+.variant-group-note > *:last-child {
+  margin-bottom: 0;
+}
+
+.variant-group-note table {
+  display: none;
+}
+
 .variants-layout {
   display: grid;
   grid-template-columns: 1fr;
   gap: 0.65rem;
 }
 
-@media (min-width: 900px) {
+@media (min-width: 640px) {
   .variants-layout {
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: repeat(3, minmax(0, 1fr));
   }
 }
 
@@ -333,6 +370,21 @@ body {
   border: 1px solid var(--border);
   border-radius: 12px;
   padding: 0.75rem;
+}
+
+.variant-tile--negative {
+  background: rgba(235, 87, 87, 0.14);
+  border-color: rgba(235, 87, 87, 0.45);
+}
+
+.variant-tile--neutral {
+  background: rgba(245, 183, 47, 0.16);
+  border-color: rgba(245, 183, 47, 0.45);
+}
+
+.variant-tile--positive {
+  background: rgba(39, 174, 96, 0.16);
+  border-color: rgba(39, 174, 96, 0.45);
 }
 
 .variant-tile h4 {
@@ -346,15 +398,38 @@ body {
   font-weight: 600;
 }
 
+.variant-tile--negative .variant-status {
+  color: #ff7a7a;
+}
+
+.variant-tile--neutral .variant-status {
+  color: #d7a21c;
+}
+
+.variant-tile--positive .variant-status {
+  color: #2bb673;
+}
+
+.variant-tile--apoe h4 {
+  letter-spacing: 0.01em;
+}
+
+.variant-tile--apoe .variant-status {
+  font-size: 0.85rem;
+  font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, "Liberation Mono", monospace;
+  opacity: 0.95;
+}
+
 .variant-tile dl {
   margin: 0;
   display: grid;
   gap: 0.4rem;
 }
 
-.variant-tile dl div {
-  border-top: 1px dashed var(--border);
-  padding-top: 0.32rem;
+.variant-tile dl div + div {
+  margin-top: 0.35rem;
+  padding-top: 0.35rem;
+  border-top: 1px solid rgba(122, 162, 255, 0.18);
 }
 
 .variant-tile dt {
