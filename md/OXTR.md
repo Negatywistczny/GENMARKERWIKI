@@ -1,20 +1,19 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** OXTR (ang. *Oxytocin Receptor*).
-* **Pełna nazwa biochemiczna:** Receptor oksytocyny.
-* **Nazwy potoczne i medialne:** Gen „hormonu miłości”, gen „przytulania”, gen empatii, gen społecznego zaufania, molekularny mediator prospołeczności.
+* **Główny symbol genu:** OXTR (ang. *Oxytocin Receptor*)
+* **Pełna nazwa biochemiczna:** Receptor oksytocyny
+* **Nazwy potoczne i medialne:** Gen „hormonu miłości”, gen „przytulania”, gen empatii, gen społecznego zaufania, molekularny mediator prospołeczności
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID:** rs53576.
-* **Lokalizacja:** Chromosom 3 (prążek 3p25.3). Zmiana zlokalizowana jest w trzecim intronie genu *OXTR*. W kompilacji ludzkiego genomu GRCh38.p14 marker znajduje się dokładnie w pozycji 8 762 685.
-* **Typ polimorfizmu:** Mutacja punktowa typu tranzycji (substytucja guaniny przez adeninę, G>A). Jest to polimorfizm intronowy ("niemy"), który nie modyfikuje sekwencji aminokwasowej, wobec czego struktura samego receptora jest identyczna dla obu wariantów allelicznych.
-* **Notacja i orientacja nici:** Wariant na nici kodującej ("plus") oznaczany jest jako G/A. Część platform komercyjnych (np. 23andMe) odczytuje tę sekwencję z komplementarnej nici antysensownej ("minus"), raportując wyniki w postaci C/T.
+* **Główny rsID:** rs53576
+* **Lokalizacja chromosomalna:** Chromosom 3 (3p25.3), intron 3 genu *OXTR*; GRCh38: 8 762 685
+* **Typ wariantu:** SNP intronowy (tranzycja G>A, wariant niekodujący)
+* **Zapis zmiany nukleotydowej:** G>A
+* **Orientacja nici i mapowanie alleli:** Na nici kodującej raportowany jako G/A; część platform raportuje odczyt komplementarny jako C/T
 
 ### 3. Mechanizm działania
-Gen *OXTR* koduje specyficzne białko będące receptorem dla oksytocyny, które należy do nadrodziny receptorów sprzężonych z białkami G (GPCR) o strukturze siedmiu domen transbłonowych. W ośrodkowym układzie nerwowym (ciało migdałowate, prążkowie, kora przedniego zakrętu obręczy) układ ten decyduje o ocenie "istotności społecznej" (social salience) i kształtuje wrażliwość jednostki na bodźce pochodzące z grupy.
-
-* **Sygnalizacja wewnątrzkomórkowa:** Receptor najczęściej sprzęga się z podjednostką białka Gαq/11, co prowadzi do aktywacji fosfolipazy C (PLC), wyrzutu jonów wapnia (Ca2+) i długotrwałej plastyczności synaptycznej. Zdolny jest także do hamowania cyklazy adenylanowej (szlak Gi/Go), co zmniejsza wewnątrzkomórkowe pobudzenie neurotyczne.
-* **Interakcje i tratwy lipidowe:** W szlakach nagrody receptor OXTR tworzy heterodimery z receptorem dopaminy D2R, warunkując biologiczne odczuwanie satysfakcji ze spędzania czasu w bliskich więziach. Stabilność i powinowactwo receptora krytycznie zależą od cholesterolu budującego tratwy lipidowe w błonie komórkowej.
-* **Rola markera rs53576:** Jako wariant intronowy, polimorfizm ten najprawdopodobniej pełni funkcje represora transkrypcyjnego (zjawiska epigenetyczne w obrębie ułożenia *cis*) – allel A koreluje z mniejszą produkcją transkryptów mRNA, a tym samym obniżoną gęstością receptorów. Dodatkowo, u nosicieli genotypu A/A udowodniono na podstawie analiz SPECT zmiany w sygnalizacji nagrody – ich neurotyzm koreluje ze zmniejszoną dostępnością transporterów dopaminy (DAT), uwrażliwiając organizm na lęk środowiskowy.
+* **Rola biologiczna genu/białka:** OXTR koduje receptor oksytocyny (GPCR) w układzie limbicznym, regulujący istotność społeczną bodźców i więzi
+* **Wpływ wariantu na szlak:** Receptor sprzęga Gαq/11 (PLC, Ca2+) lub Gi/Go; tworzy heterodimery z D2R. rs53576 (allel A) obniża ekspresję mRNA i gęstość receptorów oraz moduluje DAT w kontekście neurotyzmu
+* **Efekt funkcjonalny:** Genotyp G/G wiąże się z wyższą empatią i buforowaniem stresu społecznego; A/A – inny profil reakcji na wykluczenie i PTSD (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -27,12 +26,19 @@ Gen *OXTR* koduje specyficzne białko będące receptorem dla oksytocyny, które
 *Istotna Uwaga:* Gen rs53576 nie warunkuje biologicznie sztywnego "braku empatii", ale dostosowuje siłę układu w mechanizmie Gen x Środowisko (GxE). Najnowsze metaanalizy ostrzegają przed redukcjonizmem: różnice mogą ujawniać się w silnym stresie, ale rzadko zmieniają ogólną autoocenę młodych ludzi w optymnych, codziennych sytuacjach.
 
 ### 5. Statystyki populacyjne
-Rozkład wariantów tego genu jest jednym z najbardziej drastycznych przykładów zróżnicowania geograficznego, idealnie dokumentując proces adaptacji u naczelnych.
-* **Kaukazianie (Populacja Europejska i Amerykańska):** Przeważa tu ancestralny allel G z częstotliwością sięgającą 65-70%. Pełne homozygoty G/G to uśredniając od 43% do 48% jednostek. Genotyp niskiej wrażliwości A/A stanowi wyraźną mniejszość, oscylując zaledwie w przedziale 8% - 11,3%.
-* **Ludność Azji Wschodniej i Dalekiego Wschodu (EAS/SAS):** Całkowite odwrócenie paradygmatu. Udział wariantu A wystrzelił do wartości od 45% do nawet 61% (np. u Chińczyków Han z Pekinu). Homozygoty A/A stają się w tych państwach dominujące, w niektórych grupach stanowiąc od 45% do nawet 65% całości.
-* **Ludność Afryki Subsaharyjskiej (AFR):** Kontynent afrykański zrzesza gigantyczną przewagę allelu G. Allel A jest wręcz anomalią, spadając uśredniając do około 22,4%. U badanych z plemienia Isanzu homozygoty A/A notowano zaledwie u kuriozalnych 2% badanych z populacji.
+* **Średnia globalna (ALL):** Brak jednej stałej wartości globalnej; marker wykazuje bardzo silne zróżnicowanie geograficzne
+* **Europa (NFE):** Allel G zwykle dominuje (ok. 65-70%); genotyp A/A najczęściej pozostaje mniejszościowy (ok. 8-11,3%)
+* **Afryka (AFR):** Allel G zwykle dominuje; allel A bywa relatywnie rzadki (orientacyjnie ok. 22,4%)
+* **Azja Wschodnia (EAS):** Allel A często jest znacznie częstszy niż w Europie i może sięgać ok. 45-61% w części kohort
+* **Uwagi o zmienności populacyjnej:** W niektórych grupach lokalnych (np. wybrane populacje afrykańskie i wschodnioazjatyckie) częstości genotypów skrajnych (A/A lub G/G) mogą odbiegać od średnich regionalnych.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 * **Kofaktory – Magnez (Mg2+) i Witamina D:** Jony magnezu są absolutnie konieczne, by receptor OXT zachował konformację umożliwiającą przyłączanie hormonu i skutecznie hamował pobudliwość neuronów (hiperpolaryzacja). Dodatkowo podaż witaminy D bezpośrednio aktywuje transkrypcję z obszaru *OXTR* w jądrze, potęgując pulę receptorów i hormonu w ciele migdałowatym.
 * **Rewolucja na osi Mikrobiom-Mózg:** Niewątpliwym sukcesem neurobiologicznym jest wpływ specyficznego probiotyku *Lactobacillus reuteri* (ATCC-PTA-6475) wyizolowanego z mleka. Bakteria ta drastycznie stymuluje i uwalnia endogenną oksytocynę w mózgu omijając zjawiska odpornościowe komórek limfocytów. Wykorzystuje ona bezpośrednio połączenia wstępujące włókien nerwu błędnego u naczelnych, rewelacyjnie rewersując deficyty behawioralne o podłożu izolacji bez inwazyjnej farmakoterapii.
 * **Używki a zdrowie wątroby:** U układów pozbawionych barier (jak profil GG z wysoką korelacją prospołeczności), wykazano wysoce niezależny od ogólnego spożycia cukru pęd ku nawykowej konsumpcji mocnych form ujęć nagradzających (cukru i etanolu). Kobiety z homozygotą G/G są mocno dysponowane do ciężkich, uogólnionych schorzeń stłuszczeniowych wątroby z obu grup ryzyk (MASLD/ALD), co wymaga ostrego nadzoru prób wątrobowych we współczesnej medycynie.
@@ -47,4 +53,4 @@ Rozkład wariantów tego genu jest jednym z najbardziej drastycznych przykładó
 * **PMID: 22123970** (Chen et al., 2011) – Publikacja PNAS oparta na biologicznym obniżaniu kortyzolu (buforowanie zysków społecznych przy napadzie stresu) dla osób ze szczepów z układami ochronnymi.
 * **PMID: 25001970** (Liu, Montag, et al., 2014) – Głębokie studium z użyciem neuroobrazowania tomografią SPECT rejestrujące uderzeniowe powiązania genotypu na układ dopaminy z ujęciem korekty neurotyzmu po transportery DAT.
 * **PMID: 26121678** (Li et al., 2015) – Wyczerpująca na skale meta-analiza łącząca ostateczne dane wpływu markera na rygory rzędu Cohen i socjalizację.
-* **SNPedia (rs53576):** Ugruntowany, niezależny portal zbierający masowe notatki referencyjne o markach i odczytach korelacyjnych (dostępny pod adresem https://www.snpedia.com/index.php/Rs53576).
+* **Baza referencyjna:** [SNPedia (rs53576)](https://www.snpedia.com/index.php/Rs53576) – Agregat notatek referencyjnych i korelacji społeczno-behawioralnych.

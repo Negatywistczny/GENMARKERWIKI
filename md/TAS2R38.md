@@ -1,23 +1,20 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** TAS2R38.
-* **Pełna nazwa biochemiczna:** Receptor smaku typu 2, składowa 38 (ang. *taste receptor type 2 member 38*).
-* **Nazwy potoczne i medialne:** Gen supersmakosza (ang. *supertaster gene*), gen wrażliwości na PTC/PROP, gen ślepoty smakowej.
+* **Główny symbol genu:** TAS2R38
+* **Pełna nazwa biochemiczna:** Receptor smaku typu 2, składowa 38 (ang. *taste receptor type 2 member 38*)
+* **Nazwy potoczne i medialne:** Gen supersmakosza (ang. *supertaster gene*), gen wrażliwości na PTC/PROP, gen ślepoty smakowej
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Lokalizacja:** Chromosom 7 (7q34).
-Zdolność do odczuwania goryczy zależy od specyficznej kombinacji trzech niesynonimicznych polimorfizmów (SNP) dziedziczonych wspólnie jako bloki haplotypowe:
-* **rs713598:** Główny marker tagujący w pozycji c.145G>C. Allel G warunkuje obecność funkcjonalnej proliny (taster), a allel C to niefunkcjonalna alanina (non-taster).
-* **rs1726866:** Polimorfizm c.785T>C (Val262Ala). Aktywnym allelem w bazie dbSNP jest C, a niefunkcjonalnym T.
-* **rs10246939:** Zmiana c.886A>G (Ile296Val). Aktywny allel to G, niefunkcjonalny to A.
-
-Z tych trzech wariantów powstają w populacji dwa główne haplotypy: funkcjonalny **PAV** oraz zmutowany, nieaktywny **AVI**.
+* **Główne rsID (haplotyp):** rs713598, rs1726866, rs10246939
+* **Lokalizacja chromosomalna:** Chromosom 7 (7q34)
+* **Typ wariantu:** Trzy SNP missense dziedziczone jako blok haplotypowy
+* **Zapis zmian nukleotydowych (HGVS):** c.145G>C (rs713598), c.785T>C (rs1726866), c.886A>G (rs10246939)
+* **Orientacja i mapowanie alleli:** rs713598: G (funkcjonalny) / C (niefunkcjonalny); rs1726866: C (funkcjonalny) / T (niefunkcjonalny); rs10246939: G (funkcjonalny) / A (niefunkcjonalny)
+* **Powiązane markery / haplotyp:** Zestaw trzech markerów tworzy główne haplotypy funkcjonalny PAV i niefunkcjonalny AVI
 
 ### 3. Mechanizm działania
-Białko TAS2R38 to receptor siedmiotrasbłonowy sprzężony z białkami G, pełniący dwoistą rolę w organizmie: smakową i immunologiczną.
-
-* **Transdukcja w jamie ustnej:** Związki zawierające grupę N-C=S (np. PTC, PROP i glukozynolany w warzywach) aktywują receptor. Uwalniane są podjednostki białek G (gustducyny), aktywujące enzym PLCb2. Prowadzi to do wyrzutu wapnia (Ca2+) z siateczki, depolaryzacji przez jony sodu (Na+) i masowego uwolnienia ATP do szlaków nerwowych mózgu.
-* **Obrona w drogach oddechowych:** Receptor jest obecny na rzęskach nosa i zatok, gdzie dosłownie "smakuje" bakterie. Wykrywa bakteryjne cząsteczki komunikacyjne (quorum sensing), np. od pałeczki ropy błękitnej (*Pseudomonas aeruginosa*). Aktywuje to gwałtowną syntezę tlenku azotu (NO), który zabija patogeny i dramatycznie przyspiesza ruchy oczyszczające rzęsek.
-* **Inne tkanki:** Receptor ten znajduje się również w jelitach (gdzie stymuluje uwalnianie zdrowego dla glikemii GLP-1), w komórkach skóry (wsparcie detoksykacji ksenobiotyków) oraz w łożysku (ochrona płodu przed toksynami).
+* **Rola biologiczna genu/białka:** TAS2R38 to receptor G błonowy wykrywający gorycz (PTC, PROP, glukozynolany) oraz sygnały bakterii w drogach oddechowych
+* **Wpływ wariantu na szlak:** Haplotypy PAV/NAV/AVI determinują aktywację gustducyny i PLCb2 w jamie ustnej oraz odpowiedź NO w obronie błony śluzowej nosa
+* **Efekt funkcjonalny:** „Super-smak” PAV/PAV vs niesmak AVI/AVI – różnice w diecie, tolerancji warzyw kapustnych i podatności na infekcje górnych dróg (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -28,13 +25,19 @@ Białko TAS2R38 to receptor siedmiotrasbłonowy sprzężony z białkami G, pełn
 | **C/C (AVI/AVI)** | **Ślepy na smak** (Non-taster) | Zrujnowana przestrzennie struktura uniemożliwia łączenie z białkami G. Minimalna lub całkowicie zerowa produkcja ATP i depolaryzacja. | Brak uwalniania morderczego dla bakterii tlenku azotu na rzęskach. Ekstremalnie wysokie ryzyko ulegania patogenom i wykształcenia przewlekłego zapalenia zatok (CRS). |
 
 ### 5. Statystyki populacyjne
-Zmienność genu to podręcznikowy przykład doboru równoważącego, a jego dziedzictwo sięga u naszych przodków około miliona lat wstecz.
-* **Kaukazianie (Europejczycy):** Występuje tu ogromna równowaga – haplotyp aktywny PAV to ok. 45,66% puli genowej, a zmutowany AVI to ok. 49,22%.
-* **Azja Wschodnia:** Całkowite zaburzenie europejskich proporcji – wariant AVI wynosi tam 0,00%, ale pojawia się olbrzymia przewaga haplotypu PAV (64,51%) oraz unikalnego układu AAI (35,31%). U Chińczyków diplotyp PAV/AAI to blisko 40,6%.
-* **Afryka Subsaharyjska:** PAV wynosi około 50,76%, a zmutowany haplotyp AVI 35,18% (z dodatkiem wielu wariantów rzadkich sięgającym ponad 13%).
-* **Zjawisko Polskie (Laryngologia):** U polskich pacjentów z potężnym i chirurgicznym przebiegiem zapalenia zatok z polipami (CRSwNP) wariant niefunkcjonalny AVI podnosi swą reprezentację do 59,4% (względem 50,6% u ludzi zdrowych). Homozygoty ślepe na smak (AVI/AVI) obejmowały tam 31,1% chorych na przewlekłe zatoki (OR = 2,44), a genotyp chroniący (PAV/PAV) spadał mrocznie do zaledwie 12,3% (OR = 1,43).
+* **Średnia globalna (ALL):** Brak jednej uniwersalnej wartości globalnej, ponieważ częstości dotyczą haplotypów (PAV/AVI/AAI), a nie pojedynczego allelu
+* **Europa (NFE):** Wysoka równowaga haplotypów: PAV ok. 45,66% i AVI ok. 49,22%
+* **Afryka (AFR):** PAV ok. 50,76%, AVI ok. 35,18% oraz istotny udział wariantów rzadszych
+* **Azja Wschodnia (EAS):** Bardzo wysoki udział PAV (ok. 64,51%) i AAI (ok. 35,31%), przy bardzo niskiej częstości AVI
+* **Uwagi o zmienności populacyjnej:** Dane kliniczne z polskich kohort laryngologicznych wskazują wyższą częstość AVI u chorych z CRSwNP niż w populacji kontrolnej, co może zawyżać częstości w próbach klinicznych względem populacyjnych.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 * **Klinika Laryngologiczna (Dla AVI/AVI):** Ponieważ chorzy ślepi na smak mają odcięty biologicznie proces gazowania obronnego NO u rzęsek obwodowych nosa na bakterie takie jak *Pseudomonas*, są predysponowani do zjadliwego uszkodzenia zatok i złych wskaźników SNOT-22. Bezwzględnie zaleca się dla nich rutynową dezynfekcję solami morskimi by sztucznie usuwać biofilmy oraz unikanie paraliżującego resztki rzęsek dymu.
 * **Ujęcie Odżywiania (Dla PAV/PAV):** Tasterzy bardzo często odrzucają silne glukozynolany obecne w brokułach i brukselce. Niestety promuje to masowy spadek witamin u kobiet. Wskazane jest poddawanie takich ziół twardej obróbce, używanie zdrowych tłuszczy i naturalnej soli która dławi obwody smakowe goryczy, a w przypadku małych dzieci odcięcie ładowanej w zamian przez nie chemicznej ilości słodyczy dla zębów.
 * **Pułapka Otyłości (Dla AVI/AVI):** Grupa "non-tasterów" z powodu utraty sygnałów odpychających pochłania drastycznie wyższe rejestry pustych kalorii wędlin i piwa lub napojów alkoholowych w diecie bez cienia odrzucenia węglowodanowego, przez co są biologicznie wycelowani w ramy nadwagi w cywilizacji. Sugeruje się tu stosowanie naturalnych kwasów lub octu by imitować w posiłkach progi nagrody w zastępstwie pustych mas tłuszczowych przy przejadaniu.
@@ -46,8 +49,8 @@ Zmienność genu to podręcznikowy przykład doboru równoważącego, a jego dzi
 * **Małpia ślepota:** Co wysoce zaskakujące, mimo że szympansy również posiadają pule "non-tasterów", natura wyizolowała im ten profil używając do wyciszenia genu zupełnie innej unikalnej usterki na poziomie kodonu START u TAS2R38, stanowiąc niesamowity pomnik tzw. genetyki koewolucji równoległej u gatunków zwierząt o zróżnicowanej biologii.
 
 ### 8. Źródła (Referencje)
-* **PMID 12595690** (Science, 2003) – Artykuł instytutu U. Kim definiujący fundamentalne sklonowanie układu loci cechy związanej u człowieka z detekcją i kodowaniem polimorfizmów u TAS2R38 dla wrażliwości dla używek.
-* **PMID 16612383** (Nature, 2006) – Dokumentacja ewolucyjnych zapisów powiązań afrykańskich małp człekokształtnych w oddzielnej budowie tego mechanizmu smaku z 2006 roku przez Wooding S.
-* **PMID 19675003** (Biology Letters, 2009) – Fenomenalne badania z paleogenetyki (Lalueza-Fox), wykazujące udział neandertalczyków w dystrybucji smaku oparte o kości z wykopaliska El Sidrón.
-* **PMID 23041624** (JCI, 2012) – Drastyczny przełom wiążący wyłączność dla uodpornienia populacji ludzi w obronie dróg rzęskowych od bakterii tlenkiem azotu przez zespół dr Lee R.
-* **Platforma SNPedia:** Dystrybucje oraz komercyjne wyniki haplotypowe i sprzężenia z platform konsumenckich.
+* **PMID: 12595690** (Kim et al., 2003) – Klonowanie pozycyjne locus PTC/PROP i identyfikacja TAS2R38 (*Science*).
+* **PMID: 16612383** (Wooding et al., 2006) – Zbieżna ewolucja wrażliwości na gorycz u ludzi i szympansów (*Nature*).
+* **PMID: 19675003** (Lalueza-Fox et al., 2009) – Genotyp TAS2R38 u neandertalczyków z El Sidrón.
+* **PMID: 23041624** (Lee et al., 2012) – Haplotypy PAV/NAV a podatność na infekcje górnych dróg oddechowych (*JCI*).
+* **Baza referencyjna:** [SNPedia (TAS2R38)](https://www.snpedia.com/index.php/TAS2R38) – Haplotypy PAV/NAV/AVI i rozkłady populacyjne.

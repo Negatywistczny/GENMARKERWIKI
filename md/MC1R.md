@@ -1,25 +1,21 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** MC1R.
-* **Pełna nazwa biochemiczna:** Receptor melanokortyny typu 1 (ang. *Melanocortin 1 Receptor*). Gen ten bywa również określany jako receptor hormonu stymulującego alfa-melanocyty (alfa-MSH receptor) lub receptor melanotropiny.
-* **Nazwy potoczne i medialne:** "Gen rudych włosów" (ang. *red hair gene*) oraz "gen wrażliwości na słońce".
-* **Alternatywne identyfikatory naukowe:** SHEP2, CMM5, MSHR oraz MC1-R.
+* **Główny symbol genu:** MC1R
+* **Pełna nazwa biochemiczna:** Receptor melanokortyny typu 1 (ang. *Melanocortin 1 Receptor*)
+* **Nazwy potoczne i medialne:** Gen rudych włosów (ang. *red hair gene*), gen wrażliwości na słońce
+* **Synonimy medyczne:** Receptor alfa-MSH, receptor melanotropiny, SHEP2, CMM5, MSHR, MC1-R
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Lokalizacja:** Chromosom 16q24.3.
-Polimorfizmy pojedynczego nukleotydu (SNP) w genie MC1R dzieli się na warianty silne (wysokopenetrujące "R") oraz słabe (niskopenetrujące "r"). Kluczowe markery to:
-* **rs1805007 (Arg151Cys / R151C):** Wariant typu "R" o bardzo wysokiej penetracji, główny determinant rudych włosów i jasnego fototypu skóry u Europejczyków.
-* **rs1805008 (Arg160Trp / R160W):** Silny wariant typu "R", charakterystyczny dla populacji celtyckich i nordyckich, silnie zwiększający ryzyko nowotworów skóry.
-* **rs1805009 (Asp294His / D294H):** Wysokopenetrujący wariant typu "R", rzutujący na jasną pigmentację i wrażliwość na promieniowanie ultrafioletowe.
-* **rs2228479 (Val92Met / V92M):** Wariant typu "r" warunkujący umiarkowane rozjaśnienie, skłonność do oparzeń słonecznych oraz przyspieszone fotostarzenie.
-* **rs1805005 (Val60Leu / V60L):** Słaby wariant typu "r" powiązany z blond odcieniem włosów.
-* **rs885479 (Arg163Gln / R163Q):** Niskopenetrujący wariant typu "r", korelujący z powstawaniem plam posłonecznych.
+* **Główne rsID (panel):** rs1805007, rs1805008, rs1805009, rs2228479, rs1805005, rs885479
+* **Lokalizacja chromosomalna:** Chromosom 16q24.3
+* **Typ wariantu:** Panel SNP missense w genie MC1R
+* **Zapis zmian aminokwasowych:** R151C, R160W, D294H, V92M, V60L, R163Q
+* **Orientacja i interpretacja:** Warianty klasyfikuje się klinicznie jako silne "R" (wysokopenetrujące) oraz słabe "r" (niskopenetrujące)
+* **Powiązane markery / kategorie:** "R" - rs1805007, rs1805008, rs1805009; "r" - rs2228479, rs1805005, rs885479
 
 ### 3. Mechanizm działania
-Gen MC1R znajduje się na chromosomie 16q24.3, składa się z jednego egzonu i nie posiada intronów. Koduje on receptor sprzężony z białkiem G (GPCR) o siedmiu domenach transbłonowych, umiejscowiony w błonie melanocytów.
-
-Kaskada sygnalizacyjna aktywuje się po przyłączeniu agonistów (alfa-MSH lub ACTH), uwalnianych pod wpływem stresu lub promieniowania słonecznego. Aktywuje to podjednostkę stymulującą Gαs białka G oraz cyklazę adenylową do produkcji cAMP. Prowadzi to do stabilizacji kompleksu syntezy barwnika przez białko P, przekształcając DOPAchinon w fotoprotekcyjną **eumelaninę** (ciemny barwnik pochłaniający UV).
-
-U nosicieli mutacji typu LOF (utrata funkcji) lub w obecności białka ASIP (antagonisty), poziom cAMP drastycznie spada. Metabolizm przesuwa się wtedy w stronę produkcji **feomelaniny** (żółto-czerwonego barwnika). Barwnik ten nie chroni przed UV, a wręcz ulega pod jego wpływem fotolizie, generując reaktywne formy tlenu (ROS), które uszkadzają DNA i promują kancerogenezę. Receptor MC1R funkcjonuje również w tkankach mózgu (m.in. w istocie szarej okołowodociągowej), gdzie wchodzi w interakcję z układem opioidowym, modulując progi bólowe.
+* **Rola biologiczna genu/białka:** MC1R w melanocytach to GPCR aktywowany przez α-MSH/ACTH; przez cAMP i białko P kieruje syntezę fotoprotekcyjnej eumelaniny
+* **Wpływ wariantu na szlak:** Mutacje LOF lub antagonizm ASIP obniżają cAMP i przesuwają metabolizm ku feomelaninie (słaba ochrona UV, więcej ROS)
+* **Efekt funkcjonalny:** LOF wiąże się z rudymi włosami, fotouczuleniem, wyższym ryzykiem czerniaka oraz zmianami nocycepcji i odpowiedzi na opioidy (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -39,15 +35,19 @@ U nosicieli mutacji typu LOF (utrata funkcji) lub w obecności białka ASIP (ant
 | | **A/A** | Umiarkowanie obniżona (wariant "r"). | Jasna karnacja, skłonność do oparzeń i plam soczewicowatych. | Brak dowodów na wpływ nerwowy. |
 
 ### 5. Statystyki populacyjne
-Zmienność genu zależy ściśle od ewolucyjnej presji selektywnej podyktowanej nasłonecznieniem. W populacjach afrykańskich i z obszarów wysokiej insolacji działa silna selekcja oczyszczająca, która eliminuje mutacje LOF, chroniąc syntezę fotoprotekcyjnej eumelaniny. W rejonach Eurazji (niski indeks UV) ewolucja pozwoliła na nagromadzenie się mutacji rozjaśniających.
-
-* Dla markera rs1805005 globalna częstość wynosi ok. 8,20%, przy czym w Europie to 10,0-15,0%, podczas gdy w Afryce wariant jest wysoce rzadki (<1%).
-* Dla wariantu rs2228479 w Europie spotyka się go u 5,0-8,0% osób, przy praktycznym braku u rdzennych populacji wschodnioazjatyckich. Wariant ten na poziomie ok. 5% w Azji Wschodniej to efekt starożytnej introgresji z puli neandertalskiej.
-* Markery wysokopenetrujące "rudowłose" rs1805007 i rs1805008 występują w Europie z częstością odpowiednio 12,1-14,2% oraz 7,72-10,8%, będąc całkowicie nieobecnymi (anomalie <1%) w populacjach afrykańskich i azjatyckich.
-
-*Uwaga naukowo-klinicza:* Ze względu na tzw. repulsję haplotypową, warianty utraty funkcji (LOF) rzadko fizycznie kumulują się na tej samej chromatydzie. Dane dotyczące częstości pełnych homozygot u populacji pozaeuropejskich są z tego powodu ograniczone lub nieistniejące w bazach.
+* **Średnia globalna (ALL):** Częstości zależą od konkretnego rsID; przykładowo rs1805005 wynosi globalnie ok. 8,20%
+* **Europa (NFE):** Najwyższe częstości wariantów rozjaśniających, m.in. rs1805007 ok. 12,1-14,2%, rs1805008 ok. 7,72-10,8%, rs1805005 ok. 10,0-15,0%
+* **Afryka (AFR):** Warianty LOF i "rudowłose" są rzadkie (często <1%)
+* **Azja Wschodnia (EAS):** Warianty LOF są zwykle rzadkie; część markerów (np. rs2228479) może występować z niską częstością rzędu kilku procent zależnie od kohorty
+* **Uwagi o zmienności populacyjnej:** Częstości są marker-specyficzne i zależne od haplotypów; ze względu na repulsję haplotypową dane o pełnych homozygotach LOF poza Europą bywają ograniczone.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 * **Onkologia i Ochrona Skóry:** Osoby posiadające zmutowane warianty "R" są ekstremalnie narażone na agresywnego czerniaka złośliwego i nowotwory niebarwnikowe. Wynika to z braków eumelaniny, uszkadzającego fotolitycznego wpływu feomelaniny, oraz odcięcia białka PTEN, co sztucznie aktywuje nowotworowy szlak PI3K/Akt/mTOR (szczególnie w obecności mutacji BRAF, odpowiedzialnej za 70% czerniaków). Zaleca się całoroczne stosowanie blokerów SPF 50+, drastyczne unikanie solariów i obligatoryjną dermatoskopię u lekarza co 6-12 miesięcy.
 * **Witamina D:** Naturalna awersja do słońca wywołuje u tych pacjentów niebezpiecznie głęboki niedobór witaminy D. Taki stan bardzo silnie promuje grubienie guzów czerniakowych i pogarsza przeżywalność. Nakazuje się kliniczną suplementację D3, celem utrzymania poziomów surowiczych w granicy bezpiecznego optiumum >50 nmol/l (idealnie 75-110 nmol/l).
 * **Sport:** Badania obalają wpływ mutacji na wydolność, motorykę czy siłę. Aktywność outdoorowa musi jednak bazować na ubraniach z filtrem UPF i unikaniu najcięższej popołudniowej ekspozycji na UV.
@@ -60,8 +60,8 @@ Zmienność genu zależy ściśle od ewolucyjnej presji selektywnej podyktowanej
 * **Stereotyp o złości i adrenalinie:** Dawne teorie spajające gorący temperament rudzielców i wybuchowy gniew z wyrzutami adrenaliny nadnerczowej okazały się obalone; mutacje MC1R nie modyfikują systemowo krążenia epinefryny pod egidą odruchu "walcz i uciekaj".
 
 ### 8. Źródła (Referencje)
-* **Baza Medyczna (SNPedia):** Podsumowanie wiedzy ogólnej na platformie (np. marker rs1805007).
-* **Kluczowe Analizy Fenotypowe (UK Biobank):** *A study in scarlet: MC1R as the main predictor of red hair and exemplar of the flip-flop effect.* (2019) – potężne studium asocjacyjne.
-* **Paleogenetyka Neandertalska:** Publikacje zespołu Lalueza-Fox et al. (2007) *A melanocortin 1 receptor allele suggests varying pigmentation among Neanderthals* z magazynu *Science*.
-* **Protokoły Anestezjologii (Desfluran i Lęk):** Zbiór kohort operacyjnych i mitów o gazach wziewnych: Liem EB, et al. (2004) oraz badacze lęku i receptorów opioidowych, np. Andresen T, et al. (2011).
-* **Pozostałe artykuły dziedzinowe i agregaty:** bazy GeneCards, bazy nowotworowe ClinVar i PubMed.
+* **PMID: 30657907** (Zorina-Lichtenwalter et al., 2019) – MC1R jako główny predyktor rudych włosów w UK Biobank („flip-flop effect”).
+* **PMID: 17962522** (Lalueza-Fox et al., 2007) – Zróżnicowanie pigmentacji u neandertalczyków (*Science*).
+* **PMID: 15277908** (Liem et al., 2004) – Zwiększone zapotrzebowanie na desfluran u rudowłosych.
+* **PMID: 29914002** (Andresen et al., 2011) – Nocycepcja i kapsaicyna u kobiet o rudym fenotypie.
+* **Baza referencyjna:** [SNPedia (rs1805007)](https://www.snpedia.com/index.php/Rs1805007) – Adnotacje wariantów R151C, R160W i powiązanych haplotypów MC1R.

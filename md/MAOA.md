@@ -1,25 +1,20 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** MAOA.
-* **Pełna nazwa biochemiczna:** Oksydaza monoaminowa typu A (ang. *Monoamine oxidase A*).
-* **Nazwy potoczne i medialne:** Gen Wojownika (ang. *Warrior Gene*).
+* **Główny symbol genu:** MAOA
+* **Pełna nazwa biochemiczna:** Oksydaza monoaminowa typu A (ang. *Monoamine oxidase A*)
+* **Nazwy potoczne i medialne:** Gen Wojownika (ang. *Warrior Gene*)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Lokalizacja:** Krótkie ramię chromosomu X, prążek cytogenetyczny Xp11.23.
-Baza dbSNP kataloguje blisko 15 000 wariantów dla MAOA, jednak analiza behawioralna skupia się na specyficznych markerach:
-* **Główny marker (MAOA-uVNTR):** Polimorfizm w regionie promotorowym. Ze względu na strukturę powtórzeń tandemowych nie posiada jednego prostego numeru rsID. Zrewidowana nomenklatura wyodrębnia allele przesunięte fazowo: 2.5R, 3.5R, 4.5R, 5.5R oraz unikalny 3.3R.
-* **Główne markery zastępcze (Proxy) i synonimiczne:**
-    * **rs909525:** Polimorfizm intronowy zastępczy (C>T), gdzie allel C silnie wskazuje na obecność powolnego wariantu 3R.
-    * **rs6323 (R297R):** Mutacja synonimiczna w egzonie 8. Allel G warunkuje wysoką aktywność (MAOA-H), a allel T odpowiada za zredukowaną wydajność (MAOA-L).
-    * **rs1137070 (c.1410T>C):** Polimorfizm synonimiczny. Allel T silnie predysponuje do depresji i schizofrenii, podczas gdy allel C drastycznie podnosi ryzyko ciężkich uzależnień (np. od opiatów).
-* **Warianty patologiczne:** **rs72554632 (p.Gln296Ter)** to mutacja nonsensowna z kodonem stop. Allel T oznacza całkowity brak enzymu i kliniczną diagnozę Zespołu Brunnera.
-* **Inne markery:** **rs3027407** powiązany z ryzykiem ADHD.
+* **Główny marker:** MAOA-uVNTR (region promotorowy; brak pojedynczego rsID ze względu na charakter VNTR)
+* **Lokalizacja chromosomalna:** Krótkie ramię chromosomu X (Xp11.23)
+* **Typ wariantu:** VNTR promotorowy oraz SNP markerowe/proxy
+* **Zapis wariantu głównego (uVNTR):** Allele 2.5R, 3.3R, 3.5R, 4.5R, 5.5R
+* **Orientacja i interpretacja:** Markery SNP wspierają interpretację aktywności MAOA-L/MAOA-H oraz statusu wariantu uVNTR
+* **Powiązane markery / proxy:** rs909525 (proxy), rs6323 (R297R), rs1137070 (c.1410T>C), rs72554632 (p.Gln296Ter), rs3027407
 
 ### 3. Mechanizm działania
-Enzym ten zakotwiczony jest w zewnętrznej błonie mitochondrialnej (neurony, enterocyty, wątroba). Pełni funkcję krytycznego neutralizatora, katalizując oksydacyjną deaminację monoamin przy obowiązkowym udziale tlenu i kofaktora FAD. Odpowiada za rozkład serotoniny, noradrenaliny, adrenaliny i, co kluczowe, dopaminy (zwłaszcza w korze przedczołowej pozbawionej transporterów DAT). Chroni także przed tyraminą dostarczaną z dietą.
-
-**Znaczenie sprzężenia z płcią:** Jako że gen leży na chromosomie X, mężczyźni jako hemizygoty doświadczają pełnej, niemaskowanej ekspresji wariantów ryzyka. Kobiety chroni wczesnozarodkowe zjawisko liońskiej inaktywacji jednego chromosomu (mozaikowatość), co łagodzi u nich skutki powolnego enzymu.
-
-**Paradoks neurozwojowy:** Niska aktywność wariantu 3R (Gen Wojownika) powoduje przewlekły nadmiar neuroprzekaźników w mózgu płodu, co wymusza zniszczenie i down-regulację receptorów. U dorosłego, podczas stresu, organizm uwalnia potok amin; zubożała sieć receptorów i hiperaktywne ciało migdałowate sprawiają, że człowiek traci wsparcie kory czołowej, co fizjologicznie uniemożliwia wolicjonalne opanowanie nagłej agresji.
+* **Rola biologiczna genu/białka:** MAOA na błonie mitochondrialnej oksydacyjnie deaminuje serotoninę, noradrenalinę, adrenalinę i dopaminę (FAD, O2); chroni przed tyraminą z diety
+* **Wpływ wariantu na szlak:** uVNTR MAOA-L (np. 3R) obniża aktywność enzymu; na chromosomie X mężczyźni hemizygoci noszą pełny efekt, u kobiet częściowo maskuje inaktywacja X
+* **Efekt funkcjonalny:** MAOA-L przy traumie dziecięcej sprzyga agresji reaktywnej; MAOA-H wiąże się z szybszą degradacją amin i innym profilem ryzyka psychiatrycznego (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -38,15 +33,19 @@ Enzym ten zakotwiczony jest w zewnętrznej błonie mitochondrialnej (neurony, en
 | **rs72554632** | T | Patologia (Brunner) | Wrodzony brak rozpadu amin. Napady gwałtowności, deficyty IQ, autystyczne tło powiązane z zaburzeniami snu. |
 
 ### 5. Statystyki populacyjne
-Bieżące statystyki populacyjne ujawniają drastyczne różnice będące efektem ciśnienia ewolucyjnego i naturalnej adaptacji do brutalnego środowiska łowców i wojowników.
-* **Europejczycy / Kaukazianie (Ogół):** 31,0% - 40,0% wariant MAOA-L (Wojownika); dominacja wariantu szybkiego MAOA-H (56,0% - 65,0%).
-* **Włosi:** Wyjątkowo wysoki odsetek ekstremalnie groźnego i rzadkiego wariantu 2R (1,7%) przy zachowaniu 40% dla 3R.
-* **Bórowie (RPA):** Reprezentują europejskie dziedzictwo genetyczne z dominacją szybkiego MAOA-H (68,4%), bez adekwatnego krzyżowania się z lokalnymi genami.
-* **Afroamerykanie:** Silna ekspresja wariantów powolnych (59,1% dla 3R).
-* **Chińczycy (Mężczyźni):** Globalny szczyt występowania wariantu Wojownika – do 77,0% populacji męskiej posiada uwarunkowanie spowolnione.
-* **Tajlandia:** Unikalna pula wariantu superszybkiego 3.3R (0,4%), przy powszechnym występowaniu powolnego wariantu 3.5R (69%).
+* **Średnia globalna (ALL):** Brak pojedynczej, porównywalnej częstości globalnej ze względu na VNTR, różne definicje alleli i analizy zależne od płci
+* **Europa (NFE):** Wariant MAOA-L zwykle ok. 31,0-40,0% (MAOA-H ok. 56,0-65,0%)
+* **Afryka (AFR):** W części kohort częstość wariantów MAOA-L jest wyższa (np. wartości rzędu ~59,1% dla alleli 3R raportowane w populacjach pochodzenia afrykańskiego)
+* **Azja Wschodnia (EAS):** W niektórych kohortach męskich częstość wariantów wolnych MAOA-L jest bardzo wysoka (nawet do ok. 77,0%)
+* **Uwagi o zmienności populacyjnej:** Częstości zależą od płci, sposobu kodowania VNTR (2R/3R/3.5R/4R/4.5R/5R) i lokalnych efektów założyciela (np. 2R we Włoszech, 3.3R w Tajlandii).
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 
 **A. Dla wariantów Powolnych (MAOA-L, np. 3R, rs6323-T):**
 * **Dieta bez Tyraminy:** Zmodyfikowany enzym nie eliminuje skutecznie tyraminy ze światła jelit, która dostaje się do mózgu i wyrzuca noradrenalinę z pęcherzyków, powodując skrajne zaczerwienienie, furię i palpitacje (efekt sympatykomimetyczny). Należy kategorycznie odstawić: sery dojrzewające i pleśniowe, dojrzewające wędliny i salami, produkty fermentowane i drożdże (soja, miso, marmite), stare czerwone wina (chianti) oraz przejrzałe warzywa i owoce. Dieta powinna być ultraświeża.
@@ -65,8 +64,8 @@ Bieżące statystyki populacyjne ujawniają drastyczne różnice będące efekte
 * **Sposób na samobójstwo:** Akty wściekłe, metodyczne powiązane są biochemicznie z genotypem 3R lub C w egzonie. Samobójstwa chłodne z rezygnacji objawiają się tam, gdzie puste sprzężenie niszczy życie, a więc przy MAOA-H (np. 4R) bez udziału iskier dopaminy.
 
 ### 8. Źródła (Referencje)
-* PubMed (PMID: ****) – Odkrycie i uwarunkowania Zespołu Brunnera (dr Brunner, Holandia 1993).
-* PubMed (PMID: ****) – Naprawa komórek furiatów ze sprzężeniem za pomocą inżynierii CRISPR/Cas9.
-* PubMed (PMID: ****) – Model epigenetyki i mutacji z brakiem przylegania białek z transkryptów z RNA dla rs1137070.
-* PubMed (PMID: ****) – Technologia elektroforezy z nowymi odkryciami uVNTR z 2025 r.
-* Repozytorium **SNPedia** – Zbiór uśrednień i identyfikatorów polimorficznych https://www.snpedia.com/index.php/MAOA
+* **PMID: 8211186** (Brunner et al., 1993) – Odkrycie Zespołu Brunnera: mutacja nonsense w MAOA a agresja i deficyt enzymu (*Science*).
+* **PMID: 34923109** – Model dopaminergiczny i korekta hiperfunkcji NMDAR w zespole Brunnera (CRISPR/Cas9).
+* **PMID: 39359688** – Wpływ synonimicznej mutacji rs1137070 na transkrypcję i translację MAOA.
+* **PMID: 40646112** – Nowe podejścia do genotypowania uVNTR MAOA (2025).
+* **Baza referencyjna:** [SNPedia (MAOA)](https://www.snpedia.com/index.php/MAOA) – Agregat wariantów uVNTR, rs1137070 i fenotypów „Gen Wojownika”.

@@ -1,22 +1,22 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** LCT (ang. *Lactase*) kodujący hydrolazę laktazo-floryzynową.
-* **Nazwy potoczne i medialne:** Persystencja laktazy (LP), tolerancja laktozy u dorosłych.
-* **Nazwy fenotypu pierwotnego:** Pierwotna hipolaktazja dorosłych (ATH), nietolerancja laktozy.
-* **Gen powiązany (lokalizacja):** MCM6 (ang. *Minichromosome Maintenance Complex Component 6*).
-* **Nomenklatura molekularna:** -13910C>T, 13910T, C/T(-13910).
+* **Główny symbol genu:** LCT (ang. *Lactase*)
+* **Pełna nazwa biochemiczna:** Hydrolaza laktazo-floryzynowa (ang. *lactase-phlorizin hydrolase*)
+* **Nazwy potoczne i medialne:** Persystencja laktazy (LP), tolerancja laktozy u dorosłych, pierwotna hipolaktazia dorosłych (ATH), nietolerancja laktozy
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID:** rs4988235.
-* **Lokalizacja:** Długie ramię chromosomu 2 (2q21.3). W wersji genomu referencyjnego GRCh38 pozycja to 135851076, natomiast w starszej wersji GRCh37 (hg19) to 136608646.
-* **Typ wariantu:** Polimorfizm intronowy (wewnątrz genu MCM6). Zapis kliniczny to substytucja cytozyny (C) na tyminę (T). W badaniach wykorzystujących nić komplementarną widoczny jako układ A/G (lub G>A).
-* **Klasyfikacja ClinVar:** NM_002299.2(LCT):c.-13907C>T, powiązany z "LACTASE PERSISTENCE".
+* **Główny rsID:** rs4988235
+* **Lokalizacja chromosomalna:** Długie ramię chromosomu 2 (2q21.3); GRCh38: 135851076, GRCh37: 136608646
+* **Gen powiązany (enhancer):** MCM6 (ang. *Minichromosome Maintenance Complex Component 6*) — marker leży w intronie MCM6 i reguluje ekspresję genu LCT
+* **Typ wariantu:** SNP intronowy (wewnątrz genu MCM6)
+* **Zapis zmiany nukleotydowej (HGVS):** c.-13907C>T
+* **Orientacja nici i mapowanie alleli:** W zapisie głównym C>T; na nici komplementarnej raportowany jako A/G (lub G>A)
+* **Powiązane nazewnictwo:** -13910C>T, 13910T, C/T(-13910)
+* **Klasyfikacja ClinVar:** NM_002299.2(LCT):c.-13907C>T, powiązany z "LACTASE PERSISTENCE"
 
 ### 3. Mechanizm działania
-Regulacja zdolności trawienia mleka to podręcznikowy przykład kontroli genów w układzie *cis*. Choć fizycznie marker leży w trzynastym intronie genu MCM6, mutacja nie zmienia budowy białka helikazy. Stanowi ona aktywny, dystalny element wzmacniający (enhancer) dla promotora genu LCT.
-
-Fizjologicznie, w okresie odstawienia od piersi u ssaków uruchamiają się mechanizmy epigenetycznego wyciszania, które drastycznie redukują aktywność enzymatyczną laktazy. Zmutowany allel T eliminuje ten proces: tworzy on znacznie silniejsze miejsce wiązania dla czynnika transkrypcyjnego Oct-1, ułatwiając pracę polimerazy RNA II i podtrzymując stałą produkcję enzymu w dorosłym życiu.
-
-U homozygot C/C wyciszanie zachodzi prawidłowo. Niestrawiona laktoza dociera do jelita grubego, stając się pożywką dla mikrobioty (m.in. rodzin *Lactobacillaceae*). Intensywna fermentacja generuje gazy (wodór, metan) oraz kwasy tłuszczowe (SCFA). Efekt osmotyczny nierozłożonego cukru ściąga wodę do jelit, powodując bóle brzucha, wzdęcia oraz biegunki osmotyczne. Zjawisko to aktywuje również komórki tuczne, obniżając próg wrażliwości trzewnej pacjenta.
+* **Rola biologiczna genu/białka:** Marker rs4988235 w MCM6 tworzy enhancer *cis* dla promotora LCT, utrzymując laktazę u dorosłych (persystencja laktazy)
+* **Wpływ wariantu na szlak:** Allel T wzmacnia wiązanie Oct-1 i omija epigenetyczne wyciszanie po odstawieniu; allel C pozwala na fizjologiczny zanik laktazy (hipolaktazja)
+* **Efekt funkcjonalny:** Brak laktazy u C/C prowadzi do fermentacji laktozy w jelicie grubym (gazy, bóle, wzdęcia); wpływ na lipidy ApoB/ApoA1 omówiony w sekcji 4
 
 ### 4. Tabela Wariantów
 
@@ -27,13 +27,19 @@ U homozygot C/C wyciszanie zachodzi prawidłowo. Niestrawiona laktoza dociera do
 | **T/T** (A/A komplementarnie) | **Pełna Persystencja Laktazy (LP)** | Stała, maksymalna aktywność hydrolazy w enterocytach bez wyciszania po okresie dziecięcym. Zdolność do łatwego metabolizmu dowolnych dawek nabiału. W badaniach asocjacyjnych GWAS genotyp ten delikatnie podnosi wskaźnik masy ciała (BMI). |
 
 ### 5. Statystyki populacyjne
-Zmienność tego markera drastycznie różni się w zależności od geografii i stanowi echo doboru kulturowego:
-* **Średnia globalna:** Częstość dominującego allelu T szacowana jest na 39,6% do 40,9%.
-* **Azja Wschodnia i Afryka Subsaharyjska:** Allel T występuje tam skrajnie rzadko, a wskaźnik nietolerancji nierzadko sięga blisko 100%. Zdolność trawienia mleka przez Beduinów czy Masajów opiera się na zupełnie innych mutacjach molekularnych.
-* **Europa (Gradient północ-południe):** Na północy częstość allelu T sięga aż 75% w Szwecji i 79% w Danii. Wartość ta stromo spada na południe (do 17% we Włoszech i zaledwie 7% w Grecji).
-* **Populacja Polska i słowiańska:** Częstość allelu T wynosi w Polsce około 24,8% do 27,72%. Zmutowany, pierwotny wariant C/C ("nietolerancja") występuje w polskiej populacji u 31,5% dorosłych. Zjawiska mikrobiologicznej adaptacji jelit sprawiają jednak, że kliniczne oznaki malabsorpcji widoczne w testach wodorowych odnotowuje się zaledwie u 7,7% badanych z tej grupy.
+* **Średnia globalna (ALL):** Częstość allelu T szacowana jest na ok. 39,6-40,9%
+* **Europa (NFE):** Częstość allelu T jest wysoka, ale zmienna geograficznie (północ Europy wyraźnie wyżej niż południe)
+* **Afryka (AFR):** Dla rs4988235 allel T jest zwykle rzadki; część populacji afrykańskich wykazuje persystencję laktazy przez inne warianty
+* **Azja Wschodnia (EAS):** Dla rs4988235 allel T jest zwykle bardzo rzadki; częstość fenotypowej nietolerancji laktozy jest wysoka
+* **Uwagi o zmienności populacyjnej:** Gradient północ-południe w Europie jest silny (np. bardzo wysokie wartości w Skandynawii, niskie w rejonie śródziemnomorskim); w Polsce allel T zwykle ok. 24,8-27,72%.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 * **Kardiologia i Profil Lipidowy:** Genotyp hipolaktazji (C/C) jest silnie związany z niekorzystnym profilem miażdżycowym. Pacjenci bez wariantu T posiadają statystycznie wyższe poziomy aterogennego białka ApoB100 i obniżone poziomy ochronnego ApoA1, a wskaźnik ApoB100/ApoA1 ulega niebezpiecznemu podwyższeniu. Wiąże się to m.in. z eliminacją ochronnego wpływu nabiału (wapń wiążący cholesterol w jelitach) i zastępowaniem go rafinowanymi cukrami. Zaleca się ścisłą weryfikację współczynnika ApoB/ApoA1 u nosicieli C/C stroniących od mleka.
 * **Gęstość Kości (BMD):** U postmenopauzalnych kobiet z genotypem braku persystencji obserwuje się silniejszy ubytek masy kostnej z szyjki kości udowej, co koreluje ze zmniejszonym o połowę spożyciem wapnia względem nosicieli tolerancji. Wskazana jest celowana suplementacja organicznego wapnia i witaminy D.
 * **Zespół Jelita Drażliwego (IBS):** U pacjentów z postacią biegunkową (D-IBS) i profilem C/C spożycie laktozy bezpośrednio stymuluje degranulację komórek tucznych, zaostrzając trzewny próg bólowy. Wdrożenie diety low-FODMAP i wykluczenie laktozy przynosi w tej grupie natychmiastową ulgę w bólu.
@@ -46,6 +52,7 @@ Zmienność tego markera drastycznie różni się w zależności od geografii i 
 * **Ewolucja zbieżna:** Natura sforsowała promotor laktazy kilkoma różnymi wejściami. Podczas gdy Europejczycy bazują na mutacji rs4988235, afrykańscy Masajowie posiadają markery –14010 C czy –13907*G, a bliskowschodni Beduini wariant –13915 G.
 
 ### 8. Źródła (Referencje)
-* **Aspekty sercowo-naczyniowe:** Znacząca praca naukowa *Lactase Persistence-Associated rs4988235 Polymorphism: A Novel Genetic Link to Cardiovascular Risk via Modulation of ApoB100 and ApoAI*, rygorystycznie mapująca układ markerów z patologiami lipoproteinowymi.
-* **Badania Słowiańskie (HBT):** Przełomowe studium zespołu E. Mądrego i wsp. (*Adult-type hypolactasia and lactose malabsorption in Poland*), dokumentujące rozbieżności między polimorfizmem z badań a zdolnością radzenia sobie z laktozą na bazie adaptacji mikrobiomu.
-* **Bioinformatyka:** Centralna publiczna strona zasobów i statystyk w portalu SNPedia dla precyzyjnych adnotacji referencyjnych dla obu nici DNA.
+* **PMID: 40944132** – Asocjacja rs4988235 z ryzykiem sercowo-naczyniowym poprzez modulację ApoB100 i ApoA1.
+* **PMID: 21152447** (Mądry et al.) – Rozbieżność między genotypem a kliniczną nietolerancją laktozy u Polaków (test wodorowy HBT).
+* **PMID: 29063188** – Globalny rozkład alleli persystencji laktazy i presja selekcyjna.
+* **Baza referencyjna:** [SNPedia (rs4988235)](https://www.snpedia.com/index.php/Rs4988235) – Częstości alleli, magnitudo efektu i adnotacje dla obu orientacji nici.

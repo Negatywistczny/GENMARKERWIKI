@@ -1,19 +1,19 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** ACTN3.
-* **Pełna nazwa biochemiczna:** Alfa-aktynina-3 (ang. *Actinin Alpha 3*).
-* **Nazwy potoczne i medialne:** Gen szybkości (ang. *Speed Gene*), gen sprintera, marker włókien szybkokurczliwych, gen wydolności beztlenowej.
+* **Główny symbol genu:** ACTN3
+* **Pełna nazwa biochemiczna:** Alfa-aktynina-3 (ang. *Actinin Alpha 3*)
+* **Nazwy potoczne i medialne:** Gen szybkości (ang. *Speed Gene*), gen sprintera, marker włókien szybkokurczliwych, gen wydolności beztlenowej
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID:** rs1815739.
-* **Lokalizacja:** Długie ramię chromosomu 11 (11q13-q14).
-* **Inna nazwa:** Polimorfizm R577X.
-* **Typ wariantu:** Mutacja punktowa typu nonsens. W pozycji nukleotydu 1747 (egzon 16) dochodzi do tranzycji cytozyny (C) na tyminę (T). Wskutek tego, zamiast kodonu argininy (R), powstaje kodon stop (X), co skutkuje przedwczesnym przerwaniem produkcji białka.
-* **Uwaga do odczytu:** Zmiana opisywana jest na nici przedniej (kodującej). W wariancie T kodowana jest skrócona, niefunkcjonalna wersja polipeptydu, która ulega degradacji.
+* **Główny rsID:** rs1815739
+* **Lokalizacja chromosomalna:** Długie ramię chromosomu 11 (11q13-q14)
+* **Typ wariantu:** Mutacja punktowa typu nonsens (R577X); tranzycja C>T w egzonie 16 (poz. 1747) zamienia kodon argininy (R) na kodon stop (X)
+* **Powiązane nazewnictwo:** Polimorfizm R577X; allel C = R (dziki), allel T = X (null)
+* **Uwaga do odczytu:** Zmiana opisywana na nici kodującej; przy allelu T powstaje skrócony, niefunkcjonalny polipeptyd ulegający degradacji
 
 ### 3. Mechanizm działania
-Alfa-aktynina-3 to wysoce wyspecjalizowane białko strukturalne występujące niemal wyłącznie w szybkokurczliwych włóknach mięśniowych (typu II). Pełni ono funkcję "cegieł" budujących tzw. prążek Z (dysk Z), który chroni włókna przed rozerwaniem podczas generowania potężnej i gwałtownej siły (np. w sprincie).
-
-U osób, które odziedziczyły dwie kopie zmutowanego genu (wariant XX), organizm nie produkuje alfa-aktyniny-3. Dochodzi wówczas do kompensacji genetycznej – w mięśniach zaczyna nadmiernie gromadzić się alfa-aktynina-2 (zwykle obecna we włóknach wolnokurczliwych). Alfa-aktynina-2 o wiele silniej wiąże i "odciąga" wewnątrzkomórkowe białko kalsarcynę-2. To z kolei aktywuje enzym kalcyneurynę, co prowadzi do masowego przeprogramowania całych włókien mięśniowych – tracą one zdolność do gwałtownych zrywów siłowych, upodabniając się fizjologicznie do tlenowych, wolnokurczliwych i silnie ukrwionych komórek o gigantycznej wytrzymałości.
+* **Rola biologiczna genu/białka:** Alfa-aktynina-3 to wysoce wyspecjalizowane białko strukturalne występujące niemal wyłącznie w szybkokurczliwych włóknach mięśniowych (typu II). Pełni ono funkcję "cegieł" budujących tzw. prążek Z (dysk Z), który chroni włókna przed rozerwaniem podczas generowania potężnej i gwałtownej siły (np. w sprincie)
+* **Wpływ wariantu na szlak:** U osób z dwiema kopiami allelu T (wariant XX) organizm nie produkuje alfa-aktyniny-3. Dochodzi do kompensacji genetycznej – w mięśniach gromadzi się alfa-aktynina-2, która silniej wiąże kalsarcynę-2 i aktywuje kalcyneurynę, przeprogramowując włókna na typ wolnokurczliwy i tlenowy
+* **Efekt funkcjonalny:** Utrata ACTN3 osłabia zrywy siłowe, ale zwiększa wytrzymałość tlenową i odporność na wyczerpanie; szczegóły fenotypów w sekcji 4
 
 ### 4. Tabela Wariantów
 
@@ -24,10 +24,11 @@ U osób, które odziedziczyły dwie kopie zmutowanego genu (wariant XX), organiz
 | **T/T** | X/X (Mutacja) | Całkowity Deficyt | **Dominacja Wytrzymałości:** Przejście metabolizmu w stronę tlenową. Brak zdolności do maksymalnego zrywu, jednak wybitna odporność na wyczerpanie. Kosztem jest drastycznie osłabiona struktura prążka Z, co skutkuje potężnym wzrostem ryzyka mikrouszkodzeń tkanki (potreningowe "zakwasy" i bolesność) po treningach siłowych. |
 
 ### 5. Statystyki populacyjne
-Obecnie około 1,5 miliarda ludzi (ok. 18-20% światowej populacji) to homozygoty pozbawione białka alfa-aktyniny-3.
-* **Afryka Subsaharyjska:** Genotyp zmutowany (XX) występuje tam na poziomie bliskim 0% (np. lud Bantu < 1%). Oznacza to, że pierwotnie pełna siła uderzeniowa alfa-aktyniny-3 była absolutnie kluczowa dla wczesnych łowców na sawannie. Dominacja allelu R wynosi aż ~89%.
-* **Europa i rasy Kaukaskie:** Frekwencja dla allelu R drastycznie spada do 57%, z kolei obecność u ludzi dwóch zmutowanych alleli (X/X) rośnie do ok. 18%.
-* **Azja Wschodnia i Ameryki:** Zmutowany allel X (wytrzymałościowy) przejmuje tam stery z częstotliwością od ok. 44% do nawet 57% w populacjach mieszanych na terenie Ameryk.
+* **Średnia globalna (ALL):** Około 18–20% populacji stanowią homozygoty X/X (deficyt ACTN3), co odpowiada ok. 1,5 mld osób
+* **Europa (NFE):** Allel R występuje z częstością ok. 57%, a genotyp X/X u ok. 18% populacji
+* **Afryka (AFR):** Genotyp X/X jest bardzo rzadki (np. Bantu <1%); allel R dominuje i sięga ok. 89%
+* **Azja Wschodnia (EAS):** Allel X występuje częściej niż w Europie; szacunkowo w zakresie ok. 44–57% (zależnie od populacji)
+* **Uwagi o zmienności populacyjnej:** Dane dla obu Ameryk często obejmują populacje mieszane i nie są bezpośrednio porównywalne do jednorodnych kohort kontynentalnych
 
 ### 6. Wpływ na życie (Zalecenia)
 * **Sport i Rekreacja:** Genetyka silnie determinuje zyski treningowe. Osoby z wariantem R odnoszą gigantyczne korzyści ze sportów interwałowych, siłowych i sprintów (np. są w ścisłej światowej czołówce badmintona i ciężarów). Osoby z wariantem XX lepiej radzą sobie w dyscyplinach długodystansowych (maratony, pływanie).
@@ -40,7 +41,9 @@ Obecnie około 1,5 miliarda ludzi (ok. 18-20% światowej populacji) to homozygot
 * **Ewolucja i Epoka Lodowcowa:** Mutacja X pojawiła się około 135 000 lat temu. Rozprzestrzeniła się jednak lawinowo (ok. 40-50 tys. lat temu) dopiero po opuszczeniu Afryki ("Out of Africa"). Dlaczego "upośledzający" siłę gen zyskał poklask ewolucji? Zespół z Instytutu Karolinska udowodnił w ekstremalnych testach (zanurzanie w basenie o temperaturze 14°C), że brak genu ACTN3 zmusza organizm do masowej generacji ciepła z mięśni (szlaki tlenowe), drastycznie ułatwiając przeżycie i opóźniając spadek temperatury rdzeniowej. Gen sprintera zmienił się w epokach zlodowaceń w "gen pieca".
 
 ### 8. Źródła (Referencje)
-* **Pionierskie odkrycia sportowe (Yang i in., 2003):** Fundamentalne powiązanie statusu olimpijskich, elitarnych sprinterów w Australii z obecnością wariantu ACTN3 R.
-* **Badania nad odpornością na chłód:** Przełomowe tezy szwedzkiego Instytutu Karolinska pod kierownictwem dr. Håkana Westerblada.
-* **Studia na grupach geriatrycznych:** Zależności polimorfizmu od sprawności w Teście Stroopa i zachowaniu rezerw kognitywnych w podeszłym wieku (N=347).
-* **Bazy genomowe i agregaty (SNPedia / 1000 Genomes Project):** Rezerwuary odczytów rozkładu tego markera geograficznego.
+* **PMID: 14513125** (Yang et al., 2003) – Pionierskie powiązanie elitarnych sprinterów z allelem R („gen szybkości”)
+* **PMID: 18178581** (MacArthur et al., 2008) – Model myszy *knockout* wyjaśniający mechanizm przeprogramowania włókien mięśniowych
+* **PMID: 24091322** (Seto et al., 2013) – Szlak kalcyneuryna i calsarcyna-2 jako podłoże adaptacji wytrzymałościowej przy braku ACTN3
+* **PMID: 33600773** (Westerblad et al., 2021) – Wyższa odporność na chłód (14 °C) u nosicieli wariantu null (XX)
+* **PMID: 36158545** (Henrique et al., 2022) – Lepsza funkcja wykonawcza (Stroop, n=347) u allelu X w grupie geriatrycznej
+* **Baza referencyjna:** [SNPedia (rs1815739)](https://www.snpedia.com/index.php/Rs1815739) – Agregat częstości alleli, fenotypów sportowych i adnotacji populacyjnych

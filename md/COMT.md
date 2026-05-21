@@ -1,20 +1,20 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** COMT.
-* **Pełna nazwa biochemiczna:** Katecholo-O-metylotransferaza (ang. *Catechol-O-methyltransferase*).
-* **Nazwy potoczne i medialne:** Gen Wojownika i Zamartwiacza (z ang. *Warrior/Worrier hypothesis*).
+* **Główny symbol genu:** COMT
+* **Pełna nazwa biochemiczna:** Katecholo-O-metylotransferaza (ang. *Catechol-O-methyltransferase*)
+* **Nazwy potoczne i medialne:** Gen Wojownika i Zamartwiacza (z ang. *Warrior/Worrier hypothesis*)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID:** rs4680.
-* **Lokalizacja:** Chromosom 22 (22q11.21), egzon 3.
-* **Inne nazwy nomenklaturowe:** Val158Met, Val108/158Met, mutacja c.472G>A lub G1947A.
-* **Typ wariantu:** Mutacja punktowa typu tranzycji (substytucja guaniny przez adeninę).
+* **Główny rsID:** rs4680
+* **Lokalizacja chromosomalna:** Chromosom 22 (22q11.21), egzon 3
+* **Typ wariantu:** SNP typu missense (tranzycja G>A)
+* **Zapis zmiany nukleotydowej (HGVS):** c.472G>A
+* **Orientacja nici i mapowanie alleli:** Allel A odpowiada wariantowi Met, allel G wariantowi Val
+* **Powiązane nazewnictwo:** Val158Met (Val108/158Met), historycznie G1947A
 
 ### 3. Mechanizm działania
-Enzym COMT jest białkiem wewnątrzkomórkowym uczestniczącym w drugiej fazie szlaku detoksykacji ogólnoustrojowej. Odpowiada on za inaktywację molekuł sygnalizacyjnych, przede wszystkim katecholamin (dopaminy, epinefryny, norepinefryny) oraz estrogenów katecholowych. Robi to za pomocą procesu O-metylacji, do którego niezbędne są dwuwartościowe jony magnezu (Mg2+) oraz molekuła S-adenozylometioniny (SAM), będąca dawcą grupy metylowej. 
-
-Gen ulega ekspresji w różnym stopniu, jednak jego aktywność jest absolutnie krytyczna w korze przedczołowej (PFC), kontrolującej pamięć roboczą i funkcje wykonawcze. Ze względu na śladową obecność transporterów wychwytu zwrotnego dopaminy (DAT) w PFC, mózg w ponad 60% musi polegać na enzymatycznej pracy COMT, aby pozbyć się neuroprzekaźników. 
-
-Polimorfizm rs4680 powoduje substytucję aminokwasową waliny na metioninę, która czyni kodowane białko drastycznie wrażliwym na wyższą temperaturę (termolabilnym). Wariant "metioninowy" bardzo szybko ulega denaturacji w temperaturze 37°C ludzkiego ciała, przez co osoby posiadające genotyp A/A wykazują nawet do 75% niższą aktywność tego enzymu w porównaniu do grupy G/G.
+* **Rola biologiczna genu/białka:** COMT inaktywuje katecholaminy (dopamina, adrenalina, noradrenalina) i estrogeny katecholowe metylacją z udziałem Mg2+ i SAM; w korze przedczołowej odpowiada za >60% degradacji dopaminy
+* **Wpływ wariantu na szlak:** rs4680 (Val158Met) obniża stabilność termiczną enzymu; genotyp Met/Met daje do ~75% niższej aktywności COMT względem Val/Val
+* **Efekt funkcjonalny:** Wolniejszy COMT podnosi dopaminę w PFC („Zamartwiacz”), szybszy obniża ją („Wojownik” pod stresem) – profile w sekcji 4
 
 ### 4. Tabela Wariantów
 
@@ -25,16 +25,19 @@ Polimorfizm rs4680 powoduje substytucję aminokwasową waliny na metioninę, kt�
 | **G/G** | Val/Val | **Bardzo wysoka.** Pełna stabilność termiczna enzymu skutkuje szybkim i ciągłym oczyszczaniem synaps. Suboptymalne (niskie) poziomy spoczynkowej dopaminy. | **"Wojownik" (Warrior):** Genetycznie uwarunkowana, wysoka rezyliencja na stres i wrodzona potrzeba nowości. W spoczynku mają słabsze wyniki w zadaniach kognitywnych w porównaniu do grupy A/A. Gdy jednak pojawia się ostry stres środowiskowy (walka, ekstremalny sport), wyrzut adrenaliny zapewnia im optymalną pracę mózgu, ostrość umysłu i brak ulegania panice. |
 
 ### 5. Statystyki populacyjne
-Zjawisko fizycznego istnienia obu wariantów allelicznych to modelowy przykład doboru równoważącego, dążącego naturalnie do utrzymania proporcji bliskich 50/50. Według danych z potężnych baz genetycznych (np. gnomAD):
-* **Średnia globalna (ALL):** ~49,16% częstotliwości dla allelu A.
-* **Amisze (AMI):** 66,37% (anomalia wynikająca z efektu założyciela i dryfu genetycznego).
-* **Europejczycy, populacja fińska (FIN):** 55,02% – najwyższy odsetek wariantu metioninowego w nacji pozbawionej izolacji rozrodczej. 
-* **Europejczycy ogółem (NFE):** ~51,64%. (Rozkład genotypów w klasycznych europejskich populacjach to około: 22-25% A/A, 45-50% A/G, 25-32% G/G).
-* **Azja Południowa (SAS):** ~44,81%.
-* **Ludność Subsaharyjska (AFR):** ~30,60% – dominuje pierwotny afrykański allel ancestralny Val.
-* **Azja Wschodnia (EAS):** 28,44% – najniższa populacyjnie pula "zamartwiacza", obecność fenotypu A/A oscyluje tam zaledwie w granicach kilkunastu procent.
+* **Średnia globalna (ALL):** Częstość allelu A wynosi ok. 49,16%
+* **Europa (NFE):** Częstość allelu A wynosi ok. 51,64% (w FIN ok. 55,02%)
+* **Afryka (AFR):** Częstość allelu A wynosi ok. 30,60%
+* **Azja Wschodnia (EAS):** Częstość allelu A wynosi ok. 28,44%
+* **Uwagi o zmienności populacyjnej:** Dodatkowe kohorty (np. AMI 66,37% i SAS 44,81%) pokazują silny wpływ efektu założyciela i struktury populacji na rozkład wariantu.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 * **Funkcje kognitywne i inteligencja:** Wariant A gwarantuje świetną pamięć roboczą i mierzalnie lepsze wyniki testów na inteligencję oraz czytania ze zrozumieniem ze względu na lepsze nasycenie mózgu dopaminą podczas pracy spoczynkowej. 
 * **Kardiometabolika:** Z powodu spowolnionej obróbki dobroczynnych metabolitów krążącego estrogenu, osoby z wariantami osłabionymi (allelem A) mają ewidentnie wyższe statystyczne ryzyko śmiertelnych incydentów kardiologicznych w obrębie choroby wieńcowej serca. Wskazany jest dla nich rygorystyczny monitoring wysiłku serca.
 * **Zarządzanie suplementacją:** * *Magnez:* Absolutnie kluczowy do ustabilizowania resztek wydolności u homozygot A/A. Stanowi silną, nieobciążającą wsparcie przeciwdepresyjne i przeciwlękowe.
@@ -52,4 +55,4 @@ Zjawisko fizycznego istnienia obu wariantów allelicznych to modelowy przykład 
 * **PMID: 8807664** – Fundamentalna publikacja (Lachman et al., 1996) wykazująca niestabilność termiczną wariantu z metioniną i ugruntowująca biochemiczne ramy dla rs4680.
 * **PMID: 11381111** – Oparta na rezonansie fMRI potężna analiza kliniczna (Egan i Weinberger, 2001) udowadniająca, jak bardzo "wymagający" tlenowo u wariantów spowolnionych (Val) jest szlak degradacji w korze przedczołowej i jak wpływa on na schizofrenię.
 * **PMID: 17008817** – Przełomowa publikacja z 2006 roku integrująca tysiące mniejszych wyników behawioralnych i nadająca zjawiskom rygorystyczny medyczno-ewolucyjny termin "Hipotezy Wojownika i Zamartwiacza".
-* **SNPedia:** Obszerna baza surowych danych i referencji genomowych dla mutacji.
+* **Baza referencyjna:** [SNPedia (rs4680)](https://www.snpedia.com/index.php/Rs4680) – Surowe dane genomowe i referencje kliniczne dla Val158Met.

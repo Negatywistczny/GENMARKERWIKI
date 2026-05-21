@@ -1,20 +1,20 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** APOE.
-* **Pełna nazwa biochemiczna:** Gen kodujący apolipoproteinę E.
-* **Nazwy potoczne i medialne:** "Gen Alzheimera", "gen kruchości" (ang. *frailty gene*).
+* **Główny symbol genu:** APOE
+* **Pełna nazwa biochemiczna:** Apolipoproteina E (ang. *Apolipoprotein E*)
+* **Nazwy potoczne i medialne:** "Gen Alzheimera", "gen kruchości" (ang. *frailty gene*)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Lokalizacja:** Długie ramię chromosomu 19 (19q13.32).
-Analiza statusu genetycznego APOE jest nietypowa – nie opiera się na jednym polimorfizmie (SNP), lecz wymaga zsekwencjonowania połączonego haplotypu dwóch kluczowych markerów:
-* **rs429358:** Tranzycja tyminy na cytozynę (T>C) – skutkuje zmianą aminokwasu w pozycji 112 (Cys/Arg).
-* **rs7412:** Tranzycja cytozyny na tyminę (C>T) – determinuje aminokwas w pozycji 158 (Cys/Arg).
-
-Tylko zbadanie obu loci na raz pozwala na przypisanie jednej z trzech izoform: ε2, ε3 lub ε4. Często jako wariant zastępczy bada się również silnie sprzężony polimorfizm proxy **rs4420638** w genie APOC1.
+* **Główne rsID (haplotyp):** rs429358 i rs7412
+* **Lokalizacja chromosomalna:** Długie ramię chromosomu 19 (19q13.32)
+* **Typ wariantu:** Układ haplotypowy dwóch SNP niesynonimicznych
+* **Zapis zmian nukleotydowych:** rs429358: T>C (pozycja aminokwasowa 112, Cys/Arg); rs7412: C>T (pozycja aminokwasowa 158, Cys/Arg)
+* **Orientacja i interpretacja:** Do przypisania izoform APOE (e2/e3/e4) wymagany jest jednoczesny odczyt obu markerów
+* **Powiązane markery / proxy:** rs4420638 (APOC1) jako marker zastępczy sprzężony z haplotypem APOE
 
 ### 3. Mechanizm działania
-Apolipoproteina E jest kluczowym polipeptydem w ludzkim metabolizmie lipidów, syntetyzowanym w wątrobie (do obróbki VLDL z osocza) oraz w mózgu przez astrocyty i mikroglej. Odpowiada za dystrybucję lipidów do neuronów oraz fizyczne oczyszczanie mózgu z beta-amyloidu i białka tau.
-
-Zmiana zaledwie jednego nukleotydu w rs429358 powoduje strukturalną tragedię znaną jako **Patologia Interakcji Domenowej**. W wariancie ε4 wprowadzenie ładunku dodatniego z argininy (w miejscu 112) wymusza szkodliwe splątanie cząsteczki z argininą w pozycji 61, paraliżując całą jej domenę N-końcową i C-końcową. Tak zmutowane białko niszczy mitochondria od środka komórki i wywołuje mechaniczną erozję ścisłych połączeń (tight junctions) w barierze krew-mózg (BBB). Doprowadza to do zablokowania swobodnej dyfuzji kluczowego kwasu omega-3 (DHA) z osocza do mózgu i skutkuje tzw. mózgowym głodem kwasów tłuszczowych oraz masywnym stresem neurodegeneracyjnym.
+* **Rola biologiczna genu/białka:** Apolipoproteina E dystrybuuje lipidy do neuronów i uczestniczy w oczyszczaniu mózgu z beta-amyloidu i białka tau (synteza w wątrobie, astrocytach i mikrogleju)
+* **Wpływ wariantu na szlak:** Allel ε4 (rs429358) wywołuje patologię interakcji domenowej – splątanie białka paraliżuje domeny N- i C-końcowe, uszkadza mitochondria i barierę krew–mózg, ograniczając transport DHA do mózgu
+* **Efekt funkcjonalny:** Skutki to neurodegeneracja, podwyższone ryzyko otępienia i zmiany metabolizmu lipidów – zależnie od haplotypu ε2/ε3/ε4 (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -28,12 +28,19 @@ Zmiana zaledwie jednego nukleotydu w rs429358 powoduje strukturalną tragedię z
 | **C / T** | **T / C** | **ε2 / ε4 (E2/E4)** | Mieszane (Cys/Cys + Arg/Arg) | **Efekt zniesienia.** Pojawienie się ochronnego ε2 "anuluje" dużą część zniszczeń, za które odpowiada patologiczny ε4, łagodząc ryzyko do poziomu standardowego. |
 
 ### 5. Statystyki populacyjne
-Dystrybucja APOE silnie koreluje z pradawnymi falami migracyjnymi. Szacuje się, że globalna częstość wariantu neutralnego ε3 to ok. 77,9%, zgubnego wariantu ε4 to ok. 13,7%, a ochronnego ε2 zaledwie 8,4%.
-* **Gradient Północ-Południe (Europa):** Występowanie ryzykownych alleli ε4 spada w krajach południowych (Grecja, Włochy, Hiszpania to około 17% nosicielstwa, przy homozygotach <0.1%), a lawinowo rośnie na Północy (Dania, Finlandia, Skandynawia to nawet ok. 25% nosicieli z powszechnie spotykanymi homozygotami rzędu 2%).
-* **Błąd przeżywalności starczej:** U stulatków wariant ε4 drastycznie ustępuje we wskaźnikach, dowodząc brutalnie, że te jednostki statystycznie "wymierają" na zawały lub udary w poprzednich dekadach życia bez osiągnięcia bardzo późnej starości.
-* **Populacje afrykańskie:** Posiadają odrębną genetykę w tle (ukryte loci obronne), co owocuje tym, że obecność zmutowanego wariantu E4 drastycznie rzadziej przekłada się u nich na tak ciężką i masową penetrację demencji jak u osób białych z Europy.
+* **Średnia globalna (ALL):** Przybliżone częstości alleli: e3 ok. 77,9%, e4 ok. 13,7%, e2 ok. 8,4%
+* **Europa (NFE):** Częstość e4 wykazuje gradient północ-południe; niższa na południu i wyższa w populacjach północnych
+* **Afryka (AFR):** Wariant e4 występuje, ale jego penetracja kliniczna dla demencji bywa niższa niż w części populacji europejskich
+* **Azja Wschodnia (EAS):** Częstości i ryzyko kliniczne zależą od kraju i kohorty; brak jednego stabilnego oszacowania dla całego regionu
+* **Uwagi o zmienności populacyjnej:** Częstość e4 maleje w bardzo późnym wieku (efekt przeżywalności); porównania między populacjami wymagają korekty o strukturę wieku i tło genetyczne.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 Kategorycznie wytyczne narzucają nosicielom (szczególnie E4/E4) pełen profil tzw. medycyny i odżywiania precyzyjnego. Zepsuty gen jest niezwykle trudny w obsłudze.
 * **Omijanie degradacji bariery mózgu:** Nosicielom podawanie standardowych kapsułek czy aptecznego tranu Omega-3 (EPA/DHA z trójglicerydami) nic nie daje, kwas utlenia się w żyle z racji erozji złączy BBB. Komórki z ε4 ratuje się wyłącznie "bypassem" używającym rzadkiego transportera MFSD2A i włączając wysokie dawki kwasów estryfikowanych (czyli specyficznych fosfolipidów – oleju z kryla arktycznego - w docelowym przedziale ponad 2 g na dobę z suplementem witamin B).
 * **Dieta Śródziemnomorska o Niskim GI:** Wytyczne badawcze całkowicie zmuszają nosicieli E4 do drastycznych restrykcji: absolutnie unikać wysoko nasyconych tłuszczów mięsnych (SFA) i węglowodanów rafinowanych (High GI). Zamiast tego dieta ma opierać się o czyste, płynne oliwy z oliwek, chroniące parametry ApoB w osoczu.
@@ -49,4 +56,4 @@ Kategorycznie wytyczne narzucają nosicielom (szczególnie E4/E4) pełen profil 
 * **PMID: 8346443** (Corder et al., 1993) – Historyczne badanie Science odkrywające efekt dawkowej współzależności genu E4 ze wzrostem występowania otępienia.
 * **PMID: 7920638** (Corder et al., 1994) – Dokumentacja ewolucyjnej formy silnie ochraniającego białka genotypu E2, opublikowana w prestiżowym Nat Genet.
 * **PMID: 28031319** (Trumble et al., 2017) – Rewolucyjne ustalenia dotyczące paradoksu populacji Indian Tsimane, potwierdzające zjawisko plejotropii w FASEB J.
-* Baza **SNPedia** – Obszerna i powszechnie indeksowana biblioteka markera (rs429358 oraz rs7412) sprzęgająca architekturę z medycyną prewencyjną.
+* **Baza referencyjna:** SNPedia ([rs429358](https://www.snpedia.com/index.php/Rs429358), [rs7412](https://www.snpedia.com/index.php/Rs7412)) – Indeks haplotypów ε2/ε3/ε4 i asocjacji prewencyjnych.

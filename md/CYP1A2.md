@@ -1,21 +1,22 @@
 ### 1. Nagłówek i Nazwy
-* **Główny symbol genu:** CYP1A2, co stanowi skrót od angielskiej nazwy Cytochrome P450 Family 1 Subfamily A Member 2.
-* **Pełna nazwa biochemiczna:** Polipeptyd 2 podrodziny A rodziny 1 cytochromu P450. Koduje on białko stanowiące kluczowy mechanizm biotransformacji i obrony przed ksenobiotykami.
-* **Nazwy potoczne i medialne:** "Gen kofeiny" lub "marker metabolizmu kofeiny". Popularność zyskał dzięki komercyjnym testom genetycznym, np. od 23andMe, które zdefiniowały go jako główne narzędzie do oceny tolerancji na stymulanty.
-* **Synonimy medyczne:** Hydroksylaza węglowodorów arylowych, izoforma P450 4, cytochrom P(3)450, hydroperoksydaza kwasu ikozatetraenowego, monooksygenaza ksenobiotyków, enzym indukowany przez dioksyny. Tak bogata terminologia odzwierciedla szerokie spektrum substratów wchodzących w interakcje z białkiem.
+* **Główny symbol genu:** CYP1A2 (ang. *Cytochrome P450 Family 1 Subfamily A Member 2*)
+* **Pełna nazwa biochemiczna:** Polipeptyd 2 podrodziny A rodziny 1 cytochromu P450
+* **Nazwy potoczne i medialne:** Gen kofeiny, marker metabolizmu kofeiny
+* **Synonimy medyczne:** Hydroksylaza węglowodorów arylowych, izoforma P450 4, cytochrom P(3)450, hydroperoksydaza kwasu ikozatetraenowego, monooksygenaza ksenobiotyków, enzym indukowany przez dioksyny
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID:** rs762551.
-* **Lokalizacja:** Gen położony jest na długim ramieniu chromosomu 15 (15q24.1). Pozycja fizyczna zależy od asemblera genomu – w GRCh37 jest to Chr15: 75041917, a w GRCh38 to Chr15: 74749576.
-* **Typ wariantu:** Polimorfizm pojedynczego nukleotydu (SNP). Polega na tranzycji cytozyny (C) na adeninę (A) w niekodującym pierwszym intronie. W nomenklaturze HGVS zapisywany jako NM_000761.5:c.-9-154C>A, zaś historycznie znany jako -163C>A lub -164A>C.
-* **Klasyfikacja w bazach:** W bazie ClinVar posiada status "prawdopodobnie łagodny" dla mendlowskich chorób rzadkich. Tymczasem w standardach PharmVar obecność zmutowanego allelu A kategoryzuje się jako haplotyp CYP1A2*1F. Allel C, mimo że w Europie występuje rzadziej, uchodzi za referencyjny i definiuje haplotyp CYP1A2*1A. Należy uważać na starsze publikacje, w których autorzy potrafili błędnie mylić wariant dziki z allelem "szybkim".
+* **Główny rsID:** rs762551
+* **Lokalizacja chromosomalna:** Długie ramię chromosomu 15 (15q24.1); GRCh37: Chr15:75041917, GRCh38: Chr15:74749576
+* **Typ wariantu:** SNP intronowy (intron 1, wariant niekodujący)
+* **Zapis zmiany nukleotydowej (HGVS):** NM_000761.5:c.-9-154C>A (historycznie -163C>A lub -164A>C)
+* **Orientacja nici i mapowanie alleli:** Zmiana C>A; raportowanie może się różnić między starszymi publikacjami i panelami komercyjnymi
+* **Powiązane markery / haplotyp:** Allel A definiuje haplotyp CYP1A2*1F, allel C haplotyp CYP1A2*1A (PharmVar)
+* **Klasyfikacja bazowa:** ClinVar - "prawdopodobnie łagodny" dla chorób mendlowskich
 
 ### 3. Mechanizm działania
-Enzym CYP1A2 to monooksygenaza siateczki śródplazmatycznej gładkiej, wyrażana głównie w hepatocytach, która utlenia substancje chemiczne w Fazie I metabolizmu wątrobowego. Odpowiada za eliminację ponad 95% spożytej w diecie kofeiny. Poprzez N-3 demetylację rozbija ją do aktywnej paraksantyny (80-84%), teobrominy (12%) oraz zwiotczającej mięśnie teofiliny (4%). Dodatkowo enzym ten przerabia leki (klozapina, olanzapina) oraz neuroprzekaźniki organizmu. Jego potężnym minusem w toksykologii jest bezlitosna bioaktywacja prokarcinogenów, w tym węglowodorów z dymu i grillowanego mięsa.
-
-Działanie CYP1A2 sterowane jest zjawiskiem indukowalności enzymatycznej. Specyficzne ligandy (kofeina, toksyny ze smogu) łączą się z receptorem węglowodorów arylowych (AHR) w komórce. Uruchamia to translokację kompleksu do jądra komórkowego i potężną aktywację transkrypcji w promotorze genu CYP1A2. Wariant rs762551 bezpośrednio rzutuje na siłę tej reakcji:
-* **Allel A (*1F):** Gwarantuje niezwykle wysoką indukowalność. Skutkuje błyskawicznym uwalnianiem nowych cząsteczek enzymu i bardzo szybkim oczyszczaniem krwi ze stymulantów.
-* **Allel C (*1A):** Cechuje się silnie zredukowaną wydajnością aktywacji. Enzym nie jest wydajnie stymulowany, co wydłuża biologiczny okres półtrwania kofeiny w ciele do 6-9,5 godzin.
+* **Rola biologiczna genu/białka:** CYP1A2 w hepatocytach metabolizuje >95% kofeiny (Faza I), leki (np. klozapina) i bioaktywuje prokarcynogeny z dymu i grillowanego mięsa
+* **Wpływ wariantu na szlak:** Indukcja przez AHR zależy od rs762551: allel A (*1F) – wysoka indukowalność i szybkie oczyszczanie kofeiny; allel C (*1A) – słaba indukcja, okres półtrwania 6–9,5 h
+* **Efekt funkcjonalny:** Różnice w ryzyku zawału, wydolności sportowej, uszkodzenia nerek i poronień przy wysokiej kofeinie (sekcja 4)
 
 ### 4. Tabela Wariantów
 
@@ -26,13 +27,19 @@ Działanie CYP1A2 sterowane jest zjawiskiem indukowalności enzymatycznej. Specy
 | **C/C** | *1A / *1A | Wolny metabolizator | Genotyp obciążony ekstremalnymi przestojami metabolicznymi niezależnie od stopnia ekspozycji na bodziec. Kofeina zostaje uwięziona i krąży w organizmie ponad 6 do 8 godzin po wypiciu. Skutkuje to masowym rozregulowaniem układu krążenia, pojawianiem się stanów lękowych i bezsenności. Zjawisko to potężnie pompuje ryzyko zawału serca czy nadciśnienia tętniczego przy spożyciu stymulantu. |
 
 ### 5. Statystyki populacyjne
-Zależnie od map geograficznych, metabolizm kofeiny dzieli gatunek ludzki wzdłuż specyficznego i równomiernego wzorca.
-* **Rasa Kaukaska (Europa):** Kontynent europejski wykazuje dominację "szybkiego" allelu A na poziomie około 68-73%. Przekłada się to na obecność najszybszego genotypu A/A u mniej więcej połowy obywateli (44-50%). Łączny pakiet pacjentów o wolnym fenotypie w Europie (A/C oraz homozygoty C/C) przekracza jednak pułap 50% całego społeczeństwa. Badania przeprowadzone na polskiej kohorcie sportowców ujawniły pulę wolnego wariantu wynoszącą nawet 57%. W badaniach na Uniwersytecie Przyrodniczym w Poznaniu z 2025 r. odsetek allelu C wyniósł 31%.
-* **Azjaci:** Fenotyp szybki występuje tam znacznie rzadziej. U ludności z Azji Wschodniej i Południowej dominują allele C (sięgając poziomów od 30% do 39%), a najczęstszą strukturą społeczną jest wolna i pośrednia heterozygota.
-* **Afroamerykanie i Afryka:** W tej grupie widoczna jest radykalna kumulacja mutacji "wolnej". Częstość allelu referencyjnego C rozbija się na tym kontynencie o pułapy 40-51%, udowadniając osłabienie ewolucyjnej presji odtruwającej stymulanty u najdawniejszych mieszkańców.
-* **Iran i Bliski Wschód:** Genetyka z grup irańskich obfituje w allel A z częstotliwością ok. 60%, co przybliża ten rejon wprost do wyników europejskich kaukaskich wędrówek. W wyizolowanej kohorcie z Pakistanu genotyp C/C zanotowano tylko u bardzo rzadkich 8% przypadków.
+* **Średnia globalna (ALL):** Brak jednej spójnej wartości globalnej dla wszystkich kohort; rozkład alleli jest silnie zależny od regionu
+* **Europa (NFE):** Częstość allelu A zwykle ok. 68-73% (allel C ok. 27-32%); genotyp A/A często ok. 44-50%
+* **Afryka (AFR):** Częstość allelu C zwykle wyższa niż w Europie, orientacyjnie ok. 40-51%
+* **Azja Wschodnia (EAS):** Częstość allelu C często ok. 30-39%, zwykle z przewagą fenotypów pośrednich/wolnych
+* **Uwagi o zmienności populacyjnej:** Populacje Bliskiego Wschodu i Azji Południowej wykazują własne profile (np. Iran bliżej Europy); wyniki lokalnych kohort (np. sportowcy) nie zawsze są reprezentatywne dla całej populacji.
 
 ### 6. Wpływ na życie (Zalecenia)
+* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
+* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
+* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
+* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
 Kliniczne zastosowanie medycyny precyzyjnej i nutrigenomiki dostarcza olbrzymiego spektrum danych dla omawianego polimorfizmu.
 * **Kardiologia i układ krążenia:** Kofeina to antagonista receptorów adenozyny uwalniający adrenalinę. U wolnych metabolizatorów kofeina obciąża układ. Badanie populacji Kostaryki dowiodło katastrofalnego, 64-procentowego piku występowania ostrych zawałów serca u nosicieli wolnych genotypów spożywających ponad 4 kawy. W badaniu z włoskiej próby HARVEST, obfite picie kawy powiązano ze skokiem wyrokującym prawie 3-krotnym skokiem w ryzyku przewlekłego nadciśnienia tętniczego (aHR 2.81). Złotym zaleceniem dla chorych z układami A/C i C/C jest redukcja kofeiny do <150-200 mg na dobę (najlepiej na wersję decaf). Genotyp szybki A/A potrafi czerpać profity z flawonoidów i ma wręcz o kilkadziesiąt procent mniejsze prawdopodobieństwo zapadnięcia na choroby mięśnia sercowego (np. redukcja rzędu 25% przy 1 filiżance i do ok. 43-52% w analizach ogólnych schorzeń).
 * **Cukrzyca i uszkodzenia nerek:** U badanych z osłabionym enzymem, wysokie spożycie kofeiny podwyższało szansę na wystąpienie zaburzeń glikemii (IFG) w stosunku o wskaźnik HR = 2.8. Skutkuje też zjawiskiem niebezpiecznej hiperfiltracji nerek i generacją mikroalbuminurii.
@@ -42,13 +49,13 @@ Kliniczne zastosowanie medycyny precyzyjnej i nutrigenomiki dostarcza olbrzymieg
 * **Wady w położnictwie:** Ciąża w organizmie kobiety genetycznie naturalnie blokuje i drastycznie wycisza pracę cytochromu CYP1A2 hormonami. Jeśli kobieta miała i tak już zepsuty gen "wolnego" polimorfizmu, odcięcie możliwości ochrony narasta u niej i wymusza pięciokrotne zwiększenie występowania incydentów powracających poronień płodu przy wypijaniu używek na poziomie 300 mg (wielki wskaźnik OR 5.23 względem pacjentek powstrzymujących się). Z tego powodu rekomenduje się ostrożne podejście przed wykluczeniem genetycznym i całkowitą abstynencję dla kobiet z tą pulą DNA.
 
 ### 7. Ciekawostki
-Uważa się ewolucyjnie, że to wynalazek kulinarny u starych społeczności pieczenia mięsa i spania wokół ognia, pozwalający na ogromną rezerwę w nadwyżkach układów ewolucyjnych dla budowy tkanki mózgowej stał za gigantyczną ekspozycją narządów i wątroby naszych pradziadów na zmutowane toksyny dymne, wymuszając rozwój "tarczy z AHR i cytochromów". Archeologiczne wykopaliska genetyczne dają świadectwa, że zarówno populacja prymitywnego Denisowianina oraz Neandertalczycy wyewoluowali idealnie perfekcyjny w 100% mechanizm odtruwania na bazie prastarych super-enzymów AHR/CYP1A2 (podobnie jak goryle na terenie puszcz).
-
-Współczesny ewolucyjny tryb miejski jest tu zawiły – wraz ze standardem mieszkaniowym ludzkość nie potrzebowała masowo ratować się od zanieczyszczeń w jaskiniach, przez co ułomny allel odtwarzający mutację został "zatwierdzony". Natura "wyłączyła" stałą kosztowną produkcję i pozwoliła ulec powolnemu genowi CYP1A2 oszczędnej atrofii po to by ładować energię w masę kory. Żartobliwy koszt tego tryumfu objawia się tym, iż współcześni Europejczycy dziedzicząc zmutowaną genetykę cierpią przez stymulanty i borykają się od porannej dawki z drżeniem dłoni lub potężną bezsennością.
+* **Ewolucyjne tło detoksykacji:** Rozwój obróbki termicznej żywności i ekspozycja na dym mogły wzmacniać presję selekcyjną na układ AHR/CYP1A2 odpowiedzialny za neutralizację ksenobiotyków.
+* **Dziedzictwo paleogenetyczne:** Analizy DNA kopalnego sugerują, że szlaki detoksykacyjne z udziałem CYP1A2 były istotne już u dawnych populacji człowieka.
+* **Paradoks współczesny:** W środowisku o mniejszej ekspozycji na toksyny dymne warianty wolniejszego metabolizmu kofeiny nie muszą obniżać przeżywalności, ale częściej wiążą się z gorszą tolerancją stymulantów.
 
 ### 8. Źródła (Referencje)
-* Platforma agregująca dla rs762551 SNPedia pomogła oczyścić notatki co do błędnych systematyzacji starszych badaczy o szybkim/powolnym nazewnictwie u CYP1A2.
-* **PMID 16522833:** Rewolucyjne praca w The Journal of the American Medical Association z roku 2006 (Cornelis et al.) wykrywająca korelację zawałową dla używek na Kostaryce i ratująca populację pacjentów w zarysie 64% przyrostów zagrożeń krążenia u pacjentów posiadających wariant zwolniony.
-* **PMID 29509641:** Dokument potwierdzający katastrofę w sportowej dawce badawczej wśród kolarzy na testach i deklasujący potężny mit wspomagania przedtreningówkami od kofeiny, przeprowadzony w 2018 roku przez Guest.
-* **PMID 36701157:** Rozstrzygająca publikacja z potężnej próby badawczej i zespołu M. Mahdavi dotycząca postępującej niewydolności nerek opartej o kofeinę i geny z roku 2023.
-* **PMID 15849225:** Położniczy zapis dla poronień uszkodzonych układów od detoksykacji kobiet nienawidzących wolnych systemów enzymu podczas spożycia kofeiny.
+* **PMID: 16522833** (Cornelis et al., 2006) – Interakcja genotypu CYP1A2 z spożyciem kawy a ryzykiem zawału (*JAMA*).
+* **PMID: 29509641** (Guest et al., 2018) – Różnice wydolnościowe po kofeinie między szybkimi (A/A) a wolnymi (C/C) metabolizatorami.
+* **PMID: 36701157** (Mahdavi et al., 2023) – Uszkodzenia nerek i hiperfiltracja u wolnych metabolizatorów przy dużych dawkach kawy.
+* **PMID: 15849225** – Ryzyko poronienia u kobiet w ciąży będących wolnymi metabolizatorami przy wysokim spożyciu kofeiny.
+* **Baza referencyjna:** [SNPedia (rs762551)](https://www.snpedia.com/index.php/Rs762551) – Klasyfikacja metabolizmu kofeiny i korekcja historycznych błędów nomenklatury alleli.
