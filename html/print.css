@@ -1,0 +1,288 @@
+/* Jasny motyw, układ 4-stronicowy (1–3 / 4 / 5–6 / 7–8), dopasowanie do kartki A4 */
+
+html.print-mode,
+html.print-mode body {
+  color-scheme: light only;
+}
+
+html.print-mode {
+  --print-sheet-h: 277mm;
+  --bg: #f6f8fc;
+  --card: #ffffff;
+  --card-2: #f9fbff;
+  --text: #152238;
+  --muted: #4a5d82;
+  --accent: #2a52e8;
+  --accent-2: #0a8f6c;
+  --border: #d5dff5;
+  --shadow: none;
+  font-size: 8.5pt;
+  line-height: 1.28;
+}
+
+html.print-mode body {
+  background: var(--bg);
+  color: var(--text);
+}
+
+html.print-mode .hero,
+html.print-mode .article,
+html.print-mode .section-card,
+html.print-mode .variant-group,
+html.print-mode .variant-tile,
+html.print-mode .section-body li {
+  background: var(--card);
+  box-shadow: none;
+}
+
+html.print-mode .section-body li {
+  background: #f3f6fd;
+  padding: 0.28rem 0.38rem;
+}
+
+html.print-mode .section-body ul,
+html.print-mode .section-body ol {
+  gap: 0.28rem;
+  margin: 0.28rem 0;
+}
+
+html.print-mode .variant-tile--negative {
+  background: #fff0f0;
+  border-color: #e8a0a0;
+}
+
+html.print-mode .variant-tile--neutral {
+  background: #fff8e8;
+  border-color: #e0c070;
+}
+
+html.print-mode .variant-tile--positive {
+  background: #eefaf3;
+  border-color: #8fd4ad;
+}
+
+.print-shell {
+  width: min(210mm, calc(100% - 1rem));
+}
+
+.print-hero {
+  margin-bottom: 0.5rem;
+}
+
+.print-article {
+  background: transparent;
+  border: none;
+  padding: 0;
+  box-shadow: none;
+}
+
+.print-document {
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+}
+
+.print-page {
+  background: var(--card);
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  height: var(--print-sheet-h);
+  max-height: var(--print-sheet-h);
+  overflow: hidden;
+  padding: 0.45rem 0.55rem 0.35rem;
+  width: 100%;
+}
+
+.print-page-header {
+  border-bottom: 1px solid var(--border);
+  flex-shrink: 0;
+  margin-bottom: 0.35rem;
+  padding-bottom: 0.3rem;
+}
+
+.print-page-meta {
+  font-size: 0.68rem;
+  letter-spacing: 0.02em;
+  margin: 0 0 0.1rem;
+  text-transform: uppercase;
+  color: var(--muted);
+}
+
+.print-page-header h2 {
+  font-size: 1.05rem;
+  line-height: 1.15;
+  margin: 0;
+}
+
+.print-page-subtitle {
+  color: var(--muted);
+  font-size: 0.72rem;
+  line-height: 1.25;
+  margin: 0.12rem 0 0;
+}
+
+.print-page-body {
+  flex: 1;
+  min-height: 0;
+  overflow: hidden;
+  position: relative;
+}
+
+.print-page-sections {
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+}
+
+.print-block {
+  width: 100%;
+}
+
+.section-card--print {
+  break-inside: auto;
+  page-break-inside: auto;
+  padding: 0.38rem 0.42rem;
+}
+
+.section-card--print .section-head {
+  gap: 0.3rem;
+  margin-bottom: 0.3rem;
+}
+
+.section-card--print .section-head h3 {
+  font-size: 0.82rem;
+}
+
+.section-card--print .section-icon {
+  font-size: 0.78rem;
+  height: 1.2rem;
+  width: 1.2rem;
+}
+
+html.print-mode .section-body p {
+  font-size: inherit;
+  line-height: inherit;
+  margin: 0.22rem 0;
+}
+
+html.print-mode .section-body li {
+  font-size: inherit;
+  line-height: inherit;
+}
+
+html.print-mode .variants-stack {
+  gap: 0.35rem;
+}
+
+html.print-mode .variant-group {
+  padding: 0.35rem;
+}
+
+html.print-mode .variant-group-title {
+  font-size: 0.75rem;
+  margin-bottom: 0.3rem;
+}
+
+html.print-mode .variants-layout {
+  gap: 0.28rem;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+}
+
+html.print-mode .variant-tile {
+  padding: 0.32rem;
+}
+
+html.print-mode .variant-tile h4 {
+  font-size: 0.78rem;
+}
+
+html.print-mode .variant-status {
+  font-size: 0.68rem;
+  margin: 0.08rem 0 0.22rem;
+}
+
+html.print-mode .variant-tile dt {
+  font-size: 0.62rem;
+}
+
+html.print-mode .variant-tile dd,
+html.print-mode .variant-impact {
+  font-size: 0.68rem;
+  line-height: 1.22;
+  margin: 0.2rem 0 0;
+  padding-top: 0.2rem;
+}
+
+.screen-only {
+  display: flex;
+}
+
+@media print {
+  @page {
+    size: A4 portrait;
+    margin: 10mm;
+  }
+
+  html.print-mode {
+    font-size: 8pt;
+  }
+
+  html.print-mode body {
+    background: #fff;
+  }
+
+  .screen-only,
+  .print-hero {
+    display: none !important;
+  }
+
+  .print-shell {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+  }
+
+  .print-article {
+    margin: 0;
+  }
+
+  .print-document {
+    gap: 0;
+  }
+
+  .print-page {
+    border: none;
+    border-radius: 0;
+    box-shadow: none;
+    height: var(--print-sheet-h);
+    margin: 0;
+    max-height: var(--print-sheet-h);
+    overflow: hidden;
+    padding: 0;
+    page-break-after: always;
+    break-after: page;
+  }
+
+  .print-page:last-child {
+    page-break-after: auto;
+    break-after: auto;
+  }
+
+  .print-page-header h2 {
+    font-size: 11pt;
+  }
+
+  /* Bez dopisywania pełnych URL — to puchło do kilku dodatkowych stron */
+  html.print-mode a[href^="http"]::after {
+    content: none !important;
+  }
+
+  html.print-mode a[href^="http"] {
+    color: var(--accent);
+    text-decoration: none;
+  }
+}

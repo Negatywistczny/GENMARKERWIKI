@@ -1,4 +1,6 @@
-const gene = document.body.dataset.gene;
+function getGene() {
+  return (document.body.dataset.gene || "").trim();
+}
 const contentNode = document.getElementById("gene-content");
 const statusNode = document.getElementById("gene-status");
 const titleNode = document.getElementById("gene-title");
@@ -377,12 +379,12 @@ function parseSections(markdown) {
   let current = null;
 
   for (const line of lines) {
-    const match = line.match(/^###\s+\d+\.\s+(.+)$/);
+    const match = line.match(/^###\s+(\d+)\.\s+(.+)$/);
     if (match) {
       if (current) {
         sections.push(current);
       }
-      current = { title: match[1].trim(), body: [] };
+      current = { number: Number(match[1]), title: match[2].trim(), body: [] };
     } else if (current) {
       current.body.push(line);
     }
@@ -633,7 +635,7 @@ function renderVariantsSection(section) {
             return `
           <section class="variant-group">
             ${heading ? `<h4 class="variant-group-title">${escapeHtml(heading)}</h4>` : ""}
-            <div class="variants-layout">${renderVariantTiles(subTable, { gene, heading })}</div>
+            <div class="variants-layout">${renderVariantTiles(subTable, { gene: getGene(), heading })}</div>
           </section>
         `;
           })
@@ -676,7 +678,7 @@ function classifySection(section) {
   return "rest";
 }
 
-function renderSectionCard(section) {
+function renderSectionCard(section, options = {}) {
   const meta = sectionPresentation(section.title);
   const markdownBody = section.body.join("\n").trim();
   if (!markdownBody) {
@@ -691,12 +693,16 @@ function renderSectionCard(section) {
     sectionBody = window.marked ? window.marked.parse(markdownBody) : markdownBody;
   }
   const enhancedBody = linkPmids(sectionBody);
+  const heading =
+    options.showSectionNumber && section.number
+      ? `${section.number}. ${meta.label}`
+      : meta.label;
 
   return `
-    <section class="section-card">
+    <section class="section-card${options.print ? " section-card--print" : ""}">
       <header class="section-head">
         <span class="section-icon">${meta.icon}</span>
-        <h3>${meta.label}</h3>
+        <h3>${heading}</h3>
       </header>
       <div class="section-body">${enhancedBody}</div>
     </section>
@@ -712,6 +718,120 @@ function renderRow(className, html) {
 
 function renderCards(sections) {
   return sections.map(renderSectionCard).filter(Boolean).join("");
+}
+
+function renderPrintSectionCard(section) {
+  return renderSectionCard(section, { print: true, showSectionNumber: true });
+}
+
+const PRINT_PAGE_COUNT = 4;
+
+function renderPrintPageStack(pageSections) {
+  return pageSections
+    .map((section) => {
+      const html = renderPrintSectionCard(section);
+      return html ? `<div class="print-block">${html}</div>` : "";
+    })
+    .filter(Boolean)
+    .join("");
+}
+
+function renderPrintPage(sections, facts) {
+  const pages = [
+    sections.slice(0, 3),
+    sections.slice(3, 4),
+    sections.slice(4, 6),
+    sections.slice(6, 8),
+  ];
+  const subtitle = facts.find((item) => item.key.toLowerCase().includes("pełna nazwa"));
+
+  const renderPage = (pageSections, pageNum) => `
+    <section class="print-page" aria-label="Strona ${pageNum}" data-print-page="${pageNum}">
+      <header class="print-page-header">
+        <p class="print-page-meta">GenMarkerWiki · karta do druku · strona ${pageNum}/${PRINT_PAGE_COUNT}</p>
+        <h2>${escapeHtml(getGene())}</h2>
+        ${
+          pageNum === 1 && subtitle
+            ? `<p class="print-page-subtitle">${escapeHtml(subtitle.value)}</p>`
+            : ""
+        }
+      </header>
+      <div class="print-page-body">
+        <div class="print-page-sections">${renderPrintPageStack(pageSections)}</div>
+      </div>
+    </section>
+  `;
+
+  return `
+    <div class="print-document">
+      ${pages.map((pageSections, index) => renderPage(pageSections, index + 1)).join("")}
+    </div>
+  `;
+}
+
+function fitPrintPagesToSheet() {
+  if (document.body.dataset.mode !== "print") {
+    return;
+  }
+
+  const sheetHeight = () => {
+    const probe = document.createElement("div");
+    probe.style.cssText = "position:absolute;visibility:hidden;height:277mm;width:1px;";
+    document.body.appendChild(probe);
+    const height = probe.offsetHeight;
+    probe.remove();
+    return height || 1040;
+  };
+
+  const maxHeight = sheetHeight();
+
+  document.querySelectorAll(".print-page").forEach((page) => {
+    const header = page.querySelector(".print-page-header");
+    const sections = page.querySelector(".print-page-sections");
+    if (!sections) {
+      return;
+    }
+
+    sections.style.transform = "";
+    sections.style.width = "";
+    sections.style.height = "";
+
+    const headerHeight = header ? header.offsetHeight : 0;
+    const available = Math.max(120, maxHeight - headerHeight - 4);
+
+    page.style.height = `${maxHeight}px`;
+    page.style.maxHeight = `${maxHeight}px`;
+
+    const body = page.querySelector(".print-page-body");
+    if (body) {
+      body.style.maxHeight = `${available}px`;
+      body.style.height = `${available}px`;
+    }
+
+    const contentHeight = sections.scrollHeight;
+    if (contentHeight > available) {
+      const scale = available / contentHeight;
+      sections.style.transform = `scale(${scale})`;
+      sections.style.transformOrigin = "top left";
+      sections.style.width = `${(100 / scale).toFixed(3)}%`;
+    }
+  });
+}
+
+function renderGenePrintPresentation(markdown) {
+  const sections = parseSections(markdown);
+  const profileSection = sections.find((section) => classifySection(section) === "profile");
+  const facts = extractHeaderFacts(profileSection);
+
+  if (titleNode) {
+    titleNode.textContent = `${getGene()} — wersja do druku`;
+  }
+  if (subtitleNode) {
+    subtitleNode.textContent =
+      "Układ 4-stronicowy: 1) sekcje 1–3, 2) sekcja 4, 3) sekcje 5–6, 4) sekcje 7–8.";
+  }
+
+  return renderPrintPage(sections, facts);
 }
 
 function renderGenePresentation(markdown) {
@@ -732,7 +852,7 @@ function renderGenePresentation(markdown) {
   const facts = extractHeaderFacts(profileSection);
 
   if (titleNode) {
-    titleNode.textContent = `${gene} - karta genu`;
+    titleNode.textContent = `${getGene()} - karta genu`;
   }
   if (subtitleNode) {
     const shortDesc = facts.find((item) => item.key.toLowerCase().includes("pełna nazwa"));
@@ -754,21 +874,47 @@ function renderGenePresentation(markdown) {
   `;
 }
 
-async function loadGenePage() {
-  if (!gene || !contentNode) {
+function injectPrintLink() {
+  const nav = document.querySelector(".nav");
+  const geneSymbol = getGene();
+  if (!nav || !geneSymbol) {
     return;
   }
 
-  document.title = `${gene} | GenMarkerWiki`;
+  const printLink = document.createElement("a");
+  printLink.className = "btn";
+  printLink.href = `print.html?gene=${encodeURIComponent(geneSymbol)}`;
+  printLink.textContent = "Wersja do druku";
+  nav.appendChild(printLink);
+}
+
+async function loadGenePage() {
+  const geneSymbol = getGene();
+  if (!geneSymbol || !contentNode) {
+    return;
+  }
+
+  const isPrint = document.body.dataset.mode === "print";
+  document.title = isPrint
+    ? `${geneSymbol} — druk | GenMarkerWiki`
+    : `${geneSymbol} | GenMarkerWiki`;
 
   try {
-    const response = await fetch(`../md/${gene}.md`);
+    const response = await fetch(`../md/${geneSymbol}.md`);
     if (!response.ok) {
-      throw new Error(`Nie znaleziono pliku md/${gene}.md`);
+      throw new Error(`Nie znaleziono pliku md/${geneSymbol}.md`);
     }
 
     const markdown = await response.text();
-    contentNode.innerHTML = renderGenePresentation(markdown);
+    contentNode.innerHTML = isPrint
+      ? renderGenePrintPresentation(markdown)
+      : renderGenePresentation(markdown);
+    if (isPrint) {
+      requestAnimationFrame(() => {
+        fitPrintPagesToSheet();
+        requestAnimationFrame(fitPrintPagesToSheet);
+      });
+    }
     if (statusNode) {
       statusNode.textContent = "";
     }
@@ -782,4 +928,25 @@ async function loadGenePage() {
   }
 }
 
+function resolveGeneFromUrl() {
+  const params = new URLSearchParams(window.location.search);
+  const fromQuery = params.get("gene");
+  if (fromQuery) {
+    document.body.dataset.gene = fromQuery.trim().toUpperCase();
+  }
+}
+
+resolveGeneFromUrl();
+
+if (document.body.dataset.mode === "print") {
+  document.documentElement.classList.add("print-mode");
+  window.fitPrintPagesToSheet = fitPrintPagesToSheet;
+  window.addEventListener("beforeprint", fitPrintPagesToSheet);
+  window.addEventListener("resize", fitPrintPagesToSheet);
+}
+
 loadGenePage();
+
+if (document.body.dataset.mode !== "print") {
+  injectPrintLink();
+}

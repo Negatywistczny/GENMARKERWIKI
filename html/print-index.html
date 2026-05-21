@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="pl">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GenMarkerWiki — karty do druku</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="print.css" />
+  </head>
+  <body>
+    <main class="container">
+      <section class="hero">
+        <h1>Karty do druku</h1>
+        <p>
+          Układ 4-stronicowy (1–3, 4, 5–6, 7–8), jasny motyw. Gotowe PDF:
+          <a href="../pdf/">katalog pdf/</a>. Podgląd ekranowy:
+          <a href="../index.html">indeks HTML</a>.
+        </p>
+      </section>
+      <nav class="nav">
+        <a class="btn btn--primary" href="../index.html">Wroc do indeksu</a>
+      </nav>
+      <section class="grid" id="print-grid"></section>
+    </main>
+    <script>
+      const genes = [
+        "ACTN3", "ADRA2A", "ANK3", "ANKK1", "APOE", "BDNF", "CACNA1C", "CDH13",
+        "CHRNA5", "CLOCK", "COMT", "CYP1A2", "DBH", "DRD2", "FKBP5", "FTO",
+        "LCT", "MAOA", "MC1R", "MTHFR", "OXTR", "SLC6A4", "TAS2R38", "TPH2",
+      ];
+      const grid = document.getElementById("print-grid");
+      grid.innerHTML = genes
+        .map(
+          (gene) => `
+        <a class="gene-card" href="print.html?gene=${gene}">
+          <strong>${gene}</strong>
+          <span>Otworz wersje do druku (4 strony)</span>
+        </a>`
+        )
+        .join("");
+    </script>
+  </body>
+</html>
