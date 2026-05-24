@@ -15,12 +15,12 @@
         <p id="gene-subtitle">Wybierz gen w adresie URL, np. print.html?gene=COMT</p>
       </section>
       <nav class="nav screen-only">
-        <a class="btn btn--primary" id="screen-link" href="../index.html">Wroc do indeksu</a>
+        <a class="btn btn--primary" id="screen-link" href="../index.html">Wróć do indeksu</a>
         <a class="btn" id="screen-gene-link" href="#" hidden>Wersja ekranowa</a>
         <button type="button" class="btn btn--primary" id="print-btn">Drukuj</button>
       </nav>
       <article class="article print-article" id="gene-content"></article>
-      <p class="status screen-only" id="gene-status">Ladowanie tresci...</p>
+      <p class="status screen-only" id="gene-status">Ładowanie treści…</p>
     </main>
     <script src="app.js"></script>
     <script>
@@ -30,7 +30,7 @@
 
         const geneLink = document.getElementById("screen-gene-link");
         if (geneLink && gene) {
-          geneLink.href = `${gene}.html`;
+          geneLink.href = `gene.html?gene=${encodeURIComponent(gene)}`;
           geneLink.hidden = false;
           geneLink.textContent = `Wersja ekranowa (${gene})`;
         }

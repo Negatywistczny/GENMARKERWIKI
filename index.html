@@ -15,36 +15,41 @@
           <a href="index.md">index.md</a>.
           Wersje do druku (4 strony, jasny motyw):
           <a href="html/print-index.html">karty do druku</a>,
-          gotowe pliki: <a href="pdf/">PDF (24 genów)</a>.
+          gotowe pliki: <a href="pdf/">PDF</a> (<span id="pdf-count">…</span>).
         </p>
       </section>
 
-      <section class="grid">
-        <a class="gene-card" href="html/ACTN3.html"><strong>ACTN3</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/ADRA2A.html"><strong>ADRA2A</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/ANK3.html"><strong>ANK3</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/ANKK1.html"><strong>ANKK1</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/APOE.html"><strong>APOE</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/BDNF.html"><strong>BDNF</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/CACNA1C.html"><strong>CACNA1C</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/CDH13.html"><strong>CDH13</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/CHRNA5.html"><strong>CHRNA5</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/CLOCK.html"><strong>CLOCK</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/COMT.html"><strong>COMT</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/CYP1A2.html"><strong>CYP1A2</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/DBH.html"><strong>DBH</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/DRD2.html"><strong>DRD2</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/FKBP5.html"><strong>FKBP5</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/FTO.html"><strong>FTO</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/LCT.html"><strong>LCT</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/MAOA.html"><strong>MAOA</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/MC1R.html"><strong>MC1R</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/MTHFR.html"><strong>MTHFR</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/OXTR.html"><strong>OXTR</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/SLC6A4.html"><strong>SLC6A4</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/TAS2R38.html"><strong>TAS2R38</strong><span>Otwórz stronę genu</span></a>
-        <a class="gene-card" href="html/TPH2.html"><strong>TPH2</strong><span>Otwórz stronę genu</span></a>
-      </section>
+      <section class="grid" id="gene-grid"></section>
+    <script src="html/gene-index.js"></script>
+    <script>
+      (async () => {
+        const total = window.GENE_INDEX.length;
+        let onDisk = 0;
+        await Promise.all(
+          window.GENE_INDEX.map(async ({ gene }) => {
+            try {
+              const r = await fetch(`pdf/${gene}.pdf`, { method: "HEAD" });
+              if (r.ok) onDisk += 1;
+            } catch {
+              /* brak pliku */
+            }
+          })
+        );
+        const el = document.getElementById("pdf-count");
+        if (el) {
+          el.textContent =
+            onDisk === total ? `${total} genów` : `${onDisk}/${total} genów`;
+        }
+      })();
+
+      document.getElementById("gene-grid").innerHTML = window.GENE_INDEX.map(
+        ({ gene, label }) => `
+        <a class="gene-card" href="html/gene.html?gene=${encodeURIComponent(gene)}">
+          <strong>${gene}</strong>
+          <span>${label}</span>
+        </a>`
+      ).join("");
+    </script>
     </main>
   </body>
 </html>

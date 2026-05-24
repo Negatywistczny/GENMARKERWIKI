@@ -217,6 +217,28 @@ html.print-mode .variant-impact {
   padding-top: 0.2rem;
 }
 
+html.print-mode .btn {
+  background: #e8eeff;
+  border-color: #9eb0e0;
+  color: var(--text);
+}
+
+html.print-mode .btn:hover {
+  background: #dce6ff;
+  border-color: var(--accent);
+}
+
+html.print-mode .btn--primary {
+  background: linear-gradient(120deg, #1f3fbe, #2a52e8);
+  border: 1px solid #1a3499;
+  color: #fff;
+  box-shadow: 0 2px 10px rgba(42, 82, 232, 0.28);
+}
+
+html.print-mode .btn--primary:hover {
+  background: linear-gradient(120deg, #1a3499, #2346d4);
+}
+
 .screen-only {
   display: flex;
 }

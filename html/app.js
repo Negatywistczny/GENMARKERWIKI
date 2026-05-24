@@ -332,6 +332,112 @@ const FIXED_VARIANT_TONES = {
       "a a": "neutral",
     },
   },
+  ABCC11: {
+    "rs17822931 gly180arg": {
+      "a a": "positive",
+      "g a": "neutral",
+      "g g": "negative",
+    },
+  },
+  ALDH2: {
+    "": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+  },
+  AR: {
+    "rs6152 uwaga gen na chromosomie x mezczyzni maja jeden allel": {
+      "a mezczyzni hemizygoti a kobiety a a": "positive",
+      "g a wylacznie kobiety": "neutral",
+      "g mezczyzni hemizygoti g kobiety g g": "negative",
+    },
+  },
+  GC: {
+    "rs2282679 ekspresja vdbp i 25 oh d": {
+      "a a lub t t": "positive",
+      "a c lub t g": "neutral",
+      "c c lub g g": "negative",
+    },
+    "rs7041 rs4588 izofomy bialkowe gc1f gc1s gc2": {
+      "gc1f 1f": "positive",
+      "gc1s 1s": "positive",
+      "gc1s 2": "neutral",
+      "gc2 2": "negative",
+    },
+  },
+  HERC2: {
+    "rs12913832 regulacja oca2 kolor teczowki": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+  },
+  OCA2: {
+    "rs1800407 arg419gln bialko p": {
+      "c c g g": "positive",
+      "c t g a": "neutral",
+      "t t a a": "negative",
+    },
+    "rs1800414 his615arg pigmentacja skory azja wschodnia": {
+      "a a t t": "positive",
+      "a g t c": "neutral",
+      "g g c c": "negative",
+    },
+    "rs12913832 regulator w herc2 ekspresja oca2 w teczowce": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+  },
+  OR2M: {
+    "rs4481887 anosmia szparagowa percepcja moczu": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+  },
+  OR6A2: {
+    "rs72921001 percepcja kolendry": {
+      "a a": "positive",
+      "c a": "neutral",
+      "c c": "negative",
+    },
+  },
+  SLC24A4: {
+    "rs12896399 pigmentacja wlosow i skory": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+    "rs11160059 cisnienie populacja afrykanska": {
+      "g g": "positive",
+      "a g a a": "negative",
+    },
+  },
+  SLC45A2: {
+    "rs16891982 l374f pigmentacja i ryzyko cmm": {
+      "c c": "positive",
+      "c g": "neutral",
+      "g g": "negative",
+    },
+    "rs26722 e272k wariant wschodnioazjatycki": {
+      "g g": "positive",
+      "a a": "neutral",
+    },
+  },
+  ZEB2: {
+    "rs2252641 cad enhancer zeb2 vsmc": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs17678683 cad eqtl tkanka tluszczowa szkieletowa": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+  },
   APOE: {
     "haplotypy apoe rs429358 rs7412": {
       "t t c c 3 3 e3 e3 cys112 arg158 typ referencyjny najbardziej powszechny calkowicie ewolucyjnie i metabolicznie poprawny optymalne zdolnosci wiazania vldl brak wplywu na akumulacje beta amyloidu": "positive",
@@ -891,6 +997,10 @@ function injectPrintLink() {
 async function loadGenePage() {
   const geneSymbol = getGene();
   if (!geneSymbol || !contentNode) {
+    if (statusNode && document.body.dataset.mode !== "print") {
+      statusNode.textContent =
+        "Podaj symbol genu w adresie URL, np. gene.html?gene=COMT.";
+    }
     return;
   }
 

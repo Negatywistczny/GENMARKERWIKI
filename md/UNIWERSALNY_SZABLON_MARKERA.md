@@ -8,7 +8,7 @@
 * **Główny rsID:** [RSID_GLOWNY]
 * **Lokalizacja chromosomalna:** [CHROMOSOM_LOKALIZACJA]
 * **Typ wariantu:** [SNP/INDEL/VNTR/HAPLOTYP/INNE]
-* **Zapis zmiany nukleotydowej (HGVS):** [HGVS_C], [HGVS_G jesli dotyczy]
+* **Zapis zmiany nukleotydowej (HGVS):** [HGVS_C], [HGVS_G jeśli dotyczy]
 * **Orientacja nici i mapowanie alleli:** [PLUS_MINUS_LUB_ODWROCONY_ZAPIS]
 * **Powiązane markery / haplotyp (opcjonalnie):** [RSID_1], [RSID_2], [HAPLOTYP]
 * **Klasyfikacja bazowa (opcjonalnie):** [ClinVar/PharmVar/dbSNP + status]
@@ -18,27 +18,27 @@
 * **Wpływ wariantu na szlak:** [2-5 zdań: co zmienia wariant i jaki jest efekt molekularny]
 * **Efekt funkcjonalny:** [1-3 zdania: konsekwencja fizjologiczna]
 
-### 4. Tabela Wariantow
+### 4. Tabela Wariantów
 
 **[RSID_GLOWNY] ([OPIS_WARIANTU])**
 
-| Genotyp | Aktywnosc / ekspresja | Wplyw fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **[GENOTYP_REF]** | [AKTYWNOSC_REF] | [OPIS_REF] |
 | **[GENOTYP_HET]** | [AKTYWNOSC_HET] | [OPIS_HET] |
 | **[GENOTYP_ALT]** | [AKTYWNOSC_ALT] | [OPIS_ALT] |
 
-*Przy wielu SNP w jednym pliku: powtorz blok **rsID** + tabele 3-wierszowe dla kazdego markera (nie lacz w jedna tabele z kolumna „Identyfikator”).*
+*Przy wielu SNP w jednym pliku: powtórz blok **rsID** + tabele 3-wierszowe dla każdego markera (nie łącz w jedną tabelę z kolumną „Identyfikator”).*
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** [CZESTOSC_ALLELU_LUB_GENOTYPU]
 * **Europa (NFE):** [DANE]
 * **Afryka (AFR):** [DANE]
 * **Azja Wschodnia (EAS):** [DANE]
-* **Uwagi o zmiennosci populacyjnej:** [1-2 zdania o niejednoznacznosciach i ograniczeniach].
+* **Uwagi o zmienności populacyjnej:** [1-2 zdania o niejednoznacznościach i ograniczeniach].
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** [KONKRETNE_RYZYKO + co monitorowac].
+* **Medycyna / profil ryzyka:** [KONKRETNE_RYZYKO + co monitorować].
 * **Dieta i suplementacja:** [CO_WLACZYC / CZEGO_UNIKAC].
 * **Styl życia i trening:** [ZALECENIA_PRAKTYCZNE].
 * **Farmakologia (jeśli dotyczy):** [INTERAKCJE_Z_LEKAMI].
@@ -57,13 +57,13 @@
 
 ---
 
-## Reguly scisle (obowiazkowe dla kazdego pliku)
-* Uzywaj zawsze dokladnie tych 8 sekcji i tej samej kolejnosci.
-* W sekcji 2 zawsze podawaj rsID glowny, lokalizacje i zapis zmiany.
-* W sekcji 4 zawsze stosuj 3-wierszowa tabele genotypow (homozygota referencyjna, heterozygota, homozygota wariantu), chyba ze marker ma inna biologicznie uzasadniona strukture (wtedy opisz dlaczego).
+## Reguły ściśle (obowiązkowe dla każdego pliku)
+* Używaj zawsze dokładnie tych 8 sekcji i tej samej kolejności.
+* W sekcji 2 zawsze podawaj rsID główny, lokalizację i zapis zmiany.
+* W sekcji 4 zawsze stosuj 3-wierszową tabelę genotypów (homozygota referencyjna, heterozygota, homozygota wariantu), chyba że marker ma inną biologicznie uzasadnioną strukturę (wtedy opisz dlaczego).
 * W sekcji 5 zawsze podawaj minimum 4 populacje: ALL, NFE, AFR, EAS.
-* W sekcji 6 podawaj zalecenia ostroznie, bez jezyka kategorycznego typu "zawsze", "nigdy", jesli nie ma wysokiej jakosci dowodow.
-* W sekcji 8 podawaj minimum 3 publikacje z identyfikatorem PMID (jesli brak - oznacz jawnie "PMID: do uzupełnienia" i nie zgaduj numeru).
-* Nie mieszaj orientacji nici: jesli raportujesz odwrotnie (np. C/T zamiast G/A), oznacz to jawnie w sekcji 2.
-* Stosuj jednostki i liczby: %, OR, HR, CI - gdzie to mozliwe.
-* Jesli dane sa niejednoznaczne, wpisz to wprost ("wyniki niespojne miedzy kohortami").
+* W sekcji 6 podawaj zalecenia ostrożnie, bez języka kategorycznego typu „zawsze”, „nigdy”, jeśli nie ma wysokiej jakości dowodów.
+* W sekcji 8 podawaj minimum 3 publikacje z identyfikatorem PMID (jeśli brak — oznacz jawnie „PMID: do uzupełnienia” i nie zgaduj numeru).
+* Nie mieszaj orientacji nici: jeśli raportujesz odwrotnie (np. C/T zamiast G/A), oznacz to jawnie w sekcji 2.
+* Stosuj jednostki i liczby: %, OR, HR, CI — gdzie to możliwe.
+* Jeśli dane są niejednoznaczne, wpisz to wprost („wyniki niespójne między kohortami”).

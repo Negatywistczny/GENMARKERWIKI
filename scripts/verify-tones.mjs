@@ -123,8 +123,7 @@ for (const file of fs.readdirSync(mdDir)) {
     continue;
   }
   const md = fs.readFileSync(path.join(mdDir, file), "utf8");
-  const geneM = md.match(/\*\*Główny symbol genu:\*\*\s*([A-Z0-9]+)/i);
-  const gene = geneM ? geneM[1].trim().toUpperCase() : file.replace(".md", "").toUpperCase();
+  const gene = file.replace(/\.md$/i, "").toUpperCase();
   const sec = parseSections(md).find((s) => s.title.toLowerCase().includes("tabela wariant"));
   if (!sec) {
     issues.push({ gene, file, type: "no-section" });

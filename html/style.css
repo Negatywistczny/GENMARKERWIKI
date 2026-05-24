@@ -93,8 +93,33 @@ body {
 
 .btn--primary {
   background: linear-gradient(120deg, var(--accent), #6a8dff);
-  border: none;
+  border: 1px solid transparent;
   color: #fff;
+}
+
+@media (prefers-color-scheme: light) {
+  .btn {
+    background: #e8eeff;
+    border-color: #9eb0e0;
+    color: var(--text);
+  }
+
+  .btn:hover {
+    background: #dce6ff;
+    border-color: var(--accent);
+  }
+
+  .btn--primary {
+    background: linear-gradient(120deg, #1f3fbe, #315efb);
+    border-color: #1a3499;
+    color: #fff;
+    box-shadow: 0 2px 10px rgba(49, 94, 251, 0.28);
+  }
+
+  .btn--primary:hover {
+    background: linear-gradient(120deg, #1a3499, #2848e0);
+    border-color: #152d7a;
+  }
 }
 
 .grid {

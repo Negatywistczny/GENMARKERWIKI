@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>GenMarkerWiki — karty do druku</title>
     <link rel="stylesheet" href="style.css" />
-    <link rel="stylesheet" href="print.css" />
   </head>
   <body>
     <main class="container">
@@ -18,26 +17,20 @@
         </p>
       </section>
       <nav class="nav">
-        <a class="btn btn--primary" href="../index.html">Wroc do indeksu</a>
+        <a class="btn btn--primary" href="../index.html">Wróć do indeksu</a>
       </nav>
       <section class="grid" id="print-grid"></section>
     </main>
+    <script src="gene-index.js"></script>
     <script>
-      const genes = [
-        "ACTN3", "ADRA2A", "ANK3", "ANKK1", "APOE", "BDNF", "CACNA1C", "CDH13",
-        "CHRNA5", "CLOCK", "COMT", "CYP1A2", "DBH", "DRD2", "FKBP5", "FTO",
-        "LCT", "MAOA", "MC1R", "MTHFR", "OXTR", "SLC6A4", "TAS2R38", "TPH2",
-      ];
       const grid = document.getElementById("print-grid");
-      grid.innerHTML = genes
-        .map(
-          (gene) => `
-        <a class="gene-card" href="print.html?gene=${gene}">
+      grid.innerHTML = window.GENE_INDEX.map(
+        ({ gene, label }) => `
+        <a class="gene-card" href="print.html?gene=${encodeURIComponent(gene)}">
           <strong>${gene}</strong>
-          <span>Otworz wersje do druku (4 strony)</span>
+          <span>${label}</span>
         </a>`
-        )
-        .join("");
+      ).join("");
     </script>
   </body>
 </html>

@@ -16,9 +16,11 @@ PDF_DIR = ROOT / "pdf"
 PORT = 4173
 
 GENES = [
-    "ACTN3", "ADRA2A", "ANK3", "ANKK1", "APOE", "BDNF", "CACNA1C", "CDH13",
-    "CHRNA5", "CLOCK", "COMT", "CYP1A2", "DBH", "DRD2", "FKBP5", "FTO",
-    "LCT", "MAOA", "MC1R", "MTHFR", "OXTR", "SLC6A4", "TAS2R38", "TPH2",
+    "ABCC11", "ACTN3", "ADRA2A", "ALDH2", "ANK3", "ANKK1", "APOE", "AR",
+    "BDNF", "CACNA1C", "CDH13", "CHRNA5", "CLOCK", "COMT", "CYP1A2", "DBH",
+    "DRD2", "FKBP5", "FTO", "GC", "HERC2", "LCT", "MAOA", "MC1R", "MTHFR",
+    "OCA2", "OR2M", "OR6A2", "OXTR", "SLC24A4", "SLC45A2", "SLC6A4", "TAS2R38", "TPH2",
+    "ZEB2",
 ]
 
 WAIT_READY_JS = """
