@@ -36,17 +36,13 @@
 * **Uwagi o zmienności populacyjnej:** Mutacja założycielska ~6000–10000 lat temu u jednego przodka z regionu Morza Czarnego; poza Europą brak wartości predykcyjnej IrisPlex opartej wyłącznie na rs12913832.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Dermatologia i okulistyka (G/G):** Całoroczny SPF 50+ i UVA; okulary UV400; coroczna dermatoskopia; unikanie solariów; kontrola dna oka — ryzyko czerniaka naczyniówki.
 * **Suplementacja:** Luteina i zeaksantyna (10–20 mg / 2–4 mg) dla ochrony plamki żółtej; antyoksydanty (wit. C, E, cynk); monitoring 25(OH)D przy unikaniu słońca.
 * **Żelazo:** Przy mutacjach HERC2 zaburzających szlak FBXL5/IRP2 — monitorowanie ferrytyny (kontekst rzadkich wariantów kodujących, nie rs12913832).
 * **Neurologia:** Recesywne mutacje HERC2 (np. c.1781C>T) — odrębna ścieżka diagnostyczna (opóźnienie rozwoju, ASD, padaczka); nie mylić z polimorfizmem koloru oczu.
 * **Genetyka sądowa:** rs12913832 — fundament systemu IrisPlex; rs1129038 w pełnym LD — redundantny genotypowo w EUR.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Pierwsza mutacja dynamiczna:** Odkrycie ekspansji CAG w AR (1991) otworzyło drogę do badań mutacji dynamicznych — HERC2 rs12913832 to osobna, regulacyjna historia pigmentacji.

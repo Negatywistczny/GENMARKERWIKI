@@ -36,15 +36,14 @@
 * **Uwagi o zmienności populacyjnej:** ~80% zgodności monozygotów w preferencji kolendry vs ~50% u dizygotów (dziedziczność ~50%).
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
-* **Kulinaria (C/C, C/A):** Siekanie/miażdżenie liści (enzymatyczny rozpad aldehydów); nasiona kolendry (linalol, bez mydlanego profilu); microgreens; zamienniki: pietruszka, koperek, mięta; trening sensoryczny z tłuszczem maskującym zapach.
+* **Genotyp C/C (rs72921001):** Silna percepcja „mydlanego” posmaku kolendry — unikaj świeżych liści w potrawach współdzielonych lub stosuj techniki łagodzące (siekanie, smażenie, nasiona zamiast liści).
+* **Genotyp C/A:** Zmienna tolerancja; możliwa częściowa awersja — testuj małe porcje i preferuj gotowanie z tłuszczem maskującym zapach.
+* **Genotyp A/A:** Brak mydlanego profilu; kolendra postrzegana jako cytrusowo-ziołowa — brak ograniczeń dietetycznych z tego powodu.
+* **Kulinaria (ogólnie):** Siekanie/miażdżenie liści (enzymatyczny rozpad aldehydów); nasiona kolendry (linalol); zamienniki: pietruszka, koperek, mięta.
 * **Kardiologia (kontekst makrofagowy):** Dieta antyoksydacyjna (polifenole); ograniczenie utlenionych LDL; cytral (trawa cytrynowa, cytrusy) — antagonista OR6A2/Olfr2 w modelach przedklinicznych, hamowanie NLRP3.
 * **Neurologia:** Wrodzona awersja ≠ zaburzenie poznawcze; utrata węchu nabyta — inna ścieżka diagnostyczna.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Pluskwiaki:** trans-2-decenal w obronie owadów = ten sam profil co kolendra — biochemiczne uzasadnienie skojarzenia zapachów.

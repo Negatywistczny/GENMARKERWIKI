@@ -37,17 +37,12 @@
 * **Uwagi o zmienności populacyjnej:** Częstość e4 maleje w bardzo późnym wieku (efekt przeżywalności); porównania między populacjami wymagają korekty o strukturę wieku i tło genetyczne.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
-Kategorycznie wytyczne narzucają nosicielom (szczególnie E4/E4) pełen profil tzw. medycyny i odżywiania precyzyjnego. Zepsuty gen jest niezwykle trudny w obsłudze.
-* **Omijanie degradacji bariery mózgu:** Nosicielom podawanie standardowych kapsułek czy aptecznego tranu Omega-3 (EPA/DHA z trójglicerydami) nic nie daje, kwas utlenia się w żyle z racji erozji złączy BBB. Komórki z ε4 ratuje się wyłącznie "bypassem" używającym rzadkiego transportera MFSD2A i włączając wysokie dawki kwasów estryfikowanych (czyli specyficznych fosfolipidów – oleju z kryla arktycznego - w docelowym przedziale ponad 2 g na dobę z suplementem witamin B).
-* **Dieta Śródziemnomorska o Niskim GI:** Wytyczne badawcze całkowicie zmuszają nosicieli E4 do drastycznych restrykcji: absolutnie unikać wysoko nasyconych tłuszczów mięsnych (SFA) i węglowodanów rafinowanych (High GI). Zamiast tego dieta ma opierać się o czyste, płynne oliwy z oliwek, chroniące parametry ApoB w osoczu.
-* **Twarda abstynencja i zakaz etanolu:** Gen ε4 znosi bufor detoksykacji, więc to, co jest "lampką dobrego wina dla ciśnienia" dla zdrowych wariantów E3/E3, u "Alzheimerowców" masakruje kurczący się pień mózgowy i potężnie dobija ściany tętnic szyjnych na poziomie śródbłonkowym.
-* **Zalecenia rehabilitacji aerobowej:** Objętość wysiłkowa (tzw. VO2max), budowana siłownią i biegiem by natlenić osocze krwi (minimum 2x w tygodniu) hamuje wykwity szkodliwych blaszek beta-amyloidowych, zmniejszając destrukcyjny wyrok utraty mózgu u pacjentów o rząd sięgający ponad 60% w stosunku do osób prowadzących siedzący tryb życia.
+* **Profil ryzyka (ε4):** Nosiciele allelu ε4 (szczególnie ε4/ε4) mają wyższe ryzyko choroby Alzheimera, miażdżycy i incydentów sercowo-naczyniowych; warto łączyć genotyp z lipidogramem, ciśnieniem, snem i czynnikami środowiskowymi.
+* **Omega-3 i bariera krew–mózg:** Standardowe kapsułki EPA/DHA (trójglicerydy) mogą być mało skuteczne u ε4; w badaniach rozważane są wysokie dawki fosfolipidów DHA (np. olej z kryla) z witaminami z grupy B — decyzja suplementacyjna z lekarzem.
+* **Dieta:** Preferowana dieta śródziemnomorska o niskim indeksie glikemicznym; ograniczenie nasyconych tłuszczów zwierzęcych i węglowodanów rafinowanych; oliwa jako główne źródło tłuszczu wspiera parametry ApoB.
+* **Alkohol:** U ε4 mniejsza tolerancja etanolu względem ε3/ε3; ostrożność z regularnym piciem w kontekście neuro- i naczyniowym.
+* **Aktywność fizyczna:** Regularny trening aerobowy (np. ≥2 sesje tygodniowo poprawiające VO₂max) wiąże się w kohortach z mniejszym obciążeniem amyloidowym i lepszą funkcją poznawczą u osób z ryzykiem ε4.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji neurologicznej ani kardiologicznej.
 
 ### 7. Ciekawostki
 * **Oryginalny Gen Cywilizacji:** Wbrew popularnym mitom medycznym to właśnie fatalny dla serca i umysłu zmutowany układ **E4** jest ewolucyjnym... prawzorem i najstarszym praprzodkiem z rodziny. Gen zidentyfikowano już na szczątkach kuzynów – pierwotnych Denisowian żyjących w zamarzniętej Syberii. Przez większość dziejów łowieckich u hominidów rządził wyłącznie on. Dopiero wraz z rolnictwem kilkaset tysięcy lat temu ewolucja zdołała zoptymalizować nowszą, świetnie adaptującą tłuszcz poprawkę – ε3. Groźny gen został potem sztucznie nałożony w dużej frekwencji do Północnej Europy po inwazji pasterskiej kultury grobów jamowych z epoki brązu.

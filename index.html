@@ -8,7 +8,8 @@
   </head>
   <body>
     <main class="container">
-      <section class="hero">
+      <section class="hero hero--index">
+        <div class="hero__badge" aria-hidden="true">🧬</div>
         <h1>GenMarkerWiki</h1>
         <p>
           Indeks stron HTML dla wszystkich genów w repozytorium. Spis markdown:
@@ -43,10 +44,13 @@
       })();
 
       document.getElementById("gene-grid").innerHTML = window.GENE_INDEX.map(
-        ({ gene, label }) => `
-        <a class="gene-card" href="html/gene.html?gene=${encodeURIComponent(gene)}">
-          <strong>${gene}</strong>
-          <span>${label}</span>
+        ({ gene, label, icon, tone }) => `
+        <a class="gene-card gene-card--${tone}" href="html/gene.html?gene=${encodeURIComponent(gene)}" data-tone="${tone}">
+          <span class="gene-card__icon" aria-hidden="true">${icon}</span>
+          <div class="gene-card__body">
+            <strong>${gene}</strong>
+            <span>${label}</span>
+          </div>
         </a>`
       ).join("");
     </script>

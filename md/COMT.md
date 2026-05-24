@@ -32,19 +32,16 @@
 * **Uwagi o zmienności populacyjnej:** Dodatkowe kohorty (np. AMI 66,37% i SAS 44,81%) pokazują silny wpływ efektu założyciela i struktury populacji na rozkład wariantu.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+* **Profil rs4680:** A/A (Met/Met) — „Zamartwiacz”: lepsza pamięć spoczynkowa, niższy próg bólu, większa podatność na stres; G/G (Val/Val) — „Wojownik”: lepsza odporność na stres ostry, słabsze wyniki kognitywne w spokoju; A/G — profil zrównoważony.
+* **Stres i psychiatria:** Met/Met — techniki redukcji stresu (mindfulness, sen); unikać chronicznego przeciążenia poznawczego; przy lęku rozważ konsultację psychiatryczną (w badaniach m.in. d-cykloseryna).
+* **Kardiometabolika (allel A):** Wolniejszy klirens estrogenów katecholowych — wyższe ryzyko incydentów sercowych u kobiet; monitoring kardiologiczny przy obciążeniach.
+* **Magnez:** Szczególnie u A/A — wsparcie stabilności COMT i nastroju; rozważ suplementację po konsultacji (interakcje z lekami).
+* **Metylacja i SAMe:** U A/A unikać wysokich dawek prekursorów metylowych (SAMe) — ryzyko „overmethylation” i lęku.
+* **EGCG (zielona herbata):** Naturalny inhibitor COMT; ekstrakty >500 mg EGCG u A/A (zwłaszcza po menopauzie) wiążą się z hepatotoksycznością — preferuj herbatę z liści, nie koncentraty.
+* **Witamina E:** U A/A suplementacja wiązała się z niższym ryzykiem niektórych nowotworów w kohortach; u G/G ten sam schemat może nie być korzystny — indywidualna ocena z lekarzem.
+* **Ból, gojenie i sport:** G/G — wyższa tolerancja bólu i stresu w sporcie kontaktowym; gorsze gojenie ran (ryzyko przerostowych blizn). Val/Val — lepsza adaptacja do HIIT pod presją.
 
-* **Funkcje kognitywne i inteligencja:** Wariant A gwarantuje świetną pamięć roboczą i mierzalnie lepsze wyniki testów na inteligencję oraz czytania ze zrozumieniem ze względu na lepsze nasycenie mózgu dopaminą podczas pracy spoczynkowej. 
-* **Kardiometabolika:** Z powodu spowolnionej obróbki dobroczynnych metabolitów krążącego estrogenu, osoby z wariantami osłabionymi (allelem A) mają ewidentnie wyższe statystyczne ryzyko śmiertelnych incydentów kardiologicznych w obrębie choroby wieńcowej serca. Wskazany jest dla nich rygorystyczny monitoring wysiłku serca.
-* **Zarządzanie suplementacją:** * *Magnez:* Absolutnie kluczowy do ustabilizowania resztek wydolności u homozygot A/A. Stanowi silną, nieobciążającą wsparcie przeciwdepresyjne i przeciwlękowe.
-    * *Nadmierna Metylacja:* Należy unikać silnych prekursorów metylowych (w tym dużych dawek SAMe) przy genotypie A/A. Ich nadpodaż tworzy S-adenozylohomocysteinę (SAH), która hamuje i tak niewydajny enzym, wprowadzając osobę z wolnym klirensem w podwyższony stan drażliwości i natrętnego lęku uogólnionego ("overmethylation").
-    * *Interakcje ziołowe (EGCG):* Galusan epigalokatechiny (EGCG z zielonej herbaty) to naturalny inhibitor COMT. Badania udowodniły, że dla kobiet z genotypem A/A (szczególnie po menopauzie), systematyczne branie silnych ekstraktów (np. >500 mg EGCG) prowokuje toksyczne uszkodzenia wątroby. Homozygoty A/A powinny przyjmować katechiny raczej naturalnie z pożywieniem.
-    * *Witamina E:* W szeroko zakrojonych badaniach udowodniono, że u pacjentek z wariantem A/A suplementacja obniża incydenty nowotworowe aż o 12%. Z kolei u genotypów szybkich (G/G), ta sama podaż witaminy E... lekko nasila powstawanie incydentów onkologicznych.
-* **Odporność na ból, leczenie ran i sport:** Osoby z allelem G/G to często wysoce urodzeni profesjonaliści sportów krwawych i ekstremalnych (np. w mieszanych sztukach walki), gdzie radzą sobie z urazami drastycznie lepiej bez spadku jasności umysłu i bólu. Jednak na oddziałach poparzeniowych ich rany podlegają gorszemu gojeniu, wykazując patologiczne, przerostowe blizny.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Koewolucja genetyczno-kulturowa:** Antropolodzy ustalili, że wariant afrykański (G) gwarantował przetrwanie plemionom narażonym na ataki dzikich zwierząt, dając tolerancję na ból i stres w ustrojach typu łowca-zbieracz. Jednak podczas migracji człowieka na wyższe szerokości geograficzne (w stronę mroków polarnych) oraz w trakcie kształtowania złożonych społeczeństw rolniczych przydatniejsze stawało się analityczne "zamartwianie się", wyższe IQ, rzadsze ucieczki i precyzyjne odkładanie żniw.

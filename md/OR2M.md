@@ -36,16 +36,12 @@
 * **Uwagi o zmienności populacyjnej:** Allel A to cecha ewolucyjnie młodsza, rozprzestrzeniona głównie w populacjach indoeuropejskich; brak dużych kohort polskich.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Dieta:** Anosmicy (G/G) mogą jeść szparagi bez dyskomfortu zapachowego; osoby A/A — świadomość efektu po 15–30 min od posiłku. Surowa cebula (OR2M3) — tolerancja zależy od genotypu i nawyków; prebiotyki cebulowe korzystne przy akceptacji smaku.
 * **Miedź:** Dla detekcji tieli cebulowych (OR2M3) — odpowiednie spożycie miedzi (orzechy nerkowca, wątróbka, kakao); subkliniczny niedobór może obniżać czułość receptora.
 * **Aromaterapia:** Geraniol i cytronellol (róża, cytrusy) — silniejsze reakcje u wysokiej ekspresji OR2M7; działanie przeciwzapalne przez PPAR (literatura olejków eterycznych).
 * **Neurologia:** Wrodzona anosmia specyficzna ≠ hiposmia nabyta; postępująca utrata węchu — wczesny marker chorób neurodegeneracyjnych (Alzheimer, Parkinson).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Produkcja vs percepcja:** Tylko ~8% populacji nie produkuje tieli; reszta różni się genetyką węchu w klastrze OR2M.

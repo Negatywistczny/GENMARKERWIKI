@@ -44,16 +44,12 @@
 * **Uwagi o zmienności populacyjnej:** rs6711223 (synonimiczny p.Tyr310=) MAF ~1% globalnie, wyższy w AFR; de novo dominują u MOWS.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Kardiologia (rs2252641, rs17678683):** Dieta przeciwzapalna; unikanie palenia; monitoring lipogramu, hsCRP, homocysteiny; rozważenie statyn/PCSK9 przy wysokim ryzyku rodzinno-klinicznym.
 * **Styl życia:** Ochrona przed przewlekłą hipoksją tkankową; zrównoważony trening tlenowy; kontrola ciśnienia i masy ciała.
 * **Mowat-Wilson (mutacje patogenne):** Wczesna resekcja Hirschsprunga; neurologia/padaczka (często lekooporna); MRI mózgu (ciało modzelowate); terapia rozwojowa; opieka wielospecjalistyczna.
 * **Onkologia:** Nad ekspresja ZEB2 w EMT — kontekst badań nad nowotworami złośliwymi; nie dotyczy typowych polimorfizmów GWAS.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **CRISPR dCas9-KRAB:** Wyciszenie enhancerów ZEB2 w VSMC eksperymentalnie odtwarza fenotyp ryzyka CAD (kalcyfikacja blaszki).

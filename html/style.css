@@ -122,36 +122,287 @@ body {
   }
 }
 
+.hero--index {
+  position: relative;
+  overflow: hidden;
+  background: linear-gradient(
+    135deg,
+    var(--card) 0%,
+    color-mix(in srgb, var(--accent) 8%, var(--card-2)) 55%,
+    color-mix(in srgb, var(--accent-2) 10%, var(--card-2)) 100%
+  );
+}
+
+.hero--index::before {
+  content: "";
+  position: absolute;
+  inset: -40% -20% auto auto;
+  width: 220px;
+  height: 220px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(122, 162, 255, 0.18), transparent 68%);
+  pointer-events: none;
+}
+
+.hero__badge {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.6rem;
+  height: 2.6rem;
+  margin-bottom: 0.55rem;
+  font-size: 1.35rem;
+  border-radius: 12px;
+  background: linear-gradient(145deg, rgba(122, 162, 255, 0.22), rgba(78, 225, 193, 0.18));
+  border: 1px solid var(--border);
+}
+
 .grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
-  gap: 0.85rem;
+  grid-template-columns: repeat(auto-fill, minmax(220px, 1fr));
+  gap: 0.9rem;
 }
 
 .gene-card {
-  background: var(--card);
-  border: 1px solid var(--border);
+  --gene-tint: rgba(122, 162, 255, 0.14);
+  --gene-border: rgba(122, 162, 255, 0.32);
+  --gene-glow: rgba(122, 162, 255, 0.12);
+  display: flex;
+  align-items: flex-start;
+  gap: 0.75rem;
+  background: linear-gradient(155deg, var(--card), color-mix(in srgb, var(--gene-tint) 55%, var(--card-2)));
+  border: 1px solid color-mix(in srgb, var(--gene-border) 70%, var(--border));
   border-radius: 14px;
-  padding: 0.95rem 1rem;
+  padding: 0.9rem 0.95rem;
   text-decoration: none;
   color: var(--text);
-  box-shadow: var(--shadow);
-  transition: transform 0.14s ease, border-color 0.14s ease;
+  box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.04);
+  transition: transform 0.14s ease, border-color 0.14s ease, box-shadow 0.14s ease;
 }
 
 .gene-card:hover {
   transform: translateY(-2px);
-  border-color: var(--accent);
+  border-color: color-mix(in srgb, var(--gene-border) 85%, var(--accent));
+  box-shadow: var(--shadow), 0 0 0 1px var(--gene-glow), 0 10px 28px var(--gene-glow);
+}
+
+.gene-card__icon {
+  flex-shrink: 0;
+  width: 2.55rem;
+  height: 2.55rem;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.28rem;
+  line-height: 1;
+  border-radius: 11px;
+  background: var(--gene-tint);
+  border: 1px solid color-mix(in srgb, var(--gene-border) 55%, transparent);
+  box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.gene-card__body {
+  min-width: 0;
 }
 
 .gene-card strong {
   display: block;
-  font-size: 1.06rem;
+  font-size: 1.04rem;
+  letter-spacing: 0.01em;
 }
 
-.gene-card span {
+.gene-card__body > span {
+  display: block;
   color: var(--muted);
-  font-size: 0.9rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+  margin-top: 0.15rem;
+}
+
+.gene-card--amber {
+  --gene-tint: rgba(245, 183, 80, 0.2);
+  --gene-border: rgba(214, 154, 52, 0.45);
+  --gene-glow: rgba(245, 183, 80, 0.14);
+}
+.gene-card--coral {
+  --gene-tint: rgba(255, 138, 101, 0.2);
+  --gene-border: rgba(230, 95, 70, 0.42);
+  --gene-glow: rgba(255, 138, 101, 0.14);
+}
+.gene-card--indigo {
+  --gene-tint: rgba(120, 134, 255, 0.2);
+  --gene-border: rgba(88, 101, 242, 0.42);
+  --gene-glow: rgba(120, 134, 255, 0.14);
+}
+.gene-card--rose {
+  --gene-tint: rgba(255, 120, 140, 0.2);
+  --gene-border: rgba(220, 80, 105, 0.4);
+  --gene-glow: rgba(255, 120, 140, 0.14);
+}
+.gene-card--violet {
+  --gene-tint: rgba(167, 139, 250, 0.2);
+  --gene-border: rgba(124, 92, 220, 0.4);
+  --gene-glow: rgba(167, 139, 250, 0.14);
+}
+.gene-card--purple {
+  --gene-tint: rgba(192, 132, 252, 0.2);
+  --gene-border: rgba(147, 78, 220, 0.4);
+  --gene-glow: rgba(192, 132, 252, 0.14);
+}
+.gene-card--slate {
+  --gene-tint: rgba(148, 163, 184, 0.22);
+  --gene-border: rgba(100, 116, 139, 0.45);
+  --gene-glow: rgba(148, 163, 184, 0.14);
+}
+.gene-card--steel {
+  --gene-tint: rgba(96, 165, 210, 0.2);
+  --gene-border: rgba(59, 130, 180, 0.42);
+  --gene-glow: rgba(96, 165, 210, 0.14);
+}
+.gene-card--teal {
+  --gene-tint: rgba(45, 212, 191, 0.18);
+  --gene-border: rgba(20, 184, 166, 0.4);
+  --gene-glow: rgba(45, 212, 191, 0.14);
+}
+.gene-card--pink {
+  --gene-tint: rgba(244, 114, 182, 0.2);
+  --gene-border: rgba(219, 39, 119, 0.38);
+  --gene-glow: rgba(244, 114, 182, 0.14);
+}
+.gene-card--crimson {
+  --gene-tint: rgba(248, 113, 113, 0.2);
+  --gene-border: rgba(220, 38, 38, 0.38);
+  --gene-glow: rgba(248, 113, 113, 0.14);
+}
+.gene-card--sage {
+  --gene-tint: rgba(134, 179, 134, 0.2);
+  --gene-border: rgba(74, 124, 89, 0.4);
+  --gene-glow: rgba(134, 179, 134, 0.14);
+}
+.gene-card--night {
+  --gene-tint: rgba(99, 102, 241, 0.2);
+  --gene-border: rgba(67, 56, 202, 0.4);
+  --gene-glow: rgba(99, 102, 241, 0.14);
+}
+.gene-card--bronze {
+  --gene-tint: rgba(205, 164, 110, 0.22);
+  --gene-border: rgba(161, 118, 62, 0.42);
+  --gene-glow: rgba(205, 164, 110, 0.14);
+}
+.gene-card--mocha {
+  --gene-tint: rgba(180, 130, 95, 0.22);
+  --gene-border: rgba(120, 80, 55, 0.42);
+  --gene-glow: rgba(180, 130, 95, 0.14);
+}
+.gene-card--mint {
+  --gene-tint: rgba(110, 231, 183, 0.18);
+  --gene-border: rgba(16, 185, 129, 0.38);
+  --gene-glow: rgba(110, 231, 183, 0.14);
+}
+.gene-card--gold {
+  --gene-tint: rgba(250, 204, 21, 0.2);
+  --gene-border: rgba(202, 138, 4, 0.42);
+  --gene-glow: rgba(250, 204, 21, 0.14);
+}
+.gene-card--lavender {
+  --gene-tint: rgba(196, 181, 253, 0.22);
+  --gene-border: rgba(139, 92, 246, 0.38);
+  --gene-glow: rgba(196, 181, 253, 0.14);
+}
+.gene-card--peach {
+  --gene-tint: rgba(253, 186, 140, 0.22);
+  --gene-border: rgba(234, 120, 80, 0.4);
+  --gene-glow: rgba(253, 186, 140, 0.14);
+}
+.gene-card--sun {
+  --gene-tint: rgba(253, 224, 71, 0.22);
+  --gene-border: rgba(202, 138, 4, 0.4);
+  --gene-glow: rgba(253, 224, 71, 0.14);
+}
+.gene-card--sky {
+  --gene-tint: rgba(125, 211, 252, 0.22);
+  --gene-border: rgba(14, 165, 233, 0.4);
+  --gene-glow: rgba(125, 211, 252, 0.14);
+}
+.gene-card--cream {
+  --gene-tint: rgba(254, 243, 199, 0.28);
+  --gene-border: rgba(180, 160, 120, 0.38);
+  --gene-glow: rgba(254, 243, 199, 0.16);
+}
+.gene-card--rust {
+  --gene-tint: rgba(220, 100, 70, 0.2);
+  --gene-border: rgba(185, 60, 40, 0.4);
+  --gene-glow: rgba(220, 100, 70, 0.14);
+}
+.gene-card--ginger {
+  --gene-tint: rgba(251, 146, 60, 0.22);
+  --gene-border: rgba(234, 88, 12, 0.4);
+  --gene-glow: rgba(251, 146, 60, 0.14);
+}
+.gene-card--forest {
+  --gene-tint: rgba(74, 222, 128, 0.16);
+  --gene-border: rgba(22, 163, 74, 0.38);
+  --gene-glow: rgba(74, 222, 128, 0.14);
+}
+.gene-card--tan {
+  --gene-tint: rgba(214, 180, 140, 0.22);
+  --gene-border: rgba(161, 120, 85, 0.4);
+  --gene-glow: rgba(214, 180, 140, 0.14);
+}
+.gene-card--leaf {
+  --gene-tint: rgba(134, 239, 172, 0.18);
+  --gene-border: rgba(34, 197, 94, 0.38);
+  --gene-glow: rgba(134, 239, 172, 0.14);
+}
+.gene-card--herb {
+  --gene-tint: rgba(110, 231, 160, 0.18);
+  --gene-border: rgba(5, 150, 105, 0.38);
+  --gene-glow: rgba(110, 231, 160, 0.14);
+}
+.gene-card--blush {
+  --gene-tint: rgba(251, 182, 206, 0.22);
+  --gene-border: rgba(236, 72, 153, 0.38);
+  --gene-glow: rgba(251, 182, 206, 0.14);
+}
+.gene-card--ivory {
+  --gene-tint: rgba(254, 240, 220, 0.24);
+  --gene-border: rgba(200, 170, 140, 0.38);
+  --gene-glow: rgba(254, 240, 220, 0.14);
+}
+.gene-card--pearl {
+  --gene-tint: rgba(226, 232, 240, 0.22);
+  --gene-border: rgba(148, 163, 184, 0.42);
+  --gene-glow: rgba(226, 232, 240, 0.14);
+}
+.gene-card--storm {
+  --gene-tint: rgba(147, 197, 253, 0.18);
+  --gene-border: rgba(59, 130, 246, 0.38);
+  --gene-glow: rgba(147, 197, 253, 0.14);
+}
+.gene-card--grape {
+  --gene-tint: rgba(192, 132, 252, 0.2);
+  --gene-border: rgba(126, 34, 206, 0.38);
+  --gene-glow: rgba(192, 132, 252, 0.14);
+}
+.gene-card--honey {
+  --gene-tint: rgba(252, 211, 77, 0.22);
+  --gene-border: rgba(217, 119, 6, 0.4);
+  --gene-glow: rgba(252, 211, 77, 0.14);
+}
+.gene-card--wine {
+  --gene-tint: rgba(190, 90, 120, 0.2);
+  --gene-border: rgba(136, 40, 70, 0.4);
+  --gene-glow: rgba(190, 90, 120, 0.14);
+}
+
+@media (prefers-color-scheme: light) {
+  .gene-card {
+    box-shadow: var(--shadow), inset 0 1px 0 rgba(255, 255, 255, 0.65);
+  }
+
+  .gene-card__icon {
+    box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.55);
+  }
 }
 
 .article {

@@ -34,17 +34,13 @@
 * **Uwagi o zmienności populacyjnej:** Gradient północ-południe w Europie jest silny (np. bardzo wysokie wartości w Skandynawii, niskie w rejonie śródziemnomorskim); w Polsce allel T zwykle ok. 24,8-27,72%.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Kardiologia i Profil Lipidowy:** Genotyp hipolaktazji (C/C) jest silnie związany z niekorzystnym profilem miażdżycowym. Pacjenci bez wariantu T posiadają statystycznie wyższe poziomy aterogennego białka ApoB100 i obniżone poziomy ochronnego ApoA1, a wskaźnik ApoB100/ApoA1 ulega niebezpiecznemu podwyższeniu. Wiąże się to m.in. z eliminacją ochronnego wpływu nabiału (wapń wiążący cholesterol w jelitach) i zastępowaniem go rafinowanymi cukrami. Zaleca się ścisłą weryfikację współczynnika ApoB/ApoA1 u nosicieli C/C stroniących od mleka.
 * **Gęstość Kości (BMD):** U postmenopauzalnych kobiet z genotypem braku persystencji obserwuje się silniejszy ubytek masy kostnej z szyjki kości udowej, co koreluje ze zmniejszonym o połowę spożyciem wapnia względem nosicieli tolerancji. Wskazana jest celowana suplementacja organicznego wapnia i witaminy D.
 * **Zespół Jelita Drażliwego (IBS):** U pacjentów z postacią biegunkową (D-IBS) i profilem C/C spożycie laktozy bezpośrednio stymuluje degranulację komórek tucznych, zaostrzając trzewny próg bólowy. Wdrożenie diety low-FODMAP i wykluczenie laktozy przynosi w tej grupie natychmiastową ulgę w bólu.
 * **Skłonność do otyłości:** Osoby swobodnie trawiące laktozę (nosiciele allelu T) charakteryzują się statystycznie szerszym obwodem talii i wyższym BMI (p = 7,9 × 10⁻⁵). Swoboda w konsumpcji skutkuje u nich włączaniem do diety gęstych kalorycznie serów i mleka w ilościach znacznie przewyższających zapotrzebowanie jednostek LNP. Nosiciele T powinni uważnie kontrolować podaż płynnych kalorii nabiałowych.
 * **Sport i Odżywki:** Badania nie potwierdzają, by wariant C/T miał znaczenie w budowaniu tkanki mięśniowej czy tolerancji wysiłku. Mając jednak genotyp C/C, sportowiec nie powinien spożywać koncentratu serwatki (WPC) obfitującego w laktozę; zaleca się bezwzględne korzystanie z czystych izolatów białkowych (WPI) lub wegańskich odpowiedników grochowo-ryżowych w celu uniknięcia retencji wody.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Twarde wymiatanie genetyczne:** Polimorfizm ten stanowi niesamowity pomnik tzw. ewolucji genetyczno-kulturowej, gdzie to zdobycz kultury (hodowla bydła rogatego) zmieniła strukturę biologiczną człowieka. Jednostki z nową mutacją mogły pić wolne od patogenów mleko podczas zabójczych zim na północy, wypierając konkurencję.

@@ -32,16 +32,12 @@
 * **Uwagi o zmienności populacyjnej:** To jeden z najbardziej geograficznie zróżnicowanych SNP niesynonimicznych; porównania wymagają uwzględnienia struktury populacji i metod genotypowania.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Zarządzanie Stresem i Psychiatria:** Nosiciele "wolnego" allelu Met są drastycznie narażeni na przesterowanie osi HPA wskutek wyrzutów kortyzolu, co generuje utrudnione wygaszanie lęków i predysponuje do zespołu stresu pourazowego (PTSD). W odpowiedzi na agresję twarzy dorośli i dzieci reagują unikalnym fizjologicznie wzorcem "czujność-unikanie", natychmiast uciekając wzrokiem od stymulanta lękowego. Profilaktyka wymusza techniki mindfulness, a medycyna bada wsparcie takich osób częściowym agonistą NMDA (d-cykloseryną). Ponadto u mężczyzn z wariantem Met/Val chorych na schizofrenię pierwszy atak psychozy następuje średnio o 6,2 lat wcześniej niż u kobiet, wskazując na silny efekt hormonów chroniących.
 * **Dietetyka i Omega-3:** Przy braku odpowiednich zasobów energetycznych, osłabienie BDNF z jądra podwzgórza wymusza paradoksalnie hiperfagię i nagromadzenie tkanki tłuszczowej. Nosicielstwo wariantu Met reaguje jednak fenomenalnie i terapeutycznie na wysokie stężenia kwasów PUFA (omega-3 z ryb), które bezpośrednio redukują BMI i zapobiegają otyłości trzewnej. Molekuły takie jak antocyjany i flawonoidy z cytrusów potrafią mechanicznie stabilizować zepsutą cząsteczkę BDNF, ratując jej sekrecję.
 * **Sport:** Aktywność fizyczna to najsilniejsza tarcza niefarmakologiczna ratująca ekspresję BDNF. U posiadaczy zwinnego, "europejskiego" genotypu Val/Val dochodzi do natychmiastowej szarży BDNF w synapsach po jednej ostrej jednostce (np. interwałach HIIT), co usprawnia pamięć. Nosiciele gorszego układu Met reagują blokadą sekrecji. Wymagają oni bezwzględnie wdrożenia ciągłego reżimu minimum 12 tygodni kolarstwa, lub 6 tygodni ćwiczeń HIIT by przełamać biologiczny defekt i zmusić mózg do neurogenezy. Układ dziki (Val/Val) silnie dominuje genetycznie wśród polskich sportowców wyczynowych z lig lekkoatletycznych.
 * **Opieka po udarach:** Analizy z polskich oddziałów dowodzą, że odziedziczony polimorfizm determinuje regenerację. Profil rs6265 wiąże się ze statystycznym wynikiem w testach kognitywnych w ciągu całego 6-miesięcznego okna rekonwalescencji neurologicznej po udarze niedokrwiennym.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Ewolucyjna zagadka Człowieka:** Białko to jest biologicznie nienaruszalne w toku ewolucji (ponad 90% genów ryb i ssaków dzieli jego dokładną strukturę). Zmutowany, spowolniony allel Met pojawił się jako unikalny wyjątek *wyłącznie* we krwi ludzkiej, nie mając ani jednego odpowiednika u małp i innych ssaków.

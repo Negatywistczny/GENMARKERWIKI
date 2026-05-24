@@ -36,16 +36,12 @@
 * **Uwagi o zmienności populacyjnej:** U Azjatów stosować panele wielolocusowe (rs1998076, rs913063), nie rs6152; CAG repeat analizować osobno w diagnostyce SBMA i ocenie czułości androgenowej.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Trychologia:** Nosiciele allelu G — wczesna ocena AGA; rozważyć finasteryd lub dutasteryd (inhibitory 5α-reduktazy) po konsultacji dermatologicznej; skuteczność finasterydu koreluje z owłosieniem ciała (lepsza odpowiedź u „pileous”). Unikać wzbudzania lęku przed działaniami niepożądanymi (efekt nocebo zwiększa zgłaszane zaburzenia erekcji z ~14% do ~44%).
 * **Urologia:** Dostosować interpretację PSA do genotypu i długości CAG — krótsze CAG wiążą się z wyższym PSA przy braku raka; allel A — niższe bazowe PSA. Krótkie CAG — wcześniejszy wiek rozpoznania raka prostaty, ale często lepsza początkowa odpowiedź na ADT.
 * **Diagnostyka rzadkich chorób:** Ekspansja CAG >40 — badanie pod kątem choroby Kennedy'ego (SBMA); różnicować ze SLA. CAIS — sekwencjonowanie pełnego genu (mutacje intronowe mogą maskować się jako łagodny rs6152).
 * **Sport i antropologia:** W populacji ogólnej brak wpływu CAG/rs6152 na siłę i masę mięśniową; u sportowców wyczynowych dłuższe CAG może korelować z adaptacją siłową przy ekstremalnym treningu. Wskaźnik 2D:4D u kobiet koreluje z rs6152 (marker ekspozycji prenatalnej na androgeny).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Pierwsza mutacja dynamiczna:** Ekspansja CAG w AR (1991, La Spada) była pierwszym opisem mutacji dynamicznej u człowieka — przed Huntingtonem w świadomości populacyjnej, choć oba mechanizmy są dziś klasyczne.

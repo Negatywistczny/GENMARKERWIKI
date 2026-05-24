@@ -45,18 +45,14 @@
 * **Uwagi o zmienności populacyjnej:** Normy 25(OH)D bez genotypu GC mogą niedoszacować niedoboru u nosicieli C/C; brak dużych kohort polskich — ekstrapolacja z Europy Środkowej.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Witamina D:** U genotypu rs2282679 C/C (i często Gc2/2) standardowa suplementacja 800–1000 IU/d może być niewystarczająca; rozważ wyższe dawki i pomiar 25(OH)D oraz wolnej frakcji. U niemowląt genotyp GC modyfikuje odpowiedź na wysokie dawki witaminy D3.
 * **Kości:** Allel G rs7041 sprzyja wyższej BMD u kobiet po menopauzie; allel A rs4588 — osteopenia; u kobiet w ciąży allel T rs7041 u matki może zaburzać wzrost VDBP w III trymestrze.
 * **Metabolizm i infekcje:** Gc2/2 i rs4588-AA — monitorowanie przy sepsie i zabiegach ortopedycznych (endoproteza biodra). Gc1s/1s u palących Europejczyków — profil ryzyka POChP.
 * **Onkologia:** Gc1f — lepsze przeżycie w czerniaku (Breslow); rs2282679-C — gorsze DFS w raku jelita grubego z BRAF dziki.
 * **Sport:** Suboptymalne 25(OH)D u rs2282679-GG w CrossFit® — ryzyko myopatii i gorszej regeneracji; suplementacja i monitoring sezonowy.
 * **Neurologia:** MR — wyższe stężenie VDBP genetycznie skorelowane z niższym ryzykiem Alzheimera (dane randomizacji mendlowskiej); nie zastępuje profilaktyki potwierdzonej klinicznie.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Bufor wolnego hormonu:** Ok. 85–90% witaminy D w osoczu jest związane z VDBP — genotyp zmienia głównie pulę całkowitą, nie zawsze dostępność hormonalną.

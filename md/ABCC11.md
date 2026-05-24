@@ -36,16 +36,12 @@
 * **Uwagi o zmienności populacyjnej:** Gradient szerokości geograficznej w populacjach rdzennych Ameryk; w Melanezji (np. Gidra) obserwuje się „powrót” allelu G w klimacie tropikalnym; brak dedykowanych dużych kohort polskich — dane ekstrapolowane z Europy Środkowej.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Higiena osobista:** Nosiciele A/A zwykle nie potrzebują antyperspirantów z solami glinu ani dezodorantów maskujących zapach; ok. 5% Europejczyków z genotypem suchym nadal je stosuje z przyzwyczajenia kulturowego. Przy G/G i G/A — rutynowa higiena pach i unikanie silnego blokowania ujść gruczołów przy skłonności do zapalenia apokrynowego.
 * **Laryngologia:** Przy A/A — regularne krople cerumenolityczne, unikanie patyczków higienicznych (ryzyko czopów i niedosłuchu przewodzeniowego). Przy G/G — kontrola mikrobiomu ucha i obserwacja objawów przy predyspozycji do perłaka (szczególnie u wilgotnej woskowiny).
 * **Onkologia i chemioterapia:** Wysoka ekspresja ABCC11 w nowotworach piersi (HER2+, potrójnie ujemne) wiąże się z gorszym rokowaniem. Genotyp A/A może zwiększać skuteczność antymetabolitów (pemetreksed, metotreksat, 5-FU) przez słabszy efflux. Osobno: rs17822471 CT/TT — podwyższone ryzyko ciężkiej leukopenii przy 5-FU; przed chemioterapią fluoropirymidynową warto omówić test genetyczny z onkologiem.
 * **Interpretacja populacyjna raka piersi:** Asocjacje ochronne A/A z rakiem piersi ER- dotyczą głównie kohort azjatyckich; w populacjach kaukaskich replikacja jest słaba lub nieobecna.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Selekcja w mrozie:** Mutacja A szacowana na ok. 44 000 lat temu w Syberii; teoria adaptacji do zimna przez redukcję pocenia — potwierdzenie w DNA osobnika z Ust'-Iszym (paleolityk).

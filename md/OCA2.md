@@ -52,17 +52,13 @@
 * **Uwagi o zmienności populacyjnej:** Ten sam fenotyp jasnej skóry w Europie (SLC24A5) i Azji (OCA2 H615R) — przykład konwergencji ewolucyjnej; interpretacja koloru oczu wymaga rs12913832 + ewentualnie rs1800407.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Ochrona oczu (rs12913832 G/G, rs1800407 T/T):** Okulary UV400 codziennie; filtr światła niebieskiego przy ekranach; coroczne badanie dna oka; luteina + zeaksantyna (10–20 mg / 2–4 mg) dla plamki żółtej.
 * **Skóra:** SPF 50+ UVA/UVB; unikanie słońca 11:00–15:00 i solarium; szczególnie przy rs1800414-G/G w Azji lub albinizmie OCA2.
 * **Witamina D:** Jasna karnacja — szybsza synteza skórna, ale przy unikaniu słońca monitorować 25(OH)D i suplementować według wyników.
 * **Albinizm OCA2:** Delecja 2,7 kb w Afryce Subsaharyjskiej — pełna ochrona UV, okulary, opieka okulistyczna i dermatologiczna; edukacja społeczna (wysokie ryzyko dyskryminacji w niektórych regionach).
 * **Onkologia:** G/G rs12913832 — czerniak naczyniówki (monitoring); T/T rs1800407 — profil BCC; nie łączyć z IQ ani sportem (brak dowodów).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Monofiletyczne niebieskie oczy:** 97% niebieskookich Europejczyków dzieli identyczny haplotyp 13 SNP — jeden przodek ~6–10 tys. lat temu.

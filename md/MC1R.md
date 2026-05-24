@@ -59,17 +59,13 @@
 * **Uwagi o zmienności populacyjnej:** Częstości są marker-specyficzne i zależne od haplotypów; ze względu na repulsję haplotypową dane o pełnych homozygotach LOF poza Europą bywają ograniczone.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Onkologia i Ochrona Skóry:** Osoby posiadające zmutowane warianty "R" są ekstremalnie narażone na agresywnego czerniaka złośliwego i nowotwory niebarwnikowe. Wynika to z braków eumelaniny, uszkadzającego fotolitycznego wpływu feomelaniny, oraz odcięcia białka PTEN, co sztucznie aktywuje nowotworowy szlak PI3K/Akt/mTOR (szczególnie w obecności mutacji BRAF, odpowiedzialnej za 70% czerniaków). Zaleca się całoroczne stosowanie blokerów SPF 50+, drastyczne unikanie solariów i obligatoryjną dermatoskopię u lekarza co 6-12 miesięcy.
 * **Witamina D:** Naturalna awersja do słońca wywołuje u tych pacjentów niebezpiecznie głęboki niedobór witaminy D. Taki stan bardzo silnie promuje grubienie guzów czerniakowych i pogarsza przeżywalność. Nakazuje się kliniczną suplementację D3, celem utrzymania poziomów surowiczych w granicy bezpiecznego optiumum >50 nmol/l (idealnie 75-110 nmol/l).
 * **Sport:** Badania obalają wpływ mutacji na wydolność, motorykę czy siłę. Aktywność outdoorowa musi jednak bazować na ubraniach z filtrem UPF i unikaniu najcięższej popołudniowej ekspozycji na UV.
 * **Lęk Kliniczny:** Warianty tego genu są udowodnionym markerem wyższych wskaźników lęku medycznego i dentofobii u nosicieli. Z powodu zmniejszonej wydajności leków, u pacjentów tych zaleca się stosowanie wziewnych gazów sedacyjnych oraz technik obniżania stresu bezpośrednio przed operacjami.
 * **Anestezjologia i Ból:** Nosiciele zmutowanych genotypów wykazują wyraźnie słabszą odpowiedź i tolerancję na znieczulenie lidokainą (podskórnie), co wymusza korzystanie z alternatyw (np. artykaina). Przez długi czas popularnym medycznym mitem było rzekome zapotrzebowanie osób rudych na podwyższenie dawki gazu znieczulającego ogólnie o 20%. Olbrzymie współczesne badania porównawcze (319 osób rudych vs 1595 z grupy kontrolnej) udowodniły jednak, że mit ten nie rzutuje na wskaźniki ryzyka przebudzenia (śródopeacyjnego wybudzenia) i oficjalnie odradza się medykom modyfikację protokołu uśpienia tylko na bazie genu. Interesująco, rude kobiety znacznie skuteczniej reagują na leki przeciwbólowe oparte na szlaku receptorów kappa-opioidowych (np. pentazocyna).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Tajemnica neandertalczyków:** Genetyka molekularna odkryła na podstawie DNA włoskich i hiszpańskich neandertalczyków, że posiadali oni swoją unikalną i nigdzie niespotykaną mutację genu MC1R (Arg307Gly), której nie znaleziono we krwi u ponad 3700 zsekwencjonowanych nowożytnych przedstawicieli *Homo sapiens*. Stanowi to dowód zjawiska ewolucji konwergentnej, w której neandertalczyk rozjaśnił swój fenotyp zupełnie inną niezależną mutacją.

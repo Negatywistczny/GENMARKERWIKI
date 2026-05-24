@@ -65,12 +65,6 @@
 * **Uwagi o zmienności populacyjnej:** Częstości zależą od płci, sposobu kodowania VNTR (2R/3R/3.5R/4R/4.5R/5R) i lokalnych efektów założyciela (np. 2R we Włoszech, 3.3R w Tajlandii).
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 **A. Dla wariantów Powolnych (MAOA-L, np. 3R, rs6323-T):**
 * **Dieta bez Tyraminy:** Zmodyfikowany enzym nie eliminuje skutecznie tyraminy ze światła jelit, która dostaje się do mózgu i wyrzuca noradrenalinę z pęcherzyków, powodując skrajne zaczerwienienie, furię i palpitacje (efekt sympatykomimetyczny). Należy kategorycznie odstawić: sery dojrzewające i pleśniowe, dojrzewające wędliny i salami, produkty fermentowane i drożdże (soja, miso, marmite), stare czerwone wina (chianti) oraz przejrzałe warzywa i owoce. Dieta powinna być ultraświeża.
@@ -81,6 +75,8 @@
 **B. Dla wariantów Szybkich (MAOA-H, np. 4R, rs6323-G):**
 * **Brak paliwa w synapsach:** Mózgi te cierpią na przedwczesne usuwanie neuroprzekaźników, co rodzi skłonność do apatii i dużych zaburzeń depresyjnych (MDD). Podlegają drastycznemu zagrożeniu nałogowym paleniem w próbach sztucznego podbicia dopaminy.
 * **Suplementacja wspierająca:** Komórki te wyśmienicie odpowiadają na formy prekursorowe – biologiczną witaminę B6 (P-5-P). Katalizuje ona drastyczne i omijające MAO przyspieszenie konwersji Tryptofanu do serotoniny oraz Tyrozyny do dopaminy. W odróżnieniu od grupy "wojowników", pacjenci ci powinni i muszą ładować metylację za pomocą L-Metylofolianu.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Odkrycie Zespołu Brunnera:** W 1993 roku w Holandii zgłosiła się kobieta ze wstrząsającą rodzinną przypadłością – męscy potomkowie klanu cierpieli na ataki nieludzkiego szału, popełniali przestępstwa i byli dotknięci niedorozwojem. Dr Han Brunner udowodnił bezsprzecznie, że pojedyncza mutacja nonsensowna w enzymie degradacyjnym niszczy całą wolicjonalną strukturę osobowości przez zatrucie organizmu serotoniną. Terapia naprawcza CRISPR/Cas9 wykazała już pierwsze sukcesy na modelach tkankowych komórek pacjentów.

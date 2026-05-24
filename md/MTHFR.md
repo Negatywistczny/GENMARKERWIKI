@@ -50,12 +50,6 @@
 * **Uwagi o zmienności populacyjnej:** Rozkład A1298C bywa odmienny od C677T (np. wysokie częstości allelu C w części populacji południowoazjatyckich, ok. 41,10%).
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Toksyczność syntetycznego kwasu foliowego:** Nosiciele spowolnionych wariantów (głównie 677T/T) nie radzą sobie z konwersją zwykłego kwasu foliowego z suplementów. Dochodzi u nich do kumulacji UMFA (niezmetabolizowanego kwasu), który blokuje receptory, maskuje ciężkie anemie B12 i uderza w układ odpornościowy komórek NK.
 * **Obejście biochemiczne (5-MTHF):** Zaleca się stosowanie wyłączne aktywnych soli – L-metylofolianu wapnia (np. Metafolin, Quatrefolic), które od razu zasilają cykl i redukują homocysteinę omijając MTHFR.
 * **Rewolucja w kardiologii i ginekologii:** Nowoczesne wytyczne na świecie jednoznacznie odradzają panikę u pacjentek. Sama obecność mutacji na papierze *nie jest* podstawą do diagnozy genetycznej trombofilii ani wdrażania zastrzyków z heparyną w ciąży (jeśli nie ma innych wskaźników). Wymagane jest po prostu kontrolowanie u kobiety realnego poziomu samej homocysteiny z krwi obwodowej.
@@ -64,6 +58,8 @@
     1. **Monohydrat Kreatyny:** Synteza kreatyny konsumuje nawet do 70% zasobów grup metylowych SAMe ludzkiego organizmu. Podanie 5g na zewnątrz dosłownie gasi produkcję endogenną, całkowicie odciążając awaryjny obieg i drastycznie ucinając toksyczną homocysteinę w naczyniach serca.
     2. **Ryboflawina (Witamina B2):** Farmakologiczne dawki B2 fizycznie wpychają kofaktor z powrotem w uszkodzoną termicznie domenę katalityczną wariantu C677T, normalizując np. oporne ciśnienie tętnicze u dorosłych nosicieli.
     3. **Betaina (TMG):** Trimetyloglicyna uaktywnia szlak zastępczy (enzym BHMT) operujący w wątrobie, który utylizuje homocysteinę całkowicie "pod nosem" nieaktywnego MTHFR.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Ochrona Malaryczna (Antagonistyczna Plejotropia):** Zmutowany allel 677T upowszechnił się w basenie Morza Śródziemnego ratując populację przed epidemiami mózgowej formy malarii. Mordercze zarodźce (Plazmodium) nie były w stanie replikować swojego DNA z braku wygenerowanych folianów u zmutowanych pacjentów z MTHFR, co dawało im ewolucyjną szansę na przetrwanie infekcji i rozmnożenie z wariantem T.

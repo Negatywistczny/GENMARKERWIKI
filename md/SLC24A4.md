@@ -43,17 +43,13 @@
 * **Uwagi o zmienności populacyjnej:** Mutacje AI2A5 (np. c.1015C>T) rzadkie (<0,01%); głównie rodowody z konsangwinitetem w Azji Południowej.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Dermatologia (T/T):** SPF 50+ całorocznie, dermatoskopia znamion; antyoksydanty (astaksantyna, EGCG, likopen).
 * **Kardiologia:** Spadek NCKX4 z wiekiem — unikać wysokich dawek samego wapnia; witamina K2 (MK-7 100–200 µg/d), magnez 300–400 mg/d.
 * **Stomatologia:** Mutacje patogenne — opieka stomatologiczna przy AI2A5; rs12896399 nie predysponuje do AI.
 * **Neurologia:** rs12590654 — możliwa redukcja ryzyka LOAD (dane europejskie, niejednorodne w Azji); dieta MIND, cardio, omega-3.
 * **Kryminalistyka:** rs12896399 w panelach HIrisPlex / 8-plex do fenotypowania DNA.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Paleogenetyka:** Utrwalenie T u Europejczyków ~30 000 lat temu — adaptacja do niskiego UV i syntezy witaminy D.

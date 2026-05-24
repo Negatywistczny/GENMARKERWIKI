@@ -32,16 +32,13 @@
 * **Uwagi o zmienności populacyjnej:** Dane kliniczne z polskich kohort laryngologicznych wskazują wyższą częstość AVI u chorych z CRSwNP niż w populacji kontrolnej, co może zawyżać częstości w próbach klinicznych względem populacyjnych.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+* **Genotyp C/C (PAV/PAV — supersmakosz):** Wysoka wrażliwość na gorycz (PTC, PROP, brokuły, brukselka); warto stosować obróbkę termiczną, tłuszcze i sól ograniczające gorycz; u dzieci unikać kompensacji słodyczami.
+* **Genotyp C/A (PAV/AVI):** Profil pośredni — częściowa wrażliwość na gorycz i zmienna tolerancja warzyw krzyżowych.
+* **Genotyp A/A (AVI/AVI — non-taster):** Brak percepcji goryczy PTC/PROP; wyższe ryzyko niedoborów warzyw kapustnych w diecie — świadomie włączaj brokuły/szpinak po obróbce; u dzieci kontroluj nawyki słodzone.
+* **Laryngologia (A/A):** Słabsza odpowiedź obronna NO w zatokach — rozważ irygację solą morską, unikanie dymu tytoniowego; wyższe ryzyko infekcji górnych dróg oddechowych w kohortach (PMID: 23041624).
+* **Otyłość i używki (A/A):** Brak sygnału odpychającego goryczą może sprzyjać wyższemu spożyciu kalorii z piwa, wędlin i przetworzonej żywności — monitoruj masę ciała; genotyp PAV wiąże się z niższą skłonnością do palenia u młodzieży.
 
-* **Klinika Laryngologiczna (Dla AVI/AVI):** Ponieważ chorzy ślepi na smak mają odcięty biologicznie proces gazowania obronnego NO u rzęsek obwodowych nosa na bakterie takie jak *Pseudomonas*, są predysponowani do zjadliwego uszkodzenia zatok i złych wskaźników SNOT-22. Bezwzględnie zaleca się dla nich rutynową dezynfekcję solami morskimi by sztucznie usuwać biofilmy oraz unikanie paraliżującego resztki rzęsek dymu.
-* **Ujęcie Odżywiania (Dla PAV/PAV):** Tasterzy bardzo często odrzucają silne glukozynolany obecne w brokułach i brukselce. Niestety promuje to masowy spadek witamin u kobiet. Wskazane jest poddawanie takich ziół twardej obróbce, używanie zdrowych tłuszczy i naturalnej soli która dławi obwody smakowe goryczy, a w przypadku małych dzieci odcięcie ładowanej w zamian przez nie chemicznej ilości słodyczy dla zębów.
-* **Pułapka Otyłości (Dla AVI/AVI):** Grupa "non-tasterów" z powodu utraty sygnałów odpychających pochłania drastycznie wyższe rejestry pustych kalorii wędlin i piwa lub napojów alkoholowych w diecie bez cienia odrzucenia węglowodanowego, przez co są biologicznie wycelowani w ramy nadwagi w cywilizacji. Sugeruje się tu stosowanie naturalnych kwasów lub octu by imitować w posiłkach progi nagrody w zastępstwie pustych mas tłuszczowych przy przejadaniu.
-* **Nałogi tytoniowe:** Funkcjonalny gen u genotypów PAV chroni młodzież przed wejściem w strefy nałogu papierosów przez niezwykle obronne szkodliwe reakcje odtrącające podczas zaciągania się toksycznymi związkami dymu.
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Wypadek z Fabryki:** Zjawisko tego genu ludzkość poznała czystym przypadkiem w 1931 roku. Gdy amerykański farmaceuta DuPont Arthur Fox roztrzaskał w swoim laboratorium sypki pył PTC, zszokowany zobaczył, jak jego współpracownicy (np. C.R. Noller) duszą się i reagują fizycznym obrzydzeniem na dym powlekający ustne kanały, podczas gdy on nie poczuł nawet śladu zapachu i goryczy na języku.

@@ -32,17 +32,13 @@
 * **Uwagi o zmienności populacyjnej:** W części populacji (np. wybrane kohorty Indian Amerykańskich oraz niektóre kohorty bliskowschodnie) asocjacja z nadwagą bywa słaba lub nieistotna, co sugeruje silny udział epistazy i stylu życia.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 Dziedziczenie allelu ryzyka (A) nie jest wyrokiem. Badania interwencyjne udowadniają, że zmiany stylu życia mogą w pełni znieść metaboliczny wpływ tego polimorfizmu.
 * **Nutrigenomika i dieta białkowa:** U posiadaczy genotypu AA doskonale sprawdzają się diety o podwyższonej zawartości białka (HPLC). Badanie POUNDS LOST wykazało, że przyjmowanie ok. 100 g białka na dobę w reżimie redukcyjnym potężnie hamuje napady głodu i ułatwia redukcję obwodu talii, neutralizując otyłotwórczy efekt genu FTO. Rekomenduje się również unikanie wysokiego stężenia tłuszczów omega-6, szczególnie w profilaktyce onkologicznej u kobiet.
 * **Sport uderza w gen:** Aktywność fizyczna (np. interwały HIIT) ucina zły wpływ mutacji na otyłość o blisko 30%, obniżając poposiłkową ekspresję mRNA genu FTO w mięśniach. Co najważniejsze, u osób A/A fizjologiczna maksymalna zdolność do utleniania tłuszczów podczas wysiłku (MFO) działa idealnie i nie ulega upośledzeniu. Dowodzi to, że problem ze zrzucaniem wagi ma u nich podłoże wyłącznie psychogenne w układzie apetytu, a nie wynika ze spowolnionego metabolizmu wewnątrzkomórkowego tkanki mięśniowej.
 * **Rygor zegara dobowego:** Gen ten jest nierozerwalnie złączony z genami rytmu okołodobowego (CLOCK). Osoby z mutacją odnoszą spektakularne korzyści z okien żywieniowych trwających 8-10 godzin w ciągu dnia. Brak snu, spanie zbyt długo oraz chodzenie spać po godzinie 23:00 drastycznie pogarsza u tych pacjentów wskaźniki insulinooporności (ryzyko OR 1,137 do 1,185).
 * **Terapia psychodietetyczna:** Nosiciele A/A są skrajnie predysponowani do jedzenia pod wpływem emocji, rekompensując stresem braki odczuwanej sytości. Należy wdrożyć u nich praktykę świadomego jedzenia (mindful eating).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Hipoteza Oszczędnego Genu:** Utrwalenie się na świecie groźnego wariantu A jest dowodem na adaptację do surowych warunków prehistorycznych (koncepcja Jamesa Neela). Mutacja blokująca spalanie i wymuszająca odkładanie tłuszczu chroniła dawnych łowców przed śmiercią w okresach brutalnych klęsk głodu. Dziś to samo dziedzictwo powoduje epidemie otyłości.

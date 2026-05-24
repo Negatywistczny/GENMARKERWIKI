@@ -32,17 +32,13 @@
 * **Uwagi o zmienności populacyjnej:** Wysokie wartości raportowane dla części populacji Azji Południowej (ok. 36,2-49,1%) i brak pełnej zgodności między kohortami wymagają ostrożnej interpretacji porównań między regionami.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Wycofanie uczenia na błędach (Kognicja):** Pacjenci z markerem T wykazują za pomocą fMRI słabą aktywację kory przyśrodkowej (pMFC), co czyni ich biochemicznie ułomnymi w zapamiętywaniu i unikaniu działań kończących się negatywnymi skutkami w otoczeniu. Wymusza to system edukacyjny bazujący ściśle na pozytywnych nagrodach (wzmocnienia dodatnie) w miejsce niekorzystnego u nich karcenia i negatywnego feedbacku.
 * **Otyłość glikemiczna:** Liniowa strata receptorów D2 w prążkowiu usuwa biochemiczne odczuwanie sytości, zmuszając organizm po zjedzeniu standardowych porcji do łakomego napędu na słodycze i tłuszcze by wzbudzić wyładowania. Wymagane jest usunięcie z domu pokarmów wysoce przetworzonych oraz budowa diety o niskim indeksie z dodatkami l-tyrozyny.
 * **Potężne uzależnienia od stymulantów:** Nosiciele dziedzicznego braku D2 (T/T i C/T) doświadczają niszczącego skoku zadowolenia w czasie aplikowania np. kokainy względem osób uwarunkowanych referencyjnie, dając relacje poczucia subiektywnego "haju" ze wskaźnikami drastycznych różnic biologicznych (p = 0.00006). Wymusza to stuprocentową, całościową prewencję i zaniechanie dostępu do alkoholu, nikotyny czy leków opiatowych, w przypadku których pacjent ten posiada wielkie ryzyko złamania terapii metadonem.
 * **Medycyna precyzyjna:** Ze względu na blokady w ANKK1 zaleca się szczegółowy nadzór przy leczeniu neuroleptykami typu risperidon (wyższa toksyczność) czy lekami przeciwdepresyjnymi grupy SSRI, na które receptor bywa całkowicie oporny u wariantów T.
 * **Biohacking farmakologiczny i sport:** Deficyty układu z genialnym efektem można nadrobić, przyjmując związki uwrażliwiające neurony - cytykolinę (CDP-cholinę), formy kwasów omega-3 na płynność błon oraz monofosforan urydyny. Fenomenalną upregulację i naprawę receptorów DRD2 wymusza z kolei ciężki, anaerobowy trening typu interwałowego o wysokiej intensywności (HIIT).
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Allel A1 jest prapoczątkiem:** Badania DNA odczytały, że marker ten tkwi w klasterze genów z epoki Neandertalczyków i to właśnie wariant wysoce narażający nas dzisiaj na używki – T (A1) – jest ewolucyjnie prastarym i pierwotnym (takim jakiego używają do dziś szympansy), a współczesna "norma" to tak naprawdę uwarunkowana z biegiem adaptacji młodsza ewolucyjnie nowa mutacja.

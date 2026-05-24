@@ -44,17 +44,13 @@
 * **Uwagi o zmienności populacyjnej:** Mutacje OCA4 (np. rs121912621) MAF ~0% w zdrowych kohortach; efekt założyciela w Japonii.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Dermatologia (G/G rs16891982):** SPF 50+ (mineralny + organiczny), odzież UV, unikanie solariów; coroczna dermatoskopia; szczególna ostrożność przy rudych wariantach MC1R.
 * **Witamina D:** Przy chronicznej fotoprotekcji — monitoring 25(OH)D i suplementacja cholekalcyferolu pod kontrolą laboratoryjną.
 * **Onkologia:** Nosiciele G/G — podwyższone ryzyko CMM; wczesna diagnostyka zmian barwnikowych (także amelanotycznych u OCA4).
 * **OCA4:** Homozygotyczne mutacje patogenne — opieka okulistyczna (fotofobia, SD-OCT), ochrona skóry, kontrola onkologiczna; odrębna ścieżka od polimorfizmu L374F.
 * **Genetyka sądowa:** rs16891982 — marker AIM do predykcji karnacji z DNA.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Płatek Śnieg (Snowflake):** Jedyny udokumentowany albinos goryla — homozygota mutacji w ortologu SLC45A2; inbred w Barcelonie.

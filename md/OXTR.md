@@ -33,16 +33,12 @@
 * **Uwagi o zmienności populacyjnej:** W niektórych grupach lokalnych (np. wybrane populacje afrykańskie i wschodnioazjatyckie) częstości genotypów skrajnych (A/A lub G/G) mogą odbiegać od średnich regionalnych.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Kofaktory – Magnez (Mg2+) i Witamina D:** Jony magnezu są absolutnie konieczne, by receptor OXT zachował konformację umożliwiającą przyłączanie hormonu i skutecznie hamował pobudliwość neuronów (hiperpolaryzacja). Dodatkowo podaż witaminy D bezpośrednio aktywuje transkrypcję z obszaru *OXTR* w jądrze, potęgując pulę receptorów i hormonu w ciele migdałowatym.
 * **Rewolucja na osi Mikrobiom-Mózg:** Niewątpliwym sukcesem neurobiologicznym jest wpływ specyficznego probiotyku *Lactobacillus reuteri* (ATCC-PTA-6475) wyizolowanego z mleka. Bakteria ta drastycznie stymuluje i uwalnia endogenną oksytocynę w mózgu omijając zjawiska odpornościowe komórek limfocytów. Wykorzystuje ona bezpośrednio połączenia wstępujące włókien nerwu błędnego u naczelnych, rewelacyjnie rewersując deficyty behawioralne o podłożu izolacji bez inwazyjnej farmakoterapii.
 * **Używki a zdrowie wątroby:** U układów pozbawionych barier (jak profil GG z wysoką korelacją prospołeczności), wykazano wysoce niezależny od ogólnego spożycia cukru pęd ku nawykowej konsumpcji mocnych form ujęć nagradzających (cukru i etanolu). Kobiety z homozygotą G/G są mocno dysponowane do ciężkich, uogólnionych schorzeń stłuszczeniowych wątroby z obu grup ryzyk (MASLD/ALD), co wymaga ostrego nadzoru prób wątrobowych we współczesnej medycynie.
 * **Styl życia:** Aktywacja rzutów oksytocyny może być samodzielnie wspomagana bez chemii. Somatyczne wyzwalanie układu aferentnego przy pomocy powięziowego masażu ucisku, regularnej jogi, wspólnego śpiewu i kontaktów z psami skutecznie podnosi podwzgórzową stymulację wolnego OXT u pacjentów.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Koewolucja Kulturowo-Genowa i Paradoks Podziału:** Na półkuli zachodniej kultura skrajnego indywidualizmu promuje powszechne ufne geny G, pozwalające jednostkom szybko nawiązywać nowe zaufanie wobec nieznajomych ze środowiska. Tymczasem ukształtowany na Wschodzie (Azja) ustrój "Tight Culture" wybuchł pod egidą genotypów A/A – kolektywistycznej rygorystycznej ochrony, faworyzującej nieuzewnętrznianie afektów.

@@ -38,11 +38,11 @@
 * **Uwagi o zmienności populacyjnej:** [1-2 zdania o niejednoznacznościach i ograniczeniach].
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** [KONKRETNE_RYZYKO + co monitorować].
-* **Dieta i suplementacja:** [CO_WLACZYC / CZEGO_UNIKAC].
-* **Styl życia i trening:** [ZALECENIA_PRAKTYCZNE].
-* **Farmakologia (jeśli dotyczy):** [INTERAKCJE_Z_LEKAMI].
-* **Ostrzeżenie kliniczne:** [KIEDY_KONIECZNA_KONSULTACJA_LEKARSKA].
+* **[Obszar 1 — np. medycyna / profil ryzyka]:** [Konkretne ryzyko, monitoring, kiedy do specjalisty — na podstawie raportu].
+* **[Obszar 2 — np. dieta / suplementacja]:** [Co wspierać, czego unikać; dawki tylko jeśli są w raporcie].
+* **[Obszar 3 — np. styl życia / trening]:** [Praktyczne zalecenia z raportu].
+* **[Obszar 4 — opcjonalnie farmakologia]:** [Leki, na które gen wpływa — jeśli dotyczy].
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * [CIEKAWOSTKA_1 - 1 zdanie].

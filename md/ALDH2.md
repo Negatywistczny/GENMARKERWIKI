@@ -34,17 +34,13 @@
 * **Uwagi o zmienności populacyjnej:** W Europie selekcja działa na eQTL ekspresji ALDH2, nie na rs671; w populacjach mieszanych (AMR) sporadyczne nosicielstwo; interpretacja kliniczna musi uwzględniać pochodzenie i status ADH1B.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Medycyna / profil ryzyka:** Interpretuj ryzyko w kontekście genotypu i danych klinicznych.
-* **Dieta i suplementacja:** Dobieraj interwencje żywieniowe zgodnie z profilem wariantu.
-* **Styl życia i trening:** Dostosuj aktywność, sen i regenerację do dominującego fenotypu.
-* **Farmakologia (jeśli dotyczy):** Uwzględnij możliwe różnice odpowiedzi na leki.
-* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 * **Alkohol:** Nosicielom A zaleca się całkowitą abstynencję — acetaldehyd jest czynnikiem rakotwórczym grupy IARC; ryzyko raka przełyku rośnie wielokrotnie nawet przy umiarkowanym piciu. Unikać alkoholu w żywności, lekach i płynach do płukania jamy ustnej.
 * **Onkologia praktyczna:** Szczególna ostrożność przy H. pylori + alkohol (multiplikatywne ryzyko raka żołądka). L-cysteina wiąże acetaldehyd w żołądku — rozważana przy przypadkowej ekspozycji; IPP mogą zwiększać produkcję aldehydu bakteryjnego w jamie ustnej.
 * **Kardiologia i metabolizm:** Unikać palenia tytoniu (nasilenie skurczu naczyń wieńcowych). Ograniczyć potrawy smażone i utrzymywać aktywność fizyczną — u nosicieli A dieta smażona + brak ruchu odwraca ochronę przed nadciśnieniem. Przy dławicy piersiowej — możliwa oporność na nitroglicerynę; omówić alternatywy z kardiologiem.
 * **Neuroprotekcja:** Akumulacja 4-HNE w hipokampie sprzyja patologii tau i amyloidu; u niepijących nosicieli A monitorować funkcje poznawcze; rozważyć prekursory glutationu (np. NAC) wyłącznie po konsultacji lekarskiej.
 * **Uwaga na disulfiram:** Klasyczne inhibitory ALDH2 (disulfiram) są mniej selektywne niż nowsze związki badawcze (np. CVT-10216); leczenie uzależnienia wymaga nadzoru specjalisty.
+
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ### 7. Ciekawostki
 * **Neolityczny bezpiecznik:** Mutacja A powstała ok. 10 000–44 000 lat temu, zbieżnie z uprawą ryżu i fermentacją — presja selekcyjna ograniczająca alkoholizm w pierwszych społeczeństwach rolniczych Azji.
