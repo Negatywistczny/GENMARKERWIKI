@@ -727,3 +727,117 @@ body {
   color: var(--muted);
   margin: 0.8rem 0 0;
 }
+
+.rsid-index {
+  margin-top: 2.4rem;
+  padding: 1.5rem 1.6rem;
+  background: linear-gradient(145deg, var(--card), var(--card-2));
+  border: 1px solid var(--border);
+  border-radius: 20px;
+  box-shadow: var(--shadow);
+}
+
+.rsid-index h2 {
+  margin: 0 0 0.35rem;
+  font-size: clamp(1.2rem, 1.8vw, 1.45rem);
+}
+
+.rsid-index__lead {
+  margin: 0 0 1.1rem;
+  color: var(--muted);
+  font-size: 0.92rem;
+  max-width: 62ch;
+}
+
+.rsid-index__lead code {
+  font-size: 0.88em;
+}
+
+.rsid-index__list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  gap: 0.65rem;
+}
+
+.rsid-index__item {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, auto) 1fr;
+  grid-template-rows: auto auto;
+  gap: 0.15rem 0.75rem;
+  padding: 0.65rem 0.75rem;
+  border-radius: 12px;
+  border: 1px solid var(--border);
+  background: color-mix(in srgb, var(--card-2) 65%, transparent);
+}
+
+.rsid-index__gene {
+  grid-row: 1 / 3;
+  align-self: center;
+  font-weight: 700;
+  font-size: 0.95rem;
+  color: var(--accent);
+  text-decoration: none;
+}
+
+.rsid-index__gene:hover {
+  text-decoration: underline;
+}
+
+.rsid-index__label {
+  font-size: 0.82rem;
+  color: var(--muted);
+  line-height: 1.35;
+}
+
+.rsid-index__chips {
+  grid-column: 2;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+.rsid-chip {
+  display: inline-block;
+  font-family: ui-monospace, "Cascadia Code", "SF Mono", Menlo, monospace;
+  font-size: 0.78rem;
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  text-decoration: none;
+  color: var(--text);
+  background: var(--card);
+  border: 1px solid var(--border);
+  transition: border-color 0.12s ease, background 0.12s ease;
+}
+
+.rsid-chip:hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--card));
+}
+
+.rsid-chip--primary {
+  border-color: color-mix(in srgb, var(--accent) 55%, var(--border));
+  background: color-mix(in srgb, var(--accent) 14%, var(--card));
+  font-weight: 600;
+}
+
+.rsid-index__empty {
+  color: var(--muted);
+  font-size: 0.85rem;
+}
+
+@media (max-width: 520px) {
+  .rsid-index__item {
+    grid-template-columns: 1fr;
+    grid-template-rows: auto;
+  }
+
+  .rsid-index__gene {
+    grid-row: auto;
+  }
+
+  .rsid-index__chips {
+    grid-column: 1;
+  }
+}

@@ -12,37 +12,25 @@
         <div class="hero__badge" aria-hidden="true">🧬</div>
         <h1>GenMarkerWiki</h1>
         <p>
-          Indeks stron HTML dla wszystkich genów w repozytorium. Spis markdown:
-          <a href="index.md">index.md</a>.
-          Wersje do druku (4 strony, jasny motyw):
-          <a href="html/print-index.html">karty do druku</a>,
-          gotowe pliki: <a href="pdf/">PDF</a> (<span id="pdf-count">…</span>).
+          Indeks kart genów w repozytorium. Wersje do druku (4 strony, jasny motyw):
+          <a href="html/print-index.html">karty do druku</a>.
         </p>
       </section>
 
       <section class="grid" id="gene-grid"></section>
-    <script src="html/gene-index.js"></script>
-    <script>
-      (async () => {
-        const total = window.GENE_INDEX.length;
-        let onDisk = 0;
-        await Promise.all(
-          window.GENE_INDEX.map(async ({ gene }) => {
-            try {
-              const r = await fetch(`pdf/${gene}.pdf`, { method: "HEAD" });
-              if (r.ok) onDisk += 1;
-            } catch {
-              /* brak pliku */
-            }
-          })
-        );
-        const el = document.getElementById("pdf-count");
-        if (el) {
-          el.textContent =
-            onDisk === total ? `${total} genów` : `${onDisk}/${total} genów`;
-        }
-      })();
 
+      <section class="rsid-index" id="rsid-index" aria-labelledby="rsid-index-title">
+        <h2 id="rsid-index-title">Analizowane rsID</h2>
+        <p class="rsid-index__lead">
+          Główne i powiązane identyfikatory SNP z kart genów. Pierwszy wpis przy każdym genie to zwykle
+          marker główny.
+        </p>
+        <ol class="rsid-index__list" id="rsid-list"></ol>
+      </section>
+
+    <script src="html/gene-index.js"></script>
+    <script src="html/gene-rsids.js"></script>
+    <script>
       document.getElementById("gene-grid").innerHTML = window.GENE_INDEX.map(
         ({ gene, label, icon, tone }) => `
         <a class="gene-card gene-card--${tone}" href="html/gene.html?gene=${encodeURIComponent(gene)}" data-tone="${tone}">
@@ -53,6 +41,24 @@
           </div>
         </a>`
       ).join("");
+
+      const snpediaUrl = (rsid) =>
+        `https://www.snpedia.com/index.php/${rsid.charAt(0).toUpperCase()}${rsid.slice(1)}`;
+
+      document.getElementById("rsid-list").innerHTML = window.GENE_INDEX.map(({ gene, label }) => {
+        const rsids = (window.GENE_RSIDS && window.GENE_RSIDS[gene]) || [];
+        const chips = rsids
+          .map(
+            (rsid, i) =>
+              `<a class="rsid-chip${i === 0 ? " rsid-chip--primary" : ""}" href="${snpediaUrl(rsid)}" target="_blank" rel="noopener noreferrer">${rsid}</a>`
+          )
+          .join("");
+        return `<li class="rsid-index__item">
+          <a class="rsid-index__gene" href="html/gene.html?gene=${encodeURIComponent(gene)}">${gene}</a>
+          <span class="rsid-index__label">${label}</span>
+          <div class="rsid-index__chips">${chips || '<span class="rsid-index__empty">—</span>'}</div>
+        </li>`;
+      }).join("");
     </script>
     </main>
   </body>

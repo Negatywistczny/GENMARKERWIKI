@@ -1012,7 +1012,7 @@ async function loadGenePage() {
   try {
     const response = await fetch(`../md/${geneSymbol}.md`);
     if (!response.ok) {
-      throw new Error(`Nie znaleziono pliku md/${geneSymbol}.md`);
+      throw new Error(`Nie znaleziono karty genu ${geneSymbol}.`);
     }
 
     const markdown = await response.text();
