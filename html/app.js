@@ -64,12 +64,22 @@ const FIXED_VARIANT_TONES = {
       "t t": "negative",
     },
     "rs1042173 3 utr t g": {
-      "g g": "positive",
-      "t g": "neutral",
       "t t": "negative",
+      "t g": "neutral",
+      "g g": "positive",
     },
     "i425v mutacja missense rzadka": {
+      "wt wt": "positive",
+      "i425v wt": "neutral",
+      "i425v i425v": "negative",
       "i425v heterozygota homozygota": "negative",
+    },
+    "rs4795541 5 httlpr proxy vntr promotorowy s l xl": {
+      "l l": "positive",
+      "l l dlugi l a l a po rs25531": "positive",
+      "l s": "neutral",
+      "s s": "negative",
+      "s s krotki": "negative",
     },
   },
   MTHFR: {
@@ -92,6 +102,16 @@ const FIXED_VARIANT_TONES = {
       "g g pav pav": "positive",
       "g c pav avi": "neutral",
       "c c avi avi": "negative",
+    },
+    "rs1726866 c 785t c ile262val": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs10246939 c 886a g ala296val": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
     },
   },
   OXTR: {
@@ -149,6 +169,31 @@ const FIXED_VARIANT_TONES = {
       "a t": "neutral",
       "a a": "negative",
     },
+    "rs9939609": {
+      "t t": "positive",
+      "a t": "neutral",
+      "a a": "negative",
+    },
+    "rs1421085 intron fto sprzezenie mozliwy wariant sprawczy vs rs9939609": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs17817449 intron fto ld z rs9939609": {
+      "t t": "positive",
+      "t a": "neutral",
+      "a a": "negative",
+    },
+    "rs9930506 intron fto ld": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs8050136 intron fto ld": {
+      "t t": "positive",
+      "c t": "neutral",
+      "c c": "negative",
+    },
   },
   LCT: {
     "": {
@@ -163,6 +208,23 @@ const FIXED_VARIANT_TONES = {
       "g a": "neutral",
       "a a": "negative",
     },
+    "rs1051730": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs588765 eqtl chrna5 ekspresja mrna 5 w korze": {
+      "t t": "positive",
+      "t t major": "positive",
+      "t c": "neutral",
+      "c c": "neutral",
+      "c c minor hom": "neutral",
+    },
+    "rs680244 eqtl chrna5 regulacja transkrypcji": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "neutral",
+    },
   },
   ADRA2A: {
     "rs1800544 promotor 1291c g": {
@@ -173,6 +235,27 @@ const FIXED_VARIANT_TONES = {
     "rs553668 3 utr": {
       "g g": "positive",
       "a g": "neutral",
+      "a a": "negative",
+    },
+    "rs10885122 regulacyjny ld z rs553668 hiperglikemia stresowa": {
+      "t t": "positive",
+      "t c": "neutral",
+      "t g": "neutral",
+      "t c lub t g": "neutral",
+      "c c": "negative",
+      "g g": "negative",
+      "c c lub g g": "negative",
+    },
+    "rs3750625 3 utr c 449c a g t bol miesniowo szkieletowy mir 34a": {
+      "c c": "positive",
+      "c a": "neutral",
+      "c a lub c g c t": "neutral",
+      "a a": "negative",
+      "a a lub homozygoty alt": "negative",
+    },
+    "rs521674 upstream 2 kb upstream odraczanie gratyfikacji": {
+      "t t": "positive",
+      "t a": "neutral",
       "a a": "negative",
     },
   },
@@ -191,6 +274,11 @@ const FIXED_VARIANT_TONES = {
       "c c": "positive",
       "c t": "neutral",
       "t t": "negative",
+    },
+    "rs10761482 intron upstream ank3 plejotropia bd schizofrenia": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
     },
   },
   CACNA1C: {
@@ -234,6 +322,80 @@ const FIXED_VARIANT_TONES = {
       "a g": "neutral",
       "a a": "negative",
     },
+    "rs12919501 haplotyp rs11649622 impulsywnosc": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs4075942 haplotyp rs11649622": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs7190768 haplotyp rs11649622": {
+      "c c": "positive",
+      "c t": "neutral",
+      "c t lub c a": "neutral",
+      "t t": "negative",
+      "t t lub a a": "negative",
+    },
+    "rs8059696 blok rs2199430 kognicja": {
+      "t t": "positive",
+      "t a": "neutral",
+      "t a lub t c t g": "neutral",
+      "a a": "negative",
+      "a a lub c c g g": "negative",
+    },
+    "rs4783277 blok rs2199430": {
+      "t t": "positive",
+      "t c": "neutral",
+      "t c lub t g": "neutral",
+      "c c": "negative",
+      "c c lub g g": "negative",
+    },
+    "rs12596958 blok rs2199430": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs12051272 enhancer w ld z rs4783244 3 kb od tss": {
+      "g g": "negative",
+      "g a": "neutral",
+      "g a lub g c g t": "neutral",
+      "a a": "positive",
+      "a a lub homozygoty alt": "positive",
+    },
+    "rs3865188 ld rs4783244 adiponektyna": {
+      "a a": "positive",
+      "a g": "neutral",
+      "a g lub a t": "neutral",
+      "t t": "negative",
+      "t t lub g g": "negative",
+    },
+    "rs8060301 meqtl promotorowy": {
+      "t t": "positive",
+      "t a": "neutral",
+      "a a": "negative",
+    },
+    "rs12444338 meqtl 2 kb upstream": {
+      "g g": "positive",
+      "g t": "neutral",
+      "g t lub g a g c": "neutral",
+      "t t": "negative",
+      "t t lub homozygoty alt": "negative",
+    },
+    "rs62040565 meqtl promotorowy maf 1 5": {
+      "t t": "positive",
+      "t a": "neutral",
+      "t a lub t c": "neutral",
+      "a a": "negative",
+      "a a lub c c": "negative",
+    },
+    "rs113460564 rzadki meqtl maf 0 5": {
+      "a a": "positive",
+      "a c": "neutral",
+      "c c": "negative",
+    },
   },
   FKBP5: {
     "rs1360780 intron 2 glowny marker": {
@@ -251,6 +413,21 @@ const FIXED_VARIANT_TONES = {
       "c t": "neutral",
       "t t": "negative",
     },
+    "rs3800373 intron 7 3 region bezsennosc stres zawodowy": {
+      "c c": "positive",
+      "c a": "neutral",
+      "a a": "negative",
+    },
+    "rs7748266 intron fkbp5 haplotyp stresu": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs9394309 intron fkbp5 haplotyp regulacyjny": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
   },
   DBH: {
     "rs1611115 c 1021t c 970t promotor": {
@@ -264,14 +441,14 @@ const FIXED_VARIANT_TONES = {
       "a a": "negative",
     },
     "rs2519154 farmakogenomika atomoksetyny": {
-      "c c": "negative",
-      "c t": "neutral",
-      "t t": "positive",
+      "t t": "negative",
+      "t c": "neutral",
+      "c c": "positive",
     },
     "rs2519152": {
-      "c c": "positive",
-      "c t": "neutral",
-      "t t": "negative",
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
     },
     "rs129882": {
       "c c": "positive",
@@ -279,6 +456,21 @@ const FIXED_VARIANT_TONES = {
       "t t": "negative",
     },
     "rs7040170 a g": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs2873804 intron dbh atomoksetyna adhd": {
+      "t t": "neutral",
+      "t c": "neutral",
+      "c c": "positive",
+    },
+    "rs1076150 intron dbh adhd sprzezenie": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs1548364 intron dbh a g atomoksetyna": {
       "a a": "positive",
       "a g": "neutral",
       "g g": "negative",
@@ -309,6 +501,11 @@ const FIXED_VARIANT_TONES = {
     "rs72554632 p gln296ter rzadka patologia": {
       "t nosiciel": "negative",
     },
+    "rs3027407 region maoa adhd u dzieci": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
   },
   MC1R: {
     "rs1805007 r151c": {
@@ -331,12 +528,27 @@ const FIXED_VARIANT_TONES = {
       "g a": "neutral",
       "a a": "neutral",
     },
+    "rs1805005 val60leu v60l slaby allel r": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs885479 arg163gln r163q allel r": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
   },
   ABCC11: {
     "rs17822931 gly180arg": {
       "a a": "positive",
       "g a": "neutral",
       "g g": "negative",
+    },
+    "rs17822471 c 1637c t gly546val mrp8 toksycznosc 5 fu": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
     },
   },
   ALDH2: {
@@ -345,16 +557,49 @@ const FIXED_VARIANT_TONES = {
       "g a": "neutral",
       "a a": "negative",
     },
+    "rs1229984 adh1b arg48his szybki metabolizm etanolu aldehyd": {
+      "t t": "positive",
+      "t a": "neutral",
+      "a a": "negative",
+    },
+    "rs747096195 aldh2 p arg101gly rzadki": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs190764869 aldh2 p arg114trp rzadki": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
   },
   AR: {
     "rs6152 uwaga gen na chromosomie x mezczyzni maja jeden allel": {
+      "g": "negative",
+      "g a": "neutral",
+      "a": "positive",
       "a mezczyzni hemizygoti a kobiety a a": "positive",
       "g a wylacznie kobiety": "neutral",
       "g mezczyzni hemizygoti g kobiety g g": "negative",
     },
+    "rs1385699 eda2r p glu57leu lysienie androgenowe silniejszy sygnal niz rs6152 u czesci kohort": {
+      "c c": "positive",
+      "c a": "neutral",
+      "c a lub c t": "neutral",
+      "a a": "negative",
+      "a a lub t t": "negative",
+    },
+    "rs1204038 ar intron 8 psa rak prostaty autoimmunologia": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
   },
   GC: {
     "rs2282679 ekspresja vdbp i 25 oh d": {
+      "a a": "positive",
+      "a c": "neutral",
+      "c c": "negative",
       "a a lub t t": "positive",
       "a c lub t g": "neutral",
       "c c lub g g": "negative",
@@ -372,14 +617,35 @@ const FIXED_VARIANT_TONES = {
       "a g": "neutral",
       "g g": "negative",
     },
+    "rs1129038 3 utr ld z rs12913832 beh2": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs916977 intron herc2 beh3 pigmentacja": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs1667394 intron herc2 pigmentacja skory wlosow": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
   },
   OCA2: {
     "rs1800407 arg419gln bialko p": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
       "c c g g": "positive",
       "c t g a": "neutral",
       "t t a a": "negative",
     },
     "rs1800414 his615arg pigmentacja skory azja wschodnia": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
       "a a t t": "positive",
       "a g t c": "neutral",
       "g g c c": "negative",
@@ -389,6 +655,11 @@ const FIXED_VARIANT_TONES = {
       "a g": "neutral",
       "g g": "negative",
     },
+    "rs1800401 oca2 his615arg r419q pigmentacja oczu skory": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
   },
   OR2M: {
     "rs4481887 anosmia szparagowa percepcja moczu": {
@@ -396,12 +667,57 @@ const FIXED_VARIANT_TONES = {
       "a g": "neutral",
       "g g": "negative",
     },
+    "rs13373863 or2m region szparagi ld z rs4481887": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs71538191 or2m powiazany haplotyp": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs6689553 or2m ld": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs72765116 or2m ld": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs57711976 or2m ld": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
   },
   OR6A2: {
     "rs72921001 percepcja kolendry": {
       "a a": "positive",
       "c a": "neutral",
       "c c": "negative",
+    },
+    "rs7107418 proxy rs72921001 or10a2 ld": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs3930075 or10a2 his43arg ld rs72921001": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs10839631 or10a2 his207arg ld": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs7926083 or10a2 lys258thr ld": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
     },
   },
   SLC24A4: {
@@ -412,7 +728,19 @@ const FIXED_VARIANT_TONES = {
     },
     "rs11160059 cisnienie populacja afrykanska": {
       "g g": "positive",
+      "a g": "neutral",
+      "a a": "negative",
       "a g a a": "negative",
+    },
+    "rs12590654 regulacyjny load pozna postac alzheimer": {
+      "g g": "neutral",
+      "g a": "neutral",
+      "a a": "positive",
+    },
+    "rs10498633 intron slc24a4 regulacja ekspresji": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
     },
   },
   SLC45A2: {
@@ -423,7 +751,23 @@ const FIXED_VARIANT_TONES = {
     },
     "rs26722 e272k wariant wschodnioazjatycki": {
       "g g": "positive",
+      "g a": "neutral",
       "a a": "neutral",
+    },
+    "rs2287949 synonimiczny c 987a g t329t haplotypy migracji": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "neutral",
+    },
+    "rs121912621 p asp157asn oca4 patogenny": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs375077956 p tyr266ter oca4 nonsense": {
+      "c c": "positive",
+      "c a": "neutral",
+      "a a": "negative",
     },
   },
   ZEB2: {
@@ -437,6 +781,31 @@ const FIXED_VARIANT_TONES = {
       "g t": "neutral",
       "t t": "negative",
     },
+    "rs6740731 regulacyjny zeb2 naczynia mowat wilson kontekst": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs35500812 zeb2 powiazany marker": {
+      "cc cc": "positive",
+      "cc c": "neutral",
+      "c c": "negative",
+    },
+    "rs137852981 zeb2 rzadki regulacyjny": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs786204815 zeb2 rzadki": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs587776604 zeb2 clinvar rzadki": {
+      "g g": "positive",
+      "g gt": "neutral",
+      "gt gt": "negative",
+    },
   },
   APOE: {
     "haplotypy apoe rs429358 rs7412": {
@@ -446,6 +815,16 @@ const FIXED_VARIANT_TONES = {
       "t t t c 2 3 e2 e3 mieszane cys cys cys arg wysoce neuroprotekcyjny ochronny wariant promujacy dlugowiecznosc aparatu poznawczego charakteryzuje sie skrajnie niskim prawdopodobienstwem lagodnych zaburzen poznawczych mci i otepienia": "positive",
       "t t t t 2 2 e2 e2 cys112 cys158 dysfunkcja metaboliczna wariant swietnie chroni przed demencja ale wykazuje zerowe powinowactwo do receptorow w watrobie grozi tzw rodzinna dysbetalipoproteinemia przy diecie wysokotluszczowej": "neutral",
       "c t t c 2 4 e2 e4 mieszane cys cys arg arg efekt zniesienia pojawienie sie ochronnego 2 anuluje duza czesc zniszczen za ktore odpowiada patologiczny 4 lagodzac ryzyko do poziomu standardowego": "neutral",
+    },
+    "rs4420638 apoc1 proxy 14 kb od apoe sprzezenie z e4": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs4420638 apoc1 proxy 14 kb od apoe sprzezenie z 4": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
     },
   },
 };
@@ -463,6 +842,34 @@ function normalizeToneKey(value) {
     .trim();
 }
 
+/** Keys to match genotype cells with „(lub …)” and multi-token labels. */
+function genotypeLookupKeys(genotype) {
+  const raw = stripMarkdown(String(genotype || ""));
+  const keys = new Set();
+  const add = (token) => {
+    const key = normalizeToneKey(token);
+    if (key) {
+      keys.add(key);
+    }
+  };
+
+  add(raw);
+  add(raw.split("(")[0]);
+
+  const tokenRe =
+    /(?:^|[\s,;]|lub\s+)([ACGT]{1,2}\/[ACGT]{1,2}|[ACGT]{2}|wt\/wt|i425v\/wt|i425v\/i425v|l\/l|l\/s|s\/s|gc[\d/]+|ref\/\w+|alt\/\w+|minor hom|major)/gi;
+  for (const inner of raw.matchAll(/\(([^)]+)\)/g)) {
+    for (const m of inner[1].matchAll(tokenRe)) {
+      add(m[1]);
+    }
+  }
+  for (const m of raw.matchAll(tokenRe)) {
+    add(m[1]);
+  }
+
+  return [...keys];
+}
+
 function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
   const byGene = FIXED_VARIANT_TONES[String(geneSymbol || "").toUpperCase()];
   if (!byGene) {
@@ -470,13 +877,22 @@ function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
   }
 
   const headingKey = normalizeToneKey(heading);
-  const genotypeKey = options.lookupKey || normalizeToneKey(genotype);
   const byHeading = byGene[headingKey] || byGene[""];
   if (!byHeading) {
     return "neutral";
   }
 
-  return byHeading[genotypeKey] || "neutral";
+  const keys = options.lookupKey
+    ? [options.lookupKey]
+    : genotypeLookupKeys(genotype);
+
+  for (const key of keys) {
+    if (byHeading[key]) {
+      return byHeading[key];
+    }
+  }
+
+  return "neutral";
 }
 
 function parseSections(markdown) {
@@ -485,7 +901,7 @@ function parseSections(markdown) {
   let current = null;
 
   for (const line of lines) {
-    const match = line.match(/^###\s+(\d+)\.\s+(.+)$/);
+    const match = line.trim().match(/^###\s+(\d+)\.\s+(.+)$/);
     if (match) {
       if (current) {
         sections.push(current);
@@ -515,8 +931,46 @@ function stripMarkdown(value) {
     .replace(/\*([^*]+)\*/g, "$1")
     .replace(/`([^`]+)`/g, "$1")
     .replace(/\[([^\]]+)\]\([^)]+\)/g, "$1")
+    .replace(/★\s*/g, "")
     .replace(/\s+/g, " ")
     .trim();
+}
+
+function isPersonalMarker(value) {
+  return /★/.test(String(value || ""));
+}
+
+function parseTableCell(raw) {
+  const text = String(raw || "").trim();
+  const segments = text
+    .split(/<br\s*\/?>/gi)
+    .map((part) => stripMarkdown(part.trim()))
+    .filter(Boolean);
+  return {
+    text: segments.length ? segments.join("\n") : stripMarkdown(text),
+    personal: isPersonalMarker(text),
+  };
+}
+
+function formatMultilineEscaped(text) {
+  return String(text || "")
+    .split(/\n/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((part) => escapeHtml(part))
+    .join("<br>");
+}
+
+function tableRowCells(row) {
+  return Array.isArray(row) ? row : row.cells || [];
+}
+
+function tableRowIsPersonal(row) {
+  if (!Array.isArray(row) && row.personal) {
+    return true;
+  }
+  const cells = tableRowCells(row);
+  return isPersonalMarker(cells[0]);
 }
 
 function escapeHtml(value) {
@@ -567,22 +1021,26 @@ function parseMarkdownTable(lines) {
   const toCells = (line) =>
     line
       .split("|")
-      .map((cell) => stripMarkdown(cell.trim()))
-      .filter((cell, index, arr) => !(index === 0 && cell === "") && !(index === arr.length - 1 && cell === ""));
+      .map((cell) => parseTableCell(cell.trim()))
+      .filter((cell, index, arr) => !(index === 0 && !cell.text) && !(index === arr.length - 1 && !cell.text));
 
-  const headers = toCells(tableLines[0]);
+  const headers = toCells(tableLines[0]).map((cell) => cell.text);
   const rows = tableLines
     .slice(1)
     .filter((line) => !isTableSeparatorLine(line))
     .map(toCells)
-    .filter((row) => row.length && row.some((cell) => cell));
+    .filter((row) => row.length && row.some((cell) => cell.text))
+    .map((row) => ({
+      cells: row.map((cell) => cell.text),
+      personal: Boolean(row[0]?.personal),
+    }));
 
   if (!headers.length || !rows.length) {
     return null;
   }
 
   const headerKey = headers.join("|").toLowerCase();
-  const dataRows = rows.filter((row) => row.join("|").toLowerCase() !== headerKey);
+  const dataRows = rows.filter((row) => row.cells.join("|").toLowerCase() !== headerKey);
   if (!dataRows.length) {
     return null;
   }
@@ -591,7 +1049,7 @@ function parseMarkdownTable(lines) {
 }
 
 function splitTableByIdentifierColumn(table) {
-  const rsRows = table.rows.filter((row) => /^rs\d+/i.test(stripMarkdown(row[0] || "")));
+  const rsRows = table.rows.filter((row) => /^rs\d+/i.test(tableRowCells(row)[0] || ""));
   if (rsRows.length < 2) {
     return [{ table, title: "" }];
   }
@@ -607,12 +1065,17 @@ function splitTableByIdentifierColumn(table) {
   };
 
   for (const row of table.rows) {
-    const label = stripMarkdown(row[0] || "");
+    const cells = tableRowCells(row);
+    const label = cells[0] || "";
     const isRs = /^rs\d+/i.test(label);
 
     if (isRs) {
       flush();
-      group = { title: label, headers: table.headers.slice(1), rows: [row.slice(1)] };
+      group = {
+        title: label,
+        headers: table.headers.slice(1),
+        rows: [{ cells: cells.slice(1), personal: tableRowIsPersonal(row) }],
+      };
       continue;
     }
 
@@ -620,7 +1083,7 @@ function splitTableByIdentifierColumn(table) {
     groups.push({
       title: label || "Wariant",
       headers: table.headers.slice(1),
-      rows: [row.slice(1)],
+      rows: [{ cells: cells.slice(1), personal: tableRowIsPersonal(row) }],
     });
   }
 
@@ -642,7 +1105,7 @@ function splitVariantBlocks(body) {
 
   for (const line of body) {
     const trimmed = line.trim();
-    const titleMatch = trimmed.match(/^\*\*([^*]+)\*\*$/);
+    const titleMatch = trimmed.match(/^\*\*(.+)\*\*$/);
 
     if (titleMatch) {
       pushCurrent();
@@ -684,40 +1147,48 @@ function splitVariantBlocks(body) {
 function renderVariantTiles(table, context = {}) {
   const { headers, rows } = table;
   const isApoe = context.gene === "APOE";
+  const isApoeHaplotype =
+    isApoe && /haplotypy apoe|rs429358.*rs7412/i.test(context.heading || "");
 
   return rows
     .map((row) => {
-      const genotype = row[0] || "Wariant";
-      const summary = row[row.length - 1] || "";
-      const headingText = isApoe ? row[2] || genotype : genotype;
-      const status = isApoe
-        ? `${headers[0] || "rs429358"}: ${row[0] || "-"} | ${headers[1] || "rs7412"}: ${row[1] || "-"}`
-        : row[1] || "";
+      const cells = tableRowCells(row);
+      const personal = tableRowIsPersonal(row);
+      const genotype = cells[0] || "Wariant";
+      const summary = cells[cells.length - 1] || "";
+      const headingText = isApoeHaplotype ? cells[2] || genotype : genotype;
+      const status = isApoeHaplotype
+        ? `${headers[0] || "rs429358"}: ${cells[0] || "-"} | ${headers[1] || "rs7412"}: ${cells[1] || "-"}`
+        : cells[1] || "";
       const details = headers
-        .map((header, i) => ({ header, value: row[i] || "" }))
-        .slice(isApoe ? 3 : 2, Math.max(isApoe ? 3 : 2, headers.length - 1))
+        .map((header, i) => ({ header, value: cells[i] || "" }))
+        .slice(isApoeHaplotype ? 3 : 2, Math.max(isApoeHaplotype ? 3 : 2, headers.length - 1))
         .filter((item) => item.value);
-      const lookupKey =
-        isApoe
-          ? normalizeToneKey(row.join(" "))
-          : normalizeToneKey(genotype);
-      const tone = fixedVariantTone(context.gene, context.heading, genotype, { lookupKey });
+      const tone = fixedVariantTone(
+        context.gene,
+        context.heading,
+        genotype,
+        isApoeHaplotype ? { lookupKey: normalizeToneKey(cells.join(" ")) } : {}
+      );
 
       return `
-        <article class="variant-tile variant-tile--${tone}${isApoe ? " variant-tile--apoe" : ""}">
-          <h4>${escapeHtml(headingText)}</h4>
+        <article class="variant-tile variant-tile--${tone}${personal ? " variant-tile--personal" : ""}${isApoeHaplotype ? " variant-tile--apoe" : ""}">
+          <h4 class="variant-tile-heading">
+            <span class="variant-tile-title">${escapeHtml(headingText)}</span>
+            ${personal ? '<span class="variant-personal-badge" aria-label="Twój wariant z bazy">★ Twój wariant</span>' : ""}
+          </h4>
           ${status ? `<p class="variant-status">${escapeHtml(status)}</p>` : ""}
           ${
             details.length
               ? `<dl>${details
                   .map(
                     (item) =>
-                      `<div><dt>${escapeHtml(item.header)}</dt><dd>${escapeHtml(item.value)}</dd></div>`
+                      `<div><dt>${escapeHtml(item.header)}</dt><dd>${formatMultilineEscaped(item.value)}</dd></div>`
                   )
                   .join("")}</dl>`
               : ""
           }
-          ${summary ? `<p class="variant-impact">${escapeHtml(summary)}</p>` : ""}
+          ${summary ? `<p class="variant-impact">${formatMultilineEscaped(summary)}</p>` : ""}
         </article>
       `;
     })
@@ -782,6 +1253,34 @@ function classifySection(section) {
     return "variants";
   }
   return "rest";
+}
+
+function mergeDuplicateVariantSections(sections) {
+  const variantIndexes = sections
+    .map((section, index) => (classifySection(section) === "variants" ? index : -1))
+    .filter((index) => index >= 0);
+
+  if (variantIndexes.length <= 1) {
+    return sections;
+  }
+
+  const keep = variantIndexes[0];
+  const merged = {
+    ...sections[keep],
+    body: variantIndexes.flatMap((index) => sections[index].body),
+  };
+
+  return sections
+    .map((section, index) => {
+      if (index === keep) {
+        return merged;
+      }
+      if (variantIndexes.includes(index)) {
+        return null;
+      }
+      return section;
+    })
+    .filter(Boolean);
 }
 
 function renderSectionCard(section, options = {}) {
@@ -925,7 +1424,7 @@ function fitPrintPagesToSheet() {
 }
 
 function renderGenePrintPresentation(markdown) {
-  const sections = parseSections(markdown);
+  const sections = mergeDuplicateVariantSections(parseSections(markdown));
   const profileSection = sections.find((section) => classifySection(section) === "profile");
   const facts = extractHeaderFacts(profileSection);
 
@@ -941,7 +1440,7 @@ function renderGenePrintPresentation(markdown) {
 }
 
 function renderGenePresentation(markdown) {
-  const sections = parseSections(markdown);
+  const sections = mergeDuplicateVariantSections(parseSections(markdown));
   const buckets = {
     profile: [],
     identifiers: [],

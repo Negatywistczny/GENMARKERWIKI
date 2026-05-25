@@ -24,7 +24,7 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Ochronny; sprawne ujemne sprzężenie HPA | Niższe ryzyko PTSD/MDD po ELA; lepszy przyrost VO2peak; mniejsza powysiłkowa hipermetylacja u kobiet |
-| **C/T** | Pośredni | Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne |
+| **★ C/T** | Pośredni | Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne |
 | **T/T** | Oporność na glukokortykoidy | Wyższe ryzyko MDD (OR≈1,39); lepsza odpowiedź na SSRI/citalopram/wenlafaksynę vs C/C |
 
 **rs9296158 (intron 5, trauma dziecięca)**
@@ -32,7 +32,7 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Profil referencyjny | Niższe ryzyko PTSD po ELA przy braku przemocy w dzieciństwie |
-| **G/A** | Pośredni | Umiarkowane nasilenie po traumie |
+| **★ G/A** | Pośredni | Umiarkowane nasilenie po traumie |
 | **A/A** | Allel A – najwyższy efekt z ELA | Silniejsze PTSD po przemocy w dzieciństwie; ryzyko psychoz w dorosłości |
 
 **rs9470080**
@@ -40,12 +40,32 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Profil referencyjny | Standardowa odpowiedź na stres katastroficzny |
-| **C/T** | Pośredni | Złożony fenotyp; częściowe ryzyko PTSD/depresji |
+| **★ C/T** | Pośredni | Złożony fenotyp; częściowe ryzyko PTSD/depresji |
 | **T/T** | Złożony fenotyp | PTSD + depresja po katastrofach; ekstremalny stres może maskować genetykę |
 
 *Haplotyp blokowy ryzyka:* rs3800373-A, rs9296158-G, rs1360780-C, rs9470080-T (A-G-C-T) – sprzężone objawy po traumie; interpretuj łącznie z pojedynczymi SNP.
 
 *Uwaga diagnostyczna:* W gnomAD allel T u rs1360780 jest uznawany za wyższe ryzyko; w starszych publikacjach sprawdź orientację nici (C/G, A/T).
+**rs3800373 (intron 7 / 3'-region (bezsenność, stres zawodowy))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Ochronny (vs haplotyp ryzyka) | Niższe ryzyko zaburzeń snu i wyczerpania po stresie |
+| **★ C/A** | Pośredni | Umiarkowana podatność na stres chroniczny |
+| **A/A** | Allel haplotypu ryzyka | Skorelowany z bezsennością i wyczerpaniem u pracowników wysokiego stresu; techniki regulacji HPA i sen |
+
+**rs7748266 (intron FKBP5 (haplotyp stresu))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T/T** | Referencyjny | Typowa odpowiedź na traumę z perspektywy tego SNP |
+| **★ T/C** | Pośredni | Profil pośredni PTSD/depresji po traumie |
+| **C/C** | Haplotyp ryzyka | Część bloku sprzężonego z rs1360780; interpretacja wielomarkerowa |
+
+**rs9394309 (intron FKBP5 (haplotyp regulacyjny))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Referencyjny | Brak izolowanego efektu klinicznego |
+| **★ G/A** | Pośredni | Umiarkowana modulacja ośi stresowej |
+| **A/A** | Alternatywny | W haplotypie z rs1360780-C i rs9470080-T zwiększa ryzyko objawów po traumie dziecięcej |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel T (ryzyko) ~32,78%; allel C (dziki) ~67,22% (gnomAD)

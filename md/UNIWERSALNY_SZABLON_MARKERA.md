@@ -28,6 +28,8 @@
 | **[GENOTYP_HET]** | [AKTYWNOSC_HET] | [OPIS_HET] |
 | **[GENOTYP_ALT]** | [AKTYWNOSC_ALT] | [OPIS_ALT] |
 
+*Kolejność wierszy (obowiązkowa): **lewo** = homozygot referencyjny (allel dziki / major wg dbSNP), **środek** = heterozygota, **prawo** = homozygot alternatywny. Gwiazdka ★ opcjonalnie na wierszu klinicznie istotnym (zwykle allel alternatywny).*
+
 *Przy wielu SNP w jednym pliku: powtórz blok **rsID** + tabele 3-wierszowe dla każdego markera (nie łącz w jedną tabelę z kolumną „Identyfikator”).*
 
 ### 5. Statystyki populacyjne

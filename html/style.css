@@ -648,6 +648,43 @@ body {
   padding: 0.75rem;
 }
 
+.variant-tile--personal {
+  border-width: 2px;
+  border-color: var(--accent-2);
+  box-shadow: 0 0 0 1px rgba(78, 225, 193, 0.35), var(--shadow);
+  background: linear-gradient(
+    145deg,
+    rgba(78, 225, 193, 0.18),
+    rgba(122, 162, 255, 0.12)
+  );
+}
+
+.variant-tile-heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.45rem 0.6rem;
+}
+
+.variant-tile-title {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+.variant-personal-badge {
+  margin: 0;
+  display: inline-block;
+  padding: 0.15rem 0.5rem;
+  border-radius: 999px;
+  font-size: 0.72rem;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  color: var(--accent-2);
+  background: rgba(78, 225, 193, 0.2);
+  border: 1px solid rgba(78, 225, 193, 0.45);
+  white-space: nowrap;
+}
+
 .variant-tile--negative {
   background: rgba(235, 87, 87, 0.14);
   border-color: rgba(235, 87, 87, 0.45);
@@ -666,6 +703,10 @@ body {
 .variant-tile h4 {
   margin: 0;
   font-size: 1rem;
+}
+
+.variant-tile h4.variant-tile-heading {
+  margin: 0;
 }
 
 .variant-status {

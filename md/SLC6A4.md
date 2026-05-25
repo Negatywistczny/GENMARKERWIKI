@@ -41,15 +41,25 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Silniejsze tłumienie mRNA | Działanie osłonowe przed uzależnieniem (~8,5 drinka u alkoholików) |
-| **T/G** | Pośredni | Profil mieszany |
 | **T/T** | Obniżona inhibicja miRNA-135 → wyższe SERT | Skrajne upijanie się (średnio ~11 drinków u alkoholików) |
+| **★ T/G** | Pośredni | Profil mieszany |
+| **G/G** | Silniejsze tłumienie mRNA | Działanie osłonowe przed uzależnieniem (~8,5 drinka u alkoholików) |
 
 **I425V (mutacja missense, rzadka)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **I425V** (heterozygota/homozygota) | Gain-of-function: hiperaktywny SERT | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
+| **wt/wt** | Prawidłowy SERT (Ile425) | Brak ryzyka OCD/TD z tej rzadkiej mutacji |
+| **I425V/wt** | Gain-of-function (heterozygota) | Podwyższone ryzyko zaburzeń obsesyjno-kompulsyjnych i tików |
+| **I425V/I425V** | Hiperaktywny SERT (homozygota) | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
+
+**rs4795541 (5-HTTLPR (proxy VNTR promotorowy; S/L/xL))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **L/L** (długi; L_A/L_A po rs25531) | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
+| **L/S** | Pośrednia ekspresja | Profil „orchid child” — wrażliwość na środowisko; elastyczna odpowiedź na SSRI zależnie od haplotypu |
+| **S/S** (krótki) | Niska ekspresja 5-HTT | Wyższe ryzyko depresji i lęku po traumie (interakcja gen–środowisko, Caspi); rozważ psychoterapię i ostrożność z SSRI |
+*Rzeczywisty wariant to VNTR 43–44 bp; rs4795541 to identyfikator zastępczy*
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości dla VNTR S/L globalnie; częstość S silnie zróżnicowana geograficznie (od ~43% w Europie do 70–80% u Azjatów)

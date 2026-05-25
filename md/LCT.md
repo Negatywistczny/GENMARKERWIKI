@@ -22,7 +22,7 @@
 
 | Genotyp rs4988235 (Zapis Nici) | Fenotyp i Aktywność Enzymatyczna | Opis Wpływu i Skutki Kliniczne |
 | :--- | :--- | :--- |
-| **C/C** (G/G komplementarnie) | **Pierwotna Hipolaktazja Dorosłych (LNP)** | Charakteryzuje się najniższą lub bliską zeru aktywnością enzymu laktazy u dorosłych. W populacjach europejskich zwiastuje objawową nietolerancję laktozy, a także koreluje z niekorzystnym profilem lipidowym i podwyższonym wskaźnikiem ApoB100. |
+| **★ C/C** (G/G komplementarnie) | **Pierwotna Hipolaktazja Dorosłych (LNP)** | Charakteryzuje się najniższą lub bliską zeru aktywnością enzymu laktazy u dorosłych. W populacjach europejskich zwiastuje objawową nietolerancję laktozy, a także koreluje z niekorzystnym profilem lipidowym i podwyższonym wskaźnikiem ApoB100. |
 | **C/T** (G/A komplementarnie) | **Pośrednia Persystencja Laktazy** | Allel T dominuje, pozwalając na bezproblemowe trawienie standardowych porcji mleka przez dorosłych. Mimo to, całkowita produkcja enzymu jest niższa niż u homozygot, przez co gigantyczne dawki laktozy lub podeszły wiek mogą u tych osób sporadycznie wywołać łagodne objawy. |
 | **T/T** (A/A komplementarnie) | **Pełna Persystencja Laktazy (LP)** | Stała, maksymalna aktywność hydrolazy w enterocytach bez wyciszania po okresie dziecięcym. Zdolność do łatwego metabolizmu dowolnych dawek nabiału. W badaniach asocjacyjnych GWAS genotyp ten delikatnie podnosi wskaźnik masy ciała (BMI). |
 

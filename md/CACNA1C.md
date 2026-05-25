@@ -24,7 +24,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Profil referencyjny / ochronny | Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP |
+| **★ G/G** | Profil referencyjny / ochronny | Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP |
 | **G/A** | Pośredni | Umiarkowane podwyższenie ryzyka SCZ/BD/MDD i EH |
 | **A/A** | Allel ryzyka (homozygota) | Wyższe ryzyko SCZ, BD, MDD; spadek płynności mowy; wyższy glutaminian w ACC (fMRI/MRS) |
 
@@ -33,14 +33,14 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Standardowa odpowiedź na werapamil | Typowa tolerancja blokerów L-type (profil referencyjny) |
-| **G/A** | Pośrednia | Ostrożność przy werapamilu; monitoruj powikłania |
+| **★ G/A** | Pośrednia | Ostrożność przy werapamilu; monitoruj powikłania |
 | **G/G** | Nietypowa farmakodynamika | ~4,5× ryzyko powikłań kardiologicznych na werapamilu – unikać; rozważyć beta-blokery. Homozygota rzadka (<2%) – wysoka wartość prognostyczna |
 
 **rs2159100 (nastrój, BD)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Profil referencyjny | Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP |
+| **★ C/C** | Profil referencyjny | Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP |
 | **C/T** | Pośredni | Umiarkowane ryzyko zaburzeń nastroju |
 | **T/T** | Marker nastroju (allel T) | Zwiększone ryzyko zaburzeń afektywnych w kohortach BD |
 

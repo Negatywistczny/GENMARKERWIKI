@@ -24,7 +24,7 @@
 
 | Genotyp | Aktywność białka P | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** (G/G) | Prawidłowy transport Cl⁻ i pH melanosomu | Pigmentacja zgodna z tłem populacyjnym; optymalna ochrona UV |
+| **★ C/C** (G/G) | Prawidłowy transport Cl⁻ i pH melanosomu | Pigmentacja zgodna z tłem populacyjnym; optymalna ochrona UV |
 | **C/T** (G/A) | Łagodne obniżenie stabilności białka | Rozjaśnienie tęczówki; modyfikator zielonych oczu przy heterozygotach rs12913832 |
 | **T/T** (A/A) | Hipomorficzne białko P | Bardzo jasne oczy; wzrost penetracji niebieskiego fenotypu; zwiększone ryzyko raka podstawnokomórkowego skóry (BCC) |
 
@@ -32,7 +32,7 @@
 
 | Genotyp | Aktywność transportowa | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** (T/T) | Standardowy prąd chlorkowy | Ciemniejsza skóra w populacjach azjatyckich |
+| **★ A/A** (T/T) | Standardowy prąd chlorkowy | Ciemniejsza skóra w populacjach azjatyckich |
 | **A/G** (T/C) | Pośrednia | Umiarkowane rozjaśnienie karnacji |
 | **G/G** (C/C) | Spadek wydajności ~30% | Jaśniejsza skóra w Azji Wschodniej (konwergencja ewolucyjna niezależna od SLC24A5 w Europie); brak wpływu na kolor oczu |
 
@@ -42,7 +42,14 @@
 | :--- | :--- | :--- |
 | **A/A** | Pełna | Brązowe oczy; wyższa fotoprotekcja RPE |
 | **A/G** | Pośrednia | Zielone/piwne oczy |
-| **G/G** | Wyciszona w melanocytach irysu | Niebieskie oczy; ryzyko AMD i czerniaka naczyniówki (M3) |
+| **★ G/G** | Wyciszona w melanocytach irysu | Niebieskie oczy; ryzyko AMD i czerniaka naczyniówki (M3) |
+
+**rs1800401 (OCA2 His615Arg (R419Q, pigmentacja oczu/skóry))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | His/His — referencyjny | Typowa pigmentacja OCA2; współdziała z rs12913832 i rs1800407 |
+| **G/A** | His/Arg | Pośredni kolor oczu/skóry |
+| **A/A** | Arg/Arg | Jaśniejsza pigmentacja; część epistazy przy brązowych oczach mimo rs12913832 G/G |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1800407-T MAF ok. 8–11% w Europie; rs1800414-G prawie wyłącznie EAS (50–79%)

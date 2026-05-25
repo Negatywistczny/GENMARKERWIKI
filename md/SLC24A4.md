@@ -26,14 +26,29 @@
 | :--- | :--- | :--- |
 | **G/G** | Wysoka | Ciemne włosy, brązowe oczy, wyższa fotoprotekcja UV |
 | **G/T** | Pośrednia | Szatyn, zielone/szare oczy, fenotyp mieszany |
-| **T/T** | Obniżona | Blond/jasna skóra, niebieskie/jasne oczy; słabsza ochrona UV, wyższe ryzyko oparzeń i nowotworów skóry |
+| **★ T/T** | Obniżona | Blond/jasna skóra, niebieskie/jasne oczy; słabsza ochrona UV, wyższe ryzyko oparzeń i nowotworów skóry |
 
 **rs11160059 (ciśnienie — populacja afrykańska)**
 
 | Genotyp | Ekspresja w naczyniach | Wpływ fenotypowy |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Brak asocjacji z SBP w kohortach AFR |
-| **A/G**, **A/A** | Zmodyfikowana | Wyższe skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
+| **★ G/G** | Referencyjna | Brak asocjacji z SBP w kohortach AFR |
+| **A/G** | Pośrednia | Umiarkowanie podwyższone skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
+| **A/A** | Zmodyfikowana | Wyższe skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
+
+**rs12590654 (regulacyjny (LOAD — późna postać Alzheimer))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Referencyjny (major) | Typowa ekspresja SLC24A4 w korze; brak ochrony LOAD z tego SNP |
+| **★ G/A** | Pośredni | Umiarkowana modulacja ekspresji mRNA |
+| **A/A** | Allel minor (ochronny w badaniach) | Skorelowany z obniżonym ryzykiem późnej postaci Alzheimer (LOAD) w populacjach europejskich |
+
+**rs10498633 (intron SLC24A4 (regulacja ekspresji))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Referencyjny | Norma pigmentacji i ekspresji w neuronach |
+| **G/T** | Pośredni | Profil pośredni kognitywny/metaboliczny |
+| **T/T** | Alternatywny | Modulacja transkrypcji w badaniach asocjacyjnych; interpretacja z rs12590654 i rs12896399 |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu T rs12896399 ok. 15–25% w zbiorach mieszanych

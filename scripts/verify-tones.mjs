@@ -30,19 +30,41 @@ function normalizeToneKey(value) {
     .trim();
 }
 
+function genotypeLookupKeys(genotype) {
+  const raw = stripMarkdown(String(genotype || ""));
+  const keys = new Set();
+  const add = (token) => {
+    const key = normalizeToneKey(token);
+    if (key) keys.add(key);
+  };
+  add(raw);
+  add(raw.split("(")[0]);
+  const tokenRe =
+    /(?:^|[\s,;]|lub\s+)([ACGT]{1,2}\/[ACGT]{1,2}|[ACGT]{2}|wt\/wt|i425v\/wt|i425v\/i425v|l\/l|l\/s|s\/s|gc[\d/]+|ref\/\w+|alt\/\w+|minor hom|major)/gi;
+  for (const inner of raw.matchAll(/\(([^)]+)\)/g)) {
+    for (const m of inner[1].matchAll(tokenRe)) add(m[1]);
+  }
+  for (const m of raw.matchAll(tokenRe)) add(m[1]);
+  return [...keys];
+}
+
 function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
   const byGene = FIXED_VARIANT_TONES[String(geneSymbol || "").toUpperCase()];
   if (!byGene) return { tone: "neutral", reason: "no-gene" };
   const headingKey = normalizeToneKey(heading);
-  const genotypeKey = options.lookupKey || normalizeToneKey(genotype);
   const byHeading = byGene[headingKey] || byGene[""];
   if (!byHeading) return { tone: "neutral", reason: "no-heading", headingKey };
-  const tone = byHeading[genotypeKey] || "neutral";
+  const keys = options.lookupKey ? [options.lookupKey] : genotypeLookupKeys(genotype);
+  for (const key of keys) {
+    if (byHeading[key]) {
+      return { tone: byHeading[key], reason: "ok", headingKey, genotypeKey: key };
+    }
+  }
   return {
-    tone,
-    reason: tone === "neutral" && !byHeading[genotypeKey] ? "no-genotype" : "ok",
+    tone: "neutral",
+    reason: "no-genotype",
     headingKey,
-    genotypeKey,
+    genotypeKey: keys[0] || "",
   };
 }
 
@@ -74,7 +96,7 @@ function splitVariantBlocks(body) {
   };
   for (const line of body) {
     const t = line.trim();
-    const tm = t.match(/^\*\*([^*]+)\*\*$/);
+    const tm = t.match(/^\*\*(.+)\*\*$/);
     if (tm) {
       push();
       current.title = stripMarkdown(tm[1]);
@@ -138,10 +160,16 @@ for (const file of fs.readdirSync(mdDir)) {
     if (!table) continue;
     for (const row of table.rows) {
       const genotype = row[0] || "";
-      const lookupKey =
-        gene === "APOE" ? normalizeToneKey(row.join(" ")) : normalizeToneKey(genotype);
+      const isApoeHaplotype =
+        gene === "APOE" && /haplotypy apoe|rs429358.*rs7412/i.test(block.title);
+      const lookupKey = isApoeHaplotype ? normalizeToneKey(row.join(" ")) : null;
       total++;
-      const r = fixedVariantTone(gene, block.title, genotype, { lookupKey });
+      const r = fixedVariantTone(
+        gene,
+        block.title,
+        genotype,
+        lookupKey ? { lookupKey } : {}
+      );
       if (r.reason === "no-genotype" || r.reason === "no-heading") {
         issues.push({ gene, file, heading: block.title, genotype, ...r });
       }

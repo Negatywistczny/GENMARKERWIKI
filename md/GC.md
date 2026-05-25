@@ -25,7 +25,7 @@
 | Genotyp | Stężenie VDBP / 25(OH)D całkowite | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** (lub T/T) | Normatywne, wyższe | Prawidłowa rezerwa witaminy D w surowicy; niższe ryzyko konstytucjonalnego niedoboru; u sportowców łatwiejsze utrzymanie optymalnego 25(OH)D |
-| **A/C** (lub T/G) | Obniżone o ok. 10–15% | Graniczne wartości laboratoryjne; większa sezonowa zmienność; możliwa potrzeba wyższej dawki suplementacji u dzieci i osób otyłych |
+| **★ A/C** (lub T/G) | Obniżone o ok. 10–15% | Graniczne wartości laboratoryjne; większa sezonowa zmienność; możliwa potrzeba wyższej dawki suplementacji u dzieci i osób otyłych |
 | **C/C** (lub G/G) | Obniżone o ok. 15–20% całkowitego 25(OH)D | Wysoka podatność na „fałszywy” niedobór witaminy D przy standardowych normach; wymaga interpretacji wolnej frakcji i często wyższych dawek cholekalcyferolu pod kontrolą laboratoryjną |
 
 **rs7041 + rs4588 (izofomy białkowe Gc1f / Gc1s / Gc2)**
@@ -35,7 +35,7 @@
 | **Gc1f/1f** | T/T + C/C | Najwyższe stężenie całkowitego 25(OH)D; maksymalna stabilność VDBP; częsty u populacji afrykańskiej |
 | **Gc1s/1s** | G/G + C/C | Wysokie stężenie całkowite; klasyczny profil europejski; u palaczy zwiększone ryzyko POChP |
 | **Gc2/2** | T/T + A/A | Najniższe stężenie VDBP; szybsze uwalnianie wolnego kalcyfediolu; asocjacja ochronna w SM (kohorta łotewska); podatność na sepsę (rs4588-AA) i nefropatię cukrzycową |
-| **Gc1s/2** | G/T + C/A | Najczęstszy mieszany diplotyp w Europie; umiarkowanie obniżone VDBP |
+| **★ Gc1s/2** | G/T + C/A | Najczęstszy mieszany diplotyp w Europie; umiarkowanie obniżone VDBP |
 
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu C rs2282679 ok. 35–40% w zbiorach mieszanych; haplotypy Gc silnie zależne od pochodzenia

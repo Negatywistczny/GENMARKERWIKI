@@ -17,6 +17,8 @@
 
 ### 4. Tabela Wariantów
 
+**rs1815739**
+
 | Genotyp (DNA) | Nomenklatura | Ekspresja Białka ACTN3 | Fenotyp, budowa ciała i wydolność |
 | :--- | :--- | :--- | :--- |
 | **C/C** | R/R (Dziki) | Pełna / Optymalna | **Wysoka Siła Eksplozywna:** Dominacja włókien szybkokurczliwych. Predyspozycje do sprintów, skoków i sportów siłowych. Zwiększona stabilność prążka Z znakomicie chroni komórki mięśniowe przed uszkodzeniami i mikrourazami w trakcie gwałtownych ruchów. |

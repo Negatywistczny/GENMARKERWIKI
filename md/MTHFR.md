@@ -22,7 +22,7 @@
 
 | Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- |
-| **C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
+| **★ C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
 | **C/T** | ~65% (zredukowana) | Pula folianów obniżona; przy zdrowej diecie homocysteina rzadko rośnie klinicznie istotnie |
 | **T/T** | 20–30% (krytyczna) | Wariant termolabilny; utrata 70–80% syntezy 5-MTHF, nagromadzenie homocysteiny, duże zapotrzebowanie na dawców metylowych |
 
@@ -31,7 +31,7 @@
 | Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- |
 | **A/A** | 100% (wild type) | Nienaruszona domena wiążąca SAMe; najczęstszy, zdrowy genotyp |
-| **A/C** | Niewielki spadek | Jeden allel defektywny zwykle kompensowany; brak zatorowości metabolicznej |
+| **★ A/C** | Niewielki spadek | Jeden allel defektywny zwykle kompensowany; brak zatorowości metabolicznej |
 | **C/C** | ~60–80% (zredukowana) | Słabszy wpływ na homocysteinę niż C677T, ale zakłócony recykling BH4 (nastrój, stres oksydacyjny) |
 
 **Haplotyp złożony (oba SNP na jednym chromosomie)**
