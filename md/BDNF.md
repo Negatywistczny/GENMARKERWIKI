@@ -17,8 +17,7 @@
 * **Efekt funkcjonalny:** Nosiciele Met uwalniają po wysiłku o 30–50% mniej BDNF, co upośledza neuroplastyczność i uczenie się
 
 ### 4. Tabela Wariantów
-**rs6265**
-
+**rs6265 (Val66Met — sekrecja BDNF)**
 | Genotyp | Status alleliczny | Poziom sekrecji zależnej od aktywności | Charakterystyka neurobiologiczna i wpływ na kognicję | Korelaty somatyczne i metaboliczne |
 | :--- | :--- | :--- | :--- | :--- |
 | **G/G** | Homozygota dzika (Val/Val) | Optymalny (100%). | Prawidłowe wewnątrzkomórkowe sortowanie i transport pęcherzykowy. Optymalna objętość hipokampa i kory przedczołowej. Wysoka sprawność pamięci epizodycznej, czytania ze zrozumieniem i uczenia się motorycznego. Szybka powysiłkowa synteza BDNF. | Prawidłowa kontrola łaknienia. Niższe ryzyko otyłości przy zbilansowanej diecie. Wyjściowo wyższe parametry ciśnienia tętniczego (OR=2,05). |

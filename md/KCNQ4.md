@@ -20,21 +20,18 @@
 
 ### 4. Tabela Wariantów
 **rs4660470 (NIHL — utrata słuchu indukowana hałasem)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Prawidłowe przewodnictwo Kv7.4 | Standardowa odporność na hałas przemysłowy |
 | **★ T/A** | Częściowo obniżone IK pod stresem | ~1,5× ryzyko NIHL przy ekspozycji na hałas |
 | **A/A** | Istotnie upośledzona aktywacja | >2× ryzyko NIHL; możliwa modulacja dopaminy w VTA i wrażliwość na alkohol |
 **rs4660468 (NIHL — haplotyp)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Fizjologiczny IK w OHC | Standardowa odporność na hałas |
 | **★ C/T** | Łagodne obniżenie stabilności błony | Umiarkowanie zwiększona podatność na NIHL |
 | **T/T** | Spadek repolaryzacji przy chronicznym hałasie | Wysokie ryzyko NIHL przy ekspozycji >16 lat lub wysokim natężeniu |
 **rs28937588 (p.Gly285Ser — DFNA2A patogenny)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Prawidłowy kanał | Norma słuchu |

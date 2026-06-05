@@ -20,24 +20,21 @@
 
 ### 4. Tabela Wariantów
 **rs1042615 (3'-UTR — stabilność mRNA)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Nominalna stabilność mRNA | Standardowy BMI, ciśnienie; adaptacja lipidowa u mężczyzn |
 | **★ C/T** | Pośrednia | Umiarkowane modyfikacje BMI i ciśnienia rozkurczowego |
 | **T/T** | Zmiana stabilności transkryptu | Modyfikacja cholesterolu LDL po wysiłku; modulacja osi kortyzolowej (głos) |
 **rs11174811 (regulacja pod stresem)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Referencyjna ekspresja | Standardowa impulsywność i reaktywność na stres |
 | **★ C/T** | Pośrednia | Umiarkowana modulacja impulsywności |
 | **T/T** | Zmiana ekspresji pod stresem | Podwyższona impulsywność; ryzyko uzależnień (alkohol, opioidy); ryzyko ALF po paracetamolu |
 **rs10877969 (proxy percepcji bólu / ASD)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjny (~71% EUR) | Standardowa modulacja bólu i cech socjalizacyjnych |
+| **T/T** | Referencyjna (~71% EUR) | Standardowa modulacja bólu i cech socjalizacyjnych |
 | **T/C** | Pośrednia | Umiarkowana modulacja bólu i ASD |
 | **C/C** | Zmiana aktywności promotora | Modulacja bólu ostrego/neuropatycznego; korelacja z ASD |
 

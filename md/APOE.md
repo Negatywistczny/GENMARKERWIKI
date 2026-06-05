@@ -18,7 +18,6 @@
 
 ### 4. Tabela Wariantów
 
-**Haplotypy APOE (rs429358 + rs7412)**
 
 | rs429358 | rs7412 | Izoforma (genotyp) | Kodowane aminokwasy (112/158) | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -28,9 +27,7 @@
 | **T / T** | **T / C** | **ε2 / ε3 (E2/E3)** | Mieszane (Cys/Cys + Cys/Arg) | **Wysoce neuroprotekcyjny.** Ochronny wariant promujący długowieczność aparatu poznawczego. Charakteryzuje się skrajnie niskim prawdopodobieństwem łagodnych zaburzeń poznawczych (MCI) i otępienia. |
 | **T / T** | **T / T** | **ε2 / ε2 (E2/E2)** | Cys112 / Cys158 | **Dysfunkcja metaboliczna.** Wariant świetnie chroni przed demencją, ale wykazuje zerowe powinowactwo do receptorów w wątrobie. Grozi tzw. rodzinną dysbetalipoproteinemią przy diecie wysokotłuszczowej. |
 | **C / T** | **T / C** | **ε2 / ε4 (E2/E4)** | Mieszane (Cys/Cys + Arg/Arg) | **Efekt zniesienia.** Pojawienie się ochronnego ε2 "anuluje" dużą część zniszczeń, za które odpowiada patologiczny ε4, łagodząc ryzyko do poziomu standardowego. |
-
 **rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Brak allelu G sprzężonego z ε4 | Niższe ryzyko AD w modelach proxy; nadal wymagane określenie haplotypu ε2/ε3/ε4 na rs429358 i rs7412 |

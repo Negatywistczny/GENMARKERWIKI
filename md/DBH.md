@@ -19,78 +19,60 @@
 * **Efekt funkcjonalny:** Dopamina – nagroda, motywacja; noradrenalina – czujność, pobudzenie, ciśnienie. Niski DBH: ADHD, impulsywność, novelty seeking, uzależnienia, dysautonomia. Wysoki DBH (C/C): odpowiedź presyjna na zimno, ryzyko nadciśnienia.
 
 ### 4. Tabela Wariantów
-
 **rs1611115 (C-1021T / C-970T, promotor)**
-
 | Genotyp | Aktywność / ekspresja | Profil neurochemiczny | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- | :--- |
 | **★ C/C** | Najwyższy DBH (referencyjny) | Zbalansowany stosunek DA/NE | Fenotyp ochronny. Niższe ryzyko ADHD (kohorty kaukaskie). Silniejsza odpowiedź ciśnieniowa na ekstremalne zimno; predyspozycja do nadciśnienia |
-| **C/T** | Umiarkowanie obniżony | Lekka przewaga dopaminy z kompensacją NE | Pośredni; novelty seeking, łagodna impulsywność; optimum ewolucyjne adaptacji |
+| **C/T** | Pośrednia (obniżona) | Lekka przewaga dopaminy z kompensacją NE | Pośredni; novelty seeking, łagodna impulsywność; optimum ewolucyjne adaptacji |
 | **T/T** | Skrajnie niski (~11× vs C/C) | Wysoka DA, głęboki brak NE | Ryzyko ADHD; psychozy przy kokainie; lekooporna depresja w alkoholizmie; Parkinson OR≈2,95 |
-
 **rs1108580 (444G>A)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ G/G** | Referencyjny | Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym |
-| **G/A** | Pośrednio obniżony | Profil mieszany; modulacja ekspresji tkankowej |
+| **★ G/G** | Referencyjna | Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym |
+| **G/A** | Pośrednia (obniżona) | Profil mieszany; modulacja ekspresji tkankowej |
 | **A/A** | Obniżony DBH osoczowy; modulacja płuca/wątroba | Wyższe ryzyko ADHD i schizofrenii; niższe ryzyko zawału (słabszy ton współczulny). W Europie bywa „major allele” w algorytmach, klinicznie negatywny modyfikator |
-
 **rs2519154 (farmakogenomika atomoksetyny)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjny (major) | Słabsza remisja na atomoksetynie w ADHD (kohorty porównawcze) |
-| **★ T/C** | Pośredni | Umiarkowana odpowiedź na atomoksetynę |
+| **T/T** | Referencyjna (major) | Słabsza remisja na atomoksetynie w ADHD (kohorty porównawcze) |
+| **★ T/C** | Pośrednia | Umiarkowana odpowiedź na atomoksetynę |
 | **C/C** | Farmakogenomiczny | Wybitnie lepsza remisja na atomoksetynie vs T/T w ADHD |
-
-**rs2519152**
-
+**rs2519152 (farmakogenomika atomoksetyny / ADHD)**
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Standardowy DBH | Profil referencyjny (allel major) |
-| **T/C** | Obniżony | Pośrednia hiperaktywność u dzieci (dane ograniczone) |
+| **T/T** | Standardowa (DBH) | Profil referencyjny (allel major) |
+| **T/C** | Obniżona | Pośrednia hiperaktywność u dzieci (dane ograniczone) |
 | **★ C/C** | Bardzo niski DBH | Hiperaktywność u dzieci; *paternal over-transmission* (kohorty wschodnioindyjskie) |
-
-**rs129882**
-
+**rs129882 (ekspresja DBH — Parkinson)**
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Standardowa transkrypcja | Profil referencyjny |
+| **C/C** | Standardowa transkrypcja | Referencyjna (profil referencyjny) |
 | **★ C/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie (profil pośredni) |
 | **T/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie |
-
 **rs7040170 (A>G)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjny | Typowa koncentracja i uwaga |
+| **A/A** | Referencyjna | Typowa koncentracja i uwaga |
 | **A/G** | Allel G obniża enzym | Zaburzenia koncentracji (profil pośredni) |
 | **G/G** | Obniżona aktywność | Zaburzenia koncentracji |
-
 **rs2873804 (intron DBH (atomoksetyna / ADHD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Profil referencyjny | Standardowa odpowiedź na atomoksetynę i stymulanty w kontekście haplotypu |
-| **T/C** | Pośredni | Umiarkowana modulacja odpowiedzi na leczenie ADHD |
+| **T/T** | Referencyjna (profil referencyjny) | Standardowa odpowiedź na atomoksetynę i stymulanty w kontekście haplotypu |
+| **T/C** | Pośrednia | Umiarkowana modulacja odpowiedzi na leczenie ADHD |
 | **★ C/C** | Haplotyp sprzężony z rs2519154 | Część profilu lepszej remisji na atomoksetynę (por. rs2519154 C/C); ocena łącznie z rs1611115 |
-
 **rs1076150 (intron DBH (ADHD, sprzężenie))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjny | Typowy metabolizm katecholamin z perspektywy tego SNP |
-| **T/C** | Pośredni | Profil pośredni w badaniach kohortowych ADHD |
-| **★ C/C** | Alternatywny haplotyp | Skorelowany z obniżoną aktywnością DBH w haplotypach ryzyka; farmakogenomika jak rs2519152 |
-
+| **T/T** | Referencyjna | Typowy metabolizm katecholamin z perspektywy tego SNP |
+| **T/C** | Pośrednia | Profil pośredni w badaniach kohortowych ADHD |
+| **★ C/C** | Alternatywna (haplotyp) | Skorelowany z obniżoną aktywnością DBH w haplotypach ryzyka; farmakogenomika jak rs2519152 |
 **rs1548364 (intron DBH A>G (atomoksetyna))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjny | Brak dodatkowego sygnału z tego locus |
-| **A/G** | Pośredni | Umiarkowana predyspozycja ADHD w haplotypie |
-| **★ G/G** | Alternatywny | Część haplotypu obniżającego DBH; rozważ atomoksetynę przy ADHD |
+| **A/A** | Referencyjna | Brak dodatkowego sygnału z tego locus |
+| **A/G** | Pośrednia | Umiarkowana predyspozycja ADHD w haplotypie |
+| **★ G/G** | Alternatywna | Część haplotypu obniżającego DBH; rozważ atomoksetynę przy ADHD |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1611115 – allel C (ochronny) ~79,65%; allel T ~20,16% (gnomAD/ALFA)
 * **Europa (NFE):** C ~78,95%; T ~21,05%. Genotypy: CC ~59–66%, CT ~30–35%, TT ~4–6%. rs1108580 allel A ~53,6–54,7%

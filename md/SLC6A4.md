@@ -19,28 +19,23 @@
 
 ### 4. Tabela Wariantów
 
-**A — haplotypy regionu promotorowego (5-HTTLPR + rs25531)**
 
 | Haplotyp / genotyp | Poziom aktywności transkrypcyjnej | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **L_A / L_A** (L/L + A/A) | Bardzo wysoka (maksymalna gęstość SERT) | Fenotyp „mniszka”: odporność na stres, mniejsze ryzyko MDD/PTSD po traumach, dobra odpowiedź na SSRI |
 | **L_A / L_G** lub **L_A / S_A** | Pośrednia do niska | Podwyższona podatność na stres psychospołeczny; umiarkowana hiperaktywacja migdałowata |
 | **S_A / S_A** lub **L_G / L_G** | Bardzo niska (down-regulacja receptorów 5-HT) | Fenotyp „orchidei”: wysoka podatność na depresję/lęk w złym środowisku, wybitna wydajność przy wsparciu; częsta oporność na pierwszoliniowe SSRI |
-
 **rs25532 (C>T)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Standardowa transkrypcja | Profil referencyjny przy haplotypie L_A |
-| **C/T** | Pośrednio obniżona | Umiarkowane wyciszenie ekspresji |
+| **C/T** | Pośrednia (obniżona) | Umiarkowane wyciszenie ekspresji |
 | **T/T** | Obniżona o 15–80% | Haplotyp L_A z T związany z wyższym ryzykiem Tourette'a (OR=1,33) i OCD |
-
 **rs1042173 (3'UTR, T>G)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Obniżona inhibicja miRNA-135 → wyższe SERT | Skrajne upijanie się (średnio ~11 drinków u alkoholików) |
-| **★ T/G** | Pośredni | Profil mieszany |
+| **★ T/G** | Pośrednia | Profil mieszany |
 | **G/G** | Silniejsze tłumienie mRNA | Działanie osłonowe przed uzależnieniem (~8,5 drinka u alkoholików) |
 
 **I425V (mutacja missense, rzadka)**
@@ -50,9 +45,7 @@
 | **wt/wt** | Prawidłowy SERT (Ile425) | Brak ryzyka OCD/TD z tej rzadkiej mutacji |
 | **I425V/wt** | Gain-of-function (heterozygota) | Podwyższone ryzyko zaburzeń obsesyjno-kompulsyjnych i tików |
 | **I425V/I425V** | Hiperaktywny SERT (homozygota) | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
-
 **rs4795541 (5-HTTLPR (proxy VNTR promotorowy; S/L/xL))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **L/L (długi; L_A/L_A po rs25531)** | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |

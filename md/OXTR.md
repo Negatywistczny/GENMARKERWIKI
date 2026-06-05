@@ -16,10 +16,8 @@
 * **Efekt funkcjonalny:** Genotyp G/G wiąże się z wyższą empatią i buforowaniem stresu społecznego; A/A – inny profil reakcji na wykluczenie i PTSD (sekcja 4)
 
 ### 4. Tabela Wariantów
-
-**rs53576**
-
-| Genotyp rs53576 | Oznaczenie Alleliczne | Udokumentowany Wpływ na Fenotyp, Kognicję i Biochemię |
+**rs53576 (3'-UTR — receptor oksytocyny)**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Homozygota główna | **Zaufanie i Empatia:** Genotyp powiązany ze statystycznie wyższymi wynikami w skalach ogólnej prospołeczności. Nosiciele osiągają wyższe noty w teście RMET (rozpoznawanie emocji z twarzy) i wykazują wyższą empatię dyspozycyjną.<br>**Reaktywność na stres:** Charakteryzują się optymalną regulacją nerwu błędnego przy ekspozycji na bodźce awersyjne. Wyróżnia ich niezwykła zdolność do obniżania rzutów kortyzolu w momentach stresu dzięki wsparciu przyjaciół (tzw. buforowanie stresu).<br>**Problemy narządowe:** Genotyp G/G u kobiet uderzająco podnosi ryzyko rozwoju schorzeń na tle stłuszczenia wątroby (ALD i MASLD), które w tej grupie jest niezależne od patologii związanych ze spożywaniem dużych dawek cukru.<br>**Ciemna strona empatii:** Nosiciele wykazują tzw. wewnątrzgrupowy faworyzm. Udowodniono u nich obniżenie współczucia dla osób nie z ich kręgu (out-group) i znaczący stres fizjologiczny, gdy padają ofiarą izolacji z grupy własnej (np. podczas gier cyberball). |
 | **★ A/G** | Heterozygota (Pośrednia) | **Fenotyp Modulowany:** Profil wykazujący pośrednie wartości neurofizjologiczne. W wielu analizach medycznych wystarczy jednak obecność jednej kopii allelu A, by wykazać osłabione mechanizmy buforowania wsparcia. Jednostki te dysponują umiarkowanymi wynikami empatycznymi w populacji ogólnej bez drastycznych wahań. |

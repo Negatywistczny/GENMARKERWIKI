@@ -17,45 +17,35 @@
 * **Efekt funkcjonalny:** Allel ryzyka wiąże się z gorszą kontrolą łaknienia, jedzeniem emocjonalnym, wyższym BMI i podwyższonym ryzykiem CVD, T2DM oraz niektórych nowotworów
 
 ### 4. Tabela Wariantów
-
-**rs9939609**
-
+**rs9939609 (intron 1 — enhancer IRX3/IRX5)**
 | Genotyp | Status wariantu | Aktywność demetylacyjna i ekspresja tkankowa | Profil neurobiologiczny i behawioralny | Wpływ na fenotyp i ryzyko zdrowotne |
 | :--- | :--- | :--- | :--- | :--- |
 | **T/T** | Homozygota dzika (ochronna) | Prawidłowe wiązanie represora ARID5B. Niska, fizjologiczna ekspresja genów IRX3 i IRX5 w preadipocytach. Prawidłowa ekspresja UCP1, wysoka zdolność termogenezy i sprawny proces browningu adipocytów. | Sprawne poposiłkowe tłumienie wydzielania ghreliny. Prawidłowa kontrola sytości i stabilna odpowiedź układu dopaminergicznego na bodźce żywieniowe. | Referencyjny wskaźnik BMI i obwód pasa. Podstawowe ryzyko otyłości, cukrzycy typu 2 (T2DM) oraz chorób sercowo-naczyniowych (CVD). |
 | **A/T** | Heterozygota (ryzyka) | Częściowe osłabienie wiązania białka ARID5B. Umiarkowanie podwyższony poziom transkrypcji IRX3 i IRX5. Obniżona efektywność mitochondrialnego rozprzęgania energii w tkance tłuszczowej. | Opóźnione odczuwanie sytości. Podwyższona podatność na podjadanie między posiłkami pod wpływem stresu lub ekspozycji na bodźce sensoryczne. | Wzrost BMI średnio o 0,45 kg/m2 na allel ryzyka. Ryzyko cukrzycy typu 2 wzrasta 1,3-krotnie w porównaniu z genotypem TT. |
 | **A/A** | Homozygota zmutowana (ryzyka) | Całkowita blokada wiązania ARID5B. Dwukrotny wzrost ekspresji IRX3 i IRX5. Blokada białka UCP1, 5-krotny spadek termogenezy, jednokierunkowe różnicowanie w białe adipocyty. | Brak poposiłkowej supresji acyl-ghreliny. Silna skłonność do jedzenia emocjonalnego oraz epizody utraty kontroli nad jedzeniem (LOC). Preferencja potraw bogatych w tłuszcze. | Średnia masa ciała wyższa o 3 kg niż u osób z genotypem TT. Obwód pasa większy średnio o 0,97 cm. 1,67-krotnie wyższe ryzyko otyłości, 1,55 do 1,6-krotne ryzyko T2D. |
-
 **rs1421085 (intron FTO (sprzężenie; możliwy wariant sprawczy vs rs9939609))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Haplotyp ochronny (T-T-T) | Wiązanie ARID5B; niska ekspresja IRX3/IRX5; profil jak rs9939609 T/T |
-| **T/C** | Pośredni | Częściowa derepresja IRX3/IRX5; umiarkowane ryzyko otyłości |
+| **T/C** | Pośrednia | Częściowa derepresja IRX3/IRX5; umiarkowane ryzyko otyłości |
 | **C/C** | Haplotyp ryzyka (C-G-A) | Osłabienie ARID5B; wyższa ekspresja IRX3/IRX5; wzrost BMI i ryzyko T2D (jak allel A rs9939609) |
-
 **rs17817449 (intron FTO (LD z rs9939609))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Ochronny w LD | Zgodny z fenotypem niskiego BMI w haplotypie |
-| **T/A** | Pośredni | Profil pośredni metaboliczny |
+| **T/A** | Pośrednia | Profil pośredni metaboliczny |
 | **A/A** | Ryzyko otyłości | Część bloku ryzyka FTO–IRX3; dieta białkowa i aktywność fizyczna jak przy rs9939609 A |
-
 **rs9930506 (intron FTO (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjny w haplotypie ochronnym | Brak dodatkowego sygnału poza tłem LD |
-| **A/G** | Pośredni | Umiarkowane ryzyko metaboliczne |
+| **A/A** | Referencyjna (w haplotypie ochronnym) | Brak dodatkowego sygnału poza tłem LD |
+| **A/G** | Pośrednia | Umiarkowane ryzyko metaboliczne |
 | **G/G** | Haplotyp ryzyka | Skorelowany z wyższym BMI w populacjach europejskich |
-
 **rs8050136 (intron FTO (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Haplotyp ochronny | Niższe ryzyko przy T-T-T; mindful eating i ruch |
-| **C/T** | Pośredni | Profil pośredni |
+| **C/T** | Pośrednia | Profil pośredni |
 | **C/C** | Haplotyp ryzyka (często C-G-A) | Wyższe ryzyko otyłości i słabsza kontrola apetytu w modelu IRX3 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu A wynosi ok. 40,82% (n=151 874)

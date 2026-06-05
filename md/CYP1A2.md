@@ -19,8 +19,7 @@
 * **Efekt funkcjonalny:** Różnice w ryzyku zawału, wydolności sportowej, uszkodzenia nerek i poronień przy wysokiej kofeinie (sekcja 4)
 
 ### 4. Tabela Wariantów
-**rs762551**
-
+**rs762551 (*1F/*1A — metabolizm kofeiny)**
 | Genotyp | Klasyfikacja (PharmVar) | Fenotyp Metabolizmu | Wpływ na Organizację Pracy Enzymatycznej |
 | :--- | :--- | :--- | :--- |
 | **A/A** | *1F / *1F | Szybki metabolizator | Osobnik posiadający dwie kopie allelu zwiększonej indukowalności. Zdolność do niezwykle agresywnego neutralizowania kofeiny z krwiobiegu w zaledwie 1-2 godziny. Zapobiega zaburzeniom układu nerwowego w nocy. U osób palących enzym wymusza zjawisko ultraszybkiego metabolizmu, co generuje problemy ze skutecznym stężeniem leków. |

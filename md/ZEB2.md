@@ -19,60 +19,46 @@
 * **Efekt funkcjonalny:** W rozwoju — blokada BMP4, migracja grzebienia nerwowego; w dorosłym — plastyczność naczyń; hiperekspresja w guzach (EMT, wyciszenie E-kadheryny)
 
 ### 4. Tabela Wariantów
-
 **rs2252641 (CAD — enhancer ZEB2 / VSMC)**
-
-| Genotyp | Ekspresja ZEB2 / remodeling naczyniowy | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Pełna ekspresja; stabilizacja fibromiocytów (FMC) | Genotyp ochronny; niższe ryzyko niestabilnej blaszki miażdżycowej |
 | **★ A/G** | Pośrednia ekspresja | Umiarkowane ryzyko powikłań zapalnych naczyniowych |
 | **G/G** | Obniżona ekspresja; przejście ku chondromiocytom | Zwiększone ryzyko wczesnego zawału (CAD); kalcyfikacja blaszki |
-
 **rs17678683 (CAD — eQTL tkanka tłuszczowa / szkieletowa)**
-
-| Genotyp | Regulacja transkryptów ZEB2 | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Brak podwyższonego ryzyka aterogennego w typowych kohortach |
 | **★ G/T** | Pośrednia | Subtelny wpływ na rozwój zmian miażdżycowych |
 | **T/T** | Obniżona regulacja | OR ~1,10–1,38 dla zdarzeń niedokrwiennych w niektórych kohortach |
-
 **rs6740731 (regulacyjny ZEB2 (naczynia / Mowat-Wilson kontekst))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Typowy profil bez dodatkowego ryzyka z tego SNP |
-| **G/A** | Pośredni | Umiarkowana modulacja w badaniach kohortowych |
-| **A/A** | Alternatywny | Skorelowany w indeksie z fenotypami naczyniowymi; interpretacja łącznie z rs2252641/rs17678683 |
-
+| **G/G** | Referencyjna | Typowy profil bez dodatkowego ryzyka z tego SNP |
+| **G/A** | Pośrednia | Umiarkowana modulacja w badaniach kohortowych |
+| **A/A** | Alternatywna | Skorelowany w indeksie z fenotypami naczyniowymi; interpretacja łącznie z rs2252641/rs17678683 |
 **rs35500812 (ZEB2 (powiązany marker))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **CC/CC** | Referencyjny | Norma rozwojowa z perspektywy tego locus (brak delecji C) |
-| **★ CC/C** | Pośredni | Profil pośredni |
-| **C/C** | Alternatywny | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
-
+| **CC/CC** | Referencyjna | Norma rozwojowa z perspektywy tego locus (brak delecji C) |
+| **★ CC/C** | Pośrednia | Profil pośredni |
+| **C/C** | Alternatywna | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
 **rs137852981 (ZEB2 (rzadki/regulacyjny))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Brak efektu klinicznego |
+| **G/G** | Referencyjna | Brak efektu klinicznego |
 | **G/A** | Nosiciel | Monitorowanie tylko przy silnym fenotypie rodzinnym |
 | **A/A** | Rzadki homozygot | Potencjalna regulacja ZEB2 — weryfikacja w kontekście całego panelu ZEB2 |
-
 **rs786204815 (ZEB2 (rzadki))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Norma |
-| **G/A** | Pośredni | Brak ustalonego fenotypu klinicznego |
+| **G/G** | Referencyjna | Norma |
+| **G/A** | Pośrednia | Brak ustalonego fenotypu klinicznego |
 | **A/A** | Rzadki | Dane fenotypowe niewystarczające — nie stosować diagnostyki Mowat-Wilson wyłącznie na tym SNP |
-
 **rs587776604 (ZEB2 (ClinVar / rzadki))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
+| **G/G** | Referencyjna | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
 | **G/GT** | Nosiciel | Weryfikacja ClinVar u nosicieli |
 | **GT/GT** | Rzadki | Możliwa patogenność — wyłącznie z oceną kliniczną i sekwencjonowaniem ZEB2 (duplikacje/delecje exon 8 są główną przyczyną MWS) |
 ### 5. Statystyki populacyjne

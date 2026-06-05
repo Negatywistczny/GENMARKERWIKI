@@ -48,11 +48,32 @@ function genotypeLookupKeys(genotype) {
   return [...keys];
 }
 
+function headingLookupKeys(heading) {
+  const keys = [];
+  const full = normalizeToneKey(heading);
+  if (full) keys.push(full);
+  const rsMatch = String(heading || "").match(/rs\d+/i);
+  if (rsMatch) {
+    const rsKey = normalizeToneKey(rsMatch[0]);
+    if (rsKey && rsKey !== full) keys.push(rsKey);
+  }
+  return keys;
+}
+
 function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
   const byGene = FIXED_VARIANT_TONES[String(geneSymbol || "").toUpperCase()];
   if (!byGene) return { tone: "neutral", reason: "no-gene" };
-  const headingKey = normalizeToneKey(heading);
-  const byHeading = byGene[headingKey] || byGene[""];
+  const headingKeys = headingLookupKeys(heading);
+  let byHeading = null;
+  let headingKey = headingKeys[0] || "";
+  for (const key of headingKeys) {
+    if (byGene[key]) {
+      byHeading = byGene[key];
+      headingKey = key;
+      break;
+    }
+  }
+  byHeading = byHeading || byGene[""];
   if (!byHeading) return { tone: "neutral", reason: "no-heading", headingKey };
   const keys = options.lookupKey ? [options.lookupKey] : genotypeLookupKeys(genotype);
   for (const key of keys) {

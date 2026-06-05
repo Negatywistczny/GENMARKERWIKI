@@ -19,54 +19,42 @@
 * **Efekt funkcjonalny:** Różnice dotyczą **percepcji**, nie produkcji metabolitów (>90% populacji wydala tiole; anosmia to wariant węchowy)
 
 ### 4. Tabela Wariantów
-
 **rs4481887 (anosmia szparagowa / percepcja moczu)**
-
-| Genotyp | Fenotyp sensoryczny | Aktywność receptora i przekaźnictwo |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Wysoka wrażliwość; niski próg na tiole | Maksymalna gęstość aktywnych receptorów; silny impuls do kory węchowej |
-| **★ A/G** | Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach | Funkcjonalna transdukcja; dominacja allelu A |
-| **G/G** | Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu | Brak aktywacji OR2M7 przy metanotiolu; brak depolaryzacji w opuszce węchowej |
-
+| **A/A** | Maksymalna gęstość aktywnych receptorów; silny impuls do kory węchowej | Wysoka wrażliwość; niski próg na tiole |
+| **★ A/G** | Funkcjonalna transdukcja; dominacja allelu A | Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach |
+| **G/G** | Brak aktywacji OR2M7 przy metanotiolu; brak depolaryzacji w opuszce węchowej | Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu |
 **rs13373863 (OR2M region (szparagi — LD z rs4481887))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
-| **G/A** | Pośredni | Zmieniona intensywność zapachu |
-| **A/A** | Alternatywny haplotyp | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
-
+| **G/A** | Pośrednia | Zmieniona intensywność zapachu |
+| **A/A** | Alternatywna (haplotyp) | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
 **rs71538191 (OR2M (powiązany haplotyp))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Brak izolowanego efektu poza LD |
-| **★ G/A** | Pośredni | Umiarkowana zmiana percepcji zapachowej |
-| **A/A** | Alternatywny | Część haplotypu OR2M; możliwa zmiana wykrywalności zapachu szparagów |
-
+| **G/G** | Referencyjna | Brak izolowanego efektu poza LD |
+| **★ G/A** | Pośrednia | Umiarkowana zmiana percepcji zapachowej |
+| **A/A** | Alternatywna | Część haplotypu OR2M; możliwa zmiana wykrywalności zapachu szparagów |
 **rs6689553 (OR2M (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjny | Typowa percepcja w bloku |
-| **★ T/C** | Pośredni | Profil pośredni |
-| **C/C** | Alternatywny | Skorelowany z wariantami zapachu szparagów w GWAS |
-
+| **T/T** | Referencyjna | Typowa percepcja w bloku |
+| **★ T/C** | Pośrednia | Profil pośredni |
+| **C/C** | Alternatywna | Skorelowany z wariantami zapachu szparagów w GWAS |
 **rs72765116 (OR2M (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Norma |
-| **G/A** | Pośredni | Umiarkowana modulacja |
-| **A/A** | Alternatywny | Część bloku LD rs4481887 |
-
+| **G/G** | Referencyjna | Norma |
+| **G/A** | Pośrednia | Umiarkowana modulacja |
+| **A/A** | Alternatywna | Część bloku LD rs4481887 |
 **rs57711976 (OR2M (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Norma percepcji |
-| **G/A** | Pośredni | Pośredni fenotyp zapachowy |
-| **A/A** | Alternatywny | Możliwa zmiana intensywności zapachu szparagów |
+| **G/G** | Referencyjna | Norma percepcji |
+| **G/A** | Pośrednia | Pośredni fenotyp zapachowy |
+| **A/A** | Alternatywna | Możliwa zmiana intensywności zapachu szparagów |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A ok. 35–40%; anosmia szparagowa u ok. 40–50% (zmienna metodologia)
 * **Europa (NFE):** MAF A ok. 40–50%; anosmia u mężczyzn częściej niż u kobiet (GWAS BMJ 2016)

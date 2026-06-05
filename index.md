@@ -1,6 +1,6 @@
 # GenMarkerWiki — indeks kart genów
 
-Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe w `[md/](md/)`; podgląd w przeglądarce: `[index.html](index.html)` (karty: `[html/gene.html](html/gene.html)?gene=SYMBOL`). Wersje do druku (4 strony: 1–3 / 4 / 5–6 / 7–8, jasny motyw): `[html/print-index.html](html/print-index.html)`. Gotowe PDF: katalog `[pdf/](pdf/)` (generowanie: `pip install -r scripts/requirements-pdf.txt`, `python -m playwright install chromium`, `python scripts/generate-pdfs.py`).
+Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe w `[md/](md/)`; podgląd w przeglądarce: `[index.html](index.html)` (karty: `[html/gene.html](html/gene.html)?gene=SYMBOL`). Wersje do druku (4 strony: 1–3 / 4 / 5–6 / 7–8, jasny motyw): `[html/print-index.html](html/print-index.html)`.
 
 
 ## Mózg, nastrój i zachowanie
@@ -19,6 +19,7 @@ Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe 
 | DBH | `md/DBH.md` | [podgląd](html/gene.html?gene=DBH) | [druk](html/print.html?gene=DBH) | [pdf/DBH.pdf](pdf/DBH.pdf) |
 | DRD2 | `md/DRD2.md` | [podgląd](html/gene.html?gene=DRD2) | [druk](html/print.html?gene=DRD2) | [pdf/DRD2.pdf](pdf/DRD2.pdf) |
 | FKBP5 | `md/FKBP5.md` | [podgląd](html/gene.html?gene=FKBP5) | [druk](html/print.html?gene=FKBP5) | [pdf/FKBP5.pdf](pdf/FKBP5.pdf) |
+| IL2RA | `md/IL2RA.md` | [podgląd](html/gene.html?gene=IL2RA) | [druk](html/print.html?gene=IL2RA) | [pdf/IL2RA.pdf](pdf/IL2RA.pdf) |
 | MAOA | `md/MAOA.md` | [podgląd](html/gene.html?gene=MAOA) | [druk](html/print.html?gene=MAOA) | [pdf/MAOA.pdf](pdf/MAOA.pdf) |
 | OXTR | `md/OXTR.md` | [podgląd](html/gene.html?gene=OXTR) | [druk](html/print.html?gene=OXTR) | [pdf/OXTR.pdf](pdf/OXTR.pdf) |
 | SLC6A4 | `md/SLC6A4.md` | [podgląd](html/gene.html?gene=SLC6A4) | [druk](html/print.html?gene=SLC6A4) | [pdf/SLC6A4.pdf](pdf/SLC6A4.pdf) |
@@ -35,11 +36,16 @@ Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe 
 | CYP1A2 | `md/CYP1A2.md` | [podgląd](html/gene.html?gene=CYP1A2) | [druk](html/print.html?gene=CYP1A2) | [pdf/CYP1A2.pdf](pdf/CYP1A2.pdf) |
 | CYP2C19 | `md/CYP2C19.md` | [podgląd](html/gene.html?gene=CYP2C19) | [druk](html/print.html?gene=CYP2C19) | [pdf/CYP2C19.pdf](pdf/CYP2C19.pdf) |
 | CYP2D6 | `md/CYP2D6.md` | [podgląd](html/gene.html?gene=CYP2D6) | [druk](html/print.html?gene=CYP2D6) | [pdf/CYP2D6.pdf](pdf/CYP2D6.pdf) |
+| FADS1 | `md/FADS1.md` | [podgląd](html/gene.html?gene=FADS1) | [druk](html/print.html?gene=FADS1) | [pdf/FADS1.pdf](pdf/FADS1.pdf) |
+| FADS2 | `md/FADS2.md` | [podgląd](html/gene.html?gene=FADS2) | [druk](html/print.html?gene=FADS2) | [pdf/FADS2.pdf](pdf/FADS2.pdf) |
 | FTO | `md/FTO.md` | [podgląd](html/gene.html?gene=FTO) | [druk](html/print.html?gene=FTO) | [pdf/FTO.pdf](pdf/FTO.pdf) |
 | GC | `md/GC.md` | [podgląd](html/gene.html?gene=GC) | [druk](html/print.html?gene=GC) | [pdf/GC.pdf](pdf/GC.pdf) |
 | LCT | `md/LCT.md` | [podgląd](html/gene.html?gene=LCT) | [druk](html/print.html?gene=LCT) | [pdf/LCT.pdf](pdf/LCT.pdf) |
 | MTHFR | `md/MTHFR.md` | [podgląd](html/gene.html?gene=MTHFR) | [druk](html/print.html?gene=MTHFR) | [pdf/MTHFR.pdf](pdf/MTHFR.pdf) |
+| MTR | `md/MTR.md` | [podgląd](html/gene.html?gene=MTR) | [druk](html/print.html?gene=MTR) | [pdf/MTR.pdf](pdf/MTR.pdf) |
+| MTRR | `md/MTRR.md` | [podgląd](html/gene.html?gene=MTRR) | [druk](html/print.html?gene=MTRR) | [pdf/MTRR.pdf](pdf/MTRR.pdf) |
 | TAS2R38 | `md/TAS2R38.md` | [podgląd](html/gene.html?gene=TAS2R38) | [druk](html/print.html?gene=TAS2R38) | [pdf/TAS2R38.pdf](pdf/TAS2R38.pdf) |
+| VDR | `md/VDR.md` | [podgląd](html/gene.html?gene=VDR) | [druk](html/print.html?gene=VDR) | [pdf/VDR.pdf](pdf/VDR.pdf) |
 
 ## Wygląd i zmysły
 
@@ -50,6 +56,7 @@ Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe 
 | KCNQ4 | `md/KCNQ4.md` | [podgląd](html/gene.html?gene=KCNQ4) | [druk](html/print.html?gene=KCNQ4) | [pdf/KCNQ4.pdf](pdf/KCNQ4.pdf) |
 | MC1R | `md/MC1R.md` | [podgląd](html/gene.html?gene=MC1R) | [druk](html/print.html?gene=MC1R) | [pdf/MC1R.pdf](pdf/MC1R.pdf) |
 | OCA2 | `md/OCA2.md` | [podgląd](html/gene.html?gene=OCA2) | [druk](html/print.html?gene=OCA2) | [pdf/OCA2.pdf](pdf/OCA2.pdf) |
+| OR1A1 | `md/OR1A1.md` | [podgląd](html/gene.html?gene=OR1A1) | [druk](html/print.html?gene=OR1A1) | [pdf/OR1A1.pdf](pdf/OR1A1.pdf) |
 | OR2M | `md/OR2M.md` | [podgląd](html/gene.html?gene=OR2M) | [druk](html/print.html?gene=OR2M) | [pdf/OR2M.pdf](pdf/OR2M.pdf) |
 | OR6A2 | `md/OR6A2.md` | [podgląd](html/gene.html?gene=OR6A2) | [druk](html/print.html?gene=OR6A2) | [pdf/OR6A2.pdf](pdf/OR6A2.pdf) |
 | SLC24A4 | `md/SLC24A4.md` | [podgląd](html/gene.html?gene=SLC24A4) | [druk](html/print.html?gene=SLC24A4) | [pdf/SLC24A4.pdf](pdf/SLC24A4.pdf) |

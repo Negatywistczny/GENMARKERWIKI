@@ -19,17 +19,13 @@
 * **Efekt funkcjonalny:** Brak transportu prekursorów zapachowych i lipidów → sucha, szara woskowina, minimalna osmidroza pachowa; w układzie nerwowym możliwa zmiana transportu DHEA-S (neurosteroid modulujący GABA)
 
 ### 4. Tabela Wariantów
-
 **rs17822931 (Gly180Arg)**
-
-| Genotyp | Aktywność transportowa MRP8 | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Pełna ekspresja i stabilność glikoproteiny | Wilgotna, ciemnobrązowa woskowina; silny zapach potu pachowego (osmidroza); wyższe ryzyko hidradenitis suppurativa i perłaka ucha środkowego u populacji europejskiej |
 | **G/A** | Pośrednia; wystarczająca do pełnego fenotypu wilgotnego (dziedziczenie dominujące) | Wilgotna woskowina; umiarkowany do silnego zapachu potu; profil zbliżony do G/G w praktyce klinicznej |
 | **A/A** | Brak dojrzałego białka; degradacja proteasomalna | Sucha, szara, łuszcząca się woskowina; brak lub minimalny zapach ciała; tendencja do twardych czopów woskowinowych; niższe ryzyko perłaka ucha; u Azjatów Wschodnich skorelowany ze zmniejszeniem ryzyka ER-ujemnego raka piersi (wyniki kohortowo zależne) |
-
 **rs17822471 (c.1637C>T (Gly546Val, MRP8 — toksyczność 5-FU))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Prawidłowa ekspresja MRP8 w wątrobie i szpiku | Norma ekspresji transportera; prawidłowy efflux 5-FU i metabolitów. Niższe ryzyko ciężkiej leukopenii (WHO g3/4) przy chemioterapii fluoropirymidynowej |

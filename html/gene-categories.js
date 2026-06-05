@@ -10,7 +10,7 @@ window.GENE_CATEGORIES = [
     icon: "🧠",
     genes: [
       "ADRA2A", "ANK3", "ANKK1", "APOE", "AVPR1A", "BDNF", "CACNA1C", "CHRM2",
-      "COMT", "DBH", "DRD2", "FKBP5", "MAOA", "OXTR", "SLC6A4", "SNAP25",
+      "COMT", "DBH", "DRD2", "FKBP5", "IL2RA", "MAOA", "OXTR", "SLC6A4", "SNAP25",
       "TPH2", "WWC1",
     ],
   },
@@ -19,8 +19,8 @@ window.GENE_CATEGORIES = [
     label: "Metabolizm i substancje",
     icon: "🍽️",
     genes: [
-      "ALDH2", "CHRNA5", "CYP1A2", "CYP2C19", "CYP2D6", "FTO", "GC", "LCT",
-      "MTHFR", "TAS2R38",
+      "ALDH2", "CHRNA5", "CYP1A2", "CYP2C19", "CYP2D6", "FADS1", "FADS2", "FTO",
+      "GC", "LCT", "MTHFR", "MTR", "MTRR", "TAS2R38", "VDR",
     ],
   },
   {
@@ -28,7 +28,8 @@ window.GENE_CATEGORIES = [
     label: "Wygląd i zmysły",
     icon: "👁️",
     genes: [
-      "ABCC11", "HERC2", "KCNQ4", "MC1R", "OCA2", "OR2M", "OR6A2", "SLC24A4",
+      "ABCC11", "HERC2", "KCNQ4", "MC1R", "OCA2", "OR1A1", "OR2M", "OR6A2",
+      "SLC24A4",
       "SLC45A2",
     ],
   },

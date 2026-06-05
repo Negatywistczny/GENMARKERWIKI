@@ -24,18 +24,16 @@
 | **G/C (PAV/AVI)** | **Średni smakosz** | Pośrednia praca receptora, jedna kopia zapewnia umiarkowaną transmisję sygnału goryczy. U dzieci wrażliwość jest wyższa. | Umiarkowana podatność na zakażenia i pośrednia wydolność syntezy NO w rzęskach. Wysoka elastyczność układu dietetycznego dla pokarmów. |
 | **C/C (AVI/AVI)** | **Ślepy na smak** (Non-taster) | Zrujnowana przestrzennie struktura uniemożliwia łączenie z białkami G. Minimalna lub całkowicie zerowa produkcja ATP i depolaryzacja. | Brak uwalniania morderczego dla bakterii tlenku azotu na rzęskach. Ekstremalnie wysokie ryzyko ulegania patogenom i wykształcenia przewlekłego zapalenia zatok (CRS). |
 **rs1726866 (c.785T>C, Ile262Val)**
-
 | Genotyp | Status Wrażliwości | Aktywność w jamie ustnej (Wapń i ATP) | Fenotyp immunologiczny i metaboliczny |
 | :--- | :--- | :--- | :--- |
 | **C/C** | Funkcjonalny (PAV) | Pełna aktywność w haplotypie PAV | Współtworzy supersmakosza przy PAV na rs713598 i rs10246939 |
-| **C/T** | Pośredni | Częściowa funkcja receptora | Profil mieszany w bloku haplotypowym |
+| **C/T** | Pośrednia | Częściowa funkcja receptora | Profil mieszany w bloku haplotypowym |
 | **T/T** | Niefunkcjonalny (AVI) | Obniżona percepcja goryczy w haplotypie AVI | Część haplotypu non-taster; interpretacja łącznie z rs713598 |
 **rs10246939 (c.886A>G, Ala296Val)**
-
 | Genotyp | Status Wrażliwości | Aktywność w jamie ustnej (Wapń i ATP) | Fenotyp immunologiczny i metaboliczny |
 | :--- | :--- | :--- | :--- |
 | **★ G/G** | Funkcjonalny (PAV) | Pełna aktywność w haplotypie PAV | Współtworzy supersmakosza z rs713598/rs1726866 |
-| **G/A** | Pośredni | Umiarkowana transmisja sygnału | Elastyczny profil dietetyczny |
+| **G/A** | Pośrednia | Umiarkowana transmisja sygnału | Elastyczny profil dietetyczny |
 | **A/A** | Niefunkcjonalny (AVI) | Brak pełnej funkcji w haplotypie AVI | Non-taster w połączeniu z C na rs713598 i T na rs1726866 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej uniwersalnej wartości globalnej, ponieważ częstości dotyczą haplotypów (PAV/AVI/AAI), a nie pojedynczego allelu

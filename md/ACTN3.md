@@ -16,8 +16,7 @@
 * **Efekt funkcjonalny:** Utrata ACTN3 osłabia zrywy siłowe, ale zwiększa wytrzymałość tlenową i odporność na wyczerpanie; szczegóły fenotypów w sekcji 4
 
 ### 4. Tabela Wariantów
-**rs1815739**
-
+**rs1815739 (R577X — włókna szybkokurczliwe)**
 | Genotyp (DNA) | Nomenklatura | Ekspresja Białka ACTN3 | Fenotyp, budowa ciała i wydolność |
 | :--- | :--- | :--- | :--- |
 | **C/C** | R/R (Dziki) | Pełna / Optymalna | **Wysoka Siła Eksplozywna:** Dominacja włókien szybkokurczliwych. Predyspozycje do sprintów, skoków i sportów siłowych. Zwiększona stabilność prążka Z znakomicie chroni komórki mięśniowe przed uszkodzeniami i mikrourazami w trakcie gwałtownych ruchów. |

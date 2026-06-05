@@ -19,38 +19,30 @@
 * **Efekt funkcjonalny:** ~97% predykcji barwy oczu u Europejczyków; brak wpłydu na IQ ani wydolność sportową; zwiększone ryzyko czerniaka skóry i czerniaka naczyniówki (podtyp M3) przy G/G
 
 ### 4. Tabela Wariantów
-
 **rs12913832 (regulacja OCA2 / kolor tęczówki)**
-
-| Genotyp | Ekspresja OCA2 / melanogeneza | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Pełna pętla chromatynowa; wysoka ekspresja OCA2 | Brązowe/ciemne oczy; lepsza fotoprotekcja siatkówki i tęczówki; wyższe ryzyko astmy zawodowej (diizocyjaniany) w niektórych kohortach |
 | **A/G** | Częściowa ekspresja | Zielone/piwne (hazel) oczy; fenotyp pośredni |
 | **★ G/G** | Wyciszenie OCA2 w melanocytach irysu | Niebieskie/szare oczy, jasna karnacja; słaba ochrona UV; wyższe ryzyko czerniaka skóry i czerniaka naczyniówki (gorsze rokowanie, monosomia chr. 3); ~3% Europejczyków G/G ma brązowe oczy (epistaza TYR, TYRP1, SLC24A4) |
-
 **rs1129038 (3'-UTR (LD z rs12913832, BEH2))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Zgodny z ciemnymi oczami (rs12913832 A/A) | Pełna ekspresja OCA2; wyższe ryzyko vitiligo w kohortach |
 | **C/T** | Oczy piwne/zielone (pośrednie) | Częściowa ekspresja OCA2 |
 | **★ T/T** | Niebieskie oczy (z rs12913832 G/G) | Silny modyfikator jasnej pigmentacji; fotoprotekcja skóry mimo jasnych oczu |
-
 **rs916977 (intron HERC2 (BEH3, pigmentacja))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Typ europejski jasny | Część haplotypu jasnej skóry/włosów w modelach forensics |
-| **T/C** | Pośredni | Mieszany fenotyp pigmentacji |
+| **T/C** | Pośrednia | Mieszany fenotyp pigmentacji |
 | **★ C/C** | Modyfikator pigmentacji | Skorelowany z jasną skórą i włosami w haplotypie BEH3; brak wpływu na neuroprzekaźniki |
-
 **rs1667394 (intron HERC2 (pigmentacja skóry/włosów))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Częsty allel w Europie | Współudział w jasnej pigmentacji w modelach predykcyjnych |
-| **G/T** | Pośredni | Profil mieszany |
-| **★ T/T** | Alternatywny | Modyfikuje przewidywanie koloru włosów/skóry w testach kosmetycznych |
+| **G/T** | Pośrednia | Profil mieszany |
+| **★ T/T** | Alternatywna | Modyfikuje przewidywanie koloru włosów/skóry w testach kosmetycznych |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel G rzadki poza Europą; MAF G ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** MAF allelu G ok. 50–80% (Skandynawia do 80–90% GG); allel A ok. 20–50%

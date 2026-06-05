@@ -19,38 +19,30 @@
 * **Efekt funkcjonalny:** Selekcja w Europie ~30 tys. lat temu (witamina D przy małym UV); NCKX4 w OSN — szybka adaptacja węchowa (modele mysie Slc24a4⁻/⁻)
 
 ### 4. Tabela Wariantów
-
 **rs12896399 (pigmentacja włosów i skóry)**
-
-| Genotyp | Aktywność NCKX4 | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Wysoka | Ciemne włosy, brązowe oczy, wyższa fotoprotekcja UV |
 | **G/T** | Pośrednia | Szatyn, zielone/szare oczy, fenotyp mieszany |
 | **★ T/T** | Obniżona | Blond/jasna skóra, niebieskie/jasne oczy; słabsza ochrona UV, wyższe ryzyko oparzeń i nowotworów skóry |
-
 **rs11160059 (ciśnienie — populacja afrykańska)**
-
-| Genotyp | Ekspresja w naczyniach | Wpływ fenotypowy |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ G/G** | Referencyjna | Brak asocjacji z SBP w kohortach AFR |
 | **A/G** | Pośrednia | Umiarkowanie podwyższone skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
 | **A/A** | Zmodyfikowana | Wyższe skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
-
 **rs12590654 (regulacyjny (LOAD — późna postać Alzheimer))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny (major) | Typowa ekspresja SLC24A4 w korze; brak ochrony LOAD z tego SNP |
-| **★ G/A** | Pośredni | Umiarkowana modulacja ekspresji mRNA |
+| **G/G** | Referencyjna (major) | Typowa ekspresja SLC24A4 w korze; brak ochrony LOAD z tego SNP |
+| **★ G/A** | Pośrednia | Umiarkowana modulacja ekspresji mRNA |
 | **A/A** | Allel minor (ochronny w badaniach) | Skorelowany z obniżonym ryzykiem późnej postaci Alzheimer (LOAD) w populacjach europejskich |
-
 **rs10498633 (intron SLC24A4 (regulacja ekspresji))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjny | Norma pigmentacji i ekspresji w neuronach |
-| **G/T** | Pośredni | Profil pośredni kognitywny/metaboliczny |
-| **T/T** | Alternatywny | Modulacja transkrypcji w badaniach asocjacyjnych; interpretacja z rs12590654 i rs12896399 |
+| **G/G** | Referencyjna | Norma pigmentacji i ekspresji w neuronach |
+| **G/T** | Pośrednia | Profil pośredni kognitywny/metaboliczny |
+| **T/T** | Alternatywna | Modulacja transkrypcji w badaniach asocjacyjnych; interpretacja z rs12590654 i rs12896399 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu T rs12896399 ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** MAF T ok. 70–85%; T/T u ok. 50–70% (jasne fenotypy)

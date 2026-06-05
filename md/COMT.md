@@ -17,9 +17,7 @@
 * **Efekt funkcjonalny:** Wolniejszy COMT podnosi dopaminę w PFC („Zamartwiacz”), szybszy obniża ją („Wojownik” pod stresem) – profile w sekcji 4
 
 ### 4. Tabela Wariantów
-
 **rs4680 (Val158Met)**
-
 | Genotyp rs4680 | Typ Alleli (DNA) | Ekspresja i Aktywność COMT | Deskrypcja Fenotypowa (Kognicja, Stres, Emocje) |
 | :--- | :--- | :--- | :--- |
 | **G/G** | Val/Val | **Bardzo wysoka.** Pełna stabilność termiczna enzymu skutkuje szybkim i ciągłym oczyszczaniem synaps. Suboptymalne (niskie) poziomy spoczynkowej dopaminy. | **"Wojownik" (Warrior):** Genetycznie uwarunkowana, wysoka rezyliencja na stres i wrodzona potrzeba nowości. W spoczynku mają słabsze wyniki w zadaniach kognitywnych w porównaniu do grupy A/A. Gdy jednak pojawia się ostry stres środowiskowy (walka, ekstremalny sport), wyrzut adrenaliny zapewnia im optymalną pracę mózgu, ostrość umysłu i brak ulegania panice. |

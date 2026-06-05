@@ -19,45 +19,35 @@
 * **Efekt funkcjonalny:** Pozawęchowo — OR6A2 na makrofagach naczyniowych: oktanal (oxLDL) → NLRP3 → IL-1β → miażdżyca/AAA (Science 2022); nie mylić z preferencją kulinarną
 
 ### 4. Tabela Wariantów
-
 **rs72921001 (percepcja kolendry)**
-
-| Genotyp | Percepcja sensoryczna | Aktywność receptora |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Ekstremalna czułość; kolendra jak mydło, płyn do naczyń lub pluskwiaki | Maksymalna transdukcja Gαolf → cAMP → CNG |
-| **C/A** | Zmienna; częściowa awersja, zależna od kultury i nawyków | Pośrednia gęstość funkcjonalnych receptorów |
-| **★ A/A** | Brak mydlanego posmaku; profil cytrusowo-ziołowy | Minimalna odpowiedź na trans-2-decenal |
-
+| **C/C** | Maksymalna transdukcja Gαolf → cAMP → CNG | Ekstremalna czułość; kolendra jak mydło, płyn do naczyń lub pluskwiaki |
+| **C/A** | Pośrednia gęstość funkcjonalnych receptorów | Zmienna; częściowa awersja, zależna od kultury i nawyków |
+| **★ A/A** | Minimalna odpowiedź na trans-2-decenal | Brak mydlanego posmaku; profil cytrusowo-ziołowy |
 **rs7107418 (proxy rs72921001 (OR10A2 LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ G/G** | Proxy ochronny | Częściej „normalny” zapach kolendry; zgodny z rs72921001 ochronnym allelem |
-| **G/A** | Pośredni | Częściowa ochrona percepcyjna |
+| **G/A** | Pośrednia | Częściowa ochrona percepcyjna |
 | **A/A** | Brak allelu proxy ochronnego | Wyższa szansa awersji do kolendry (jak rs72921001 C/C) |
-
 **rs3930075 (OR10A2 His43Arg (LD rs72921001))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | His/His | Część haplotypu OR6A2; modulacja aldehydów w LD |
 | **A/G** | His/Arg | Pośrednia percepcja kolendry |
 | **★ G/G** | Arg/Arg | Sprzężony z wariantami aldehydowymi; możliwa zmiana intensywności zapachu mydlanego |
-
 **rs10839631 (OR10A2 His207Arg (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | His/His | Referencyjny w haplotypie |
-| **A/G** | His/Arg | Pośredni |
+| **A/A** | His/His | Referencyjna (w haplotypie) |
+| **A/G** | His/Arg | Pośrednia |
 | **★ G/G** | Arg/Arg | Część bloku LD kolendry; interpretacja łącznie z rs72921001 |
-
 **rs7926083 (OR10A2 Lys258Thr (LD))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Lys/Lys | Typowy haplotyp |
-| **A/G** | Lys/Arg | Pośredni |
+| **A/G** | Lys/Arg | Pośrednia |
 | **★ G/G** | Thr/Thr (rs7926083) | Modulacja haplotypu aldehydowego w LD z OR6A2 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A (proxy rs7107418-G) ok. 25–40% w kohortach mieszanych

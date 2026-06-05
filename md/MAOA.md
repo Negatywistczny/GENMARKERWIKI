@@ -18,7 +18,6 @@
 
 ### 4. Tabela Wariantów
 
-**MAOA-uVNTR (promotor — liczba powtórzeń, nie klasyczny SNP)**
 
 | Wariant (VNTR) | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
@@ -26,43 +25,33 @@
 | **4R, 4.5R** | Wysoka (MAOA-H) | Szybka redukcja amin; opanowanie stresu, rzadka agresja. Wyższe ryzyko apatii, zmęczenia i „chłodnych” prób samobójczych |
 | **2R, 2.5R** | Dysharmonijna / rzadka | Silna redukcja funkcji; skrajny nadmiar katecholamin |
 | **3.3R** | Wybitnie wysoka | Unikalny allel; aktywność do ~2× silniejsza niż 3.5R |
-
 **rs6323 (R297R)**
-
-| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Wysoka (MAOA-H) | Optymalne oczyszczanie szczelin; chroni przed furią; predyspozycja do chronicznego marazmu i zmęczenia |
 | **G/T** | Pośrednia | Profil mieszany |
 | **★ T/T** | Niska (MAOA-L) | U mężczyzn: trudności w opanowaniu złości. U kobiet: wyższe ryzyko GAD i impulsywnej autoagresji |
-
 **rs1137070 (c.1410T>C, synonimiczny)**
-
-| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Wysoka (MAOA-H) | Prawidłowa transkrypcja mRNA; ryzyko MDD, choroby dwubiegunowej i schizofrenii przez braki amin |
 | **C/T** | Pośrednia | Profil mieszany |
 | **★ C/C** | Zredukowana (MAOA-L) | Podatność na uzależnienia od nikotyny i heroiny; korelacja z ASPD |
-
 **rs909525 (proxy uVNTR)**
-
-| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- |
-| **C/C** | Marker „wojownika” | ~99% nosicielstwo wolnego uVNTR 3R; predyspozycja do sportów siłowo-wytrzymałościowych |
-| **C/T** | Pośredni | Profil mieszany |
-| **★ T/T** | Wariant bezpieczny | Układy 4R/5R; rzadsze wybuchy furii |
-
-**rs72554632 (p.Gln296Ter, rzadka patologia)**
-
-| Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- |
-| **T (nosiciel)** | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
-
-**rs3027407 (region MAOA (ADHD u dzieci))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjny | Brak zwiększonego ryzyka ADHD z tego SNP |
-| **A/G** | Pośredni | Umiarkowane obciążenie kognitywne |
+| **C/C** | Marker „wojownika” | ~99% nosicielstwo wolnego uVNTR 3R; predyspozycja do sportów siłowo-wytrzymałościowych |
+| **C/T** | Pośrednia | Profil mieszany |
+| **★ T/T** | Wariant bezpieczny | Układy 4R/5R; rzadsze wybuchy furii |
+**rs72554632 (p.Gln296Ter, rzadka patologia)**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T (nosiciel)** | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
+**rs3027407 (region MAOA (ADHD u dzieci))**
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **A/A** | Referencyjna | Brak zwiększonego ryzyka ADHD z tego SNP |
+| **A/G** | Pośrednia | Umiarkowane obciążenie kognitywne |
 | **★ G/G** | Ryzyko ADHD | Wyższe ryzyko diagnozy ADHD u potomstwa; wczesna interwencja środowiskowa i struktura dnia |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak pojedynczej, porównywalnej częstości globalnej ze względu na VNTR, różne definicje alleli i analizy zależne od płci

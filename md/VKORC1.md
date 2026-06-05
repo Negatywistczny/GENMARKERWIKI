@@ -20,14 +20,12 @@
 
 ### 4. Tabela Wariantów
 **rs9923231 (promotor — wrażliwość na warfarynę)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Wysoka ekspresja VKORC1 | Standardowa wrażliwość na warfarynę (~5–7 mg/d); niższe ryzyko krwawień przy dawkach empirycznych |
 | **C/T** | Umiarkowana ekspresja | Podwyższona wrażliwość; typowa dawka ~3–4 mg/d; częstsze INR poza zakresem przy standardowych schematach |
 | **★ T/T** | Obniżona ekspresja (~44%) | Ekstremalna wrażliwość (0,5–2 mg/d); wysokie ryzyko krwotoków przy dawkach „jak dla C/C”; algorytmy Gage/IWPC |
 **rs61742245 (oporność na warfarynę)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Prawidłowy enzym | Norma odpowiedzi na antagonisty witaminy K |

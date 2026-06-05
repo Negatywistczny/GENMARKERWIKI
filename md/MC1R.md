@@ -18,49 +18,37 @@
 * **Efekt funkcjonalny:** LOF wiąże się z rudymi włosami, fotouczuleniem, wyższym ryzykiem czerniaka oraz zmianami nocycepcji i odpowiedzi na opioidy (sekcja 4)
 
 ### 4. Tabela Wariantów
-
 **rs1805007 (R151C)**
-
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
 | **C/C** | Nominalna (100%); wydajny szlak eumelaniny | Ciemne włosy, skóra o wysokiej tolerancji na słońce | Standardowa nocycepcja |
 | **C/T** | Obniżona o 30–50% | Karnacja pośrednia, skłonność do piegów | Standardowa nocycepcja |
 | **T/T** | Całkowita utrata funkcji (LOF); brak syntezy cAMP | 13–20× wyższa szansa na rude włosy, skóra typu I, obfite piegi, brak zdolności do opalania | Zwiększona wrażliwość na ból termiczny, osłabiona odpowiedź na lidokainę i desfluran, lepsze działanie kappa-opioidów u kobiet |
-
 **rs1805008 (R160W)**
-
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
 | **C/C** | Nominalna (100%) | Typowa pigmentacja eumelaninowa | Brak wpływu na ból |
-| **C/T** | Umiarkowanie obniżona | Skóra jasna, wrażliwa na UV | Brak wpływu na ból |
+| **C/T** | Pośrednia (obniżona) | Skóra jasna, wrażliwa na UV | Brak wpływu na ból |
 | **T/T** | Głęboka utrata funkcji (LOF); drastyczny spadek cAMP | 7–10× wyższa szansa na rude włosy, blada skóra, bardzo silna skłonność do oparzeń | Zmodyfikowana odpowiedź na analgezję opioidową u kobiet; możliwa asocjacja z ryzykiem choroby Parkinsona |
-
 **rs1805009 (D294H)**
-
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
 | **G/G** | Nominalna (100%) | Standardowa synteza barwnika | Nocycepcja w normie |
 | **G/C** | Lekko obniżona | Jasna skóra, umiarkowana tolerancja UV | Nocycepcja w normie |
 | **C/C** | Silnie upośledzona transdukcja | Rude/bardzo jasne włosy, fototyp I/II, liczne piegi | Zwiększona podatność na ból termiczny; zmieniona farmakodynamika leków znieczulających |
-
 **rs2228479 (V92M)**
-
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
 | **G/G** | Nominalna (100%) | Standardowa pigmentacja | Brak dowodów na wpływ nerwowy |
 | **★ G/A** | Nieznacznie obniżona | Jasna karnacja, skłonność do oparzeń i powstawania przebarwień | Brak dowodów na wpływ nerwowy |
 | **A/A** | Umiarkowanie obniżona (wariant „r”) | Jasna karnacja, skłonność do oparzeń i plam soczewicowatych | Brak dowodów na wpływ nerwowy |
-
 **rs1805005 (Val60Leu (V60L, słaby allel „r”))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
 | **C/T** | Val/Leu | Jaśniejsze włosy, łagodniejsze opalanie |
 | **T/T** | Leu/Leu | Słabsza funkcja MC1R; predyspozycja do jasnych włosów i piegów; fotoprotekcja UV |
-
 **rs885479 (Arg163Gln (R163Q, allel „r”))**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Arg/Arg | Norma pigmentacji; niższe ryzyko przebarwień posłonecznych |

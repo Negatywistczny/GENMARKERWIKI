@@ -953,6 +953,105 @@ const FIXED_VARIANT_TONES = {
       "g g": "negative",
     },
   },
+  FADS1: {
+    "rs174537 l374f aktywnosc d5d": {
+      "g g": "negative",
+      "g t": "neutral",
+      "t t": "positive",
+    },
+    "rs174547 indeks desaturacji": {
+      "t t": "negative",
+      "t c": "neutral",
+      "c c": "positive",
+    },
+  },
+  FADS2: {
+    "rs174575 aktywnosc d6d": {
+      "c c": "positive",
+      "c g": "neutral",
+      "g g": "negative",
+    },
+    "rs1535 karmienie piersia iq": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs968567 promotor 5 utr": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+  },
+  IL2RA: {
+    "rs2104286 ekspresja cd25": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs11594656 promotor 5 t1d": {
+      "t t": "negative",
+      "t a": "neutral",
+      "a a": "positive",
+    },
+    "rs12722489 c t ld z ms": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+  },
+  MTR: {
+    "rs1805087 a2756g asp919gly": {
+      "a a": "neutral",
+      "a g": "positive",
+      "g g": "positive",
+    },
+  },
+  MTRR: {
+    "rs1801394 a66g ile22met": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
+    "rs1532268 intron c t": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+  },
+  OR1A1: {
+    "rs2073153 funkcja or1a1": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+  },
+  VDR: {
+    "rs2228570 foki aktywnosc transkrypcyjna": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs1544410 bsmi ekspresja mrna": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs7975232 apai stabilnosc mrna": {
+      "c c": "positive",
+      "c a": "neutral",
+      "a a": "negative",
+    },
+    "rs731236 taqi stabilnosc transkryptu": {
+      "t t": "negative",
+      "t c": "neutral",
+      "c c": "positive",
+    },
+    "rs1544410 bsmi rs7975232 apai rs731236 taqi haplotyp": {
+      "haplotyp 1 bat bat": "positive",
+      "haplotyp 2 bat bat": "negative",
+      "haplotyp 3 bat bat": "positive",
+    },
+  },
 };
 
 function normalizeToneKey(value) {
@@ -996,14 +1095,32 @@ function genotypeLookupKeys(genotype) {
   return [...keys];
 }
 
+function headingLookupKeys(heading) {
+  const keys = [];
+  const full = normalizeToneKey(heading);
+  if (full) keys.push(full);
+  const rsMatch = String(heading || "").match(/rs\d+/i);
+  if (rsMatch) {
+    const rsKey = normalizeToneKey(rsMatch[0]);
+    if (rsKey && rsKey !== full) keys.push(rsKey);
+  }
+  return keys;
+}
+
 function fixedVariantTone(geneSymbol, heading, genotype, options = {}) {
   const byGene = FIXED_VARIANT_TONES[String(geneSymbol || "").toUpperCase()];
   if (!byGene) {
     return "neutral";
   }
 
-  const headingKey = normalizeToneKey(heading);
-  const byHeading = byGene[headingKey] || byGene[""];
+  let byHeading = null;
+  for (const headingKey of headingLookupKeys(heading)) {
+    if (byGene[headingKey]) {
+      byHeading = byGene[headingKey];
+      break;
+    }
+  }
+  byHeading = byHeading || byGene[""];
   if (!byHeading) {
     return "neutral";
   }

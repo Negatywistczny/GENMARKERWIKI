@@ -20,21 +20,18 @@
 
 ### 4. Tabela Wariantów
 **rs324650 (SINE Alu — kognicja)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Najniższy potencjał wiązania w ACC (zdrowi) | Wariant dziki; bazowa gęstość receptorów |
 | **A/T** | Pośrednia | Umiarkowana modulacja poznawcza |
 | **T/T** | Najwyższy potencjał wiązania (zdrowi) | +~0,46 SD Performance IQ u zdrowych; u ChAD paradoksalny spadek wiązania, ryzyko samobójstw |
 **rs1824024 (intron — alkohol, POChP)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Pełna kontrola ACh | Działanie protekcyjne wobec uzależnień |
 | **G/T** | Pośrednia | Podatność modulowana środowiskiem |
 | **T/T** | Osłabiona stabilność transkrypcji | Ryzyko delirium tremens; cięższy alkoholizm; gorsza odpowiedź na antycholinergiki w POChP |
 **rs8191992 (3'-UTR — autonomiczna odpowiedź serca)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Osłabiona translacja M2 | >3× ryzyko HRR <8/min; podwyższona śmiertelność sercowa po AMI; obniżona autonomiczność przy neuroleptykach |

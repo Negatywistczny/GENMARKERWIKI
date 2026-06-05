@@ -64,6 +64,15 @@ RSID_ALIASES: dict[tuple[str, str, str], list[str]] = {
     ("AVPR1A", "rs11174811", "CA"): ["C/T", "T/C"],
     ("AVPR1A", "rs10877969", "GG"): ["C/C", "G/G"],
     ("CHRNA5", "rs16969968", "GA"): ["A/G", "G/A"],
+    ("VDR", "rs2228570", "AG"): ["A/G", "G/A", "C/T", "T/C"],
+    ("VDR", "rs1544410", "TT"): ["T/T", "A/A"],
+    ("VDR", "rs7975232", "AA"): ["A/A"],
+    ("VDR", "rs731236", "GG"): ["G/G", "C/C"],
+    ("IL2RA", "rs11594656", "TA"): ["T/A", "A/T"],
+    ("IL2RA", "rs2104286", "TC"): ["T/C", "C/T"],
+    ("IL2RA", "rs12722489", "CT"): ["C/T", "T/C"],
+    ("OR1A1", "rs2073153", "GG"): ["G/G"],
+    ("MTRR", "rs1532268", "CT"): ["C/T", "T/C"],
 }
 
 ALIASES: dict[str, list[str]] = {
@@ -307,6 +316,11 @@ def primary_rsid(sec2: str) -> str:
     return m.group(0) if m else ""
 
 
+def repair_glued_section_headers(text: str) -> str:
+    """Naprawia przypadki `| ... |### 5.` powstałe przy sklejaniu sekcji."""
+    return re.sub(r"(\|)\s*(### \d+\.)", r"\1\n\2", text)
+
+
 def split_rs_blocks(sec4: str) -> tuple[str, list[tuple[str, str]]]:
     blocks: list[tuple[str, str]] = []
     intro = ""
@@ -320,6 +334,10 @@ def split_rs_blocks(sec4: str) -> tuple[str, list[tuple[str, str]]]:
         current_lines = []
 
     for line in sec4.splitlines():
+        if re.match(r"^###\s+\d+\.", line.strip()):
+            flush()
+            current_rsid = ""
+            continue
         m = re.match(r"^\*\*(?:★\s*)?(rs\d+)", line)
         if m:
             flush()
@@ -352,16 +370,35 @@ def block_for_rsid(
     return sec4
 
 
+def _primary_genotype(cell: str) -> str:
+    plain = strip_md(re.sub(rf"{re.escape(STAR)}\s*", "", cell)).split("(")[0].strip()
+    return norm_genotype(plain)
+
+
 def match_row(gene: str, rsid: str, gt: str, block: str) -> dict | None:
     if rsid == "rs4588" and "rs7041" in block:
         return match_gc_diplotype(gt, block)
     if gene == "APOE" and rsid in ("rs429358", "rs7412") and "rs7412" in block:
         return None  # handled as pair
     targets = genotype_targets(gene, rsid, gt)
+    best: dict | None = None
+    best_score = -1
+    gt_u = gt.strip().upper()
     for row in parse_table_block(block):
-        if row["keys"] & targets:
-            return row
-    return None
+        overlap = row["keys"] & targets
+        if not overlap:
+            continue
+        score = len(overlap)
+        primary = _primary_genotype(row["genotype_cell"])
+        if primary in targets:
+            score += 10
+        cell_u = strip_md(row["genotype_cell"]).upper()
+        if gt_u in cell_u:
+            score += 20
+        if score > best_score:
+            best_score = score
+            best = row
+    return best
 
 
 def match_gc_diplotype(gt7041: str, block: str) -> dict | None:
@@ -569,7 +606,12 @@ def apply_stars_to_block(
             continue
         cell = re.sub(r"★\s*", "", raw_cells[0])
         inner = strip_md(cell)
-        if matched_row and (row_keys(cell) & matched_row["keys"]):
+        is_match = (
+            matched_row is not None
+            and _primary_genotype(cell)
+            == _primary_genotype(matched_row["genotype_cell"])
+        )
+        if is_match:
             raw_cells[0] = f"**★ {inner}**"
             stars += 1
         else:
@@ -579,6 +621,7 @@ def apply_stars_to_block(
 
 
 def sync_gene_stars(gene: str, entries: list[dict], md_text: str) -> tuple[str, list[str]]:
+    md_text = repair_glued_section_headers(md_text)
     sections = parse_sections(md_text)
     sec4 = sections.get(4, "")
     if not sec4:
@@ -632,11 +675,14 @@ def sync_gene_stars(gene: str, entries: list[dict], md_text: str) -> tuple[str, 
     )
     if not sec4_match:
         return md_text, log
+    tail = md_text[sec4_match.end() :]
+    if tail and not rebuilt.endswith("\n"):
+        rebuilt = rebuilt.rstrip("\n") + "\n"
     new_text = (
         md_text[: sec4_match.start()]
         + sec4_match.group(1)
         + rebuilt
-        + md_text[sec4_match.end() :]
+        + tail
     )
     return new_text, log
 

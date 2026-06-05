@@ -20,7 +20,6 @@
 
 ### 4. Tabela Wariantów
 **rs17070145 (KIBRA — pamięć epizodyczna)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Bazowa stabilność AMPAR/PKMζ | Niższa pamięć epizodyczna u dorosłych; u dzieci 5–25 lat czasem wyższe IQ; po TBI lepsza rekonwalescencja delayed recall |

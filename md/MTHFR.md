@@ -17,18 +17,14 @@
 * **Efekt funkcjonalny:** Deficyt folianów i podwyższona homocysteina zwiększają ryzyko naczyniowe i mogą hamować syntezę neuroprzekaźników (BH4) – szczegóły w sekcji 4
 
 ### 4. Tabela Wariantów
-
 **rs1801133 (C677T, Ala222Val, egzon 4)**
-
-| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
 | **C/T** | ~65% (zredukowana) | Pula folianów obniżona; przy zdrowej diecie homocysteina rzadko rośnie klinicznie istotnie |
 | **T/T** | 20–30% (krytyczna) | Wariant termolabilny; utrata 70–80% syntezy 5-MTHF, nagromadzenie homocysteiny, duże zapotrzebowanie na dawców metylowych |
-
 **rs1801131 (A1298C, Glu429Ala, egzon 7)**
-
-| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | 100% (wild type) | Nienaruszona domena wiążąca SAMe; najczęstszy, zdrowy genotyp |
 | **★ A/C** | Niewielki spadek | Jeden allel defektywny zwykle kompensowany; brak zatorowości metabolicznej |
@@ -36,7 +32,7 @@
 
 **Haplotyp złożony (oba SNP na jednym chromosomie)**
 
-| Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **677C/T + 1298A/C (heterozygota złożona)** | ~50% (spadek o połowę) | Kaskada obu błędów; obraz zbliżony do ciężkiej homozygoty 677 T/T – uszczuplenie folianów, podwyższona homocysteina |
 ### 5. Statystyki populacyjne

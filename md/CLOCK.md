@@ -16,8 +16,7 @@
 * **Efekt funkcjonalny:** Skutki to opóźniony chronotyp, zaburzenia metabolizmu i trudności w redukcji masy ciała u nosicieli wariantu ryzyka (sekcja 4)
 
 ### 4. Tabela Wariantów
-**rs1801260**
-
+**rs1801260 (3'UTR — rytm dobowy CLOCK)**
 | Genotyp współczesny (A>G) | Zapis historyczny | Charakterystyka i Rytm Dobowy | Dogłębny wpływ na organizm, dietę i fenotyp |
 | :--- | :--- | :--- | :--- |
 | **A/A** | T/T | Homozygota dzika. | Odpowiada za stabilne powiązanie w układzie miRNA i promuje silny, wybitnie poranny chronotyp ("skowronek"). W interwencjach żywieniowych osobniki te rewelacyjnie reagują redukcją wagi i drastyczną poprawą wrażliwości na insulinę w odpowiedzi na diety ubogotłuszczowe. Paradoksalnie genotyp dziki jest niezwykle silnie sprzężony z występowaniem i rozwojem dorosłej postaci ADHD ze względu na odmienne ewolucyjne predyspozycje do wyzwalania i przesyłania dopaminy. |

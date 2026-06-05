@@ -20,21 +20,18 @@
 
 ### 4. Tabela Wariantów
 **rs3746544 (3'-UTR — ekspresja w PFC)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ T/T** | Wyższa ekspresja SNAP-25 | Wyższy WMI; lepsza odpowiedź na MPH u części kohort azjatyckich; niższa hiperaktywność |
 | **T/G** | Pośrednia | Umiarkowana odpowiedź na stymulanty; ryzyko bezsenności przy MPH |
 | **G/G** | Obniżona ekspresja | Wyższe ADHD u dorosłych (Wender-Utah); gorsza odpowiedź MPH; ryzyko schizofrenii/depresji w kohortach azjatyckich |
 **rs363050 (promotor — PIQ)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Wyższa transkrypcja | +2,84 pkt PIQ na allel A (~3,4% wariancji); allel ochronny kognitywnie |
 | **★ A/G** | Pośrednia | Profil PIQ pośredni |
 | **G/G** | Spadek aktywności promotora | Obniżone PIQ u autyzmu; upośledzona insulina w T2DM w części badań |
 **rs363043 (intron — grubość kory)**
-
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Optymalna grubość kory | Optymalny PRI i pełna skala IQ (BIF) |
