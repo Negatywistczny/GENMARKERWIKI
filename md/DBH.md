@@ -64,11 +64,12 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ A/A** | Referencyjny | Typowa koncentracja i uwaga |
+| **A/A** | Referencyjny | Typowa koncentracja i uwaga |
 | **A/G** | Allel G obniża enzym | Zaburzenia koncentracji (profil pośredni) |
 | **G/G** | Obniżona aktywność | Zaburzenia koncentracji |
 
 **rs2873804 (intron DBH (atomoksetyna / ADHD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Profil referencyjny | Standardowa odpowiedź na atomoksetynę i stymulanty w kontekście haplotypu |
@@ -76,6 +77,7 @@
 | **★ C/C** | Haplotyp sprzężony z rs2519154 | Część profilu lepszej remisji na atomoksetynę (por. rs2519154 C/C); ocena łącznie z rs1611115 |
 
 **rs1076150 (intron DBH (ADHD, sprzężenie))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Referencyjny | Typowy metabolizm katecholamin z perspektywy tego SNP |
@@ -83,12 +85,12 @@
 | **★ C/C** | Alternatywny haplotyp | Skorelowany z obniżoną aktywnością DBH w haplotypach ryzyka; farmakogenomika jak rs2519152 |
 
 **rs1548364 (intron DBH A>G (atomoksetyna))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjny | Brak dodatkowego sygnału z tego locus |
 | **A/G** | Pośredni | Umiarkowana predyspozycja ADHD w haplotypie |
 | **★ G/G** | Alternatywny | Część haplotypu obniżającego DBH; rozważ atomoksetynę przy ADHD |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1611115 – allel C (ochronny) ~79,65%; allel T ~20,16% (gnomAD/ALFA)
 * **Europa (NFE):** C ~78,95%; T ~21,05%. Genotypy: CC ~59–66%, CT ~30–35%, TT ~4–6%. rs1108580 allel A ~53,6–54,7%

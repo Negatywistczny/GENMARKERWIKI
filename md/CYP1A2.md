@@ -19,7 +19,6 @@
 * **Efekt funkcjonalny:** Różnice w ryzyku zawału, wydolności sportowej, uszkodzenia nerek i poronień przy wysokiej kofeinie (sekcja 4)
 
 ### 4. Tabela Wariantów
-
 **rs762551**
 
 | Genotyp | Klasyfikacja (PharmVar) | Fenotyp Metabolizmu | Wpływ na Organizację Pracy Enzymatycznej |
@@ -27,7 +26,6 @@
 | **A/A** | *1F / *1F | Szybki metabolizator | Osobnik posiadający dwie kopie allelu zwiększonej indukowalności. Zdolność do niezwykle agresywnego neutralizowania kofeiny z krwiobiegu w zaledwie 1-2 godziny. Zapobiega zaburzeniom układu nerwowego w nocy. U osób palących enzym wymusza zjawisko ultraszybkiego metabolizmu, co generuje problemy ze skutecznym stężeniem leków. |
 | **★ A/C** | *1A / *1F | Metabolizator pośredni / wolny | Profil heterozygotyczny ze zredukowaną pojemnością do natychmiastowej przeróbki. Zjawiska metaboliczne dla stymulantów przebiegają wolniej. Spożycie wysokich dawek (powyżej 3-4 filiżanek) zaczyna akumulować kofeinę w tkankach, prowokując negatywne efekty dla snu i układu naczyniowego. |
 | **C/C** | *1A / *1A | Wolny metabolizator | Genotyp obciążony ekstremalnymi przestojami metabolicznymi niezależnie od stopnia ekspozycji na bodziec. Kofeina zostaje uwięziona i krąży w organizmie ponad 6 do 8 godzin po wypiciu. Skutkuje to masowym rozregulowaniem układu krążenia, pojawianiem się stanów lękowych i bezsenności. Zjawisko to potężnie pompuje ryzyko zawału serca czy nadciśnienia tętniczego przy spożyciu stymulantu. |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej spójnej wartości globalnej dla wszystkich kohort; rozkład alleli jest silnie zależny od regionu
 * **Europa (NFE):** Częstość allelu A zwykle ok. 68-73% (allel C ok. 27-32%); genotyp A/A często ok. 44-50%

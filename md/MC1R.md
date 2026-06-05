@@ -31,7 +31,7 @@
 
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
-| **★ C/C** | Nominalna (100%) | Typowa pigmentacja eumelaninowa | Brak wpływu na ból |
+| **C/C** | Nominalna (100%) | Typowa pigmentacja eumelaninowa | Brak wpływu na ból |
 | **C/T** | Umiarkowanie obniżona | Skóra jasna, wrażliwa na UV | Brak wpływu na ból |
 | **T/T** | Głęboka utrata funkcji (LOF); drastyczny spadek cAMP | 7–10× wyższa szansa na rude włosy, blada skóra, bardzo silna skłonność do oparzeń | Zmodyfikowana odpowiedź na analgezję opioidową u kobiet; możliwa asocjacja z ryzykiem choroby Parkinsona |
 
@@ -39,7 +39,7 @@
 
 | Genotyp | Aktywność receptora i synteza cAMP | Wpływ na pigmentację i fenotyp fizyczny | Wpływ na nocycepcję, układ opioidowy i receptory |
 | :--- | :--- | :--- | :--- |
-| **★ G/G** | Nominalna (100%) | Standardowa synteza barwnika | Nocycepcja w normie |
+| **G/G** | Nominalna (100%) | Standardowa synteza barwnika | Nocycepcja w normie |
 | **G/C** | Lekko obniżona | Jasna skóra, umiarkowana tolerancja UV | Nocycepcja w normie |
 | **C/C** | Silnie upośledzona transdukcja | Rude/bardzo jasne włosy, fototyp I/II, liczne piegi | Zwiększona podatność na ból termiczny; zmieniona farmakodynamika leków znieczulających |
 
@@ -52,19 +52,20 @@
 | **A/A** | Umiarkowanie obniżona (wariant „r”) | Jasna karnacja, skłonność do oparzeń i plam soczewicowatych | Brak dowodów na wpływ nerwowy |
 
 **rs1805005 (Val60Leu (V60L, słaby allel „r”))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
+| **C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
 | **C/T** | Val/Leu | Jaśniejsze włosy, łagodniejsze opalanie |
 | **T/T** | Leu/Leu | Słabsza funkcja MC1R; predyspozycja do jasnych włosów i piegów; fotoprotekcja UV |
 
 **rs885479 (Arg163Gln (R163Q, allel „r”))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Arg/Arg | Norma pigmentacji; niższe ryzyko przebarwień posłonecznych |
 | **G/A** | Arg/Gln | Pośredni; skłonność do plam i przebarwień |
 | **A/A** | Gln/Gln | Niskopenetrujący wariant „r”; plamy posłoneczne, jaśniejsza skóra; monitoring zmian barwnikowych |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstości zależą od konkretnego rsID; przykładowo rs1805005 wynosi globalnie ok. 8,20%
 * **Europa (NFE):** Najwyższe częstości wariantów rozjaśniających, m.in. rs1805007 ok. 12,1-14,2%, rs1805008 ok. 7,72-10,8%, rs1805005 ok. 10,0-15,0%

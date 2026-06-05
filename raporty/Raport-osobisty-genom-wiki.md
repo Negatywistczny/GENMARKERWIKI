@@ -1,17 +1,17 @@
 # Raport osobisty — geny i warianty (GENMARKERWIKI)
 
-**Data:** 2026-05-25  
-**Źródła genotypów:** panel wybranych markerów (CSV) + uzupełnienie z surowych danych MyHeritage (build 37)  
+**Data:** 2026-06-05  
+**Źródła genotypów:** panel markerów z gene-rsids.js + WGS (ULCEDCBF2693.ai_full.csv)  
 **Opisy kliniczne:** włączone w niniejszy raport (profil, mechanizm, warianty, zalecenia)
 
 ## Podsumowanie
 
 | Metryka | Wartość |
 |--------|---------|
-| Genów w panelu | 35 |
-| Markerów (rsID) w panelu | 134 |
-| Markerów z Twoim genotypem | 108 |
-| Bez danych genotypowych | 26 |
+| Genów w panelu | 43 |
+| Markerów (rsID) w panelu | 193 |
+| Markerów z Twoim genotypem | 97 |
+| Bez danych genotypowych | 96 |
 
 > Raport ma charakter informacyjny. Nie zastępuje konsultacji lekarskiej ani genetyka klinicznego.
 
@@ -19,41 +19,49 @@
 
 ## Spis genów w raporcie
 
-- **ABCC11** — Gen woskowiny usznej (2/2 markerów z genotypem)
+- **ABCC11** — Gen woskowiny usznej (0/2 markerów z genotypem)
 - **ACTN3** — Gen szybkości (0/1 markerów z genotypem)
-- **ADRA2A** — Gen uwagi, skupienia i pamięci roboczej (3/5 markerów z genotypem)
-- **ALDH2** — Gen azjatyckiego rumieńca (2/4 markerów z genotypem)
+- **ADRA2A** — Gen uwagi, skupienia i pamięci roboczej (2/5 markerów z genotypem)
+- **ALDH2** — Gen azjatyckiego rumieńca (1/4 markerów z genotypem)
 - **ANK3** — Marker zaburzeń afektywnych (4/4 markerów z genotypem)
-- **ANKK1** — Gen poszukiwania nowości (1/1 markerów z genotypem)
-- **APOE** — Gen Alzheimera (3/3 markerów z genotypem)
-- **AR** — Gen męskości (2/3 markerów z genotypem)
+- **ANKK1** — Gen poszukiwania nowości (0/1 markerów z genotypem)
+- **APOE** — Gen Alzheimera (0/3 markerów z genotypem)
+- **AR** — Gen męskości (1/3 markerów z genotypem)
+- **AVPR1A** — Gen monogamii (2/4 markerów z genotypem)
 - **BDNF** — Gen plastyczności mózgu (1/1 markerów z genotypem)
-- **CACNA1C** — Gen Timothy'ego (3/3 markerów z genotypem)
-- **CDH13** — Kadheryna sercowa (10/15 markerów z genotypem)
+- **CACNA1C** — Gen Timothy'ego (3/9 markerów z genotypem)
+- **CDH13** — Kadheryna sercowa (9/16 markerów z genotypem)
+- **CHRM2** — Gen inteligencji (0/5 markerów z genotypem)
 - **CHRNA5** — Gen uzależnienia od nikotyny (4/4 markerów z genotypem)
 - **CLOCK** — Gen zegara biologicznego (1/1 markerów z genotypem)
 - **COMT** — Gen Wojownika i Zamartwiacza (1/1 markerów z genotypem)
 - **CYP1A2** — Gen kofeiny (1/1 markerów z genotypem)
-- **DBH** — Gen równowagi stresowej (9/9 markerów z genotypem)
-- **DRD2** — Gen nagrody (4/4 markerów z genotypem)
+- **CYP2C19** — Gen Plavix (1/6 markerów z genotypem)
+- **CYP2D6** — Gen detoksu (3/11 markerów z genotypem)
+- **DBH** — Gen równowagi stresowej (8/9 markerów z genotypem)
+- **DRD2** — Gen nagrody (2/6 markerów z genotypem)
 - **FKBP5** — Gen stresu (6/6 markerów z genotypem)
-- **FTO** — Gen otyłości (5/5 markerów z genotypem)
+- **FTO** — Gen otyłości (0/5 markerów z genotypem)
 - **GC** — Gen witaminy D (3/3 markerów z genotypem)
 - **HERC2** — Gen niebieskich oczu (4/4 markerów z genotypem)
-- **LCT** — Persystencja laktazy (1/1 markerów z genotypem)
-- **MAOA** — Gen Wojownika (5/5 markerów z genotypem)
-- **MC1R** — Gen rudych włosów (4/6 markerów z genotypem)
-- **MTHFR** — Gen metylacji (2/2 markerów z genotypem)
-- **OCA2** — Gen pigmentacji oczu i skóry (3/4 markerów z genotypem)
+- **KCNQ4** — Gen słuchu (2/4 markerów z genotypem)
+- **LCT** — Persystencja laktazy (0/2 markerów z genotypem)
+- **MAOA** — Gen Wojownika (5/7 markerów z genotypem)
+- **MC1R** — Gen rudych włosów (1/6 markerów z genotypem)
+- **MTHFR** — Gen metylacji (1/2 markerów z genotypem)
+- **OCA2** — Gen pigmentacji oczu i skóry (1/4 markerów z genotypem)
 - **OR2M** — Gen zapachu szparagów (3/6 markerów z genotypem)
 - **OR6A2** — Gen mydlanej kolendry (5/5 markerów z genotypem)
 - **OXTR** — Gen hormonu miłości (1/1 markerów z genotypem)
-- **SLC24A4** — Gen jasnej karnacji (4/4 markerów z genotypem)
+- **SLC24A4** — Gen jasnej karnacji (3/4 markerów z genotypem)
 - **SLC45A2** — Gen jasnej skóry (MATP) (2/5 markerów z genotypem)
 - **SLC6A4** — Gen depresji (1/4 markerów z genotypem)
-- **TAS2R38** — Gen supersmakosza (3/3 markerów z genotypem)
-- **TPH2** — Gen miłych gości (1/1 markerów z genotypem)
-- **ZEB2** — Gen naczyń i Mowata-Wilsona (4/7 markerów z genotypem)
+- **SNAP25** — Gen impulsów (7/7 markerów z genotypem)
+- **TAS2R38** — Gen supersmakosza (2/3 markerów z genotypem)
+- **TPH2** — Gen miłych gości (0/1 markerów z genotypem)
+- **VKORC1** — Gen warfaryny (3/6 markerów z genotypem)
+- **WWC1** — Gen pamięci (0/4 markerów z genotypem)
+- **ZEB2** — Gen naczyń i Mowata-Wilsona (3/7 markerów z genotypem)
 
 ---
 
@@ -74,12 +82,12 @@
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: COMT inaktywuje katecholaminy (dopamina, adrenalina, noradrenalina) i estrogeny katecholowe metylacją z udziałem Mg2+ i SAM; w korze przedczołowej odpowiada za >60% degradacji dopaminy
 - Wpływ wariantu na szlak: rs4680 (Val158Met) obniża stabilność termiczną enzymu; genotyp Met/Met daje do ~75% niższej aktywności COMT względem Val/Val
-- Efekt funkcjonalny: Wolniejszy COMT podnosi dopaminę w PFC („Zamartwiacz”), szybszy obniża ją („Wojownik” pod stresem) – profile w tabeli wariantów
+- Efekt funkcjonalny: Wolniejszy COMT podnosi dopaminę w PFC („Zamartwiacz”), szybszy obniża ją („Wojownik” pod stresem) – profile w sekcji 4
 
 ### Twoje warianty (znane genotypy)
 #### rs4680
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/A
 - **Aktywność / status:** Met/Met
 - **Wpływ fenotypowy:** "Zamartwiacz" (Worrier): Lepsza pamięć werbalna i wysokie wyniki w testach kognitywnych (IQ), przewaga w żmudnych zadaniach analitycznych. Kosztem jest jednak wyraźnie obniżony próg bólu, podatność na stany lękowe i zjawisko paraliżu decyzyjnego w sytuacjach ostrego stresu ("przebodźcowanie").
@@ -94,7 +102,6 @@
 - Witamina E: U A/A suplementacja wiązała się z niższym ryzykiem niektórych nowotworów w kohortach; u G/G ten sam schemat może nie być korzystny — indywidualna ocena z lekarzem.
 - Ból, gojenie i sport: G/G — wyższa tolerancja bólu i stresu w sporcie kontaktowym; gorsze gojenie ran (ryzyko przerostowych blizn). Val/Val — lepsza adaptacja do HIIT pod presją.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -117,8 +124,8 @@
 
 ### Twoje warianty (znane genotypy)
 #### rs6265
-- **Genotyp (baza/MyHeritage):** `CT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Heterozygota (Val/Met)
 - **Wpływ fenotypowy:** Częściowe upośledzenie transportu pęcherzykowego. Podwyższona podatność na stres i utrudnione wygaszanie reakcji lękowych. Zwiększone ryzyko zaburzeń nastroju w odpowiedzi na traumę. (Umiarkowana tendencja do odkładania tkanki tłuszczowej przy diecie wysokokalorycznej. Zależność parametrów metabolicznych od podaży tłuszczów.)
@@ -129,7 +136,6 @@
 - Sport: Aktywność fizyczna to najsilniejsza tarcza niefarmakologiczna ratująca ekspresję BDNF. U posiadaczy zwinnego, "europejskiego" genotypu Val/Val dochodzi do natychmiastowej szarży BDNF w synapsach po jednej ostrej jednostce (np. interwałach HIIT), co usprawnia pamięć. Nosiciele gorszego układu Met reagują blokadą sekrecji. Wymagają oni bezwzględnie wdrożenia ciągłego reżimu minimum 12 tygodni kolarstwa, lub 6 tygodni ćwiczeń HIIT by przełamać biologiczny defekt i zmusić mózg do neurogenezy. Układ dziki (Val/Val) silnie dominuje genetycznie wśród polskich sportowców wyczynowych z lig lekkoatletycznych.
 - Opieka po udarach: Analizy z polskich oddziałów dowodzą, że odziedziczony polimorfizm determinuje regenerację. Profil rs6265 wiąże się ze statystycznym wynikiem w testach kognitywnych w ciągu całego 6-miesięcznego okna rekonwalescencji neurologicznej po udarze niedokrwiennym.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -153,41 +159,29 @@
 - Efekt funkcjonalny: Kumulacja defektów prowadzi do chronicznej hipodopaminergii i Zespołu Niedoboru Nagrody (RDS): codzienne bodźce nie wystarczają na satysfakcję, co sprzyja poszukiwaniu silnych nagród (substancje, hazard, hiperpalatable food) i dalszemu obniżeniu receptorów w sprzężeniu zwrotnym.
 
 ### Twoje warianty (znane genotypy)
-#### rs1800497
-_rs1800497 (Taq1A, ANKK1 — nić kodująca G>A; raporty komplementarne C>T)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** A2/A2
-- **Wpływ fenotypowy:** Prawidłowy próg nagrody; mniejsze ryzyko alkoholizmu i lekomanii
-
 #### rs6277
 _rs6277 (C957T, ekson 6)_
 
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Skrócony czas półtrwania RNA
 - **Wpływ fenotypowy:** Lęk, spadek elastyczności poznawczej
 
-#### rs1076560
-_rs1076560 (intron 6, G>T)_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Prawidłowy splicing D2S/D2L
-- **Wpływ fenotypowy:** Sprawna adaptacja stresowa
-
 #### rs1799732
 _rs1799732 (-141C Ins/Del, promotor)_
 
-- **Genotyp (baza/MyHeritage):** `TGTG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TGTG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** Ins/Del
 - **Aktywność / status:** Obniżona transkrypcja
 - **Wpływ fenotypowy:** Podwyższone ryzyko tycia przy neuroleptykach; profil pośredni
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs1800497` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1076560` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1799978` — brak wpisu w WGS/MyHeritage/CSV
+- `rs2283265` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: Nosiciele wariantów obniżających D2 (Taq1A A1, rs6277 T, rs1076560 T, -141 Del) – wyższe ryzyko RDS, uzależnień i zaburzeń impulsywności; monitoruj masę ciała przy neuroleptykach i profil metaboliczny.
@@ -200,7 +194,6 @@ _rs1799732 (-141C Ins/Del, promotor)_
 - Rzucanie palenia: Bupropion działa lepiej u palaczy z korzystnymi genotypami (np. GG, -141C Ins, Taq1A A2).
 - Gaming (PVGU): Niestabilny rs6277 (C/T, T/T) zwiększa ryzyko patologicznego używania gier – wczesna interwencja rodzicielska.
 - Otyłość i FTO: Warianty ANKK1/DRD2 mogą niwelować ochronny efekt FTO; ograniczenie cukrów jako „sztucznej nagrody” dopaminergicznej.
-
 
 ---
 
@@ -219,15 +212,12 @@ _rs1799732 (-141C Ins/Del, promotor)_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: Wariant rs1800497 leży w egzonie 8 genu ANKK1 (nie w DRD2) i powoduje substytucję p.Glu713Lys w kinazie ANKK1, modyfikując kaskady sygnałowe białka
 - Wpływ wariantu na szlak: Przez silne sprzężenie (D' ≈ 0,999) defekt kinazy obniża gęstość receptorów D2 w prążkowiu o 20–40% w porównaniu do genotypu referencyjnego
-- Efekt funkcjonalny: Chroniczna hipodopaminergia u nosicieli allelu A sprzyja impulsywności, Zespołowi Niedoboru Nagrody (RDS) i uzależnieniom (tabela w tabeli wariantów)
+- Efekt funkcjonalny: Chroniczna hipodopaminergia u nosicieli allelu A sprzyja impulsywności, Zespołowi Niedoboru Nagrody (RDS) i uzależnieniom (tabela w sekcji 4)
 
 ### Twoje warianty (znane genotypy)
-#### rs1800497
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G (C/C)
-- **Aktywność / status:** A2/A2
-- **Wpływ fenotypowy:** Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS.
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs1800497` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Wycofanie uczenia na błędach (Kognicja): Pacjenci z markerem T wykazują za pomocą fMRI słabą aktywację kory przyśrodkowej (pMFC), co czyni ich biochemicznie ułomnymi w zapamiętywaniu i unikaniu działań kończących się negatywnymi skutkami w otoczeniu. Wymusza to system edukacyjny bazujący ściśle na pozytywnych nagrodach (wzmocnienia dodatnie) w miejsce niekorzystnego u nich karcenia i negatywnego feedbacku.
@@ -236,7 +226,6 @@ _rs1799732 (-141C Ins/Del, promotor)_
 - Medycyna precyzyjna: Ze względu na blokady w ANKK1 zaleca się szczegółowy nadzór przy leczeniu neuroleptykami typu risperidon (wyższa toksyczność) czy lekami przeciwdepresyjnymi grupy SSRI, na które receptor bywa całkowicie oporny u wariantów T.
 - Biohacking farmakologiczny i sport: Deficyty układu z genialnym efektem można nadrobić, przyjmując związki uwrażliwiające neurony - cytykolinę (CDP-cholinę), formy kwasów omega-3 na płynność błon oraz monofosforan urydyny. Fenomenalną upregulację i naprawę receptorów DRD2 wymusza z kolei ciężki, anaerobowy trening typu interwałowego o wysokiej intensywności (HIIT).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -261,8 +250,8 @@ _rs1799732 (-141C Ins/Del, promotor)_
 #### rs909525
 _rs909525 (proxy uVNTR)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Wariant bezpieczny
 - **Wpływ fenotypowy:** Układy 4R/5R; rzadsze wybuchy furii
@@ -270,8 +259,8 @@ _rs909525 (proxy uVNTR)_
 #### rs6323
 _rs6323 (R297R)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Niska (MAOA-L)
 - **Wpływ fenotypowy:** U mężczyzn: trudności w opanowaniu złości. U kobiet: wyższe ryzyko GAD i impulsywnej autoagresji
@@ -279,27 +268,31 @@ _rs6323 (R297R)_
 #### rs1137070
 _rs1137070 (c.1410T>C, synonimiczny)_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Zredukowana (MAOA-L)
 - **Wpływ fenotypowy:** Podatność na uzależnienia od nikotyny i heroiny; korelacja z ASPD
 
-#### rs72554632
-_rs72554632 (p.Gln296Ter, rzadka patologia)_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- _Brak dokładnego dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
-
 #### rs3027407
 _rs3027407 (region MAOA (ADHD u dzieci))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Ryzyko ADHD
 - **Wpływ fenotypowy:** Wyższe ryzyko diagnozy ADHD u potomstwa; wczesna interwencja środowiskowa i struktura dnia
+
+#### rs2064070
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/T
+- **Aktywność / status:** Niska (MAOA-L)
+- **Wpływ fenotypowy:** U mężczyzn: trudności w opanowaniu złości. U kobiet: wyższe ryzyko GAD i impulsywnej autoagresji
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs72554632` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1800466` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Dieta bez Tyraminy: Zmodyfikowany enzym nie eliminuje skutecznie tyraminy ze światła jelit, która dostaje się do mózgu i wyrzuca noradrenalinę z pęcherzyków, powodując skrajne zaczerwienienie, furię i palpitacje (efekt sympatykomimetyczny). Należy kategorycznie odstawić: sery dojrzewające i pleśniowe, dojrzewające wędliny i salami, produkty fermentowane i drożdże (soja, miso, marmite), stare czerwone wina (chianti) oraz przejrzałe warzywa i owoce. Dieta powinna być ultraświeża.
@@ -309,7 +302,6 @@ _rs3027407 (region MAOA (ADHD u dzieci))_
 - Brak paliwa w synapsach: Mózgi te cierpią na przedwczesne usuwanie neuroprzekaźników, co rodzi skłonność do apatii i dużych zaburzeń depresyjnych (MDD). Podlegają drastycznemu zagrożeniu nałogowym paleniem w próbach sztucznego podbicia dopaminy.
 - Suplementacja wspierająca: Komórki te wyśmienicie odpowiadają na formy prekursorowe – biologiczną witaminę B6 (P-5-P). Katalizuje ona drastyczne i omijające MAO przyspieszenie konwersji Tryptofanu do serotoniny oraz Tyrozyny do dopaminy. W odróżnieniu od grupy "wojowników", pacjenci ci powinni i muszą ładować metylację za pomocą L-Metylofolianu.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -335,16 +327,16 @@ _rs3027407 (region MAOA (ADHD u dzieci))_
 #### rs1042173
 _rs1042173 (3'UTR, T>G)_
 
-- **Genotyp (baza/MyHeritage):** `AC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/G
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Profil mieszany
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs4795541` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs25531` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs25532` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs4795541` — brak wpisu w WGS/MyHeritage/CSV
+- `rs25531` — brak wpisu w WGS/MyHeritage/CSV
+- `rs25532` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: Profil S_A/S_A lub L_G/L_G – wyższe ryzyko depresji, PTSD i zaburzeń lękowych po traumie; monitoruj zdrowie psychiczne i środowisko stresu.
@@ -355,7 +347,6 @@ _rs1042173 (3'UTR, T>G)_
 - SSRI: Niska ekspresja SERT = mniej receptorów docelowych; częstsza oporność na fluoksetynę/citalopram i akatyzja/DO.
 - Uzależnienia: rs1042173 T/T związany z binge drinking; profil L/L może reagować na modulację serotoninergiczną w leczeniu alkoholizmu.
 - Stres i decyzje: Heterozygoty pod presją mogą wykazywać framing effect i upośledzenie funkcji wykonawczych w testach ekonomicznych.
-
 
 ---
 
@@ -377,12 +368,9 @@ _rs1042173 (3'UTR, T>G)_
 - Efekt funkcjonalny: Hiperreaktywność ciała migdałowatego na bodźce awersyjne (fMRI); wyższe ryzyko MDD, zaburzeń dwubiegunowych, fobii społecznych i impulsywnej agresji u G/G; profil T/T – stabilność emocjonalna („Nice Guys”).
 
 ### Twoje warianty (znane genotypy)
-#### rs4570625
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Zredukowana (~70%)
-- **Wpływ fenotypowy:** Chroniczny deficyt serotoninowy w mózgu; hiperreaktywność migdałowata; wyższe ryzyko MDD, choroby dwubiegunowej, fobii społecznych i impulsywnej agresji w dzieciństwie
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs4570625` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: G/G – monitoruj nastrój, lęk, ryzyko MDD; nie polegaj na „serotoninie z krwi” (TPH1/jelita ≠ TPH2/mózg).
@@ -393,7 +381,6 @@ _rs1042173 (3'UTR, T>G)_
 - Bypass 5-HTP: Sam tryptofan z diety może nie wystarczyć przy G/G – prekursor 5-HTP omija defekt TPH2.
 - Witamina D: Kalcytriol aktywuje promotor TPH2; ważna u nosicieli G.
 - CBT: U G/G szczególnie przydatna terapia poznawczo-behawioralna przy hiperaktywacji migdałowej.
-
 
 ---
 
@@ -415,8 +402,8 @@ _rs1042173 (3'UTR, T>G)_
 
 ### Twoje warianty (znane genotypy)
 #### rs53576
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Heterozygota (Pośrednia)
 - **Wpływ fenotypowy:** Fenotyp Modulowany: Profil wykazujący pośrednie wartości neurofizjologiczne. W wielu analizach medycznych wystarczy jednak obecność jednej kopii allelu A, by wykazać osłabione mechanizmy buforowania wsparcia. Jednostki te dysponują umiarkowanymi wynikami empatycznymi w populacji ogólnej bez drastycznych wahań.
@@ -427,7 +414,6 @@ _rs1042173 (3'UTR, T>G)_
 - Używki a zdrowie wątroby: U układów pozbawionych barier (jak profil GG z wysoką korelacją prospołeczności), wykazano wysoce niezależny od ogólnego spożycia cukru pęd ku nawykowej konsumpcji mocnych form ujęć nagradzających (cukru i etanolu). Kobiety z homozygotą G/G są mocno dysponowane do ciężkich, uogólnionych schorzeń stłuszczeniowych wątroby z obu grup ryzyk (MASLD/ALD), co wymaga ostrego nadzoru prób wątrobowych we współczesnej medycynie.
 - Styl życia: Aktywacja rzutów oksytocyny może być samodzielnie wspomagana bez chemii. Somatyczne wyzwalanie układu aferentnego przy pomocy powięziowego masażu ucisku, regularnej jogi, wspólnego śpiewu i kontaktów z psami skutecznie podnosi podwzgórzową stymulację wolnego OXT u pacjentów.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -453,8 +439,8 @@ _rs1042173 (3'UTR, T>G)_
 #### rs1360780
 _rs1360780 (intron 2, główny marker)_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne
@@ -462,8 +448,8 @@ _rs1360780 (intron 2, główny marker)_
 #### rs9296158
 _rs9296158 (intron 5, trauma dziecięca)_
 
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowane nasilenie po traumie
@@ -471,15 +457,15 @@ _rs9296158 (intron 5, trauma dziecięca)_
 #### rs3800373
 _rs3800373 (intron 7 / 3'-region (bezsenność, stres zawodowy))_
 
-- **Genotyp (baza/MyHeritage):** `CA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/A
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowana podatność na stres chroniczny
 
 #### rs9470080
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Złożony fenotyp; częściowe ryzyko PTSD/depresji
@@ -487,8 +473,8 @@ _rs3800373 (intron 7 / 3'-region (bezsenność, stres zawodowy))_
 #### rs7748266
 _rs7748266 (intron FKBP5 (haplotyp stresu))_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/C
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Profil pośredni PTSD/depresji po traumie
@@ -496,8 +482,8 @@ _rs7748266 (intron FKBP5 (haplotyp stresu))_
 #### rs9394309
 _rs9394309 (intron FKBP5 (haplotyp regulacyjny))_
 
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowana modulacja ośi stresowej
@@ -512,7 +498,6 @@ _rs9394309 (intron FKBP5 (haplotyp regulacyjny))_
 - Metabolizm: Nadaktywność FKBP5 → insulinooporność, otyłość brzuszna przy deksametazonie; dieta i kontrola masy.
 - Ból przewlekły: Joga i stabilizacja mechaniczna kręgosłupa przy przewlekłym bólu.
 - ICU/sedacja: Ostrożnie z oceną stresu kortyzolowego u nosicieli haplotypów ryzyka.
-
 
 ---
 
@@ -533,14 +518,14 @@ _rs9394309 (intron FKBP5 (haplotyp regulacyjny))_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: AnkG to białko rusztowania łączące białka błonowe z cytoszkieletem spektrynowo-aktynowym. Izoformy 270/480 kDa organizują Początkowy Segment Aksonu (AIS) i węzły Ranviera (kanały Na⁺/K⁺, adhezja); izoforma 190 kDa stabilizuje kolce dendrytyczne i receptory AMPA (palmitoilacja ZDHHC8). Integruje szlaki PI3K-Akt i Ras-MAPK (PDGFR); w nerkach wiąże Kv1.1 (reabsorpcja Mg²⁺)
 - Wpływ wariantu na szlak: rs10994336 (T) jako meQTL obniża metylację cg02172182 → gorsze funkcje wykonawcze (WCST). Uszkodzenie ANK3 osłabia GABA i kolce dendrytyczne; lit hamuje GSK-3β i odbudowuje architekturę (modele Ank3). rs9804190 wiąże się z niższą FA pęczka haczykowatego u BD. Dieta bogata w Mg²⁺ podwaja ekspresję ANK3 w nerkach (~1,8×) i modyfikuje Kv1.1
-- Efekt funkcjonalny: Warianty ryzyka modulują podatność na BD, deficyty poznawcze i integralność istoty białej przy niskiej penetracji pojedynczego SNP – profile genotypów w tabeli wariantów; ocena kliniczna w kontekście wyniku poligenowego (PRS)
+- Efekt funkcjonalny: Warianty ryzyka modulują podatność na BD, deficyty poznawcze i integralność istoty białej przy niskiej penetracji pojedynczego SNP – profile genotypów w sekcji 4; ocena kliniczna w kontekście wyniku poligenowego (PRS)
 
 ### Twoje warianty (znane genotypy)
 #### rs10994336
 _rs10994336 (BD, meQTL)_
 
-- **Genotyp (baza/MyHeritage):** `CT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Obniżona metylacja
 - **Wpływ fenotypowy:** OR dla BD ~1,18–1,45. Więcej błędów w testach uwagi; profil pośredni
@@ -548,8 +533,8 @@ _rs10994336 (BD, meQTL)_
 #### rs1938526
 _rs1938526 (kognicja)_
 
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Obniżona stabilność mRNA (korze, móżdżek)
 - **Wpływ fenotypowy:** Gorsza pamięć werbalna i utrzymanie uwagi
@@ -557,8 +542,8 @@ _rs1938526 (kognicja)_
 #### rs9804190
 _rs9804190 (DTI, pęczek haczykowaty)_
 
-- **Genotyp (baza/MyHeritage):** `CT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Pośrednia integralność białej istoty
 - **Wpływ fenotypowy:** Niższa FA – słabsza łączność migdałowo-korowa u BD
@@ -566,8 +551,8 @@ _rs9804190 (DTI, pęczek haczykowaty)_
 #### rs10761482
 _rs10761482 (intron / upstream ANK3 (plejotropia BD–schizofrenia))_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/C
 - **Aktywność / status:** Heterozygota — pośrednie ryzyko
 - **Wpływ fenotypowy:** Umiarkowana asocjacja z fenotypami ze spektrum schizofrenii w badaniach GWAS; interpretacja łącznie z rs10994336/rs1938526
@@ -580,7 +565,6 @@ _rs10761482 (intron / upstream ANK3 (plejotropia BD–schizofrenia))_
 - Ostrzeżenie kliniczne: Materiał informacyjny; nie zastępuje diagnozy ani leczenia zaburzeń afektywnych. Rzadkie mutacje missense ANK3 wiążą się też z kardiomiopatią (np. zespół Brugadów) – odrębna ścieżka genetyczna od common SNP
 - Neuroplastyczność: Nosiciele rs10994336 T i rs1938526 G – deficyty pamięci roboczej; interwencje poznawcze mogą częściowo kompensować utratę istoty szarej
 - Profilaktyka TBI: Przy rs9804190 T/T ostrożność w kontaktach i sportach z ryzykiem urazów głowy
-
 
 ---
 
@@ -604,20 +588,11 @@ _rs10761482 (intron / upstream ANK3 (plejotropia BD–schizofrenia))_
 - Efekt funkcjonalny: Trzy osie: OUN (uwaga, sedacja, choroba lokomocyjna), metabolizm glukozy/otyłość, układ naczyniowy (bradykardia OUN vs skurcz obwodowy – Raynaud).
 
 ### Twoje warianty (znane genotypy)
-#### rs1800544
-_rs1800544 (promotor -1291C/G)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Zwiększona ekspresja (mniejszość w Europie)
-- **Wpływ fenotypowy:** Spektakularna poprawa uwagi na metylofenidacie (SNAP-IV); ~1,5× ryzyko wymiotów morskich; osłabiona sedacja
-
 #### rs553668
 _rs553668 (3'-UTR)_
 
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Pośrednia
 - **Wpływ fenotypowy:** Stopniowy wzrost glikemii na czczo i insulinooporności
@@ -625,15 +600,16 @@ _rs553668 (3'-UTR)_
 #### rs10885122
 _rs10885122 (regulacyjny (LD z rs553668; hiperglikemia stresowa))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C (lub G/G)
 - **Aktywność / status:** Haplotyp sprzężony z podwyższoną glikemią
 - **Wpływ fenotypowy:** Silniejsza predykcja poziomu glukozy przy przyjęciu do szpitala z OZW; wymaga kontroli cukru i stylu życia przy obciążeniu kardiometabolicznym
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs3750625` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs521674` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs1800544` — brak wpisu w WGS/MyHeritage/CSV
+- `rs3750625` — brak wpisu w WGS/MyHeritage/CSV
+- `rs521674` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: rs1800544 G/G – rozważ metylofenidat przy ADHD; C/C – słabszy responder, unikaj eskalacji dawek bez efektu. rs553668 A/A – monitoruj glikemię, ryzyko T2D i hipotensji przy sedacji.
@@ -646,7 +622,6 @@ _rs10885122 (regulacyjny (LD z rs553668; hiperglikemia stresowa))_
 - ICU / anestezja: A/A – ryzyko gwałtownej hipotensji na deksmedetomidynie; C/C – wydłużona sedacja.
 - Raynaud: ADRA2A (z IRX1) – genetyczne tło niedokrwień obwodowych (UK Biobank).
 - Choroba lokomocyjna: G/G rs1800544 – wyższe ryzyko wymiotów (OR ~1,99).
-
 
 ---
 
@@ -670,32 +645,36 @@ _rs10885122 (regulacyjny (LD z rs553668; hiperglikemia stresowa))_
 - Efekt funkcjonalny: Plejotropia mózg–serce: ten sam gen moduluje ryzyko psychiatryczne i homeostazę wapnia w mięśniu sercowym oraz ciśnienie tętnicze.
 
 ### Twoje warianty (znane genotypy)
-#### rs1006737
-_rs1006737 (psychiatria, EH)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Profil referencyjny / ochronny
-- **Wpływ fenotypowy:** Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP
-
 #### rs1051375
 _rs1051375 (farmakogenetyka kardiologiczna)_
 
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Pośrednia
 - **Wpływ fenotypowy:** Ostrożność przy werapamilu; monitoruj powikłania
 
-#### rs2159100
-_rs2159100 (nastrój, BD)_
+#### rs1024582
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** G/G
+- **Aktywność / status:** Profil referencyjny / ochronny
+- **Wpływ fenotypowy:** Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C
-- **Aktywność / status:** Profil referencyjny
-- **Wpływ fenotypowy:** Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP
+#### rs2281845
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/T
+- **Aktywność / status:** Marker nastroju (allel T)
+- **Wpływ fenotypowy:** Zwiększone ryzyko zaburzeń afektywnych w kohortach BD
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs1006737` — brak wpisu w WGS/MyHeritage/CSV
+- `rs2159100` — brak wpisu w WGS/MyHeritage/CSV
+- `rs723672` — brak wpisu w WGS/MyHeritage/CSV
+- `rs2007044` — brak wpisu w WGS/MyHeritage/CSV
+- `rs4765905` — brak wpisu w WGS/MyHeritage/CSV
+- `rs216009` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: A/A rs1006737 – monitoruj nastrój, ciśnienie (EH); wczesna interwencja przy objawach afektywnych. Mutacja Timothy – kardiologia dziecięca, EKG/QT, genetyka rodzinna.
@@ -706,7 +685,6 @@ _rs2159100 (nastrój, BD)_
 - Psychiatria: rs1006737 A – wyższe ryzyko SCZ/BD/MDD; obrazowanie: zmiany w ACC, płynność mowy.
 - Kardiologia: rs1051375 – personalizacja antyhipertensywów; Timothy – unikanie leków wydłużających QT.
 - Kognityja: Nadreaktywność Cav1.2 → deficyty w zadaniach wykonawczych u podatnych genotypów (fMRI).
-
 
 ---
 
@@ -733,8 +711,8 @@ _rs2159100 (nastrój, BD)_
 #### rs1611115
 _rs1611115 (C-1021T / C-970T, promotor)_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Najwyższy DBH (referencyjny)
 - **Wpływ fenotypowy:** Fenotyp ochronny. Niższe ryzyko ADHD (kohorty kaukaskie). Silniejsza odpowiedź ciśnieniowa na ekstremalne zimno; predyspozycja do nadciśnienia
@@ -742,8 +720,8 @@ _rs1611115 (C-1021T / C-970T, promotor)_
 #### rs1108580
 _rs1108580 (444G>A)_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Referencyjny
 - **Wpływ fenotypowy:** Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym
@@ -751,15 +729,15 @@ _rs1108580 (444G>A)_
 #### rs2519154
 _rs2519154 (farmakogenomika atomoksetyny)_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/C
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowana odpowiedź na atomoksetynę
 
 #### rs2519152
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Bardzo niski DBH
 - **Wpływ fenotypowy:** Hiperaktywność u dzieci; paternal over-transmission (kohorty wschodnioindyjskie)
@@ -767,8 +745,8 @@ _rs2519154 (farmakogenomika atomoksetyny)_
 #### rs2873804
 _rs2873804 (intron DBH (atomoksetyna / ADHD))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Haplotyp sprzężony z rs2519154
 - **Wpływ fenotypowy:** Część profilu lepszej remisji na atomoksetynę (por. rs2519154 C/C); ocena łącznie z rs1611115
@@ -776,8 +754,8 @@ _rs2873804 (intron DBH (atomoksetyna / ADHD))_
 #### rs1076150
 _rs1076150 (intron DBH (ADHD, sprzężenie))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Alternatywny haplotyp
 - **Wpływ fenotypowy:** Skorelowany z obniżoną aktywnością DBH w haplotypach ryzyka; farmakogenomika jak rs2519152
@@ -785,27 +763,21 @@ _rs1076150 (intron DBH (ADHD, sprzężenie))_
 #### rs1548364
 _rs1548364 (intron DBH A>G (atomoksetyna))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Alternatywny
 - **Wpływ fenotypowy:** Część haplotypu obniżającego DBH; rozważ atomoksetynę przy ADHD
 
 #### rs129882
-- **Genotyp (baza/MyHeritage):** `CT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T
 - **Aktywność / status:** Obniżona transkrypcja
 - **Wpływ fenotypowy:** Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie (profil pośredni)
 
-#### rs7040170
-_rs7040170 (A>G)_
-
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** A/A
-- **Aktywność / status:** Referencyjny
-- **Wpływ fenotypowy:** Typowa koncentracja i uwaga
+### Markery w panelu bez genotypu w Twoich danych
+- `rs7040170` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: T/T lub rs1108580 A/A – genotypowanie przed leczeniem ADHD; monitoring neurologiczny (Parkinson); profilaktyka antyoksydacyjna czarnej istoty. C/C – kontrola ciśnienia, ostrożność przy zimnie.
@@ -817,7 +789,6 @@ _rs7040170 (A>G)_
 - Uzależnienia: T/T – psychoza paranoidalna przy odstawieniu kokainy; rs1108580 A/A – ciężka depresja na odwyku alkoholowym.
 - Dysautonomia: Całkowity niedobór DBH – omdlenia, ptoza; L-DOPS jako standard.
 - Automation bias: T/T i A/A – niższy współczynnik „błędu zautomatyzowania” w testach z AI; lepsza precyzja przy wykrywaniu błędów maszyn (audyt, analityka).
-
 
 ---
 
@@ -839,14 +810,11 @@ _rs7040170 (A>G)_
 - Efekt funkcjonalny: Skutki to neurodegeneracja, podwyższone ryzyko otępienia i zmiany metabolizmu lipidów – zależnie od haplotypu ε2/ε3/ε4 (sekcja 4)
 
 ### Twoje warianty (znane genotypy)
-#### rs4420638
-_rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))_
-
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** A/A
-- **Aktywność / status:** Brak allelu G sprzężonego z ε4
-- **Wpływ fenotypowy:** Niższe ryzyko AD w modelach proxy; nadal wymagane określenie haplotypu ε2/ε3/ε4 na rs429358 i rs7412
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs429358` — brak wpisu w WGS/MyHeritage/CSV
+- `rs7412` — brak wpisu w WGS/MyHeritage/CSV
+- `rs4420638` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Profil ryzyka (ε4): Nosiciele allelu ε4 (szczególnie ε4/ε4) mają wyższe ryzyko choroby Alzheimera, miażdżycy i incydentów sercowo-naczyniowych; warto łączyć genotyp z lipidogramem, ciśnieniem, snem i czynnikami środowiskowymi.
@@ -856,6 +824,212 @@ _rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))_
 - Aktywność fizyczna: Regularny trening aerobowy (np. ≥2 sesje tygodniowo poprawiające VO₂max) wiąże się w kohortach z mniejszym obciążeniem amyloidowym i lepszą funkcją poznawczą u osób z ryzykiem ε4.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji neurologicznej ani kardiologicznej.
 
+---
+
+## CHRM2 — Gen inteligencji
+
+- Główny symbol genu: CHRM2 (ang. Cholinergic Receptor Muscarinic 2)
+- Pełna nazwa biochemiczna: Receptor cholinergiczny muskarynowy 2
+- Nazwy potoczne i medialne: Gen inteligencji (ang. intelligence gene), receptor M2
+- Synonimy medyczne: ACM2, HM2, 7TM receptor
+- Główny rsID: rs324650
+- Lokalizacja chromosomalna: Chromosom 7 (7q31-35)
+- Typ wariantu: SNP intronowe (A/T w elemencie SINE Alu)
+- Zapis zmiany nukleotydowej (HGVS): Brak missense; warianty regulacyjne intronowe
+- Orientacja nici i mapowanie alleli: rs1824024: G/T; rs8191992: A/T (3'-UTR)
+- Powiązane markery / haplotyp: rs1824024, rs8191992, rs2061174, rs324640; haplotyp T-T-T ochronny wobec alkoholu
+- Klasyfikacja bazowa: Warianty populacyjne modyfikujące kognicję i autonomiczną odpowiedź serca
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: GPCR M2: Gi/Go → hamowanie adenylazy → spadek cAMP; GIRK → hiperpolaryzacja; ujemny chronotropizm w sercu; w OUN presynaptyczny autoreceptor ACh
+- Wpływ wariantu na szlak: rs324650 w SINE Alu moduluje transkrypcję; rs8191992-AA osłabia translację M2 → gorsza regeneracja tętna; haplotyp T-T-T ochronny wobec alkoholu/depresji
+- Efekt funkcjonalny: Modulacja Performance IQ, HRR po wysiłku, ryzyko delirium tremens i odpowiedzi na leki antycholinergiczne — sekcja 4
+
+### Twoje warianty (znane genotypy)
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs324650` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1824024` — brak wpisu w WGS/MyHeritage/CSV
+- `rs8191992` — brak wpisu w WGS/MyHeritage/CSV
+- `rs2061174` — brak wpisu w WGS/MyHeritage/CSV
+- `rs324640` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Psychiatria: MBCT (8 tygodni) u nosicieli rs324650 wrażliwych — wzrost pozytywnego afektu, mniej nawrotów depresji.
+- Rodzina / rozwój: Wysokie wsparcie rodzinne u dzieci rs1824024/rs324650 — efekt crossover (najniższa agresja przy dobrym nadzorze).
+- Sport / kardiologia: Trening wytrzymałościowy (5×40 min, 70–80% HRmax) u rs8191992-AA — poprawa HRR; unikać nagłego przerwania wysiłku beztlenowego bez cooldown.
+- Dieta: Dieta wysokocholinowa (żółtka, wątroba, ryby); Alpha-GPC/CDP-cholina 600–1200 mg — unikać >3500 mg/dobę choliny.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
+---
+
+## SNAP25 — Gen impulsów
+
+- Główny symbol genu: SNAP25 (ang. Synaptosomal-Associated Protein, 25 kDa)
+- Pełna nazwa biochemiczna: Synaptosomalne białko towarzyszące o masie 25 kDa
+- Nazwy potoczne i medialne: Gen kontroli impulsów, łącznik synaptyczny
+- Synonimy medyczne: RIC4, HBEBP3, PPP1R168
+- Główny rsID: rs3746544
+- Lokalizacja chromosomalna: Chromosom 20; 3'-UTR genu SNAP25
+- Typ wariantu: SNP restrykcyjny (MnlI) + polimorfizmy promotorowe/intronowe
+- Zapis zmiany nukleotydowej (HGVS): Brak missense; rs3746544 w regionie regulacyjnym 3'-UTR
+- Orientacja nici i mapowanie alleli: Allel referencyjny T (wyższa ekspresja w korze przedczołowej); allel G obniża stabilność mRNA
+- Powiązane markery / haplotyp: rs363050, rs363043, rs362584, rs1051312, rs363039, rs362990
+- Klasyfikacja bazowa: Warianty populacyjne modyfikujące ekspresję; de novo mutacje SNAP25 — encefalopatie epileptyczne (rzadkie)
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: SNAP-25 to kluczowy element kompleksu SNARE (z syntaxyną-1A i VAMP2) — egzocytoza pęcherzyków synaptycznych; palmitoilacja i modulacja kanałów Ca²⁺
+- Wpływ wariantu na szlak: rs3746544-G obniża ekspresję SNAP-25 w PFC → mniej uwalniania neuroprzekaźników; rs363050/043 modulują transkrypcję i grubość kory
+- Efekt funkcjonalny: Wpływ na ADHD, impulsywność, odpowiedź na metylofenidat i ryzyko zaburzeń afektywnych — profile w sekcji 4
+
+### Twoje warianty (znane genotypy)
+#### rs3746544
+_rs3746544 (3'-UTR — ekspresja w PFC)_
+
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/T
+- **Aktywność / status:** Wyższa ekspresja SNAP-25
+- **Wpływ fenotypowy:** Wyższy WMI; lepsza odpowiedź na MPH u części kohort azjatyckich; niższa hiperaktywność
+
+#### rs363050
+_rs363050 (promotor — PIQ)_
+
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** A/G
+- **Aktywność / status:** Pośrednia
+- **Wpływ fenotypowy:** Profil PIQ pośredni
+
+#### rs363043
+_rs363043 (intron — grubość kory)_
+
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/T
+- **Aktywność / status:** Pośrednia
+- **Wpływ fenotypowy:** Obniżony PRI/IQ u dzieci z BIF
+
+#### rs362584
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** A/A
+- **Aktywność / status:** Wyższa transkrypcja
+- **Wpływ fenotypowy:** +2,84 pkt PIQ na allel A (~3,4% wariancji); allel ochronny kognitywnie
+
+#### rs1051312
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/C
+- **Aktywność / status:** Optymalna grubość kory
+- **Wpływ fenotypowy:** Optymalny PRI i pełna skala IQ (BIF)
+
+#### rs363039
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** A/G
+- **Aktywność / status:** Pośrednia
+- **Wpływ fenotypowy:** Profil PIQ pośredni
+
+#### rs362990
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/T
+- **Aktywność / status:** Wyższa ekspresja SNAP-25
+- **Wpływ fenotypowy:** Wyższy WMI; lepsza odpowiedź na MPH u części kohort azjatyckich; niższa hiperaktywność
+
+### Zalecenia praktyczne
+- ADHD / psychiatria: G/G rs3746544 — wczesna diagnoza ADHD; indywidualizacja MPH; techniki ograniczania dystraktorów („friction”).
+- Dieta: Wysokobiałkowa dieta o niskim IG — stabilizacja dopaminy u alleli G.
+- Styl życia: Trening aerobowy — nadekspresja SNAP-25, lepsza pamięć robocza; pycnogenol w badaniach redukował nadpobudliwość.
+- Diagnostyka: Kontrola ferrytyny, B12, folianów, wit. D i tarczycy przy objawach poznawczych — wykluczenie niedoborów.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
+---
+
+## WWC1 — Gen pamięci
+
+- Główny symbol genu: WWC1 (ang. WW, C2 and Coiled-Coil Domain Containing 1)
+- Pełna nazwa biochemiczna: Białko zawierające domeny WW, C2 i zwój śrubowy 1
+- Nazwy potoczne i medialne: Gen pamięci (ang. the memory gene), KIBRA
+- Synonimy medyczne: KIBRA, kidney and brain expressed protein, MEMRYQTL
+- Główny rsID: rs17070145
+- Lokalizacja chromosomalna: Chromosom 5 (5q34), intron 9 genu WWC1
+- Typ wariantu: SNP intronowy (substytucja C>T)
+- Zapis zmiany nukleotydowej (HGVS): NM_015238.3(WWC1):c.1185-3222C>T
+- Orientacja nici i mapowanie alleli: Allel T związany z lepszą pamięcią epizodyczną u dorosłych; allel C referencyjny
+- Powiązane markery / haplotyp: rs3822660, rs3822659, rs139606423; mutacja W88C (rzadka, patogenna w rodzinach)
+- Klasyfikacja bazowa: Wariant populacyjny o modyfikacji cech poznawczych; nie choroba mendlowska
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: KIBRA (WWC1) to rusztowanie postsynaptyczne: wiąże PICK1 i receptory AMPA (GluA1/2), reguluje endocytozę i recykling AMPAR — kluczowe dla LTP i pamięci
+- Wpływ wariantu na szlak: Allel T zwiększa stabilność AMPAR i PKMζ (ślad pamięciowy w hipokampie); aktywacja MAPK/ERK; równolegle udział w szlaku Hippo (KIBRA–NF2–LATS → degradacja YAP1)
+- Efekt funkcjonalny: Modulacja pamięci epizodycznej, objętości hipokampu i tempa starzenia poznawczego; paradoks po urazie mózgu (T/T gorsza rekonwalescencja) — sekcja 4
+
+### Twoje warianty (znane genotypy)
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs17070145` — brak wpisu w WGS/MyHeritage/CSV
+- `rs3822660` — brak wpisu w WGS/MyHeritage/CSV
+- `rs3822659` — brak wpisu w WGS/MyHeritage/CSV
+- `rs139606423` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Kardiologia / epistaza: Nosiciele allelu T przy nadciśnieniu — rygorystyczna kontrola ciśnienia (<120/80 mmHg); nadciśnienie obniża korzyść kognitywną z KIBRA.
+- Neurologia / TBI: Po urazie mózgu T/T wymaga intensywniejszej neurorehabilitacji niż C/C; monitoring funkcji wykonawczych.
+- Kognitywna: Treningi strategiczne i ćwiczenia pamięci roboczej; u C/C rozważyć wsparcie AMPAR (dane pośrednie: resweratrol, piracetam — po konsultacji).
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
+
+---
+
+## AVPR1A — Gen monogamii
+
+- Główny symbol genu: AVPR1A (ang. Arginine Vasopressin Receptor 1A)
+- Pełna nazwa biochemiczna: Receptor wazopresyny argininowej typu 1A
+- Nazwy potoczne i medialne: Gen monogamii, gen wierności, receptor wazopresyny V1a
+- Synonimy medyczne: V1aR, AVPR1a
+- Główny rsID: rs1042615
+- Lokalizacja chromosomalna: Chromosom 12 (12q14.2)
+- Typ wariantu: SNP (3'-UTR) + mikrosatelity promotorowe (RS3, RS1, AVR — VNTR)
+- Zapis zmiany nukleotydowej (HGVS): Brak jednoznacznego HGVS dla SNP w raporcie
+- Orientacja nici i mapowanie alleli: rs10877969: raport A/G vs bazy T/C — możliwy strand flip; weryfikuj surowe dane
+- Powiązane markery / haplotyp: rs11174811, rs10877969, rs7294536, RS3, RS1, AVR
+- Klasyfikacja bazowa: Warianty populacyjne modyfikujące zachowania społeczne; nie choroba mendlowska
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: GPCR V1aR: wazopresyna → Gαq/11 → PLC → IP3/DAG → Ca²⁺; regulacja pamięci społecznej, lęku, zachowań terytorialnych (dymorfizm płciowy); ekspresja limbiczna (migdałowiec, septum)
+- Wpływ wariantu na szlak: Mikrosatelity RS3/RS1 modulują ekspresję w mózgu; rs11174811-T zwiększa impulsywność; rs1042615-T modyfikuje BMI i oś kortyzolową
+- Efekt funkcjonalny: Modulacja więzi partnerskich, impulsywności, uzależnień i reakcji na stres — niska penetracja bez środowiska; profile w sekcji 4
+
+### Twoje warianty (znane genotypy)
+#### rs1042615
+_rs1042615 (3'-UTR — stabilność mRNA)_
+
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/T
+- **Aktywność / status:** Pośrednia
+- **Wpływ fenotypowy:** Umiarkowane modyfikacje BMI i ciśnienia rozkurczowego
+
+#### rs11174811
+_rs11174811 (regulacja pod stresem)_
+
+- **Genotyp (WGS):** `CA`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/T
+- **Aktywność / status:** Pośrednia
+- **Wpływ fenotypowy:** Umiarkowana modulacja impulsywności
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs10877969` — brak wpisu w WGS/MyHeritage/CSV
+- `rs7294536` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Psychiatria / uzależnienia: CBT/MBSR u nosicieli krótkich RS1/RS3 i rs11174811-T — kontrola impulsów; unikać substancji psychoaktywnych przy allelach ryzyka.
+- Farmakologia: Ostrożność z paracetamolem przy rs11174811-T — ryzyko ostrej niewydolności wątroby przy przedawkowaniu.
+- Dieta: Dieta niskotłuszczowa (śródziemnomorska) przy rs1042615 i otyłości — kontrola glikemii/HbA1c.
+- Styl życia: Trening LISS z monitorowaniem ciśnienia u mężczyzn z rs1042615; wczesna edukacja muzyczna/ruchowa przy długich RS1/RS3.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
 ---
 
@@ -881,25 +1055,19 @@ _rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))_
 - Efekt funkcjonalny: Kumulacja acetaldehydu po alkoholu → rumień, tachykardia, nudności; blokada nagrody dopaminergicznej; przy przewlekłej ekspozycji — rakotwórczość aldehydu (grupa IARC); oporność na bioaktywację nitrogliceryny
 
 ### Twoje warianty (znane genotypy)
-#### rs671
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Pełna (~100%)
-- **Wpływ fenotypowy:** Brak rumieńca alkoholowego; szybka eliminacja acetaldehydu; wyższe ryzyko uzależnienia od alkoholu i profilu kardiometabolicznego przy dużym spożyciu; wyższe ryzyko nadciśnienia i T2DM skorelowane z piciem
-
 #### rs1229984
 _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** ADH1B dziki (Arg48) — wolniejszy etap I
 - **Wpływ fenotypowy:** Wolniejsza konwersja etanolu do acetaldehydu; łagodniejszy rumieniec przy współistnieniu rs671, ale nadal zależny od ALDH2
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs747096195` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs190764869` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs671` — brak wpisu w WGS/MyHeritage/CSV
+- `rs747096195` — brak wpisu w WGS/MyHeritage/CSV
+- `rs190764869` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Alkohol: Nosicielom A zaleca się całkowitą abstynencję — acetaldehyd jest czynnikiem rakotwórczym grupy IARC; ryzyko raka przełyku rośnie wielokrotnie nawet przy umiarkowanym piciu. Unikać alkoholu w żywności, lekach i płynach do płukania jamy ustnej.
@@ -908,7 +1076,6 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 - Neuroprotekcja: Akumulacja 4-HNE w hipokampie sprzyja patologii tau i amyloidu; u niepijących nosicieli A monitorować funkcje poznawcze; rozważyć prekursory glutationu (np. NAC) wyłącznie po konsultacji lekarskiej.
 - Uwaga na disulfiram: Klasyczne inhibitory ALDH2 (disulfiram) są mniej selektywne niż nowsze związki badawcze (np. CVT-10216); leczenie uzależnienia wymaga nadzoru specjalisty.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -933,8 +1100,8 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 
 ### Twoje warianty (znane genotypy)
 #### rs762551
-- **Genotyp (baza/MyHeritage):** `CA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/C
 - **Aktywność / status:** 1A / 1F
 - **Wpływ fenotypowy:** Profil heterozygotyczny ze zredukowaną pojemnością do natychmiastowej przeróbki. Zjawiska metaboliczne dla stymulantów przebiegają wolniej. Spożycie wysokich dawek (powyżej 3-4 filiżanek) zaczyna akumulować kofeinę w tkankach, prowokując negatywne efekty dla snu i układu naczyniowego.
@@ -948,6 +1115,102 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 - Wady w położnictwie: Ciąża w organizmie kobiety genetycznie naturalnie blokuje i drastycznie wycisza pracę cytochromu CYP1A2 hormonami. Jeśli kobieta miała i tak już zepsuty gen "wolnego" polimorfizmu, odcięcie możliwości ochrony narasta u niej i wymusza pięciokrotne zwiększenie występowania incydentów powracających poronień płodu przy wypijaniu używek na poziomie 300 mg (wielki wskaźnik OR 5.23 względem pacjentek powstrzymujących się). Z tego powodu rekomenduje się ostrożne podejście przed wykluczeniem genetycznym i całkowitą abstynencję dla kobiet z tą pulą DNA.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
+---
+
+## CYP2C19 — Gen Plavix
+
+- Główny symbol genu: CYP2C19 (ang. Cytochrome P450 Family 2 Subfamily C Member 19)
+- Pełna nazwa biochemiczna: Cytochrom P450, rodzina 2, podrodzina C, polipeptyd 19
+- Nazwy potoczne i medialne: Gen metabolizmu leków, gen wrażliwości na Plavix
+- Synonimy medyczne: CPCJ, CYP2C, P450IIC19, S-mephenytoin 4-hydroxylase
+- Główny rsID: rs4244285
+- Lokalizacja chromosomalna: Chromosom 10 (10q23.33)
+- Typ wariantu: SNP splicingowy (egzon 5) + warianty promotorowe i missense
+- Zapis zmiany nukleotydowej (HGVS): rs4244285: c.681G>A (2); rs4986893: c.636G>A p.W212X (3); rs12248560: c.-806C>T (*17)
+- Orientacja nici i mapowanie alleli: Allele gwiazdkowe PharmVar/CPIC; diplotyp decyduje o fenotypie PM/IM/NM/RM/UM
+- Powiązane markery / haplotyp: rs4986893, rs12248560, rs72558186 (7), rs6413438 (10), rs12769205
+- Klasyfikacja bazowa: CPIC — klopidogrel, IPP, SSRI; fenotypy metaboliczne wg diplotypu
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: Mikrosomalna monoooksygenaza w wątrobie — Faza I: hydroksylacja, demetylacja, dealkilacja ~10% leków; aktywacja proleków (klopidogrel)
+- Wpływ wariantu na szlak: 2/3 — anomalia splicingu lub kodon stop → brak enzymu; *17 — nadmierna transkrypcja → ultraszybki klirens; prenatalna ekspresja w mózgu — metabolizm estrogenów, endokannabinoidów, serotoniny
+- Efekt funkcjonalny: Personalizacja antykoagulacji, IPP, tamoksyfenu; modulacja dymorfizmu płciowego mózgu i ryzyka depresji — sekcja 4
+
+### Twoje warianty (znane genotypy)
+#### rs12248560
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/T
+- **Aktywność / status:** Heterozygota GoF
+- **Wpływ fenotypowy:** Podwyższona transkrypcja mRNA; przyspieszona inaktywacja substratów (RM)
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs4244285` — brak wpisu w WGS/MyHeritage/CSV
+- `rs4986893` — brak wpisu w WGS/MyHeritage/CSV
+- `rs72558186` — brak wpisu w WGS/MyHeritage/CSV
+- `rs6413438` — brak wpisu w WGS/MyHeritage/CSV
+- `rs12769205` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Kardiologia: PM/IM przy klopidogrelu — zastąpić tikagrelorem lub prasugrelem (CPIC 2022); standardowa dawka 75 mg nieskuteczna przy upośledzonej aktywacji.
+- Gastroenterologia: RM/UM przy IPP — zwiększyć dawkę lub rabeprazol; PM przy IPP — minimalne dawki, ostrożność przy długotrwałym stosowaniu (osteoporoza, infekcje).
+- Psychiatria: GoF (*17) — wyższe ryzyko zachowań suicydalnych w depresji; PM u kobiet — wyższa odporność na stres; genotypowanie przed SSRI (CPIC).
+- Styl życia: PM + palenie — 5× ryzyko raka płuc, 17× raka krtani; unikać nitrozoamin (kiszonki); inhibitory: kwercetyna, berberyna, limonen — wydłużają klirens substratów.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej ani farmakogenetycznej.
+
+---
+
+## CYP2D6 — Gen detoksu
+
+- Główny symbol genu: CYP2D6 (ang. Cytochrome P450 Family 2 Subfamily D Member 6)
+- Pełna nazwa biochemiczna: Cytochrom P450, rodzina 2, podrodzina D, polipeptyd 6
+- Nazwy potoczne i medialne: Gen detoksykacyjny, gen detoksu
+- Synonimy medyczne: Debrisoquine 4-hydroxylase; locus 22q13.2 z pseudogenami CYP2D7/CYP2D8
+- Główny rsID: rs3892097
+- Lokalizacja chromosomalna: Chromosom 22 (22q13.2)
+- Typ wariantu: SNP splicingowy + delecje, insercje, CNV (multiplikacja *xN)
+- Zapis zmiany nukleotydowej (HGVS): rs3892097: g.6866G>A (4); rs1065852: 100C>T p.P34S (10); rs28371706: 1023C>T (*17)
+- Orientacja nici i mapowanie alleli: rs1135840 — orientacja minus/plus w różnych panelach; nie stosować jako samodzielny marker
+- Powiązane markery / haplotyp: rs35742686 (3), rs5030655 (6), rs28371725 (41), rs5030865 (8/14), rs72549354 (20)
+- Klasyfikacja bazowa: PharmVar star alleles; Activity Score (AS) → fenotyp PM/IM/NM/UM
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: Wątrobowa monoooksygenaza Fazy I — ~25% leków klinicznych; ekspresja w OUN (kora, hipokamp, śródmózgowie) — metabolizm monoamin, anandamidu, neurotoksyn (MPTP)
+- Wpływ wariantu na szlak: 4/5/6 — brak enzymu (AS=0); 10/17/41 — obniżona aktywność; *xN — multiplikacja (AS≥2); wpływ na dopaminę, serotoninę, beta-oksydację i plastyczność błon
+- Efekt funkcjonalny: Farmakogenomika opioidów, tamoksyfenu, neuroleptyków; modulacja uwagi, impulsywności i ryzyka PD — sekcja 4
+
+### Twoje warianty (znane genotypy)
+#### rs35742686
+- **Genotyp (WGS):** `CTC`
+- **Źródło:** WGS
+- _Brak dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+
+#### rs1135840
+- **Genotyp (WGS):** `GC`
+- **Źródło:** WGS
+- _Brak dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+
+#### rs1058164
+- **Genotyp (WGS):** `GC`
+- **Źródło:** WGS
+- _Brak dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs3892097` — brak wpisu w WGS/MyHeritage/CSV
+- `rs5030655` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1065852` — brak wpisu w WGS/MyHeritage/CSV
+- `rs28371706` — brak wpisu w WGS/MyHeritage/CSV
+- `rs28371725` — brak wpisu w WGS/MyHeritage/CSV
+- `rs5030865` — brak wpisu w WGS/MyHeritage/CSV
+- `rs72549354` — brak wpisu w WGS/MyHeritage/CSV
+- `rs79802111` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Onkologia: PM przy tamoksyfenie — subterapeutyczny endoksyfen; rozważyć inhibitor aromatazy.
+- Analgezja: PM przy kodeinie/tramadolu — brak działania; UM — ryzyko depresji oddechowej (karmienie piersią!).
+- Kardiologia: PM + metoprolol — bradykardia, hipotensja; redukcja dawki; karwedilol — paradoksalnie wyższe dawki u PM.
+- Psychiatria / ADHD: PM + atomoksetyna — toksyczność; rs1135840 C/G + metylofenidat — lepsza poprawa uwagi; unikać inhibitorów roślinnych (kurkuma, berberyna, gorzknik) — fenokonwersja do PM.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej ani testu farmakogenetycznego.
 
 ---
 
@@ -968,15 +1231,13 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: Marker rs4988235 w MCM6 tworzy enhancer cis dla promotora LCT, utrzymując laktazę u dorosłych (persystencja laktazy)
 - Wpływ wariantu na szlak: Allel T wzmacnia wiązanie Oct-1 i omija epigenetyczne wyciszanie po odstawieniu; allel C pozwala na fizjologiczny zanik laktazy (hipolaktazja)
-- Efekt funkcjonalny: Brak laktazy u C/C prowadzi do fermentacji laktozy w jelicie grubym (gazy, bóle, wzdęcia); wpływ na lipidy ApoB/ApoA1 omówiony w tabeli wariantów
+- Efekt funkcjonalny: Brak laktazy u C/C prowadzi do fermentacji laktozy w jelicie grubym (gazy, bóle, wzdęcia); wpływ na lipidy ApoB/ApoA1 omówiony w sekcji 4
 
 ### Twoje warianty (znane genotypy)
-#### rs4988235
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C (G/G komplementarnie)
-- **Aktywność / status:** Pierwotna Hipolaktazja Dorosłych (LNP)
-- **Wpływ fenotypowy:** Charakteryzuje się najniższą lub bliską zeru aktywnością enzymu laktazy u dorosłych. W populacjach europejskich zwiastuje objawową nietolerancję laktozy, a także koreluje z niekorzystnym profilem lipidowym i podwyższonym wskaźnikiem ApoB100.
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs4988235` — brak wpisu w WGS/MyHeritage/CSV
+- `rs182549` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Kardiologia i Profil Lipidowy: Genotyp hipolaktazji (C/C) jest silnie związany z niekorzystnym profilem miażdżycowym. Pacjenci bez wariantu T posiadają statystycznie wyższe poziomy aterogennego białka ApoB100 i obniżone poziomy ochronnego ApoA1, a wskaźnik ApoB100/ApoA1 ulega niebezpiecznemu podwyższeniu. Wiąże się to m.in. z eliminacją ochronnego wpływu nabiału (wapń wiążący cholesterol w jelitach) i zastępowaniem go rafinowanymi cukrami. Zaleca się ścisłą weryfikację współczynnika ApoB/ApoA1 u nosicieli C/C stroniących od mleka.
@@ -985,7 +1246,6 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 - Skłonność do otyłości: Osoby swobodnie trawiące laktozę (nosiciele allelu T) charakteryzują się statystycznie szerszym obwodem talii i wyższym BMI (p = 7,9 × 10⁻⁵). Swoboda w konsumpcji skutkuje u nich włączaniem do diety gęstych kalorycznie serów i mleka w ilościach znacznie przewyższających zapotrzebowanie jednostek LNP. Nosiciele T powinni uważnie kontrolować podaż płynnych kalorii nabiałowych.
 - Sport i Odżywki: Badania nie potwierdzają, by wariant C/T miał znaczenie w budowaniu tkanki mięśniowej czy tolerancji wysiłku. Mając jednak genotyp C/C, sportowiec nie powinien spożywać koncentratu serwatki (WPC) obfitującego w laktozę; zaleca się bezwzględne korzystanie z czystych izolatów białkowych (WPI) lub wegańskich odpowiedników grochowo-ryżowych w celu uniknięcia retencji wody.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1007,48 +1267,13 @@ _rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))_
 - Efekt funkcjonalny: Allel ryzyka wiąże się z gorszą kontrolą łaknienia, jedzeniem emocjonalnym, wyższym BMI i podwyższonym ryzykiem CVD, T2DM oraz niektórych nowotworów
 
 ### Twoje warianty (znane genotypy)
-#### rs9939609
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** T/T
-- **Aktywność / status:** Homozygota dzika (ochronna)
-- **Wpływ fenotypowy:** Sprawne poposiłkowe tłumienie wydzielania ghreliny. Prawidłowa kontrola sytości i stabilna odpowiedź układu dopaminergicznego na bodźce żywieniowe. (Referencyjny wskaźnik BMI i obwód pasa. Podstawowe ryzyko otyłości, cukrzycy typu 2 (T2DM) oraz chorób sercowo-naczyniowych (CVD).)
-
-#### rs1421085
-_rs1421085 (intron FTO (sprzężenie; możliwy wariant sprawczy vs rs9939609))_
-
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** T/T
-- **Aktywność / status:** Haplotyp ochronny (T-T-T)
-- **Wpływ fenotypowy:** Wiązanie ARID5B; niska ekspresja IRX3/IRX5; profil jak rs9939609 T/T
-
-#### rs17817449
-_rs17817449 (intron FTO (LD z rs9939609))_
-
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** T/T
-- **Aktywność / status:** Ochronny w LD
-- **Wpływ fenotypowy:** Zgodny z fenotypem niskiego BMI w haplotypie
-
-#### rs9930506
-_rs9930506 (intron FTO (LD))_
-
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** A/A
-- **Aktywność / status:** Referencyjny w haplotypie ochronnym
-- **Wpływ fenotypowy:** Brak dodatkowego sygnału poza tłem LD
-
-#### rs8050136
-_rs8050136 (intron FTO (LD))_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C
-- **Aktywność / status:** Haplotyp ryzyka (często C-G-A)
-- **Wpływ fenotypowy:** Wyższe ryzyko otyłości i słabsza kontrola apetytu w modelu IRX3
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs9939609` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1421085` — brak wpisu w WGS/MyHeritage/CSV
+- `rs17817449` — brak wpisu w WGS/MyHeritage/CSV
+- `rs9930506` — brak wpisu w WGS/MyHeritage/CSV
+- `rs8050136` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Nutrigenomika i dieta białkowa: U posiadaczy genotypu AA doskonale sprawdzają się diety o podwyższonej zawartości białka (HPLC). Badanie POUNDS LOST wykazało, że przyjmowanie ok. 100 g białka na dobę w reżimie redukcyjnym potężnie hamuje napady głodu i ułatwia redukcję obwodu talii, neutralizując otyłotwórczy efekt genu FTO. Rekomenduje się również unikanie wysokiego stężenia tłuszczów omega-6, szczególnie w profilaktyce onkologicznej u kobiet.
@@ -1056,7 +1281,6 @@ _rs8050136 (intron FTO (LD))_
 - Rygor zegara dobowego: Gen ten jest nierozerwalnie złączony z genami rytmu okołodobowego (CLOCK). Osoby z mutacją odnoszą spektakularne korzyści z okien żywieniowych trwających 8-10 godzin w ciągu dnia. Brak snu, spanie zbyt długo oraz chodzenie spać po godzinie 23:00 drastycznie pogarsza u tych pacjentów wskaźniki insulinooporności (ryzyko OR 1,137 do 1,185).
 - Terapia psychodietetyczna: Nosiciele A/A są skrajnie predysponowani do jedzenia pod wpływem emocji, rekompensując stresem braki odczuwanej sytości. Należy wdrożyć u nich praktykę świadomego jedzenia (mindful eating).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1087,8 +1311,8 @@ _rs8050136 (intron FTO (LD))_
 #### rs2282679
 _rs2282679 (ekspresja VDBP i 25(OH)D)_
 
-- **Genotyp (baza/MyHeritage):** `TG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/C (lub T/G)
 - **Aktywność / status:** Obniżone o ok. 10–15%
 - **Wpływ fenotypowy:** Graniczne wartości laboratoryjne; większa sezonowa zmienność; możliwa potrzeba wyższej dawki suplementacji u dzieci i osób otyłych
@@ -1101,7 +1325,6 @@ _rs2282679 (ekspresja VDBP i 25(OH)D)_
 - Sport: Suboptymalne 25(OH)D u rs2282679-GG w CrossFit® — ryzyko myopatii i gorszej regeneracji; suplementacja i monitoring sezonowy.
 - Neurologia: MR — wyższe stężenie VDBP genetycznie skorelowane z niższym ryzykiem Alzheimera (dane randomizacji mendlowskiej); nie zastępuje profilaktyki potwierdzonej klinicznie.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1120,26 +1343,20 @@ _rs2282679 (ekspresja VDBP i 25(OH)D)_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: MTHFR redukuje foliany do aktywnego 5-MTHF w cyklu folianowym (homodimer: domena katalityczna i regulatorowa)
 - Wpływ wariantu na szlak: C677T deformuje kieszeń FAD i obniża aktywność; A1298C psuje hamowanie przez SAMe; oba ograniczają remetylację i podnoszą homocysteinę
-- Efekt funkcjonalny: Deficyt folianów i podwyższona homocysteina zwiększają ryzyko naczyniowe i mogą hamować syntezę neuroprzekaźników (BH4) – szczegóły w tabeli wariantów
+- Efekt funkcjonalny: Deficyt folianów i podwyższona homocysteina zwiększają ryzyko naczyniowe i mogą hamować syntezę neuroprzekaźników (BH4) – szczegóły w sekcji 4
 
 ### Twoje warianty (znane genotypy)
-#### rs1801133
-_rs1801133 (C677T, Ala222Val, egzon 4)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C
-- **Aktywność / status:** 100% (wild type)
-- **Wpływ fenotypowy:** Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii
-
 #### rs1801131
 _rs1801131 (A1298C, Glu429Ala, egzon 7)_
 
-- **Genotyp (baza/MyHeritage):** `TG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/C
 - **Aktywność / status:** Niewielki spadek
 - **Wpływ fenotypowy:** Jeden allel defektywny zwykle kompensowany; brak zatorowości metabolicznej
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs1801133` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Toksyczność syntetycznego kwasu foliowego: Nosiciele spowolnionych wariantów (głównie 677T/T) nie radzą sobie z konwersją zwykłego kwasu foliowego z suplementów. Dochodzi u nich do kumulacji UMFA (niezmetabolizowanego kwasu), który blokuje receptory, maskuje ciężkie anemie B12 i uderza w układ odpornościowy komórek NK.
@@ -1148,7 +1365,6 @@ _rs1801131 (A1298C, Glu429Ala, egzon 7)_
 - Ochrona układu nerwowego: Brak grup metylowych zatrzymuje recykling BH4. U ofiar tego genotypu wielokrotnie potęguje to ryzyko ciężkiej, lekoopornej depresji (TRD), gdyż SSRI nie działają na brakujące aminy. Ratunkiem dla mózgu jest egzogenne dawkowanie samego nootropika S-adenozylometioniny (SAMe).
 - 3 Złote Interwencje ułatwiające szlak MTHFR:
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1171,29 +1387,23 @@ _rs1801131 (A1298C, Glu429Ala, egzon 7)_
 
 ### Twoje warianty (znane genotypy)
 #### rs713598
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G (PAV/PAV)
 - **Aktywność / status:** Supersmakosz (Taster)
 - **Wpływ fenotypowy:** Pełna synteza uderzeniowa NO w rzęskach niszcząca bakterie zatokowe. Skuteczna ochrona przed infekcjami dróg oddechowych. Egzotyczne owoce Bignay smakują wyjątkowo słodko.
 
-#### rs1726866
-_rs1726866 (c.785T>C, Ile262Val)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C
-- **Aktywność / status:** Funkcjonalny (PAV)
-- **Wpływ fenotypowy:** Współtworzy supersmakosza przy PAV na rs713598 i rs10246939
-
 #### rs10246939
 _rs10246939 (c.886A>G, Ala296Val)_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Funkcjonalny (PAV)
 - **Wpływ fenotypowy:** Współtworzy supersmakosza z rs713598/rs1726866
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs1726866` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Genotyp C/C (PAV/PAV — supersmakosz): Wysoka wrażliwość na gorycz (PTC, PROP, brokuły, brukselka); warto stosować obróbkę termiczną, tłuszcze i sól ograniczające gorycz; u dzieci unikać kompensacji słodyczami.
@@ -1201,7 +1411,6 @@ _rs10246939 (c.886A>G, Ala296Val)_
 - Genotyp A/A (AVI/AVI — non-taster): Brak percepcji goryczy PTC/PROP; wyższe ryzyko niedoborów warzyw kapustnych w diecie — świadomie włączaj brokuły/szpinak po obróbce; u dzieci kontroluj nawyki słodzone.
 - Otyłość i używki (A/A): Brak sygnału odpychającego goryczą może sprzyjać wyższemu spożyciu kalorii z piwa, wędlin i przetworzonej żywności — monitoruj masę ciała; genotyp PAV wiąże się z niższą skłonnością do palenia u młodzieży.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1222,19 +1431,19 @@ _rs10246939 (c.886A>G, Ala296Val)_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: W kompleksie α4β2α5 podjednostka α5 podnosi przepuszczalność Ca²⁺ i spowalnia desensytyzację nAChR; w MHb-IPN (przyśrodkowa uzdeczka–jądro międzykonarowe) tworzy obwód „anty-nagrody” chroniący przed intoksykacją; w płucach wspiera przeżywalność nabłonka, ruch rzęsek i obronę po dymie
 - Wpływ wariantu na szlak: D398N (A) osłabia prąd i napływ Ca²⁺ (partial LoF) – przy toksycznej nikotynie u G/G uruchamia się awersja (niepokój, mdłości), u A/A hamulec MHb-IPN jest zepsuty → eskalacja palenia bez objawów nasycenia; w płucach defekt wapniowy blokuje regenerację po stresie oksydacyjnym → remodeling dróg oddechowych (POChP, rak płuc)
-- Efekt funkcjonalny: G/G – silna awersja na nadmiar nikotyny, niższe ryzyko nałogu tytoniowego, wyższe ryzyko uzależnienia od kokainy; A/A – przeciwny profil behawioralny i oddechowy (szczegóły w tabeli wariantów)
+- Efekt funkcjonalny: G/G – silna awersja na nadmiar nikotyny, niższe ryzyko nałogu tytoniowego, wyższe ryzyko uzależnienia od kokainy; A/A – przeciwny profil behawioralny i oddechowy (szczegóły w sekcji 4)
 
 ### Twoje warianty (znane genotypy)
 #### rs16969968
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Umiarkowana dysfunkcja; mieszane populacje receptorów; zmodyfikowana desensytyzacja
 - **Wpływ fenotypowy:** Pośrednie obciążenie. Umiarkowana tolerancja na nikotynę, słabsza awersja niż G/G. Ryzyko POChP i raka płuc na poziomie pośrednim
 
 #### rs1051730
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Umiarkowana dysfunkcja; mieszane populacje receptorów; zmodyfikowana desensytyzacja
 - **Wpływ fenotypowy:** Pośrednie obciążenie. Umiarkowana tolerancja na nikotynę, słabsza awersja niż G/G. Ryzyko POChP i raka płuc na poziomie pośrednim
@@ -1242,8 +1451,8 @@ _rs10246939 (c.886A>G, Ala296Val)_
 #### rs588765
 _rs588765 (eQTL CHRNA5 (ekspresja mRNA α5 w korze))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C (minor hom)
 - **Aktywność / status:** Do ~2× wyższa ekspresja mRNA α5
 - **Wpływ fenotypowy:** Moduluje liczbę receptorów na komórce; łagodzi lub potęguje efekt D398N rs16969968 w zależności od haplotypu
@@ -1251,8 +1460,8 @@ _rs588765 (eQTL CHRNA5 (ekspresja mRNA α5 w korze))_
 #### rs680244
 _rs680244 (eQTL CHRNA5 (regulacja transkrypcji))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Zmieniona ekspresja α5
 - **Wpływ fenotypowy:** Część architektury haplotypowej CHRNA3–CHRNA5; interpretacja łącznie z rs16969968 i rs1051730
@@ -1263,7 +1472,6 @@ _rs680244 (eQTL CHRNA5 (regulacja transkrypcji))_
 - Styl życia i trening: Unikanie biernego palenia i miejskiego smogu u A/A (słabsza obrona rzęskowa, POChP)
 - Farmakologia (jeśli dotyczy): Wareniklina (Champix) – skuteczna niezależnie od genotypu, szczególnie u A/A. cNRT – wybitna skuteczność u A/A, u G/G efekt zbliżony do placebo w badaniach. Plejotropia: allel A chroni przed kokainą, G/G – wyższe ryzyko przy pierwszych próbach stymulantów
 - Ostrzeżenie kliniczne: Genotyp moduluje ryzyko, nie determinuje nałogu; decyzje terapeutyczne z lekarzem i programem rzucania palenia
-
 
 ---
 
@@ -1292,8 +1500,8 @@ _rs680244 (eQTL CHRNA5 (regulacja transkrypcji))_
 #### rs12913832
 _rs12913832 (regulacja OCA2 / kolor tęczówki)_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Wyciszenie OCA2 w melanocytach irysu
 - **Wpływ fenotypowy:** Niebieskie/szare oczy, jasna karnacja; słaba ochrona UV; wyższe ryzyko czerniaka skóry i czerniaka naczyniówki (gorsze rokowanie, monosomia chr. 3); ~3% Europejczyków G/G ma brązowe oczy (epistaza TYR, TYRP1, SLC24A4)
@@ -1301,8 +1509,8 @@ _rs12913832 (regulacja OCA2 / kolor tęczówki)_
 #### rs1129038
 _rs1129038 (3'-UTR (LD z rs12913832, BEH2))_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Niebieskie oczy (z rs12913832 G/G)
 - **Wpływ fenotypowy:** Silny modyfikator jasnej pigmentacji; fotoprotekcja skóry mimo jasnych oczu
@@ -1310,8 +1518,8 @@ _rs1129038 (3'-UTR (LD z rs12913832, BEH2))_
 #### rs916977
 _rs916977 (intron HERC2 (BEH3, pigmentacja))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Modyfikator pigmentacji
 - **Wpływ fenotypowy:** Skorelowany z jasną skórą i włosami w haplotypie BEH3; brak wpływu na neuroprzekaźniki
@@ -1319,8 +1527,8 @@ _rs916977 (intron HERC2 (BEH3, pigmentacja))_
 #### rs1667394
 _rs1667394 (intron HERC2 (pigmentacja skóry/włosów))_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Alternatywny
 - **Wpływ fenotypowy:** Modyfikuje przewidywanie koloru włosów/skóry w testach kosmetycznych
@@ -1332,7 +1540,6 @@ _rs1667394 (intron HERC2 (pigmentacja skóry/włosów))_
 - Neurologia: Recesywne mutacje HERC2 (np. c.1781C>T) — odrębna ścieżka diagnostyczna (opóźnienie rozwoju, ASD, padaczka); nie mylić z polimorfizmem koloru oczu.
 - Genetyka sądowa: rs12913832 — fundament systemu IrisPlex; rs1129038 w pełnym LD — redundantny genotypowo w EUR.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1356,35 +1563,19 @@ _rs1667394 (intron HERC2 (pigmentacja skóry/włosów))_
 - Efekt funkcjonalny: Hipomorfizm → jasna tęczówka, słabsza ochrona UV oka i skóry; homozygota delecji 2,7 kb → albinizm OCA2; digenia z TPCN2 nasila hipopigmentację
 
 ### Twoje warianty (znane genotypy)
-#### rs1800407
-_rs1800407 (Arg419Gln — białko P)_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C (G/G)
-- **Aktywność / status:** Prawidłowy transport Cl⁻ i pH melanosomu
-- **Wpływ fenotypowy:** Pigmentacja zgodna z tłem populacyjnym; optymalna ochrona UV
-
 #### rs12913832
 _rs12913832 (regulator w HERC2 — ekspresja OCA2 w tęczówce)_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Wyciszona w melanocytach irysu
 - **Wpływ fenotypowy:** Niebieskie oczy; ryzyko AMD i czerniaka naczyniówki (M3)
 
-#### rs1800414
-_rs1800414 (His615Arg — pigmentacja skóry Azja Wschodnia)_
-
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** A/A (T/T)
-- **Aktywność / status:** Standardowy prąd chlorkowy
-- **Wpływ fenotypowy:** Ciemniejsza skóra w populacjach azjatyckich
-
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs1800401` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs1800407` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1800414` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1800401` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Ochrona oczu (rs12913832 G/G, rs1800407 T/T): Okulary UV400 codziennie; filtr światła niebieskiego przy ekranach; coroczne badanie dna oka; luteina + zeaksantyna (10–20 mg / 2–4 mg) dla plamki żółtej.
@@ -1393,7 +1584,6 @@ _rs1800414 (His615Arg — pigmentacja skóry Azja Wschodnia)_
 - Albinizm OCA2: Delecja 2,7 kb w Afryce Subsaharyjskiej — pełna ochrona UV, okulary, opieka okulistyczna i dermatologiczna; edukacja społeczna (wysokie ryzyko dyskryminacji w niektórych regionach).
 - Onkologia: G/G rs12913832 — czerniak naczyniówki (monitoring); T/T rs1800407 — profil BCC; nie łączyć z IQ ani sportem (brak dowodów).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1420,8 +1610,8 @@ _rs1800414 (His615Arg — pigmentacja skóry Azja Wschodnia)_
 #### rs16891982
 _rs16891982 (L374F — pigmentacja i ryzyko CMM)_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Niestabilne F374; degradacja proteasomalna
 - **Wpływ fenotypowy:** Bardzo jasna skóra, blond, słaba ochrona UV; OR CMM ~3,44 (AUD); synergia z MC1R (OR >5)
@@ -1429,16 +1619,16 @@ _rs16891982 (L374F — pigmentacja i ryzyko CMM)_
 #### rs2287949
 _rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Alternatywny
 - **Wpływ fenotypowy:** Rzadki; pomaga w rekonstrukcji haplotypów MATP bez zmiany funkcji białka
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs26722` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs121912621` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs375077956` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs26722` — brak wpisu w WGS/MyHeritage/CSV
+- `rs121912621` — brak wpisu w WGS/MyHeritage/CSV
+- `rs375077956` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Dermatologia (G/G rs16891982): SPF 50+ (mineralny + organiczny), odzież UV, unikanie solariów; coroczna dermatoskopia; szczególna ostrożność przy rudych wariantach MC1R.
@@ -1447,7 +1637,6 @@ _rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))_
 - OCA4: Homozygotyczne mutacje patogenne — opieka okulistyczna (fotofobia, SD-OCT), ochrona skóry, kontrola onkologiczna; odrębna ścieżka od polimorfizmu L374F.
 - Genetyka sądowa: rs16891982 — marker AIM do predykcji karnacji z DNA.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1474,8 +1663,8 @@ _rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))_
 #### rs12896399
 _rs12896399 (pigmentacja włosów i skóry)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Obniżona
 - **Wpływ fenotypowy:** Blond/jasna skóra, niebieskie/jasne oczy; słabsza ochrona UV, wyższe ryzyko oparzeń i nowotworów skóry
@@ -1483,8 +1672,8 @@ _rs12896399 (pigmentacja włosów i skóry)_
 #### rs11160059
 _rs11160059 (ciśnienie — populacja afrykańska)_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Referencyjna
 - **Wpływ fenotypowy:** Brak asocjacji z SBP w kohortach AFR
@@ -1492,20 +1681,14 @@ _rs11160059 (ciśnienie — populacja afrykańska)_
 #### rs12590654
 _rs12590654 (regulacyjny (LOAD — późna postać Alzheimer))_
 
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowana modulacja ekspresji mRNA
 
-#### rs10498633
-_rs10498633 (intron SLC24A4 (regulacja ekspresji))_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Referencyjny
-- **Wpływ fenotypowy:** Norma pigmentacji i ekspresji w neuronach
+### Markery w panelu bez genotypu w Twoich danych
+- `rs10498633` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Dermatologia (T/T): SPF 50+ całorocznie, dermatoskopia znamion; antyoksydanty (astaksantyna, EGCG, likopen).
@@ -1514,7 +1697,6 @@ _rs10498633 (intron SLC24A4 (regulacja ekspresji))_
 - Neurologia: rs12590654 — możliwa redukcja ryzyka LOAD (dane europejskie, niejednorodne w Azji); dieta MIND, cardio, omega-3.
 - Kryminalistyka: rs12896399 w panelach HIrisPlex / 8-plex do fenotypowania DNA.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1537,43 +1719,21 @@ _rs10498633 (intron SLC24A4 (regulacja ekspresji))_
 - Efekt funkcjonalny: LOF wiąże się z rudymi włosami, fotouczuleniem, wyższym ryzykiem czerniaka oraz zmianami nocycepcji i odpowiedzi na opioidy (sekcja 4)
 
 ### Twoje warianty (znane genotypy)
-#### rs1805008
-_rs1805008 (R160W)_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** C/C
-- **Aktywność / status:** Nominalna (100%)
-- **Wpływ fenotypowy:** Brak wpływu na ból
-
-#### rs1805009
-_rs1805009 (D294H)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Nominalna (100%)
-- **Wpływ fenotypowy:** Nocycepcja w normie
-
 #### rs2228479
 _rs2228479 (V92M)_
 
-- **Genotyp (baza/MyHeritage):** `GA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Nieznacznie obniżona
 - **Wpływ fenotypowy:** Brak dowodów na wpływ nerwowy
 
-#### rs1805005
-_rs1805005 (Val60Leu (V60L, słaby allel „r”))_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- _Brak dokładnego dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
-
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs1805007` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs885479` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs1805007` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1805008` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1805009` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1805005` — brak wpisu w WGS/MyHeritage/CSV
+- `rs885479` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Onkologia i Ochrona Skóry: Osoby posiadające zmutowane warianty "R" są ekstremalnie narażone na agresywnego czerniaka złośliwego i nowotwory niebarwnikowe. Wynika to z braków eumelaniny, uszkadzającego fotolitycznego wpływu feomelaniny, oraz odcięcia białka PTEN, co sztucznie aktywuje nowotworowy szlak PI3K/Akt/mTOR (szczególnie w obecności mutacji BRAF, odpowiedzialnej za 70% czerniaków). Zaleca się całoroczne stosowanie blokerów SPF 50+, drastyczne unikanie solariów i obligatoryjną dermatoskopię u lekarza co 6-12 miesięcy.
@@ -1582,7 +1742,6 @@ _rs1805005 (Val60Leu (V60L, słaby allel „r”))_
 - Lęk Kliniczny: Warianty tego genu są udowodnionym markerem wyższych wskaźników lęku medycznego i dentofobii u nosicieli. Z powodu zmniejszonej wydajności leków, u pacjentów tych zaleca się stosowanie wziewnych gazów sedacyjnych oraz technik obniżania stresu bezpośrednio przed operacjami.
 - Anestezjologia i Ból: Nosiciele zmutowanych genotypów wykazują wyraźnie słabszą odpowiedź i tolerancję na znieczulenie lidokainą (podskórnie), co wymusza korzystanie z alternatyw (np. artykaina). Przez długi czas popularnym medycznym mitem było rzekome zapotrzebowanie osób rudych na podwyższenie dawki gazu znieczulającego ogólnie o 20%. Olbrzymie współczesne badania porównawcze (319 osób rudych vs 1595 z grupy kontrolnej) udowodniły jednak, że mit ten nie rzutuje na wskaźniki ryzyka przebudzenia (śródopeacyjnego wybudzenia) i oficjalnie odradza się medykom modyfikację protokołu uśpienia tylko na bazie genu. Interesująco, rude kobiety znacznie skuteczniej reagują na leki przeciwbólowe oparte na szlaku receptorów kappa-opioidowych (np. pentazocyna).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1609,8 +1768,8 @@ _rs1805005 (Val60Leu (V60L, słaby allel „r”))_
 #### rs72921001
 _rs72921001 (percepcja kolendry)_
 
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/A
 - **Aktywność / status:** Brak mydlanego posmaku; profil cytrusowo-ziołowy
 - **Wpływ fenotypowy:** Minimalna odpowiedź na trans-2-decenal
@@ -1618,8 +1777,8 @@ _rs72921001 (percepcja kolendry)_
 #### rs7107418
 _rs7107418 (proxy rs72921001 (OR10A2 LD))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Proxy ochronny
 - **Wpływ fenotypowy:** Częściej „normalny” zapach kolendry; zgodny z rs72921001 ochronnym allelem
@@ -1627,8 +1786,8 @@ _rs7107418 (proxy rs72921001 (OR10A2 LD))_
 #### rs3930075
 _rs3930075 (OR10A2 His43Arg (LD rs72921001))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Arg/Arg
 - **Wpływ fenotypowy:** Sprzężony z wariantami aldehydowymi; możliwa zmiana intensywności zapachu mydlanego
@@ -1636,8 +1795,8 @@ _rs3930075 (OR10A2 His43Arg (LD rs72921001))_
 #### rs10839631
 _rs10839631 (OR10A2 His207Arg (LD))_
 
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Arg/Arg
 - **Wpływ fenotypowy:** Część bloku LD kolendry; interpretacja łącznie z rs72921001
@@ -1645,8 +1804,8 @@ _rs10839631 (OR10A2 His207Arg (LD))_
 #### rs7926083
 _rs7926083 (OR10A2 Lys258Thr (LD))_
 
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Thr/Thr (rs7926083)
 - **Wpływ fenotypowy:** Modulacja haplotypu aldehydowego w LD z OR6A2
@@ -1658,7 +1817,6 @@ _rs7926083 (OR10A2 Lys258Thr (LD))_
 - Kardiologia (kontekst makrofagowy): Dieta antyoksydacyjna (polifenole); ograniczenie utlenionych LDL; cytral (trawa cytrynowa, cytrusy) — antagonista OR6A2/Olfr2 w modelach przedklinicznych, hamowanie NLRP3.
 - Neurologia: Wrodzona awersja ≠ zaburzenie poznawcze; utrata węchu nabyta — inna ścieżka diagnostyczna.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1685,8 +1843,8 @@ _rs7926083 (OR10A2 Lys258Thr (LD))_
 #### rs4481887
 _rs4481887 (anosmia szparagowa / percepcja moczu)_
 
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach
 - **Wpływ fenotypowy:** Funkcjonalna transdukcja; dominacja allelu A
@@ -1694,8 +1852,8 @@ _rs4481887 (anosmia szparagowa / percepcja moczu)_
 #### rs71538191
 _rs71538191 (OR2M (powiązany haplotyp))_
 
-- **Genotyp (baza/MyHeritage):** `GC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `GC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Umiarkowana zmiana percepcji zapachowej
@@ -1703,16 +1861,16 @@ _rs71538191 (OR2M (powiązany haplotyp))_
 #### rs6689553
 _rs6689553 (OR2M (LD))_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/C
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Profil pośredni
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs13373863` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs72765116` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs57711976` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs13373863` — brak wpisu w WGS/MyHeritage/CSV
+- `rs72765116` — brak wpisu w WGS/MyHeritage/CSV
+- `rs57711976` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Dieta: Anosmicy (G/G) mogą jeść szparagi bez dyskomfortu zapachowego; osoby A/A — świadomość efektu po 15–30 min od posiłku. Surowa cebula (OR2M3) — tolerancja zależy od genotypu i nawyków; prebiotyki cebulowe korzystne przy akceptacji smaku.
@@ -1720,7 +1878,6 @@ _rs6689553 (OR2M (LD))_
 - Aromaterapia: Geraniol i cytronellol (róża, cytrusy) — silniejsze reakcje u wysokiej ekspresji OR2M7; działanie przeciwzapalne przez PPAR (literatura olejków eterycznych).
 - Neurologia: Wrodzona anosmia specyficzna ≠ hiposmia nabyta; postępująca utrata węchu — wczesny marker chorób neurodegeneracyjnych (Alzheimer, Parkinson).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1744,19 +1901,10 @@ _rs6689553 (OR2M (LD))_
 - Efekt funkcjonalny: Brak transportu prekursorów zapachowych i lipidów → sucha, szara woskowina, minimalna osmidroza pachowa; w układzie nerwowym możliwa zmiana transportu DHEA-S (neurosteroid modulujący GABA)
 
 ### Twoje warianty (znane genotypy)
-#### rs17822931
-_rs17822931 (Gly180Arg)_
-
-- **Genotyp (baza/MyHeritage):** `CC`
-- **Źródło:** MyHeritage
-- _Brak dokładnego dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
-
-#### rs17822471
-_rs17822471 (c.1637C>T (Gly546Val, MRP8 — toksyczność 5-FU))_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- _Brak dokładnego dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
+### Markery w panelu bez genotypu w Twoich danych
+- `rs17822931` — brak wpisu w WGS/MyHeritage/CSV
+- `rs17822471` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Higiena osobista: Nosiciele A/A zwykle nie potrzebują antyperspirantów z solami glinu ani dezodorantów maskujących zapach; ok. 5% Europejczyków z genotypem suchym nadal je stosuje z przyzwyczajenia kulturowego. Przy G/G i G/A — rutynowa higiena pach i unikanie silnego blokowania ujść gruczołów przy skłonności do zapalenia apokrynowego.
@@ -1765,6 +1913,56 @@ _rs17822471 (c.1637C>T (Gly546Val, MRP8 — toksyczność 5-FU))_
 - Interpretacja populacyjna raka piersi: Asocjacje ochronne A/A z rakiem piersi ER- dotyczą głównie kohort azjatyckich; w populacjach kaukaskich replikacja jest słaba lub nieobecna.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
+---
+
+## KCNQ4 — Gen słuchu
+
+- Główny symbol genu: KCNQ4 (ang. Potassium Voltage-Gated Channel Subfamily Q Member 4)
+- Pełna nazwa biochemiczna: Człon 4 podrodziny Q napięciowo-zależnych kanałów potasowych
+- Nazwy potoczne i medialne: Kv7.4, gen słuchu, locus głuchoty DFNA2
+- Synonimy medyczne: DFNA2, DFNA2A, niesyndromowa postępująca głuchota autosomalna dominująca
+- Główny rsID: rs4660470
+- Lokalizacja chromosomalna: Gen KCNQ4 (locus DFNA2)
+- Typ wariantu: SNP (NIHL — noise-induced hearing loss); patogenne missense w ClinVar
+- Zapis zmiany nukleotydowej (HGVS): rs28937588: c.853G>A p.Gly285Ser; rs80358277: c.827G>C p.Trp276Ser (patogenne)
+- Orientacja nici i mapowanie alleli: rs4660470: allel ryzyka A; referencyjny T
+- Powiązane markery / haplotyp: rs4660468, rs28937588, rs80358277, rs80358275
+- Klasyfikacja bazowa: rs4660470/0468 — cecha poligenowa NIHL; mutacje missense — patogenne (DFNA2A)
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: Kv7.4 (tetramer) — prąd IK w komórkach włoskowatych zewnętrznych (OHC); recykling K⁺ po depolaryzacji; stabilizacja potencjału spoczynkowego; aktywacja PIP2
+- Wpływ wariantu na szlak: Mutacje missense: efekt dominująco-negatywny (~12,5% funkcjonalnych homotetramerów u heterozygotów); SNP rs4660470 obniża odporność na stres hałasowy
+- Efekt funkcjonalny: NIHL przy ekspozycji >85 dB; DFNA2A przy mutacjach patogennych; możliwa modulacja dopaminy w VTA (alkohol) — sekcja 4
+
+### Twoje warianty (znane genotypy)
+#### rs4660470
+_rs4660470 (NIHL — utrata słuchu indukowana hałasem)_
+
+- **Genotyp (WGS):** `AT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/A
+- **Aktywność / status:** Częściowo obniżone IK pod stresem
+- **Wpływ fenotypowy:** ~1,5× ryzyko NIHL przy ekspozycji na hałas
+
+#### rs4660468
+_rs4660468 (NIHL — haplotyp)_
+
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** C/T
+- **Aktywność / status:** Łagodne obniżenie stabilności błony
+- **Wpływ fenotypowy:** Umiarkowanie zwiększona podatność na NIHL
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs28937588` — brak wpisu w WGS/MyHeritage/CSV
+- `rs80358277` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Otolaryngologia: Ochronniki słuchu przy hałasie >85 dB; unikać długotrwałych słuchawek dousznych przy wysokiej głośności; audiometria profilaktyczna u nosicieli alleli ryzyka.
+- Farmakologia: Unikać salicylanów i antybiotyków ototoksycznych (aminoglikozydy) u nosicieli alleli ryzyka — po konsultacji lekarskiej.
+- Suplementacja: Kwercetyna (kapary, cebula, jarmuż) — aktywator Kv7 w modelach; dane kliniczne ograniczone.
+- Styl życia: Ograniczyć alkohol u alleli ryzyka (modulacja VTA); trening aerobowy dla ochrony naczyniowej Kv7.4.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji laryngologicznej.
 
 ---
 
@@ -1787,32 +1985,28 @@ _rs17822471 (c.1637C>T (Gly546Val, MRP8 — toksyczność 5-FU))_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: T-kadheryna (CDH13) kotwiczona GPI w tratwach lipidowych – ko-receptor bez połączenia z aktyną. W sercu i śródbłonku: główny receptor adiponektyny HMW (sekwestracja z osocza → niższe stężenie we krwi przy lepszej ochronie tkankowej). W OUN: negatywny regulator wyrostków i naprowadzanie aksonów w korze czołowej; balans glutaminergiczny/GABAergiczny. Jako supresor kontaktu hamuje proliferację (wyciszenie metylacją → NSCLC, CRC, szyjka macicy; regulacja miR-142-5p)
 - Wpływ wariantu na szlak: rs4783244 T zwiększa powinowactwo CDH13 → niższa adiponektyna osoczowa, lepszy HOMA-IR i LVMI; G/G – ryzyko „oporności na adiponektynę”. rs2199430 G podnosi mRNA w korze (~181%), obniża ugodowość (NEO-PI-R), zmienia P300/N200. rs11649622 A osłabia hamowanie impulsów; z MAOA-L epistaza (OR ~13,45 u recydywistów fińskich) przy ekspozycji na alkohol/stymulanty
-- Efekt funkcjonalny: Plejotropia kardiometaboliczna–neurobehawioralna–onkologiczna; pojedynczy SNP ma niską penetrację bez środowiska (trauma, MAOA, substancje) – profile w tabeli wariantów
+- Efekt funkcjonalny: Plejotropia kardiometaboliczna–neurobehawioralna–onkologiczna; pojedynczy SNP ma niską penetrację bez środowiska (trauma, MAOA, substancje) – profile w sekcji 4
 
 ### Twoje warianty (znane genotypy)
-#### rs11649622
-_rs11649622 (impulsywność)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Standardowa ekspresja w OUN
-- **Wpływ fenotypowy:** Fenotyp referencyjny; brak izolowanej predyspozycji do zaburzeń impulsów
-
 #### rs7190768
 _rs7190768 (haplotyp rs11649622)_
 
-- **Genotyp (baza/MyHeritage):** `CT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `CT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/T (lub C/A)
 - **Aktywność / status:** Pośrednia modulacja behawioralna
 - **Wpływ fenotypowy:** Umiarkowane nasilenie ryzyka uzależnień i impulsów
 
+#### rs11646213
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- _Brak dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+
 #### rs2199430
 _rs2199430 (kognicja, ADHD)_
 
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/A
 - **Aktywność / status:** Wzorzec ekspresji w korze czołowej
 - **Wpływ fenotypowy:** Symetryczne P300; profil referencyjny pamięci roboczej
@@ -1820,8 +2014,8 @@ _rs2199430 (kognicja, ADHD)_
 #### rs8059696
 _rs8059696 (blok rs2199430 — kognicja)_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/A (lub T/C, T/G)
 - **Aktywność / status:** Pośrednia regulacja mRNA w korze
 - **Wpływ fenotypowy:** Wyższe amplitudy N200 pod obciążeniem; profil pośredni ADHD/kognicji
@@ -1829,8 +2023,8 @@ _rs8059696 (blok rs2199430 — kognicja)_
 #### rs4783277
 _rs4783277 (blok rs2199430)_
 
-- **Genotyp (baza/MyHeritage):** `TG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/C (lub T/G)
 - **Aktywność / status:** Pośredni wpływ na transkrypcję CDH13
 - **Wpływ fenotypowy:** Umiarkowana modulacja funkcji wykonawczych i P300
@@ -1838,26 +2032,17 @@ _rs4783277 (blok rs2199430)_
 #### rs4783244
 _rs4783244 (metabolizm, serce)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T
 - **Aktywność / status:** Wzmocnione wiązanie HMW
 - **Wpływ fenotypowy:** Niższa adiponektyna we krwi, lepsza wrażliwość insulinowa, niższe TG, spadek LVMI; ochrona kardiometaboliczna przy długim śnie (>9 h)
 
-#### rs12051272
-_rs12051272 (enhancer w LD z rs4783244, ~3 kb od TSS)_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Allel G enhancera — do ~1,7× transkrypcji
-- **Wpływ fenotypowy:** Profil jak G/G rs4783244: ryzyko metaboliczne, słabsza sekwestracja adiponektyny
-
 #### rs3865188
 _rs3865188 (LD rs4783244 — adiponektyna)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T (lub G/G)
 - **Aktywność / status:** Paradoks adiponektyny w LD
 - **Wpływ fenotypowy:** Wyższe osocze przy możliwej oporności tkankowej; monitoruj HOMA-IR i TG
@@ -1865,8 +2050,8 @@ _rs3865188 (LD rs4783244 — adiponektyna)_
 #### rs8060301
 _rs8060301 (meQTL promotorowy)_
 
-- **Genotyp (baza/MyHeritage):** `AA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/A
 - **Aktywność / status:** Zmieniona metylacja promotora (meQTL)
 - **Wpływ fenotypowy:** Wpływ na ciśnienie i profil kardiometaboliczny w kohortach HYPEST/CADCZ
@@ -1874,18 +2059,20 @@ _rs8060301 (meQTL promotorowy)_
 #### rs12444338
 _rs12444338 (meQTL 2 kb upstream)_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** T/T (lub homozygoty alt)
 - **Aktywność / status:** meQTL sprzężony z ryzykiem nadciśnienia
 - **Wpływ fenotypowy:** Wyższe ryzyko powikłań ciśnieniowych przy obciążeniu metabolicznym
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs12919501` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs4075942` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs12596958` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs62040565` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs113460564` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs11649622` — brak wpisu w WGS/MyHeritage/CSV
+- `rs12919501` — brak wpisu w WGS/MyHeritage/CSV
+- `rs4075942` — brak wpisu w WGS/MyHeritage/CSV
+- `rs12596958` — brak wpisu w WGS/MyHeritage/CSV
+- `rs12051272` — brak wpisu w WGS/MyHeritage/CSV
+- `rs62040565` — brak wpisu w WGS/MyHeritage/CSV
+- `rs113460564` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Medycyna / profil ryzyka: Profil wielomarkerowy (rs11649622 + rs2199430 + rs4783244); u A/A rs11649622 z MAOA-L – ryzyko impulsów pod wpływem substancji; monitoring LVMI i metabolizmu
@@ -1895,7 +2082,6 @@ _rs12444338 (meQTL 2 kb upstream)_
 - Ostrzeżenie kliniczne: Genotyp nie determinuje przestępstwa ani winy moralnej; nie zwalnia z odpowiedzialności prawnej. Materiał informacyjny – konsultacja psychiatryczna/kardiologiczna
 - Prewencja uzależnień: Unikanie amfetamin, kokainy i nadużywania alkoholu u podwójnego obciążenia CDH13 A/A + MAOA-L
 - Kognicja: G/G rs2199430 – niższa ugodowość; dostosować CBT/terapię do sceptycyzmu społecznego; A/G – potencjalna przewaga w zadaniach pamięciowych pod stresem
-
 
 ---
 
@@ -1922,8 +2108,8 @@ _rs12444338 (meQTL 2 kb upstream)_
 #### rs2252641
 _rs2252641 (CAD — enhancer ZEB2 / VSMC)_
 
-- **Genotyp (baza/MyHeritage):** `TC`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TC`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Pośrednia ekspresja
 - **Wpływ fenotypowy:** Umiarkowane ryzyko powikłań zapalnych naczyniowych
@@ -1931,34 +2117,26 @@ _rs2252641 (CAD — enhancer ZEB2 / VSMC)_
 #### rs17678683
 _rs17678683 (CAD — eQTL tkanka tłuszczowa / szkieletowa)_
 
-- **Genotyp (baza/MyHeritage):** `TG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/T
 - **Aktywność / status:** Pośrednia
 - **Wpływ fenotypowy:** Subtelny wpływ na rozwój zmian miażdżycowych
 
-#### rs6740731
-_rs6740731 (regulacyjny ZEB2 (naczynia / Mowat-Wilson kontekst))_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Referencyjny
-- **Wpływ fenotypowy:** Typowy profil bez dodatkowego ryzyka z tego SNP
-
 #### rs35500812
 _rs35500812 (ZEB2 (powiązany marker))_
 
-- **Genotyp (baza/MyHeritage):** `ACA`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `ACA`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** CC/C
 - **Aktywność / status:** Pośredni
 - **Wpływ fenotypowy:** Profil pośredni
 
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs137852981` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs786204815` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
-- `rs587776604` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs6740731` — brak wpisu w WGS/MyHeritage/CSV
+- `rs137852981` — brak wpisu w WGS/MyHeritage/CSV
+- `rs786204815` — brak wpisu w WGS/MyHeritage/CSV
+- `rs587776604` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Kardiologia (rs2252641, rs17678683): Dieta przeciwzapalna; unikanie palenia; monitoring lipogramu, hsCRP, homocysteiny; rozważenie statyn/PCSK9 przy wysokim ryzyku rodzinno-klinicznym.
@@ -1966,7 +2144,6 @@ _rs35500812 (ZEB2 (powiązany marker))_
 - Mowat-Wilson (mutacje patogenne): Wczesna resekcja Hirschsprunga; neurologia/padaczka (często lekooporna); MRI mózgu (ciało modzelowate); terapia rozwojowa; opieka wielospecjalistyczna.
 - Onkologia: Nad ekspresja ZEB2 w EMT — kontekst badań nad nowotworami złośliwymi; nie dotyczy typowych polimorfizmów GWAS.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -1993,23 +2170,15 @@ _rs35500812 (ZEB2 (powiązany marker))_
 #### rs1385699
 _rs1385699 (EDA2R p.Glu57Leu (łysienie androgenowe — silniejszy sygnał niż rs6152 u części kohort))_
 
-- **Genotyp (baza/MyHeritage):** `TT`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/A (lub T/T)
 - **Aktywność / status:** Wariant sprzężony z AGA
 - **Wpływ fenotypowy:** Wyższe ryzyko łysienia androgenowego w meta-analizach; rozważ wcześniejszą terapię dermatologiczną (minoksydyl, finasteryd — po konsultacji)
 
-#### rs1204038
-_rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))_
-
-- **Genotyp (baza/MyHeritage):** `GG`
-- **Źródło:** MyHeritage
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Dłuższe powtórzenia CAG (mediana ~23); niższe PSA
-- **Wpływ fenotypowy:** Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji
-
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs6152` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs6152` — brak wpisu w WGS/MyHeritage/CSV
+- `rs1204038` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Trychologia: Nosiciele allelu G — wczesna ocena AGA; rozważyć finasteryd lub dutasteryd (inhibitory 5α-reduktazy) po konsultacji dermatologicznej; skuteczność finasterydu koreluje z owłosieniem ciała (lepsza odpowiedź u „pileous”). Unikać wzbudzania lęku przed działaniami niepożądanymi (efekt nocebo zwiększa zgłaszane zaburzenia erekcji z ~14% do ~44%).
@@ -2017,7 +2186,6 @@ _rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))_
 - Diagnostyka rzadkich chorób: Ekspansja CAG >40 — badanie pod kątem choroby Kennedy'ego (SBMA); różnicować ze SLA. CAIS — sekwencjonowanie pełnego genu (mutacje intronowe mogą maskować się jako łagodny rs6152).
 - Sport i antropologia: W populacji ogólnej brak wpływu CAG/rs6152 na siłę i masę mięśniową; u sportowców wyczynowych dłuższe CAG może korelować z adaptacją siłową przy ekstremalnym treningu. Wskaźnik 2D:4D u kobiet koreluje z rs6152 (marker ekspozycji prenatalnej na androgeny).
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
-
 
 ---
 
@@ -2039,8 +2207,8 @@ _rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))_
 
 ### Twoje warianty (znane genotypy)
 #### rs1801260
-- **Genotyp (baza/MyHeritage):** `AG`
-- **Źródło:** CSV
+- **Genotyp (WGS):** `AG`
+- **Źródło:** WGS
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** T/C
 - **Wpływ fenotypowy:** Posiadanie allelu mniejszościowego "G" wprowadza ustrój w umiarkowane usposobienie wieczorne ("sowa") z mierzalnymi incydentami do fragmentowania struktury architektonicznej nocnego snu. Umiarkowanie pogarsza i wydłuża redukcję masy ciała na dietach ubogokalorycznych i sprawia, że pacjent jest znacznie podatniejszy na destrukcyjny wpływ niedoborów snu (zjawisko social jetlag).
@@ -2052,6 +2220,59 @@ _rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))_
 - Alkoholizm na rzęskach: Nosicielstwo modyfikacji 3'UTR (w wariancie G) rzutowało wręcz obłędnie u pacjentów indyjskich wykazujących biologiczny upadek wobec ostrej, chronicznej adaptacyjnej destrukcji popadania we wczesne silne ryzyko z uzależnieniem na stałe z objawami po spożywaniu trunków na badanej populacji z wschodniej przestrzeni medycznej Indii, wyrzucając OR oznaczające blisko mroczne rzędy do wartości u chorych z diagnozą wykazując 2.666 względem kontroli osób zdrowo wolnych od genetycznej zmiany dla alkoholików.
 - Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
+---
+
+## VKORC1 — Gen warfaryny
+
+- Główny symbol genu: VKORC1 (ang. Vitamin K Epoxide Reductase Complex Subunit 1)
+- Pełna nazwa biochemiczna: Podjednostka 1 kompleksu reduktazy epoksydu witaminy K
+- Nazwy potoczne i medialne: Gen wrażliwości na warfarynę, gen krzepliwości, regulator cyklu witaminy K
+- Synonimy medyczne: VKOR, VKORC
+- Główny rsID: rs9923231
+- Lokalizacja chromosomalna: Chromosom 16; region promotorowy VKORC1
+- Typ wariantu: SNP promotorowy (regulacja transkrypcji)
+- Zapis zmiany nukleotydowej (HGVS): c.-1639G>A (historycznie 3673G>A); na nici plus: NC_000016.10:g.31096368C>T
+- Orientacja nici i mapowanie alleli: Allel T (= A na nici minus) — obniżona ekspresja i wysoka wrażliwość na antagonistów witaminy K; allel C (= G minus) — referencyjny
+- Powiązane markery / haplotyp: rs9934438, rs8050894, rs7294, rs2359612, rs61742245 (oporność na warfarynę)
+- Klasyfikacja bazowa: CPIC/PharmGKB — kluczowy marker dawki warfaryny (wraz z CYP2C9, CYP4F2)
+
+### Mechanizm i wpływ biologiczny
+- Rola biologiczna genu/białka: VKORC1 w retikulum endoplazmatycznym recykluje epoksyd witaminy K do hydrochinonu, niezbędnego dla γ-karboksylazy (GGCX) i aktywacji czynników krzepnięcia II, VII, IX, X oraz białek pozakrzepieniowych (MGP, osteokalcyna)
+- Wpływ wariantu na szlak: rs9923231-T osłabia wiązanie czynnika transkrypcyjnego (brak motywu E-box) → ~44% spadek mRNA VKORC1 → mniej enzymu na komórkę → silniejszy efekt tej samej dawki warfaryny
+- Efekt funkcjonalny: Personalizacja antykoagulacji; ekstremalna wrażliwość T/T vs oporność przy mutacjach rs61742245 — profile w sekcji 4
+
+### Twoje warianty (znane genotypy)
+#### rs9923231
+_rs9923231 (promotor — wrażliwość na warfarynę)_
+
+- **Genotyp (WGS):** `TT`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** T/T
+- **Aktywność / status:** Obniżona ekspresja (~44%)
+- **Wpływ fenotypowy:** Ekstremalna wrażliwość (0,5–2 mg/d); wysokie ryzyko krwotoków przy dawkach „jak dla C/C”; algorytmy Gage/IWPC
+
+#### rs9934438
+- **Genotyp (WGS):** `AA`
+- **Źródło:** WGS
+- _Brak dopasowania wiersza w tabeli wariantów (różna orientacja nici lub allel referencyjny)._
+
+#### rs8050894
+- **Genotyp (WGS):** `GG`
+- **Źródło:** WGS
+- **Profil w tabeli wariantów:** G/G
+- **Aktywność / status:** Prawidłowy enzym
+- **Wpływ fenotypowy:** Norma odpowiedzi na antagonisty witaminy K
+
+### Markery w panelu bez genotypu w Twoich danych
+- `rs7294` — brak wpisu w WGS/MyHeritage/CSV
+- `rs2359612` — brak wpisu w WGS/MyHeritage/CSV
+- `rs61742245` — brak wpisu w WGS/MyHeritage/CSV
+
+### Zalecenia praktyczne
+- Hemostaza / farmakologia: Genotypowanie VKORC1 (z CYP2C9, CYP4F2) przed warfaryną; T/T — redukcja dawki początkowej do ~60% standardu; monitoring INR częstszy w pierwszych tygodniach.
+- Alternatywy: Przy T/T + wolny CYP2C9 rozważyć DOAC (apiksaban, rywaroksaban) zamiast warfaryny — po konsultacji kardiologicznej.
+- Dieta i suplementacja: Podczas terapii warfaryną bezwzględnie unikać suplementacji witaminy K1/K2 (zakłóca INR). Poza VKA — dieta bogata w K1/K2 i kontrola sztywności tętnic wspierają zdrowie naczyniowe.
+- Ostrzeżenie kliniczne: Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej ani protokołu antykoagulacji.
 
 ---
 
@@ -2071,12 +2292,12 @@ _rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))_
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: Alfa-aktynina-3 to wysoce wyspecjalizowane białko strukturalne występujące niemal wyłącznie w szybkokurczliwych włóknach mięśniowych (typu II). Pełni ono funkcję "cegieł" budujących tzw. prążek Z (dysk Z), który chroni włókna przed rozerwaniem podczas generowania potężnej i gwałtownej siły (np. w sprincie)
 - Wpływ wariantu na szlak: U osób z dwiema kopiami allelu T (wariant XX) organizm nie produkuje alfa-aktyniny-3. Dochodzi do kompensacji genetycznej – w mięśniach gromadzi się alfa-aktynina-2, która silniej wiąże kalsarcynę-2 i aktywuje kalcyneurynę, przeprogramowując włókna na typ wolnokurczliwy i tlenowy
-- Efekt funkcjonalny: Utrata ACTN3 osłabia zrywy siłowe, ale zwiększa wytrzymałość tlenową i odporność na wyczerpanie; szczegóły fenotypów w tabeli wariantów
+- Efekt funkcjonalny: Utrata ACTN3 osłabia zrywy siłowe, ale zwiększa wytrzymałość tlenową i odporność na wyczerpanie; szczegóły fenotypów w sekcji 4
 
 ### Twoje warianty (znane genotypy)
-_Brak potwierdzonych genotypów w bazie/MyHeritage dla tego genu._
+_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._
 ### Markery w panelu bez genotypu w Twoich danych
-- `rs1815739` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)
+- `rs1815739` — brak wpisu w WGS/MyHeritage/CSV
 
 ### Zalecenia praktyczne
 - Sport i Rekreacja: Genetyka silnie determinuje zyski treningowe. Osoby z wariantem R odnoszą gigantyczne korzyści ze sportów interwałowych, siłowych i sprintów (np. są w ścisłej światowej czołówce badmintona i ciężarów). Osoby z wariantem XX lepiej radzą sobie w dyscyplinach długodystansowych (maratony, pływanie).
@@ -2085,18 +2306,10 @@ _Brak potwierdzonych genotypów w bazie/MyHeritage dla tego genu._
 - Suplementacja Kreatyną: Ponieważ osoby z brakiem białka (XX) cierpią na strukturalne osłabienie mięśni, kreatyna ratuje u nich uwodnienie i nasycenie sarkomeru fosfokreatyną, zauważalnie redukując powysiłkowe niszczenie tkanek i obniżając stan zapalny.
 - Opóźnienie degradacji mózgu: Paradoksalnie "słabszy" sportowo genotyp XX w przeprowadzonych testach (Test Stroopa) korelował pozytywnie z lepszymi parametrami poznawczymi w późnej starości. Szlaki tlenowe zabezpieczają sieć naczyń i natleniają korę przedczołową na długie dekady.
 
-
 ---
 
-# Uwagi i warianty bez automatycznego dopasowania
+# Uwagi
 
-Poniższe genotypy są w Twoich danych, ale nie mają osobnego wiersza w tabeli wariantów (allely referencyjne, inna orientacja nici):
+**96 markerów** z panelu (193 łącznie) bez genotypemu w dostępnych źródłach (WGS nie zawiera wszystkich rsID lub wymaga mapowania chr:pos).
 
-- **MAOA** `rs72554632` **CC** — W tabeli wariantów opisano tylko nosiciela allelu patogenicznego (T); CC = genotyp referencyjny (brak Gln296Ter).
-- **FKBP5** `rs3800373` **CA** — Chip raportuje CA, tabela używa innej notacji alleli.
-- **TAS2R38** `rs1726866` **GG** — Chip raportuje GG; tabela wariantów używa C/C, C/T, T/T (inna orientacja nici) — funkcjonalnie haplotyp z rs713598 G/G i rs10246939 wskazuje na supersmakosza.
-- **MC1R** `rs1805005` **GG** — Val60Leu — GG zwykle odpowiada allelowi referencyjnemu (brak słabego allelu „r”).
-- **ABCC11** `rs17822931` **CC** — Gly180Arg — CC = brak wariantu (woskowa wydzielina, nie suchy typ).
-- **ABCC11** `rs17822471` **GG** — Gly546Val — GG = referencja w kontekście MRP8/5-FU.
-
-**26 markerów** z panelu nadal bez genotypemu w CSV ani MyHeritage (m.in. APOE rs429358/rs7412, FTO, MTHFR rs1801133, ACTN3) — chip GSA nie pokrywa wszystkich SNP.
+Genotypy bez dopasowanego wiersza w tabeli (allel referencyjny, inna orientacja nici) są w sekcjach „Twoje warianty” przy danym genie.

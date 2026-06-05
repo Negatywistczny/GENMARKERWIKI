@@ -45,12 +45,12 @@
 | **T/T** | Osłabiona integralność szlaku | Najniższa FA; ryzyko patologii nastroju i mniejsza tolerancja na urazy mózgu (TBI) |
 
 **rs10761482 (intron / upstream ANK3 (plejotropia BD–schizofrenia))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Allel referencyjny (wg SEQ dbSNP) | Brak zwiększonej predyspozycji ze schizofrenią z tego locus; typowy profil ryzyka afektywnego jak populacja |
 | **★ T/C** | Heterozygota — pośrednie ryzyko | Umiarkowana asocjacja z fenotypami ze spektrum schizofrenii w badaniach GWAS; interpretacja łącznie z rs10994336/rs1938526 |
 | **C/C** | Homozygoty alternatywne | Silniejsze i powtarzalne powiązania ze schizofrenią; wspólna architektura genetyczna BD–SCZ. Monitoring psychiatryczny przy obciążeniu rodzinnym |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs10994336 – allel T (MAF) ~6% w agregatach gnomAD; silna heterogeniczność – asocjacja BD nie replikuje jednolicie poza EUR/AMR
 * **Europa (NFE):** rs10994336 – allel T 5,8–7,0%; genotypy ~86,2% C/C, 12,1% C/T, 1,7% T/T (kohorta polska ~6% – zgodna ze średnią NFE)

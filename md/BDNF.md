@@ -17,7 +17,6 @@
 * **Efekt funkcjonalny:** Nosiciele Met uwalniają po wysiłku o 30–50% mniej BDNF, co upośledza neuroplastyczność i uczenie się
 
 ### 4. Tabela Wariantów
-
 **rs6265**
 
 | Genotyp | Status alleliczny | Poziom sekrecji zależnej od aktywności | Charakterystyka neurobiologiczna i wpływ na kognicję | Korelaty somatyczne i metaboliczne |
@@ -25,7 +24,6 @@
 | **G/G** | Homozygota dzika (Val/Val) | Optymalny (100%). | Prawidłowe wewnątrzkomórkowe sortowanie i transport pęcherzykowy. Optymalna objętość hipokampa i kory przedczołowej. Wysoka sprawność pamięci epizodycznej, czytania ze zrozumieniem i uczenia się motorycznego. Szybka powysiłkowa synteza BDNF. | Prawidłowa kontrola łaknienia. Niższe ryzyko otyłości przy zbilansowanej diecie. Wyjściowo wyższe parametry ciśnienia tętniczego (OR=2,05). |
 | **★ A/G** | Heterozygota (Val/Met) | Umiarkowanie obniżony (~70%). | Częściowe upośledzenie transportu pęcherzykowego. Podwyższona podatność na stres i utrudnione wygaszanie reakcji lękowych. Zwiększone ryzyko zaburzeń nastroju w odpowiedzi na traumę. | Umiarkowana tendencja do odkładania tkanki tłuszczowej przy diecie wysokokalorycznej. Zależność parametrów metabolicznych od podaży tłuszczów. |
 | **A/A** | Homozygota pochodna (Met/Met) | Silnie obniżony (<50%). | Krytyczne zaburzenie uwalniania synaptycznego. Zredukowana objętość istoty szarej hipokampa i kory przedczołowej. Istotne deficyty pamięci deklaratywnej i konsolidacji śladów pamięciowych. | Podwyższona podatność na otyłość brzuszną przy niskiej podaży energii (OR=2,538). Niższe ciśnienie skurczowe i rozkurczowe krwi. |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Marker rs6265 wykazuje wysokie zróżnicowanie między populacjami (FST ok. 0,149); brak jednej uniwersalnej częstości allelu Met dla wszystkich kohort
 * **Europa (NFE):** Allel Met zwykle ok. 17-19%; w populacji polskiej orientacyjnie Val/Val 64-68%, Val/Met 28-29%, Met/Met ok. 3%

@@ -29,6 +29,7 @@
 | **G/G** | Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu | Brak aktywacji OR2M7 przy metanotiolu; brak depolaryzacji w opuszce węchowej |
 
 **rs13373863 (OR2M region (szparagi — LD z rs4481887))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
@@ -36,6 +37,7 @@
 | **A/A** | Alternatywny haplotyp | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
 
 **rs71538191 (OR2M (powiązany haplotyp))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Brak izolowanego efektu poza LD |
@@ -43,6 +45,7 @@
 | **A/A** | Alternatywny | Część haplotypu OR2M; możliwa zmiana wykrywalności zapachu szparagów |
 
 **rs6689553 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Referencyjny | Typowa percepcja w bloku |
@@ -50,6 +53,7 @@
 | **C/C** | Alternatywny | Skorelowany z wariantami zapachu szparagów w GWAS |
 
 **rs72765116 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Norma |
@@ -57,12 +61,12 @@
 | **A/A** | Alternatywny | Część bloku LD rs4481887 |
 
 **rs57711976 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Norma percepcji |
 | **G/A** | Pośredni | Pośredni fenotyp zapachowy |
 | **A/A** | Alternatywny | Możliwa zmiana intensywności zapachu szparagów |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A ok. 35–40%; anosmia szparagowa u ok. 40–50% (zmienna metodologia)
 * **Europa (NFE):** MAF A ok. 40–50%; anosmia u mężczyzn częściej niż u kobiet (GWAS BMJ 2016)

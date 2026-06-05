@@ -22,7 +22,7 @@
 
 | Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- |
-| **★ C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
+| **C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
 | **C/T** | ~65% (zredukowana) | Pula folianów obniżona; przy zdrowej diecie homocysteina rzadko rośnie klinicznie istotnie |
 | **T/T** | 20–30% (krytyczna) | Wariant termolabilny; utrata 70–80% syntezy 5-MTHF, nagromadzenie homocysteiny, duże zapotrzebowanie na dawców metylowych |
 
@@ -38,10 +38,7 @@
 
 | Genotyp | Aktywność enzymu | Wpływ fenotypowy (kliniczny i metaboliczny) |
 | :--- | :--- | :--- |
-| **677C/T + 1298A/C** (heterozygota złożona) | ~50% (spadek o połowę) | Kaskada obu błędów; obraz zbliżony do ciężkiej homozygoty 677 T/T – uszczuplenie folianów, podwyższona homocysteina |
-
-*Uwaga:* Połączenie 677 T/T z 1298 C/C uznaje się za letalne embriologicznie – nie występuje u zdrowych noworodków.
-
+| **677C/T + 1298A/C (heterozygota złożona)** | ~50% (spadek o połowę) | Kaskada obu błędów; obraz zbliżony do ciężkiej homozygoty 677 T/T – uszczuplenie folianów, podwyższona homocysteina |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość alleli zależy od wariantu; dla C677T globalny udział allelu T jest zróżnicowany regionalnie i nie ma jednej stabilnej wartości dla wszystkich kohort
 * **Europa (NFE):** Dla C677T częstość allelu T zwykle ok. 34-36% (genotyp T/T ok. 10-15%); dla A1298C allel C często ok. 31%

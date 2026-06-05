@@ -55,15 +55,15 @@
 
 | Genotyp | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T** (nosiciel) | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
+| **T (nosiciel)** | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
 
 **rs3027407 (region MAOA (ADHD u dzieci))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjny | Brak zwiększonego ryzyka ADHD z tego SNP |
 | **A/G** | Pośredni | Umiarkowane obciążenie kognitywne |
 | **★ G/G** | Ryzyko ADHD | Wyższe ryzyko diagnozy ADHD u potomstwa; wczesna interwencja środowiskowa i struktura dnia |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak pojedynczej, porównywalnej częstości globalnej ze względu na VNTR, różne definicje alleli i analizy zależne od płci
 * **Europa (NFE):** Wariant MAOA-L zwykle ok. 31,0-40,0% (MAOA-H ok. 56,0-65,0%)

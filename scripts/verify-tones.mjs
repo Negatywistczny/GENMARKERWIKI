@@ -158,15 +158,28 @@ for (const file of fs.readdirSync(mdDir)) {
   for (const block of splitVariantBlocks(sec.body)) {
     const table = parseTable(block.lines);
     if (!table) continue;
+    const tableHeaders = block.lines
+      .filter((l) => l.trim().startsWith("|"))
+      .map((l) => l.split("|").slice(1, -1).map((c) => c.trim()))[0] || [];
+    const isApoeHaplotypeTable =
+      gene === "APOE" &&
+      tableHeaders.some((h) => /rs429358/i.test(h)) &&
+      tableHeaders.some((h) => /rs7412/i.test(h));
+    const isApoeHaplotype =
+      gene === "APOE" &&
+      (/haplotypy apoe|rs429358.*rs7412/i.test(block.title) || isApoeHaplotypeTable);
+    const toneHeading =
+      isApoeHaplotype && !block.title
+        ? "haplotypy apoe rs429358 rs7412"
+        : block.title;
+
     for (const row of table.rows) {
       const genotype = row[0] || "";
-      const isApoeHaplotype =
-        gene === "APOE" && /haplotypy apoe|rs429358.*rs7412/i.test(block.title);
       const lookupKey = isApoeHaplotype ? normalizeToneKey(row.join(" ")) : null;
       total++;
       const r = fixedVariantTone(
         gene,
-        block.title,
+        toneHeading,
         genotype,
         lookupKey ? { lookupKey } : {}
       );

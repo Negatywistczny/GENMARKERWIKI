@@ -37,13 +37,15 @@
 | **T/T** | Obniżona regulacja | OR ~1,10–1,38 dla zdarzeń niedokrwiennych w niektórych kohortach |
 
 **rs6740731 (regulacyjny ZEB2 (naczynia / Mowat-Wilson kontekst))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ G/G** | Referencyjny | Typowy profil bez dodatkowego ryzyka z tego SNP |
+| **G/G** | Referencyjny | Typowy profil bez dodatkowego ryzyka z tego SNP |
 | **G/A** | Pośredni | Umiarkowana modulacja w badaniach kohortowych |
 | **A/A** | Alternatywny | Skorelowany w indeksie z fenotypami naczyniowymi; interpretacja łącznie z rs2252641/rs17678683 |
 
 **rs35500812 (ZEB2 (powiązany marker))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **CC/CC** | Referencyjny | Norma rozwojowa z perspektywy tego locus (brak delecji C) |
@@ -51,6 +53,7 @@
 | **C/C** | Alternatywny | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
 
 **rs137852981 (ZEB2 (rzadki/regulacyjny))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Brak efektu klinicznego |
@@ -58,6 +61,7 @@
 | **A/A** | Rzadki homozygot | Potencjalna regulacja ZEB2 — weryfikacja w kontekście całego panelu ZEB2 |
 
 **rs786204815 (ZEB2 (rzadki))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Norma |
@@ -65,12 +69,12 @@
 | **A/A** | Rzadki | Dane fenotypowe niewystarczające — nie stosować diagnostyki Mowat-Wilson wyłącznie na tym SNP |
 
 **rs587776604 (ZEB2 (ClinVar / rzadki))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjny | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
 | **G/GT** | Nosiciel | Weryfikacja ClinVar u nosicieli |
 | **GT/GT** | Rzadki | Możliwa patogenność — wyłącznie z oceną kliniczną i sekwencjonowaniem ZEB2 (duplikacje/delecje exon 8 są główną przyczyną MWS) |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu ryzyka rs2252641 ~43–47,5% (silny sygnał CAD)
 * **Europa (EUR):** >45% nosicielstwa allelu ryzyka w kohortach z powikłaniami wieńcowymi

@@ -19,15 +19,13 @@
 * **Efekt funkcjonalny:** Plejotropia mózg–serce: ten sam gen moduluje ryzyko psychiatryczne i homeostazę wapnia w mięśniu sercowym oraz ciśnienie tętnicze.
 
 ### 4. Tabela Wariantów
-
 **rs1006737 (psychiatria, EH)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ G/G** | Profil referencyjny / ochronny | Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP |
+| **G/G** | Profil referencyjny / ochronny | Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP |
 | **G/A** | Pośredni | Umiarkowane podwyższenie ryzyka SCZ/BD/MDD i EH |
 | **A/A** | Allel ryzyka (homozygota) | Wyższe ryzyko SCZ, BD, MDD; spadek płynności mowy; wyższy glutaminian w ACC (fMRI/MRS) |
-
 **rs1051375 (farmakogenetyka kardiologiczna)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -35,12 +33,11 @@
 | **A/A** | Standardowa odpowiedź na werapamil | Typowa tolerancja blokerów L-type (profil referencyjny) |
 | **★ G/A** | Pośrednia | Ostrożność przy werapamilu; monitoruj powikłania |
 | **G/G** | Nietypowa farmakodynamika | ~4,5× ryzyko powikłań kardiologicznych na werapamilu – unikać; rozważyć beta-blokery. Homozygota rzadka (<2%) – wysoka wartość prognostyczna |
-
 **rs2159100 (nastrój, BD)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ C/C** | Profil referencyjny | Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP |
+| **C/C** | Profil referencyjny | Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP |
 | **C/T** | Pośredni | Umiarkowane ryzyko zaburzeń nastroju |
 | **T/T** | Marker nastroju (allel T) | Zwiększone ryzyko zaburzeń afektywnych w kohortach BD |
 
@@ -48,8 +45,7 @@
 
 | Genotyp / mutacja | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G406R / G402S** (missense) | Gain-of-function Cav1.2 | Zespół Timothy'ego: wydłużenie QT, syndaktylia, wady serca, autyzm, arytmia |
-
+| **G406R / G402S (missense)** | Gain-of-function Cav1.2 | Zespół Timothy'ego: wydłużenie QT, syndaktylia, wady serca, autyzm, arytmia |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1006737 – allel A (ryzyko) często ~30–35% w bazach populacyjnych (zależnie od kohorty)
 * **Europa (NFE):** rs1006737 allel A ~29%; rs1051375 homozygota G/G <2%

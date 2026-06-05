@@ -16,7 +16,6 @@
 * **Efekt funkcjonalny:** Skutki to opóźniony chronotyp, zaburzenia metabolizmu i trudności w redukcji masy ciała u nosicieli wariantu ryzyka (sekcja 4)
 
 ### 4. Tabela Wariantów
-
 **rs1801260**
 
 | Genotyp współczesny (A>G) | Zapis historyczny | Charakterystyka i Rytm Dobowy | Dogłębny wpływ na organizm, dietę i fenotyp |
@@ -24,7 +23,6 @@
 | **A/A** | T/T | Homozygota dzika. | Odpowiada za stabilne powiązanie w układzie miRNA i promuje silny, wybitnie poranny chronotyp ("skowronek"). W interwencjach żywieniowych osobniki te rewelacyjnie reagują redukcją wagi i drastyczną poprawą wrażliwości na insulinę w odpowiedzi na diety ubogotłuszczowe. Paradoksalnie genotyp dziki jest niezwykle silnie sprzężony z występowaniem i rozwojem dorosłej postaci ADHD ze względu na odmienne ewolucyjne predyspozycje do wyzwalania i przesyłania dopaminy. |
 | **★ A/G** | T/C | Heterozygota (wariant przejściowy). | Posiadanie allelu mniejszościowego "G" wprowadza ustrój w umiarkowane usposobienie wieczorne ("sowa") z mierzalnymi incydentami do fragmentowania struktury architektonicznej nocnego snu. Umiarkowanie pogarsza i wydłuża redukcję masy ciała na dietach ubogokalorycznych i sprawia, że pacjent jest znacznie podatniejszy na destrukcyjny wpływ niedoborów snu (zjawisko social jetlag). |
 | **G/G** | C/C | Homozygota zmutowana (Allele G). | Radykalne i bezwzględne genetyczne determinowanie preferencji "sowy". Wymusza szczyt kognitywny na odległe godziny popołudniowe/wieczorne oraz wiąże z dużym wyrokiem obniżonego trwania snu fizjologicznego (<6h). Odpowiada za drastyczną wręcz oporność na odchudzanie bariatryczne, pociągając natychmiastowe uderzeniowe powroty wagi po zabiegach i sprzyja oporności rygorom kalorycznym. Obciąża to układ wyrokując z ciężką wrodzoną posturą metaboliczną, a w sferze neuropsychiatrii wiąże się wprost z ryzykiem dramatycznych bezsenności w zespołach chorób dwubiegunowych. |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu G szacowana jest orientacyjnie na ok. 18,5%
 * **Europa (NFE):** Częstość allelu G wynosi ok. 27,7%

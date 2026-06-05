@@ -19,15 +19,13 @@
 
 ### 4. Tabela Wariantów
 
-**A. Haplotypy regionu promotorowego (5-HTTLPR + rs25531)**
+**A — haplotypy regionu promotorowego (5-HTTLPR + rs25531)**
 
 | Haplotyp / genotyp | Poziom aktywności transkrypcyjnej | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **L_A / L_A** (L/L + A/A) | Bardzo wysoka (maksymalna gęstość SERT) | Fenotyp „mniszka”: odporność na stres, mniejsze ryzyko MDD/PTSD po traumach, dobra odpowiedź na SSRI |
 | **L_A / L_G** lub **L_A / S_A** | Pośrednia do niska | Podwyższona podatność na stres psychospołeczny; umiarkowana hiperaktywacja migdałowata |
 | **S_A / S_A** lub **L_G / L_G** | Bardzo niska (down-regulacja receptorów 5-HT) | Fenotyp „orchidei”: wysoka podatność na depresję/lęk w złym środowisku, wybitna wydajność przy wsparciu; częsta oporność na pierwszoliniowe SSRI |
-
-**B. Polimorfizmy modyfikujące**
 
 **rs25532 (C>T)**
 
@@ -54,13 +52,12 @@
 | **I425V/I425V** | Hiperaktywny SERT (homozygota) | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
 
 **rs4795541 (5-HTTLPR (proxy VNTR promotorowy; S/L/xL))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **L/L** (długi; L_A/L_A po rs25531) | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
+| **L/L (długi; L_A/L_A po rs25531)** | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
 | **L/S** | Pośrednia ekspresja | Profil „orchid child” — wrażliwość na środowisko; elastyczna odpowiedź na SSRI zależnie od haplotypu |
-| **S/S** (krótki) | Niska ekspresja 5-HTT | Wyższe ryzyko depresji i lęku po traumie (interakcja gen–środowisko, Caspi); rozważ psychoterapię i ostrożność z SSRI |
-*Rzeczywisty wariant to VNTR 43–44 bp; rs4795541 to identyfikator zastępczy*
-
+| **S/S (krótki)** | Niska ekspresja 5-HTT | Wyższe ryzyko depresji i lęku po traumie (interakcja gen–środowisko, Caspi); rozważ psychoterapię i ostrożność z SSRI |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości dla VNTR S/L globalnie; częstość S silnie zróżnicowana geograficznie (od ~43% w Europie do 70–80% u Azjatów)
 * **Europa (NFE):** Allel S ~43%; homozygoty S/S ~19%; rs25531-G ~7,5% (większość L to L_A)

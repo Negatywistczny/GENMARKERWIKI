@@ -1,13 +1,5 @@
 {
   "name": "genmarkerwiki",
   "private": true,
-  "type": "module",
-  "scripts": {
-    "pdf": "python scripts/generate-pdfs.py",
-    "pdf:node": "node scripts/generate-pdfs.mjs",
-    "pdf:install": "pip install -r scripts/requirements-pdf.txt && python -m playwright install chromium"
-  },
-  "devDependencies": {
-    "playwright": "^1.52.0"
-  }
+  "type": "module"
 }

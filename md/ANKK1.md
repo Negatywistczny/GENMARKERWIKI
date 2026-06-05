@@ -18,12 +18,13 @@
 
 ### 4. Tabela Wariantów
 
+**rs1800497 (Taq1A / ANKK1)**
+
 | Genotyp rs1800497 (Nić komplementarna) | Zapis RFLP | Gęstość DRD2 w prążkowiu | Fenotyp i Profil Neurobehawioralny |
 | :--- | :--- | :--- | :--- |
 | **★ G/G (C/C)** | A2/A2 | 100% (Norma) | Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS. |
 | **A/G (C/T)** | A2/A1 | Zmniejszona (~20% spadku) | Pośrednia redukcja stabilności białka receptorowego D2. Zauważalna podwyższona impulsywność organizmu oraz skłonność do poszukiwania wyższej stymulacji w warunkach życiowej monotonii. |
 | **A/A (T/T)** | A1/A1 | Drastycznie zmniejszona (30-40% spadku) | Głęboka wrodzona hipodopaminergia oraz ekstremalne zaburzenie wewnątrzkomórkowe. Posiadacze wykazują pełnoobjawowy Zespół Niedoboru Nagrody (RDS), upośledzone uczenie się na własnych błędach, wysokie predyspozycje do otyłości, ADHD, PTSD i ciężkich nałogów. |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu mniejszościowego A wynosi ok. 32,5% (dbSNP/ALFA)
 * **Europa (NFE):** Częstość allelu mniejszościowego zwykle ok. 15,0-19,2%; orientacyjnie ~65% G/G, ~25% heterozygot, ~3% A/A

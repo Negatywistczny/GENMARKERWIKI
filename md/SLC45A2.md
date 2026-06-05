@@ -37,6 +37,7 @@
 | **A/A** | Lys272; łagodna zmiana domeny błonowej | MAF do ~40% w EAS; możliwy wpływ na odcień włosów w Azji; klasyfikacja łagodna (brak związku z CMM) |
 
 **rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjny (globalny) | Brak zmiany aminokwasu; marker genealogiczny w haplotypach |
@@ -44,19 +45,20 @@
 | **★ G/G** | Alternatywny | Rzadki; pomaga w rekonstrukcji haplotypów MATP bez zmiany funkcji białka |
 
 **rs121912621 (p.Asp157Asn (OCA4 — patogenny))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Asp/Asp — funkcja MATP | Prawidłowa pigmentacja; brak OCA4 |
 | **G/A** | Nosiciel | Zwykle asymptomatyczny nosiciel; ryzyko u potomstwa przy partnerze nosicielu |
 | **A/A** | Asn/Asn | Albinizm oka-skóra typ 4 (OCA4): brak eumelaniny, fotofobia, wysokie ryzyko raka skóry — opieka okulistyczna i dermatologiczna |
-*ClinVar pathogenic*
+
 **rs375077956 (p.Tyr266Ter (OCA4, nonsense))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Pełne białko | Norma pigmentacji |
 | **C/A** | Nosiciel | Brak fenotypu u heterozygoty |
 | **A/A** | Brak funkcji (skrócone białko) | OCA4 — ciężka hipopigmentacja, konieczna ochrona UV i monitoring onkologiczny skóry |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu G (F374) silnie zróżnicowane geograficznie
 * **Europa (NFE):** MAF G ~96,5–99% (prawie wszyscy G/G); selekcja pozytywna (Tajima D = −1,718)

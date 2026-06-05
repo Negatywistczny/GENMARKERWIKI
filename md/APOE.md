@@ -30,13 +30,12 @@
 | **C / T** | **T / C** | **ε2 / ε4 (E2/E4)** | Mieszane (Cys/Cys + Arg/Arg) | **Efekt zniesienia.** Pojawienie się ochronnego ε2 "anuluje" dużą część zniszczeń, za które odpowiada patologiczny ε4, łagodząc ryzyko do poziomu standardowego. |
 
 **rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **★ A/A** | Brak allelu G sprzężonego z ε4 | Niższe ryzyko AD w modelach proxy; nadal wymagane określenie haplotypu ε2/ε3/ε4 na rs429358 i rs7412 |
+| **A/A** | Brak allelu G sprzężonego z ε4 | Niższe ryzyko AD w modelach proxy; nadal wymagane określenie haplotypu ε2/ε3/ε4 na rs429358 i rs7412 |
 | **A/G** | Pośrednie ryzyko (nosicielstwo ε4 w LD) | Podwyższone ryzyko AD w badaniach asocjacyjnych; profil pośredni lipidowy i neurologiczny |
 | **G/G** | Silne sprzężenie z haplotypem ε4 | Wysoka asocjacja z chorobą Alzheimera w kohortach (marker statystyczny). Klinicznie: lipidogram, styl życia, nie traktować jako diagnozy ε4 bez obu SNP APOE |
-*Nie zastępuje rs429358+rs7412*
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Przybliżone częstości alleli: e3 ok. 77,9%, e4 ok. 13,7%, e2 ok. 8,4%
 * **Europa (NFE):** Częstość e4 wykazuje gradient północ-południe; niższa na południu i wyższa w populacjach północnych

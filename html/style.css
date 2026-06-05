@@ -163,6 +163,60 @@ body {
   gap: 0.9rem;
 }
 
+.category-nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin: 0 0 1.4rem;
+  padding: 0;
+  list-style: none;
+}
+
+.category-nav a {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  padding: 0.42rem 0.72rem;
+  border-radius: 999px;
+  border: 1px solid var(--border);
+  background: var(--card);
+  color: var(--text);
+  text-decoration: none;
+  font-size: 0.88rem;
+  transition: border-color 0.14s ease, background 0.14s ease;
+}
+
+.category-nav a:hover {
+  border-color: var(--accent);
+  background: color-mix(in srgb, var(--accent) 10%, var(--card));
+}
+
+.category-section {
+  margin-bottom: 2rem;
+  scroll-margin-top: 1rem;
+}
+
+.category-head {
+  display: flex;
+  align-items: center;
+  gap: 0.55rem;
+  margin: 0 0 0.85rem;
+  font-size: 1.15rem;
+  letter-spacing: 0.01em;
+}
+
+.category-head__icon {
+  font-size: 1.35rem;
+  line-height: 1;
+}
+
+.category-head__count {
+  margin-left: auto;
+  color: var(--muted);
+  font-size: 0.82rem;
+  font-weight: 400;
+}
+
 .gene-card {
   --gene-tint: rgba(122, 162, 255, 0.14);
   --gene-border: rgba(122, 162, 255, 0.32);

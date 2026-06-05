@@ -1,10 +1,18 @@
 #!/usr/bin/env python3
-"""Generate personal variant report from wybrane_markery.csv + MyHeritage + md/*.md."""
+"""Generate personal variant report and sync ★ markers from genotype sources + md/*.md.
+
+Źródła genotypów (priorytet): wybrane_markery.csv → WGS (raw/*.ai_full.csv) → MyHeritage.
+
+Gwiazdka ★ w md/*.md (sekcja 4) oznacza wyłącznie wiersz potwierdzonego genotypem
+właściciela — ustawiana tylko przez dopasowanie do powyższych źródeł.
+"""
 
 from __future__ import annotations
 
+import argparse
 import csv
 import re
+import sys
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
@@ -12,6 +20,9 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 MD_DIR = ROOT / "md"
 OUT = ROOT / "raporty" / "Raport-osobisty-genom-wiki.md"
+RSIDS_JS = ROOT / "html" / "gene-rsids.js"
+GENE_INDEX_JS = ROOT / "html" / "gene-index.js"
+GENE_CATEGORIES_JS = ROOT / "html" / "gene-categories.js"
 
 CSV_PATH = Path(
     r"C:\Users\kacpe\Documents\.PERSONALNA BAZA DANYCH"
@@ -49,6 +60,10 @@ RSID_ALIASES: dict[tuple[str, str, str], list[str]] = {
     ("LCT", "rs4988235", "GG"): ["G/G", "C/C"],
     ("MTHFR", "rs1801133", "GG"): ["G/G", "C/C"],
     ("DRD2", "rs1076560", "CC"): ["G/G", "C/C"],
+    ("AVPR1A", "rs1042615", "AG"): ["C/T", "T/C"],
+    ("AVPR1A", "rs11174811", "CA"): ["C/T", "T/C"],
+    ("AVPR1A", "rs10877969", "GG"): ["C/C", "G/G"],
+    ("CHRNA5", "rs16969968", "GA"): ["A/G", "G/A"],
 }
 
 ALIASES: dict[str, list[str]] = {
@@ -92,6 +107,58 @@ def genotype_targets(gene: str, rsid: str, csv_gt: str) -> set[str]:
     return {k for k in keys if k}
 
 
+def wgs_path() -> Path | None:
+    raw = ROOT / "raw"
+    if not raw.is_dir():
+        return None
+    candidates = sorted(raw.glob("*.ai_full.csv"), key=lambda p: p.stat().st_mtime, reverse=True)
+    return candidates[0] if candidates else None
+
+
+def load_wgs(needed: set[str]) -> dict[str, str]:
+    path = wgs_path()
+    if not path:
+        return {}
+    needed_l = {r.lower() for r in needed}
+    found: dict[str, str] = {}
+    with path.open(encoding="utf-8") as f:
+        for line in f:
+            if not line.startswith("rs"):
+                continue
+            rs, _, gt = line.strip().partition(",")
+            rl = rs.lower()
+            if rl in needed_l and rl not in found:
+                found[rl] = gt.strip().upper()
+            if len(found) == len(needed_l):
+                break
+    return found
+
+
+def load_gene_categories() -> dict[str, list[str]]:
+    text = GENE_CATEGORIES_JS.read_text(encoding="utf-8")
+    themes: dict[str, list[str]] = {}
+    for block in re.finditer(
+        r'label:\s*"([^"]+)"[\s\S]*?genes:\s*\[([\s\S]*?)\],',
+        text,
+    ):
+        label = block.group(1)
+        genes = re.findall(r'"([A-Z0-9]+)"', block.group(2))
+        themes[label] = genes
+    return themes
+
+
+def load_wiki_panel() -> tuple[dict[str, list[str]], dict[str, str]]:
+    rsids_text = RSIDS_JS.read_text(encoding="utf-8")
+    index_text = GENE_INDEX_JS.read_text(encoding="utf-8")
+    by_gene: dict[str, list[str]] = {}
+    for m in re.finditer(r"^\s+([A-Z0-9]+):\s*\[([^\]]+)\]", rsids_text, re.M):
+        by_gene[m.group(1)] = re.findall(r"rs\d+", m.group(2))
+    labels: dict[str, str] = {}
+    for m in re.finditer(r'\{\s*gene:\s*"([^"]+)",\s*label:\s*"([^"]+)"', index_text):
+        labels[m.group(1)] = m.group(2)
+    return by_gene, labels
+
+
 def load_myheritage(needed: set[str]) -> dict[str, str]:
     if not MH_PATH.exists():
         return {}
@@ -112,26 +179,57 @@ def load_myheritage(needed: set[str]) -> dict[str, str]:
     return found
 
 
+def genotype_source(csv_gt: str, wgs: dict[str, str], mh: dict[str, str], rsid: str) -> tuple[str, str]:
+    rs = rsid.lower()
+    if csv_gt:
+        return csv_gt, "CSV"
+    if wgs.get(rs):
+        return wgs[rs], "WGS"
+    if mh.get(rs):
+        return mh[rs], "MyHeritage"
+    return "", ""
+
+
 def load_markers() -> dict[str, list[dict]]:
-    rows: list[dict] = []
-    with CSV_PATH.open(encoding="utf-8-sig", newline="") as f:
-        for row in csv.DictReader(f):
-            rows.append(row)
-    needed = {r["rsid"].strip().lower() for r in rows if r["rsid"].strip()}
+    wiki_genes, labels = load_wiki_panel()
+    needed = {rs.lower() for rslist in wiki_genes.values() for rs in rslist}
+    wgs = load_wgs(needed)
     mh = load_myheritage(needed)
+
+    if CSV_PATH.exists():
+        rows: list[dict] = []
+        with CSV_PATH.open(encoding="utf-8-sig", newline="") as f:
+            for row in csv.DictReader(f):
+                rows.append(row)
+        by_gene: dict[str, list[dict]] = defaultdict(list)
+        for row in rows:
+            gene = row["Gen"].strip()
+            rsid = row["rsid"].strip()
+            gt, source = genotype_source(
+                row.get("genotype", "").strip(), wgs, mh, rsid
+            )
+            by_gene[gene].append(
+                {
+                    "rsid": rsid,
+                    "opis": row["Opis"].strip(),
+                    "genotype": gt,
+                    "source": source,
+                }
+            )
+        return dict(by_gene)
+
     by_gene: dict[str, list[dict]] = defaultdict(list)
-    for row in rows:
-        gene = row["Gen"].strip()
-        rsid = row["rsid"].strip()
-        gt = row.get("genotype", "").strip() or mh.get(rsid.lower(), "")
-        by_gene[gene].append(
-            {
-                "rsid": rsid,
-                "opis": row["Opis"].strip(),
-                "genotype": gt,
-                "source": "CSV" if row.get("genotype", "").strip() else ("MyHeritage" if gt else ""),
-            }
-        )
+    for gene, rsids in sorted(wiki_genes.items()):
+        for rsid in rsids:
+            gt, source = genotype_source("", wgs, mh, rsid)
+            by_gene[gene].append(
+                {
+                    "rsid": rsid,
+                    "opis": labels.get(gene, gene),
+                    "genotype": gt,
+                    "source": source,
+                }
+            )
     return dict(by_gene)
 
 
@@ -332,7 +430,7 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
 
     lines.append("### Twoje warianty (znane genotypy)")
     if not known:
-        lines.append("_Brak potwierdzonych genotypów w bazie/MyHeritage dla tego genu._")
+        lines.append("_Brak potwierdzonych genotypów w WGS/MyHeritage/CSV dla tego genu._")
     else:
         apoe_gt = {e["rsid"]: e for e in known if gene == "APOE"}
         intro4, blocks = split_rs_blocks(sec4)
@@ -409,7 +507,8 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
             lines.append(f"#### {rsid}")
             if block_title and block_title != rsid:
                 lines.append(f"_{block_title}_\n")
-            lines.append(f"- **Genotyp (baza/MyHeritage):** `{entry['genotype']}`")
+            src = entry["source"] or "dane"
+            lines.append(f"- **Genotyp ({src}):** `{entry['genotype']}`")
             if entry["source"]:
                 lines.append(f"- **Źródło:** {entry['source']}")
             if row:
@@ -435,7 +534,7 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
     if unknown:
         lines.append("### Markery w panelu bez genotypu w Twoich danych")
         for e in unknown:
-            lines.append(f"- `{e['rsid']}` — brak wpisu w CSV/MyHeritage (chip GSA może nie raportować SNP)")
+            lines.append(f"- `{e['rsid']}` — brak wpisu w WGS/MyHeritage/CSV")
         lines.append("")
 
     if sec6:
@@ -448,18 +547,137 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
     return "\n".join(lines)
 
 
-def main() -> None:
-    by_gene = load_markers()
+def apply_stars_to_block(
+    gene: str,
+    block: str,
+    rsid: str | None,
+    gt: str | None,
+    matched_row: dict | None = None,
+) -> tuple[str, int]:
+    if matched_row is None and rsid and gt:
+        matched_row = match_row(gene, rsid, gt, block)
+
+    out: list[str] = []
+    stars = 0
+    for line in block.splitlines():
+        if not line.strip().startswith("|") or ":---" in line:
+            out.append(line)
+            continue
+        raw_cells = [c.strip() for c in line.split("|")[1:-1]]
+        if not raw_cells or raw_cells[0].lower().startswith("genotyp"):
+            out.append(line)
+            continue
+        cell = re.sub(r"★\s*", "", raw_cells[0])
+        inner = strip_md(cell)
+        if matched_row and (row_keys(cell) & matched_row["keys"]):
+            raw_cells[0] = f"**★ {inner}**"
+            stars += 1
+        else:
+            raw_cells[0] = f"**{inner}**"
+        out.append("| " + " | ".join(raw_cells) + " |")
+    return "\n".join(out), stars
+
+
+def sync_gene_stars(gene: str, entries: list[dict], md_text: str) -> tuple[str, list[str]]:
+    sections = parse_sections(md_text)
+    sec4 = sections.get(4, "")
+    if not sec4:
+        return md_text, []
+
+    known = {e["rsid"]: e["genotype"] for e in entries if e.get("genotype")}
+    intro, blocks = split_rs_blocks(sec4)
+    sec2 = sections.get(2, "")
+    main_rsid = primary_rsid(sec2)
+    log: list[str] = []
+    new_blocks: list[tuple[str, str]] = []
+
+    for brsid, block in blocks:
+        rsid = brsid or main_rsid
+        matched_row = None
+        stars = 0
+
+        if gene == "APOE" and "rs429358" in known and "rs7412" in known:
+            if "rs429358" in block or "haplotyp" in block.lower():
+                matched_row = match_apoe(known["rs429358"], known["rs7412"], block)
+        elif gene == "GC" and "rs7041" in known and "rs4588" in known and "rs7041" in block:
+            t1 = genotype_targets("GC", "rs7041", known["rs7041"])
+            t2 = genotype_targets("GC", "rs4588", known["rs4588"])
+            for row in parse_table_block(block):
+                if len(row["cols"]) < 2:
+                    continue
+                pair = re.split(r"\s*\+\s*", row["cols"][1])
+                if len(pair) == 2:
+                    a, b = norm_genotype(pair[0]), norm_genotype(pair[1])
+                    if (a in t1 and b in t2) or (a in t2 and b in t1):
+                        matched_row = row
+                        break
+
+        gt = known.get(rsid, "")
+        new_block, stars = apply_stars_to_block(gene, block, rsid, gt or None, matched_row)
+        if stars:
+            log.append(f"{rsid}={known.get(rsid, 'haplotyp')} → {stars} wiersz")
+        new_blocks.append((brsid, new_block))
+
+    rebuilt = intro.rstrip("\n")
+    for brsid, block in new_blocks:
+        if rebuilt and not rebuilt.endswith("\n"):
+            rebuilt += "\n"
+        rebuilt += block.rstrip("\n") + "\n"
+    rebuilt = rebuilt.rstrip("\n") + "\n"
+
+    sec4_match = re.search(
+        r"(### 4\.[^\n]*\n)([\s\S]*?)(?=^### 5\.|\Z)",
+        md_text,
+        re.M,
+    )
+    if not sec4_match:
+        return md_text, log
+    new_text = (
+        md_text[: sec4_match.start()]
+        + sec4_match.group(1)
+        + rebuilt
+        + md_text[sec4_match.end() :]
+    )
+    return new_text, log
+
+
+def sync_stars_to_md(by_gene: dict[str, list[dict]]) -> None:
+    total_stars = 0
+    for gene in sorted(by_gene):
+        md_path = MD_DIR / f"{gene}.md"
+        if not md_path.exists():
+            continue
+        original = md_path.read_text(encoding="utf-8")
+        updated, log = sync_gene_stars(gene, by_gene[gene], original)
+        if updated != original:
+            md_path.write_text(updated, encoding="utf-8")
+            total_stars += len(log)
+            print(f"{gene}: {', '.join(log) if log else 'wyczyszczono ★'}")
+    print(f"Zsynchronizowano ★ w {total_stars} wierszach (geny z dopasowaniem).")
+
+
+def main(by_gene: dict[str, list[dict]] | None = None) -> None:
+    if by_gene is None:
+        by_gene = load_markers()
     genes = sorted(by_gene.keys())
 
     known_total = sum(1 for g in genes for e in by_gene[g] if e["genotype"])
     marker_total = sum(len(by_gene[g]) for g in genes)
 
+    wgs = wgs_path()
+    sources = ["panel markerów z gene-rsids.js"]
+    if CSV_PATH.exists():
+        sources.insert(0, "wybrane_markery.csv")
+    if wgs:
+        sources.append(f"WGS ({wgs.name})")
+    if MH_PATH.exists():
+        sources.append("MyHeritage (build 37)")
+
     out: list[str] = [
         "# Raport osobisty — geny i warianty (GENMARKERWIKI)",
         "",
         f"**Data:** {date.today().isoformat()}  ",
-        "**Źródła genotypów:** panel wybranych markerów (CSV) + uzupełnienie z surowych danych MyHeritage (build 37)  ",
+        f"**Źródła genotypów:** {' + '.join(sources)}  ",
         "**Opisy kliniczne:** włączone w niniejszy raport (profil, mechanizm, warianty, zalecenia)",
         "",
         "## Podsumowanie",
@@ -478,20 +696,7 @@ def main() -> None:
     ]
 
     # Group by theme
-    themes = {
-        "Mózg, nastrój, stres i uwaga": [
-            "COMT", "BDNF", "DRD2", "ANKK1", "MAOA", "SLC6A4", "TPH2", "OXTR",
-            "FKBP5", "ANK3", "ADRA2A", "CACNA1C", "DBH", "APOE",
-        ],
-        "Metabolizm, dieta i substancje": [
-            "ALDH2", "CYP1A2", "LCT", "FTO", "GC", "MTHFR", "TAS2R38", "CHRNA5",
-        ],
-        "Wygląd, pigmentacja i sensoryka": [
-            "HERC2", "OCA2", "SLC45A2", "SLC24A4", "MC1R", "OR6A2", "OR2M", "ABCC11",
-        ],
-        "Serce, naczynia i hormony": ["CDH13", "ZEB2", "AR", "CLOCK"],
-        "Inne": ["ACTN3"],
-    }
+    themes = load_gene_categories()
 
     out.append("## Spis genów w raporcie\n")
     for gene in genes:
@@ -510,24 +715,15 @@ def main() -> None:
             out.append(build_gene_section(gene, by_gene[gene], md_text))
             out.append("---\n")
 
-    out.append("# Uwagi i warianty bez automatycznego dopasowania\n")
+    missing = marker_total - known_total
+    out.append("# Uwagi\n")
     out.append(
-        "Poniższe genotypy są w Twoich danych, ale nie mają osobnego wiersza w tabeli wariantów "
-        "(allely referencyjne, inna orientacja nici):\n"
+        f"**{missing} markerów** z panelu ({marker_total} łącznie) bez genotypemu w dostępnych "
+        "źródłach (WGS nie zawiera wszystkich rsID lub wymaga mapowania chr:pos).\n"
     )
-    notes = [
-        ("MAOA", "rs72554632", "CC", "W tabeli opisano tylko nosiciela allelu patogenicznego (T); CC = genotyp referencyjny (brak Gln296Ter)."),
-        ("FKBP5", "rs3800373", "CA", "Chip raportuje CA; tabela wariantów używa notacji C/alt lub C/A (inna orientacja nici)."),
-        ("TAS2R38", "rs1726866", "GG", "Chip raportuje GG; tabela używa C/C, C/T, T/T — funkcjonalnie haplotyp z rs713598 G/G i rs10246939 wskazuje supersmakosza."),
-        ("MC1R", "rs1805005", "GG", "Val60Leu — GG zwykle odpowiada allelowi referencyjnemu (brak słabego allelu „r”)."),
-        ("ABCC11", "rs17822931", "CC", "Gly180Arg — CC = brak wariantu (woskowa wydzielina, nie suchy typ)."),
-        ("ABCC11", "rs17822471", "GG", "Gly546Val — GG = referencja w kontekście MRP8/5-FU."),
-    ]
-    for gene, rsid, gt, note in notes:
-        out.append(f"- **{gene}** `{rsid}` **{gt}** — {note}")
     out.append(
-        "\n**26 markerów** z panelu nadal bez genotypemu w CSV ani MyHeritage "
-        "(m.in. APOE rs429358/rs7412, FTO, MTHFR rs1801133, ACTN3) — chip GSA nie pokrywa wszystkich SNP.\n"
+        "Genotypy bez dopasowanego wiersza w tabeli (allel referencyjny, inna orientacja nici) "
+        "są w sekcjach „Twoje warianty” przy danym genie.\n"
     )
 
     OUT.parent.mkdir(parents=True, exist_ok=True)
@@ -544,4 +740,23 @@ def main() -> None:
 
 
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Raport osobisty i synchronizacja ★ z WGS")
+    parser.add_argument(
+        "--sync-stars",
+        action="store_true",
+        help="Tylko synchronizacja ★ w md/*.md (bez raportu)",
+    )
+    parser.add_argument(
+        "--report-only",
+        action="store_true",
+        help="Tylko raport MD/HTML (bez zmiany gwiazdek)",
+    )
+    args = parser.parse_args()
+    if args.sync_stars and args.report_only:
+        print("Użyj co najwyżej jednej flagi: --sync-stars lub --report-only", file=sys.stderr)
+        sys.exit(1)
+    by_gene = load_markers()
+    if not args.report_only:
+        sync_stars_to_md(by_gene)
+    if not args.sync_stars:
+        main(by_gene)

@@ -807,6 +807,132 @@ const FIXED_VARIANT_TONES = {
       "gt gt": "negative",
     },
   },
+  AVPR1A: {
+    "rs1042615 3 utr stabilnosc mrna": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "neutral",
+    },
+    "rs11174811 regulacja pod stresem": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs10877969 proxy percepcji bolu asd": {
+      "t t": "positive",
+      "t c": "neutral",
+      "c c": "negative",
+    },
+    "rs3 allel 334 mikrosatelita wiez partnerska": {
+      "0 kopii": "positive",
+      "1 kopia": "neutral",
+      "2 kopie": "negative",
+    },
+  },
+  CHRM2: {
+    "rs324650 sine alu kognicja": {
+      "a a": "positive",
+      "a t": "neutral",
+      "t t": "negative",
+    },
+    "rs1824024 intron alkohol pochp": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+    "rs8191992 3 utr autonomiczna odpowiedz serca": {
+      "a a": "negative",
+      "a t": "neutral",
+      "t t": "positive",
+    },
+  },
+  CYP2C19: {
+    "rs4244285 c 681g a allel 2 lof": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs12248560 c 806c t allel 17 gof": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs4986893 c 636g a allel 3 lof": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+  },
+  CYP2D6: {
+    "rs3892097 g 6866g a allel 4 pm": {
+      "g g": "positive",
+      "g a": "neutral",
+      "a a": "negative",
+    },
+    "rs1065852 100c t p p34s allel 10 obnizona funkcja": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs28371706 1023c t allel 17 obnizona funkcja": {
+      "c c": "positive",
+      "c a": "neutral",
+      "a a": "negative",
+    },
+  },
+  KCNQ4: {
+    "rs4660470 nihl utrata sluchu indukowana halasem": {
+      "t t": "positive",
+      "t a": "negative",
+      "a a": "negative",
+    },
+    "rs4660468 nihl haplotyp": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs28937588 p gly285ser dfna2a patogenny": {
+      "g g": "positive",
+      "g a": "negative",
+      "a a": "negative",
+    },
+  },
+  SNAP25: {
+    "rs3746544 3 utr ekspresja w pfc": {
+      "t t": "positive",
+      "t g": "neutral",
+      "g g": "negative",
+    },
+    "rs363050 promotor piq": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "neutral",
+    },
+    "rs363043 intron grubosc kory": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+  },
+  VKORC1: {
+    "rs9923231 promotor wrazliwosc na warfaryne": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
+    "rs61742245 opornosc na warfaryne": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+  },
+  WWC1: {
+    "rs17070145 kibra pamiec epizodyczna": {
+      "c c": "negative",
+      "c t": "positive",
+      "t t": "positive",
+    },
+  },
   APOE: {
     "haplotypy apoe rs429358 rs7412": {
       "t t c c 3 3 e3 e3 cys112 arg158 typ referencyjny najbardziej powszechny calkowicie ewolucyjnie i metabolicznie poprawny optymalne zdolnosci wiazania vldl brak wplywu na akumulacje beta amyloidu": "positive",
@@ -1147,8 +1273,18 @@ function splitVariantBlocks(body) {
 function renderVariantTiles(table, context = {}) {
   const { headers, rows } = table;
   const isApoe = context.gene === "APOE";
+  const isApoeHaplotypeTable =
+    isApoe &&
+    headers.some((h) => /rs429358/i.test(h)) &&
+    headers.some((h) => /rs7412/i.test(h));
   const isApoeHaplotype =
-    isApoe && /haplotypy apoe|rs429358.*rs7412/i.test(context.heading || "");
+    isApoe &&
+    (/haplotypy apoe|rs429358.*rs7412/i.test(context.heading || "") ||
+      isApoeHaplotypeTable);
+  const toneHeading =
+    isApoeHaplotype && !context.heading
+      ? "haplotypy apoe rs429358 rs7412"
+      : context.heading;
 
   return rows
     .map((row) => {
@@ -1166,7 +1302,7 @@ function renderVariantTiles(table, context = {}) {
         .filter((item) => item.value);
       const tone = fixedVariantTone(
         context.gene,
-        context.heading,
+        toneHeading,
         genotype,
         isApoeHaplotype ? { lookupKey: normalizeToneKey(cells.join(" ")) } : {}
       );
@@ -1208,7 +1344,15 @@ function renderVariantsSection(section) {
         const subTables = splitTableByIdentifierColumn(table);
         return subTables
           .map(({ table: subTable, title: subTitle }) => {
-            const heading = block.title || subTitle;
+            const apoeHeaders = subTable.headers || [];
+            const isApoeHaplotypeGroup =
+              getGene() === "APOE" &&
+              apoeHeaders.some((h) => /rs429358/i.test(h)) &&
+              apoeHeaders.some((h) => /rs7412/i.test(h));
+            const heading =
+              block.title ||
+              subTitle ||
+              (isApoeHaplotypeGroup ? "Haplotypy APOE (rs429358 + rs7412)" : "");
             return `
           <section class="variant-group">
             ${heading ? `<h4 class="variant-group-title">${escapeHtml(heading)}</h4>` : ""}
@@ -1283,7 +1427,7 @@ function mergeDuplicateVariantSections(sections) {
     .filter(Boolean);
 }
 
-function renderSectionCard(section, options = {}) {
+function renderSectionCard(section) {
   const meta = sectionPresentation(section.title);
   const markdownBody = section.body.join("\n").trim();
   if (!markdownBody) {
@@ -1298,13 +1442,10 @@ function renderSectionCard(section, options = {}) {
     sectionBody = window.marked ? window.marked.parse(markdownBody) : markdownBody;
   }
   const enhancedBody = linkPmids(sectionBody);
-  const heading =
-    options.showSectionNumber && section.number
-      ? `${section.number}. ${meta.label}`
-      : meta.label;
+  const heading = meta.label;
 
   return `
-    <section class="section-card${options.print ? " section-card--print" : ""}">
+    <section class="section-card">
       <header class="section-head">
         <span class="section-icon">${meta.icon}</span>
         <h3>${heading}</h3>
@@ -1323,120 +1464,6 @@ function renderRow(className, html) {
 
 function renderCards(sections) {
   return sections.map(renderSectionCard).filter(Boolean).join("");
-}
-
-function renderPrintSectionCard(section) {
-  return renderSectionCard(section, { print: true, showSectionNumber: true });
-}
-
-const PRINT_PAGE_COUNT = 4;
-
-function renderPrintPageStack(pageSections) {
-  return pageSections
-    .map((section) => {
-      const html = renderPrintSectionCard(section);
-      return html ? `<div class="print-block">${html}</div>` : "";
-    })
-    .filter(Boolean)
-    .join("");
-}
-
-function renderPrintPage(sections, facts) {
-  const pages = [
-    sections.slice(0, 3),
-    sections.slice(3, 4),
-    sections.slice(4, 6),
-    sections.slice(6, 8),
-  ];
-  const subtitle = facts.find((item) => item.key.toLowerCase().includes("pełna nazwa"));
-
-  const renderPage = (pageSections, pageNum) => `
-    <section class="print-page" aria-label="Strona ${pageNum}" data-print-page="${pageNum}">
-      <header class="print-page-header">
-        <p class="print-page-meta">GenMarkerWiki · karta do druku · strona ${pageNum}/${PRINT_PAGE_COUNT}</p>
-        <h2>${escapeHtml(getGene())}</h2>
-        ${
-          pageNum === 1 && subtitle
-            ? `<p class="print-page-subtitle">${escapeHtml(subtitle.value)}</p>`
-            : ""
-        }
-      </header>
-      <div class="print-page-body">
-        <div class="print-page-sections">${renderPrintPageStack(pageSections)}</div>
-      </div>
-    </section>
-  `;
-
-  return `
-    <div class="print-document">
-      ${pages.map((pageSections, index) => renderPage(pageSections, index + 1)).join("")}
-    </div>
-  `;
-}
-
-function fitPrintPagesToSheet() {
-  if (document.body.dataset.mode !== "print") {
-    return;
-  }
-
-  const sheetHeight = () => {
-    const probe = document.createElement("div");
-    probe.style.cssText = "position:absolute;visibility:hidden;height:277mm;width:1px;";
-    document.body.appendChild(probe);
-    const height = probe.offsetHeight;
-    probe.remove();
-    return height || 1040;
-  };
-
-  const maxHeight = sheetHeight();
-
-  document.querySelectorAll(".print-page").forEach((page) => {
-    const header = page.querySelector(".print-page-header");
-    const sections = page.querySelector(".print-page-sections");
-    if (!sections) {
-      return;
-    }
-
-    sections.style.transform = "";
-    sections.style.width = "";
-    sections.style.height = "";
-
-    const headerHeight = header ? header.offsetHeight : 0;
-    const available = Math.max(120, maxHeight - headerHeight - 4);
-
-    page.style.height = `${maxHeight}px`;
-    page.style.maxHeight = `${maxHeight}px`;
-
-    const body = page.querySelector(".print-page-body");
-    if (body) {
-      body.style.maxHeight = `${available}px`;
-      body.style.height = `${available}px`;
-    }
-
-    const contentHeight = sections.scrollHeight;
-    if (contentHeight > available) {
-      const scale = available / contentHeight;
-      sections.style.transform = `scale(${scale})`;
-      sections.style.transformOrigin = "top left";
-      sections.style.width = `${(100 / scale).toFixed(3)}%`;
-    }
-  });
-}
-
-function renderGenePrintPresentation(markdown) {
-  const sections = mergeDuplicateVariantSections(parseSections(markdown));
-  const profileSection = sections.find((section) => classifySection(section) === "profile");
-  const facts = extractHeaderFacts(profileSection);
-
-  if (titleNode) {
-    titleNode.textContent = `${getGene()} — wersja do druku`;
-  }
-  if (subtitleNode) {
-    subtitleNode.textContent =
-      "Układ 4-stronicowy: 1) sekcje 1–3, 2) sekcja 4, 3) sekcje 5–6, 4) sekcje 7–8.";
-  }
-
-  return renderPrintPage(sections, facts);
 }
 
 function renderGenePresentation(markdown) {
@@ -1479,34 +1506,17 @@ function renderGenePresentation(markdown) {
   `;
 }
 
-function injectPrintLink() {
-  const nav = document.querySelector(".nav");
-  const geneSymbol = getGene();
-  if (!nav || !geneSymbol) {
-    return;
-  }
-
-  const printLink = document.createElement("a");
-  printLink.className = "btn";
-  printLink.href = `print.html?gene=${encodeURIComponent(geneSymbol)}`;
-  printLink.textContent = "Wersja do druku";
-  nav.appendChild(printLink);
-}
-
 async function loadGenePage() {
   const geneSymbol = getGene();
   if (!geneSymbol || !contentNode) {
-    if (statusNode && document.body.dataset.mode !== "print") {
+    if (statusNode) {
       statusNode.textContent =
         "Podaj symbol genu w adresie URL, np. gene.html?gene=COMT.";
     }
     return;
   }
 
-  const isPrint = document.body.dataset.mode === "print";
-  document.title = isPrint
-    ? `${geneSymbol} — druk | GenMarkerWiki`
-    : `${geneSymbol} | GenMarkerWiki`;
+  document.title = `${geneSymbol} | GenMarkerWiki`;
 
   try {
     const response = await fetch(`../md/${geneSymbol}.md`);
@@ -1515,15 +1525,7 @@ async function loadGenePage() {
     }
 
     const markdown = await response.text();
-    contentNode.innerHTML = isPrint
-      ? renderGenePrintPresentation(markdown)
-      : renderGenePresentation(markdown);
-    if (isPrint) {
-      requestAnimationFrame(() => {
-        fitPrintPagesToSheet();
-        requestAnimationFrame(fitPrintPagesToSheet);
-      });
-    }
+    contentNode.innerHTML = renderGenePresentation(markdown);
     if (statusNode) {
       statusNode.textContent = "";
     }
@@ -1546,16 +1548,4 @@ function resolveGeneFromUrl() {
 }
 
 resolveGeneFromUrl();
-
-if (document.body.dataset.mode === "print") {
-  document.documentElement.classList.add("print-mode");
-  window.fitPrintPagesToSheet = fitPrintPagesToSheet;
-  window.addEventListener("beforeprint", fitPrintPagesToSheet);
-  window.addEventListener("resize", fitPrintPagesToSheet);
-}
-
 loadGenePage();
-
-if (document.body.dataset.mode !== "print") {
-  injectPrintLink();
-}

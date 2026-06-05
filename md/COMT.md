@@ -18,12 +18,13 @@
 
 ### 4. Tabela Wariantów
 
+**rs4680 (Val158Met)**
+
 | Genotyp rs4680 | Typ Alleli (DNA) | Ekspresja i Aktywność COMT | Deskrypcja Fenotypowa (Kognicja, Stres, Emocje) |
 | :--- | :--- | :--- | :--- |
 | **G/G** | Val/Val | **Bardzo wysoka.** Pełna stabilność termiczna enzymu skutkuje szybkim i ciągłym oczyszczaniem synaps. Suboptymalne (niskie) poziomy spoczynkowej dopaminy. | **"Wojownik" (Warrior):** Genetycznie uwarunkowana, wysoka rezyliencja na stres i wrodzona potrzeba nowości. W spoczynku mają słabsze wyniki w zadaniach kognitywnych w porównaniu do grupy A/A. Gdy jednak pojawia się ostry stres środowiskowy (walka, ekstremalny sport), wyrzut adrenaliny zapewnia im optymalną pracę mózgu, ostrość umysłu i brak ulegania panice. |
 | **A/G** | Val/Met | **Umiarkowana (pośrednia).** Aktywność plasuje się pośrodku skali, utrzymując optymalne zapasy przekaźników. | **Zrównoważony:** Złoty środek ewolucyjny. Gwarantuje wysoką elastyczność poznawczą (*cognitive flexibility*), szybką adaptację bez popadania w fiksacje i paraliż, dobre zarządzanie stresem i nowymi zdarzeniami w otoczeniu. |
 | **★ A/A** | Met/Met | **Bardzo niska.** Spadek wydajności o około 75% wskutek termicznej niestabilności białka. Trwale wysokie, bliskie optimum stężenie dopaminy w korze przedczołowej. | **"Zamartwiacz" (Worrier):** Lepsza pamięć werbalna i wysokie wyniki w testach kognitywnych (IQ), przewaga w żmudnych zadaniach analitycznych. Kosztem jest jednak wyraźnie obniżony próg bólu, podatność na stany lękowe i zjawisko paraliżu decyzyjnego w sytuacjach ostrego stresu ("przebodźcowanie"). |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu A wynosi ok. 49,16%
 * **Europa (NFE):** Częstość allelu A wynosi ok. 51,64% (w FIN ok. 55,02%)

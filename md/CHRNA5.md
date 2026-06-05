@@ -29,19 +29,20 @@
 | **A/A** | Poważne upośledzenie (LoF); słabe przewodnictwo w MHb-IPN przy wysokim Ca²⁺ zewnętrznym | Brak odruchu awersji przy intoksykacji. Wysoka eskalacja nałogu tytoniowego. Najwyższe ryzyko obturacji układu oddechowego i nowotworzenia. Obniżona podatność na uzależnienie od kokainy |
 
 **rs588765 (eQTL CHRNA5 (ekspresja mRNA α5 w korze))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** (major) | Standardowa ekspresja α5 | Typowa gęstość receptorów; modulacja ryzyka palenia zależy od rs16969968 |
+| **T/T (major)** | Standardowa ekspresja α5 | Typowa gęstość receptorów; modulacja ryzyka palenia zależy od rs16969968 |
 | **T/C** | Pośrednia ekspresja | Profil pośredni uzależnienia od nikotyny w diplotypach |
-| **★ C/C** (minor hom) | Do ~2× wyższa ekspresja mRNA α5 | Moduluje liczbę receptorów na komórce; łagodzi lub potęguje efekt D398N rs16969968 w zależności od haplotypu |
+| **★ C/C (minor hom)** | Do ~2× wyższa ekspresja mRNA α5 | Moduluje liczbę receptorów na komórce; łagodzi lub potęguje efekt D398N rs16969968 w zależności od haplotypu |
 
 **rs680244 (eQTL CHRNA5 (regulacja transkrypcji))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Ekspresja referencyjna | Brak dodatkowej modulacji eQTL poza tłem populacyjnym |
 | **T/C** | Pośrednia | Umiarkowany wpływ na ryzyko uzależnienia w modelach diplotypowych |
 | **★ C/C** | Zmieniona ekspresja α5 | Część architektury haplotypowej CHRNA3–CHRNA5; interpretacja łącznie z rs16969968 i rs1051730 |
-
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel A (MAF) ~23–26%
 * **Europa (NFE):** Allel A 34–36,6%; homozygoty A/A ~10–15%

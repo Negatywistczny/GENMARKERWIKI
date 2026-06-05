@@ -11,13 +11,14 @@
       <section class="hero hero--index">
         <div class="hero__badge" aria-hidden="true">🧬</div>
         <h1>GenMarkerWiki</h1>
-        <p>
-          Indeks kart genów w repozytorium. Wersje do druku (4 strony, jasny motyw):
-          <a href="html/print-index.html">karty do druku</a>.
-        </p>
+        <p>Indeks kart genów w repozytorium.</p>
       </section>
 
-      <section class="grid" id="gene-grid"></section>
+      <nav aria-label="Kategorie genów">
+        <ul class="category-nav" id="category-nav"></ul>
+      </nav>
+
+      <div id="gene-sections"></div>
 
       <section class="rsid-index" id="rsid-index" aria-labelledby="rsid-index-title">
         <h2 id="rsid-index-title">Analizowane rsID</h2>
@@ -25,27 +26,54 @@
           Główne i powiązane identyfikatory SNP z kart genów. Pierwszy wpis przy każdym genie to zwykle
           marker główny.
         </p>
-        <ol class="rsid-index__list" id="rsid-list"></ol>
+        <div id="rsid-sections"></div>
       </section>
 
     <script src="html/gene-index.js"></script>
+    <script src="html/gene-categories.js"></script>
     <script src="html/gene-rsids.js"></script>
     <script>
-      document.getElementById("gene-grid").innerHTML = window.GENE_INDEX.map(
-        ({ gene, label, icon, tone }) => `
+      const byGene = Object.fromEntries(window.GENE_INDEX.map((entry) => [entry.gene, entry]));
+
+      function renderGeneCard({ gene, label, icon, tone }) {
+        return `
         <a class="gene-card gene-card--${tone}" href="html/gene.html?gene=${encodeURIComponent(gene)}" data-tone="${tone}">
           <span class="gene-card__icon" aria-hidden="true">${icon}</span>
           <div class="gene-card__body">
             <strong>${gene}</strong>
             <span>${label}</span>
           </div>
-        </a>`
+        </a>`;
+      }
+
+      document.getElementById("category-nav").innerHTML = window.GENE_CATEGORIES.map(
+        ({ id, label, icon, genes }) =>
+          `<li><a href="#cat-${id}"><span aria-hidden="true">${icon}</span> ${label} <span class="category-head__count">(${genes.length})</span></a></li>`
+      ).join("");
+
+      document.getElementById("gene-sections").innerHTML = window.GENE_CATEGORIES.map(
+        ({ id, label, icon, genes }) => {
+          const cards = genes
+            .map((symbol) => byGene[symbol])
+            .filter(Boolean)
+            .map(renderGeneCard)
+            .join("");
+          return `
+          <section class="category-section" id="cat-${id}" aria-labelledby="cat-${id}-title">
+            <h2 class="category-head" id="cat-${id}-title">
+              <span class="category-head__icon" aria-hidden="true">${icon}</span>
+              ${label}
+              <span class="category-head__count">${formatGeneCount(genes.length)}</span>
+            </h2>
+            <div class="grid">${cards}</div>
+          </section>`;
+        }
       ).join("");
 
       const snpediaUrl = (rsid) =>
         `https://www.snpedia.com/index.php/${rsid.charAt(0).toUpperCase()}${rsid.slice(1)}`;
 
-      document.getElementById("rsid-list").innerHTML = window.GENE_INDEX.map(({ gene, label }) => {
+      function renderRsidItem({ gene, label }) {
         const rsids = (window.GENE_RSIDS && window.GENE_RSIDS[gene]) || [];
         const chips = rsids
           .map(
@@ -58,7 +86,25 @@
           <span class="rsid-index__label">${label}</span>
           <div class="rsid-index__chips">${chips || '<span class="rsid-index__empty">—</span>'}</div>
         </li>`;
-      }).join("");
+      }
+
+      document.getElementById("rsid-sections").innerHTML = window.GENE_CATEGORIES.map(
+        ({ id, label, icon, genes }) => {
+          const items = genes
+            .map((symbol) => byGene[symbol])
+            .filter(Boolean)
+            .map(renderRsidItem)
+            .join("");
+          return `
+          <section class="category-section" aria-labelledby="rsid-${id}-title">
+            <h3 class="category-head" id="rsid-${id}-title">
+              <span class="category-head__icon" aria-hidden="true">${icon}</span>
+              ${label}
+            </h3>
+            <ol class="rsid-index__list">${items}</ol>
+          </section>`;
+        }
+      ).join("");
     </script>
     </main>
   </body>
