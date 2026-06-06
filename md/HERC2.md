@@ -26,7 +26,6 @@
 | **A/A** | Pełna pętla chromatynowa; wysoka ekspresja OCA2 | Brązowe/ciemne oczy; lepsza fotoprotekcja siatkówki i tęczówki; wyższe ryzyko astmy zawodowej (diizocyjaniany) w niektórych kohortach |
 | **A/G** | Częściowa ekspresja | Zielone/piwne (hazel) oczy; fenotyp pośredni |
 | **★ G/G** | Wyciszenie OCA2 w melanocytach irysu | Niebieskie/szare oczy, jasna karnacja; słaba ochrona UV; wyższe ryzyko czerniaka skóry i czerniaka naczyniówki (gorsze rokowanie, monosomia chr. 3); ~3% Europejczyków G/G ma brązowe oczy (epistaza TYR, TYRP1, SLC24A4) |
-
 **rs1129038 (3'-UTR (LD z rs12913832, BEH2))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **C/C** | Zgodny z ciemnymi oczami (rs12913832 A/A) | Pełna ekspresja OCA2; wyższe ryzyko vitiligo w kohortach |
 | **C/T** | Oczy piwne/zielone (pośrednie) | Częściowa ekspresja OCA2 |
 | **★ T/T** | Niebieskie oczy (z rs12913832 G/G) | Silny modyfikator jasnej pigmentacji; fotoprotekcja skóry mimo jasnych oczu |
-
 **rs916977 (intron HERC2 (BEH3, pigmentacja))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **T/T** | Typ europejski jasny | Część haplotypu jasnej skóry/włosów w modelach forensics |
 | **T/C** | Pośrednia | Mieszany fenotyp pigmentacji |
 | **★ C/C** | Modyfikator pigmentacji | Skorelowany z jasną skórą i włosami w haplotypie BEH3; brak wpływu na neuroprzekaźniki |
-
 **rs1667394 (intron HERC2 (pigmentacja skóry/włosów))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

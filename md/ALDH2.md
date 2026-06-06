@@ -23,10 +23,9 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Pełna (~100%) | Brak rumieńca alkoholowego; szybka eliminacja acetaldehydu; wyższe ryzyko uzależnienia od alkoholu i profilu kardiometabolicznego przy dużym spożyciu; wyższe ryzyko nadciśnienia i T2DM skorelowane z piciem |
+| **★ G/G** | Pełna (~100%) | Brak rumieńca alkoholowego; szybka eliminacja acetaldehydu; wyższe ryzyko uzależnienia od alkoholu i profilu kardiometabolicznego przy dużym spożyciu; wyższe ryzyko nadciśnienia i T2DM skorelowane z piciem |
 | **G/A** | Obniżona (~30–50% aktywności) | Rumień alkoholowy (Asian flush), tachykardia, bóle głowy w 30–60 min po alkoholu; silna ochrona przed alkoholizmem; przy piciu — wielokrotnie wyższe ryzyko raka przełyku i głowy/szyi |
 | **A/A** | Minimalna (~1–5%) | Ciężka reakcja na minimalne dawki alkoholu; praktyczna abstynencja; najwyższe stężenia acetaldehydu; ochrona przed uzależnieniem; niezależne ryzyko łagodnych zaburzeń poznawczych u niepijących; skrajne ryzyko nowotworów przy chronicznym piciu |
-
 **rs1229984 (ADH1B Arg48His (szybki metabolizm etanolu → aldehyd))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **★ T/T** | ADH1B dziki (Arg48) — wolniejszy etap I | Wolniejsza konwersja etanolu do acetaldehydu; łagodniejszy rumieniec przy współistnieniu rs671, ale nadal zależny od ALDH2 |
 | **T/A** | Pośrednia aktywność ADH1B | Umiarkowane przyspieszenie produkcji acetaldehydu po alkoholu |
 | **A/A** | ADH1B His48 — szybki metabolizm | Szybki wzrost acetaldehydu po piciu; u nosicieli rs671 (GA/AA) nasila rumieniec, nudności i ryzyko uzależnienia od alkoholu. Ochrona przed alkoholizmem u części kohort azjatyckich |
-
 **rs747096195 (ALDH2 p.Arg101Gly (rzadki))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **A/A** | Pełna aktywność ALDH2 | Referencyjny metabolizm aldehydu octowego |
 | **A/G** | Częściowa utrata funkcji | Rumieniec alkoholowy u osób nieazjatyckich; ostrożność z etanolem |
 | **G/G** | Silnie obniżona aktywność (rzadkie) | Phenotyp podobny do łagodnego ALDH2*2; unikać alkoholu; ryzyko kumulacji acetaldehydu |
-
 **rs190764869 (ALDH2 p.Arg114Trp (rzadki))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

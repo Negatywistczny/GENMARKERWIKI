@@ -21,7 +21,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G (C/C)** | A2/A2 | **Gęstość DRD2 w prążkowiu:** 100% (Norma)<br><br>**Profil behawioralny:** Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS. |
+| **★ G/G (C/C)** | A2/A2 | **Gęstość DRD2 w prążkowiu:** 100% (Norma)<br><br>**Profil behawioralny:** Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS. |
 | **A/G (C/T)** | A2/A1 | **Gęstość DRD2 w prążkowiu:** Zmniejszona (~20% spadku)<br><br>**Profil behawioralny:** Pośrednia redukcja stabilności białka receptorowego D2. Zauważalna podwyższona impulsywność organizmu oraz skłonność do poszukiwania wyższej stymulacji w warunkach życiowej monotonii. |
 | **A/A (T/T)** | A1/A1 | **Gęstość DRD2 w prążkowiu:** Drastycznie zmniejszona (30-40% spadku)<br><br>**Profil behawioralny:** Głęboka wrodzona hipodopaminergia oraz ekstremalne zaburzenie wewnątrzkomórkowe. Posiadacze wykazują pełnoobjawowy Zespół Niedoboru Nagrody (RDS), upośledzone uczenie się na własnych błędach, wysokie predyspozycje do otyłości, ADHD, PTSD i ciężkich nałogów. |
 ### 5. Statystyki populacyjne

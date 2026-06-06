@@ -25,23 +25,20 @@
 | **C/C** | Nominalna (100%) | **Mechanizm / ekspresja:** wydajny szlak eumelaniny<br><br>**Pigmentacja:** Ciemne włosy, skóra o wysokiej tolerancji na słońce<br><br>**Nocycepcja:** Standardowa nocycepcja |
 | **C/T** | Obniżona o 30–50% | **Pigmentacja:** Karnacja pośrednia, skłonność do piegów<br><br>**Nocycepcja:** Standardowa nocycepcja |
 | **T/T** | Całkowita utrata funkcji (LOF) | **Mechanizm / ekspresja:** brak syntezy cAMP<br><br>**Pigmentacja:** 13–20× wyższa szansa na rude włosy, skóra typu I, obfite piegi, brak zdolności do opalania<br><br>**Nocycepcja:** Zwiększona wrażliwość na ból termiczny, osłabiona odpowiedź na lidokainę i desfluran, lepsze działanie kappa-opioidów u kobiet |
-
 **rs1805008 (R160W)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Nominalna (100%) | **Pigmentacja:** Typowa pigmentacja eumelaninowa<br><br>**Nocycepcja:** Brak wpływu na ból |
+| **★ C/C** | Nominalna (100%) | **Pigmentacja:** Typowa pigmentacja eumelaninowa<br><br>**Nocycepcja:** Brak wpływu na ból |
 | **C/T** | Pośrednia (obniżona) | **Pigmentacja:** Skóra jasna, wrażliwa na UV<br><br>**Nocycepcja:** Brak wpływu na ból |
 | **T/T** | Głęboka utrata funkcji (LOF) | **Mechanizm / ekspresja:** drastyczny spadek cAMP<br><br>**Pigmentacja:** 7–10× wyższa szansa na rude włosy, blada skóra, bardzo silna skłonność do oparzeń<br><br>**Nocycepcja:** Zmodyfikowana odpowiedź na analgezję opioidową u kobiet; możliwa asocjacja z ryzykiem choroby Parkinsona |
-
 **rs1805009 (D294H)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Nominalna (100%) | **Pigmentacja:** Standardowa synteza barwnika<br><br>**Nocycepcja:** Nocycepcja w normie |
+| **★ G/G** | Nominalna (100%) | **Pigmentacja:** Standardowa synteza barwnika<br><br>**Nocycepcja:** Nocycepcja w normie |
 | **G/C** | Lekko obniżona | **Pigmentacja:** Jasna skóra, umiarkowana tolerancja UV<br><br>**Nocycepcja:** Nocycepcja w normie |
 | **C/C** | Silnie upośledzona transdukcja | **Pigmentacja:** Rude/bardzo jasne włosy, fototyp I/II, liczne piegi<br><br>**Nocycepcja:** Zwiększona podatność na ból termiczny; zmieniona farmakodynamika leków znieczulających |
-
 **rs2228479 (V92M)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -49,7 +46,6 @@
 | **G/G** | Nominalna (100%) | **Pigmentacja:** Standardowa pigmentacja<br><br>**Nocycepcja:** Brak dowodów na wpływ nerwowy |
 | **★ G/A** | Nieznacznie obniżona | **Pigmentacja:** Jasna karnacja, skłonność do oparzeń i powstawania przebarwień<br><br>**Nocycepcja:** Brak dowodów na wpływ nerwowy |
 | **A/A** | Umiarkowanie obniżona (wariant „r”) | **Pigmentacja:** Jasna karnacja, skłonność do oparzeń i plam soczewicowatych<br><br>**Nocycepcja:** Brak dowodów na wpływ nerwowy |
-
 **rs1805005 (Val60Leu (V60L, słaby allel „r”))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -57,7 +53,6 @@
 | **C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
 | **C/T** | Val/Leu | Jaśniejsze włosy, łagodniejsze opalanie |
 | **T/T** | Leu/Leu | Słabsza funkcja MC1R; predyspozycja do jasnych włosów i piegów; fotoprotekcja UV |
-
 **rs885479 (Arg163Gln (R163Q, allel „r”))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

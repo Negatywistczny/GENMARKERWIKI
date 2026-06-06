@@ -26,7 +26,6 @@
 | **C/C** | Prawidłowa metylacja cg02172182 | Stan referencyjny (~86% EUR). Brak deficytów wykonawczych; optymalna organizacja kanałów w AIS |
 | **★ C/T** | Obniżona metylacja | OR dla BD ~1,18–1,45. Więcej błędów w testach uwagi; profil pośredni |
 | **T/T** | Największa demetylacja | ~1,7% EUR. Najgorsza kontrola pobudliwości PFC; najwyższe ryzyko BD w kohortach europejskich |
-
 **rs1938526 (kognicja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **A/A** | Stabilna transkrypcja izoform w korze | Wysokie wyniki pamięci werbalnej i roboczej; profil ochronny |
 | **★ A/G** | Obniżona stabilność mRNA (korze, móżdżek) | Gorsza pamięć werbalna i utrzymanie uwagi |
 | **G/G** | Zaburzona regulacja *cis* | Rozsiane ścieńczenie kory (istota szara); deficyty neuroobrazowe |
-
 **rs9804190 (DTI, pęczek haczykowaty)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **C/C** | Prawidłowa mikrostruktura FA | Brak asocjacji z zaburzeniami nastroju w DTI |
 | **★ C/T** | Pośrednia integralność białej istoty | Niższa FA – słabsza łączność migdałowo-korowa u BD |
 | **T/T** | Osłabiona integralność szlaku | Najniższa FA; ryzyko patologii nastroju i mniejsza tolerancja na urazy mózgu (TBI) |
-
 **rs10761482 (intron / upstream ANK3 (plejotropia BD–schizofrenia))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

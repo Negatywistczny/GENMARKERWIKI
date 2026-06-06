@@ -23,7 +23,7 @@
 | :--- | :--- | :--- |
 | **T/T** | Maksymalna (~100%) | Fenotyp „Nice Guys”: sprawniejsza komunikacja kora–migdał; stabilność emocjonalna, kontrola impulsów; ochrona przed zaburzeniami nastroju i agresją |
 | **G/T** | Umiarkowana | Elastyczność pośrednia; przy ostrym stresie lub niedoborach (np. wit. D) szybciej ujawniają się deficyty |
-| **G/G** | Zredukowana (~70%) | Chroniczny deficyt serotoninowy w mózgu; hiperreaktywność migdałowata; wyższe ryzyko MDD, choroby dwubiegunowej, fobii społecznych i impulsywnej agresji w dzieciństwie |
+| **★ G/G** | Zredukowana (~70%) | Chroniczny deficyt serotoninowy w mózgu; hiperreaktywność migdałowata; wyższe ryzyko MDD, choroby dwubiegunowej, fobii społecznych i impulsywnej agresji w dzieciństwie |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu G silnie zróżnicowana geograficznie; brak jednej wartości globalnej bez stratyfikacji populacji
 * **Europa (NFE):** Allel G ~20,3%; dominuje T/T (~63–65%); G/G ~4–5%

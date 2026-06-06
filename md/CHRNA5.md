@@ -26,7 +26,6 @@
 | **G/G** | Optymalna kinetyka kanału | **Mechanizm / ekspresja:** prawidłowa przepuszczalność Ca²⁺; skuteczny szlak MHb-IPN<br><br>**Wpływ fenotypowy:** Stan referencyjny. Silna awersja na wysokie dawki nikotyny. Niższe ryzyko utrwalonego palenia i nowotworów płuc. Wyższe ryzyko uzależnienia od kokainy przy ekspozycji |
 | **★ G/A** | Umiarkowana dysfunkcja; mieszane populacje receptorów | **Mechanizm / ekspresja:** zmodyfikowana desensytyzacja<br><br>**Wpływ fenotypowy:** Pośrednie obciążenie. Umiarkowana tolerancja na nikotynę, słabsza awersja niż G/G. Ryzyko POChP i raka płuc na poziomie pośrednim |
 | **A/A** | Poważne upośledzenie (LoF) | **Mechanizm / ekspresja:** słabe przewodnictwo w MHb-IPN przy wysokim Ca²⁺ zewnętrznym<br><br>**Wpływ fenotypowy:** Brak odruchu awersji przy intoksykacji. Wysoka eskalacja nałogu tytoniowego. Najwyższe ryzyko obturacji układu oddechowego i nowotworzenia. Obniżona podatność na uzależnienie od kokainy |
-
 **rs588765 (eQTL CHRNA5 (ekspresja mRNA α5 w korze))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **T/T (major)** | Standardowa ekspresja α5 | Typowa gęstość receptorów; modulacja ryzyka palenia zależy od rs16969968 |
 | **T/C** | Pośrednia ekspresja | Profil pośredni uzależnienia od nikotyny w diplotypach |
 | **★ C/C (minor hom)** | Do ~2× wyższa ekspresja mRNA α5 | Moduluje liczbę receptorów na komórce; łagodzi lub potęguje efekt D398N rs16969968 w zależności od haplotypu |
-
 **rs680244 (eQTL CHRNA5 (regulacja transkrypcji))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

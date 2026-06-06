@@ -25,7 +25,6 @@
 | **C/C** | Ochronny | **Mechanizm / ekspresja:** sprawne ujemne sprzężenie HPA<br><br>**Wpływ fenotypowy:** Niższe ryzyko PTSD/MDD po ELA; lepszy przyrost VO2peak; mniejsza powysiłkowa hipermetylacja u kobiet |
 | **★ C/T** | Pośrednia | Wyższa reaktywność migdałowata (fMRI); style przywiązania mniej bezpieczne |
 | **T/T** | Oporność na glukokortykoidy | Wyższe ryzyko MDD (OR≈1,39); lepsza odpowiedź na SSRI/citalopram/wenlafaksynę vs C/C |
-
 **rs9296158 (intron 5, trauma dziecięca)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -33,7 +32,6 @@
 | **G/G** | Referencyjna (profil referencyjny) | Niższe ryzyko PTSD po ELA przy braku przemocy w dzieciństwie |
 | **★ G/A** | Pośrednia | Umiarkowane nasilenie po traumie |
 | **A/A** | Allel A – najwyższy efekt z ELA | Silniejsze PTSD po przemocy w dzieciństwie; ryzyko psychoz w dorosłości |
-
 **rs9470080 (PTSD + depresja — oś HPA)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -41,7 +39,6 @@
 | **C/C** | Referencyjna (profil referencyjny) | Standardowa odpowiedź na stres katastroficzny |
 | **★ C/T** | Pośrednia | Złożony fenotyp; częściowe ryzyko PTSD/depresji |
 | **T/T** | Złożony fenotyp | PTSD + depresja po katastrofach; ekstremalny stres może maskować genetykę |
-
 **rs3800373 (intron 7 / 3'-region (bezsenność, stres zawodowy))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -49,7 +46,6 @@
 | **C/C** | Ochronny (vs haplotyp ryzyka) | Niższe ryzyko zaburzeń snu i wyczerpania po stresie |
 | **★ C/A** | Pośrednia | Umiarkowana podatność na stres chroniczny |
 | **A/A** | Allel haplotypu ryzyka | Skorelowany z bezsennością i wyczerpaniem u pracowników wysokiego stresu; techniki regulacji HPA i sen |
-
 **rs7748266 (intron FKBP5 (haplotyp stresu))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -57,7 +53,6 @@
 | **T/T** | Referencyjna | Typowa odpowiedź na traumę z perspektywy tego SNP |
 | **★ T/C** | Pośrednia | Profil pośredni PTSD/depresji po traumie |
 | **C/C** | Haplotyp ryzyka | Część bloku sprzężonego z rs1360780; interpretacja wielomarkerowa |
-
 **rs9394309 (intron FKBP5 (haplotyp regulacyjny))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

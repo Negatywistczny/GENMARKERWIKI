@@ -26,7 +26,6 @@
 | **A/A (lub T/T)** | Normatywne, wyższe | Prawidłowa rezerwa witaminy D w surowicy; niższe ryzyko konstytucjonalnego niedoboru; u sportowców łatwiejsze utrzymanie optymalnego 25(OH)D |
 | **★ A/C (lub T/G)** | Obniżone o ok. 10–15% | Graniczne wartości laboratoryjne; większa sezonowa zmienność; możliwa potrzeba wyższej dawki suplementacji u dzieci i osób otyłych |
 | **C/C (lub G/G)** | Obniżone o ok. 15–20% całkowitego 25(OH)D | Wysoka podatność na „fałszywy” niedobór witaminy D przy standardowych normach; wymaga interpretacji wolnej frakcji i często wyższych dawek cholekalcyferolu pod kontrolą laboratoryjną |
-
 **rs7041 + rs4588 (izofomy białkowe Gc1f / Gc1s / Gc2)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

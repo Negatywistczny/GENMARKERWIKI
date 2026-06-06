@@ -26,7 +26,6 @@
 | **C/C** | Maksymalna transdukcja Gαolf → cAMP → CNG | Ekstremalna czułość; kolendra jak mydło, płyn do naczyń lub pluskwiaki |
 | **C/A** | Pośrednia gęstość funkcjonalnych receptorów | Zmienna; częściowa awersja, zależna od kultury i nawyków |
 | **★ A/A** | Minimalna odpowiedź na trans-2-decenal | Brak mydlanego posmaku; profil cytrusowo-ziołowy |
-
 **rs7107418 (proxy rs72921001 (OR10A2 LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **★ G/G** | Proxy ochronny | Częściej „normalny” zapach kolendry; zgodny z rs72921001 ochronnym allelem |
 | **G/A** | Pośrednia | Częściowa ochrona percepcyjna |
 | **A/A** | Brak allelu proxy ochronnego | Wyższa szansa awersji do kolendry (jak rs72921001 C/C) |
-
 **rs3930075 (OR10A2 His43Arg (LD rs72921001))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **A/A** | His/His | Część haplotypu OR6A2; modulacja aldehydów w LD |
 | **A/G** | His/Arg | Pośrednia percepcja kolendry |
 | **★ G/G** | Arg/Arg | Sprzężony z wariantami aldehydowymi; możliwa zmiana intensywności zapachu mydlanego |
-
 **rs10839631 (OR10A2 His207Arg (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -50,7 +47,6 @@
 | **A/A** | His/His | Referencyjna (w haplotypie) |
 | **A/G** | His/Arg | Pośrednia |
 | **★ G/G** | Arg/Arg | Część bloku LD kolendry; interpretacja łącznie z rs72921001 |
-
 **rs7926083 (OR10A2 Lys258Thr (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

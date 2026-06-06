@@ -26,7 +26,6 @@
 | **G (mężczyźni hemizygoti G; kobiety G/G)** | Wysoka odpowiedź na DHT w mieszkach włosowych | Znacznie podwyższone ryzyko łysienia androgenowego (AGA; OR ok. 2,7–3,3 w EUR); wyższe PSA przy BPH; skłonność do przerostu prostaty |
 | **G/A (wyłącznie kobiety)** | Pośrednia | **Uwagi lyonizacji:** efekt zależy od lyonizacji X<br><br>**Wpływ fenotypowy:** Umiarkowane ryzyko łysienia żeńskiego (FPHL); fenotyp często łagodny bez czynników metabolicznych |
 | **A (mężczyźni hemizygoti A; kobiety A/A)** | Obniżona czułość tkankowa na DHT | Silna ochrona przed AGA (~70% redukcji ryzyka u mężczyzn); niższe bazowe PSA; u kobiet z PCOS możliwe wyższe stężenie wolnego testosteronu |
-
 **rs1385699 (EDA2R p.Glu57Leu (łysienie androgenowe — silniejszy sygnał niż rs6152 u części kohort))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,12 +33,11 @@
 | **C/C** | Referencyjna funkcja EDA2R | Typowe ryzyko AGA; standardowa interpretacja łysienia |
 | **C/A (lub C/T)** | Pośrednia modulacja | Umiarkowanie wcześniejsze/przyspieszone wypadanie włosów u mężczyzn |
 | **★ A/A (lub T/T)** | Wariant sprzężony z AGA | Wyższe ryzyko łysienia androgenowego w meta-analizach; rozważ wcześniejszą terapię dermatologiczną (minoksydyl, finasteryd — po konsultacji) |
-
 **rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Dłuższe powtórzenia CAG (mediana ~23) | **Stężenie PSA:** niższe PSA<br><br>**Wpływ fenotypowy:** Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji |
+| **★ G/G** | Dłuższe powtórzenia CAG (mediana ~23) | **Stężenie PSA:** niższe PSA<br><br>**Wpływ fenotypowy:** Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji |
 | **G/A** | Pośrednia (profil CAG i PSA) | Umiarkowanie zmienione normy PSA; indywidualna ocena z urologiem |
 | **A/A** | Krótsze CAG (mediana ~20) | **Stężenie PSA:** wyższe PSA<br><br>**Wpływ fenotypowy:** Do ~65% wyższe ryzyko przekroczenia progów PSA bez nowotworu; konieczna korekta progów i ocena ryzyka raka prostaty/jajnika w kontekście rodzinnym |
 ### 5. Statystyki populacyjne

@@ -26,7 +26,6 @@
 | **A/A** | Maksymalna gęstość aktywnych receptorów | **Mechanizm / ekspresja:** silny impuls do kory węchowej<br><br>**Wpływ fenotypowy:** Wysoka wrażliwość; niski próg na tiole |
 | **★ A/G** | Funkcjonalna transdukcja | **Mechanizm / ekspresja:** dominacja allelu A<br><br>**Wpływ fenotypowy:** Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach |
 | **G/G** | Brak aktywacji OR2M7 przy metanotiolu | **Mechanizm / ekspresja:** brak depolaryzacji w opuszce węchowej<br><br>**Wpływ fenotypowy:** Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu |
-
 **rs13373863 (OR2M region (szparagi — LD z rs4481887))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
 | **G/A** | Pośrednia | Zmieniona intensywność zapachu |
 | **A/A** | Alternatywna (haplotyp) | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
-
 **rs71538191 (OR2M (powiązany haplotyp))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **G/G** | Referencyjna | Brak izolowanego efektu poza LD |
 | **★ G/A** | Pośrednia | Umiarkowana zmiana percepcji zapachowej |
 | **A/A** | Alternatywna | Część haplotypu OR2M; możliwa zmiana wykrywalności zapachu szparagów |
-
 **rs6689553 (OR2M (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -50,7 +47,6 @@
 | **T/T** | Referencyjna | Typowa percepcja w bloku |
 | **★ T/C** | Pośrednia | Profil pośredni |
 | **C/C** | Alternatywna | Skorelowany z wariantami zapachu szparagów w GWAS |
-
 **rs72765116 (OR2M (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -58,7 +54,6 @@
 | **G/G** | Referencyjna | Norma |
 | **G/A** | Pośrednia | Umiarkowana modulacja |
 | **A/A** | Alternatywna | Część bloku LD rs4481887 |
-
 **rs57711976 (OR2M (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

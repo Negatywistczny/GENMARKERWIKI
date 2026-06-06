@@ -26,7 +26,6 @@
 | **★ C/C** | Najwyższy DBH (referencyjny) | **Profil neurochemiczny:** Zbalansowany stosunek DA/NE<br><br>**Wpływ fenotypowy:** Fenotyp ochronny. Niższe ryzyko ADHD (kohorty kaukaskie). Silniejsza odpowiedź ciśnieniowa na ekstremalne zimno; predyspozycja do nadciśnienia |
 | **C/T** | Pośrednia (obniżona) | **Profil neurochemiczny:** Lekka przewaga dopaminy z kompensacją NE<br><br>**Wpływ fenotypowy:** Pośredni; novelty seeking, łagodna impulsywność; optimum ewolucyjne adaptacji |
 | **T/T** | Skrajnie niski (~11× vs C/C) | **Profil neurochemiczny:** Wysoka DA, głęboki brak NE<br><br>**Wpływ fenotypowy:** Ryzyko ADHD; psychozy przy kokainie; lekooporna depresja w alkoholizmie; Parkinson OR≈2,95 |
-
 **rs1108580 (444G>A)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **★ G/G** | Referencyjna | Niższe ryzyko ciężkiej depresji przy odwyku alkoholowym |
 | **G/A** | Pośrednia (obniżona) | Profil mieszany; modulacja ekspresji tkankowej |
 | **A/A** | Obniżony DBH osoczowy | **Mechanizm / ekspresja:** modulacja płuca/wątroba<br><br>**Wpływ fenotypowy:** Wyższe ryzyko ADHD i schizofrenii; niższe ryzyko zawału (słabszy ton współczulny). W Europie bywa „major allele” w algorytmach, klinicznie negatywny modyfikator |
-
 **rs2519154 (farmakogenomika atomoksetyny)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **T/T** | Referencyjna (major) | Słabsza remisja na atomoksetynie w ADHD (kohorty porównawcze) |
 | **★ T/C** | Pośrednia | Umiarkowana odpowiedź na atomoksetynę |
 | **C/C** | Farmakogenomiczny | Wybitnie lepsza remisja na atomoksetynie vs T/T w ADHD |
-
 **rs2519152 (farmakogenomika atomoksetyny / ADHD)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -50,7 +47,6 @@
 | **T/T** | Standardowa (DBH) | Profil referencyjny (allel major) |
 | **T/C** | Obniżona | Pośrednia hiperaktywność u dzieci (dane ograniczone) |
 | **★ C/C** | Bardzo niski DBH | Hiperaktywność u dzieci; *paternal over-transmission* (kohorty wschodnioindyjskie) |
-
 **rs129882 (ekspresja DBH — Parkinson)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -58,15 +54,13 @@
 | **C/C** | Standardowa transkrypcja | Referencyjna (profil referencyjny) |
 | **★ C/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie (profil pośredni) |
 | **T/T** | Obniżona transkrypcja | Zapalenie neuronów; wcześniejszy wiek onsetu w Parkinsonie |
-
 **rs7040170 (A>G)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjna | Typowa koncentracja i uwaga |
+| **★ A/A** | Referencyjna | Typowa koncentracja i uwaga |
 | **A/G** | Allel G obniża enzym | Zaburzenia koncentracji (profil pośredni) |
 | **G/G** | Obniżona aktywność | Zaburzenia koncentracji |
-
 **rs2873804 (intron DBH (atomoksetyna / ADHD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -74,7 +68,6 @@
 | **T/T** | Referencyjna (profil referencyjny) | Standardowa odpowiedź na atomoksetynę i stymulanty w kontekście haplotypu |
 | **T/C** | Pośrednia | Umiarkowana modulacja odpowiedzi na leczenie ADHD |
 | **★ C/C** | Haplotyp sprzężony z rs2519154 | Część profilu lepszej remisji na atomoksetynę (por. rs2519154 C/C); ocena łącznie z rs1611115 |
-
 **rs1076150 (intron DBH (ADHD, sprzężenie))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -82,7 +75,6 @@
 | **T/T** | Referencyjna | Typowy metabolizm katecholamin z perspektywy tego SNP |
 | **T/C** | Pośrednia | Profil pośredni w badaniach kohortowych ADHD |
 | **★ C/C** | Alternatywna (haplotyp) | Skorelowany z obniżoną aktywnością DBH w haplotypach ryzyka; farmakogenomika jak rs2519152 |
-
 **rs1548364 (intron DBH A>G (atomoksetyna))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

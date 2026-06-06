@@ -25,8 +25,7 @@
 | :--- | :--- | :--- |
 | **C/C** | Referencyjna transkrypcja | Słabsza odpowiedź na metylofenidat w ADHD; większa wrażliwość na sedację anestetyczną |
 | **C/G** | Pośrednia | Umiarkowana poprawa na stymulantach vs C/C; tendencja do objawów autonomicznych (choroba lokomocyjna) |
-| **G/G** | Zwiększona ekspresja (mniejszość w Europie) | Spektakularna poprawa uwagi na metylofenidacie (SNAP-IV); ~1,5× ryzyko wymiotów morskich; osłabiona sedacja |
-
+| **★ G/G** | Zwiększona ekspresja (mniejszość w Europie) | Spektakularna poprawa uwagi na metylofenidacie (SNAP-IV); ~1,5× ryzyko wymiotów morskich; osłabiona sedacja |
 **rs553668 (3'-UTR)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **G/G** | Prawidłowa regulacja miR-34a | Bezpieczny profil metaboliczny; normalna odpowiedź na deksmedetomidynę; niski WHR |
 | **★ A/G** | Pośrednia | Stopniowy wzrost glikemii na czczo i insulinooporności |
 | **A/A** | Nadekspresja receptorów | ~2× ryzyko T2D; ekstremalna hipotensja na ICU (deksmedetomidyna); błędy uwagi w testach CPT |
-
 **rs10885122 (regulacyjny (LD z rs553668; hiperglikemia stresowa))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **T/T** | Referencyjna regulacja glikemii przy stresie | Typowy profil glukozy przy ostrym stresie niedokrzeniennym; brak dodatkowego ryzyka hiperglikemii z tego locus |
 | **T/C (lub T/G)** | Pośrednia modulacja haplotypu metabolicznego | Umiarkowanie wyższa glikemia na czczo w kohortach z chorobą sercowo-naczyniową; profil pośredni względem nosicieli allelu ryzyka |
 | **★ C/C (lub G/G)** | Haplotyp sprzężony z podwyższoną glikemią | Silniejsza predykcja poziomu glukozy przy przyjęciu do szpitala z OZW; wymaga kontroli cukru i stylu życia przy obciążeniu kardiometabolicznym |
-
 **rs3750625 (3'-UTR (c.*449C>A/G/T; ból mięśniowo-szkieletowy, miR-34a))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -50,7 +47,6 @@
 | **C/C** | Prawidłowa regulacja mRNA ADRA2A | Brak zwiększonej skłonności do chronicznego bólu mięśniowo-szkieletowego pod wpływem stresu |
 | **C/A (lub C/G, C/T)** | Pośrednia destabilizacja transkryptu | Umiarkowane nasilenie objawów somatycznych przy przewlekłym stresie |
 | **A/A (lub homozygoty alt)** | Osłabiona regulacja 3'-UTR | Wyższe nasilenie bólu mięśniowo-szkieletowego w odpowiedzi na chroniczny stres; techniki redukcji stresu i monitoring metaboliczny |
-
 **rs521674 (upstream / 2 kb upstream (odraczanie gratyfikacji))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

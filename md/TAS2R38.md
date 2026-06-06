@@ -24,15 +24,13 @@
 | **★ G/G (PAV/PAV)** | **Supersmakosz** (Taster) | **Aktywność receptora:** Maksymalna struktura receptora. Gwałtowny napływ jonów wapnia i wyrzut neuroprzekaźnika ATP.<br><br>**Fenotyp immunologiczny:** Pełna synteza uderzeniowa NO w rzęskach niszcząca bakterie zatokowe. Skuteczna ochrona przed infekcjami dróg oddechowych. Egzotyczne owoce Bignay smakują wyjątkowo słodko. |
 | **G/C (PAV/AVI)** | **Średni smakosz** | **Aktywność receptora:** Pośrednia praca receptora, jedna kopia zapewnia umiarkowaną transmisję sygnału goryczy. U dzieci wrażliwość jest wyższa.<br><br>**Fenotyp immunologiczny:** Umiarkowana podatność na zakażenia i pośrednia wydolność syntezy NO w rzęskach. Wysoka elastyczność układu dietetycznego dla pokarmów. |
 | **C/C (AVI/AVI)** | **Ślepy na smak** (Non-taster) | **Aktywność receptora:** Zrujnowana przestrzennie struktura uniemożliwia łączenie z białkami G. Minimalna lub całkowicie zerowa produkcja ATP i depolaryzacja.<br><br>**Fenotyp immunologiczny:** Brak uwalniania morderczego dla bakterii tlenku azotu na rzęskach. Ekstremalnie wysokie ryzyko ulegania patogenom i wykształcenia przewlekłego zapalenia zatok (CRS). |
-
 **rs1726866 (c.785T>C, Ile262Val)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Funkcjonalny (PAV) | **Aktywność receptora:** Pełna aktywność w haplotypie PAV<br><br>**Fenotyp immunologiczny:** Współtworzy supersmakosza przy PAV na rs713598 i rs10246939 |
+| **★ C/C** | Funkcjonalny (PAV) | **Aktywność receptora:** Pełna aktywność w haplotypie PAV<br><br>**Fenotyp immunologiczny:** Współtworzy supersmakosza przy PAV na rs713598 i rs10246939 |
 | **C/T** | Pośrednia | **Aktywność receptora:** Częściowa funkcja receptora<br><br>**Fenotyp immunologiczny:** Profil mieszany w bloku haplotypowym |
 | **T/T** | Niefunkcjonalny (AVI) | **Aktywność receptora:** Obniżona percepcja goryczy w haplotypie AVI<br><br>**Fenotyp immunologiczny:** Część haplotypu non-taster; interpretacja łącznie z rs713598 |
-
 **rs10246939 (c.886A>G, Ala296Val)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
