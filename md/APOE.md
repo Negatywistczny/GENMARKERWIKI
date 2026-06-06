@@ -4,7 +4,7 @@
 * **Nazwy potoczne i medialne:** "Gen Alzheimera", "gen kruchości" (ang. *frailty gene*)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główne rsID (haplotyp):** rs429358 i rs7412
+* **Główny rsID:** rs429358 + rs7412 (haplotyp ε2/ε3/ε4)
 * **Lokalizacja chromosomalna:** Długie ramię chromosomu 19 (19q13.32)
 * **Typ wariantu:** Układ haplotypowy dwóch SNP niesynonimicznych
 * **Zapis zmian nukleotydowych:** rs429358: T>C (pozycja aminokwasowa 112, Cys/Arg); rs7412: C>T (pozycja aminokwasowa 158, Cys/Arg)
@@ -17,17 +17,19 @@
 * **Efekt funkcjonalny:** Skutki to neurodegeneracja, podwyższone ryzyko otępienia i zmiany metabolizmu lipidów – zależnie od haplotypu ε2/ε3/ε4 (sekcja 4)
 
 ### 4. Tabela Wariantów
+**rs429358 + rs7412 (haplotyp ε2/ε3/ε4)**
 
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T/T + C/C** | **★ ε3 / ε3 (E3/E3)**; Cys112 / Arg158 | **Typ referencyjny.** Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu. |
+| **C/T + C/C** | **ε3 / ε4 (E3/E4)**; Mieszane (Cys/Arg + Arg/Arg) | **Ryzyko podwyższone.** Wyższy poziom utlenionych LDL. Nosiciele są eksponowani na 2- do 4-krotnie wyższe ryzyko rozwoju choroby Alzheimera i większą podatność na miażdżycę. |
+| **C/C + C/C** | **ε4 / ε4 (E4/E4)**; Arg112 / Arg158 | **Krytyczne ryzyko.** Interakcja domenowa w całej apolipoproteinie. Powoduje 25-krotny wzrost ryzyka otępienia. Średni wiek pojawienia się Alzheimera u homozygot E4/E4 obniża się statystycznie do ledwie 68 lat. |
+| **T/T + T/C** | **ε2 / ε3 (E2/E3)**; Mieszane (Cys/Cys + Cys/Arg) | **Wysoce neuroprotekcyjny.** Ochronny wariant promujący długowieczność aparatu poznawczego. Charakteryzuje się skrajnie niskim prawdopodobieństwem łagodnych zaburzeń poznawczych (MCI) i otępienia. |
+| **T/T + T/T** | **ε2 / ε2 (E2/E2)**; Cys112 / Cys158 | **Dysfunkcja metaboliczna.** Wariant świetnie chroni przed demencją, ale wykazuje zerowe powinowactwo do receptorów w wątrobie. Grozi tzw. rodzinną dysbetalipoproteinemią przy diecie wysokotłuszczowej. |
+| **C/T + T/C** | **ε2 / ε4 (E2/E4)**; Mieszane (Cys/Cys + Arg/Arg) | **Efekt zniesienia.** Pojawienie się ochronnego ε2 "anuluje" dużą część zniszczeń, za które odpowiada patologiczny ε4, łagodząc ryzyko do poziomu standardowego. |
 
-| rs429358 | rs7412 | Izoforma (genotyp) | Kodowane aminokwasy (112/158) | Wpływ fenotypowy (kliniczny i metaboliczny) |
-| :--- | :--- | :--- | :--- | :--- |
-| **★ T / T** | **★ C / C** | **★ ε3 / ε3 (E3/E3)** | Cys112 / Arg158 | **Typ referencyjny.** Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu. |
-| **C / T** | **C / C** | **ε3 / ε4 (E3/E4)** | Mieszane (Cys/Arg + Arg/Arg) | **Ryzyko podwyższone.** Wyższy poziom utlenionych LDL. Nosiciele są eksponowani na 2- do 4-krotnie wyższe ryzyko rozwoju choroby Alzheimera i większą podatność na miażdżycę. |
-| **C / C** | **C / C** | **ε4 / ε4 (E4/E4)** | Arg112 / Arg158 | **Krytyczne ryzyko.** Interakcja domenowa w całej apolipoproteinie. Powoduje 25-krotny wzrost ryzyka otępienia. Średni wiek pojawienia się Alzheimera u homozygot E4/E4 obniża się statystycznie do ledwie 68 lat. |
-| **T / T** | **T / C** | **ε2 / ε3 (E2/E3)** | Mieszane (Cys/Cys + Cys/Arg) | **Wysoce neuroprotekcyjny.** Ochronny wariant promujący długowieczność aparatu poznawczego. Charakteryzuje się skrajnie niskim prawdopodobieństwem łagodnych zaburzeń poznawczych (MCI) i otępienia. |
-| **T / T** | **T / T** | **ε2 / ε2 (E2/E2)** | Cys112 / Cys158 | **Dysfunkcja metaboliczna.** Wariant świetnie chroni przed demencją, ale wykazuje zerowe powinowactwo do receptorów w wątrobie. Grozi tzw. rodzinną dysbetalipoproteinemią przy diecie wysokotłuszczowej. |
-| **C / T** | **T / C** | **ε2 / ε4 (E2/E4)** | Mieszane (Cys/Cys + Arg/Arg) | **Efekt zniesienia.** Pojawienie się ochronnego ε2 "anuluje" dużą część zniszczeń, za które odpowiada patologiczny ε4, łagodząc ryzyko do poziomu standardowego. |
 **rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Brak allelu G sprzężonego z ε4 | Niższe ryzyko AD w modelach proxy; nadal wymagane określenie haplotypu ε2/ε3/ε4 na rs429358 i rs7412 |
@@ -57,4 +59,4 @@
 * **PMID: 8346443** (Corder et al., 1993) – Historyczne badanie Science odkrywające efekt dawkowej współzależności genu E4 ze wzrostem występowania otępienia.
 * **PMID: 7920638** (Corder et al., 1994) – Dokumentacja ewolucyjnej formy silnie ochraniającego białka genotypu E2, opublikowana w prestiżowym Nat Genet.
 * **PMID: 28031319** (Trumble et al., 2017) – Rewolucyjne ustalenia dotyczące paradoksu populacji Indian Tsimane, potwierdzające zjawisko plejotropii w FASEB J.
-* **Baza referencyjna:** SNPedia ([rs429358](https://www.snpedia.com/index.php/Rs429358), [rs7412](https://www.snpedia.com/index.php/Rs7412)) – Indeks haplotypów ε2/ε3/ε4 i asocjacji prewencyjnych.
+* **Baza referencyjna:** [SNPedia (rs429358)](https://www.snpedia.com/index.php/Rs429358), [SNPedia (rs7412)](https://www.snpedia.com/index.php/Rs7412) – Indeks haplotypów ε2/ε3/ε4 i asocjacji prewencyjnych.

@@ -5,7 +5,7 @@
 * **Synonimy medyczne:** SIP1, ZFHX1B, SMADIP1; MOWS (haploinsuficjencja); marker ryzyka choroby wieńcowej (GWAS)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID (GWAS / kardiologia):** rs2252641
+* **Główny rsID:** rs2252641
 * **Lokalizacja chromosomalna:** Chromosom 2 (2q22.3); region niekodujący / enhancer oddziałujący na ZEB2
 * **Typ wariantu:** SNP regulacyjny (eQTL w komórkach mięśni gładkich naczyń)
 * **Zapis zmiany nukleotydowej (HGVS):** Introniczny / enhancer; allel ryzyka obniża ekspresję ZEB2 (orientacja zależna od nici — w badaniach CARDIoGRAM)
@@ -20,42 +20,55 @@
 
 ### 4. Tabela Wariantów
 **rs2252641 (CAD — enhancer ZEB2 / VSMC)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Pełna ekspresja; stabilizacja fibromiocytów (FMC) | Genotyp ochronny; niższe ryzyko niestabilnej blaszki miażdżycowej |
+| **A/A** | Pełna ekspresja | **Mechanizm / ekspresja:** stabilizacja fibromiocytów (FMC)<br><br>**Wpływ fenotypowy:** Genotyp ochronny; niższe ryzyko niestabilnej blaszki miażdżycowej |
 | **★ A/G** | Pośrednia ekspresja | Umiarkowane ryzyko powikłań zapalnych naczyniowych |
-| **G/G** | Obniżona ekspresja; przejście ku chondromiocytom | Zwiększone ryzyko wczesnego zawału (CAD); kalcyfikacja blaszki |
+| **G/G** | Obniżona ekspresja | **Mechanizm / ekspresja:** przejście ku chondromiocytom<br><br>**Wpływ fenotypowy:** Zwiększone ryzyko wczesnego zawału (CAD); kalcyfikacja blaszki |
+
 **rs17678683 (CAD — eQTL tkanka tłuszczowa / szkieletowa)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Brak podwyższonego ryzyka aterogennego w typowych kohortach |
 | **★ G/T** | Pośrednia | Subtelny wpływ na rozwój zmian miażdżycowych |
 | **T/T** | Obniżona regulacja | OR ~1,10–1,38 dla zdarzeń niedokrwiennych w niektórych kohortach |
+
 **rs6740731 (regulacyjny ZEB2 (naczynia / Mowat-Wilson kontekst))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Typowy profil bez dodatkowego ryzyka z tego SNP |
 | **G/A** | Pośrednia | Umiarkowana modulacja w badaniach kohortowych |
 | **A/A** | Alternatywna | Skorelowany w indeksie z fenotypami naczyniowymi; interpretacja łącznie z rs2252641/rs17678683 |
+
 **rs35500812 (ZEB2 (powiązany marker))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **CC/CC** | Referencyjna | Norma rozwojowa z perspektywy tego locus (brak delecji C) |
 | **★ CC/C** | Pośrednia | Profil pośredni |
 | **C/C** | Alternatywna | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
+
 **rs137852981 (ZEB2 (rzadki/regulacyjny))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Brak efektu klinicznego |
 | **G/A** | Nosiciel | Monitorowanie tylko przy silnym fenotypie rodzinnym |
 | **A/A** | Rzadki homozygot | Potencjalna regulacja ZEB2 — weryfikacja w kontekście całego panelu ZEB2 |
+
 **rs786204815 (ZEB2 (rzadki))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Norma |
 | **G/A** | Pośrednia | Brak ustalonego fenotypu klinicznego |
 | **A/A** | Rzadki | Dane fenotypowe niewystarczające — nie stosować diagnostyki Mowat-Wilson wyłącznie na tym SNP |
+
 **rs587776604 (ZEB2 (ClinVar / rzadki))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
@@ -82,7 +95,7 @@
 * **Linker region:** Dwa klastry palców cynkowych połączone elastyczną „sprężyną” — wiązanie dwóch odległych kaset E w DNA.
 
 ### 8. Źródła (Referencje)
-* **PMID: 34356053** – ZEB2 i Zespół Mowata-Wilsona (przegląd molekularny).
-* **PMID: 32919281** – Sieć regulacyjna ZEB2 a choroba wieńcowa (GWAS, enhancery).
-* **PMID: 26193487** – Zeb2 w rozwoju układu nerwowego.
-* **Baza referencyjna:** [SNPedia (Mowat-Wilson syndrome)](https://www.snpedia.com/index.php/Mowat-Wilson_syndrome) – Mutacje patogenne ZEB2.
+* **PMID: 34356053** (Birkhoff et al., 2021) – ZEB2 i Zespół Mowata-Wilsona (przegląd molekularny).
+* **PMID: 32919281** (Ma et al., 2020) – Sieć regulacyjna ZEB2 a choroba wieńcowa (GWAS, enhancery).
+* **PMID: 26193487** (Hegarty et al., 2015) – Zeb2 w rozwoju układu nerwowego.
+* **Baza referencyjna:** [SNPedia (rs2252641)](https://www.snpedia.com/index.php/Rs2252641) – Mutacje patogenne ZEB2.

@@ -18,11 +18,12 @@
 
 ### 4. Tabela Wariantów
 **rs1800497 (Taq1A / ANKK1)**
-| Genotyp rs1800497 (Nić komplementarna) | Zapis RFLP | Gęstość DRD2 w prążkowiu | Fenotyp i Profil Neurobehawioralny |
-| :--- | :--- | :--- | :--- |
-| **G/G (C/C)** | A2/A2 | 100% (Norma) | Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS. |
-| **A/G (C/T)** | A2/A1 | Zmniejszona (~20% spadku) | Pośrednia redukcja stabilności białka receptorowego D2. Zauważalna podwyższona impulsywność organizmu oraz skłonność do poszukiwania wyższej stymulacji w warunkach życiowej monotonii. |
-| **A/A (T/T)** | A1/A1 | Drastycznie zmniejszona (30-40% spadku) | Głęboka wrodzona hipodopaminergia oraz ekstremalne zaburzenie wewnątrzkomórkowe. Posiadacze wykazują pełnoobjawowy Zespół Niedoboru Nagrody (RDS), upośledzone uczenie się na własnych błędach, wysokie predyspozycje do otyłości, ADHD, PTSD i ciężkich nałogów. |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G (C/C)** | A2/A2 | **Gęstość DRD2 w prążkowiu:** 100% (Norma)<br><br>**Profil behawioralny:** Genotyp referencyjny o prawidłowej ekspresji kinazy ANKK1 i stabilności układu dopaminy. Cechuje się stabilną samokontrolą, łatwą integracją negatywnych informacji zwrotnych i brakiem wrodzonych predyspozycji do zespołu RDS. |
+| **A/G (C/T)** | A2/A1 | **Gęstość DRD2 w prążkowiu:** Zmniejszona (~20% spadku)<br><br>**Profil behawioralny:** Pośrednia redukcja stabilności białka receptorowego D2. Zauważalna podwyższona impulsywność organizmu oraz skłonność do poszukiwania wyższej stymulacji w warunkach życiowej monotonii. |
+| **A/A (T/T)** | A1/A1 | **Gęstość DRD2 w prążkowiu:** Drastycznie zmniejszona (30-40% spadku)<br><br>**Profil behawioralny:** Głęboka wrodzona hipodopaminergia oraz ekstremalne zaburzenie wewnątrzkomórkowe. Posiadacze wykazują pełnoobjawowy Zespół Niedoboru Nagrody (RDS), upośledzone uczenie się na własnych błędach, wysokie predyspozycje do otyłości, ADHD, PTSD i ciężkich nałogów. |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu mniejszościowego A wynosi ok. 32,5% (dbSNP/ALFA)
 * **Europa (NFE):** Częstość allelu mniejszościowego zwykle ok. 15,0-19,2%; orientacyjnie ~65% G/G, ~25% heterozygot, ~3% A/A
@@ -33,7 +34,9 @@
 ### 6. Wpływ na życie (Zalecenia)
 * **Wycofanie uczenia na błędach (Kognicja):** Pacjenci z markerem T wykazują za pomocą fMRI słabą aktywację kory przyśrodkowej (pMFC), co czyni ich biochemicznie ułomnymi w zapamiętywaniu i unikaniu działań kończących się negatywnymi skutkami w otoczeniu. Wymusza to system edukacyjny bazujący ściśle na pozytywnych nagrodach (wzmocnienia dodatnie) w miejsce niekorzystnego u nich karcenia i negatywnego feedbacku.
 * **Otyłość glikemiczna:** Liniowa strata receptorów D2 w prążkowiu usuwa biochemiczne odczuwanie sytości, zmuszając organizm po zjedzeniu standardowych porcji do łakomego napędu na słodycze i tłuszcze by wzbudzić wyładowania. Wymagane jest usunięcie z domu pokarmów wysoce przetworzonych oraz budowa diety o niskim indeksie z dodatkami l-tyrozyny.
-* **Potężne uzależnienia od stymulantów:** Nosiciele dziedzicznego braku D2 (T/T i C/T) doświadczają niszczącego skoku zadowolenia w czasie aplikowania np. kokainy względem osób uwarunkowanych referencyjnie, dając relacje poczucia subiektywnego "haju" ze wskaźnikami drastycznych różnic biologicznych (p = 0.00006). Wymusza to stuprocentową, całościową prewencję i zaniechanie dostępu do alkoholu, nikotyny czy leków opiatowych, w przypadku których pacjent ten posiada wielkie ryzyko złamania terapii metadonem.
+* **Uzależnienia od stymulantów:**
+  * **A/A (T/T)** i **A/G (C/T):** silniejsza subiektywna odpowiedź na kokainę (p = 0,00006) vs genotypem referencyjnym.
+  * Prewencja całkowita: alkohol, nikotyna, opiaty — wysokie ryzyko nawrotu i nietolerancji terapii metadonowej.
 * **Medycyna precyzyjna:** Ze względu na blokady w ANKK1 zaleca się szczegółowy nadzór przy leczeniu neuroleptykami typu risperidon (wyższa toksyczność) czy lekami przeciwdepresyjnymi grupy SSRI, na które receptor bywa całkowicie oporny u wariantów T.
 * **Biohacking farmakologiczny i sport:** Deficyty układu z genialnym efektem można nadrobić, przyjmując związki uwrażliwiające neurony - cytykolinę (CDP-cholinę), formy kwasów omega-3 na płynność błon oraz monofosforan urydyny. Fenomenalną upregulację i naprawę receptorów DRD2 wymusza z kolei ciężki, anaerobowy trening typu interwałowego o wysokiej intensywności (HIIT).
 

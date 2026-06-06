@@ -26,6 +26,7 @@
 | **G/G** | Prawidłowa aktywność (*1) | Optymalny klirens leków; zrównoważone monoamin w OUN |
 | **G/A** | Heterozygota | Pośredni metabolizm (IM) przy drugim allelu funkcjonalnym |
 | **A/A** | Homozygota LoF (*4/*4) | AS=0 (PM); brak aktywności; kardiotoksyczność metoprololu; wyższa impulsywność i lęk |
+
 **rs1065852 (100C>T p.P34S — allel *10, obniżona funkcja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -33,6 +34,7 @@
 | **C/C** | Referencyjna stabilność | Standardowy klirens |
 | **C/T** | Heterozygota | Umiarkowane obniżenie aktywności |
 | **T/T** | Homozygota (*10/*10) | AS=0,25; dominacja w Azji Wschodniej (~49% allelu); spowolniony obrót serotoninowy i dopaminergiczny |
+
 **rs28371706 (1023C>T — allel *17, obniżona funkcja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -60,7 +62,7 @@
 * **Neolit:** Przejście na rolnictwo faworyzowało wolniejsze allele (*4, *10, *17) — ochrona przed cytotoksycznymi metabolitami roślin.
 
 ### 8. Źródła (Referencje)
-* **PMID: 33024081** – CYP2D6 i neuralne substraty uwagi (BrainCYP).
-* **PMID: 38051947** – Farmakogenetyka neandertalczyków i denisowian.
-* **PMID: 20520586** – Ewolucja CYP2D6: zbieractwo vs rolnictwo.
-* **Baza referencyjna:** [SNPedia (CYP2D6)](https://www.snpedia.com/index.php/CYP2D6) – star alleles i Activity Score.
+* **PMID: 33024081** (Viviani et al., 2020) – CYP2D6 i neuralne substraty uwagi (BrainCYP).
+* **PMID: 38051947** (Wroblewski et al., 2023) – Farmakogenetyka neandertalczyków i denisowian.
+* **PMID: 20520586** (Fuselli et al., 2010) – Ewolucja CYP2D6: zbieractwo vs rolnictwo.
+* **Baza referencyjna:** [SNPedia (rs3892097)](https://www.snpedia.com/index.php/Rs3892097) – star alleles i Activity Score.

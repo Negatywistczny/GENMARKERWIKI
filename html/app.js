@@ -1097,12 +1097,21 @@ function genotypeLookupKeys(genotype) {
 
 function headingLookupKeys(heading) {
   const keys = [];
-  const full = normalizeToneKey(heading);
+  const h = String(heading || "");
+  const full = normalizeToneKey(h);
   if (full) keys.push(full);
-  const rsMatch = String(heading || "").match(/rs\d+/i);
-  if (rsMatch) {
-    const rsKey = normalizeToneKey(rsMatch[0]);
-    if (rsKey && rsKey !== full) keys.push(rsKey);
+  if (/rs429358/i.test(h) && /rs7412/i.test(h)) {
+    keys.push("haplotypy apoe rs429358 rs7412");
+  }
+  if (/maoa-uvntr/i.test(h)) {
+    keys.push("maoa uvntr promotor liczba powtorzen nie klasyczny snp");
+  }
+  if (/5-httlpr/i.test(h) && /rs4795541/i.test(h)) {
+    keys.push("a haplotypy regionu promotorowego 5 httlpr rs25531");
+  }
+  for (const rs of h.match(/rs\d+/gi) || []) {
+    const rsKey = normalizeToneKey(rs);
+    if (rsKey && !keys.includes(rsKey)) keys.push(rsKey);
   }
   return keys;
 }
@@ -1185,14 +1194,52 @@ function isPersonalMarker(value) {
 
 function parseTableCell(raw) {
   const text = String(raw || "").trim();
-  const segments = text
-    .split(/<br\s*\/?>/gi)
-    .map((part) => stripMarkdown(part.trim()))
+  const majorBlocks = text.split(/<br\s*\/?>\s*<br\s*\/?>/gi);
+  const segments = majorBlocks
+    .map((block) =>
+      block
+        .split(/<br\s*\/?>/gi)
+        .map((part) => stripMarkdown(part.trim()))
+        .filter(Boolean)
+        .join(" ")
+    )
     .filter(Boolean);
   return {
-    text: segments.length ? segments.join("\n") : stripMarkdown(text),
+    text: segments.length ? segments.join("\n\n") : stripMarkdown(text),
     personal: isPersonalMarker(text),
   };
+}
+
+function parseImpactSections(text) {
+  return String(text || "")
+    .split(/\n{2,}/)
+    .map((part) => part.trim())
+    .filter(Boolean)
+    .map((chunk) => {
+      const m = chunk.match(/^([^:]+):\s+(.+)$/s);
+      if (m && m[1].length <= 72) {
+        return { label: m[1].trim(), body: m[2].trim() };
+      }
+      return { label: "", body: chunk };
+    });
+}
+
+function renderImpactSections(summary) {
+  const sections = parseImpactSections(summary);
+  if (!sections.length) {
+    return "";
+  }
+  const structured = sections.length > 1 || sections.some((s) => s.label);
+  if (!structured) {
+    return `<p class="variant-impact">${escapeHtml(sections[0].body)}</p>`;
+  }
+  return `<dl class="variant-sections">${sections
+    .map((section) =>
+      section.label
+        ? `<div><dt>${escapeHtml(section.label)}</dt><dd>${escapeHtml(section.body)}</dd></div>`
+        : `<div><dd>${escapeHtml(section.body)}</dd></div>`
+    )
+    .join("")}</dl>`;
 }
 
 function formatMultilineEscaped(text) {
@@ -1441,7 +1488,7 @@ function renderVariantTiles(table, context = {}) {
                   .join("")}</dl>`
               : ""
           }
-          ${summary ? `<p class="variant-impact">${formatMultilineEscaped(summary)}</p>` : ""}
+          ${summary ? renderImpactSections(summary) : ""}
         </article>
       `;
     })

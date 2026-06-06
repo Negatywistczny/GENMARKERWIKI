@@ -20,6 +20,7 @@
 
 ### 4. Tabela Wariantów
 **rs17070145 (KIBRA — pamięć epizodyczna)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Bazowa stabilność AMPAR/PKMζ | Niższa pamięć epizodyczna u dorosłych; u dzieci 5–25 lat czasem wyższe IQ; po TBI lepsza rekonwalescencja delayed recall |
@@ -47,4 +48,4 @@
 * **PMID: 17053149** (Papassotiropoulos et al., 2006) – KIBRA a pamięć (*Science*).
 * **PMID: 24117625** (Vogt-Eisele et al., 2014) – KIBRA stabilizuje PKMζ.
 * **PMID: 36672945** (Ahmetov et al., 2023) – KIBRA, szachy i nauki ścisłe.
-* **Baza referencyjna:** [SNPedia (WWC1)](https://www.snpedia.com/index.php/WWC1) – rs17070145 i pamięć epizodyczna.
+* **Baza referencyjna:** [SNPedia (rs17070145)](https://www.snpedia.com/index.php/Rs17070145) – rs17070145 i pamięć epizodyczna.

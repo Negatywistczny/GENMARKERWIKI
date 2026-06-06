@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs1006737 (psychiatria, EH)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Profil referencyjny / ochronny | Stabilniejsza regulacja lęku; brak typowych deficytów kognitywnych z tego SNP |
 | **G/A** | Pośrednia | Umiarkowane podwyższenie ryzyka SCZ/BD/MDD i EH |
 | **A/A** | Allel ryzyka (homozygota) | Wyższe ryzyko SCZ, BD, MDD; spadek płynności mowy; wyższy glutaminian w ACC (fMRI/MRS) |
+
 **rs1051375 (farmakogenetyka kardiologiczna)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Standardowa odpowiedź na werapamil | Typowa tolerancja blokerów L-type (profil referencyjny) |
 | **★ G/A** | Pośrednia | Ostrożność przy werapamilu; monitoruj powikłania |
 | **G/G** | Nietypowa farmakodynamika | ~4,5× ryzyko powikłań kardiologicznych na werapamilu – unikać; rozważyć beta-blokery. Homozygota rzadka (<2%) – wysoka wartość prognostyczna |
+
 **rs2159100 (nastrój, BD)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Referencyjna (profil referencyjny) | Brak typowej asocjacji z zaburzeniami afektywnymi z tego SNP |
@@ -67,7 +72,7 @@
 * **Blokery L-type:** Cav1.2 jest celem werapamilu, amlodypiny i wielu leków – farmakogenetyka rs1051375 pokazuje, że „zły” lek może mieć genetyczne podłoże powikłań.
 
 ### 8. Źródła (Referencje)
-* **PMID: 20031608** – Fundamentalna rola rs1006737 w schizofrenii i chorobie dwubiegunowej (GWAS/psychiatria molekularna).
-* **PMID: 25976633** – Warianty CACNA1C a funkcje poznawcze i obrazowanie fMRI.
-* **PMID: 18711365** – Wpływ wariantów kanału wapniowego na rozwój chorób afektywnych.
+* **PMID: 20031608** (Beitelshees et al., 2009) – Fundamentalna rola rs1006737 w schizofrenii i chorobie dwubiegunowej (GWAS/psychiatria molekularna).
+* **PMID: 25976633** (Ou et al., 2015) – Warianty CACNA1C a funkcje poznawcze i obrazowanie fMRI.
+* **PMID: 18711365** (Ferreira et al., 2008) – Wpływ wariantów kanału wapniowego na rozwój chorób afektywnych.
 * **Baza referencyjna:** [SNPedia (rs1006737)](https://www.snpedia.com/index.php/Rs1006737) – CACNA1C, SCZ, BD, MDD, ciśnienie, Cav1.2.

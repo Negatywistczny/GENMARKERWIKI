@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs1042615 (3'-UTR — stabilność mRNA)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Nominalna stabilność mRNA | Standardowy BMI, ciśnienie; adaptacja lipidowa u mężczyzn |
 | **★ C/T** | Pośrednia | Umiarkowane modyfikacje BMI i ciśnienia rozkurczowego |
 | **T/T** | Zmiana stabilności transkryptu | Modyfikacja cholesterolu LDL po wysiłku; modulacja osi kortyzolowej (głos) |
+
 **rs11174811 (regulacja pod stresem)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Referencyjna ekspresja | Standardowa impulsywność i reaktywność na stres |
 | **★ C/T** | Pośrednia | Umiarkowana modulacja impulsywności |
 | **T/T** | Zmiana ekspresji pod stresem | Podwyższona impulsywność; ryzyko uzależnień (alkohol, opioidy); ryzyko ALF po paracetamolu |
+
 **rs10877969 (proxy percepcji bólu / ASD)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Referencyjna (~71% EUR) | Standardowa modulacja bólu i cech socjalizacyjnych |
@@ -68,4 +73,4 @@
 * **PMID: 18765804** (Walum et al., 2008) – AVPR1A i zachowania par partnerskich (*PNAS*).
 * **PMID: 17696996** (Knafo et al., 2008) – RS3, hipokampalne mRNA i Gra w Dyktatora.
 * **PMID: 16520824** (Yirmiya et al., 2006) – AVPR1a i autyzm — mediacja przez socjalizację.
-* **Baza referencyjna:** [SNPedia (AVPR1A)](https://www.snpedia.com/index.php/AVPR1A) – RS3, rs1042615 i zachowania społeczne.
+* **Baza referencyjna:** [SNPedia (rs1042615)](https://www.snpedia.com/index.php/Rs1042615) – RS3, rs1042615 i zachowania społeczne.

@@ -20,13 +20,16 @@
 
 ### 4. Tabela Wariantów
 **rs2282679 (ekspresja VDBP i 25(OH)D)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A (lub T/T)** | Normatywne, wyższe | Prawidłowa rezerwa witaminy D w surowicy; niższe ryzyko konstytucjonalnego niedoboru; u sportowców łatwiejsze utrzymanie optymalnego 25(OH)D |
 | **★ A/C (lub T/G)** | Obniżone o ok. 10–15% | Graniczne wartości laboratoryjne; większa sezonowa zmienność; możliwa potrzeba wyższej dawki suplementacji u dzieci i osób otyłych |
 | **C/C (lub G/G)** | Obniżone o ok. 15–20% całkowitego 25(OH)D | Wysoka podatność na „fałszywy” niedobór witaminy D przy standardowych normach; wymaga interpretacji wolnej frakcji i często wyższych dawek cholekalcyferolu pod kontrolą laboratoryjną |
+
 **rs7041 + rs4588 (izofomy białkowe Gc1f / Gc1s / Gc2)**
-| **Haplotyp (diplotyp)** | Genotypy rs7041 / rs4588 | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **Gc1f/1f** | T/T + C/C | Najwyższe stężenie całkowitego 25(OH)D; maksymalna stabilność VDBP; częsty u populacji afrykańskiej |
 | **Gc1s/1s** | G/G + C/C | Wysokie stężenie całkowite; klasyczny profil europejski; u palaczy zwiększone ryzyko POChP |
@@ -55,8 +58,8 @@
 * **Retrakcje GcMAF:** Hipoteza immunostymulacji przez GcMAF została obalona przez retrakcje publikacji; nie jest podstawą medycyny opartej na dowodach.
 
 ### 8. Źródła (Referencje)
-* **PMID: 31998239** – Przegląd 60 lat badań nad VDBP/GC.
-* **PMID: 35055118** – rs7041 i rs4588 a ryzyko chorób cywilizacyjnych.
-* **PMID: 29409465** – rs2282679 a ryzyko i przeżycie w raku jelita grubego.
-* **PMID: 37814286** – rs2282679 a niedobór witaminy D w populacji irańskiej (sezonowość).
-* **Baza referencyjna:** [SNPedia (GC)](https://www.snpedia.com/index.php/Gc) – Haplotypy Gc, rs2282679 i interpretacja 25(OH)D.
+* **PMID: 31998239** (Bouillon et al., 2019) – Przegląd 60 lat badań nad VDBP/GC.
+* **PMID: 35055118** (Rozmus et al., 2022) – rs7041 i rs4588 a ryzyko chorób cywilizacyjnych.
+* **PMID: 29409465** (Zhu et al., 2018) – rs2282679 a ryzyko i przeżycie w raku jelita grubego.
+* **PMID: 37814286** (Asghari et al., 2023) – rs2282679 a niedobór witaminy D w populacji irańskiej (sezonowość).
+* **Baza referencyjna:** [SNPedia (rs2282679)](https://www.snpedia.com/index.php/Rs2282679) – Haplotypy Gc, rs2282679 i interpretacja 25(OH)D.

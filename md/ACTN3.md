@@ -17,11 +17,12 @@
 
 ### 4. Tabela Wariantów
 **rs1815739 (R577X — włókna szybkokurczliwe)**
-| Genotyp (DNA) | Nomenklatura | Ekspresja Białka ACTN3 | Fenotyp, budowa ciała i wydolność |
-| :--- | :--- | :--- | :--- |
-| **C/C** | R/R (Dziki) | Pełna / Optymalna | **Wysoka Siła Eksplozywna:** Dominacja włókien szybkokurczliwych. Predyspozycje do sprintów, skoków i sportów siłowych. Zwiększona stabilność prążka Z znakomicie chroni komórki mięśniowe przed uszkodzeniami i mikrourazami w trakcie gwałtownych ruchów. |
-| **C/T** | R/X (Mieszany) | Częściowa | **Profil Zrównoważony:** Złoty środek stanowiący kompromis pomiędzy wydolnością tlenową a beztlenową (siłową). Szlaki wewnątrzkomórkowe pozostają w równowadze. Idealny genotyp do sportów o charakterystyce interwałowej i wielokierunkowej (np. koszykówka, sztuki walki, piłka nożna). |
-| **T/T** | X/X (Mutacja) | Całkowity Deficyt | **Dominacja Wytrzymałości:** Przejście metabolizmu w stronę tlenową. Brak zdolności do maksymalnego zrywu, jednak wybitna odporność na wyczerpanie. Kosztem jest drastycznie osłabiona struktura prążka Z, co skutkuje potężnym wzrostem ryzyka mikrouszkodzeń tkanki (potreningowe "zakwasy" i bolesność) po treningach siłowych. |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | R/R (Dziki); Pełna / Optymalna | **Wysoka Siła Eksplozywna:** Dominacja włókien szybkokurczliwych. Predyspozycje do sprintów, skoków i sportów siłowych. Zwiększona stabilność prążka Z znakomicie chroni komórki mięśniowe przed uszkodzeniami i mikrourazami w trakcie gwałtownych ruchów. |
+| **C/T** | R/X (Mieszany) | **Aktywność resztkowa:** Częściowa<br><br>**Profil Zrównoważony:** Złoty środek stanowiący kompromis pomiędzy wydolnością tlenową a beztlenową (siłową). Szlaki wewnątrzkomórkowe pozostają w równowadze. Idealny genotyp do sportów o charakterystyce interwałowej i wielokierunkowej (np. koszykówka, sztuki walki, piłka nożna). |
+| **T/T** | X/X (Mutacja); Całkowity Deficyt | **Dominacja Wytrzymałości:** Przejście metabolizmu w stronę tlenową. Brak zdolności do maksymalnego zrywu, jednak wybitna odporność na wyczerpanie. Kosztem jest drastycznie osłabiona struktura prążka Z, co skutkuje potężnym wzrostem ryzyka mikrouszkodzeń tkanki (potreningowe "zakwasy" i bolesność) po treningach siłowych. |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Około 18–20% populacji stanowią homozygoty X/X (deficyt ACTN3), co odpowiada ok. 1,5 mld osób
 * **Europa (NFE):** Allel R występuje z częstością ok. 57%, a genotyp X/X u ok. 18% populacji
@@ -35,7 +36,7 @@
 * **Prewencja Kontuzji (Ostrzeżenie dla XX):** Brak alfa-aktyniny-3 powoduje, że mięśnie są od 2,6 do 4,7 razy bardziej narażone na bezkontaktowe naderwania i uszkodzenia ścięgien (skręcenia kostki, kolana). Takie osoby pod żadnym pozorem nie powinny bez przygotowania wykonywać morderczych tzw. ćwiczeń ekscentrycznych (np. drastyczne zbieganie z góry z ciężarem), ponieważ grozi im patologiczna rabdomioliza (rozpad włókien mięśniowych). Ich regeneracja po siłowni potrwa znacznie dłużej.
 * **Suplementacja Kreatyną:** Ponieważ osoby z brakiem białka (XX) cierpią na strukturalne osłabienie mięśni, kreatyna ratuje u nich uwodnienie i nasycenie sarkomeru fosfokreatyną, zauważalnie redukując powysiłkowe niszczenie tkanek i obniżając stan zapalny.
 * **Opóźnienie degradacji mózgu:** Paradoksalnie "słabszy" sportowo genotyp XX w przeprowadzonych testach (Test Stroopa) korelował pozytywnie z lepszymi parametrami poznawczymi w późnej starości. Szlaki tlenowe zabezpieczają sieć naczyń i natleniają korę przedczołową na długie dekady.
-
+* **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 ### 7. Ciekawostki
 * **Ewolucja i Epoka Lodowcowa:** Mutacja X pojawiła się około 135 000 lat temu. Rozprzestrzeniła się jednak lawinowo (ok. 40-50 tys. lat temu) dopiero po opuszczeniu Afryki ("Out of Africa"). Dlaczego "upośledzający" siłę gen zyskał poklask ewolucji? Zespół z Instytutu Karolinska udowodnił w ekstremalnych testach (zanurzanie w basenie o temperaturze 14°C), że brak genu ACTN3 zmusza organizm do masowej generacji ciepła z mięśni (szlaki tlenowe), drastycznie ułatwiając przeżycie i opóźniając spadek temperatury rdzeniowej. Gen sprintera zmienił się w epokach zlodowaceń w "gen pieca".
 

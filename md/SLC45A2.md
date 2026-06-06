@@ -20,30 +20,39 @@
 
 ### 4. Tabela Wariantów
 **rs16891982 (L374F — pigmentacja i ryzyko CMM)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Pełna stabilność; neutralne pH, wysoka tyrozynaza | Ciemna pigmentacja; 7-krotne OR czarnych włosów vs G/G w EUR; ochrona przed czerniakiem (OR ~0,41); dobre opalanie |
-| **C/G** | Haplosuficjencja; obniżona ekspresja funkcjonalna | Umiarkowana pigmentacja; włosy blond–brąz; pośrednie ryzyko oparzeń i CMM |
-| **★ G/G** | Niestabilne F374; degradacja proteasomalna | Bardzo jasna skóra, blond, słaba ochrona UV; OR CMM ~3,44 (AUD); synergia z MC1R (OR >5) |
+| **C/C** | Pełna stabilność | **Mechanizm / ekspresja:** neutralne pH, wysoka tyrozynaza<br><br>**Wpływ fenotypowy:** Ciemna pigmentacja; 7-krotne OR czarnych włosów vs G/G w EUR; ochrona przed czerniakiem (OR ~0,41); dobre opalanie |
+| **C/G** | Haplosuficjencja | **Mechanizm / ekspresja:** obniżona ekspresja funkcjonalna<br><br>**Wpływ fenotypowy:** Umiarkowana pigmentacja; włosy blond–brąz; pośrednie ryzyko oparzeń i CMM |
+| **★ G/G** | Niestabilne F374 | **Mechanizm / ekspresja:** degradacja proteasomalna<br><br>**Wpływ fenotypowy:** Bardzo jasna skóra, blond, słaba ochrona UV; OR CMM ~3,44 (AUD); synergia z MC1R (OR >5) |
+
 **rs26722 (E272K — wariant wschodnioazjatycki)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Ancestralny (Glu272); pełna funkcja | Odniesienie populacyjne; ciemna pigmentacja u Afrykanów lub współistnienie z wariantami depigmentacyjnymi w EUR |
 | **G/A** | Heterozygota (Glu/Lys); pośrednia | Pośredni wpływ na odcień włosów w Azji; profil mieszany między ancestral a wariantem EAS |
-| **A/A** | Lys272; łagodna zmiana domeny błonowej | MAF do ~40% w EAS; możliwy wpływ na odcień włosów w Azji; klasyfikacja łagodna (brak związku z CMM) |
+| **A/A** | Lys272 | **Mechanizm / ekspresja:** łagodna zmiana domeny błonowej<br><br>**Wpływ fenotypowy:** MAF do ~40% w EAS; możliwy wpływ na odcień włosów w Azji; klasyfikacja łagodna (brak związku z CMM) |
+
 **rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjna (globalna) | Brak zmiany aminokwasu; marker genealogiczny w haplotypach |
 | **A/G** | Heterozygota | Śledzenie subpopulacji w LD z innymi markerami pigmentacji |
 | **★ G/G** | Alternatywna | Rzadki; pomaga w rekonstrukcji haplotypów MATP bez zmiany funkcji białka |
+
 **rs121912621 (p.Asp157Asn (OCA4 — patogenny))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Asp/Asp — funkcja MATP | Prawidłowa pigmentacja; brak OCA4 |
 | **G/A** | Nosiciel | Zwykle asymptomatyczny nosiciel; ryzyko u potomstwa przy partnerze nosicielu |
 | **A/A** | Asn/Asn | Albinizm oka-skóra typ 4 (OCA4): brak eumelaniny, fotofobia, wysokie ryzyko raka skóry — opieka okulistyczna i dermatologiczna |
+
 **rs375077956 (p.Tyr266Ter (OCA4, nonsense))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Pełne białko | Norma pigmentacji |
@@ -72,8 +81,8 @@
 * **Immunoterapia czerniaka:** Peptydy SLC45A2 jako antygen nowotworowy z niską ekspresją w zdrowych melanocytach (PMID: 28630054).
 
 ### 8. Źródła (Referencje)
-* **PMID: 18563784** – SLC45A2 a ryzyko złośliwego czerniaka (ochrona allelu C).
-* **PMID: 18806926** – L374F a kolor włosów (OR 7,05 dla czarnych włosów przy C/C).
-* **PMID: 28630054** – SLC45A2 jako antygen czerniaka w immunoterapii.
-* **PMID: 32966160** – Stabilność białka SLC45A2 i pH melanosomów.
+* **PMID: 18563784** (Fernandez et al., 2008) – SLC45A2 a ryzyko złośliwego czerniaka (ochrona allelu C).
+* **PMID: 18806926** (Branicki et al., 2008) – L374F a kolor włosów (OR 7,05 dla czarnych włosów przy C/C).
+* **PMID: 28630054** (Park et al., 2017) – SLC45A2 jako antygen czerniaka w immunoterapii.
+* **PMID: 32966160** (Le et al., 2020) – Stabilność białka SLC45A2 i pH melanosomów.
 * **Baza referencyjna:** [SNPedia (rs16891982)](https://www.snpedia.com/index.php/Rs16891982) – Pigmentacja skóry i CMM.

@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs2104286 (ekspresja CD25)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Wysoka | Silniejsze Treg; niższe ryzyko MS, T1D, RA |
 | **★ C/T** | Pośrednia | Umiarkowane ryzyko autoimmunologiczne |
 | **T/T** | Niska | Podwyższone ryzyko MS (~1,2×), T1D, uveitis; słabsza odpowiedź na IL-2 w terapii |
+
 **rs11594656 (promotor 5' — T1D)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Ochronna | Niższy sCD25; protekcja przed destrukcją wysp trzustkowych |
 | **★ T/A** | Pośrednia | Umiarkowana modulacja ryzyka T1D |
 | **T/T** | Obniżona | Wyższa synteza sIL-2Rα; podwyższone ryzyko cukrzycy typu 1 |
+
 **rs12722489 (C/T — LD z MS)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Ochronny | Niższe ryzyko stwardnienia rozsianego |

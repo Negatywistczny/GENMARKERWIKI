@@ -20,23 +20,28 @@
 
 ### 4. Tabela Wariantów
 **rs6152 (uwaga: gen na chromosomie X — mężczyźni mają jeden allel)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G (mężczyźni hemizygoti G; kobiety G/G)** | Wysoka odpowiedź na DHT w mieszkach włosowych | Znacznie podwyższone ryzyko łysienia androgenowego (AGA; OR ok. 2,7–3,3 w EUR); wyższe PSA przy BPH; skłonność do przerostu prostaty |
-| **G/A (wyłącznie kobiety)** | Pośrednia; efekt zależy od lyonizacji X | Umiarkowane ryzyko łysienia żeńskiego (FPHL); fenotyp często łagodny bez czynników metabolicznych |
+| **G/A (wyłącznie kobiety)** | Pośrednia | **Uwagi lyonizacji:** efekt zależy od lyonizacji X<br><br>**Wpływ fenotypowy:** Umiarkowane ryzyko łysienia żeńskiego (FPHL); fenotyp często łagodny bez czynników metabolicznych |
 | **A (mężczyźni hemizygoti A; kobiety A/A)** | Obniżona czułość tkankowa na DHT | Silna ochrona przed AGA (~70% redukcji ryzyka u mężczyzn); niższe bazowe PSA; u kobiet z PCOS możliwe wyższe stężenie wolnego testosteronu |
+
 **rs1385699 (EDA2R p.Glu57Leu (łysienie androgenowe — silniejszy sygnał niż rs6152 u części kohort))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Referencyjna funkcja EDA2R | Typowe ryzyko AGA; standardowa interpretacja łysienia |
 | **C/A (lub C/T)** | Pośrednia modulacja | Umiarkowanie wcześniejsze/przyspieszone wypadanie włosów u mężczyzn |
 | **★ A/A (lub T/T)** | Wariant sprzężony z AGA | Wyższe ryzyko łysienia androgenowego w meta-analizach; rozważ wcześniejszą terapię dermatologiczną (minoksydyl, finasteryd — po konsultacji) |
+
 **rs1204038 (AR intron 8 (PSA, rak prostaty, autoimmunologia))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Dłuższe powtórzenia CAG (mediana ~23); niższe PSA | Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji |
+| **G/G** | Dłuższe powtórzenia CAG (mediana ~23) | **Stężenie PSA:** niższe PSA<br><br>**Wpływ fenotypowy:** Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji |
 | **G/A** | Pośrednia (profil CAG i PSA) | Umiarkowanie zmienione normy PSA; indywidualna ocena z urologiem |
-| **A/A** | Krótsze CAG (mediana ~20); wyższe PSA | Do ~65% wyższe ryzyko przekroczenia progów PSA bez nowotworu; konieczna korekta progów i ocena ryzyka raka prostaty/jajnika w kontekście rodzinnym |
+| **A/A** | Krótsze CAG (mediana ~20) | **Stężenie PSA:** wyższe PSA<br><br>**Wpływ fenotypowy:** Do ~65% wyższe ryzyko przekroczenia progów PSA bez nowotworu; konieczna korekta progów i ocena ryzyka raka prostaty/jajnika w kontekście rodzinnym |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Rozkład allelu G/A silnie zależny od pochodzenia; globalne MAF allelu A ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** Allel G (ryzyka) ok. 76–86%; allel A ok. 14–24%; rs6152 ma wartość predykcyjną dla AGA
@@ -59,7 +64,7 @@
 
 ### 8. Źródła (Referencje)
 * **PMID: 1449253** (La Spada et al., 1991) – Ekspansja CAG w AR jako przyczyna choroby Kennedy'ego (*Nature*).
-* **PMID: 24665929** (2014) – rs6152, AGA i PSA u pacjentów z BPH i rakiem prostaty.
-* **PMID: 9777765** (1998) – Skuteczność finasterydu w AGA (*JAAD*).
-* **PMID: 30883806** – Długość powtórzeń CAG w AR a płodność mężczyzn (metaanaliza).
-* **Baza referencyjna:** [SNPedia (AR)](https://www.snpedia.com/index.php/AR) – Panel wariantów AR, rs6152, CAGn i fenotypy androgenowe.
+* **PMID: 24665929** (Kucerova et al., 2015) – rs6152, AGA i PSA u pacjentów z BPH i rakiem prostaty.
+* **PMID: 9777765** (Kaufman et al., 1998) – Skuteczność finasterydu w AGA (*JAAD*).
+* **PMID: 30883806** (Salvadori et al., 2019) – Długość powtórzeń CAG w AR a płodność mężczyzn (metaanaliza).
+* **Baza referencyjna:** [SNPedia (rs6152)](https://www.snpedia.com/index.php/Rs6152) – Panel wariantów AR, rs6152, CAGn i fenotypy androgenowe.

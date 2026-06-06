@@ -26,6 +26,7 @@
 | **G/G** | Prawidłowa synteza białka | Standardowy obrót estradiolu i serotoniny; normalny klirens leków |
 | **G/A** | Heterozygota LoF | Umiarkowane obniżenie aktywności; częściowe upośledzenie eliminacji leków (IM) |
 | **A/A** | Homozygota LoF (*2/*2) | Brak aktywnego enzymu (PM); upośledzona aktywacja klopidogrelu; wyższa odporność na depresję u kobiet (PM) |
+
 **rs12248560 (c.-806C>T — allel *17, GoF)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -33,6 +34,7 @@
 | **C/C** | Prawidłowa transkrypcja | Standardowa wydajność metaboliczna (NM) |
 | **★ C/T** | Heterozygota GoF | Podwyższona transkrypcja mRNA; przyspieszona inaktywacja substratów (RM) |
 | **T/T** | Homozygota GoF (*17/*17) | Skrajnie wysoka ekspresja (UM); szybka eliminacja estrogenów płodowych; obniżona stabilność emocjonalna, wyższe ryzyko zachowań suicydalnych w depresji |
+
 **rs4986893 (c.636G>A — allel *3, LoF)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -60,7 +62,7 @@
 * **Mózg płodu:** CYP2C19 metabolizuje estrogeny i endokannabinoidy — moduluje dymorfizm płciowy struktur podkorowych.
 
 ### 8. Źródła (Referencje)
-* **PMID: 27895323** – CYP2C19, depresja i homeostaza hipokampa.
-* **PMID: 24690327** – Selekcja ewolucyjna alleli LoF w neolicie.
-* **PMID: 35034351** – CPIC 2022: CYP2C19 i klopidogrel.
-* **Baza referencyjna:** [SNPedia (CYP2C19)](https://www.snpedia.com/index.php/CYP2C19) – diplotypy i fenotypy metaboliczne.
+* **PMID: 27895323** (Jukić et al., 2017) – CYP2C19, depresja i homeostaza hipokampa.
+* **PMID: 24690327** (Janha et al., 2014) – Selekcja ewolucyjna alleli LoF w neolicie.
+* **PMID: 35034351** (Lee et al., 2022) – CPIC 2022: CYP2C19 i klopidogrel.
+* **Baza referencyjna:** [SNPedia (rs4244285)](https://www.snpedia.com/index.php/Rs4244285) – diplotypy i fenotypy metaboliczne.

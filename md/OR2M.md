@@ -20,36 +20,47 @@
 
 ### 4. Tabela Wariantów
 **rs4481887 (anosmia szparagowa / percepcja moczu)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Maksymalna gęstość aktywnych receptorów; silny impuls do kory węchowej | Wysoka wrażliwość; niski próg na tiole |
-| **★ A/G** | Funkcjonalna transdukcja; dominacja allelu A | Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach |
-| **G/G** | Brak aktywacji OR2M7 przy metanotiolu; brak depolaryzacji w opuszce węchowej | Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu |
+| **A/A** | Maksymalna gęstość aktywnych receptorów | **Mechanizm / ekspresja:** silny impuls do kory węchowej<br><br>**Wpływ fenotypowy:** Wysoka wrażliwość; niski próg na tiole |
+| **★ A/G** | Funkcjonalna transdukcja | **Mechanizm / ekspresja:** dominacja allelu A<br><br>**Wpływ fenotypowy:** Prawidłowa detekcja; zapach „gotowanej kapusty” po szparagach |
+| **G/G** | Brak aktywacji OR2M7 przy metanotiolu | **Mechanizm / ekspresja:** brak depolaryzacji w opuszce węchowej<br><br>**Wpływ fenotypowy:** Specyficzna anosmia szparagowa; brak zapachu siarkowych metabolitów w moczu |
+
 **rs13373863 (OR2M region (szparagi — LD z rs4481887))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
 | **G/A** | Pośrednia | Zmieniona intensywność zapachu |
 | **A/A** | Alternatywna (haplotyp) | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
+
 **rs71538191 (OR2M (powiązany haplotyp))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Brak izolowanego efektu poza LD |
 | **★ G/A** | Pośrednia | Umiarkowana zmiana percepcji zapachowej |
 | **A/A** | Alternatywna | Część haplotypu OR2M; możliwa zmiana wykrywalności zapachu szparagów |
+
 **rs6689553 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Referencyjna | Typowa percepcja w bloku |
 | **★ T/C** | Pośrednia | Profil pośredni |
 | **C/C** | Alternatywna | Skorelowany z wariantami zapachu szparagów w GWAS |
+
 **rs72765116 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Norma |
 | **G/A** | Pośrednia | Umiarkowana modulacja |
 | **A/A** | Alternatywna | Część bloku LD rs4481887 |
+
 **rs57711976 (OR2M (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Norma percepcji |
@@ -76,8 +87,8 @@
 * **BMJ Christmas Study:** GWAS anosmii szparagowej (~7000 osób) zainspirowany kolacją naukową w Szwecji (Markt et al., 2016).
 
 ### 8. Źródła (Referencje)
-* **PMID: 27965198** – Markt et al. (2016) GWAS anosmii szparagowej, rs4481887.
-* **PMID: 20876394** – Pelchat et al. (2011) Wydalanie vs percepcja zapachu szparagów.
-* **PMID: 27916748** – Noe et al. (2017) OR2M3 a tiole cebulowe.
-* **PMID: 31435697** – Haag et al. (2020) Motyw miedziowy w OR2M3.
+* **PMID: 27965198** (Markt et al., 2016) – Markt et al. (2016) GWAS anosmii szparagowej, rs4481887.
+* **PMID: 20876394** (Pelchat et al., 2011) – Pelchat et al. (2011) Wydalanie vs percepcja zapachu szparagów.
+* **PMID: 27916748** (Noe et al., 2017) – Noe et al. (2017) OR2M3 a tiole cebulowe.
+* **PMID: 31435697** (Haag et al., 2020) – Haag et al. (2020) Motyw miedziowy w OR2M3.
 * **Baza referencyjna:** [SNPedia (rs4481887)](https://www.snpedia.com/index.php/Rs4481887) – Anosmia szparagowa i haplotypy OR.

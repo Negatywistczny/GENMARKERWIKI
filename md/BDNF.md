@@ -18,11 +18,12 @@
 
 ### 4. Tabela Wariantów
 **rs6265 (Val66Met — sekrecja BDNF)**
-| Genotyp | Status alleliczny | Poziom sekrecji zależnej od aktywności | Charakterystyka neurobiologiczna i wpływ na kognicję | Korelaty somatyczne i metaboliczne |
-| :--- | :--- | :--- | :--- | :--- |
-| **G/G** | Homozygota dzika (Val/Val) | Optymalny (100%). | Prawidłowe wewnątrzkomórkowe sortowanie i transport pęcherzykowy. Optymalna objętość hipokampa i kory przedczołowej. Wysoka sprawność pamięci epizodycznej, czytania ze zrozumieniem i uczenia się motorycznego. Szybka powysiłkowa synteza BDNF. | Prawidłowa kontrola łaknienia. Niższe ryzyko otyłości przy zbilansowanej diecie. Wyjściowo wyższe parametry ciśnienia tętniczego (OR=2,05). |
-| **★ A/G** | Heterozygota (Val/Met) | Umiarkowanie obniżony (~70%). | Częściowe upośledzenie transportu pęcherzykowego. Podwyższona podatność na stres i utrudnione wygaszanie reakcji lękowych. Zwiększone ryzyko zaburzeń nastroju w odpowiedzi na traumę. | Umiarkowana tendencja do odkładania tkanki tłuszczowej przy diecie wysokokalorycznej. Zależność parametrów metabolicznych od podaży tłuszczów. |
-| **A/A** | Homozygota pochodna (Met/Met) | Silnie obniżony (<50%). | Krytyczne zaburzenie uwalniania synaptycznego. Zredukowana objętość istoty szarej hipokampa i kory przedczołowej. Istotne deficyty pamięci deklaratywnej i konsolidacji śladów pamięciowych. | Podwyższona podatność na otyłość brzuszną przy niskiej podaży energii (OR=2,538). Niższe ciśnienie skurczowe i rozkurczowe krwi. |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Homozygota dzika (Val/Val); Optymalny (100%). | **Neurobiologia / kognicja:** Prawidłowe wewnątrzkomórkowe sortowanie i transport pęcherzykowy. Optymalna objętość hipokampa i kory przedczołowej. Wysoka sprawność pamięci epizodycznej, czytania ze zrozumieniem i uczenia się motorycznego. Szybka powysiłkowa synteza BDNF.<br><br>**Korelaty somatyczne:** Prawidłowa kontrola łaknienia. Niższe ryzyko otyłości przy zbilansowanej diecie. Wyjściowo wyższe parametry ciśnienia tętniczego (OR=2,05). |
+| **★ A/G** | Heterozygota (Val/Met); Umiarkowanie obniżony (~70%). | **Neurobiologia / kognicja:** Częściowe upośledzenie transportu pęcherzykowego. Podwyższona podatność na stres i utrudnione wygaszanie reakcji lękowych. Zwiększone ryzyko zaburzeń nastroju w odpowiedzi na traumę.<br><br>**Korelaty somatyczne:** Umiarkowana tendencja do odkładania tkanki tłuszczowej przy diecie wysokokalorycznej. Zależność parametrów metabolicznych od podaży tłuszczów. |
+| **A/A** | Homozygota pochodna (Met/Met); Silnie obniżony (<50%). | **Neurobiologia / kognicja:** Krytyczne zaburzenie uwalniania synaptycznego. Zredukowana objętość istoty szarej hipokampa i kory przedczołowej. Istotne deficyty pamięci deklaratywnej i konsolidacji śladów pamięciowych.<br><br>**Korelaty somatyczne:** Podwyższona podatność na otyłość brzuszną przy niskiej podaży energii (OR=2,538). Niższe ciśnienie skurczowe i rozkurczowe krwi. |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Marker rs6265 wykazuje wysokie zróżnicowanie między populacjami (FST ok. 0,149); brak jednej uniwersalnej częstości allelu Met dla wszystkich kohort
 * **Europa (NFE):** Allel Met zwykle ok. 17-19%; w populacji polskiej orientacyjnie Val/Val 64-68%, Val/Met 28-29%, Met/Met ok. 3%
@@ -31,9 +32,16 @@
 * **Uwagi o zmienności populacyjnej:** To jeden z najbardziej geograficznie zróżnicowanych SNP niesynonimicznych; porównania wymagają uwzględnienia struktury populacji i metod genotypowania.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Zarządzanie Stresem i Psychiatria:** Nosiciele "wolnego" allelu Met są drastycznie narażeni na przesterowanie osi HPA wskutek wyrzutów kortyzolu, co generuje utrudnione wygaszanie lęków i predysponuje do zespołu stresu pourazowego (PTSD). W odpowiedzi na agresję twarzy dorośli i dzieci reagują unikalnym fizjologicznie wzorcem "czujność-unikanie", natychmiast uciekając wzrokiem od stymulanta lękowego. Profilaktyka wymusza techniki mindfulness, a medycyna bada wsparcie takich osób częściowym agonistą NMDA (d-cykloseryną). Ponadto u mężczyzn z wariantem Met/Val chorych na schizofrenię pierwszy atak psychozy następuje średnio o 6,2 lat wcześniej niż u kobiet, wskazując na silny efekt hormonów chroniących.
+* **Zarządzanie Stresem i Psychiatria:**
+  * Nosiciele allelu Met: przesterowanie osi HPA, trudniejsze wygaszanie lęku, wyższe ryzyko PTSD.
+  * Wzorzec „czujność–unikanie” przy bodźcach społecznych (unikanie kontaktu wzrokowego z twarzami złości).
+  * Profilaktyka: mindfulness; w badaniach rozważana d-cykloseryna (agonista NMDA).
+  * U mężczyzn Met/Val ze schizofrenią pierwszy epizod psychozy średnio ~6,2 lat wcześniej niż u kobiet (efekt hormonalny).
 * **Dietetyka i Omega-3:** Przy braku odpowiednich zasobów energetycznych, osłabienie BDNF z jądra podwzgórza wymusza paradoksalnie hiperfagię i nagromadzenie tkanki tłuszczowej. Nosicielstwo wariantu Met reaguje jednak fenomenalnie i terapeutycznie na wysokie stężenia kwasów PUFA (omega-3 z ryb), które bezpośrednio redukują BMI i zapobiegają otyłości trzewnej. Molekuły takie jak antocyjany i flawonoidy z cytrusów potrafią mechanicznie stabilizować zepsutą cząsteczkę BDNF, ratując jej sekrecję.
-* **Sport:** Aktywność fizyczna to najsilniejsza tarcza niefarmakologiczna ratująca ekspresję BDNF. U posiadaczy zwinnego, "europejskiego" genotypu Val/Val dochodzi do natychmiastowej szarży BDNF w synapsach po jednej ostrej jednostce (np. interwałach HIIT), co usprawnia pamięć. Nosiciele gorszego układu Met reagują blokadą sekrecji. Wymagają oni bezwzględnie wdrożenia ciągłego reżimu minimum 12 tygodni kolarstwa, lub 6 tygodni ćwiczeń HIIT by przełamać biologiczny defekt i zmusić mózg do neurogenezy. Układ dziki (Val/Val) silnie dominuje genetycznie wśród polskich sportowców wyczynowych z lig lekkoatletycznych.
+* **Sport:**
+  * **Val/Val:** szybki wzrost BDNF po ostrej jednostce (np. HIIT); korzyść kognitywna natychmiastowa.
+  * **Met/Met, Met/Val:** wolniejsza odpowiedź — potrzebny stały reżim (≥12 tyg. wytrzymałości lub ≥6 tyg. HIIT), by przełamać defekt sekrecji.
+  * Val/Val dominuje w polskich kohortach sportowców lekkoatletycznych.
 * **Opieka po udarach:** Analizy z polskich oddziałów dowodzą, że odziedziczony polimorfizm determinuje regenerację. Profil rs6265 wiąże się ze statystycznym wynikiem w testach kognitywnych w ciągu całego 6-miesięcznego okna rekonwalescencji neurologicznej po udarze niedokrwiennym.
 
 * **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.

@@ -20,12 +20,15 @@
 
 ### 4. Tabela Wariantów
 **rs174537 (L374F — aktywność D5D)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Niska | Niski AA/LC-PUFA; niższe LDL i ryzyko CAD; zwiększone zapotrzebowanie na EPA/DHA; ryzyko NAFLD przy niedoborze DHA |
 | **G/T** | Pośrednia | Umiarkowany profil lipidowy i kardiometaboliczny |
 | **G/G** | Wysoka | Wysokie AA i LDL; ryzyko CAD, cukrzycy typu 2, raka prostaty przy diecie bogatej w LA; dobra adaptacja do diety roślinnej przy kontroli omega-6 |
+
 **rs174547 (indeks desaturacji)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Niska | Słaba konwersja roślinnych prekursorów; wyższe ryzyko T2DM i sztywności tętnic (ba-PWV) u osób z nadwagą; wskazanie bezpośredniej podaży EPA/DHA |

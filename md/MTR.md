@@ -20,6 +20,7 @@
 
 ### 4. Tabela Wariantów
 **rs1805087 (A2756G, Asp919Gly)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Standardowa | Typowy metabolizm Hcy; wrażliwość na niedobór B12 i folianów |

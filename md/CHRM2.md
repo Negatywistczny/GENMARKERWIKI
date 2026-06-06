@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs324650 (SINE Alu — kognicja)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Najniższy potencjał wiązania w ACC (zdrowi) | Wariant dziki; bazowa gęstość receptorów |
 | **A/T** | Pośrednia | Umiarkowana modulacja poznawcza |
 | **T/T** | Najwyższy potencjał wiązania (zdrowi) | +~0,46 SD Performance IQ u zdrowych; u ChAD paradoksalny spadek wiązania, ryzyko samobójstw |
+
 **rs1824024 (intron — alkohol, POChP)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Pełna kontrola ACh | Działanie protekcyjne wobec uzależnień |
 | **G/T** | Pośrednia | Podatność modulowana środowiskiem |
 | **T/T** | Osłabiona stabilność transkrypcji | Ryzyko delirium tremens; cięższy alkoholizm; gorsza odpowiedź na antycholinergiki w POChP |
+
 **rs8191992 (3'-UTR — autonomiczna odpowiedź serca)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Osłabiona translacja M2 | >3× ryzyko HRR <8/min; podwyższona śmiertelność sercowa po AMI; obniżona autonomiczność przy neuroleptykach |
@@ -60,4 +65,4 @@
 * **PMID: 17160701** (Dick et al., 2007) – CHRM2 i Performance IQ.
 * **PMID: 16000316** (Luo et al., 2005) – CHRM2, alkohol, depresja — structured association.
 * **PMID: 20351719** (Cannon et al., 2011) – M2 binding in vivo i ChAD.
-* **Baza referencyjna:** [SNPedia (CHRM2)](https://www.snpedia.com/index.php/CHRM2) – rs324650 i kognicja.
+* **Baza referencyjna:** [SNPedia (rs324650)](https://www.snpedia.com/index.php/Rs324650) – rs324650 i kognicja.

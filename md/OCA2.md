@@ -5,7 +5,7 @@
 * **Synonimy medyczne:** BEY2, EYCL3, PED; regulacja barwy oczu głównie przez enhancer HERC2 (rs12913832), nie w samym eksonie OCA2
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny rsID (kodujący):** rs1800407
+* **Główny rsID:** rs1800407
 * **Lokalizacja chromosomalna:** Chromosom 15 (15q13.1); ekson 13 (c.1256G>A, p.Arg419Gln)
 * **Typ wariantu:** SNP missense (hipomorficzny modyfikator pigmentacji)
 * **Zapis zmiany nukleotydowej (HGVS):** NM_000275.4:c.1256G>A; p.Arg419Gln (R419Q)
@@ -20,24 +20,31 @@
 
 ### 4. Tabela Wariantów
 **rs1800407 (Arg419Gln — białko P)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C (G/G)** | Prawidłowy transport Cl⁻ i pH melanosomu | Pigmentacja zgodna z tłem populacyjnym; optymalna ochrona UV |
 | **C/T (G/A)** | Łagodne obniżenie stabilności białka | Rozjaśnienie tęczówki; modyfikator zielonych oczu przy heterozygotach rs12913832 |
 | **T/T (A/A)** | Hipomorficzne białko P | Bardzo jasne oczy; wzrost penetracji niebieskiego fenotypu; zwiększone ryzyko raka podstawnokomórkowego skóry (BCC) |
+
 **rs1800414 (His615Arg — pigmentacja skóry Azja Wschodnia)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A (T/T)** | Standardowy prąd chlorkowy | Ciemniejsza skóra w populacjach azjatyckich |
 | **A/G (T/C)** | Pośrednia | Umiarkowane rozjaśnienie karnacji |
 | **G/G (C/C)** | Spadek wydajności ~30% | Jaśniejsza skóra w Azji Wschodniej (konwergencja ewolucyjna niezależna od SLC24A5 w Europie); brak wpływu na kolor oczu |
+
 **rs12913832 (regulator w HERC2 — ekspresja OCA2 w tęczówce)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Pełna | Brązowe oczy; wyższa fotoprotekcja RPE |
 | **A/G** | Pośrednia | Zielone/piwne oczy |
 | **★ G/G** | Wyciszona w melanocytach irysu | Niebieskie oczy; ryzyko AMD i czerniaka naczyniówki (M3) |
+
 **rs1800401 (OCA2 His615Arg (R419Q, pigmentacja oczu/skóry))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | His/His — referencyjny | Typowa pigmentacja OCA2; współdziała z rs12913832 i rs1800407 |
@@ -69,4 +76,4 @@
 * **PMID: 18172690** (Eiberg et al., 2008) – Haplotyp założycielski niebieskich oczu.
 * **PMID: 25513726** (Bellono et al., 2014) – Prąd anionowy białka P w melanosomach (*eLife*).
 * **PMID: 20300467** (Edwards et al., 2010) – rs1800414 i pigmentacja skóry w Azji Wschodniej.
-* **Baza referencyjna:** [SNPedia (OCA2)](https://www.snpedia.com/index.php/OCA2) – Białko P, albinizm i warianty pigmentacyjne.
+* **Baza referencyjna:** [SNPedia (rs1800407)](https://www.snpedia.com/index.php/Rs1800407) – Białko P, albinizm i warianty pigmentacyjne.

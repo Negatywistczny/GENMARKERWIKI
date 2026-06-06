@@ -4,7 +4,7 @@
 * **Nazwy potoczne i medialne:** Gen metylacji, wariant termolabilny MTHFR, marker homocysteiny
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główne rsID (panel):** rs1801133 (C677T, Ala222Val) oraz rs1801131 (A1298C, Glu429Ala)
+* **Główny rsID:** rs1801133 (+ rs1801131 — panel C677T/A1298C)
 * **Lokalizacja chromosomalna:** Krótkie ramię chromosomu 1 (1p36.22)
 * **Typ wariantu:** Dwa SNP typu missense
 * **Zapis zmian nukleotydowych:** C677T (egzon 4) oraz A1298C (egzon 7)
@@ -18,12 +18,15 @@
 
 ### 4. Tabela Wariantów
 **rs1801133 (C677T, Ala222Val, egzon 4)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | 100% (wild type) | Prawidłowe wiązanie kofaktora FAD. Brak ryzyka genetycznego hiperhomocysteinemii |
 | **C/T** | ~65% (zredukowana) | Pula folianów obniżona; przy zdrowej diecie homocysteina rzadko rośnie klinicznie istotnie |
 | **T/T** | 20–30% (krytyczna) | Wariant termolabilny; utrata 70–80% syntezy 5-MTHF, nagromadzenie homocysteiny, duże zapotrzebowanie na dawców metylowych |
+
 **rs1801131 (A1298C, Glu429Ala, egzon 7)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | 100% (wild type) | Nienaruszona domena wiążąca SAMe; najczęstszy, zdrowy genotyp |
@@ -61,5 +64,5 @@
 ### 8. Źródła (Referencje)
 * **PMID: 7647779** (Frosst, 1995) – Fundamentalna i historyczna publikacja diagnozująca polimorfizm C677T oraz jego asocjację z homocysteiną naczyń.
 * **PMID: 9545395** (van der Put, 1998) – Rewolucyjna publikacja opisująca drugi szlak defektu u wariantu A1298C oraz koncepcję wady heterozygot łączonych w etiologii cewy.
-* **PMID: 24616178** – Najnowsze ujęcia modelowe instytutu McGilla udowadniające mechanistyczne podłoże ewolucyjnego ocalenia od plazmodium u ludzi z wariantem T.
-* **Baza referencyjna:** [SNPedia (rs1801133)](https://www.snpedia.com/index.php/Rs1801133) – Agregator wariantów C677T/A1298C i adnotacji klinicznych.
+* **PMID: 24616178** (Meadows et al., 2014) – Najnowsze ujęcia modelowe instytutu McGilla udowadniające mechanistyczne podłoże ewolucyjnego ocalenia od plazmodium u ludzi z wariantem T.
+* **Baza referencyjna:** [SNPedia (rs1801133)](https://www.snpedia.com/index.php/Rs1801133), [SNPedia (rs1801131)](https://www.snpedia.com/index.php/Rs1801131) – Agregator wariantów C677T/A1298C i adnotacji klinicznych.

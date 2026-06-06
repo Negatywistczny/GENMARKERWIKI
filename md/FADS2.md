@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs174575 (aktywność D6D)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Wysoka | Prawidłowa konwersja LA→AA; standardowy profil lipidowy |
 | **C/G** | Pośrednia | Obniżone AA; akumulacja DGLA; wrażliwość na jakość diety |
 | **G/G** | Niska | Najniższe AA; wyższe TG, HOMA-IR u chorych na T2DM; słaba odpowiedź poznawcza na krótką laktację |
+
 **rs1535 (karmienie piersią / IQ)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Wysoka | Silna korelacja karmienia piersią z wyższym IQ u dzieci |
 | **A/G** | Pośrednia | Umiarkowany efekt środowiskowy |
 | **G/G** | Niska | Brak korzyści poznawczych przy krótkiej laktacji; długa laktacja (>6 mies.) może kompensować |
+
 **rs968567 (promotor 5'UTR)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Standardowa | Bazowa aktywność D6D |

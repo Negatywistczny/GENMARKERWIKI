@@ -20,30 +20,39 @@
 
 ### 4. Tabela Wariantów
 **rs72921001 (percepcja kolendry)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Maksymalna transdukcja Gαolf → cAMP → CNG | Ekstremalna czułość; kolendra jak mydło, płyn do naczyń lub pluskwiaki |
 | **C/A** | Pośrednia gęstość funkcjonalnych receptorów | Zmienna; częściowa awersja, zależna od kultury i nawyków |
 | **★ A/A** | Minimalna odpowiedź na trans-2-decenal | Brak mydlanego posmaku; profil cytrusowo-ziołowy |
+
 **rs7107418 (proxy rs72921001 (OR10A2 LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ G/G** | Proxy ochronny | Częściej „normalny” zapach kolendry; zgodny z rs72921001 ochronnym allelem |
 | **G/A** | Pośrednia | Częściowa ochrona percepcyjna |
 | **A/A** | Brak allelu proxy ochronnego | Wyższa szansa awersji do kolendry (jak rs72921001 C/C) |
+
 **rs3930075 (OR10A2 His43Arg (LD rs72921001))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | His/His | Część haplotypu OR6A2; modulacja aldehydów w LD |
 | **A/G** | His/Arg | Pośrednia percepcja kolendry |
 | **★ G/G** | Arg/Arg | Sprzężony z wariantami aldehydowymi; możliwa zmiana intensywności zapachu mydlanego |
+
 **rs10839631 (OR10A2 His207Arg (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | His/His | Referencyjna (w haplotypie) |
 | **A/G** | His/Arg | Pośrednia |
 | **★ G/G** | Arg/Arg | Część bloku LD kolendry; interpretacja łącznie z rs72921001 |
+
 **rs7926083 (OR10A2 Lys258Thr (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Lys/Lys | Typowy haplotyp |
@@ -72,8 +81,8 @@
 * **Bliźnięta:** ~80% MZ zgodnych w preferencji kolendry vs ~50% DZ.
 
 ### 8. Źródła (Referencje)
-* **PMID: 22977065** – Törnwall et al. (2012) Dziedziczność cech chemosensorycznych u bliźniąt.
-* **PMID: 35025664** – Lehmann et al. (2022) OR6A2/Olfr2, oktanal i miażdżyca (NLRP3).
-* **PMID: 41570822** – Struktura Cryo-EM OR6A2 i wiązanie iminowe z odorantami.
-* **Eriksson et al. (2012)** – GWAS rs72921001, Flavour / arXiv:1209.2096.
+* **PMID: 22977065** (Knaapila et al., 2012) – Törnwall et al. (2012) Dziedziczność cech chemosensorycznych u bliźniąt.
+* **PMID: 35025664** (Orecchioni et al., 2022) – Lehmann et al. (2022) OR6A2/Olfr2, oktanal i miażdżyca (NLRP3).
+* **PMID: 41570822** (Wang et al., 2026) – Struktura Cryo-EM OR6A2 i wiązanie iminowe z odorantami.
+* **PMID: 22962365** (Eriksson et al., 2012) – GWAS rs72921001 i percepcja kolendry.
 * **Baza referencyjna:** [SNPedia (rs72921001)](https://www.snpedia.com/index.php/Rs72921001) – Kolendra i proxy rs7107418.

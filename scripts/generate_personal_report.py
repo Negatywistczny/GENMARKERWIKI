@@ -338,15 +338,18 @@ def split_rs_blocks(sec4: str) -> tuple[str, list[tuple[str, str]]]:
             flush()
             current_rsid = ""
             continue
-        m = re.match(r"^\*\*(?:★\s*)?(rs\d+)", line)
-        if m:
+        title_m = re.match(r"^\*\*(?:★\s*)?(.+?)\*\*\s*$", line.strip())
+        if title_m:
             flush()
-            current_rsid = m.group(1)
+            rs_m = re.search(r"rs\d+", title_m.group(1))
+            current_rsid = rs_m.group(0) if rs_m else ""
             current_lines = [line]
             continue
-        if not current_rsid and (line.strip().startswith("|") or not line.strip()):
+        if not current_rsid and not current_lines and (
+            line.strip().startswith("|") or not line.strip()
+        ):
             intro += line + "\n"
-        elif current_rsid:
+        elif current_rsid or current_lines:
             current_lines.append(line)
     flush()
     if not blocks and "|" in sec4:

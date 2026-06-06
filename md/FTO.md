@@ -18,30 +18,39 @@
 
 ### 4. Tabela Wariantów
 **rs9939609 (intron 1 — enhancer IRX3/IRX5)**
-| Genotyp | Status wariantu | Aktywność demetylacyjna i ekspresja tkankowa | Profil neurobiologiczny i behawioralny | Wpływ na fenotyp i ryzyko zdrowotne |
-| :--- | :--- | :--- | :--- | :--- |
-| **T/T** | Homozygota dzika (ochronna) | Prawidłowe wiązanie represora ARID5B. Niska, fizjologiczna ekspresja genów IRX3 i IRX5 w preadipocytach. Prawidłowa ekspresja UCP1, wysoka zdolność termogenezy i sprawny proces browningu adipocytów. | Sprawne poposiłkowe tłumienie wydzielania ghreliny. Prawidłowa kontrola sytości i stabilna odpowiedź układu dopaminergicznego na bodźce żywieniowe. | Referencyjny wskaźnik BMI i obwód pasa. Podstawowe ryzyko otyłości, cukrzycy typu 2 (T2DM) oraz chorób sercowo-naczyniowych (CVD). |
-| **A/T** | Heterozygota (ryzyka) | Częściowe osłabienie wiązania białka ARID5B. Umiarkowanie podwyższony poziom transkrypcji IRX3 i IRX5. Obniżona efektywność mitochondrialnego rozprzęgania energii w tkance tłuszczowej. | Opóźnione odczuwanie sytości. Podwyższona podatność na podjadanie między posiłkami pod wpływem stresu lub ekspozycji na bodźce sensoryczne. | Wzrost BMI średnio o 0,45 kg/m2 na allel ryzyka. Ryzyko cukrzycy typu 2 wzrasta 1,3-krotnie w porównaniu z genotypem TT. |
-| **A/A** | Homozygota zmutowana (ryzyka) | Całkowita blokada wiązania ARID5B. Dwukrotny wzrost ekspresji IRX3 i IRX5. Blokada białka UCP1, 5-krotny spadek termogenezy, jednokierunkowe różnicowanie w białe adipocyty. | Brak poposiłkowej supresji acyl-ghreliny. Silna skłonność do jedzenia emocjonalnego oraz epizody utraty kontroli nad jedzeniem (LOC). Preferencja potraw bogatych w tłuszcze. | Średnia masa ciała wyższa o 3 kg niż u osób z genotypem TT. Obwód pasa większy średnio o 0,97 cm. 1,67-krotnie wyższe ryzyko otyłości, 1,55 do 1,6-krotne ryzyko T2D. |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **T/T** | Homozygota dzika (ochronna) | **Ekspresja tkankowa:** Prawidłowe wiązanie represora ARID5B. Niska, fizjologiczna ekspresja genów IRX3 i IRX5 w preadipocytach. Prawidłowa ekspresja UCP1, wysoka zdolność termogenezy i sprawny proces browningu adipocytów.<br><br>**Profil behawioralny:** Sprawne poposiłkowe tłumienie wydzielania ghreliny. Prawidłowa kontrola sytości i stabilna odpowiedź układu dopaminergicznego na bodźce żywieniowe.<br><br>**Ryzyko zdrowotne:** Referencyjny wskaźnik BMI i obwód pasa. Podstawowe ryzyko otyłości, cukrzycy typu 2 (T2DM) oraz chorób sercowo-naczyniowych (CVD). |
+| **A/T** | Heterozygota (ryzyka) | **Ekspresja tkankowa:** Częściowe osłabienie wiązania białka ARID5B. Umiarkowanie podwyższony poziom transkrypcji IRX3 i IRX5. Obniżona efektywność mitochondrialnego rozprzęgania energii w tkance tłuszczowej.<br><br>**Profil behawioralny:** Opóźnione odczuwanie sytości. Podwyższona podatność na podjadanie między posiłkami pod wpływem stresu lub ekspozycji na bodźce sensoryczne.<br><br>**Ryzyko zdrowotne:** Wzrost BMI średnio o 0,45 kg/m2 na allel ryzyka. Ryzyko cukrzycy typu 2 wzrasta 1,3-krotnie w porównaniu z genotypem TT. |
+| **A/A** | Homozygota zmutowana (ryzyka) | **Ekspresja tkankowa:** Całkowita blokada wiązania ARID5B. Dwukrotny wzrost ekspresji IRX3 i IRX5. Blokada białka UCP1, 5-krotny spadek termogenezy, jednokierunkowe różnicowanie w białe adipocyty.<br><br>**Profil behawioralny:** Brak poposiłkowej supresji acyl-ghreliny. Silna skłonność do jedzenia emocjonalnego oraz epizody utraty kontroli nad jedzeniem (LOC). Preferencja potraw bogatych w tłuszcze.<br><br>**Ryzyko zdrowotne:** Średnia masa ciała wyższa o 3 kg niż u osób z genotypem TT. Obwód pasa większy średnio o 0,97 cm. 1,67-krotnie wyższe ryzyko otyłości, 1,55 do 1,6-krotne ryzyko T2D. |
+
 **rs1421085 (intron FTO (sprzężenie; możliwy wariant sprawczy vs rs9939609))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Haplotyp ochronny (T-T-T) | Wiązanie ARID5B; niska ekspresja IRX3/IRX5; profil jak rs9939609 T/T |
 | **T/C** | Pośrednia | Częściowa derepresja IRX3/IRX5; umiarkowane ryzyko otyłości |
 | **C/C** | Haplotyp ryzyka (C-G-A) | Osłabienie ARID5B; wyższa ekspresja IRX3/IRX5; wzrost BMI i ryzyko T2D (jak allel A rs9939609) |
+
 **rs17817449 (intron FTO (LD z rs9939609))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Ochronny w LD | Zgodny z fenotypem niskiego BMI w haplotypie |
 | **T/A** | Pośrednia | Profil pośredni metaboliczny |
 | **A/A** | Ryzyko otyłości | Część bloku ryzyka FTO–IRX3; dieta białkowa i aktywność fizyczna jak przy rs9939609 A |
+
 **rs9930506 (intron FTO (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjna (w haplotypie ochronnym) | Brak dodatkowego sygnału poza tłem LD |
 | **A/G** | Pośrednia | Umiarkowane ryzyko metaboliczne |
 | **G/G** | Haplotyp ryzyka | Skorelowany z wyższym BMI w populacjach europejskich |
+
 **rs8050136 (intron FTO (LD))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Haplotyp ochronny | Niższe ryzyko przy T-T-T; mindful eating i ruch |
@@ -57,7 +66,9 @@
 ### 6. Wpływ na życie (Zalecenia)
 Dziedziczenie allelu ryzyka (A) nie jest wyrokiem. Badania interwencyjne udowadniają, że zmiany stylu życia mogą w pełni znieść metaboliczny wpływ tego polimorfizmu.
 * **Nutrigenomika i dieta białkowa:** U posiadaczy genotypu AA doskonale sprawdzają się diety o podwyższonej zawartości białka (HPLC). Badanie POUNDS LOST wykazało, że przyjmowanie ok. 100 g białka na dobę w reżimie redukcyjnym potężnie hamuje napady głodu i ułatwia redukcję obwodu talii, neutralizując otyłotwórczy efekt genu FTO. Rekomenduje się również unikanie wysokiego stężenia tłuszczów omega-6, szczególnie w profilaktyce onkologicznej u kobiet.
-* **Sport uderza w gen:** Aktywność fizyczna (np. interwały HIIT) ucina zły wpływ mutacji na otyłość o blisko 30%, obniżając poposiłkową ekspresję mRNA genu FTO w mięśniach. Co najważniejsze, u osób A/A fizjologiczna maksymalna zdolność do utleniania tłuszczów podczas wysiłku (MFO) działa idealnie i nie ulega upośledzeniu. Dowodzi to, że problem ze zrzucaniem wagi ma u nich podłoże wyłącznie psychogenne w układzie apetytu, a nie wynika ze spowolnionego metabolizmu wewnątrzkomórkowego tkanki mięśniowej.
+* **Sport:**
+  * HIIT redukuje wpływ allelu ryzyka na otyłość o ~30% i obniża poposiłkową ekspresję FTO w mięśniach.
+  * U **A/A** utlenianie tłuszczu (MFO) pozostaje prawidłowe — defekt dotyczy głównie apetytu, nie metabolizmu mięśniowego.
 * **Rygor zegara dobowego:** Gen ten jest nierozerwalnie złączony z genami rytmu okołodobowego (CLOCK). Osoby z mutacją odnoszą spektakularne korzyści z okien żywieniowych trwających 8-10 godzin w ciągu dnia. Brak snu, spanie zbyt długo oraz chodzenie spać po godzinie 23:00 drastycznie pogarsza u tych pacjentów wskaźniki insulinooporności (ryzyko OR 1,137 do 1,185).
 * **Terapia psychodietetyczna:** Nosiciele A/A są skrajnie predysponowani do jedzenia pod wpływem emocji, rekompensując stresem braki odczuwanej sytości. Należy wdrożyć u nich praktykę świadomego jedzenia (mindful eating).
 

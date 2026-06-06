@@ -4,7 +4,7 @@
 * **Nazwy potoczne i medialne:** Gen depresji, gen wrażliwości środowiskowej, gen plastyczności neurobehawioralnej, gen orchidei (hipoteza zróżnicowanej podatności na środowisko)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny marker:** 5-HTTLPR (rs4795541) + rs25531 (A>G w regionie promotorowym)
+* **Główny rsID:** rs4795541 (5-HTTLPR) + rs25531 (promotor A>G)
 * **Lokalizacja chromosomalna:** Chromosom 17, prążek 17q11.1–q12
 * **Typ wariantu:** VNTR promotorowy (5-HTTLPR) oraz SNP regulacyjne (rs25531, rs25532, rs1042173); STin2 VNTR w intronie 2
 * **Zapis zmiany nukleotydowej (HGVS):** rs25531: c.-1936A>G; allel S = delecja ~43–44 bp w 5-HTTLPR; allel L = insercja
@@ -18,20 +18,24 @@
 * **Efekt funkcjonalny:** Model „orchidei” (S/S, L_G) vs „mniszka” (L_A/L_A): wysoka podatność na środowisko – większe ryzyko depresji/PTSD po traumie, ale lepszy potencjał w warunkach wspierających; profil L_A – odporność na stres i lepsza odpowiedź na SSRI.
 
 ### 4. Tabela Wariantów
+**5-HTTLPR / rs4795541 (transporter serotoniny)**
 
-
-| Haplotyp / genotyp | Poziom aktywności transkrypcyjnej | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **L_A / L_A** (L/L + A/A) | Bardzo wysoka (maksymalna gęstość SERT) | Fenotyp „mniszka”: odporność na stres, mniejsze ryzyko MDD/PTSD po traumach, dobra odpowiedź na SSRI |
-| **L_A / L_G** lub **L_A / S_A** | Pośrednia do niska | Podwyższona podatność na stres psychospołeczny; umiarkowana hiperaktywacja migdałowata |
-| **S_A / S_A** lub **L_G / L_G** | Bardzo niska (down-regulacja receptorów 5-HT) | Fenotyp „orchidei”: wysoka podatność na depresję/lęk w złym środowisku, wybitna wydajność przy wsparciu; częsta oporność na pierwszoliniowe SSRI |
+| **L_A / L_A (L/L + A/A)** | Bardzo wysoka (maksymalna gęstość SERT) | Fenotyp „mniszka”: odporność na stres, mniejsze ryzyko MDD/PTSD po traumach, dobra odpowiedź na SSRI |
+| **L_A / L_G lub L_A / S_A** | Pośrednia do niska | Podwyższona podatność na stres psychospołeczny; umiarkowana hiperaktywacja migdałowata |
+| **S_A / S_A lub L_G / L_G** | Bardzo niska (down-regulacja receptorów 5-HT) | Fenotyp „orchidei”: wysoka podatność na depresję/lęk w złym środowisku, wybitna wydajność przy wsparciu; częsta oporność na pierwszoliniowe SSRI |
+
 **rs25532 (C>T)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Standardowa transkrypcja | Profil referencyjny przy haplotypie L_A |
 | **C/T** | Pośrednia (obniżona) | Umiarkowane wyciszenie ekspresji |
 | **T/T** | Obniżona o 15–80% | Haplotyp L_A z T związany z wyższym ryzykiem Tourette'a (OR=1,33) i OCD |
+
 **rs1042173 (3'UTR, T>G)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Obniżona inhibicja miRNA-135 → wyższe SERT | Skrajne upijanie się (średnio ~11 drinków u alkoholików) |
@@ -45,7 +49,9 @@
 | **wt/wt** | Prawidłowy SERT (Ile425) | Brak ryzyka OCD/TD z tej rzadkiej mutacji |
 | **I425V/wt** | Gain-of-function (heterozygota) | Podwyższone ryzyko zaburzeń obsesyjno-kompulsyjnych i tików |
 | **I425V/I425V** | Hiperaktywny SERT (homozygota) | Ryzyko OCD/TD wzrosło nawet ~9-krotnie |
+
 **rs4795541 (5-HTTLPR (proxy VNTR promotorowy; S/L/xL))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **L/L (długi; L_A/L_A po rs25531)** | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
@@ -75,7 +81,7 @@
 * **Małpy (Suomi):** U makaków występują profile analogiczne do ludzkiego S; „wrażliwe” młode mogą zwiększać czujność stada wobec drapieżników – ewolucyjna rola, nie tylko „wada”.
 
 ### 8. Źródła (Referencje)
-* **PMID: 12869766** (Caspi et al., 2003, *Science*) – Przełomowe GxE: 5-HTTLPR, trauma życiowa i ryzyko depresji (kohorta Dunedin).
-* **PMID: 24064711** – Rozbieżności rasowe i rola rs25531(G) w populacjach afrykańsko-amerykańskich.
-* **PMID: 18055562** – rs25532 i obniżona ekspresja w kontekście OCD/Tourette'a.
-* **Baza referencyjna:** [SNPedia (rs4795541)](https://www.snpedia.com/index.php/Rs4795541) – 5-HTTLPR, VNTR, farmakogenomika SSRI i psychoterapia.
+* **PMID: 12869766** (Caspi et al., 2003) – Przełomowe GxE: 5-HTTLPR, trauma życiowa i ryzyko depresji (kohorta Dunedin).
+* **PMID: 24064711** (Odgerel et al., 2013) – Rozbieżności rasowe i rola rs25531(G) w populacjach afrykańsko-amerykańskich.
+* **PMID: 18055562** (Wendland et al., 2008) – rs25532 i obniżona ekspresja w kontekście OCD/Tourette'a.
+* **Baza referencyjna:** [SNPedia (rs4795541)](https://www.snpedia.com/index.php/Rs4795541), [SNPedia (rs25531)](https://www.snpedia.com/index.php/Rs25531) – 5-HTTLPR, VNTR, farmakogenomika SSRI i psychoterapia.

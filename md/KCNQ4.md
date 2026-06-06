@@ -20,18 +20,23 @@
 
 ### 4. Tabela Wariantów
 **rs4660470 (NIHL — utrata słuchu indukowana hałasem)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Prawidłowe przewodnictwo Kv7.4 | Standardowa odporność na hałas przemysłowy |
 | **★ T/A** | Częściowo obniżone IK pod stresem | ~1,5× ryzyko NIHL przy ekspozycji na hałas |
 | **A/A** | Istotnie upośledzona aktywacja | >2× ryzyko NIHL; możliwa modulacja dopaminy w VTA i wrażliwość na alkohol |
+
 **rs4660468 (NIHL — haplotyp)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Fizjologiczny IK w OHC | Standardowa odporność na hałas |
 | **★ C/T** | Łagodne obniżenie stabilności błony | Umiarkowanie zwiększona podatność na NIHL |
 | **T/T** | Spadek repolaryzacji przy chronicznym hałasie | Wysokie ryzyko NIHL przy ekspozycji >16 lat lub wysokim natężeniu |
+
 **rs28937588 (p.Gly285Ser — DFNA2A patogenny)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Prawidłowy kanał | Norma słuchu |
@@ -58,6 +63,6 @@
 
 ### 8. Źródła (Referencje)
 * **PMID: 10025409** (Jentsch et al., 1999) – Odkrycie KCNQ4 i DFNA2 (*Cell*).
-* **PMID: 32306673** – rs4660470 i NIHL w kohortach przemysłowych.
-* **PMID: 30153627** – rs4660468 i NIHL w populacji chińskiej.
-* **Baza referencyjna:** [SNPedia (KCNQ4)](https://www.snpedia.com/index.php/KCNQ4) – DFNA2 i NIHL.
+* **PMID: 32306673** (Zhou et al., 2020) – rs4660470 i NIHL w kohortach przemysłowych.
+* **PMID: 30153627** (Guo et al., 2018) – rs4660468 i NIHL w populacji chińskiej.
+* **Baza referencyjna:** [SNPedia (rs4660470)](https://www.snpedia.com/index.php/Rs4660470) – DFNA2 i NIHL.

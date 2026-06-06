@@ -20,6 +20,7 @@
 
 ### 4. Tabela Wariantów
 **rs2073153 (funkcja OR1A1)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ G/G** | Pełna | Normalne wykrywanie mięty, kolendry, cytrusów; typowa percepcja mentolu |
@@ -47,4 +48,4 @@
 * **PMID: 19933263** (Eriksson et al., 2008) – Genomowe asocjacje anosmii specyficznej (w tym karwon).
 * **PMID: 22072938** (McRae et al., 2012) – Identyfikacja wariantów predysponujących do anosmii zapachowej.
 * **PMID: 24321478** (Trimmer et al., 2013) – OR1A1 a percepcja karwonu i mentolu.
-* **Baza referencyjna:** [SNPedia (OR1A1)](https://www.snpedia.com/index.php/OR1A1) – Anosmia karwonowa i haplotypy OR1A1.
+* **Baza referencyjna:** [SNPedia (rs2073153)](https://www.snpedia.com/index.php/Rs2073153) – Anosmia karwonowa i haplotypy OR1A1.

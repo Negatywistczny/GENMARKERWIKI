@@ -20,11 +20,12 @@
 
 ### 4. Tabela Wariantów
 **rs762551 (*1F/*1A — metabolizm kofeiny)**
-| Genotyp | Klasyfikacja (PharmVar) | Fenotyp Metabolizmu | Wpływ na Organizację Pracy Enzymatycznej |
-| :--- | :--- | :--- | :--- |
-| **A/A** | *1F / *1F | Szybki metabolizator | Osobnik posiadający dwie kopie allelu zwiększonej indukowalności. Zdolność do niezwykle agresywnego neutralizowania kofeiny z krwiobiegu w zaledwie 1-2 godziny. Zapobiega zaburzeniom układu nerwowego w nocy. U osób palących enzym wymusza zjawisko ultraszybkiego metabolizmu, co generuje problemy ze skutecznym stężeniem leków. |
-| **★ A/C** | *1A / *1F | Metabolizator pośredni / wolny | Profil heterozygotyczny ze zredukowaną pojemnością do natychmiastowej przeróbki. Zjawiska metaboliczne dla stymulantów przebiegają wolniej. Spożycie wysokich dawek (powyżej 3-4 filiżanek) zaczyna akumulować kofeinę w tkankach, prowokując negatywne efekty dla snu i układu naczyniowego. |
-| **C/C** | *1A / *1A | Wolny metabolizator | Genotyp obciążony ekstremalnymi przestojami metabolicznymi niezależnie od stopnia ekspozycji na bodziec. Kofeina zostaje uwięziona i krąży w organizmie ponad 6 do 8 godzin po wypiciu. Skutkuje to masowym rozregulowaniem układu krążenia, pojawianiem się stanów lękowych i bezsenności. Zjawisko to potężnie pompuje ryzyko zawału serca czy nadciśnienia tętniczego przy spożyciu stymulantu. |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **A/A** | *1F / *1F | **Fenotyp Metabolizmu:** Szybki metabolizator<br><br>**Wpływ na Organizację Pracy Enzymatycznej:** Osobnik posiadający dwie kopie allelu zwiększonej indukowalności. Zdolność do niezwykle agresywnego neutralizowania kofeiny z krwiobiegu w zaledwie 1-2 godziny. Zapobiega zaburzeniom układu nerwowego w nocy. U osób palących enzym wymusza zjawisko ultraszybkiego metabolizmu, co generuje problemy ze skutecznym stężeniem leków. |
+| **★ A/C** | *1A / *1F | **Fenotyp Metabolizmu:** Metabolizator pośredni / wolny<br><br>**Wpływ na Organizację Pracy Enzymatycznej:** Profil heterozygotyczny ze zredukowaną pojemnością do natychmiastowej przeróbki. Zjawiska metaboliczne dla stymulantów przebiegają wolniej. Spożycie wysokich dawek (powyżej 3-4 filiżanek) zaczyna akumulować kofeinę w tkankach, prowokując negatywne efekty dla snu i układu naczyniowego. |
+| **C/C** | *1A / *1A | **Fenotyp Metabolizmu:** Wolny metabolizator<br><br>**Wpływ na Organizację Pracy Enzymatycznej:** Genotyp obciążony ekstremalnymi przestojami metabolicznymi niezależnie od stopnia ekspozycji na bodziec. Kofeina zostaje uwięziona i krąży w organizmie ponad 6 do 8 godzin po wypiciu. Skutkuje to masowym rozregulowaniem układu krążenia, pojawianiem się stanów lękowych i bezsenności. Zjawisko to potężnie pompuje ryzyko zawału serca czy nadciśnienia tętniczego przy spożyciu stymulantu. |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej spójnej wartości globalnej dla wszystkich kohort; rozkład alleli jest silnie zależny od regionu
 * **Europa (NFE):** Częstość allelu A zwykle ok. 68-73% (allel C ok. 27-32%); genotyp A/A często ok. 44-50%
@@ -34,12 +35,23 @@
 
 ### 6. Wpływ na życie (Zalecenia)
 Kliniczne zastosowanie medycyny precyzyjnej i nutrigenomiki dostarcza olbrzymiego spektrum danych dla omawianego polimorfizmu.
-* **Kardiologia i układ krążenia:** Kofeina to antagonista receptorów adenozyny uwalniający adrenalinę. U wolnych metabolizatorów kofeina obciąża układ. Badanie populacji Kostaryki dowiodło katastrofalnego, 64-procentowego piku występowania ostrych zawałów serca u nosicieli wolnych genotypów spożywających ponad 4 kawy. W badaniu z włoskiej próby HARVEST, obfite picie kawy powiązano ze skokiem wyrokującym prawie 3-krotnym skokiem w ryzyku przewlekłego nadciśnienia tętniczego (aHR 2.81). Złotym zaleceniem dla chorych z układami A/C i C/C jest redukcja kofeiny do <150-200 mg na dobę (najlepiej na wersję decaf). Genotyp szybki A/A potrafi czerpać profity z flawonoidów i ma wręcz o kilkadziesiąt procent mniejsze prawdopodobieństwo zapadnięcia na choroby mięśnia sercowego (np. redukcja rzędu 25% przy 1 filiżance i do ok. 43-52% w analizach ogólnych schorzeń).
+* **Kardiologia i układ krążenia:**
+  * U wolnych metabolizatorów (**A/C**, **C/C**) nadmiar kofeiny obciąża układ krążenia (antagonizm adenozyny → adrenalina).
+  * Kostaryka: +64% ostrych zawałów u wolnych genotypów przy >4 filiżankach kawy dziennie; HARVEST (Włochy): aHR 2,81 dla nadciśnienia przy obfitym spożyciu.
+  * Zalecenie dla **A/C** i **C/C:** limit <150–200 mg kofeiny/dobę (najlepiej decaf).
+  * **A/A** (szybki): mniejsze ryzyko chorób serca; możliwa korzyść z umiarkowanej kawy (redukcja ryzyka rzędu 25–52% w części analiz).
 * **Cukrzyca i uszkodzenia nerek:** U badanych z osłabionym enzymem, wysokie spożycie kofeiny podwyższało szansę na wystąpienie zaburzeń glikemii (IFG) w stosunku o wskaźnik HR = 2.8. Skutkuje też zjawiskiem niebezpiecznej hiperfiltracji nerek i generacją mikroalbuminurii.
-* **Ergogenika w sporcie:** Kolarskie badanie Guest z dawkami do 4 mg/kg pokazało dobitny kontrast. U kolarzy A/A zdiagnozowano spektakularny zysk i poprawę tempa o 6,8% czasu wyścigu. Wyniki zawodników mieszanych były niezmienione przez wyczerpanie naczyń. Najstraszniejszy obrót zaistniał u genotypów C/C – kofeina stała się ekstremalnie ergolityczna, powiększając straty tlenu i wydłużając wlokący się spadek czasu o 13,7%. Sportowcy z powolnym defektem C/C muszą rezygnować z kofeinowych suplementów przedtreningowych.
+* **Ergogenika w sporcie (Guest et al., dawki do 4 mg/kg):**
+  * **A/A:** poprawa czasu wyścigu o ~6,8%.
+  * **A/C:** brak istotnej korzyści.
+  * **C/C:** kofeina pogarsza wyniki (spadek czasu o ~13,7%) — unikać suplementów przedtreningowych z kofeiną.
 * **Funkcje poznawcze (IQ i bezsenność):** Profil genetyczny dzieli plastyczność i atencję układu w czasie prób czuwania. W czasie badań u osób z homozygotą szybką obserwowano imponujący o 18 ms skrócony czas reakcji poznawczej i wyostrzoną czujność. Na genotypy wolne używka potrafiła wpłynąć paraliżującym roztrzęsieniem oraz ciężką i niemożliwą do przerwania nocną insomnią, bez wyraźnej wygranej w refleksie kognitywnym.
-* **Psychiatria i Onkologia:** Posiadanie profilu skrajnie szybkiego przy powszechnym paleniu papierosów deaktywuje skuteczną moc leków atypowych (klozapiny, olanzapiny), wymuszając konieczność drastycznego zwiększania aplikowanych środków pod granicę 450 mg na dzień ze względu na efekt ultraszybkiego unieszkodliwiania. Nagłe porzucenie używek u nosiciela mutacji uderza lawiną i podtruciem terapeutycznym z podniesionym toksycznym lekiem w ciele. Równocześnie genotyp zwolniony (C/C) gromadzi klozapinę w sposób bardzo patologiczny, wywołując groźną sedację i niszcząc produkcję szpiku kostnego. Dodatkowo genotyp zwolniony u osób rasy kaukaskiej zauważalnie rzutuje na statystyki nowotworów układu oddechowego i pęcherza z powodu wolniejszej klirensowej ochrony przed rakotwórczym jedzeniem oraz smogiem (OR = 1.29).
-* **Wady w położnictwie:** Ciąża w organizmie kobiety genetycznie naturalnie blokuje i drastycznie wycisza pracę cytochromu CYP1A2 hormonami. Jeśli kobieta miała i tak już zepsuty gen "wolnego" polimorfizmu, odcięcie możliwości ochrony narasta u niej i wymusza pięciokrotne zwiększenie występowania incydentów powracających poronień płodu przy wypijaniu używek na poziomie 300 mg (wielki wskaźnik OR 5.23 względem pacjentek powstrzymujących się). Z tego powodu rekomenduje się ostrożne podejście przed wykluczeniem genetycznym i całkowitą abstynencję dla kobiet z tą pulą DNA.
+* **Psychiatria i Onkologia:**
+  * **A/A** + palenie: ultraszybki metabolizm klozapiny/olanzapiny — możliwa konieczność wyższych dawek (do ~450 mg/d); po odstawieniu papierosów ryzyko toksyczności leku.
+  * **C/C:** akumulacja klozapiny → sedacja, uszkodzenie szpiku; wolniejsza detoksykacja kancerogenów (OR ≈ 1,29 dla nowotworów oddechowych/pęcherza u Europejczyków).
+* **Wady w położnictwie:**
+  * Ciąża naturalnie hamuje CYP1A2; u wolnych metabolizatorek (**A/C**, **C/C**) ryzyko poronienia przy ~300 mg kofeiny/dobę wzrasta (OR ≈ 5,23).
+  * Rekomendacja: całkowita abstynencja od kofeiny w ciąży przy wolnym profilu genetycznym.
 
 * **Ostrzeżenie kliniczne:** Materiał ma charakter informacyjny i nie zastępuje konsultacji lekarskiej.
 
@@ -52,5 +64,5 @@ Kliniczne zastosowanie medycyny precyzyjnej i nutrigenomiki dostarcza olbrzymieg
 * **PMID: 16522833** (Cornelis et al., 2006) – Interakcja genotypu CYP1A2 z spożyciem kawy a ryzykiem zawału (*JAMA*).
 * **PMID: 29509641** (Guest et al., 2018) – Różnice wydolnościowe po kofeinie między szybkimi (A/A) a wolnymi (C/C) metabolizatorami.
 * **PMID: 36701157** (Mahdavi et al., 2023) – Uszkodzenia nerek i hiperfiltracja u wolnych metabolizatorów przy dużych dawkach kawy.
-* **PMID: 15849225** – Ryzyko poronienia u kobiet w ciąży będących wolnymi metabolizatorami przy wysokim spożyciu kofeiny.
+* **PMID: 15849225** (Sata et al., 2005) – Ryzyko poronienia u kobiet w ciąży będących wolnymi metabolizatorami przy wysokim spożyciu kofeiny.
 * **Baza referencyjna:** [SNPedia (rs762551)](https://www.snpedia.com/index.php/Rs762551) – Klasyfikacja metabolizmu kofeiny i korekcja historycznych błędów nomenklatury alleli.

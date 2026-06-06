@@ -20,12 +20,15 @@
 
 ### 4. Tabela Wariantów
 **rs17822931 (Gly180Arg)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Pełna ekspresja i stabilność glikoproteiny | Wilgotna, ciemnobrązowa woskowina; silny zapach potu pachowego (osmidroza); wyższe ryzyko hidradenitis suppurativa i perłaka ucha środkowego u populacji europejskiej |
-| **G/A** | Pośrednia; wystarczająca do pełnego fenotypu wilgotnego (dziedziczenie dominujące) | Wilgotna woskowina; umiarkowany do silnego zapachu potu; profil zbliżony do G/G w praktyce klinicznej |
-| **A/A** | Brak dojrzałego białka; degradacja proteasomalna | Sucha, szara, łuszcząca się woskowina; brak lub minimalny zapach ciała; tendencja do twardych czopów woskowinowych; niższe ryzyko perłaka ucha; u Azjatów Wschodnich skorelowany ze zmniejszeniem ryzyka ER-ujemnego raka piersi (wyniki kohortowo zależne) |
+| **G/A** | Pośrednia | **Mechanizm / ekspresja:** wystarczająca do pełnego fenotypu wilgotnego (dziedziczenie dominujące)<br><br>**Wpływ fenotypowy:** Wilgotna woskowina; umiarkowany do silnego zapachu potu; profil zbliżony do G/G w praktyce klinicznej |
+| **A/A** | Brak dojrzałego białka | **Mechanizm / ekspresja:** degradacja proteasomalna<br><br>**Wpływ fenotypowy:** Sucha, szara, łuszcząca się woskowina; brak lub minimalny zapach ciała; tendencja do twardych czopów woskowinowych; niższe ryzyko perłaka ucha; u Azjatów Wschodnich skorelowany ze zmniejszeniem ryzyka ER-ujemnego raka piersi (wyniki kohortowo zależne) |
+
 **rs17822471 (c.1637C>T (Gly546Val, MRP8 — toksyczność 5-FU))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Prawidłowa ekspresja MRP8 w wątrobie i szpiku | Norma ekspresji transportera; prawidłowy efflux 5-FU i metabolitów. Niższe ryzyko ciężkiej leukopenii (WHO g3/4) przy chemioterapii fluoropirymidynowej |
@@ -55,5 +58,5 @@
 * **PMID: 16444273** (Yoshiura et al., 2006) – SNP w ABCC11 jako determinant typu woskowiny u człowieka.
 * **PMID: 19383836** (Nakano et al., 2009) – Silna asocjacja osmidrozy pachowej z wilgotnym typem woskowiny.
 * **PMID: 19710689** (Toyoda et al., 2009) – Powiązania woskowiny, osmidrozy i raka piersi w kontekście rs17822931.
-* **PMID: 24024896** – Polimorfizmy ABCC11/MRP8 a ciężka toksyczność 5-fluorouracylu (rs17822471).
+* **PMID: 24024896** (Magdy et al., 2013) – Polimorfizmy ABCC11/MRP8 a ciężka toksyczność 5-fluorouracylu (rs17822471).
 * **Baza referencyjna:** [SNPedia (rs17822931)](https://www.snpedia.com/index.php/Rs17822931) – Częstości alleli, typ woskowiny i fenotyp zapachu ciała.

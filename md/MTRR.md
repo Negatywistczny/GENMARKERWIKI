@@ -20,12 +20,15 @@
 
 ### 4. Tabela Wariantów
 **rs1801394 (A66G, Ile22Met)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Pełna | Prawidłowy recykling B12; standardowy metabolizm Hcy |
 | **A/G** | Obniżona | Pośrednie ryzyko hiperhomocysteinemii przy diecie ubogiej w B12/foliany |
 | **G/G** | Najniższa | Najwyższa Hcy przy MTHFR 677T/T; wskazanie metylokobalaminy i 5-MTHF |
+
 **rs1532268 (intron C/T)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Standardowa | Referencyjna (profil referencyjny) |

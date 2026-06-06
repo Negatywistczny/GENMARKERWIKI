@@ -4,7 +4,7 @@
 * **Nazwy potoczne i medialne:** Gen Wojownika (ang. *Warrior Gene*)
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główny marker:** MAOA-uVNTR (region promotorowy; brak pojedynczego rsID ze względu na charakter VNTR)
+* **Główny rsID:** MAOA-uVNTR (brak pojedynczego rsID — VNTR promotorowy)
 * **Lokalizacja chromosomalna:** Krótkie ramię chromosomu X (Xp11.23)
 * **Typ wariantu:** VNTR promotorowy oraz SNP markerowe/proxy
 * **Zapis wariantu głównego (uVNTR):** Allele 2.5R, 3.3R, 3.5R, 4.5R, 5.5R
@@ -17,37 +17,47 @@
 * **Efekt funkcjonalny:** MAOA-L przy traumie dziecięcej sprzyga agresji reaktywnej; MAOA-H wiąże się z szybszą degradacją amin i innym profilem ryzyka psychiatrycznego (sekcja 4)
 
 ### 4. Tabela Wariantów
+**MAOA-uVNTR (promotor — aktywność MAOA-L/H)**
 
-
-| Wariant (VNTR) | Status aktywności | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **3R, 3.5R** | Skrajnie niska (MAOA-L) | „Gen wojownika”. Akumulacja katecholamin. Zachowania antyspołeczne i nagły gniew głównie po przemocy w dzieciństwie |
 | **4R, 4.5R** | Wysoka (MAOA-H) | Szybka redukcja amin; opanowanie stresu, rzadka agresja. Wyższe ryzyko apatii, zmęczenia i „chłodnych” prób samobójczych |
 | **2R, 2.5R** | Dysharmonijna / rzadka | Silna redukcja funkcji; skrajny nadmiar katecholamin |
 | **3.3R** | Wybitnie wysoka | Unikalny allel; aktywność do ~2× silniejsza niż 3.5R |
+
 **rs6323 (R297R)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Wysoka (MAOA-H) | Optymalne oczyszczanie szczelin; chroni przed furią; predyspozycja do chronicznego marazmu i zmęczenia |
 | **G/T** | Pośrednia | Profil mieszany |
 | **★ T/T** | Niska (MAOA-L) | U mężczyzn: trudności w opanowaniu złości. U kobiet: wyższe ryzyko GAD i impulsywnej autoagresji |
+
 **rs1137070 (c.1410T>C, synonimiczny)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Wysoka (MAOA-H) | Prawidłowa transkrypcja mRNA; ryzyko MDD, choroby dwubiegunowej i schizofrenii przez braki amin |
 | **C/T** | Pośrednia | Profil mieszany |
 | **★ C/C** | Zredukowana (MAOA-L) | Podatność na uzależnienia od nikotyny i heroiny; korelacja z ASPD |
+
 **rs909525 (proxy uVNTR)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Marker „wojownika” | ~99% nosicielstwo wolnego uVNTR 3R; predyspozycja do sportów siłowo-wytrzymałościowych |
 | **C/T** | Pośrednia | Profil mieszany |
 | **★ T/T** | Wariant bezpieczny | Układy 4R/5R; rzadsze wybuchy furii |
+
 **rs72554632 (p.Gln296Ter, rzadka patologia)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T (nosiciel)** | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
+
 **rs3027407 (region MAOA (ADHD u dzieci))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Referencyjna | Brak zwiększonego ryzyka ADHD z tego SNP |
@@ -82,7 +92,7 @@
 
 ### 8. Źródła (Referencje)
 * **PMID: 8211186** (Brunner et al., 1993) – Odkrycie Zespołu Brunnera: mutacja nonsense w MAOA a agresja i deficyt enzymu (*Science*).
-* **PMID: 34923109** – Model dopaminergiczny i korekta hiperfunkcji NMDAR w zespole Brunnera (CRISPR/Cas9).
-* **PMID: 39359688** – Wpływ synonimicznej mutacji rs1137070 na transkrypcję i translację MAOA.
-* **PMID: 40646112** – Nowe podejścia do genotypowania uVNTR MAOA (2025).
-* **Baza referencyjna:** [SNPedia (MAOA)](https://www.snpedia.com/index.php/MAOA) – Agregat wariantów uVNTR, rs1137070 i fenotypów „Gen Wojownika”.
+* **PMID: 34923109** (van et al., 2022) – Model dopaminergiczny i korekta hiperfunkcji NMDAR w zespole Brunnera (CRISPR/Cas9).
+* **PMID: 39359688** (Li et al., 2024) – Wpływ synonimicznej mutacji rs1137070 na transkrypcję i translację MAOA.
+* **PMID: 40646112** (Hnoonual et al., 2025) – Nowe podejścia do genotypowania uVNTR MAOA (2025).
+* **Baza referencyjna:** [SNPedia (rs1137070)](https://www.snpedia.com/index.php/Rs1137070) – Agregat wariantów uVNTR, rs1137070 i fenotypów „Gen Wojownika”.

@@ -18,6 +18,7 @@
 
 ### 4. Tabela Wariantów
 **rs4570625 (promotor — synteza serotoniny TPH2)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Maksymalna (~100%) | Fenotyp „Nice Guys”: sprawniejsza komunikacja kora–migdał; stabilność emocjonalna, kontrola impulsów; ochrona przed zaburzeniami nastroju i agresją |

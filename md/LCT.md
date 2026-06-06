@@ -20,6 +20,7 @@
 
 ### 4. Tabela Wariantów
 **rs4988235 (persystencja laktazy)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C (G/G komplementarnie)** | **Pierwotna Hipolaktazja Dorosłych (LNP)** | Charakteryzuje się najniższą lub bliską zeru aktywnością enzymu laktazy u dorosłych. W populacjach europejskich zwiastuje objawową nietolerancję laktozy, a także koreluje z niekorzystnym profilem lipidowym i podwyższonym wskaźnikiem ApoB100. |
@@ -33,7 +34,10 @@
 * **Uwagi o zmienności populacyjnej:** Gradient północ-południe w Europie jest silny (np. bardzo wysokie wartości w Skandynawii, niskie w rejonie śródziemnomorskim); w Polsce allel T zwykle ok. 24,8-27,72%.
 
 ### 6. Wpływ na życie (Zalecenia)
-* **Kardiologia i Profil Lipidowy:** Genotyp hipolaktazji (C/C) jest silnie związany z niekorzystnym profilem miażdżycowym. Pacjenci bez wariantu T posiadają statystycznie wyższe poziomy aterogennego białka ApoB100 i obniżone poziomy ochronnego ApoA1, a wskaźnik ApoB100/ApoA1 ulega niebezpiecznemu podwyższeniu. Wiąże się to m.in. z eliminacją ochronnego wpływu nabiału (wapń wiążący cholesterol w jelitach) i zastępowaniem go rafinowanymi cukrami. Zaleca się ścisłą weryfikację współczynnika ApoB/ApoA1 u nosicieli C/C stroniących od mleka.
+* **Kardiologia i Profil Lipidowy:**
+  * **C/C** (hipolaktazja): wyższe ApoB100, niższe ApoA1, gorszy stosunek ApoB/ApoA1.
+  * Mechanizm: rezygnacja z nabiału → często więcej cukrów rafinowanych zamiast wapnia wiążącego cholesterol.
+  * Zalecenie: kontrola ApoB/ApoA1 u nosicieli C/C unikających mleka.
 * **Gęstość Kości (BMD):** U postmenopauzalnych kobiet z genotypem braku persystencji obserwuje się silniejszy ubytek masy kostnej z szyjki kości udowej, co koreluje ze zmniejszonym o połowę spożyciem wapnia względem nosicieli tolerancji. Wskazana jest celowana suplementacja organicznego wapnia i witaminy D.
 * **Zespół Jelita Drażliwego (IBS):** U pacjentów z postacią biegunkową (D-IBS) i profilem C/C spożycie laktozy bezpośrednio stymuluje degranulację komórek tucznych, zaostrzając trzewny próg bólowy. Wdrożenie diety low-FODMAP i wykluczenie laktozy przynosi w tej grupie natychmiastową ulgę w bólu.
 * **Skłonność do otyłości:** Osoby swobodnie trawiące laktozę (nosiciele allelu T) charakteryzują się statystycznie szerszym obwodem talii i wyższym BMI (p = 7,9 × 10⁻⁵). Swoboda w konsumpcji skutkuje u nich włączaniem do diety gęstych kalorycznie serów i mleka w ilościach znacznie przewyższających zapotrzebowanie jednostek LNP. Nosiciele T powinni uważnie kontrolować podaż płynnych kalorii nabiałowych.
@@ -47,7 +51,7 @@
 * **Ewolucja zbieżna:** Natura sforsowała promotor laktazy kilkoma różnymi wejściami. Podczas gdy Europejczycy bazują na mutacji rs4988235, afrykańscy Masajowie posiadają markery –14010 C czy –13907*G, a bliskowschodni Beduini wariant –13915 G.
 
 ### 8. Źródła (Referencje)
-* **PMID: 40944132** – Asocjacja rs4988235 z ryzykiem sercowo-naczyniowym poprzez modulację ApoB100 i ApoA1.
-* **PMID: 21152447** (Mądry et al.) – Rozbieżność między genotypem a kliniczną nietolerancją laktozy u Polaków (test wodorowy HBT).
-* **PMID: 29063188** – Globalny rozkład alleli persystencji laktazy i presja selekcyjna.
+* **PMID: 40944132** (Kharrat et al., 2025) – Asocjacja rs4988235 z ryzykiem sercowo-naczyniowym poprzez modulację ApoB100 i ApoA1.
+* **PMID: 21152447** (Mądry et al., 2010) – Rozbieżność między genotypem a kliniczną nietolerancją laktozy u Polaków (test wodorowy HBT).
+* **PMID: 29063188** (Liebert et al., 2017) – Globalny rozkład alleli persystencji laktazy i presja selekcyjna.
 * **Baza referencyjna:** [SNPedia (rs4988235)](https://www.snpedia.com/index.php/Rs4988235) – Częstości alleli, magnitudo efektu i adnotacje dla obu orientacji nici.

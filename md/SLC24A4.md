@@ -20,24 +20,31 @@
 
 ### 4. Tabela Wariantów
 **rs12896399 (pigmentacja włosów i skóry)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Wysoka | Ciemne włosy, brązowe oczy, wyższa fotoprotekcja UV |
 | **G/T** | Pośrednia | Szatyn, zielone/szare oczy, fenotyp mieszany |
 | **★ T/T** | Obniżona | Blond/jasna skóra, niebieskie/jasne oczy; słabsza ochrona UV, wyższe ryzyko oparzeń i nowotworów skóry |
+
 **rs11160059 (ciśnienie — populacja afrykańska)**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **★ G/G** | Referencyjna | Brak asocjacji z SBP w kohortach AFR |
 | **A/G** | Pośrednia | Umiarkowanie podwyższone skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
 | **A/A** | Zmodyfikowana | Wyższe skurczowe ciśnienie u Afroamerykanów (niezależne od rs12896399) |
+
 **rs12590654 (regulacyjny (LOAD — późna postać Alzheimer))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna (major) | Typowa ekspresja SLC24A4 w korze; brak ochrony LOAD z tego SNP |
 | **★ G/A** | Pośrednia | Umiarkowana modulacja ekspresji mRNA |
 | **A/A** | Allel minor (ochronny w badaniach) | Skorelowany z obniżonym ryzykiem późnej postaci Alzheimer (LOAD) w populacjach europejskich |
+
 **rs10498633 (intron SLC24A4 (regulacja ekspresji))**
+
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna | Norma pigmentacji i ekspresji w neuronach |
@@ -65,8 +72,8 @@
 * **Konwergencja:** Jasna skóra w Europie (SLC24A5) i w Azji (OCA2 rs1800414) — osobne szlaki ewolucyjne.
 
 ### 8. Źródła (Referencje)
-* **PMID: 18483556** – Han et al. (2008) GWAS rs12896399, kolor włosów i skóry.
-* **PMID: 23375655** – Parry et al. (2013) Mutacje SLC24A4 a amelogenesis imperfecta.
-* **PMID: 22057188** – Stephan et al. (2011) NCKX4 a adaptacja węchowa.
-* **PMID: 19609347** – rs11160059 a nadciśnienie u Afroamerykanów.
+* **PMID: 18483556** (Han et al., 2008) – Han et al. (2008) GWAS rs12896399, kolor włosów i skóry.
+* **PMID: 23375655** (Parry et al., 2013) – Parry et al. (2013) Mutacje SLC24A4 a amelogenesis imperfecta.
+* **PMID: 22057188** (Stephan et al., 2011) – Stephan et al. (2011) NCKX4 a adaptacja węchowa.
+* **PMID: 19609347** (Adeyemo et al., 2009) – rs11160059 a nadciśnienie u Afroamerykanów.
 * **Baza referencyjna:** [SNPedia (rs12896399)](https://www.snpedia.com/index.php/Rs12896399) – Pigmentacja i HIrisPlex.

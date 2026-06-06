@@ -50,12 +50,21 @@ function genotypeLookupKeys(genotype) {
 
 function headingLookupKeys(heading) {
   const keys = [];
-  const full = normalizeToneKey(heading);
+  const h = String(heading || "");
+  const full = normalizeToneKey(h);
   if (full) keys.push(full);
-  const rsMatch = String(heading || "").match(/rs\d+/i);
-  if (rsMatch) {
-    const rsKey = normalizeToneKey(rsMatch[0]);
-    if (rsKey && rsKey !== full) keys.push(rsKey);
+  if (/rs429358/i.test(h) && /rs7412/i.test(h)) {
+    keys.push("haplotypy apoe rs429358 rs7412");
+  }
+  if (/maoa-uvntr/i.test(h)) {
+    keys.push("maoa uvntr promotor liczba powtorzen nie klasyczny snp");
+  }
+  if (/5-httlpr/i.test(h) && /rs4795541/i.test(h)) {
+    keys.push("a haplotypy regionu promotorowego 5 httlpr rs25531");
+  }
+  for (const rs of h.match(/rs\d+/gi) || []) {
+    const rsKey = normalizeToneKey(rs);
+    if (rsKey && !keys.includes(rsKey)) keys.push(rsKey);
   }
   return keys;
 }

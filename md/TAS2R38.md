@@ -4,7 +4,7 @@
 * **Nazwy potoczne i medialne:** Gen supersmakosza (ang. *supertaster gene*), gen wrażliwości na PTC/PROP, gen ślepoty smakowej
 
 ### 2. Identyfikator (rsID) i Charakterystyka Wariantu
-* **Główne rsID (haplotyp):** rs713598, rs1726866, rs10246939
+* **Główny rsID:** rs713598 (+ rs1726866, rs10246939 — haplotyp PAV/AVI)
 * **Lokalizacja chromosomalna:** Chromosom 7 (7q34)
 * **Typ wariantu:** Trzy SNP missense dziedziczone jako blok haplotypowy
 * **Zapis zmian nukleotydowych (HGVS):** c.145G>C (rs713598), c.785T>C (rs1726866), c.886A>G (rs10246939)
@@ -17,24 +17,29 @@
 * **Efekt funkcjonalny:** „Super-smak” PAV/PAV vs niesmak AVI/AVI – różnice w diecie, tolerancji warzyw kapustnych i podatności na infekcje górnych dróg (sekcja 4)
 
 ### 4. Tabela Wariantów
+**rs713598 (PAV/NAV/AVI — gorycz PROP)**
 
-| Genotyp rs713598 (Diplotyp) | Status Wrażliwości | Aktywność w jamie ustnej (Wapń i ATP) | Fenotyp immunologiczny i metaboliczny |
-| :--- | :--- | :--- | :--- |
-| **★ G/G (PAV/PAV)** | **Supersmakosz** (Taster) | Maksymalna struktura receptora. Gwałtowny napływ jonów wapnia i wyrzut neuroprzekaźnika ATP. | Pełna synteza uderzeniowa NO w rzęskach niszcząca bakterie zatokowe. Skuteczna ochrona przed infekcjami dróg oddechowych. Egzotyczne owoce Bignay smakują wyjątkowo słodko. |
-| **G/C (PAV/AVI)** | **Średni smakosz** | Pośrednia praca receptora, jedna kopia zapewnia umiarkowaną transmisję sygnału goryczy. U dzieci wrażliwość jest wyższa. | Umiarkowana podatność na zakażenia i pośrednia wydolność syntezy NO w rzęskach. Wysoka elastyczność układu dietetycznego dla pokarmów. |
-| **C/C (AVI/AVI)** | **Ślepy na smak** (Non-taster) | Zrujnowana przestrzennie struktura uniemożliwia łączenie z białkami G. Minimalna lub całkowicie zerowa produkcja ATP i depolaryzacja. | Brak uwalniania morderczego dla bakterii tlenku azotu na rzęskach. Ekstremalnie wysokie ryzyko ulegania patogenom i wykształcenia przewlekłego zapalenia zatok (CRS). |
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G (PAV/PAV)** | **Supersmakosz** (Taster) | **Aktywność receptora:** Maksymalna struktura receptora. Gwałtowny napływ jonów wapnia i wyrzut neuroprzekaźnika ATP.<br><br>**Fenotyp immunologiczny:** Pełna synteza uderzeniowa NO w rzęskach niszcząca bakterie zatokowe. Skuteczna ochrona przed infekcjami dróg oddechowych. Egzotyczne owoce Bignay smakują wyjątkowo słodko. |
+| **G/C (PAV/AVI)** | **Średni smakosz** | **Aktywność receptora:** Pośrednia praca receptora, jedna kopia zapewnia umiarkowaną transmisję sygnału goryczy. U dzieci wrażliwość jest wyższa.<br><br>**Fenotyp immunologiczny:** Umiarkowana podatność na zakażenia i pośrednia wydolność syntezy NO w rzęskach. Wysoka elastyczność układu dietetycznego dla pokarmów. |
+| **C/C (AVI/AVI)** | **Ślepy na smak** (Non-taster) | **Aktywność receptora:** Zrujnowana przestrzennie struktura uniemożliwia łączenie z białkami G. Minimalna lub całkowicie zerowa produkcja ATP i depolaryzacja.<br><br>**Fenotyp immunologiczny:** Brak uwalniania morderczego dla bakterii tlenku azotu na rzęskach. Ekstremalnie wysokie ryzyko ulegania patogenom i wykształcenia przewlekłego zapalenia zatok (CRS). |
+
 **rs1726866 (c.785T>C, Ile262Val)**
-| Genotyp | Status Wrażliwości | Aktywność w jamie ustnej (Wapń i ATP) | Fenotyp immunologiczny i metaboliczny |
-| :--- | :--- | :--- | :--- |
-| **C/C** | Funkcjonalny (PAV) | Pełna aktywność w haplotypie PAV | Współtworzy supersmakosza przy PAV na rs713598 i rs10246939 |
-| **C/T** | Pośrednia | Częściowa funkcja receptora | Profil mieszany w bloku haplotypowym |
-| **T/T** | Niefunkcjonalny (AVI) | Obniżona percepcja goryczy w haplotypie AVI | Część haplotypu non-taster; interpretacja łącznie z rs713598 |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Funkcjonalny (PAV) | **Aktywność receptora:** Pełna aktywność w haplotypie PAV<br><br>**Fenotyp immunologiczny:** Współtworzy supersmakosza przy PAV na rs713598 i rs10246939 |
+| **C/T** | Pośrednia | **Aktywność receptora:** Częściowa funkcja receptora<br><br>**Fenotyp immunologiczny:** Profil mieszany w bloku haplotypowym |
+| **T/T** | Niefunkcjonalny (AVI) | **Aktywność receptora:** Obniżona percepcja goryczy w haplotypie AVI<br><br>**Fenotyp immunologiczny:** Część haplotypu non-taster; interpretacja łącznie z rs713598 |
+
 **rs10246939 (c.886A>G, Ala296Val)**
-| Genotyp | Status Wrażliwości | Aktywność w jamie ustnej (Wapń i ATP) | Fenotyp immunologiczny i metaboliczny |
-| :--- | :--- | :--- | :--- |
-| **★ G/G** | Funkcjonalny (PAV) | Pełna aktywność w haplotypie PAV | Współtworzy supersmakosza z rs713598/rs1726866 |
-| **G/A** | Pośrednia | Umiarkowana transmisja sygnału | Elastyczny profil dietetyczny |
-| **A/A** | Niefunkcjonalny (AVI) | Brak pełnej funkcji w haplotypie AVI | Non-taster w połączeniu z C na rs713598 i T na rs1726866 |
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Funkcjonalny (PAV) | **Aktywność receptora:** Pełna aktywność w haplotypie PAV<br><br>**Fenotyp immunologiczny:** Współtworzy supersmakosza z rs713598/rs1726866 |
+| **G/A** | Pośrednia | **Aktywność receptora:** Umiarkowana transmisja sygnału<br><br>**Fenotyp immunologiczny:** Elastyczny profil dietetyczny |
+| **A/A** | Niefunkcjonalny (AVI) | **Aktywność receptora:** Brak pełnej funkcji w haplotypie AVI<br><br>**Fenotyp immunologiczny:** Non-taster w połączeniu z C na rs713598 i T na rs1726866 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej uniwersalnej wartości globalnej, ponieważ częstości dotyczą haplotypów (PAV/AVI/AAI), a nie pojedynczego allelu
 * **Europa (NFE):** Wysoka równowaga haplotypów: PAV ok. 45,66% i AVI ok. 49,22%
@@ -61,4 +66,4 @@
 * **PMID: 16612383** (Wooding et al., 2006) – Zbieżna ewolucja wrażliwości na gorycz u ludzi i szympansów (*Nature*).
 * **PMID: 19675003** (Lalueza-Fox et al., 2009) – Genotyp TAS2R38 u neandertalczyków z El Sidrón.
 * **PMID: 23041624** (Lee et al., 2012) – Haplotypy PAV/NAV a podatność na infekcje górnych dróg oddechowych (*JCI*).
-* **Baza referencyjna:** [SNPedia (TAS2R38)](https://www.snpedia.com/index.php/TAS2R38) – Haplotypy PAV/NAV/AVI i rozkłady populacyjne.
+* **Baza referencyjna:** [SNPedia (rs713598)](https://www.snpedia.com/index.php/Rs713598), [SNPedia (rs1726866)](https://www.snpedia.com/index.php/Rs1726866), [SNPedia (rs10246939)](https://www.snpedia.com/index.php/Rs10246939) – Haplotypy PAV/NAV/AVI i rozkłady populacyjne.
