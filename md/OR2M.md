@@ -30,7 +30,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
+| **★ G/G** | Typowy zapach szparagów | Profil jak rs4481887 — odczuwanie zapachu metioniny |
 | **G/A** | Pośrednia | Zmieniona intensywność zapachu |
 | **A/A** | Alternatywna (haplotyp) | Modulacja percepcji w bloku OR2M; interpretacja z rs4481887 |
 **rs71538191 (OR2M (powiązany haplotyp))**
@@ -51,14 +51,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Norma |
+| **★ G/G** | Referencyjna | Norma |
 | **G/A** | Pośrednia | Umiarkowana modulacja |
 | **A/A** | Alternatywna | Część bloku LD rs4481887 |
 **rs57711976 (OR2M (LD))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Norma percepcji |
+| **★ G/G** | Referencyjna | Norma percepcji |
 | **G/A** | Pośrednia | Pośredni fenotyp zapachowy |
 | **A/A** | Alternatywna | Możliwa zmiana intensywności zapachu szparagów |
 ### 5. Statystyki populacyjne

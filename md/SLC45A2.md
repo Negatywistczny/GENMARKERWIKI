@@ -30,7 +30,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Ancestralny (Glu272); pełna funkcja | Odniesienie populacyjne; ciemna pigmentacja u Afrykanów lub współistnienie z wariantami depigmentacyjnymi w EUR |
+| **★ G/G** | Ancestralny (Glu272); pełna funkcja | Odniesienie populacyjne; ciemna pigmentacja u Afrykanów lub współistnienie z wariantami depigmentacyjnymi w EUR |
 | **G/A** | Heterozygota (Glu/Lys); pośrednia | Pośredni wpływ na odcień włosów w Azji; profil mieszany między ancestral a wariantem EAS |
 | **A/A** | Lys272 | **Mechanizm / ekspresja:** łagodna zmiana domeny błonowej<br><br>**Wpływ fenotypowy:** MAF do ~40% w EAS; możliwy wpływ na odcień włosów w Azji; klasyfikacja łagodna (brak związku z CMM) |
 **rs2287949 (synonimiczny c.987A>G (T329T, haplotypy migracji))**
@@ -44,14 +44,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Asp/Asp — funkcja MATP | Prawidłowa pigmentacja; brak OCA4 |
+| **★ G/G** | Asp/Asp — funkcja MATP | Prawidłowa pigmentacja; brak OCA4 |
 | **G/A** | Nosiciel | Zwykle asymptomatyczny nosiciel; ryzyko u potomstwa przy partnerze nosicielu |
 | **A/A** | Asn/Asn | Albinizm oka-skóra typ 4 (OCA4): brak eumelaniny, fotofobia, wysokie ryzyko raka skóry — opieka okulistyczna i dermatologiczna |
 **rs375077956 (p.Tyr266Ter (OCA4, nonsense))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Pełne białko | Norma pigmentacji |
+| **★ C/C** | Pełne białko | Norma pigmentacji |
 | **C/A** | Nosiciel | Brak fenotypu u heterozygoty |
 | **A/A** | Brak funkcji (skrócone białko) | OCA4 — ciężka hipopigmentacja, konieczna ochrona UV i monitoring onkologiczny skóry |
 ### 5. Statystyki populacyjne

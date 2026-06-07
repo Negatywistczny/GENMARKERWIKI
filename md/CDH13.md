@@ -51,14 +51,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Standardowa ekspresja w OUN (jak G/G rs11649622) | Typowa kontrola impulsów; brak dodatkowego ryzyka z tego markera proxy |
+| **★ T/T** | Standardowa ekspresja w OUN (jak G/G rs11649622) | Typowa kontrola impulsów; brak dodatkowego ryzyka z tego markera proxy |
 | **T/C** | Pośrednia modulacja w bloku LD | Umiarkowane ryzyko alkoholizmu i polsubstantów przy obciążeniu środowiskowym |
 | **C/C** | Osłabione hamowanie impulsów (jak A/A rs11649622) | Wyższe ryzyko zachowań impulsywnych; epistaza MAOA-L + trauma → skrajne zachowania |
 **rs4075942 (haplotyp rs11649622)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Haplotyp sprzężony z G/G rs11649622 | Brak izolowanej predyspozycji do zaburzeń impulsów |
+| **★ T/T** | Haplotyp sprzężony z G/G rs11649622 | Brak izolowanej predyspozycji do zaburzeń impulsów |
 | **T/C** | Heterozygota w bloku agresji/recydywy | Pośrednie ryzyko przy ekspozycji na alkohol i stymulanty |
 | **C/C** | Haplotyp sprzężony z A/A rs11649622 | Część bloku behawioralnego powiązanego z recydywą brutalną |
 **rs7190768 (haplotyp rs11649622)**
@@ -86,7 +86,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Haplotyp sprzężony z A/A rs2199430 | Profil ugodowości i P300 jak u homozygoty A rs2199430 |
+| **★ C/C** | Haplotyp sprzężony z A/A rs2199430 | Profil ugodowości i P300 jak u homozygoty A rs2199430 |
 | **C/T** | Heterozygota w bloku kognicji | Pośrednia modulacja ugodowości (NEO-PI-R) i odpowiedzi na n-back |
 | **T/T** | Haplotyp sprzężony z G/G rs2199430 | ~181% mRNA w korze; niższa ugodowość; ADHD w kohortach |
 **rs12051272 (enhancer w LD z rs4783244, ~3 kb od TSS)**
@@ -122,13 +122,13 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **T/T** | Brak efektu meQTL (major) | Fenotyp referencyjny w populacji ogólnej |
-| **T/A (lub T/C)** | Nosiciel rzadkiego meQTL | Możliwa modulacja metylacji promotora CDH13 |
+| **★ T/A (lub T/C)** | Nosiciel rzadkiego meQTL | Możliwa modulacja metylacji promotora CDH13 |
 | **A/A (lub C/C)** | Rzadka homozygota meQTL | Silniejsza dysregulacja chromatyny — dane kliniczne ograniczone |
 **rs113460564 (rzadki meQTL, MAF ~0,5%)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Norma metylacji (major) | Brak ustalonego fenotypu klinicznego |
+| **★ A/A** | Norma metylacji (major) | Brak ustalonego fenotypu klinicznego |
 | **A/C** | Nosiciel wysoce rzadkiego allelu | Potencjalna modulacja chromatyny — wymaga profilu całego panelu CDH13 |
 | **C/C** | Homozygoty rzadkiego meQTL | Możliwa dysregulacja ekspresji CDH13; dane fenotypowe bardzo ograniczone |
 ### 5. Statystyki populacyjne

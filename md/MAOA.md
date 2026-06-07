@@ -22,7 +22,7 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **3R, 3.5R** | Skrajnie niska (MAOA-L) | „Gen wojownika”. Akumulacja katecholamin. Zachowania antyspołeczne i nagły gniew głównie po przemocy w dzieciństwie |
-| **4R, 4.5R** | Wysoka (MAOA-H) | Szybka redukcja amin; opanowanie stresu, rzadka agresja. Wyższe ryzyko apatii, zmęczenia i „chłodnych” prób samobójczych |
+| **★ 4R, 4.5R** | Wysoka (MAOA-H) | Szybka redukcja amin; opanowanie stresu, rzadka agresja. Wyższe ryzyko apatii, zmęczenia i „chłodnych” prób samobójczych |
 | **2R, 2.5R** | Dysharmonijna / rzadka | Silna redukcja funkcji; skrajny nadmiar katecholamin |
 | **3.3R** | Wybitnie wysoka | Unikalny allel; aktywność do ~2× silniejsza niż 3.5R |
 **rs6323 (R297R)**

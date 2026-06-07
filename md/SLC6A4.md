@@ -29,7 +29,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Standardowa transkrypcja | Profil referencyjny przy haplotypie L_A |
+| **★ C/C** | Standardowa transkrypcja | Profil referencyjny przy haplotypie L_A |
 | **C/T** | Pośrednia (obniżona) | Umiarkowane wyciszenie ekspresji |
 | **T/T** | Obniżona o 15–80% | Haplotyp L_A z T związany z wyższym ryzykiem Tourette'a (OR=1,33) i OCD |
 **rs1042173 (3'UTR, T>G)**
@@ -51,7 +51,7 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **L/L (długi; L_A/L_A po rs25531)** | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
-| **L/S** | Pośrednia ekspresja | Profil „orchid child” — wrażliwość na środowisko; elastyczna odpowiedź na SSRI zależnie od haplotypu |
+| **★ L/S** | Pośrednia ekspresja | Profil „orchid child” — wrażliwość na środowisko; elastyczna odpowiedź na SSRI zależnie od haplotypu |
 | **S/S (krótki)** | Niska ekspresja 5-HTT | Wyższe ryzyko depresji i lęku po traumie (interakcja gen–środowisko, Caspi); rozważ psychoterapię i ostrożność z SSRI |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości dla VNTR S/L globalnie; częstość S silnie zróżnicowana geograficznie (od ~43% w Europie do 70–80% u Azjatów)

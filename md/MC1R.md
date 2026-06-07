@@ -22,7 +22,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Nominalna (100%) | **Mechanizm / ekspresja:** wydajny szlak eumelaniny<br><br>**Pigmentacja:** Ciemne włosy, skóra o wysokiej tolerancji na słońce<br><br>**Nocycepcja:** Standardowa nocycepcja |
+| **★ C/C** | Nominalna (100%) | **Mechanizm / ekspresja:** wydajny szlak eumelaniny<br><br>**Pigmentacja:** Ciemne włosy, skóra o wysokiej tolerancji na słońce<br><br>**Nocycepcja:** Standardowa nocycepcja |
 | **C/T** | Obniżona o 30–50% | **Pigmentacja:** Karnacja pośrednia, skłonność do piegów<br><br>**Nocycepcja:** Standardowa nocycepcja |
 | **T/T** | Całkowita utrata funkcji (LOF) | **Mechanizm / ekspresja:** brak syntezy cAMP<br><br>**Pigmentacja:** 13–20× wyższa szansa na rude włosy, skóra typu I, obfite piegi, brak zdolności do opalania<br><br>**Nocycepcja:** Zwiększona wrażliwość na ból termiczny, osłabiona odpowiedź na lidokainę i desfluran, lepsze działanie kappa-opioidów u kobiet |
 **rs1805008 (R160W)**
@@ -50,14 +50,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
+| **★ C/C** | Val/Val — pełna funkcja | Typowa pigmentacja eumelaniny |
 | **C/T** | Val/Leu | Jaśniejsze włosy, łagodniejsze opalanie |
 | **T/T** | Leu/Leu | Słabsza funkcja MC1R; predyspozycja do jasnych włosów i piegów; fotoprotekcja UV |
 **rs885479 (Arg163Gln (R163Q, allel „r”))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Arg/Arg | Norma pigmentacji; niższe ryzyko przebarwień posłonecznych |
+| **★ G/G** | Arg/Arg | Norma pigmentacji; niższe ryzyko przebarwień posłonecznych |
 | **G/A** | Arg/Gln | Pośredni; skłonność do plam i przebarwień |
 | **A/A** | Gln/Gln | Niskopenetrujący wariant „r”; plamy posłoneczne, jaśniejsza skóra; monitoring zmian barwnikowych |
 ### 5. Statystyki populacyjne

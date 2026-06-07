@@ -37,14 +37,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Pełna aktywność ALDH2 | Referencyjny metabolizm aldehydu octowego |
+| **★ A/A** | Pełna aktywność ALDH2 | Referencyjny metabolizm aldehydu octowego |
 | **A/G** | Częściowa utrata funkcji | Rumieniec alkoholowy u osób nieazjatyckich; ostrożność z etanolem |
 | **G/G** | Silnie obniżona aktywność (rzadkie) | Phenotyp podobny do łagodnego ALDH2*2; unikać alkoholu; ryzyko kumulacji acetaldehydu |
 **rs190764869 (ALDH2 p.Arg114Trp (rzadki))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Pełna aktywność ALDH2 | Norma metabolizmu aldehydu |
+| **★ C/C** | Pełna aktywność ALDH2 | Norma metabolizmu aldehydu |
 | **C/T** | Obniżona funkcja | Możliwy rumieniec i nietolerancja alkoholu |
 | **T/T** | Krytycznie obniżona aktywność | Silna nietolerancja etanolu; profil ochronny przed nadmiernym piciem przy wysokim dyskomforcie |
 ### 5. Statystyki populacyjne

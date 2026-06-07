@@ -26,7 +26,6 @@
 | **C/C** | Nominalna stabilność mRNA | Standardowy BMI, ciśnienie; adaptacja lipidowa u mężczyzn |
 | **★ C/T** | Pośrednia | Umiarkowane modyfikacje BMI i ciśnienia rozkurczowego |
 | **T/T** | Zmiana stabilności transkryptu | Modyfikacja cholesterolu LDL po wysiłku; modulacja osi kortyzolowej (głos) |
-
 **rs11174811 (regulacja pod stresem)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,20 +33,18 @@
 | **C/C** | Referencyjna ekspresja | Standardowa impulsywność i reaktywność na stres |
 | **★ C/T** | Pośrednia | Umiarkowana modulacja impulsywności |
 | **T/T** | Zmiana ekspresji pod stresem | Podwyższona impulsywność; ryzyko uzależnień (alkohol, opioidy); ryzyko ALF po paracetamolu |
-
 **rs10877969 (proxy percepcji bólu / ASD)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjna (~71% EUR) | Standardowa modulacja bólu i cech socjalizacyjnych |
+| **★ T/T** | Referencyjna (~71% EUR) | Standardowa modulacja bólu i cech socjalizacyjnych |
 | **T/C** | Pośrednia | Umiarkowana modulacja bólu i ASD |
 | **C/C** | Zmiana aktywności promotora | Modulacja bólu ostrego/neuropatycznego; korelacja z ASD |
-
 **RS3 allel 334 (mikrosatelita — więź partnerska)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **0 kopii** | Brak allelu 334 | Standardowe zachowania partnerskie (~70–74% EUR mężczyzn) |
+| **★ 0 kopii** | Brak allelu 334 | Standardowe zachowania partnerskie (~70–74% EUR mężczyzn) |
 | **1 kopia** | Heterozygota | Pośrednie więzi partnerskie (~25–28% EUR) |
 | **2 kopie** | Homozygota 334 | Słabsza więź u mężczyzn; 2× ryzyko kryzysu małżeńskiego; niższy altruizm |
 ### 5. Statystyki populacyjne

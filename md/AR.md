@@ -23,7 +23,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G (mężczyźni hemizygoti G; kobiety G/G)** | Wysoka odpowiedź na DHT w mieszkach włosowych | Znacznie podwyższone ryzyko łysienia androgenowego (AGA; OR ok. 2,7–3,3 w EUR); wyższe PSA przy BPH; skłonność do przerostu prostaty |
+| **★ G (mężczyźni hemizygoti G; kobiety G/G)** | Wysoka odpowiedź na DHT w mieszkach włosowych | Znacznie podwyższone ryzyko łysienia androgenowego (AGA; OR ok. 2,7–3,3 w EUR); wyższe PSA przy BPH; skłonność do przerostu prostaty |
 | **G/A (wyłącznie kobiety)** | Pośrednia | **Uwagi lyonizacji:** efekt zależy od lyonizacji X<br><br>**Wpływ fenotypowy:** Umiarkowane ryzyko łysienia żeńskiego (FPHL); fenotyp często łagodny bez czynników metabolicznych |
 | **A (mężczyźni hemizygoti A; kobiety A/A)** | Obniżona czułość tkankowa na DHT | Silna ochrona przed AGA (~70% redukcji ryzyka u mężczyzn); niższe bazowe PSA; u kobiet z PCOS możliwe wyższe stężenie wolnego testosteronu |
 **rs1385699 (EDA2R p.Glu57Leu (łysienie androgenowe — silniejszy sygnał niż rs6152 u części kohort))**

@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """Generate personal variant report and sync ★ markers from genotype sources + md/*.md.
 
-Źródła genotypów (priorytet): wybrane_markery.csv → WGS (raw/*.ai_full.csv) → MyHeritage.
+Źródła genotypów (priorytet): wybrane_markery.csv → WGS (query_rsid_results.csv) → WGS (raw/*.ai_full.csv) → MyHeritage.
 
 Gwiazdka ★ w md/*.md (sekcja 4) oznacza wyłącznie wiersz potwierdzonego genotypem
 właściciela — ustawiana tylko przez dopasowanie do powyższych źródeł.
@@ -11,6 +11,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import re
 import sys
 from collections import defaultdict
@@ -31,6 +32,26 @@ CSV_PATH = Path(
 MH_PATH = Path(
     r"C:\Users\kacpe\Documents\.PERSONALNA BAZA DANYCH"
     r"\01_zdrowie\03_genetyka\01_surowe_dane\myheritage_raw_dna_data.csv"
+)
+BAM_GENOTYPES_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\bam_genotypes_final.csv"
+)
+QUERY_RSID_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\query_rsid_results.csv"
+)
+MAOA_VNTR_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\maoa_uvntr.json"
+)
+AR_CAG_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\ar_cag.json"
+)
+AVPR1A_RS3_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\avpr1a_rs3.json"
 )
 
 STAR = "★"
@@ -73,6 +94,22 @@ RSID_ALIASES: dict[tuple[str, str, str], list[str]] = {
     ("IL2RA", "rs12722489", "CT"): ["C/T", "T/C"],
     ("OR1A1", "rs2073153", "GG"): ["G/G"],
     ("MTRR", "rs1532268", "CT"): ["C/T", "T/C"],
+    ("ABCC11", "rs17822931", "CC"): ["G/G", "C/C"],
+    ("ABCC11", "rs17822471", "GG"): ["C/C", "G/G"],
+    ("MC1R", "rs1805005", "GG"): ["C/C", "G/G"],
+    ("ACTN3", "rs1815739", "TT"): ["T/T", "X/X"],
+    ("SLC6A4", "rs25532", "GG"): ["C/C", "G/G"],
+    ("SLC6A4", "rs4795541", "L/S"): ["L/S", "S/L", "LS", "SL"],
+    ("SLC6A4", "rs25531", "AG"): ["A/G", "G/A"],
+    ("MAOA", "MAOA-uVNTR", "4R"): ["4R, 4.5R", "4R/4.5R"],
+    ("MAOA", "MAOA-uVNTR", "3R"): ["3R, 3.5R", "3R/3.5R"],
+    ("AVPR1A", "AVPR1A-RS3", "0 KOPII ALLELU 334"): ["0 kopii", "0KOPII", "0 kopii allelu 334"],
+    ("AVPR1A", "AVPR1A-RS3", "1 KOPIA"): ["1 kopia"],
+    ("AVPR1A", "AVPR1A-RS3", "2 KOPIE"): ["2 kopie"],
+    ("SLC45A2", "rs26722", "CC"): ["G/G", "C/C"],
+    ("SLC45A2", "rs121912621", "CC"): ["G/G", "C/C"],
+    ("SLC45A2", "rs375077956", "GG"): ["C/C", "G/G"],
+    ("ZEB2", "rs587776604", "TT"): ["G/G", "T/T"],
 }
 
 ALIASES: dict[str, list[str]] = {
@@ -124,7 +161,28 @@ def wgs_path() -> Path | None:
     return candidates[0] if candidates else None
 
 
-def load_wgs(needed: set[str]) -> dict[str, str]:
+def _load_rsid_csv(path: Path, needed_l: set[str]) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    found: dict[str, str] = {}
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            rs = row.get("RSID", row.get("rsid", "")).strip().lower()
+            gt = row.get("RESULT", row.get("result", "")).strip().upper()
+            if rs in needed_l and gt not in ("NOT_FOUND", "NO_CALL", ""):
+                found[rs] = gt
+    return found
+
+
+def load_query_rsid(needed: set[str]) -> dict[str, str]:
+    needed_l = {r.lower() for r in needed}
+    found = _load_rsid_csv(BAM_GENOTYPES_PATH, needed_l)
+    for rs, gt in _load_rsid_csv(QUERY_RSID_PATH, needed_l).items():
+        found.setdefault(rs, gt)
+    return found
+
+
+def load_wgs_raw(needed: set[str]) -> dict[str, str]:
     path = wgs_path()
     if not path:
         return {}
@@ -141,6 +199,85 @@ def load_wgs(needed: set[str]) -> dict[str, str]:
             if len(found) == len(needed_l):
                 break
     return found
+
+
+def load_wgs(needed: set[str]) -> dict[str, str]:
+    found = load_query_rsid(needed)
+    for rs, gt in load_wgs_raw(needed).items():
+        found.setdefault(rs, gt)
+    return found
+
+
+def load_maoa_uvntr() -> dict | None:
+    return _load_vntr_json(MAOA_VNTR_PATH)
+
+
+def _load_vntr_json(path: Path) -> dict | None:
+    if not path.exists():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return None
+    result = data.get("result") or {}
+    gt = (result.get("genotype") or "").strip()
+    if not gt:
+        return None
+    return {
+        "genotype": gt,
+        "confidence": result.get("confidence", ""),
+        "method": result.get("method", ""),
+        "notes": result.get("notes", ""),
+        "source": "WGS (BAM/VNTR)",
+    }
+
+
+def load_ar_cag() -> dict | None:
+    return _load_vntr_json(AR_CAG_PATH)
+
+
+def load_avpr1a_rs3() -> dict | None:
+    return _load_vntr_json(AVPR1A_RS3_PATH)
+
+
+def append_vntr_section(
+    lines: list[str],
+    gene: str,
+    marker_id: str,
+    title: str,
+    uvntr: dict,
+    blocks: list[tuple[str, str]],
+    sec4: str,
+    intro4: str,
+) -> None:
+    block = block_for_rsid(marker_id, blocks, sec4, intro4)
+    if not block and marker_id == "AVPR1A-RS3":
+        for _, b in blocks:
+            if "RS3" in b[:120]:
+                block = b
+                break
+    row = match_row(gene, marker_id, uvntr["genotype"], block) if block else None
+    lines.append(f"#### {marker_id}")
+    lines.append(f"_{title}_\n")
+    conf = uvntr.get("confidence", "")
+    lines.append(f"- **Genotyp (WGS):** `{uvntr['genotype']}`")
+    lines.append(f"- **Źródło:** {uvntr['source']}" + (f" (pewność: {conf})" if conf else ""))
+    if uvntr.get("method"):
+        lines.append(f"- **Metoda:** {uvntr['method']}")
+    if uvntr.get("notes"):
+        lines.append(f"- **Uwaga:** {uvntr['notes']}")
+    if row:
+        lines.append(f"- **Profil w tabeli wariantów:** {row['genotype_cell']}")
+        if len(row["cols"]) > 1:
+            lines.append(f"- **Aktywność / status:** {row['cols'][1]}")
+        if len(row["cols"]) > 2:
+            lines.append(f"- **Wpływ fenotypowy:** {row['cols'][2]}")
+    else:
+        lines.append(
+            "- _Brak dopasowania wiersza w tabeli wariantów "
+            "(allele VNTR poza listą wiki lub proxy)._"
+        )
+    lines.append("")
 
 
 def load_gene_categories() -> dict[str, list[str]]:
@@ -256,7 +393,7 @@ def row_keys(cell: str) -> set[str]:
     token_re = (
         r"(?:lub\s+)?([ACGT]{1,2}/[ACGT]{1,2}|[ACGT]{2}|"
         r"alt/alt|ref/ref|ref/alt|C/alt|CC/C|Gc[\w/]+|Ins/Del|Del/Ins|"
-        r"wt/wt|L/L|S/S|major|minor)"
+        r"wt/wt|L/L|S/S|L/S|S/L|major|minor)"
     )
 
     def add(tok: str) -> None:
@@ -271,7 +408,11 @@ def row_keys(cell: str) -> set[str]:
     if plain:
         add(plain.split("(")[0])
     for bold in re.findall(r"\*\*(?:★\s*)?([^*]+)\*\*", cell):
-        add(strip_md(bold).split("(")[0])
+        text = strip_md(bold).split("(")[0]
+        add(text)
+        if "," in text:
+            for part in text.split(","):
+                add(part.strip())
         for inner in re.findall(r"\(([^)]+)\)", bold):
             for m in re.findall(token_re, inner, re.I):
                 add(m)
@@ -360,14 +501,20 @@ def split_rs_blocks(sec4: str) -> tuple[str, list[tuple[str, str]]]:
 def block_for_rsid(
     rsid: str, blocks: list[tuple[str, str]], sec4: str, intro: str = ""
 ) -> str:
+    exact: str | None = None
+    partial: str | None = None
     for brsid, block in blocks:
-        if brsid == rsid or block.lstrip().startswith(f"**{rsid}"):
-            return block
+        if block.lstrip().startswith(f"**{rsid}"):
+            exact = block
+            break
+        if brsid == rsid or rsid in brsid or rsid in block:
+            partial = partial or block
+    if exact:
+        return exact
+    if partial:
+        return partial
     if intro and rsid in intro and "|" in intro:
         return intro
-    for brsid, block in blocks:
-        if rsid in brsid or rsid in block:
-            return block
     if len(blocks) == 1 and not blocks[0][0]:
         return blocks[0][1]
     return sec4
@@ -504,6 +651,48 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
             and any(e["rsid"] == "rs7041" for e in known)
             and any(e["rsid"] == "rs4588" for e in known)
         )
+        if gene == "MAOA":
+            uvntr = load_maoa_uvntr()
+            if uvntr:
+                append_vntr_section(
+                    lines,
+                    gene,
+                    "MAOA-uVNTR",
+                    "MAOA-uVNTR (promotor — aktywność MAOA-L/H)",
+                    uvntr,
+                    blocks,
+                    sec4,
+                    intro4,
+                )
+
+        if gene == "AR":
+            cag = load_ar_cag()
+            if cag:
+                append_vntr_section(
+                    lines,
+                    gene,
+                    "AR-CAG",
+                    "CAGn (VNTR ekson 1 — długość powtórzeń)",
+                    cag,
+                    blocks,
+                    sec4,
+                    intro4,
+                )
+
+        if gene == "AVPR1A":
+            rs3 = load_avpr1a_rs3()
+            if rs3:
+                append_vntr_section(
+                    lines,
+                    gene,
+                    "AVPR1A-RS3",
+                    "RS3 allel 334 (mikrosatelita — więź partnerska)",
+                    rs3,
+                    blocks,
+                    sec4,
+                    intro4,
+                )
+
         if gc_pair:
             g7041 = next(e for e in known if e["rsid"] == "rs7041")
             g4588 = next(e for e in known if e["rsid"] == "rs4588")
@@ -539,7 +728,11 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
             block = block_for_rsid(rsid, blocks, sec4, intro4)
             if not block and rsid == main_rsid:
                 block = intro4 + "\n" + sec4 if intro4 else sec4
-            row = match_row(gene, rsid, entry["genotype"], block)
+            match_rsid, match_block = rsid, block
+            if gene == "CHRNA5" and rsid == "rs1051730":
+                match_rsid = "rs16969968"
+                match_block = block_for_rsid("rs16969968", blocks, sec4, intro4) or block
+            row = match_row(gene, match_rsid, entry["genotype"], match_block)
             m = re.search(rf"\*\*(?:★\s*)?{re.escape(rsid)}[^*]*\*\*", block)
             block_title = strip_md(m.group(0)) if m else (
                 main_rsid if rsid == main_rsid else rsid
@@ -565,16 +758,26 @@ def build_gene_section(gene: str, entries: list[dict], md_text: str) -> str:
                         f"({row['cols'][4]})" if len(row["cols"]) > 4 else row["cols"][3]
                     )
             else:
-                lines.append(
-                    "- _Brak dopasowania wiersza w tabeli wariantów "
-                    "(różna orientacja nici lub allel referencyjny)._"
-                )
+                if gene == "MAOA" and rsid == "rs72554632" and norm_genotype(
+                    entry["genotype"]
+                ) in ("CC", "C/C"):
+                    lines.append(
+                        "- **Status:** Brak allelu patogennego (Q296Ter); "
+                        "brak wariantu Brunner z tego SNP"
+                    )
+                else:
+                    lines.append(
+                        "- _Brak dopasowania wiersza w tabeli wariantów "
+                        "(różna orientacja nici lub allel referencyjny)._"
+                    )
             lines.append("")
 
     if unknown:
         lines.append("### Markery w panelu bez genotypu w Twoich danych")
         for e in unknown:
-            lines.append(f"- `{e['rsid']}` — brak wpisu w WGS/MyHeritage/CSV")
+            lines.append(
+                f"- `{e['rsid']}` — brak wpisu w CSV/WGS/MyHeritage"
+            )
         lines.append("")
 
     if sec6:
@@ -657,11 +860,30 @@ def sync_gene_stars(gene: str, entries: list[dict], md_text: str) -> tuple[str, 
                     if (a in t1 and b in t2) or (a in t2 and b in t1):
                         matched_row = row
                         break
+        elif gene == "MAOA" and "MAOA-uVNTR" in block[:120]:
+            uvntr = load_maoa_uvntr()
+            if uvntr:
+                matched_row = match_row(gene, "MAOA-uVNTR", uvntr["genotype"], block)
+                rsid = "MAOA-uVNTR"
+        elif gene == "AVPR1A" and "RS3" in block[:120]:
+            rs3 = load_avpr1a_rs3()
+            if rs3:
+                matched_row = match_row(gene, "AVPR1A-RS3", rs3["genotype"], block)
+                rsid = "AVPR1A-RS3"
 
         gt = known.get(rsid, "")
+        if gene == "MAOA" and rsid == "MAOA-uVNTR":
+            uvntr = load_maoa_uvntr()
+            if uvntr:
+                gt = uvntr["genotype"]
+        if gene == "AVPR1A" and rsid == "AVPR1A-RS3":
+            rs3 = load_avpr1a_rs3()
+            if rs3:
+                gt = rs3["genotype"]
         new_block, stars = apply_stars_to_block(gene, block, rsid, gt or None, matched_row)
         if stars:
-            log.append(f"{rsid}={known.get(rsid, 'haplotyp')} → {stars} wiersz")
+            label = gt or known.get(rsid, "haplotyp")
+            log.append(f"{rsid}={label} -> {stars} wiersz")
         new_blocks.append((brsid, new_block))
 
     rebuilt = intro.rstrip("\n")
@@ -713,12 +935,16 @@ def main(by_gene: dict[str, list[dict]] | None = None) -> None:
     known_total = sum(1 for g in genes for e in by_gene[g] if e["genotype"])
     marker_total = sum(len(by_gene[g]) for g in genes)
 
-    wgs = wgs_path()
+    wgs_raw = wgs_path()
     sources = ["panel markerów z gene-rsids.js"]
     if CSV_PATH.exists():
         sources.insert(0, "wybrane_markery.csv")
-    if wgs:
-        sources.append(f"WGS ({wgs.name})")
+    if BAM_GENOTYPES_PATH.exists():
+        sources.append(f"WGS ({BAM_GENOTYPES_PATH.name})")
+    elif QUERY_RSID_PATH.exists():
+        sources.append(f"WGS ({QUERY_RSID_PATH.name})")
+    if wgs_raw:
+        sources.append(f"WGS ({wgs_raw.name})")
     if MH_PATH.exists():
         sources.append("MyHeritage (build 37)")
 
@@ -768,7 +994,7 @@ def main(by_gene: dict[str, list[dict]] | None = None) -> None:
     out.append("# Uwagi\n")
     out.append(
         f"**{missing} markerów** z panelu ({marker_total} łącznie) bez genotypemu w dostępnych "
-        "źródłach (WGS nie zawiera wszystkich rsID lub wymaga mapowania chr:pos).\n"
+        "źródłach (CSV/WGS query/MyHeritage).\n"
     )
     out.append(
         "Genotypy bez dopasowanego wiersza w tabeli (allel referencyjny, inna orientacja nici) "

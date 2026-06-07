@@ -44,14 +44,14 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Prawidłowa regulacja mRNA ADRA2A | Brak zwiększonej skłonności do chronicznego bólu mięśniowo-szkieletowego pod wpływem stresu |
+| **★ C/C** | Prawidłowa regulacja mRNA ADRA2A | Brak zwiększonej skłonności do chronicznego bólu mięśniowo-szkieletowego pod wpływem stresu |
 | **C/A (lub C/G, C/T)** | Pośrednia destabilizacja transkryptu | Umiarkowane nasilenie objawów somatycznych przy przewlekłym stresie |
 | **A/A (lub homozygoty alt)** | Osłabiona regulacja 3'-UTR | Wyższe nasilenie bólu mięśniowo-szkieletowego w odpowiedzi na chroniczny stres; techniki redukcji stresu i monitoring metaboliczny |
 **rs521674 (upstream / 2 kb upstream (odraczanie gratyfikacji))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T** | Referencyjna transkrypcja upstream | Typowy profil opóźniania gratyfikacji; brak zwiększonej impulsywności behawioralnej z tego markera |
+| **★ T/T** | Referencyjna transkrypcja upstream | Typowy profil opóźniania gratyfikacji; brak zwiększonej impulsywności behawioralnej z tego markera |
 | **T/A** | Pośrednia modulacja ekspresji | Umiarkowana skłonność do preferowania natychmiastowej nagrody |
 | **A/A** | Zmieniona regulacja promotorowa | Skorelowany z wyższym delayed reward discounting (impulsywność ekonomiczna); warto ćwiczenia opóźniania gratyfikacji i CBT |
 ### 5. Statystyki populacyjne

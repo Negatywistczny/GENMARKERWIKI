@@ -51,21 +51,21 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Brak efektu klinicznego |
+| **★ G/G** | Referencyjna | Brak efektu klinicznego |
 | **G/A** | Nosiciel | Monitorowanie tylko przy silnym fenotypie rodzinnym |
 | **A/A** | Rzadki homozygot | Potencjalna regulacja ZEB2 — weryfikacja w kontekście całego panelu ZEB2 |
 **rs786204815 (ZEB2 (rzadki))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Norma |
+| **★ G/G** | Referencyjna | Norma |
 | **G/A** | Pośrednia | Brak ustalonego fenotypu klinicznego |
 | **A/A** | Rzadki | Dane fenotypowe niewystarczające — nie stosować diagnostyki Mowat-Wilson wyłącznie na tym SNP |
 **rs587776604 (ZEB2 (ClinVar / rzadki))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Referencyjna | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
+| **★ G/G** | Referencyjna | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
 | **G/GT** | Nosiciel | Weryfikacja ClinVar u nosicieli |
 | **GT/GT** | Rzadki | Możliwa patogenność — wyłącznie z oceną kliniczną i sekwencjonowaniem ZEB2 (duplikacje/delecje exon 8 są główną przyczyną MWS) |
 ### 5. Statystyki populacyjne

@@ -44,7 +44,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | His/His — referencyjny | Typowa pigmentacja OCA2; współdziała z rs12913832 i rs1800407 |
+| **★ G/G** | His/His — referencyjny | Typowa pigmentacja OCA2; współdziała z rs12913832 i rs1800407 |
 | **G/A** | His/Arg | Pośredni kolor oczu/skóry |
 | **A/A** | Arg/Arg | Jaśniejsza pigmentacja; część epistazy przy brązowych oczach mimo rs12913832 G/G |
 ### 5. Statystyki populacyjne
