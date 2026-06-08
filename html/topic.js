@@ -107,7 +107,7 @@
     const entry = byGene[symbol];
     const symbolHtml = `<strong class="topic-gene-symbol">${escapeHtml(symbol)}</strong>`;
     let geneTop = symbolHtml;
-    if (entry) {
+    if (entry && entry.tone !== "slate") {
       geneTop += `<a class="topic-gene-card-link gene-card gene-card--${entry.tone}" href="gene.html?gene=${encodeURIComponent(symbol)}" data-tone="${entry.tone}">
         <span class="gene-card__icon" aria-hidden="true">${entry.icon}</span>
         <span class="topic-gene-card-link__label">${escapeHtml(entry.label)}</span>
