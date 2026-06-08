@@ -7,7 +7,7 @@ window.GENE_INDEX = [
   { gene: "ALDH2", label: "Gen azjatyckiego rumieńca", icon: "🍶", tone: "rose" },
   { gene: "ANK3", label: "Marker zaburzeń afektywnych", icon: "🌊", tone: "violet" },
   { gene: "ANKK1", label: "Gen poszukiwania nowości", icon: "✨", tone: "purple" },
-  { gene: "APOE", label: "Gen Alzheimera", icon: "🧠", tone: "slate" },
+  { gene: "APOE", label: "Gen Alzheimera", icon: "🧠", tone: "violet" },
   { gene: "AR", label: "Gen męskości", icon: "💪", tone: "steel" },
   { gene: "AVPR1A", label: "Gen monogamii", icon: "💕", tone: "rose" },
   { gene: "BDNF", label: "Gen plastyczności mózgu", icon: "🧩", tone: "teal" },

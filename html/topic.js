@@ -11,6 +11,11 @@
 
   const byGene = Object.fromEntries((window.GENE_INDEX || []).map((e) => [e.gene, e]));
   const profiles = window.PERSONAL_GENE_PROFILES || {};
+  const genesWithCard = window.GENES_WITH_MD || new Set();
+
+  function hasGeneCard(symbol) {
+    return genesWithCard.has(symbol);
+  }
 
   function escapeHtml(text) {
     return String(text)
@@ -107,7 +112,7 @@
     const entry = byGene[symbol];
     const symbolHtml = `<strong class="topic-gene-symbol">${escapeHtml(symbol)}</strong>`;
     let geneTop = symbolHtml;
-    if (entry && entry.tone !== "slate") {
+    if (entry && hasGeneCard(symbol)) {
       geneTop += `<a class="topic-gene-card-link gene-card gene-card--${entry.tone}" href="gene.html?gene=${encodeURIComponent(symbol)}" data-tone="${entry.tone}">
         <span class="gene-card__icon" aria-hidden="true">${entry.icon}</span>
         <span class="topic-gene-card-link__label">${escapeHtml(entry.label)}</span>
