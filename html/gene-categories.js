@@ -9,9 +9,10 @@ window.GENE_CATEGORIES = [
     label: "Mózg, nastrój i zachowanie",
     icon: "🧠",
     genes: [
-      "ADRA2A", "ANK3", "ANKK1", "APOE", "AVPR1A", "BDNF", "CACNA1C", "CHRM2",
-      "COMT", "DBH", "DRD2", "FKBP5", "IL2RA", "MAOA", "OXTR", "SLC6A4", "SNAP25",
-      "TPH2", "WWC1",
+      "ADNP", "ADRA2A", "ANK3", "ANKK1", "APOE", "AVPR1A", "BDNF", "CACNA1C",
+      "CHRM2", "CNTNAP2", "COMT", "DBH", "DRD2", "FKBP5", "FMR1", "IL2RA", "MAOA",
+      "MECP2", "OXTR", "SCN2A", "SHANK3", "SLC6A4", "SNAP25", "SYNGAP1", "TPH2",
+      "TSC1", "TSC2", "WWC1",
     ],
   },
   {
