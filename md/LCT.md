@@ -26,6 +26,13 @@
 | **★ C/C (G/G komplementarnie)** | **Pierwotna Hipolaktazja Dorosłych (LNP)** | Charakteryzuje się najniższą lub bliską zeru aktywnością enzymu laktazy u dorosłych. W populacjach europejskich zwiastuje objawową nietolerancję laktozy, a także koreluje z niekorzystnym profilem lipidowym i podwyższonym wskaźnikiem ApoB100. |
 | **C/T (G/A komplementarnie)** | **Pośrednia Persystencja Laktazy** | Allel T dominuje, pozwalając na bezproblemowe trawienie standardowych porcji mleka przez dorosłych. Mimo to, całkowita produkcja enzymu jest niższa niż u homozygot, przez co gigantyczne dawki laktozy lub podeszły wiek mogą u tych osób sporadycznie wywołać łagodne objawy. |
 | **T/T (A/A komplementarnie)** | **Pełna Persystencja Laktazy (LP)** | Stała, maksymalna aktywność hydrolazy w enterocytach bez wyciszania po okresie dziecięcym. Zdolność do łatwego metabolizmu dowolnych dawek nabiału. W badaniach asocjacyjnych GWAS genotyp ten delikatnie podnosi wskaźnik masy ciała (BMI). |
+**rs182549 (c.220+1G>A w MCM6 — tag persystencji laktazy)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Brak allelu persystencji (tag) | Skorelowany z hipolaktazją dorosłych w LD z rs4988235 C; typowa nietolerancja laktozy przy C/C rs4988235 |
+| **C/T** | Heterozygota | Pośrednia ekspresja laktazy; tolerancja standardowych porcji mleka u większości dorosłych |
+| **T/T** | Allel persystencji (tag) | Wspiera utrzymanie laktazy u dorosłych; pełna tolerancja nabiału przy zgodności z rs4988235 T/T |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu T szacowana jest na ok. 39,6-40,9%
 * **Europa (NFE):** Częstość allelu T jest wysoka, ale zmienna geograficznie (północ Europy wyraźnie wyżej niż południe)

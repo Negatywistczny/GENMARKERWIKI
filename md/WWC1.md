@@ -23,9 +23,30 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Bazowa stabilność AMPAR/PKMζ | Niższa pamięć epizodyczna u dorosłych; u dzieci 5–25 lat czasem wyższe IQ; po TBI lepsza rekonwalescencja delayed recall |
+| **★ C/C** | Bazowa stabilność AMPAR/PKMζ | Niższa pamięć epizodyczna u dorosłych; u dzieci 5–25 lat czasem wyższe IQ; po TBI lepsza rekonwalescencja delayed recall |
 | **C/T** | Podwyższona stabilność synaptyczna | +19–24% pamięć epizodyczna/robocza; większy hipokamp; wolniejsze starzenie poznawcze; przy nadciśnieniu u kobiet — spadek funkcji wykonawczych |
 | **T/T** | Maksymalna stabilizacja PKMζ | Najwyższa pamięć przestrzenna; predyspozycja do szachów/PhD/nauk ścisłych (OR ~1,5); ochrona przed późnym AD; gorsza rekonwalescencja po TBI |
+**rs139606423 (regulacyjny — haplotyp KIBRA)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Haplotyp z allelem C rs17070145 | Niższa pamięć epizodyczna vs T-allelic; po urazie mózgu lepsza rekonwalescencja delayed recall |
+| **C/T** | Pośredni haplotyp | Umiarkowana stabilność AMPAR; efekt modulowany rs17070145 |
+| **T/T** | Haplotyp pamięciowy (T) | Wyższa pamięć epizodyczna w LD z rs17070145 T; większy hipokamp u dorosłych |
+**rs3822659 (intron — KIBRA pamięć epizodyczna)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ T/T** | Referencyjny haplotyp KIBRA | Brak obniżenia pamięci z tego tag SNP w izolacji |
+| **T/C** | Pośredni | +10–15% korzyść pamięciowa vs C/C w kohortach z allelem T rs17070145 |
+| **C/C** | Alternatywny haplotyp | Skorelowany z niższą pamięcią roboczą; treningi pamięciowe i kontrola ciśnienia (epistaza z HTN) |
+**rs3822660 (intron — KIBRA pamięć)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Referencyjny haplotyp | Standardowa stabilność PKMζ w hipokampie |
+| **G/A** | Pośredni | Umiarkowana modulacja LTP w badaniach asocjacyjnych |
+| **A/A** | Alternatywny haplotyp | Skorelowany z wolniejszym tempem starzenia poznawczego u nosicieli allelu T rs17070145; ochrona przed późnym AD w części kohort |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości ALL; allel T częsty w wielu kohortach
 * **Europa (NFE):** Allel T ~32–38%; genotypy CC ~44%, CT ~41%, TT ~15% (kohorty europejskie/Rosja)

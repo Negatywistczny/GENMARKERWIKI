@@ -26,7 +26,6 @@
 | **C/C (FF)** | Najwyższa | Lepsza absorpcja wapnia; niższe ryzyko osteoporozy przy standardowej podaży D |
 | **★ C/T (Ff)** | Pośrednia | Umiarkowane zapotrzebowanie na wit. D |
 | **T/T (ff)** | Najniższa | Wyższe ryzyko niedoboru D, osteoporozy, infekcji górnych dróg; potrzeba wyższych dawek suplementacji |
-
 **rs1544410 (BsmI — ekspresja mRNA)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **G/G (bb)** | Wysoka | Prawidłowa mineralizacja kości; dobra odpowiedź na suplementację D |
 | **G/A (Bb)** | Pośrednia | Umiarkowane obniżenie gospodarki wapniowej |
 | **★ A/A (BB)** | Niska | Niższe 25(OH)D; oporność na standardową suplementację; wyższe PTH |
-
 **rs7975232 (ApaI — stabilność mRNA)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,7 +40,6 @@
 | **C/C (aa)** | Standardowa | Referencyjna (profil referencyjny) |
 | **C/A (Aa)** | Pośrednia | Umiarkowane ryzyko metaboliczne |
 | **★ A/A (AA)** | Obniżona | Predyspozycja do hypowitaminozy D; wyższe ryzyko MS (OR ~1,41) |
-
 **rs731236 (TaqI — stabilność transkryptu)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -50,7 +47,6 @@
 | **T/T (TT)** | Obniżona | Wyższe ryzyko AD, OA kolana, otyłości |
 | **T/C (Tt)** | Pośrednia | Profil mieszany |
 | **★ C/C (tt)** | Podwyższona | Wyższa stabilność mRNA; efekt neuroprotekcyjny w kohortach kaukaskich |
-
 **rs1544410 (BsmI) + rs7975232 (ApaI) + rs731236 (TaqI) — haplotyp**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

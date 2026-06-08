@@ -45,6 +45,48 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **G406R / G402S (missense)** | Gain-of-function Cav1.2 | Zespół Timothy'ego: wydłużenie QT, syndaktylia, wady serca, autyzm, arytmia |
+**rs1024582 (intron — modulacja ekspresji CaV1.2)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Referencyjna ekspresja w bloku CACNA1C | Brak typowej asocjacji z ryzykiem psychiatrycznym z tego SNP w izolacji; interpretacja w haplotypie z rs1006737 |
+| **G/A** | Pośrednia modulacja transkrypcji | Umiarkowane ryzyko zaburzeń afektywnych w kohortach z allelem rs1006737-A |
+| **A/A** | Alternatywny haplotyp intronowy | Skorelowany z wyższym ryzykiem BD/SCZ w metaanalizach GWAS locus 12p13; monitoruj nastrój przy obciążeniu rodzinnym |
+**rs2007044 (intron — ryzyko BD i schizofrenii)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Allel referencyjny (ochronny w GWAS) | Brak zwiększonego ryzyka schizofrenii/BD z tego markera; stabilniejsza regulacja Cav1.2 w badaniach obrazowych |
+| **A/G** | Heterozygota | Pośrednie ryzyko zaburzeń afektywnych; efekt modulowany stresem i allelem rs1006737 |
+| **G/G** | Allel ryzyka w locus CACNA1C | Skorelowany z wyższym ryzykiem BD i SCZ w kohortach europejskich; wczesna interwencja przy objawach psychotycznych |
+**rs216009 (intron — asocjacja psychiatryczna)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Referencyjny profil transkrypcji | Brak typowej asocjacji z chorobami afektywnymi z tego SNP |
+| **C/T** | Pośrednia modulacja | Umiarkowane ryzyko zaburzeń nastroju w silnym LD z rs1006737 |
+| **★ T/T** | Alternatywny haplotyp | Asocjacja z podwyższonym ryzykiem depresji i lęku w części kohort; profilaktyka stresu i monitoring ciśnienia |
+**rs2281845 (regulacyjny — CaV1.2 w mózgu)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Standardowa regulacja ekspresji | Typowy fenotyp kognitywny; brak dodatkowego ryzyka psychiatrycznego |
+| **C/T** | Pośrednia | Umiarkowana modulacja ekspresji Cav1.2 w tkance mózgowej |
+| **★ T/T** | Zmieniona regulacja alleliczna | Skorelowany z deficytami pamięci roboczej i wyższym ryzykiem BD w metaanalizach; ostrożność z lekami wydłużającymi QT przy mutacjach patogennych |
+**rs4765905 (intron — kognicja i nastrój)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Referencyjna modulacja Cav1.2 | Brak zwiększonego ryzyka zaburzeń poznawczych z tego SNP |
+| **G/A** | Pośrednia | Umiarkowane ryzyko deficytów w zadaniach wykonawczych u nosicieli allelu A rs1006737 |
+| **A/A** | Alternatywny haplotyp | Wyższe ryzyko zaburzeń nastroju i gorsza płynność mowy w kohortach z obciążeniem CACNA1C |
+**rs723672 (intron — modulacja CaV1.2)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Referencyjny haplotyp intronowy | Brak typowej asocjacji kardiologicznej lub psychiatrycznej z tego markera |
+| **C/T** | Pośrednia | Umiarkowana modulacja ekspresji w LD z rs1006737 |
+| **T/T** | Alternatywny allel | Skorelowany z wyższym ryzykiem EH i zaburzeń afektywnych w części kohort; kontrola ciśnienia i nastroju |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1006737 – allel A (ryzyko) często ~30–35% w bazach populacyjnych (zależnie od kohorty)
 * **Europa (NFE):** rs1006737 allel A ~29%; rs1051375 homozygota G/G <2%

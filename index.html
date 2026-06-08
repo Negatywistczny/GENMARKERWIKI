@@ -7,18 +7,42 @@
     <link rel="stylesheet" href="html/style.css" />
   </head>
   <body>
-    <main class="container">
+    <main class="container container--index">
       <section class="hero hero--index">
         <div class="hero__badge" aria-hidden="true">🧬</div>
         <h1>GenMarkerWiki</h1>
-        <p>Indeks kart genów w repozytorium.</p>
       </section>
 
-      <nav aria-label="Kategorie genów">
-        <ul class="category-nav" id="category-nav"></ul>
+      <nav aria-label="Nawigacja główna">
+        <ul class="category-nav" id="main-nav">
+          <li><a href="#tematy"><span aria-hidden="true">📋</span> Tematy i zestawienia</a></li>
+          <li><a href="#geny"><span aria-hidden="true">🧬</span> Karty genów</a></li>
+          <li><a href="#rsid-index"><span aria-hidden="true">🔬</span> rsID</a></li>
+        </ul>
       </nav>
 
-      <div id="gene-sections"></div>
+      <section class="topics-index" id="tematy" aria-labelledby="topics-title">
+        <h2 class="category-head" id="topics-title">
+          <span class="category-head__icon" aria-hidden="true">📋</span>
+          Tematy i zestawienia
+          <span class="category-head__count" id="topics-count"></span>
+        </h2>
+        <p class="topics-index__lead">
+          Zestawienia genów wg zaburzeń, szlaków molekularnych, farmakogenomiki i cech fenotypowych.
+        </p>
+        <div id="topic-sections"></div>
+      </section>
+
+      <section id="geny" aria-labelledby="genes-title">
+        <h2 class="category-head" id="genes-title">
+          <span class="category-head__icon" aria-hidden="true">🧬</span>
+          Karty genów
+        </h2>
+        <nav aria-label="Kategorie genów">
+          <ul class="category-nav" id="category-nav"></ul>
+        </nav>
+        <div id="gene-sections"></div>
+      </section>
 
       <section class="rsid-index" id="rsid-index" aria-labelledby="rsid-index-title">
         <h2 id="rsid-index-title">Analizowane rsID</h2>
@@ -32,6 +56,9 @@
     <script src="html/gene-index.js"></script>
     <script src="html/gene-categories.js"></script>
     <script src="html/gene-rsids.js"></script>
+    <script src="html/personal-gene-profiles.js"></script>
+    <script src="html/topic-psychiatry-sections.js"></script>
+    <script src="html/topic-pages.js"></script>
     <script>
       const byGene = Object.fromEntries(window.GENE_INDEX.map((entry) => [entry.gene, entry]));
 
@@ -45,6 +72,35 @@
           </div>
         </a>`;
       }
+
+      const topicCount = window.TOPIC_GROUPS.reduce((n, g) => n + g.topics.length, 0);
+      document.getElementById("topics-count").textContent = `${topicCount} tematów`;
+
+      function renderTopicCard(topic) {
+        const geneCount = new Set(
+          topic.sections.flatMap((s) => (s.genes || []).map((g) => g.symbol))
+        ).size;
+        return `<a class="topic-card" href="html/topic.html?topic=${encodeURIComponent(topic.id)}">
+          <span class="topic-card__icon" aria-hidden="true">${topic.icon}</span>
+          <div class="topic-card__body">
+            <strong>${topic.label}</strong>
+            <span>${topic.summary.slice(0, 140)}${topic.summary.length > 140 ? "…" : ""}</span>
+            <span class="topic-card__meta">${geneCount} genów</span>
+          </div>
+        </a>`;
+      }
+
+      document.getElementById("topic-sections").innerHTML = window.TOPIC_GROUPS.map(
+        ({ id, label, icon, topics }) => `
+          <section class="category-section topic-group" id="topic-${id}" aria-labelledby="topic-${id}-title">
+            <h3 class="category-head" id="topic-${id}-title">
+              <span class="category-head__icon" aria-hidden="true">${icon}</span>
+              ${label}
+              <span class="category-head__count">${topics.length} tematów</span>
+            </h3>
+            <div class="topics-grid">${topics.map(renderTopicCard).join("")}</div>
+          </section>`
+      ).join("");
 
       document.getElementById("category-nav").innerHTML = window.GENE_CATEGORIES.map(
         ({ id, label, icon, genes }) =>

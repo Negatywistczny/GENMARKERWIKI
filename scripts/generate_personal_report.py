@@ -41,6 +41,22 @@ QUERY_RSID_PATH = Path(
     r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
     r"\.work\query_rsid_results.csv"
 )
+NEURODEV_GENOTYPES_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\neurodev_genotypes.csv"
+)
+NEURODEV_WIKI_RSIDS_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\neurodev_wiki_genotypes.csv"
+)
+MISSING_SEC4_GENOTYPES_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\missing_sec4_genotypes.csv"
+)
+ADHD_GENOTYPES_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\adhd_genotypes.csv"
+)
 MAOA_VNTR_PATH = Path(
     r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
     r"\.work\maoa_uvntr.json"
@@ -110,6 +126,29 @@ RSID_ALIASES: dict[tuple[str, str, str], list[str]] = {
     ("SLC45A2", "rs121912621", "CC"): ["G/G", "C/C"],
     ("SLC45A2", "rs375077956", "GG"): ["C/C", "G/G"],
     ("ZEB2", "rs587776604", "TT"): ["G/G", "T/T"],
+    ("TSC1", "rs13295634", "GT"): ["G/T", "T/G"],
+    ("TSC1", "rs627566", "CT"): ["G/T", "T/G", "C/T", "T/C"],
+    ("MECP2", "rs2075596", "GG"): ["C/C", "G/G"],
+    ("CHRM2", "rs1824024", "CC"): ["G/G", "C/C"],
+    ("SLC45A2", "rs2287949", "TT"): ["A/A", "T/T"],
+    ("CDH13", "rs11646213", "TT"): ["A/A", "T/T"],
+    ("VKORC1", "rs61742245", "CC"): ["G/G", "C/C"],
+    ("SNAP25", "rs363039", "GA"): ["C/T", "T/C", "G/A", "A/G"],
+    ("DRD2", "rs1799732", "GG"): ["Ins/Ins", "INS/INS"],
+    ("DRD2", "rs1799732", "II"): ["Ins/Ins", "INS/INS"],
+    ("CYP2D6", "rs3892097", "CC"): ["G/G", "C/C"],
+    ("CYP2D6", "rs1065852", "GG"): ["C/C", "G/G"],
+    ("CYP2D6", "rs28371706", "GG"): ["C/C", "G/G"],
+    ("CYP2D6", "rs1058164", "CC"): ["G/G", "C/C"],
+    ("CYP2D6", "rs72549354", "CC"): ["G/G", "C/C"],
+    ("CHRNA5", "rs1051730", "GA"): ["A/G", "G/A"],
+    ("CHRNA5", "rs1051730", "AG"): ["A/G", "G/A"],
+    ("MAOA", "rs72554632", "CC"): ["C/C", "G/G"],
+}
+
+# rsID bez własnej tabeli w md — dopasuj do bloku proxy (np. CHRNA3 rs1051730 → CHRNA5 rs16969968)
+RSID_BLOCK_PROXY: dict[str, str] = {
+    "rs1051730": "rs16969968",
 }
 
 ALIASES: dict[str, list[str]] = {
@@ -174,10 +213,33 @@ def _load_rsid_csv(path: Path, needed_l: set[str]) -> dict[str, str]:
     return found
 
 
+def _load_neurodev_genotypes(path: Path, needed_l: set[str]) -> dict[str, str]:
+    if not path.exists():
+        return {}
+    found: dict[str, str] = {}
+    with path.open(encoding="utf-8-sig", newline="") as f:
+        for row in csv.DictReader(f):
+            rs = row.get("RSID", row.get("rsid", "")).strip().lower()
+            gt = row.get("GENOTYPE", row.get("genotype", "")).strip().upper()
+            status = row.get("STATUS", row.get("status", "")).strip().upper()
+            if rs in needed_l and gt not in ("NOT_FOUND", "NO_CALL", "", "BRAK"):
+                if status not in ("BRAK", "NOT_FOUND"):
+                    found[rs] = gt
+    return found
+
+
 def load_query_rsid(needed: set[str]) -> dict[str, str]:
     needed_l = {r.lower() for r in needed}
     found = _load_rsid_csv(BAM_GENOTYPES_PATH, needed_l)
     for rs, gt in _load_rsid_csv(QUERY_RSID_PATH, needed_l).items():
+        found.setdefault(rs, gt)
+    for rs, gt in _load_rsid_csv(NEURODEV_WIKI_RSIDS_PATH, needed_l).items():
+        found.setdefault(rs, gt)
+    for rs, gt in _load_neurodev_genotypes(NEURODEV_GENOTYPES_PATH, needed_l).items():
+        found.setdefault(rs, gt)
+    for rs, gt in _load_neurodev_genotypes(ADHD_GENOTYPES_PATH, needed_l).items():
+        found.setdefault(rs, gt)
+    for rs, gt in _load_rsid_csv(MISSING_SEC4_GENOTYPES_PATH, needed_l).items():
         found.setdefault(rs, gt)
     return found
 
@@ -297,8 +359,11 @@ def load_wiki_panel() -> tuple[dict[str, list[str]], dict[str, str]]:
     rsids_text = RSIDS_JS.read_text(encoding="utf-8")
     index_text = GENE_INDEX_JS.read_text(encoding="utf-8")
     by_gene: dict[str, list[str]] = {}
-    for m in re.finditer(r"^\s+([A-Z0-9]+):\s*\[([^\]]+)\]", rsids_text, re.M):
-        by_gene[m.group(1)] = re.findall(r"rs\d+", m.group(2))
+    for m in re.finditer(
+        r'^\s+(?:"([^"]+)"|([A-Z0-9-]+)):\s*\[([^\]]+)\]', rsids_text, re.M
+    ):
+        gene = m.group(1) or m.group(2)
+        by_gene[gene] = re.findall(r"rs\d+", m.group(3))
     labels: dict[str, str] = {}
     for m in re.finditer(r'\{\s*gene:\s*"([^"]+)",\s*label:\s*"([^"]+)"', index_text):
         labels[m.group(1)] = m.group(2)
@@ -392,7 +457,7 @@ def row_keys(cell: str) -> set[str]:
     keys: set[str] = set()
     token_re = (
         r"(?:lub\s+)?([ACGT]{1,2}/[ACGT]{1,2}|[ACGT]{2}|"
-        r"alt/alt|ref/ref|ref/alt|C/alt|CC/C|Gc[\w/]+|Ins/Del|Del/Ins|"
+        r"alt/alt|ref/ref|ref/alt|C/alt|CC/C|Gc[\w/]+|Ins/Ins|Del/Del|Ins/Del|Del/Ins|"
         r"wt/wt|L/L|S/S|L/S|S/L|major|minor)"
     )
 
@@ -503,11 +568,12 @@ def block_for_rsid(
 ) -> str:
     exact: str | None = None
     partial: str | None = None
+    lookup = {rsid, RSID_BLOCK_PROXY.get(rsid, "")}
     for brsid, block in blocks:
-        if block.lstrip().startswith(f"**{rsid}"):
+        if any(block.lstrip().startswith(f"**{r}") for r in lookup if r):
             exact = block
             break
-        if brsid == rsid or rsid in brsid or rsid in block:
+        if brsid in lookup or any(r in brsid or r in block for r in lookup if r):
             partial = partial or block
     if exact:
         return exact
@@ -560,11 +626,18 @@ def match_apoe(rs358: str, rs412: str, block: str) -> dict | None:
     t1 = genotype_targets("APOE", "rs429358", rs358)
     t2 = genotype_targets("APOE", "rs7412", rs412)
     for row in parse_table_block(block):
-        if len(row["cols"]) < 3:
+        if len(row["cols"]) < 2:
             continue
+        # Osobne kolumny rs429358 | rs7412
         k1, k2 = row_keys(row["cols"][0]), row_keys(row["cols"][1])
         if (k1 & t1) and (k2 & t2):
             return row
+        # Połączony genotyp: „T/T + C/C” w pierwszej kolumnie
+        parts = re.split(r"\s*\+\s*", row["cols"][0])
+        if len(parts) == 2:
+            pk1, pk2 = row_keys(parts[0]), row_keys(parts[1])
+            if (pk1 & t1) and (pk2 & t2):
+                return row
     return None
 
 
@@ -865,7 +938,7 @@ def sync_gene_stars(gene: str, entries: list[dict], md_text: str) -> tuple[str, 
             if uvntr:
                 matched_row = match_row(gene, "MAOA-uVNTR", uvntr["genotype"], block)
                 rsid = "MAOA-uVNTR"
-        elif gene == "AVPR1A" and "RS3" in block[:120]:
+        elif gene == "AVPR1A" and block.lstrip().startswith("**RS3 allel"):
             rs3 = load_avpr1a_rs3()
             if rs3:
                 matched_row = match_row(gene, "AVPR1A-RS3", rs3["genotype"], block)
@@ -924,7 +997,7 @@ def sync_stars_to_md(by_gene: dict[str, list[dict]]) -> None:
             md_path.write_text(updated, encoding="utf-8")
             total_stars += len(log)
             print(f"{gene}: {', '.join(log) if log else 'wyczyszczono ★'}")
-    print(f"Zsynchronizowano ★ w {total_stars} wierszach (geny z dopasowaniem).")
+    print(f"Zsynchronizowano gwiazdke w {total_stars} wierszach (geny z dopasowaniem).")
 
 
 def main(by_gene: dict[str, list[dict]] | None = None) -> None:
@@ -943,6 +1016,10 @@ def main(by_gene: dict[str, list[dict]] | None = None) -> None:
         sources.append(f"WGS ({BAM_GENOTYPES_PATH.name})")
     elif QUERY_RSID_PATH.exists():
         sources.append(f"WGS ({QUERY_RSID_PATH.name})")
+    if NEURODEV_GENOTYPES_PATH.exists():
+        sources.append(f"WGS ({NEURODEV_GENOTYPES_PATH.name})")
+    if NEURODEV_WIKI_RSIDS_PATH.exists():
+        sources.append(f"WGS ({NEURODEV_WIKI_RSIDS_PATH.name})")
     if wgs_raw:
         sources.append(f"WGS ({wgs_raw.name})")
     if MH_PATH.exists():
@@ -1033,5 +1110,18 @@ if __name__ == "__main__":
     by_gene = load_markers()
     if not args.report_only:
         sync_stars_to_md(by_gene)
+        try:
+            import importlib.util
+
+            spec = importlib.util.spec_from_file_location(
+                "build_personal_gene_profiles_js",
+                ROOT / "scripts" / "build_personal_gene_profiles_js.py",
+            )
+            if spec and spec.loader:
+                mod = importlib.util.module_from_spec(spec)
+                spec.loader.exec_module(mod)
+                mod.main()
+        except Exception as exc:
+            print(f"Uwaga: personal-gene-profiles.js — {exc}", file=sys.stderr)
     if not args.sync_stars:
         main(by_gene)

@@ -2,11 +2,54 @@
 
 Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe w `[md/](md/)`; podgląd w przeglądarce: `[index.html](index.html)` (karty: `[html/gene.html](html/gene.html)?gene=SYMBOL`). Wersje do druku (4 strony: 1–3 / 4 / 5–6 / 7–8, jasny motyw): `[html/print-index.html](html/print-index.html)`.
 
+## Tematy i zestawienia
 
-## Mózg, nastrój i zachowanie
+Zestawienia genów wg zaburzeń, szlaków molekularnych, farmakogenomiki i cech fenotypowych. Podgląd: `[index.html#tematy](index.html#tematy)`; strona tematu: `[html/topic.html](html/topic.html)?topic=ID`.
+
+### Psychiatria i neurorozwój
+
+| Temat | Podgląd |
+| --- | --- |
+| Spektrum autyzmu (ASD) | [topic=asd](html/topic.html?topic=asd) |
+| ADHD | [topic=adhd](html/topic.html?topic=adhd) |
+| Depresja (MDD) | [topic=mdd](html/topic.html?topic=mdd) |
+| ChAD (choroba afektywna dwubiegunowa) | [topic=chad](html/topic.html?topic=chad) |
+| Schizofrenia (SCZ) | [topic=scz](html/topic.html?topic=scz) |
+| Neurorozwój, ID i padaczka | [topic=neurodev](html/topic.html?topic=neurodev) |
+
+### Szlaki molekularne
+
+| Temat | Podgląd |
+| --- | --- |
+| Oś dopaminergiczna i nagroda | [topic=dopamine](html/topic.html?topic=dopamine) |
+| Serotonina i regulacja nastroju | [topic=serotonin](html/topic.html?topic=serotonin) |
+| Foliany, homocysteina i metylacja | [topic=folate](html/topic.html?topic=folate) |
+
+### Farmakogenomika
+
+| Temat | Podgląd |
+| --- | --- |
+| Metabolizm leków (CYP i dawki) | [topic=cyp](html/topic.html?topic=cyp) |
+| Psychofarmakologia | [topic=psychopharm](html/topic.html?topic=psychopharm) |
+
+### Metabolizm, dieta i zmysły
+
+| Temat | Podgląd |
+| --- | --- |
+| Kofeina, alkohol i nikotyna | [topic=substances](html/topic.html?topic=substances) |
+| Intolerancje i odżywianie | [topic=nutrition](html/topic.html?topic=nutrition) |
+| Kolor oczu, skóry i włosów | [topic=appearance](html/topic.html?topic=appearance) |
+| Węch i smak | [topic=smell-taste](html/topic.html?topic=smell-taste) |
+| Poznanie, pamięć i starzenie | [topic=cognition-aging](html/topic.html?topic=cognition-aging) |
+| Sport i wydolność | [topic=sport](html/topic.html?topic=sport) |
+
+Konfiguracja tematów: `[html/topic-pages.js](html/topic-pages.js)` (sekcje psychiatryczne: `[html/topic-psychiatry-sections.js](html/topic-psychiatry-sections.js)`). Profile osobiste (kolumna „U mnie”): `[html/personal-gene-profiles.js](html/personal-gene-profiles.js)`.
+
+## Karty genów
 
 | Gen | Markdown | Podgląd | Druk | PDF |
 | --- | --- | --- | --- | --- |
+| ADNP | `md/ADNP.md` | [podgląd](html/gene.html?gene=ADNP) | [druk](html/print.html?gene=ADNP) | [pdf/ADNP.pdf](pdf/ADNP.pdf) |
 | ADRA2A | `md/ADRA2A.md` | [podgląd](html/gene.html?gene=ADRA2A) | [druk](html/print.html?gene=ADRA2A) | [pdf/ADRA2A.pdf](pdf/ADRA2A.pdf) |
 | ANK3 | `md/ANK3.md` | [podgląd](html/gene.html?gene=ANK3) | [druk](html/print.html?gene=ANK3) | [pdf/ANK3.pdf](pdf/ANK3.pdf) |
 | ANKK1 | `md/ANKK1.md` | [podgląd](html/gene.html?gene=ANKK1) | [druk](html/print.html?gene=ANKK1) | [pdf/ANKK1.pdf](pdf/ANKK1.pdf) |
@@ -15,16 +58,24 @@ Spis markerów wg kategorii (alfabetycznie w każdej sekcji). Karty źródłowe 
 | BDNF | `md/BDNF.md` | [podgląd](html/gene.html?gene=BDNF) | [druk](html/print.html?gene=BDNF) | [pdf/BDNF.pdf](pdf/BDNF.pdf) |
 | CACNA1C | `md/CACNA1C.md` | [podgląd](html/gene.html?gene=CACNA1C) | [druk](html/print.html?gene=CACNA1C) | [pdf/CACNA1C.pdf](pdf/CACNA1C.pdf) |
 | CHRM2 | `md/CHRM2.md` | [podgląd](html/gene.html?gene=CHRM2) | [druk](html/print.html?gene=CHRM2) | [pdf/CHRM2.pdf](pdf/CHRM2.pdf) |
+| CNTNAP2 | `md/CNTNAP2.md` | [podgląd](html/gene.html?gene=CNTNAP2) | [druk](html/print.html?gene=CNTNAP2) | [pdf/CNTNAP2.pdf](pdf/CNTNAP2.pdf) |
 | COMT | `md/COMT.md` | [podgląd](html/gene.html?gene=COMT) | [druk](html/print.html?gene=COMT) | [pdf/COMT.pdf](pdf/COMT.pdf) |
 | DBH | `md/DBH.md` | [podgląd](html/gene.html?gene=DBH) | [druk](html/print.html?gene=DBH) | [pdf/DBH.pdf](pdf/DBH.pdf) |
 | DRD2 | `md/DRD2.md` | [podgląd](html/gene.html?gene=DRD2) | [druk](html/print.html?gene=DRD2) | [pdf/DRD2.pdf](pdf/DRD2.pdf) |
 | FKBP5 | `md/FKBP5.md` | [podgląd](html/gene.html?gene=FKBP5) | [druk](html/print.html?gene=FKBP5) | [pdf/FKBP5.pdf](pdf/FKBP5.pdf) |
+| FMR1 | `md/FMR1.md` | [podgląd](html/gene.html?gene=FMR1) | [druk](html/print.html?gene=FMR1) | [pdf/FMR1.pdf](pdf/FMR1.pdf) |
 | IL2RA | `md/IL2RA.md` | [podgląd](html/gene.html?gene=IL2RA) | [druk](html/print.html?gene=IL2RA) | [pdf/IL2RA.pdf](pdf/IL2RA.pdf) |
 | MAOA | `md/MAOA.md` | [podgląd](html/gene.html?gene=MAOA) | [druk](html/print.html?gene=MAOA) | [pdf/MAOA.pdf](pdf/MAOA.pdf) |
+| MECP2 | `md/MECP2.md` | [podgląd](html/gene.html?gene=MECP2) | [druk](html/print.html?gene=MECP2) | [pdf/MECP2.pdf](pdf/MECP2.pdf) |
 | OXTR | `md/OXTR.md` | [podgląd](html/gene.html?gene=OXTR) | [druk](html/print.html?gene=OXTR) | [pdf/OXTR.pdf](pdf/OXTR.pdf) |
+| SCN2A | `md/SCN2A.md` | [podgląd](html/gene.html?gene=SCN2A) | [druk](html/print.html?gene=SCN2A) | [pdf/SCN2A.pdf](pdf/SCN2A.pdf) |
+| SHANK3 | `md/SHANK3.md` | [podgląd](html/gene.html?gene=SHANK3) | [druk](html/print.html?gene=SHANK3) | [pdf/SHANK3.pdf](pdf/SHANK3.pdf) |
 | SLC6A4 | `md/SLC6A4.md` | [podgląd](html/gene.html?gene=SLC6A4) | [druk](html/print.html?gene=SLC6A4) | [pdf/SLC6A4.pdf](pdf/SLC6A4.pdf) |
 | SNAP25 | `md/SNAP25.md` | [podgląd](html/gene.html?gene=SNAP25) | [druk](html/print.html?gene=SNAP25) | [pdf/SNAP25.pdf](pdf/SNAP25.pdf) |
+| SYNGAP1 | `md/SYNGAP1.md` | [podgląd](html/gene.html?gene=SYNGAP1) | [druk](html/print.html?gene=SYNGAP1) | [pdf/SYNGAP1.pdf](pdf/SYNGAP1.pdf) |
 | TPH2 | `md/TPH2.md` | [podgląd](html/gene.html?gene=TPH2) | [druk](html/print.html?gene=TPH2) | [pdf/TPH2.pdf](pdf/TPH2.pdf) |
+| TSC1 | `md/TSC1.md` | [podgląd](html/gene.html?gene=TSC1) | [druk](html/print.html?gene=TSC1) | [pdf/TSC1.pdf](pdf/TSC1.pdf) |
+| TSC2 | `md/TSC2.md` | [podgląd](html/gene.html?gene=TSC2) | [druk](html/print.html?gene=TSC2) | [pdf/TSC2.pdf](pdf/TSC2.pdf) |
 | WWC1 | `md/WWC1.md` | [podgląd](html/gene.html?gene=WWC1) | [druk](html/print.html?gene=WWC1) | [pdf/WWC1.pdf](pdf/WWC1.pdf) |
 
 ## Metabolizm i substancje

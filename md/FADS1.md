@@ -25,15 +25,35 @@
 | :--- | :--- | :--- |
 | **T/T** | Niska | Niski AA/LC-PUFA; niższe LDL i ryzyko CAD; zwiększone zapotrzebowanie na EPA/DHA; ryzyko NAFLD przy niedoborze DHA |
 | **G/T** | Pośrednia | Umiarkowany profil lipidowy i kardiometaboliczny |
-| **G/G** | Wysoka | Wysokie AA i LDL; ryzyko CAD, cukrzycy typu 2, raka prostaty przy diecie bogatej w LA; dobra adaptacja do diety roślinnej przy kontroli omega-6 |
-
+| **★ G/G** | Wysoka | Wysokie AA i LDL; ryzyko CAD, cukrzycy typu 2, raka prostaty przy diecie bogatej w LA; dobra adaptacja do diety roślinnej przy kontroli omega-6 |
 **rs174547 (indeks desaturacji)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **C/C** | Niska | Słaba konwersja roślinnych prekursorów; wyższe ryzyko T2DM i sztywności tętnic (ba-PWV) u osób z nadwagą; wskazanie bezpośredniej podaży EPA/DHA |
 | **T/C** | Pośrednia | Profil pośredni |
-| **T/T** | Wysoka | Wyższe ryzyko zespołu metabolicznego u wegetarian przy dużym spożyciu LA |
+| **★ T/T** | Wysoka | Wyższe ryzyko zespołu metabolicznego u wegetarian przy dużym spożyciu LA |
+**rs174546 (intron — indeks desaturacji)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Niska aktywność D5D (haplotyp T) | Niższy indeks desaturacji; mniej AA, więcej LA; niższe LDL, ale zapotrzebowanie na bezpośrednie EPA/DHA |
+| **C/T** | Pośrednia | Umiarkowany profil kwasów PUFA; efekt modulowany rs174537 |
+| **T/T** | Wysoka aktywność D5D | Wyższy AA i ryzyko prozapalnych eikozanoidów przy diecie bogatej w omega-6; kontrola olejów roślinnych |
+**rs174548 (intron — metabolizm kwasów omega)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Niski indeks konwersji | Słabsza biosynteza LC-PUFA z prekursorów roślinnych; wskazanie suplementacji DHA u wegetarian |
+| **C/T** | Pośrednia | Profil lipidowy zależny od stosunku omega-6/omega-3 w diecie |
+| **T/T** | Wysoka aktywność desaturacji | Wyższe stężenia AA; ryzyko CAD i NAFLD przy nadmiarze LA — monitoruj lipidogram |
+**rs174556 (intron — D5D aktywność)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Niska ekspresja FADS1 (tag) | Niższy poziom AA w osoczu; ochrona kardiometaboliczna przy diecie zachodniej, ryzyko niedoboru DHA |
+| **C/T** | Pośrednia | Umiarkowany indeks desaturacji 20:4n-6/18:2n-6 |
+| **T/T** | Wysoka aktywność D5D | Szybka konwersja LA→AA; presja neolityczna allelu G w Europie; ogranicz omega-6 przy G/G rs174537 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu T (rs174537) silnie zróżnicowany geograficznie
 * **Europa (NFE):** MAF T ~34%; GG ~46%, GT ~43%, TT ~11%

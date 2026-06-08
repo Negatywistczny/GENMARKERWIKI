@@ -44,9 +44,23 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **Ins/Ins** | Standardowa (promotor) | Typowa odpowiedź metaboliczna na leki |
-| **★ Ins/Del** | Obniżona transkrypcja | Podwyższone ryzyko tycia przy neuroleptykach; profil pośredni |
+| **★ Ins/Ins** | Standardowa (promotor) | Typowa odpowiedź metaboliczna na leki |
+| **Ins/Del** | Obniżona transkrypcja | Podwyższone ryzyko tycia przy neuroleptykach; profil pośredni |
 | **Del/Del** | Osłabiona ekspresja | Przyrost masy po olanzapinie; u MMA wzrost sumienności pod reżimem |
+**rs1799978 (Taq1B — gęstość D2R, ANKK1/DRD2)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ T/T** | Taq1B B2/B2 (referencyjny) | Standardowa gęstość receptorów D2; typowy próg nagrody i mniejsze ryzyko uzależnień w kohortach europejskich |
+| **T/C** | B1/B2 | Umiarkowana redukcja D2; pośredni profil impulsywności i poszukiwania nowości |
+| **C/C** | B1/B1 | Obniżona gęstość D2; wyższe ryzyko RDS, alkoholizmu i objadania — interpretacja łącznie z rs1800497 (Taq1A) |
+**rs2283265 (intron — modulacja DRD2)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Referencyjna ekspresja DRD2 | Brak zwiększonego ryzyka uzależnień z tego SNP w izolacji |
+| **C/T** | Pośrednia modulacja | Umiarkowane ryzyko substancji psychoaktywnych w silnym LD z klastrem 11q23 |
+| **T/T** | Alternatywny haplotyp | Skorelowany z wyższym ryzykiem opioidów i kokainy w metaanalizach; wczesna profilaktyka uzależnień |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1800497 – allel T/A1 ok. 32,5% (dbSNP/ALFA); rs6277 – allel T często dominuje w kohortach europejskich (~55%), z dużą heterogenicznością między regionami
 * **Europa (NFE):** rs1800497 T ~19–20%; rs6277 T ~55% (kaukaski paradoks niestabilnego mRNA); rs1076560 T ~13–14%; rs1799732 Del ~10–17%

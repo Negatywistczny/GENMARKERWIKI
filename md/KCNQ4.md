@@ -26,7 +26,6 @@
 | **T/T** | Prawidłowe przewodnictwo Kv7.4 | Standardowa odporność na hałas przemysłowy |
 | **★ T/A** | Częściowo obniżone IK pod stresem | ~1,5× ryzyko NIHL przy ekspozycji na hałas |
 | **A/A** | Istotnie upośledzona aktywacja | >2× ryzyko NIHL; możliwa modulacja dopaminy w VTA i wrażliwość na alkohol |
-
 **rs4660468 (NIHL — haplotyp)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,14 +33,20 @@
 | **C/C** | Fizjologiczny IK w OHC | Standardowa odporność na hałas |
 | **★ C/T** | Łagodne obniżenie stabilności błony | Umiarkowanie zwiększona podatność na NIHL |
 | **T/T** | Spadek repolaryzacji przy chronicznym hałasie | Wysokie ryzyko NIHL przy ekspozycji >16 lat lub wysokim natężeniu |
-
 **rs28937588 (p.Gly285Ser — DFNA2A patogenny)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Prawidłowy kanał | Norma słuchu |
+| **★ G/G** | Prawidłowy kanał | Norma słuchu |
 | **G/A** | Dominująco-negatywny (~12,5% funkcji) | DFNA2A — postępująca głuchota AD we wszystkich częstotliwościach |
 | **A/A** | Brak funkcjonalnego kanału | Ciężka głuchota (praktycznie nieobserwowana populacyjnie) |
+**rs80358277 (c.827G>C p.Trp276Ser — DFNA2A)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Trp276/Trp276 — prawidłowy Kv7.4 | Norma słuchu; brak mutacji patogennej DFNA2A |
+| **G/C** | Trp276/Ser276 (nosiciel) | Dominująco-negatywny efekt (~12,5% funkcji kanału); postępująca głuchota AD — genetyka rodzinna i audiometria |
+| **C/C** | Ser276/Ser (teoretycznie) | Ciężka głuchota; praktycznie nieobserwowane u homozygot w populacji ogólnej |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A rs4660470 zróżnicowany geograficznie (dane gnomAD)
 * **Europa (NFE):** rs4660470: allel A rzadki do umiarkowanego (weryfikuj gnomAD NFE); polaryzacja EUR vs Azja

@@ -50,6 +50,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
+| **★ C/C** | Brak mutacji (referencja) | Normalna aktywność MAOA; brak zespołu Brunnera |
 | **T (nosiciel)** | Patologia (Brunner) | Wrodzony brak rozpadu amin; napady gwałtowności, deficyty IQ, tło autystyczne i zaburzenia snu |
 **rs3027407 (region MAOA (ADHD u dzieci))**
 
@@ -58,6 +59,20 @@
 | **A/A** | Referencyjna | Brak zwiększonego ryzyka ADHD z tego SNP |
 | **A/G** | Pośrednia | Umiarkowane obciążenie kognitywne |
 | **★ G/G** | Ryzyko ADHD | Wyższe ryzyko diagnozy ADHD u potomstwa; wczesna interwencja środowiskowa i struktura dnia |
+**rs1800466 (promotor — tag aktywności MAO-A)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Referencyjna regulacja promotorowa | Brak dodatkowego ryzyka behawioralnego z tego SNP; interpretacja łącznie z uVNTR MAOA |
+| **A/G** | Pośrednia | Umiarkowana modulacja ekspresji; efekt zależy od długości powtórzeń uVNTR |
+| **G/G** | Alternatywny haplotyp | Skorelowany z wyższą aktywnością MAO-A (MAOA-H); szybsza degradacja amin, ryzyko apatii przy niedoborach prekursorów |
+**rs2064070 (promotor — modulacja transkrypcji MAO-A)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ T/T** | Standardowa transkrypcja | Brak zwiększonego ryzyka agresji z tego markera w izolacji |
+| **T/C** | Pośrednia | Umiarkowana modulacja poziomu MAO-A w OUN |
+| **C/C** | Alternatywny haplotyp promotorowy | Skorelowany z wyższą aktywnością enzymu; profil MAOA-H — szybsza degradacja serotoninergiczna, uwaga na SSRI i tyraminę |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak pojedynczej, porównywalnej częstości globalnej ze względu na VNTR, różne definicje alleli i analizy zależne od płci
 * **Europa (NFE):** Wariant MAOA-L zwykle ok. 31,0-40,0% (MAOA-H ok. 56,0-65,0%)

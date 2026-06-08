@@ -21,7 +21,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **T/T + C/C** | **★ ε3 / ε3 (E3/E3)**; Cys112 / Arg158 | **Typ referencyjny.** Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu. |
+| **★ T/T + C/C** | **ε3 / ε3 (E3/E3)**; Cys112 / Arg158 | **Typ referencyjny.** Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu. |
 | **C/T + C/C** | **ε3 / ε4 (E3/E4)**; Mieszane (Cys/Arg + Arg/Arg) | **Ryzyko podwyższone.** Wyższy poziom utlenionych LDL. Nosiciele są eksponowani na 2- do 4-krotnie wyższe ryzyko rozwoju choroby Alzheimera i większą podatność na miażdżycę. |
 | **C/C + C/C** | **ε4 / ε4 (E4/E4)**; Arg112 / Arg158 | **Krytyczne ryzyko.** Interakcja domenowa w całej apolipoproteinie. Powoduje 25-krotny wzrost ryzyka otępienia. Średni wiek pojawienia się Alzheimera u homozygot E4/E4 obniża się statystycznie do ledwie 68 lat. |
 | **T/T + T/C** | **ε2 / ε3 (E2/E3)**; Mieszane (Cys/Cys + Cys/Arg) | **Wysoce neuroprotekcyjny.** Ochronny wariant promujący długowieczność aparatu poznawczego. Charakteryzuje się skrajnie niskim prawdopodobieństwem łagodnych zaburzeń poznawczych (MCI) i otępienia. |

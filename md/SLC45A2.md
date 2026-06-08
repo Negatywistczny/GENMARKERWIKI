@@ -37,9 +37,9 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Referencyjna (globalna) | Brak zmiany aminokwasu; marker genealogiczny w haplotypach |
+| **★ A/A** | Referencyjna (globalna) | Brak zmiany aminokwasu; marker genealogiczny w haplotypach |
 | **A/G** | Heterozygota | Śledzenie subpopulacji w LD z innymi markerami pigmentacji |
-| **★ G/G** | Alternatywna | Rzadki; pomaga w rekonstrukcji haplotypów MATP bez zmiany funkcji białka |
+| **G/G** | Alternatywna | Rzadki; pomaga w rekonstrukcji haplotypów MATP bez zmiany funkcji białka |
 **rs121912621 (p.Asp157Asn (OCA4 — patogenny))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

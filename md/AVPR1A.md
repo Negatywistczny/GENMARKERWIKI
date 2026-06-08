@@ -47,6 +47,13 @@
 | **★ 0 kopii** | Brak allelu 334 | Standardowe zachowania partnerskie (~70–74% EUR mężczyzn) |
 | **1 kopia** | Heterozygota | Pośrednie więzi partnerskie (~25–28% EUR) |
 | **2 kopie** | Homozygota 334 | Słabsza więź u mężczyzn; 2× ryzyko kryzysu małżeńskiego; niższy altruizm |
+**rs7294536 (RS3 — proxy długości powtórzeń)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ T/T** | Długi haplotyp RS3 (proxy) | Standardowa ekspresja AVPR1A w limbiku; typowe zachowania partnerskie i altruizm w kohortach europejskich |
+| **T/C** | Pośrednia długość RS3 | Umiarkowana modulacja więzi społecznych; efekt zależy od płci i środowiska |
+| **C/C** | Krótki haplotyp RS3 (proxy allelu 334) | Skorelowany z krótkimi powtórzeniami RS3; u mężczyzn słabsza więź partnerska i wyższe ryzyko kryzysu małżeńskiego — wymaga potwierdzenia VNTR |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak kompletnych statystyk ALL; mikrosatelity trudne w standardowym NGS
 * **Europa (NFE):** rs1042615: CC ~25%, CT ~55%, TT ~20%; rs10877969 TT ~71%; RS3 allel 334: 0 kopii ~70–74%, 2 kopie ~1–2%

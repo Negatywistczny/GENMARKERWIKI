@@ -26,7 +26,6 @@
 | **★ T/T** | Wyższa ekspresja SNAP-25 | Wyższy WMI; lepsza odpowiedź na MPH u części kohort azjatyckich; niższa hiperaktywność |
 | **T/G** | Pośrednia | Umiarkowana odpowiedź na stymulanty; ryzyko bezsenności przy MPH |
 | **G/G** | Obniżona ekspresja | Wyższe ADHD u dorosłych (Wender-Utah); gorsza odpowiedź MPH; ryzyko schizofrenii/depresji w kohortach azjatyckich |
-
 **rs363050 (promotor — PIQ)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,7 +33,6 @@
 | **A/A** | Wyższa transkrypcja | +2,84 pkt PIQ na allel A (~3,4% wariancji); allel ochronny kognitywnie |
 | **★ A/G** | Pośrednia | Profil PIQ pośredni |
 | **G/G** | Spadek aktywności promotora | Obniżone PIQ u autyzmu; upośledzona insulina w T2DM w części badań |
-
 **rs363043 (intron — grubość kory)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -42,6 +40,34 @@
 | **C/C** | Optymalna grubość kory | Optymalny PRI i pełna skala IQ (BIF) |
 | **★ C/T** | Pośrednia | Obniżony PRI/IQ u dzieci z BIF |
 | **T/T** | Allel ryzyka | Predyspozycja AD/aMCI; nadpobudliwość w ASD; słabsza aktywność fMRI w korze czołowo-ciemieniowej |
+**rs1051312 (intron — kognicja, tag haplotypu SNAP25)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Referencyjny haplotyp | Brak zwiększonego ryzyka ADHD z tego SNP; interpretacja w LD z rs3746544 |
+| **C/T** | Pośrednia | Umiarkowana modulacja ekspresji SNAP-25 w korze przedczołowej |
+| **T/T** | Alternatywny haplotyp | Skorelowany z deficytami pamięci roboczej w części kohort; monitoruj odpowiedź na metylofenidat |
+**rs362584 (intron — ekspresja w PFC)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Referencyjna ekspresja SNAP-25 | Typowa gęstość kompleksów SNARE; brak zwiększonego ryzyka zaburzeń impulsywności |
+| **A/G** | Pośrednia | Umiarkowana modulacja egzocytozy synaptycznej |
+| **G/G** | Alternatywny haplotyp | Skorelowany z wyższym ryzykiem ADHD u dorosłych w kohortach azjatyckich (model dominujący) |
+**rs362990 (intron — modulacja fenotypu poznawczego)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ T/T** | Referencyjny profil SNAP-25 | Brak typowej asocjacji z BIF/ADHD z tego markera |
+| **T/G** | Pośrednia | Umiarkowana modulacja grubości kory w LD z rs363043 |
+| **G/G** | Alternatywny haplotyp | Skorelowany z obniżonym PRI u dzieci z borderline intellectual functioning w europejskich kohortach |
+**rs363039 (intron — modulacja fenotypu SNAP25)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Referencyjna modulacja | Standardowa odpowiedź synaptyczna; brak zwiększonego ryzyka ASD |
+| **★ C/T** | Pośrednia | Umiarkowane ryzyko nadpobudliwości w kohortach z autyzmem |
+| **T/T** | Alternatywny haplotyp | Skorelowany z deficytami w zadaniach wykonawczych i gorszą odpowiedzią fMRI w PFC |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości ALL w raportach
 * **Europa (NFE):** rs3746544: allel T ~62%, G ~38%; rs363050: A i G ~50% każdy (dobór stabilizujący)

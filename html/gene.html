@@ -15,10 +15,34 @@
       </section>
       <nav class="nav">
         <a class="btn btn--primary" href="../index.html">Wróć do indeksu</a>
+        <a class="btn" href="../index.html#tematy">Tematy</a>
       </nav>
       <article class="article" id="gene-content"></article>
+      <aside class="article topic-gene-links" id="gene-topic-links" hidden></aside>
       <p class="status" id="gene-status">Ładowanie treści…</p>
     </main>
+    <script src="topic-psychiatry-sections.js"></script>
+    <script src="topic-pages.js"></script>
+    <script src="variant-tones.js"></script>
     <script src="app.js"></script>
+    <script>
+      (function () {
+        const gene = new URLSearchParams(window.location.search).get("gene")?.trim().toUpperCase();
+        if (!gene || !window.TOPICS_FOR_GENE) return;
+        const ids = window.TOPICS_FOR_GENE[gene];
+        if (!ids?.length) return;
+        const node = document.getElementById("gene-topic-links");
+        const links = ids
+          .map((id) => {
+            const t = window.TOPIC_BY_ID[id];
+            return t
+              ? `<a class="topic-related-link" href="topic.html?topic=${encodeURIComponent(id)}"><span aria-hidden="true">${t.icon}</span> ${t.label}</a>`
+              : "";
+          })
+          .join("");
+        node.innerHTML = `<h2 class="category-head">Tematy powiązane</h2><div class="topic-related">${links}</div>`;
+        node.hidden = false;
+      })();
+    </script>
   </body>
 </html>

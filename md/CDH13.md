@@ -46,7 +46,7 @@
 | :--- | :--- | :--- |
 | **G/G** | Referencyjna (profil referencyjny) | Brak typowej asocjacji ze złym rokowaniem metabolicznym/onkologicznym z tego SNP |
 | **A/G** | Pośrednia | Umiarkowane ryzyko; interpretacja zależna od haplotypu i populacji |
-| **A/A** | Wariant minorowy (homozygota) | Wyższa punktacja zespołu metabolicznego u Europejek; u Azjatów gorsze stadium NSCLC (III/IV) |
+| **★ A/A** | Wariant minorowy (homozygota) | Wyższa punktacja zespołu metabolicznego u Europejek; u Azjatów gorsze stadium NSCLC (III/IV) |
 **rs12919501 (haplotyp rs11649622 — impulsywność)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

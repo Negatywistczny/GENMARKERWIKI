@@ -23,25 +23,79 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Prawidłowa aktywność (*1) | Optymalny klirens leków; zrównoważone monoamin w OUN |
+| **★ G/G** | Prawidłowa aktywność (*1) | Optymalny klirens leków; zrównoważone monoamin w OUN |
 | **G/A** | Heterozygota | Pośredni metabolizm (IM) przy drugim allelu funkcjonalnym |
 | **A/A** | Homozygota LoF (*4/*4) | AS=0 (PM); brak aktywności; kardiotoksyczność metoprololu; wyższa impulsywność i lęk |
-
 **rs1065852 (100C>T p.P34S — allel *10, obniżona funkcja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Referencyjna stabilność | Standardowy klirens |
+| **★ C/C** | Referencyjna stabilność | Standardowy klirens |
 | **C/T** | Heterozygota | Umiarkowane obniżenie aktywności |
 | **T/T** | Homozygota (*10/*10) | AS=0,25; dominacja w Azji Wschodniej (~49% allelu); spowolniony obrót serotoninowy i dopaminergiczny |
-
 **rs28371706 (1023C>T — allel *17, obniżona funkcja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Prawidłowa aktywność | Standardowy klirens |
+| **★ C/C** | Prawidłowa aktywność | Standardowy klirens |
 | **C/A** | Heterozygota | AS=0,5 (IM) |
 | **A/A** | Homozygota (*17/*17) | AS=0,5; częstszy u Afryki subsaharyjskiej (~19%); wolniejsza eliminacja risperidonu i aripiprazolu |
+**rs1058164 (allelic variant — metabolizm substratów)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **A/A** | Allel funkcjonalny | Standardowy klirens substratów CYP2D6; brak dodatkowego obciążenia Activity Score |
+| **A/G** | Heterozygota | Pośrednia aktywność w zależności od drugiego allelu gwiazdkowego |
+| **★ G/G** | Alternatywny haplotyp | Możliwe obniżenie AS w diplotypie z allelami LoF (*4, *6); weryfikuj pełny profil star alleles |
+**rs28371725 (allelic variant — allel *41, obniżona funkcja)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Brak allelu *41 | Pełna lub standardowa aktywność CYP2D6 (przy pozostałych allelach funkcjonalnych) |
+| **C/T** | Heterozygota *41 | AS≈0,5 (IM); wolniejszy klirens neuroleptyków, opioidów proleków i tamoksyfenu |
+| **T/T** | Homozygota *41/*41 | AS=1,0 z obniżoną funkcją per allel; ryzyko akumulacji substratów i interakcji z inhibitorami |
+**rs35742686 (allelic variant — allel *3, brak aktywności)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **G/G** | Brak allelu *3 | Standardowy metabolizm; brak wkładu *3 w Activity Score |
+| **★ G/A** | Heterozygota *3 | AS obniżony (IM/PM zależnie od drugiego allelu); brak konwersji kodeiny i tramadolu |
+| **A/A** | Homozygota *3/*3 | AS=0 (PM); brak aktywności enzymu; kardiotoksyczność metoprololu, toksyczność atomoksetyny |
+**rs5030655 (allelic variant — allel *6, brak aktywności)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Brak allelu *6 | Brak wkładu *6 w fenotyp PM; standardowy klirens przy pozostałych allelach *1 |
+| **A/G** | Heterozygota *6 | Obniżony AS (IM); wolniejsza eliminacja risperidonu, kodeiny i leków antyarytmicznych |
+| **G/G** | Homozygota *6/*6 | AS=0 (PM); brak aktywności; unikać kodeiny/tramadolu; redukcja dawki metoprololu |
+**rs5030865 (allelic variant — allel *8/*14, brak aktywności)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Brak allelu *8/*14 | Standardowa aktywność detoksykacyjna |
+| **C/T** | Heterozygota LoF | Częściowa utrata funkcji; wydłużony klirens substratów CYP2D6 |
+| **T/T** | Homozygota LoF | AS=0 (PM); brak metabolizmu wielu leków psychiatrycznych i onkologicznych |
+**rs72549354 (allelic variant — allel *20)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Brak allelu *20 | Brak wkładu *20 w Activity Score |
+| **G/A** | Heterozygota *20 | Obniżona aktywność (IM); wolniejszy metabolizm neuroleptyków |
+| **A/A** | Homozygota *20/*20 | Znacząco obniżony klirens; ryzyko interakcji z silnymi inhibitorami CYP2D6 (paroksetyna, fluoksetyna) |
+**rs79802111 (allelic variant — rzadki LOF)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Brak rzadkiego allelu | Standardowy fenotyp metaboliczny |
+| **G/A** | Nosiciel LoF | Obniżony AS; ostrożność z substratami o wąskim indeksie terapeutycznym |
+| **A/A** | Homozygota (rzadkie) | PM; wymaga pełnego panelu farmakogenetycznego przed terapią opioidową i antypsychotyczną |
+**rs1135840 (allelic variant — PM/IM, tag haplotypu)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Profil referencyjny | Brak obniżenia AS z tego locus; nie stosować jako samodzielnego markera (orientacja nici!) |
+| **C/T** | Heterozygota | Pośredni metabolizm w haplotypie z allelami LoF |
+| **T/T** | Alternatywny haplotyp | Skorelowany z wolniejszym metabolizmem; u nosicieli C/T + metylofenidat — lepsza poprawa uwagi w części kohort ADHD |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** ~36,4% non-NM; najwyższe w Algierii (61%), najniższe w Gambii (2,7%)
 * **Europa (NFE):** *4 ~18,5%; *41 ~9%; NM ~70–80%; UM ~2–3%; gradient *4 od NW do SE Europy

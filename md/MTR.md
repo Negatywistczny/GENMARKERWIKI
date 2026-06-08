@@ -23,7 +23,7 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Standardowa | Typowy metabolizm Hcy; wrażliwość na niedobór B12 i folianów |
+| **★ A/A** | Standardowa | Typowy metabolizm Hcy; wrażliwość na niedobór B12 i folianów |
 | **A/G** | Podwyższona | Obniżona homocysteina przy dobrej podaży B12; umiarkowane zużycie kobalaminy |
 | **G/G** | Najwyższa | Najniższa Hcy przy suplementacji; ryzyko szybszego wyczerpania B12 przy diecie ubogiej; ostrożność z N₂O |
 ### 5. Statystyki populacyjne

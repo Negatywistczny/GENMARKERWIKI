@@ -26,14 +26,41 @@
 | **C/C** | Wysoka ekspresja VKORC1 | Standardowa wrażliwość na warfarynę (~5–7 mg/d); niższe ryzyko krwawień przy dawkach empirycznych |
 | **C/T** | Umiarkowana ekspresja | Podwyższona wrażliwość; typowa dawka ~3–4 mg/d; częstsze INR poza zakresem przy standardowych schematach |
 | **★ T/T** | Obniżona ekspresja (~44%) | Ekstremalna wrażliwość (0,5–2 mg/d); wysokie ryzyko krwotoków przy dawkach „jak dla C/C”; algorytmy Gage/IWPC |
-
 **rs61742245 (oporność na warfarynę)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Prawidłowy enzym | Norma odpowiedzi na antagonisty witaminy K |
+| **★ G/G** | Prawidłowy enzym | Norma odpowiedzi na antagonisty witaminy K |
 | **G/T** | Zmieniona kieszeń wiązania | Częściowa oporność; wyższe dawki warfaryny |
 | **T/T** | Brak powinowactwa warfaryny | Silna dziedziczna oporność; wymaga bardzo wysokich dawek lub DOAC |
+**rs2359612 (intron — haplotyp warfaryny)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Haplotyp referencyjny (C-allelic VKORC1) | Standardowa dawka warfaryny przy zgodności z rs9923231 C/C; typowa ekspresja VKORC1 |
+| **A/G** | Haplotyp pośredni | Umiarkowana wrażliwość na antagonistów witaminy K; korekta dawki początkowej ~20–30% |
+| **G/G** | Haplotyp wrażliwości (T-allelic) | Skorelowany z rs9923231-T; niższe dawki warfaryny (algorytmy Gage/IWPC); częstsze INR poza zakresem |
+**rs7294 (regulacyjny — wrażliwość na antagonistów K)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Referencyjna regulacja VKORC1 | Standardowa odpowiedź na warfarynę i acenokumarol |
+| **C/T** | Pośrednia | Umiarkowanie zwiększona wrażliwość; niższa dawka początkowa |
+| **T/T** | Haplotyp wrażliwości | Wyższe ryzyko krwawień przy standardowych schematach dawkowania; intensywny monitoring INR |
+**rs8050894 (regulacyjny — haplotyp VKORC1)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Haplotyp referencyjny | Prawidłowa ekspresja VKORC1; brak dodatkowej wrażliwości na antagonistów K |
+| **G/C** | Pośredni haplotyp | Umiarkowana modulacja dawki warfaryny w LD z rs9923231 |
+| **C/C** | Haplotyp wrażliwości | Skorelowany z niższą ekspresją VKORC1; rozważyć DOAC przy wielu allelach wrażliwości |
+**rs9934438 (intron — dawka warfaryny, tag haplotypu)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Haplotyp referencyjny (C) | Standardowa dawka początkowa warfaryny; zgodność z rs9923231 C/C u większości Europejczyków |
+| **A/G** | Haplotyp pośredni | Redukcja dawki początkowej; częstsze dostosowanie INR w pierwszych tygodniach |
+| **G/G** | Haplotyp ekstremalnej wrażliwości | Bardzo niskie dawki (0,5–2 mg/d) u Azjatów Wschodnich w LD; wysokie ryzyko krwawień bez genotypowania |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel T (wrażliwość) MAF ~33,8%
 * **Europa (NFE):** Allel T ~38,5%; genotypy CC ~39%, CT ~47%, TT ~14%

@@ -53,6 +53,13 @@
 | **L/L (długi; L_A/L_A po rs25531)** | Wysoka ekspresja transportera 5-HTT | Lepsza odporność na depresję przy stresie niskim; przy chronicznym stresie zależność od L_A vs L_G (rs25531) |
 | **★ L/S** | Pośrednia ekspresja | Profil „orchid child” — wrażliwość na środowisko; elastyczna odpowiedź na SSRI zależnie od haplotypu |
 | **S/S (krótki)** | Niska ekspresja 5-HTT | Wyższe ryzyko depresji i lęku po traumie (interakcja gen–środowisko, Caspi); rozważ psychoterapię i ostrożność z SSRI |
+**rs25531 (promotor A>G — podział L_A / L_G w 5-HTTLPR)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **A/A** | L_A/L_A | Wysoka ekspresja SERT przy allelu L w 5-HTTLPR |
+| **★ A/G** | L_A/L_G | Pośrednia; allel G (L_G) obniża ekspresję — funkcjonalnie bliżej S |
+| **G/G** | L_G/L_G | Niska ekspresja jak S/S; fałszuje prosty podział L/L w kohortach bez rs25531 |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości dla VNTR S/L globalnie; częstość S silnie zróżnicowana geograficznie (od ~43% w Europie do 70–80% u Azjatów)
 * **Europa (NFE):** Allel S ~43%; homozygoty S/S ~19%; rs25531-G ~7,5% (większość L to L_A)

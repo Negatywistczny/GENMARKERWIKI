@@ -23,25 +23,30 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Wysoka | Prawidłowa konwersja LA→AA; standardowy profil lipidowy |
+| **★ C/C** | Wysoka | Prawidłowa konwersja LA→AA; standardowy profil lipidowy |
 | **C/G** | Pośrednia | Obniżone AA; akumulacja DGLA; wrażliwość na jakość diety |
 | **G/G** | Niska | Najniższe AA; wyższe TG, HOMA-IR u chorych na T2DM; słaba odpowiedź poznawcza na krótką laktację |
-
 **rs1535 (karmienie piersią / IQ)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **A/A** | Wysoka | Silna korelacja karmienia piersią z wyższym IQ u dzieci |
+| **★ A/A** | Wysoka | Silna korelacja karmienia piersią z wyższym IQ u dzieci |
 | **A/G** | Pośrednia | Umiarkowany efekt środowiskowy |
 | **G/G** | Niska | Brak korzyści poznawczych przy krótkiej laktacji; długa laktacja (>6 mies.) może kompensować |
-
 **rs968567 (promotor 5'UTR)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **C/C** | Standardowa | Bazowa aktywność D6D |
+| **★ C/C** | Standardowa | Bazowa aktywność D6D |
 | **C/T** | Podwyższona | Umiarkowane nasilenie syntezy n-6/n-3 |
 | **T/T** | Maksymalna | Silna ekspresja mRNA (ELK1); wyższa produkcja AA przy diecie bogatej w LA |
+**rs174583 (intron — elongacja PUFA, LD z FADS1)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Referencyjny haplotyp bloku FADS | Standardowy profil elongacji i desaturacji PUFA; interpretacja łącznie z rs174575 i rs174537 |
+| **C/T** | Pośredni haplotyp | Umiarkowana modulacja stężeń AA i EPA w osoczu |
+| **T/T** | Alternatywny haplotyp (MAF ~20–31% EUR) | Skorelowany z wyższym indeksem desaturacji; wpływ na zawartość DHA w mleku matki i profil lipidowy |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF G (rs174575) ~4–8% w EUR; wyższy w niektórych kohortach azjatyckich
 * **Europa (NFE):** rs174583 T MAF ~20–31%; rs1535 G MAF ~31% (HELENA: AA 49%, AG 42%, GG 9%)

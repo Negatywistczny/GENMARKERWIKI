@@ -25,23 +25,35 @@
 | :--- | :--- | :--- |
 | **A/A** | Najniższy potencjał wiązania w ACC (zdrowi) | Wariant dziki; bazowa gęstość receptorów |
 | **A/T** | Pośrednia | Umiarkowana modulacja poznawcza |
-| **T/T** | Najwyższy potencjał wiązania (zdrowi) | +~0,46 SD Performance IQ u zdrowych; u ChAD paradoksalny spadek wiązania, ryzyko samobójstw |
-
+| **★ T/T** | Najwyższy potencjał wiązania (zdrowi) | +~0,46 SD Performance IQ u zdrowych; u ChAD paradoksalny spadek wiązania, ryzyko samobójstw |
 **rs1824024 (intron — alkohol, POChP)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Pełna kontrola ACh | Działanie protekcyjne wobec uzależnień |
+| **★ G/G** | Pełna kontrola ACh | Działanie protekcyjne wobec uzależnień |
 | **G/T** | Pośrednia | Podatność modulowana środowiskiem |
 | **T/T** | Osłabiona stabilność transkrypcji | Ryzyko delirium tremens; cięższy alkoholizm; gorsza odpowiedź na antycholinergiki w POChP |
-
 **rs8191992 (3'-UTR — autonomiczna odpowiedź serca)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **A/A** | Osłabiona translacja M2 | >3× ryzyko HRR <8/min; podwyższona śmiertelność sercowa po AMI; obniżona autonomiczność przy neuroleptykach |
 | **A/T** | Pośrednia | Umiarkowana regeneracja tętna |
-| **T/T** | Prawidłowa gęstość M2 | Fizjologiczna HRR; wysoka elastyczność autonomiczna |
+| **★ T/T** | Prawidłowa gęstość M2 | Fizjologiczna HRR; wysoka elastyczność autonomiczna |
+**rs2061174 (intron — haplotyp T-T-T)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Haplotyp ochronny (składowy T-T-T) | Skorelowany z haplotypem T-T-T (rs324650-T, rs1824024-T, rs8191992-T); działanie protekcyjne wobec alkoholizmu i depresji |
+| **G/A** | Pośredni haplotyp | Umiarkowana podatność na uzależnienia; efekt modulowany rs1824024 i rs8191992 |
+| **A/A** | Alternatywny haplotyp | Brak ochrony haplotypu T-T-T; wyższe ryzyko cięższego alkoholizmu przy słabym wsparciu rodzinnym |
+**rs324640 (intron — kognicja i alkohol)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ G/G** | Referencyjna ekspresja M2 | Brak zwiększonego ryzyka delirium tremens; typowa odpowiedź na antycholinergiki |
+| **G/T** | Pośrednia | Umiarkowane ryzyko uzależnienia od alkoholu w kohortach europejskich |
+| **T/T** | Allel ryzyka (alkohol) | Skorelowany z cięższym alkoholizmem i gorszą odpowiedzią na leki antycholinergiczne w POChP; wsparcie rodzinne łagodzi fenotyp |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak kompletnych statystyk ALL
 * **Europa (NFE):** rs324650: AA ~20%, AT ~48%, TT ~32%; rs1824024: GG ~40%, GT ~56%, TT ~4%; haplotyp T-T-T >40%

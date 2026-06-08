@@ -45,8 +45,8 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **CC/CC** | Referencyjna | Norma rozwojowa z perspektywy tego locus (brak delecji C) |
-| **★ CC/C** | Pośrednia | Profil pośredni |
-| **C/C** | Alternatywna | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
+| **CC/C** | Pośrednia | Profil pośredni |
+| **★ C/C** | Alternatywna | Możliwa modulacja ekspresji ZEB2 w tkankach naczyniowych — dane ograniczone |
 **rs137852981 (ZEB2 (rzadki/regulacyjny))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

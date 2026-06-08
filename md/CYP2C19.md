@@ -23,10 +23,9 @@
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Prawidłowa synteza białka | Standardowy obrót estradiolu i serotoniny; normalny klirens leków |
+| **★ G/G** | Prawidłowa synteza białka | Standardowy obrót estradiolu i serotoniny; normalny klirens leków |
 | **G/A** | Heterozygota LoF | Umiarkowane obniżenie aktywności; częściowe upośledzenie eliminacji leków (IM) |
 | **A/A** | Homozygota LoF (*2/*2) | Brak aktywnego enzymu (PM); upośledzona aktywacja klopidogrelu; wyższa odporność na depresję u kobiet (PM) |
-
 **rs12248560 (c.-806C>T — allel *17, GoF)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -34,14 +33,34 @@
 | **C/C** | Prawidłowa transkrypcja | Standardowa wydajność metaboliczna (NM) |
 | **★ C/T** | Heterozygota GoF | Podwyższona transkrypcja mRNA; przyspieszona inaktywacja substratów (RM) |
 | **T/T** | Homozygota GoF (*17/*17) | Skrajnie wysoka ekspresja (UM); szybka eliminacja estrogenów płodowych; obniżona stabilność emocjonalna, wyższe ryzyko zachowań suicydalnych w depresji |
-
 **rs4986893 (c.636G>A — allel *3, LoF)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Standardowa aktywność | Normalny klirens |
+| **★ G/G** | Standardowa aktywność | Normalny klirens |
 | **G/A** | Heterozygota LoF | Obniżona sprawność detoksykacyjna (IM) |
 | **A/A** | Homozygota LoF (*3/*3) | Kompletna dysfunkcja białka (PM); typowy wariant w populacjach wschodnioazjatyckich |
+**rs12769205 (intron — metabolizm klopidogrelu)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ A/A** | Standardowa aktywność CYP2C19 | Prawidłowa aktywacja klopidogrelu do aktywnego metabolitu; typowa skuteczność antyagregacji przy NM/RM |
+| **A/G** | Pośrednia | Umiarkowane obniżenie aktywacji proleku; rozważyć test CYP2C19 przed klopidogrelem |
+| **G/G** | Obniżona aktywność (tag haplotypu LoF) | Wyższe ryzyko zdarzeń sercowo-naczyniowych na standardowej dawce klopidogrelu; CPIC: tikagrelor lub prasugrel |
+**rs6413438 (regulacyjny — allel *10, CYP2C19)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **★ C/C** | Brak allelu *10 | Standardowy klirens IPP, SSRI i klopidogrelu przy pozostałych allelach funkcjonalnych |
+| **C/T** | Heterozygota *10 | Obniżona aktywność (IM); możliwa konieczność korekty dawki omeprazolu i escitalopramu |
+| **T/T** | Homozygota *10/*10 | Znacząco obniżony metabolizm (PM/IM); subterapeutyczne stężenia wielu substratów CYP2C19 |
+**rs72558186 (allelic variant — allel *7, metabolizm PPI)**
+
+| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
+| :--- | :--- | :--- |
+| **C/C** | Brak allelu *7 | Prawidłowy klirens inhibitorów pompy protonowej i klopidogrelu |
+| **C/T** | Heterozygota *7 | Częściowa utrata funkcji; umiarkowanie wydłużony klirens omeprazolu i pantoprazolu |
+| **★ T/T** | Homozygota *7/*7 | Silnie obniżona aktywność CYP2C19; ryzyko interakcji lekowych i słabszej aktywacji klopidogrelu — personalizacja dawki wg CPIC |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** ~40% populacji ma ≥1 allel o zmienionej funkcjonalności; diplotyp *1/*1 najczęstszy globalnie
 * **Europa (NFE):** *2 (rs4244285) umiarkowany; *17 wyższy w Europie Środkowej (Słowacja, Polska); *3 rzadki
