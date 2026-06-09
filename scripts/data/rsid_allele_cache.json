@@ -1,0 +1,710 @@
+{
+  "rs10033951": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs10033951",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1010816": {
+    "alt": "G",
+    "ref": "T",
+    "rsid": "rs1010816",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1014166": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs1014166",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1015362": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs1015362",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10246939": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs10246939",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1044396": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1044396",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1045642": {
+    "alt": "C",
+    "ref": "A",
+    "rsid": "rs1045642",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1049581": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs1049581",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10503253": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs10503253",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1051375": {
+    "alt": "C",
+    "ref": "G",
+    "rsid": "rs1051375",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1051513": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs1051513",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1051543": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1051543",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1051566": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs1051566",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1064395": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1064395",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10811234": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs10811234",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10881512": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs10881512",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10957973": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs10957973",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs10996110": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs10996110",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11064560": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs11064560",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11078013": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs11078013",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11171739": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs11171739",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1131441": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs1131441",
+    "source": "unavailable"
+  },
+  "rs1138844": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs1138844",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11545624": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs11545624",
+    "source": "unavailable"
+  },
+  "rs11553556": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs11553556",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11568824": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs11568824",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11645009": {
+    "alt": "A",
+    "ref": "T",
+    "rsid": "rs11645009",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11652495": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs11652495",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs11660233": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs11660233",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs117039014": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs117039014",
+    "source": "unavailable"
+  },
+  "rs12048493": {
+    "alt": "C",
+    "ref": "A",
+    "rsid": "rs12048493",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1205": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs1205",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs12140417": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs12140417",
+    "source": "unavailable"
+  },
+  "rs121912959": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs121912959",
+    "source": "ncbi/dbsnp"
+  },
+  "rs12469063": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs12469063",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs13107325": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs13107325",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs13271739": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs13271739",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs13306893": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs13306893",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs139606423": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs139606423",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1397547": {
+    "alt": "C",
+    "ref": "G",
+    "rsid": "rs1397547",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs139885610": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs139885610",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1435252": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1435252",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1441334": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs1441334",
+    "source": "unavailable"
+  },
+  "rs144754751": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs144754751",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1465223": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1465223",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1482110": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs1482110",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs16840066": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs16840066",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs17597926": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs17597926",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs17631335": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs17631335",
+    "source": "ncbi/dbsnp"
+  },
+  "rs17782344": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs17782344",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1800629": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1800629",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1800762": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs1800762",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1800795": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs1800795",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1800858": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs1800858",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1800955": {
+    "alt": "G",
+    "ref": "T",
+    "rsid": "rs1800955",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1857050": {
+    "alt": "A",
+    "ref": "T",
+    "rsid": "rs1857050",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs1943620": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs1943620",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2013162": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2013162",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2020720": {
+    "alt": "",
+    "ref": "",
+    "rsid": "rs2020720",
+    "source": "unavailable"
+  },
+  "rs2023239": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs2023239",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2064070": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs2064070",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2070366": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2070366",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs211105": {
+    "alt": "G",
+    "ref": "T",
+    "rsid": "rs211105",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2129571": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs2129571",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2228074": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs2228074",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2228511": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2228511",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2230026": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs2230026",
+    "source": "ncbi/dbsnp"
+  },
+  "rs2235081": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs2235081",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2240901": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs2240901",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2241604": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2241604",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2273502": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2273502",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2273574": {
+    "alt": "G",
+    "ref": "T",
+    "rsid": "rs2273574",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2275163": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2275163",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2275608": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs2275608",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2280031": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs2280031",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2290432": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs2290432",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2337980": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs2337980",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs234706": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs234706",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2396753": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs2396753",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2516480": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs2516480",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2730573": {
+    "alt": "C",
+    "ref": "G",
+    "rsid": "rs2730573",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs2797285": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs2797285",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3025366": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs3025366",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3101336": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs3101336",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs362584": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs362584",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs362990": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs362990",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3743419": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs3743419",
+    "source": "ncbi/dbsnp"
+  },
+  "rs3745274": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs3745274",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3758653": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs3758653",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3760707": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs3760707",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3785157": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs3785157",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs3787429": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs3787429",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs41423247": {
+    "alt": "C",
+    "ref": "G",
+    "rsid": "rs41423247",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs4253243": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs4253243",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs4702": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs4702",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs5522": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs5522",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs5569": {
+    "alt": "C",
+    "ref": "G",
+    "rsid": "rs5569",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs56163402": {
+    "alt": "G",
+    "ref": "T",
+    "rsid": "rs56163402",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6033475": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs6033475",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6116204": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs6116204",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6296": {
+    "alt": "G",
+    "ref": "C",
+    "rsid": "rs6296",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6297": {
+    "alt": "A",
+    "ref": "C",
+    "rsid": "rs6297",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6311": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs6311",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6313": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs6313",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6440851": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs6440851",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6465084": {
+    "alt": "G",
+    "ref": "A",
+    "rsid": "rs6465084",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6470054": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs6470054",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6494223": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs6494223",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6551665": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs6551665",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs6583347": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs6583347",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs704180": {
+    "alt": "T",
+    "ref": "A",
+    "rsid": "rs704180",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs708453": {
+    "alt": "A",
+    "ref": "G",
+    "rsid": "rs708453",
+    "source": "ncbi/dbsnp"
+  },
+  "rs715": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs715",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs7412571": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs7412571",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs7782412": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs7782412",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs806368": {
+    "alt": "A",
+    "ref": "T",
+    "rsid": "rs806368",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs9657182": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs9657182",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs9834970": {
+    "alt": "C",
+    "ref": "T",
+    "rsid": "rs9834970",
+    "source": "myvariant.info/dbsnp"
+  }
+}

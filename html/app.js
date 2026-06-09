@@ -23,8 +23,10 @@ const SECTION_META = [
 ];
 
 
-const fixedVariantTone = window.fixedVariantTone;
-const normalizeToneKey = window.normalizeToneKey || ((value) => String(value || "").toLowerCase());
+const fixedVariantTone =
+  window.fixedVariantTone || (() => "neutral");
+const normalizeToneKey =
+  window.normalizeToneKey || ((value) => String(value || "").toLowerCase());
 
 function parseSections(markdown) {
   const lines = markdown.split(/\r?\n/);
@@ -313,8 +315,71 @@ function splitVariantBlocks(body) {
   return [];
 }
 
+function toneColumnIndex(headers) {
+  return (headers || []).findIndex((h) => /^ton$/i.test(String(h).trim()));
+}
+
+function isProfileImpactTable(headers) {
+  const h = (headers || []).map((x) => String(x).toLowerCase());
+  if (h.length === 2 && /profil/.test(h[0]) && /wpływ|fenotyp/.test(h[1])) {
+    return true;
+  }
+  return (
+    h.length === 3 &&
+    /profil/.test(h[0]) &&
+    /ton/.test(h[1]) &&
+    /wpływ|fenotyp/.test(h[2])
+  );
+}
+
+function isGenotypeVariantTable(headers) {
+  const h = (headers || []).map((x) => String(x).toLowerCase().trim());
+  return (
+    h.length >= 3 &&
+    /^genotyp$/.test(h[0]) &&
+    /wpływ|fenotyp/.test(h[h.length - 1])
+  );
+}
+
+function parseManualTone(value) {
+  const tone = String(value || "").trim().toLowerCase();
+  return tone === "positive" || tone === "negative" || tone === "neutral" ? tone : "neutral";
+}
+
+function renderWgsCallout(markdownChunk) {
+  const lines = String(markdownChunk || "")
+    .split(/\r?\n/)
+    .map((line) => line.trim())
+    .filter(Boolean);
+  const items = lines
+    .filter((line) => /^[-*]/.test(line) || /`rs\d+/i.test(line))
+    .map((line) => stripMarkdown(line.replace(/^[-*]\s*/, "")))
+    .filter(Boolean);
+  if (!items.length) {
+    return window.marked ? window.marked.parse(markdownChunk) : markdownChunk;
+  }
+  return `<aside class="wgs-callout" aria-label="Mój genotyp WGS">
+    <p class="wgs-callout__title">Mój genotyp (WGS)</p>
+    <ul class="wgs-callout__list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
+  </aside>`;
+}
+
+function renderMechanismBody(markdownBody) {
+  const marker = "* **Mój genotyp (WGS):**";
+  const idx = markdownBody.indexOf(marker);
+  if (idx < 0) {
+    return window.marked ? window.marked.parse(markdownBody) : markdownBody;
+  }
+  const before = markdownBody.slice(0, idx).trim();
+  const wgsChunk = markdownBody.slice(idx).trim();
+  const mainHtml = before ? (window.marked ? window.marked.parse(before) : before) : "";
+  return `${mainHtml}${renderWgsCallout(wgsChunk)}`;
+}
+
 function renderVariantTiles(table, context = {}) {
   const { headers, rows } = table;
+  const genotypeTable = isGenotypeVariantTable(headers);
+  const profileTable = !genotypeTable && isProfileImpactTable(headers);
   const isApoe = context.gene === "APOE";
   const isApoeHaplotypeTable =
     isApoe &&
@@ -330,32 +395,62 @@ function renderVariantTiles(table, context = {}) {
       ? "haplotypy apoe rs429358 rs7412"
       : context.heading;
 
+  const toneIdx =
+    genotypeTable || profileTable ? toneColumnIndex(headers) : -1;
+
   return rows
     .map((row) => {
       const cells = tableRowCells(row);
       const personal = tableRowIsPersonal(row);
       const genotype = cells[0] || "Wariant";
-      const summary = cells[cells.length - 1] || "";
-      const headingText = isApoeHaplotypeCombined
-        ? cells[1] || genotype
-        : isApoeHaplotypeTable
-          ? cells[2] || genotype
-          : genotype;
-      const status = isApoeHaplotypeCombined
-        ? cells[0] || ""
-        : isApoeHaplotypeTable
-          ? `${headers[0] || "rs429358"}: ${cells[0] || "-"} | ${headers[1] || "rs7412"}: ${cells[1] || "-"}`
-          : cells[1] || "";
-      const details = headers
-        .map((header, i) => ({ header, value: cells[i] || "" }))
-        .slice(isApoeHaplotypeTable ? 3 : 2, Math.max(isApoeHaplotypeTable ? 3 : 2, headers.length - 1))
-        .filter((item) => item.value);
-      const tone = fixedVariantTone(
-        context.gene,
-        toneHeading,
-        genotype,
-        isApoeHaplotype ? { lookupKey: normalizeToneKey(cells.join(" ")) } : {}
-      );
+      let summary;
+      let headingText;
+      let status;
+      let details;
+
+      if (genotypeTable) {
+        const summaryIdx = headers.length - 1;
+        headingText = stripMarkdown(genotype);
+        status = cells[1] || "";
+        summary = cells[summaryIdx] || "";
+        details = [];
+      } else {
+        summary =
+          toneIdx >= 0
+            ? cells[cells.length - 1] || ""
+            : profileTable
+              ? cells[1] || ""
+              : cells[cells.length - 1] || "";
+        headingText = isApoeHaplotypeCombined
+          ? cells[1] || genotype
+          : isApoeHaplotypeTable
+            ? cells[2] || genotype
+            : stripMarkdown(genotype);
+        status = profileTable
+          ? ""
+          : isApoeHaplotypeCombined
+            ? cells[0] || ""
+            : isApoeHaplotypeTable
+              ? `${headers[0] || "rs429358"}: ${cells[0] || "-"} | ${headers[1] || "rs7412"}: ${cells[1] || "-"}`
+              : cells[1] || "";
+        details = headers
+          .map((header, i) => ({ header, value: cells[i] || "" }))
+          .slice(
+            isApoeHaplotypeTable ? 3 : 2,
+            Math.max(isApoeHaplotypeTable ? 3 : 2, headers.length - 1)
+          )
+          .filter((item) => item.value);
+      }
+
+      const tone =
+        toneIdx >= 0
+          ? parseManualTone(cells[toneIdx])
+          : fixedVariantTone(
+              context.gene,
+              toneHeading,
+              genotype,
+              isApoeHaplotype ? { lookupKey: normalizeToneKey(cells.join(" ")) } : {}
+            );
 
       return `
         <article class="variant-tile variant-tile--${tone}${personal ? " variant-tile--personal" : ""}${isApoeHaplotype ? " variant-tile--apoe" : ""}">
@@ -382,7 +477,10 @@ function renderVariantTiles(table, context = {}) {
 }
 
 function renderVariantsSection(section) {
-  const blocks = splitVariantBlocks(section.body);
+  const bodyLines = section.body.filter(
+    (line) => !/^\* \*\*Uwaga:\*\*/i.test(line.trim())
+  );
+  const blocks = splitVariantBlocks(bodyLines);
   if (!blocks.length) {
     return null;
   }
@@ -478,7 +576,7 @@ function mergeDuplicateVariantSections(sections) {
     .filter(Boolean);
 }
 
-function renderSectionCard(section) {
+function renderSectionCard(section, options = {}) {
   const meta = sectionPresentation(section.title);
   const markdownBody = section.body.join("\n").trim();
   if (!markdownBody) {
@@ -489,6 +587,8 @@ function renderSectionCard(section) {
   if (meta.label === "Warianty i fenotyp") {
     const variantBody = renderVariantsSection(section);
     sectionBody = variantBody || (window.marked ? window.marked.parse(markdownBody) : markdownBody);
+  } else if (meta.label === "Mechanizm działania") {
+    sectionBody = renderMechanismBody(markdownBody);
   } else {
     sectionBody = window.marked ? window.marked.parse(markdownBody) : markdownBody;
   }
@@ -513,11 +613,11 @@ function renderRow(className, html) {
   return `<div class="layout-row ${className}">${html}</div>`;
 }
 
-function renderCards(sections) {
-  return sections.map(renderSectionCard).filter(Boolean).join("");
+function renderCards(sections, options = {}) {
+  return sections.map((section) => renderSectionCard(section, options)).filter(Boolean).join("");
 }
 
-function renderGenePresentation(markdown) {
+function renderGenePresentation(markdown, options = {}) {
   const sections = mergeDuplicateVariantSections(parseSections(markdown));
   const buckets = {
     profile: [],
@@ -545,16 +645,40 @@ function renderGenePresentation(markdown) {
   }
 
   return `
-    <div class="gene-layout">
-      ${renderRow("layout-row--full", renderCards(buckets.profile))}
+    <div class="gene-layout${options.isMini ? " gene-layout--mini" : ""}">
+      ${renderRow("layout-row--full", renderCards(buckets.profile, options))}
       ${renderRow(
         "layout-row--split",
-        `${renderCards(buckets.identifiers)}${renderCards(buckets.mechanism)}`
+        `${renderCards(buckets.identifiers, options)}${renderCards(buckets.mechanism, options)}`
       )}
-      ${renderRow("layout-row--full", renderCards(buckets.variants))}
-      ${renderRow("layout-row--rest", `<div class="presentation-rest">${renderCards(buckets.rest)}</div>`)}
+      ${renderRow("layout-row--full", renderCards(buckets.variants, options))}
+      ${renderRow("layout-row--rest", `<div class="presentation-rest">${renderCards(buckets.rest, options)}</div>`)}
     </div>
   `;
+}
+
+async function fetchMarkdownFrom(path) {
+  try {
+    const response = await fetch(path);
+    if (response.ok) {
+      return await response.text();
+    }
+  } catch {
+    // Przy file:// brak pliku często rzuca zamiast zwrócić response.ok === false.
+  }
+  return null;
+}
+
+async function fetchGeneMarkdown(geneSymbol) {
+  const fullMarkdown = await fetchMarkdownFrom(`../md/${geneSymbol}.md`);
+  if (fullMarkdown) {
+    return { markdown: fullMarkdown, isMini: false };
+  }
+  const miniMarkdown = await fetchMarkdownFrom(`../md-mini/${geneSymbol}.md`);
+  if (miniMarkdown) {
+    return { markdown: miniMarkdown, isMini: true };
+  }
+  return null;
 }
 
 async function loadGenePage() {
@@ -570,18 +694,36 @@ async function loadGenePage() {
   document.title = `${geneSymbol} | GenMarkerWiki`;
 
   try {
-    const response = await fetch(`../md/${geneSymbol}.md`);
-    if (!response.ok) {
+    const loaded = await fetchGeneMarkdown(geneSymbol);
+    if (!loaded) {
       throw new Error(`Nie znaleziono karty genu ${geneSymbol}.`);
     }
 
-    const markdown = await response.text();
-    contentNode.innerHTML = renderGenePresentation(markdown);
+    const { markdown, isMini } = loaded;
+    document.body.classList.toggle("gene-page--mini", isMini);
+    contentNode.innerHTML = renderGenePresentation(markdown, { isMini });
+    if (titleNode) {
+      titleNode.textContent = `${geneSymbol} - karta genu`;
+    }
+    if (subtitleNode) {
+      const sections = parseSections(markdown);
+      const profile = sections.find((s) =>
+        /nagłówek|nazwy/i.test(s.title)
+      );
+      const facts = extractHeaderFacts(profile);
+      const shortDesc = facts.find((item) =>
+        item.key.toLowerCase().includes("pełna nazwa")
+      );
+      subtitleNode.textContent = shortDesc
+        ? shortDesc.value
+        : "Uporządkowana prezentacja informacji medyczno-genetycznych.";
+    }
     if (statusNode) {
       statusNode.textContent = "";
     }
   } catch (error) {
     contentNode.innerHTML = "";
+    document.body.classList.remove("gene-page--mini");
     if (statusNode) {
       statusNode.textContent =
         `Nie udało się wczytać treści (${error.message}). ` +

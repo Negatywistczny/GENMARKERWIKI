@@ -12,9 +12,10 @@
   const byGene = Object.fromEntries((window.GENE_INDEX || []).map((e) => [e.gene, e]));
   const profiles = window.PERSONAL_GENE_PROFILES || {};
   const genesWithCard = window.GENES_WITH_MD || new Set();
+  const genesWithMini = window.GENES_WITH_MINI || new Set();
 
   function hasGeneCard(symbol) {
-    return genesWithCard.has(symbol);
+    return genesWithCard.has(symbol) || genesWithMini.has(symbol);
   }
 
   function escapeHtml(text) {
@@ -95,6 +96,9 @@
   }
 
   function renderPersonalCell(symbol) {
+    if (!hasGeneCard(symbol)) {
+      return `<span class="topic-personal-empty">—</span>`;
+    }
     const blocks = personalBlocks(symbol);
     if (!blocks?.length) {
       return `<span class="topic-personal-empty">—</span>`;

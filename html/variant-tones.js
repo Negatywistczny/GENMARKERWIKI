@@ -1564,9 +1564,18 @@ const FIXED_VARIANT_TONES = {
 function normalizeToneKey(value) {
   return stripMarkdown(String(value || ""))
     .toLowerCase()
-    .replace(/ł/g, "l")
-    .replace(/[ąćęńóśźż]/g, (ch) =>
-      ({ ą: "a", ć: "c", ę: "e", ń: "n", ó: "o", ś: "s", ź: "z", ż: "z" })[ch] || ch
+    .replace(/\u0142/g, "l")
+    .replace(/[\u0105\u0107\u0119\u0144\u00f3\u015b\u017a\u017c]/g, (ch) =>
+      ({
+        "\u0105": "a",
+        "\u0107": "c",
+        "\u0119": "e",
+        "\u0144": "n",
+        "\u00f3": "o",
+        "\u015b": "s",
+        "\u017a": "z",
+        "\u017c": "z",
+      })[ch] || ch
     )
     .normalize("NFD")
     .replace(/[\u0300-\u036f]/g, "")
@@ -1574,7 +1583,7 @@ function normalizeToneKey(value) {
     .trim();
 }
 
-/** Keys to match genotype cells with „(lub …)” and multi-token labels. */
+/** Keys to match genotype cells with ?(lub ?)? and multi-token labels. */
 function genotypeLookupKeys(genotype) {
   const raw = stripMarkdown(String(genotype || ""));
   const keys = new Set();
