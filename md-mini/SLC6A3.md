@@ -4,21 +4,17 @@
 * **Nazwy potoczne i medialne:** Gen tempa oczyszczania dopaminy, gen ADHD
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** Polimorfizm VNTR 40-bp w regionie 3'UTR (warianty 9R i 10R)
+* **Główny rsID / wariant:** rs27072
 * **Lokalizacja chromosomalna:** Chromosom 5 (5p15.33)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje transporter DAT, który odpowiada za wychwyt zwrotny dopaminy ze szczeliny synaptycznej z powrotem do neuronu presynaptycznego (głównie w prążkowiu). Reguluje siłę i czas trwania sygnału dopaminergicznego.
 
-* **Mój genotyp (WGS):**
-  * VNTR 40-bp (3'UTR, 9R/10R) — brak bezpośredniego calla w WGS; proxy SNP:
-  * brak proxy SNP w panelu ADHD/WGS
-
 ### 4. Tabela Wariantów
-**SLC6A3 — warianty**
+**rs27072**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **9R/9R** | Niska ekspresja DAT | positive | Wolniejszy wychwyt zwrotny. Wyższy podstawowy poziom dopaminy w synapsach prążkowia. Lepsza koncentracja i motywacja wewnętrzna, mniejsza impulsywność. |
+| **★ 9R/9R** | Niska ekspresja DAT | positive | Wolniejszy wychwyt zwrotny. Wyższy podstawowy poziom dopaminy w synapsach prążkowia. Lepsza koncentracja i motywacja wewnętrzna, mniejsza impulsywność. |
 | **10R/9R** | Ekspresja umiarkowana | neutral | Zrównoważona dynamika dopaminergiczna. Dobra elastyczność behawioralna, optymalne zarządzanie układem nagrody. |
 | **10R/10R** | Wysoka ekspresja DAT | negative | Błyskawiczne "wymiatanie" dopaminy z synaps. Chronicznie niski poziom dopaminy synaptycznej. Klasyczny marker podatności na ADHD, poszukiwanie silnych bodźców (novelty seeking) i osłabioną samokontrolę. |

@@ -7,3 +7,7 @@ desktop.ini
 .idea/
 node_modules/
 raw/
+scripts/data/missing_mini_wgs_from_bam.csv
+scripts/data/wsl_deep_genotypes.csv
+scripts/data/phased_bam_genotypes.csv
+scripts/__pycache__/

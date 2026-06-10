@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Czynnik transkrypcyjny kluczowy dla końcowego różnicowania komórek progenitorowych oligodendrocytów (OPC) do dojrzałych, funkcjonalnych oligodendrocytów. Odpowiada za proces powstawania osłonki mielinowej w OUN, warunkując prędkość, precyzję i synchronizację przewodzenia impulsów nerwowych.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **NKX2-2 — warianty**
 

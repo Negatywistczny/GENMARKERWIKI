@@ -5,13 +5,10 @@
 
 ### 2. Identyfikator (rsID)
 * **Główny rsID / wariant:** rs2241604
-* **Lokalizacja chromosomalna:** Chromosom 10 (10p12.1)
+* **Lokalizacja chromosomalna:** Chromosom 10 (10q21.1, ~18.5 Mb hg38)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Podobnie jak NSUN2, wprowadza modyfikacje m5C, lecz wykazuje wysoce specyficzne powinowactwo do konkretnych pozycji (C72 i C73) w pętlach akceptorowych tRNA dla cysteiny i treoniny. Decyduje o ostatecznym dopasowaniu przestrzennym tRNA i jego wydajności w rybosomach podczas budowania specyficznych białek receptorowych.
-
-* **Mój genotyp (WGS):**
-  * `rs2241604` — NOT_IN_DBSNP
 
 ### 4. Tabela Wariantów
 **rs2241604**

@@ -10,11 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Receptor postsynaptyczny sprzężony z białkiem Gs. Jego aktywacja stymuluje cyklazę adenylową, podnosząc poziom cAMP w neuronie. Wykazuje silną ekspresję w hipokampie, gdzie promuje długotrwałe wzmocnienie synaptyczne (LTP), sekrecję czynnika BDNF oraz stymuluje powstawanie nowych neuronów (neurogenezę dorosłą).
 
-* **Mój genotyp (WGS):**
-  * `rs211105` — **TT** (ensembl+bam, high) — marker_report
-  * `rs2013162` — **CC** (ensembl, high) — ensembl; depth=42,avg=42.0; gt=0/0
-  * `rs6440851` — **CC** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
-
 ### 4. Tabela Wariantów
 **rs211105**
 

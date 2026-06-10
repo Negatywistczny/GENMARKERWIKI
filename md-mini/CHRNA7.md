@@ -4,16 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen bramkowania sensorycznego, gen krytycznego regionu 15q13.3
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs2337980 / Mikrodelecje regionu 15q13.3
+* **Główny rsID / wariant:** rs2337980
 * **Lokalizacja chromosomalna:** Chromosom 15 (15q13.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje homopentameryczny receptor nikotynowy ($a7$ nAChR), cechujący się wysoką przepuszczalnością dla jonów wapnia ($Ca^{2+}$). Odpowiada za mechanizm bramkowania sensorycznego (ang. *sensory gating*) – zdolność mózgu do odfiltrowywania powtarzalnych, nieistotnych bodźców z tła, chroniąc korę przed przeciążeniem.
-
-* **Mój genotyp (WGS):**
-  * `rs2337980` — **CC** (ensembl+bam, high) — marker_report
-  * `rs2064070` — **TT** (ensembl, high) — ensembl; depth=24,avg=24.0; gt=1/1
-  * `rs6494223` — **CC** (ensembl, high) — ensembl; depth=14,avg=14.0; gt=0/0
 
 ### 4. Tabela Wariantów
 **rs2337980**

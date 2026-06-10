@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Kinaza serynowo-treoninowa kontrolująca dynamikę polimeryzacji mikrotubul w cytoszkielecie aksonalnym oraz uczestnicząca w formowaniu rzęsek pierwotnych neuronów. Odgrywa kluczową rolę w stabilizacji strukturalnej stożka wzrostu aksonu.
 
-* **Mój genotyp (WGS):**
-  * `rs1051543` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs1051543**
 

@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje fosfatazę LAR, która lokalizuje się presynaptycznie i wchodzi w bezpośrednie interakcje strukturalne z białkami rusztowania synaptycznego (np. liprynami-alpha). Jest niezbędna do fizycznego zakotwiczenia pęcherzyków synaptycznych w strefie aktywnej oraz kontrolowania morfogenezy kolców dendrytycznych.
 
-* **Mój genotyp (WGS):**
-  * `rs1049581` — **AG** (ensembl+bam, high) — marker_report
-  * `rs10996110` — **GG** (ensembl, high) — ensembl; depth=59,avg=59.0; gt=0/0
-
 ### 4. Tabela Wariantów
 **rs1049581**
 

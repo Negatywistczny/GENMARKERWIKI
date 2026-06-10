@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Wspólnie z TRMT6 tworzy kompleks odpowiedzialny za metylację adeniny do 1-metyloadeniny (m1A) w pozycji 58 cząsteczek tRNA. Modyfikacja m1A wprowadza silny ładunek dodatni, niezbędny do strukturalnej stabilizacji struktury trzeciorzędowej tRNA. Bez niej dochodzi do destabilizacji rybosomów i zahamowania syntezy kluczowych enzymów metabolicznych w mózgu.
 
-* **Mój genotyp (WGS):**
-  * `rs2275608` — **TT** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs2275608**
 

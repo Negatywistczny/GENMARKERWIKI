@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen molekularnego rusztowania synaps, marker GWAS ChAD i schizofrenii
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs1943620 / rs5835
+* **Główny rsID / wariant:** rs1943620
 * **Lokalizacja chromosomalna:** Chromosom 11 (11q23.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Glikoproteina błonowa zaangażowana w fizyczną adhezję komórka-komórka, wzrost neurytów, synaptogenezę oraz indukcję długotrwałego wzmocnienia synaptycznego (LTP) w hipokampie. Poprzez bezpośrednią interakcję z receptorami FGFR aktywuje wewnątrzkomórkowe kaskady sygnałowe decydujące o przeżywalności neuronów.
-
-* **Mój genotyp (WGS):**
-  * `rs1943620` — **GA** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs1943620**

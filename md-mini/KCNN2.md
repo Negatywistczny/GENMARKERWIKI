@@ -4,20 +4,17 @@
 * **Nazwy potoczne i medialne:** Gen SK2, strażnik pobudliwości synaptycznej
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** Polimorfizmy eQTL lub rzadkie mutacje punktowe
+* **Główny rsID / wariant:** rs6480535
 * **Lokalizacja chromosomalna:** Chromosom 5 (5q22.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje kanał potasowy SK2, który otwiera się w odpowiedzi na wzrost stężenia intracelularnego wapnia. Generuje prąd hiperpolaryzacji pościegłowej (AHP), pełniąc funkcję "hamulca bezpieczeństwa" – ogranicza częstotliwość wyładowań neuronu i chroni go przed przestymulowaniem. Kluczowy dla plastyczności synaptycznej w hipokampie.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
-**KCNN2 — warianty**
+**rs6480535**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| — | Silne hamowanie | positive | Błyskawiczna repolaryzacja i wysoka ochrona przed ekscytotoksycznością. Może podnosić próg aktywacji kognitywnej (potrzeba silniejszych bodźców środowiskowych do indukcji procesów zapamiętywania). |
-| — | Typ dziki | neutral | Zbalansowana pobudliwość synaptyczna. Idealne okno elektrofizjologiczne dla indukcji długotrwałego wzmocnienia synaptycznego (LTP) bez ryzyka generowania wyładowań drgawkowych. |
-| — | Wariant ryzyka / LoF | negative | Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci neuronalnych, drastyczne zaburzenia integracji sensorycznej (brak filtrowania bodźców), podatność na padaczkę oraz korelacja z zachowaniami stereotypowymi w spektrum autyzmu. |
+| **★ T/T** | Silne hamowanie | positive | Błyskawiczna repolaryzacja i wysoka ochrona przed ekscytotoksycznością. Może podnosić próg aktywacji kognitywnej (potrzeba silniejszych bodźców środowiskowych do indukcji procesów zapamiętywania). |
+| **T/A** | Typ dziki | neutral | Zbalansowana pobudliwość synaptyczna. Idealne okno elektrofizjologiczne dla indukcji długotrwałego wzmocnienia synaptycznego (LTP) bez ryzyka generowania wyładowań drgawkowych. |
+| **A/A** | Wariant ryzyka / LoF | negative | Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci neuronalnych, drastyczne zaburzenia integracji sensorycznej (brak filtrowania bodźców), podatność na padaczkę oraz korelacja z zachowaniami stereotypowymi w spektrum autyzmu. |

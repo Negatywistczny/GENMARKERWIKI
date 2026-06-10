@@ -1,0 +1,195 @@
+{
+  "hla": {
+    "HLA-B": {
+      "gene": "HLA-B",
+      "rsid": "rs3135388",
+      "genotype": "AA",
+      "notes": "proxy (OptiType niedostepny); ncbi; depth=3,avg=3.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+hla_proxy"
+    },
+    "HLA-DQB1": {
+      "gene": "HLA-DQB1",
+      "rsid": "rs7775228",
+      "genotype": "TT",
+      "notes": "proxy (OptiType niedostepny); ncbi; depth=5,avg=5.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+hla_proxy"
+    },
+    "HLA-DRB1": {
+      "gene": "HLA-DRB1",
+      "rsid": "rs9268839",
+      "genotype": "AA",
+      "notes": "proxy (OptiType niedostepny); ncbi; depth=16,avg=16.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+hla_proxy"
+    }
+  },
+  "vntr": {
+    "SLC6A3": {
+      "gene": "SLC6A3",
+      "genotype": "9R/9R",
+      "confidence": "medium",
+      "method": "proxy tag-SNP (rs27072=CC, rs40184=CC)",
+      "notes": "region chr5:1393390-1393600; reads=53; median_repeat~0; proxy tag-SNP (rs27072=CC, rs40184=CC); cov=22.4x"
+    }
+  },
+  "cnv": {
+    "CHD8": {
+      "gene": "CHD8",
+      "region": "chr14:21385194-21456126",
+      "depth": 48,
+      "avg_depth": 48.0,
+      "cnv_hint": "possible_duplication"
+    },
+    "PTEN": {
+      "gene": "PTEN",
+      "region": "chr10:87862638-87971930",
+      "depth": 52,
+      "avg_depth": 52.0,
+      "cnv_hint": "possible_duplication"
+    },
+    "C4A": {
+      "gene": "C4A",
+      "region": "chr6:31981991-32005247",
+      "depth": 12,
+      "avg_depth": 12.0,
+      "cnv_hint": "diploid_ok"
+    },
+    "DYRK1A": {
+      "gene": "DYRK1A",
+      "region": "chr21:37365573-37526358",
+      "depth": 49,
+      "avg_depth": 49.0,
+      "cnv_hint": "possible_duplication"
+    },
+    "AKAP11": {
+      "gene": "AKAP11",
+      "region": "chr13:42271470-42323283",
+      "depth": 48,
+      "avg_depth": 48.0,
+      "cnv_hint": "possible_duplication"
+    },
+    "KMT2D": {
+      "gene": "KMT2D",
+      "region": "chr12:49018975-49060794",
+      "depth": 39,
+      "avg_depth": 39.0,
+      "cnv_hint": "diploid_ok"
+    },
+    "BCL11B": {
+      "gene": "BCL11B",
+      "region": "chr14:99169287-99272197",
+      "depth": 39,
+      "avg_depth": 39.0,
+      "cnv_hint": "diploid_ok"
+    }
+  },
+  "proxy": {
+    "CHD8": {
+      "gene": "CHD8",
+      "rsid": "rs10122956",
+      "genotype": "GG",
+      "notes": "ensembl; depth=36,avg=36.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "PTEN": {
+      "gene": "PTEN",
+      "rsid": "rs701848",
+      "genotype": "CC",
+      "notes": "ncbi; depth=32,avg=32.0; gt=1/1",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "KMT2D": {
+      "gene": "KMT2D",
+      "rsid": "rs772057441",
+      "genotype": "AA",
+      "notes": "ncbi; depth=29,avg=29.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "KCNN2": {
+      "gene": "KCNN2",
+      "rsid": "rs6480535",
+      "genotype": "TT",
+      "notes": "ncbi; depth=45,avg=45.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "GRIA2": {
+      "gene": "GRIA2",
+      "rsid": "rs13182811",
+      "genotype": "CC",
+      "notes": "ensembl; depth=37,avg=37.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "GRIN2B": {
+      "gene": "GRIN2B",
+      "rsid": "rs7301328",
+      "genotype": "GC",
+      "notes": "ncbi; depth=40,avg=40.0; gt=0/1",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "HCN1": {
+      "gene": "HCN1",
+      "rsid": "rs789088",
+      "genotype": "CC",
+      "notes": "ncbi; depth=62,avg=62.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "SLC12A5": {
+      "gene": "SLC12A5",
+      "rsid": "rs2885267",
+      "genotype": "AG",
+      "notes": "ncbi; depth=53,avg=53.0; gt=0/1",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "UBE3A": {
+      "gene": "UBE3A",
+      "rsid": "rs1807588",
+      "genotype": "AG",
+      "notes": "ncbi; depth=33,avg=33.0; gt=0/1",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "MICA": {
+      "gene": "MICA",
+      "rsid": "rs2596542",
+      "genotype": "CC",
+      "notes": "ncbi; depth=1,avg=1.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "DHFR": {
+      "gene": "DHFR",
+      "rsid": "rs1650699",
+      "genotype": "TT",
+      "notes": "ncbi; depth=49,avg=49.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "ANK2": {
+      "gene": "ANK2",
+      "rsid": "rs1939197",
+      "genotype": "AA",
+      "notes": "ensembl; depth=20,avg=20.0; gt=0/0",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    },
+    "AKAP11": {
+      "gene": "AKAP11",
+      "rsid": "rs10936545",
+      "genotype": "TT",
+      "notes": "ncbi; depth=69,avg=69.0; gt=1/1",
+      "confidence": "high",
+      "source": "bam+gene_proxy"
+    }
+  },
+  "nsun6": null
+}

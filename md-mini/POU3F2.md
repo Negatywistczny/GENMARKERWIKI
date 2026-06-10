@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje nadrzędny czynnik transkrypcyjny (BRN2), który decyduje o tożsamości komórkowej, różnicowaniu i migracji neuronów projekcyjnych wyższych warstw kory nowej (warstwy II-IV). Kontroluje również prawidłowy rozwój jąder neurosekrecyjnych podwzgórza, regulując ekspresję setek genów odpowiedzialnych za formowanie synaps.
 
-* **Mój genotyp (WGS):**
-  * `rs1015362` — **CT** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs1015362**
 

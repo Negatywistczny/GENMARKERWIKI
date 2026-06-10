@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** BCL11B to nadrzędny regulator epigenetyczny i czynnik transkrypcyjny kontrolujący różnicowanie, rozwój aksonów i podtrzymanie tożsamości neuronów projekcyjnych głębokich warstw kory mózgowej (warstwa V – wysyłająca połączenia korowo-rdzeniowe) oraz jądra półleżącego. Jest również absolutnie niezbędny do prawidłowego rozwoju limfocytów T w układzie odpornościowym.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **BCL11B — warianty**
 

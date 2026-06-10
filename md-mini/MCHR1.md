@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Receptor sprzężony z białkiem G (Gi/o lub Gq), wykazujący silną ekspresję w podwzgórzu, ciele migdałowatym i jądrze półleżącym. Układ MCH promuje przyjmowanie pokarmów (oreksygenny) oraz inicjację i podtrzymanie snu REM. Moduluje zachowania lękowe, łącząc homeostazę energetyczną z przetwarzaniem emocjonalnym.
 
-* **Mój genotyp (WGS):**
-  * `rs13306893` — **TC** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs13306893**
 

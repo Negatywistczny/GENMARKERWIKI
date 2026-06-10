@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Białko zlokalizowane w centrosomach i ciałkach podstawowych rzęsek komórkowych (cilia). Rzęski pierwotne na neuronach działają jak "antenki" odbierające sygnały neurotroficzne oraz metaboliczne (np. sygnał leptyny w podwzgórzu). ALMS1 kontroluje transport wewnątrzrzęskowy (IFT) oraz endocytozę receptorów.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **ALMS1 — warianty**
 

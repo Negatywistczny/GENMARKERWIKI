@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen systemowego markeru neuro-stresu i depresji opornej
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs1205 / rs1800947
+* **Główny rsID / wariant:** rs1205
 * **Lokalizacja chromosomalna:** Chromosom 1 (1q23.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** CRP to klasyczne białko ostrej fazy, syntezowane w hepatocytach pod wpływem stymulacji przez IL-6. Choć jego produkcja zachodzi głównie obwodowo, przewlekle podwyższone poziomy CRP uszkadzają komórki śródbłonka bariery krew-mózg (BBB), zwiększając jej przepuszczalność dla toksyn oraz upośledzając transport kluczowych aminokwasów do mózgu.
-
-* **Mój genotyp (WGS):**
-  * `rs1205` — **CT** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs1205**

@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Enzym ten podmienia guaninę w pozycji 34 (antykodon) wybranych tRNA na unikalną zasadę azotową – queuine (pochodzącą wyłącznie z diety i mikrobiomu jelitowego). Modyfikacja ta optymalizuje prędkość translacji oraz precyzyjnie reguluje ekspresję genów odpowiedzialnych za homeostazę neurotransmiterów monoaminowych (dopamina, serotonina).
 
-* **Mój genotyp (WGS):**
-  * `rs2290432` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs2290432**
 

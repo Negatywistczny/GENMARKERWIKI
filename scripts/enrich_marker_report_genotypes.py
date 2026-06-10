@@ -105,6 +105,7 @@ def load_rsid_genotypes() -> dict[str, dict]:
         "pharmaco_genotypes.csv",
         "neurodev_wiki_genotypes.csv",
         "missing_sec4_genotypes.csv",
+        "missing_mini_bam_genotypes.csv",
         "vntr_genotypes.csv",
         "marker_report_genotypes.csv",
     ):
@@ -215,27 +216,73 @@ def match_profile(section: str, rsid: str, genotype: str) -> str | None:
     return None
 
 
-def build_wgs_block(gene: str, section: str, rsid_gt: dict[str, dict], gene_vars: dict[str, list[dict]]) -> list[str]:
+def bam_proxy_variants(gene: str, bam_hit: dict | None, rsid_gt: dict[str, dict]) -> list[dict]:
+    """Proxy tag-SNP z BAM gdy rsID w sekcji raportu jest nieaktualny lub brak."""
+    if not bam_hit:
+        return []
+    primary = bam_hit.get("PRIMARY_RSID", "").strip()
+    gt = bam_hit.get("GENOTYPE", "").strip().upper()
+    if not primary.lower().startswith("rs") or gt in SKIP_GT:
+        return []
+    info = rsid_gt.get(primary.lower(), {})
+    return [
+        {
+            "rsid": primary,
+            "genotype": gt,
+            "source": bam_hit.get("SOURCE", "ensembl+bam"),
+            "confidence": info.get("confidence", ""),
+            "notes": bam_hit.get("NOTES", info.get("notes", "")),
+        }
+    ]
+
+
+def build_wgs_block(
+    gene: str,
+    section: str,
+    rsid_gt: dict[str, dict],
+    gene_vars: dict[str, list[dict]],
+    *,
+    bam_hit: dict | None = None,
+) -> list[str]:
     lines: list[str] = []
     g = canonical_gene(gene)
+    proxies = bam_proxy_variants(g, bam_hit, rsid_gt)
 
     if g.startswith("HLA"):
+        if proxies:
+            lines.append(WGS_MARKER)
+            for v in proxies:
+                rs = v["rsid"].lower()
+                info = rsid_gt.get(rs, v)
+                lines.append(f"  - {format_gt_entry(v['rsid'], info)}")
+            lines.append(
+                "  - (OptiType niedostepny; proxy tag-SNP — nie pelne typowanie alleli HLA)"
+            )
+            return lines
         return [WGS_MARKER, f"  {HLA_NOTE}"]
 
     if g in VNTR_GENES:
         lines.append(WGS_MARKER)
         lines.append(f"  {VNTR_GENES[g]}")
-        for v in gene_vars.get(g, []):
+        variants = list(gene_vars.get(g, [])) or proxies
+        for v in variants:
             rs = v["rsid"].lower()
             info = rsid_gt.get(rs, v)
             lines.append(f"  - {format_gt_entry(v['rsid'], info)}")
-        if not gene_vars.get(g):
+        if not variants:
             lines.append("  - brak proxy SNP w panelu ADHD/WGS")
         return lines
 
     rsids = extract_rsids_from_section(section)
+    if proxies:
+        proxy_rs = proxies[0]["rsid"].lower()
+        if proxy_rs not in rsids:
+            rsids = [proxy_rs] + rsids
     if not rsids:
-        return [WGS_MARKER, f"  {DENOVO_NOTE}"]
+        if proxies:
+            rsids = [proxies[0]["rsid"].lower()]
+        else:
+            return [WGS_MARKER, f"  {DENOVO_NOTE}"]
 
     entries: list[str] = []
     matched_profile: str | None = None
@@ -298,7 +345,15 @@ def dedupe_headers(text: str) -> str:
     return re.sub(r"^(### [^\n]+)\n\1\n", r"\1\n", text, flags=re.M)
 
 
-def enrich_section(gene: str, body: str, rsid_gt: dict, gene_vars: dict, *, force: bool = False) -> str:
+def enrich_section(
+    gene: str,
+    body: str,
+    rsid_gt: dict,
+    gene_vars: dict,
+    *,
+    force: bool = False,
+    bam_hit: dict | None = None,
+) -> str:
     lines = body.splitlines()
     if not force and section_has_wgs(lines):
         return body
@@ -327,7 +382,7 @@ def enrich_section(gene: str, body: str, rsid_gt: dict, gene_vars: dict, *, forc
             cleaned.append(ln)
         lines = cleaned
 
-    wgs_lines = build_wgs_block(gene, body, rsid_gt, gene_vars)
+    wgs_lines = build_wgs_block(gene, body, rsid_gt, gene_vars, bam_hit=bam_hit)
     idx = find_insert_index(lines)
     new_lines = lines[:idx] + [""] + wgs_lines + [""] + lines[idx:]
     return "\n".join(new_lines).rstrip() + "\n"

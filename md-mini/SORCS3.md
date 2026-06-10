@@ -4,16 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen handlu receptorami, top-hit GWAS depresji, ADHD i ChAD
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs10881512 / rs2051515
+* **Główny rsID / wariant:** rs10881512
 * **Lokalizacja chromosomalna:** Chromosom 10 (10q25.1)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje receptor transportu wewnątrzkomórkowego (sortylinę), wykazujący potężną ekspresję w hipokampie i korze nowej. Odpowiada za endocytozę, prawidłowe kierowanie (trafficking) i recykling postsynaptycznych receptorów AMPA i NMDA oraz neurotrofiny BDNF. Jest krytycznym moderatorem wygaszania synaptycznego (LTD).
-
-* **Mój genotyp (WGS):**
-  * `rs10881512` — **CT** (ensembl+bam, high) — marker_report
-  * `rs139885610` — **GG** (ensembl, high) — ensembl; depth=35,avg=35.0; gt=0/0
-  * `rs56163402` — **GG** (ensembl, high) — ensembl; depth=28,avg=28.0; gt=1/1
 
 ### 4. Tabela Wariantów
 **rs10881512**
@@ -21,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **C/C** | Prawidłowy recykling receptorów | positive | Stabilne zarządzanie gęstością postsynaptyczną. Sprawny transport BDNF, wysoka neuroprotekcja komórkowa i doskonała zdolność adaptacji poznawczej (cognitive flexibility). |
-| **C/G** | Wariant standardowy | neutral | Prawidłowy, populacyjny profil transportu pęcherzykowego w neuronach. |
+| **★ C/G** | Wariant standardowy | neutral | Prawidłowy, populacyjny profil transportu pęcherzykowego w neuronach. |
 | **G/G** | Niska ekspresja SORCS3 | negative | Upośledzenie recyklingu receptorów AMPA oraz deficyty w dystrybucji BDNF. W międzynarodowych megabadaniach genomicznych wariant ten stanowi jeden z najsilniejszych, powtarzalnych sygnałów ryzyka dla **ciężkiej depresji (MDD), ADHD, choroby afektywnej dwubiegunowej** oraz przyspieszonego starzenia poznawczego. |

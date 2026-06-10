@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje receptor sprzężony z białkiem Gi, który pełni funkcję hamującego autoreceptora presynaptycznego. Lokalizuje się w terminalach aksonalnych (szczególnie w prążkowiu i korze czołowej). Jego aktywacja ogranicza dalszy wyrzut serotoniny, bezpośrednio regulując hamowanie behawioralne, poziom agresji oraz tolerancję na frustrację.
 
-* **Mój genotyp (WGS):**
-  * `rs6296` — **CC** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=0/0
-  * `rs6297` — **TT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=1/1
-
 ### 4. Tabela Wariantów
 **rs6296**
 

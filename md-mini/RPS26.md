@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Składnik małej podjednostki 40S rybosomu. RPS26 pełni kluczową funkcję regulacyjną – decyduje o tzw. "preferencjach translacyjnych" rybosomu. Pod wpływem stresu komórkowego rybosomy zawierające RPS26 selektywnie promują translację mRNA kodujących białka punktów kontrolnych i odpowiedzi zapalnej, blokując standardową syntezę białek housekeepingowych.
 
-* **Mój genotyp (WGS):**
-  * `rs11171739` — **CT** (ensembl+bam, high) — marker_report
-  * `rs3760707` — **TT** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=0/0
-
 ### 4. Tabela Wariantów
 **rs11171739**
 

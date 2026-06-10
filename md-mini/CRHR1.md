@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen osi stresu, receptor CRF-1
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs11078013 / rs2425512 (silnie sprzężone z megablokiem inwersyjnym H1/H2 na 17q21.31)
+* **Główny rsID / wariant:** rs11078013
 * **Lokalizacja chromosomalna:** Chromosom 17 (17q21.31)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** CRHR1 to główny receptor pośredniczący w odpowiedzi na stres w ośrodkowym układzie nerwowym (oś podwzgórze-przysadka-nadnercza - HPA). Aktywacja tego receptora przez CRH reguluje stany lękowe, czujność, reakcje emocjonalne oraz wchodzi w bezpośrednią interakcję funkcjonalną z cytoszkieletem aksonalnym sąsiadującego białka tau.
-
-* **Mój genotyp (WGS):**
-  * `rs11078013` — **GG** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs11078013**

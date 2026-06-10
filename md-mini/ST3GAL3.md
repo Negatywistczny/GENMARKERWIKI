@@ -4,17 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen sialilacji receptorów, gen niesyndromowej niepełnosprawności intelektualnej
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** Mutacje typu utraty funkcji (LoF) / rs1138844
+* **Główny rsID / wariant:** rs1138844
 * **Lokalizacja chromosomalna:** Chromosom 1 (1p34.1)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje enzym rezydujący w aparacie Golgiego, który dołącza kwas sialowy do końców łańcuchów oligosacharydowych na glikoproteinach i glikolipidach błonowych. Sialilacja decyduje o prawidłowym ustrukturyzowaniu i działaniu cząsteczek adhezyjnych (NCAM1) oraz receptorów neuroprzekaźników, warunkując ich stabilność w synapsie.
 
-* **Mój genotyp (WGS):**
-  * `rs1138844` — **TT** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
-**ST3GAL3 — warianty**
+**rs1138844**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

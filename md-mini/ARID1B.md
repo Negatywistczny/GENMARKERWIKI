@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** ARID1B jest kluczowym komponentem zależnego od ATP kompleksu remodelowania chromatyny SWI/SNF (BAF). Działa jako regulator epigenetyczny, kontrolując dostęp czynników transkrypcyjnych do promotorów tysięcy genów zaangażowanych w neurogenezę, proliferację komórek macierzystych mózgu i powstawanie ciała modzelowatego.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **ARID1B — warianty**
 

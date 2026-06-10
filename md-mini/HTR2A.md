@@ -4,18 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen neuroplastyczności, cel psychodelików i atypowych neuroleptyków
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs6311 (-1438G/A w promotorze) lub rs6313
+* **Główny rsID / wariant:** rs6311
 * **Lokalizacja chromosomalna:** Chromosom 13 (13q14.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Główny pobudzeniowy receptor serotoninowy w korze mózgowej. Reguluje uwalnianie glutaminianu i dopaminy, moduluje percepcję, wyobraźnię, lęk oraz procesy głębokiej przebudowy synaptycznej (neuroplastyczności).
 
-* **Mój genotyp (WGS):**
-  * `rs6311` — **CT** (ensembl, high) — ensembl; depth=68,avg=68.0; gt=0/1
-  * `rs6313` — **GA** (ensembl, high) — ensembl; depth=69,avg=69.0; gt=0/1
-
 ### 4. Tabela Wariantów
-**rs6311 (-1438G**
+**rs6311**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

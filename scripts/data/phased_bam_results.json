@@ -1,0 +1,91 @@
+{
+  "gene_hits": {
+    "MAPT": {
+      "gene": "MAPT",
+      "rsid": "rs1800547",
+      "genotype": "AA",
+      "notes": "ncbi; depth=32,avg=32.0; gt=0/0",
+      "confidence": "high",
+      "phase": "A"
+    },
+    "AKT3": {
+      "gene": "AKT3",
+      "rsid": "rs4599042",
+      "genotype": "CC",
+      "notes": "ncbi; depth=34,avg=34.0; gt=0/0",
+      "confidence": "high",
+      "phase": "A"
+    },
+    "C1R": {
+      "gene": "C1R",
+      "rsid": "rs1806698",
+      "genotype": "GG",
+      "notes": "ensembl; depth=15,avg=15.0; gt=0/0",
+      "confidence": "high",
+      "phase": "A"
+    },
+    "SHISA9": {
+      "gene": "SHISA9",
+      "rsid": "rs1006737",
+      "genotype": "GG",
+      "notes": "ncbi; depth=53,avg=53.0; gt=0/0",
+      "confidence": "high",
+      "phase": "A"
+    },
+    "SLC6A3": {
+      "gene": "SLC6A3",
+      "rsid": "rs27072",
+      "genotype": "CC",
+      "notes": "ncbi; depth=22,avg=22.0; gt=0/0",
+      "confidence": "high",
+      "phase": "B"
+    },
+    "DRD4": {
+      "gene": "DRD4",
+      "rsid": "rs1800955",
+      "genotype": "TT",
+      "notes": "ensembl; depth=6,avg=6.0; gt=0/0",
+      "confidence": "high",
+      "phase": "B"
+    },
+    "C4A": {
+      "gene": "C4A",
+      "rsid": "rs1137101",
+      "genotype": "AG",
+      "notes": "ncbi; depth=48,avg=48.0; gt=0/1",
+      "confidence": "high",
+      "phase": "D"
+    },
+    "PTEN": {
+      "gene": "PTEN",
+      "rsid": "rs701848",
+      "genotype": "CC",
+      "notes": "ncbi; depth=32,avg=32.0; gt=1/1",
+      "confidence": "high",
+      "phase": "D"
+    },
+    "UBE3A": {
+      "gene": "UBE3A",
+      "rsid": "rs1807588",
+      "genotype": "AG",
+      "notes": "ncbi; depth=33,avg=33.0; gt=0/1",
+      "confidence": "high",
+      "phase": "D"
+    }
+  },
+  "hla": {
+    "status": "no_hla_tool",
+    "tools": {
+      "optitype": false,
+      "arcasHLA": false,
+      "samtools": true
+    },
+    "note": "Zainstaluj OptiType (pip) lub arcasHLA; wymaga BAM + hg38 + ~8GB RAM"
+  },
+  "expansion_hunter": {
+    "status": "skipped",
+    "note": "ExpansionHunter niedostępny; użyto proxy SNP (Faza B)"
+  },
+  "total_rsids_queried": 28,
+  "genes_resolved": 9
+}

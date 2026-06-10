@@ -10,11 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje transporter NET, usuwający noradrenaline (oraz częściowo dopaminę w korze przedczołowej) ze szczeliny synaptycznej. Kluczowy dla regulacji czuwania, skupienia oraz reakcji autonomicznych.
 
-* **Mój genotyp (WGS):**
-  * `rs5569` — **AA** (ensembl, high) — ensembl; depth=48,avg=48.0; gt=1/1
-  * `rs3785157` — **TT** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
-* **Dopasowany profil:** Genotyp A/A (Wysoka wydajność NET)
-
 ### 4. Tabela Wariantów
 **rs5569**
 

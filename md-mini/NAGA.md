@@ -4,17 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen choroby Schindlera, enzym lizosomalnego regresu mowy
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** Mutacje utraty funkcji (LoF) / rs1051513
+* **Główny rsID / wariant:** rs1051513
 * **Lokalizacja chromosomalna:** Chromosom 22 (22q13.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje enzym lizosomalny, który rozszczepia reszty alfa-N-acetylogalaktozaminy z glikoprotein i glikolipidów. Jest niezbędny do stałego klirensu i recyklingu złożonych cząsteczek błonowych w neuronach.
 
-* **Mój genotyp (WGS):**
-  * `rs1051513` — **CC** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
-**NAGA — warianty**
+**rs1051513**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

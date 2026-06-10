@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen przełącznika apoptozy i plastyczności, główny punkt uchwytu litu
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs3025366 / rs334558
+* **Główny rsID / wariant:** rs3025366
 * **Lokalizacja chromosomalna:** Chromosom 3 (3q13.33)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Kinaza serynowo-treoninowa zaangażowana w kaskady sygnałowe szlaku Wnt/beta-kateniny oraz PI3K/Akt. Reguluje polaryzację neuronów, stabilność mikrotubul (fosforyluje białko tau) oraz przeżywalność komórek. Nadaktywność GSK3B promuje apoptozę i niszczenie synaps; lit hamuje jej działanie.
-
-* **Mój genotyp (WGS):**
-  * `rs3025366` — **CC** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs3025366**

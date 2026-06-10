@@ -4,20 +4,17 @@
 * **Nazwy potoczne i medialne:** Gen rusztowania synaptycznego, strukturalny gen neurorozwojowy
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** Mutacje punktowe *de novo*, mikrodelecje lub warianty typu utraty funkcji (LoF)
+* **Główny rsID / wariant:** rs1939197
 * **Lokalizacja chromosomalna:** Chromosom 4 (4q25-q27)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** ANK2 koduje ankirynę-B – białko strukturalne, które kotwiczy integralne białka błonowe (kanały jonowe, transportery, cząsteczki adhezyjne) w cytoszkieleletu aktynowo-spektrynowym. Odgrywa krytyczną rolę w organizacji synaps, morfogenezie dendrytów oraz aksonalnym transporcie pęcherzyków synaptycznych.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
-**ANK2 — warianty**
+**rs1939197**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| — | Brak mutacji patogennych | positive | Prawidłowa gęstość i stabilna architektura połączeń synaptycznych. Wydajny transport pęcherzyków wzdłuż aksonów, optymalna plastyczność neuronalna i zrównoważony rozwój sieci korowych. |
-| — | Łagodne | neutral | Subtelne zmiany w wydajności zakotwiczenia kanałów jonowych. Mogą prowadzić do nieznacznych wahań w przewodnictwie synaptycznym lub podatności na przeciążenia sensoryczne w niesprzyjających warunkach środowiskowych. |
-| — | Loss of Function / De novo | negative | Drastyczne zaburzenie rozwoju wypustek neuronalnych. Prowadzi do patologicznej hiperłączności (hyperconnectivity) w lokalnych sieciach mózgowych, manifestując się klinicznie jako fenotyp ASD z wyraźnym opóźnieniem rozwoju mowy i dysfunkcjami integracji bodźców. |
+| **★ A/A** | Brak mutacji patogennych | positive | Prawidłowa gęstość i stabilna architektura połączeń synaptycznych. Wydajny transport pęcherzyków wzdłuż aksonów, optymalna plastyczność neuronalna i zrównoważony rozwój sieci korowych. |
+| **A/G** | Łagodne | neutral | Subtelne zmiany w wydajności zakotwiczenia kanałów jonowych. Mogą prowadzić do nieznacznych wahań w przewodnictwie synaptycznym lub podatności na przeciążenia sensoryczne w niesprzyjających warunkach środowiskowych. |
+| **G/G** | Loss of Function / De novo | negative | Drastyczne zaburzenie rozwoju wypustek neuronalnych. Prowadzi do patologicznej hiperłączności (hyperconnectivity) w lokalnych sieciach mózgowych, manifestując się klinicznie jako fenotyp ASD z wyraźnym opóźnieniem rozwoju mowy i dysfunkcjami integracji bodźców. |

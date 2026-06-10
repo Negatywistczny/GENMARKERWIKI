@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen neurotoksyczności, generator kwasu chinolinowego
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs2275163 / rs10532
+* **Główny rsID / wariant:** rs2275163
 * **Lokalizacja chromosomalna:** Chromosom 1 (1q43.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** KMO przekształca kynureninę w 3-hydroksykynureninę (3-HK), co prowadzi bezpośrednio do powstawania kwasu chinolinowego (QUIN) – silnego agonisty receptorów NMDA, który w wysokich stężeniach indukuje napływ wapnia i śmierć ekscytotoksyczną neuronów.
-
-* **Mój genotyp (WGS):**
-  * `rs2275163` — **CT** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs2275163**

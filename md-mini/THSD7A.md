@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** THSD7A to wielko-cząsteczkowe białko błonowe zaangażowane w adhezję komórkową, naprowadzanie aksonów i synaptogenezę. Jest krytyczne dla fizycznego stabilizowania i "kotwiczenia" nowo powstałych połączeń synaptycznych w fazie intensywnej przebudowy kory mózgowej.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **THSD7A — warianty**
 

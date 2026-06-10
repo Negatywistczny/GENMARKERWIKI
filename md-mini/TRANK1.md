@@ -10,14 +10,11 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** TRANK1 wykazuje silną ekspresję w OUN pod wpływem leków normotymicznych (litu i walproinianów). Choć dokładny mechanizm białka jest wciąż badany, jest ono kluczowym modulatorem ekspresji genów zapalnych oraz stabilizatorem cytoszkieletu w stanach stresu komórkowego.
 
-* **Mój genotyp (WGS):**
-  * `rs9834970` — NOT_IN_DBSNP
-
 ### 4. Tabela Wariantów
 **rs9834970**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **T/T** | Wariant referencyjny | positive | Standardowa ekspresja genu. Prawidłowa odporność komórkowa na bodźce destabilizujące neurochemię. |
+| **★ T/T** | Wariant referencyjny | positive | Standardowa ekspresja genu. Prawidłowa odporność komórkowa na bodźce destabilizujące neurochemię. |
 | **C/T** | Pośredni | neutral | Średnia wrażliwość na czynniki normotymiczne; standardowy profil odpowiedzi populacyjnej. |
 | **C/C** | Najsilniejszy sygnał GWAS dla ChAD | negative | Wyraźne zaburzenie ekspresji genu. Powoduje potężną podatność na rozwój choroby afektywnej dwubiegunowej. Co krytyczne: obecność tego wariantu ryzyka paradoxalnie koreluje z **doskonałą, natychmiastową odpowiedzią terapeutyczną na lit** (pacjenci typu *excellent lithium responders*). |

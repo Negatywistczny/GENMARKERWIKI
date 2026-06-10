@@ -4,19 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen układu endokanabinoidowego, receptor CB1, modulator wygaszania lęku
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs2020720 / rs6454674
+* **Główny rsID / wariant:** rs2023239
 * **Lokalizacja chromosomalna:** Chromosom 6 (6q15)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** CB1 to jeden z najliczniejszych receptorów sprzężonych z białkiem G (Gi/o) w mózgu. Działa presynaptycznie – jego aktywacja przez endokanabinoidy (anandamid, 2-AG) hamuje wstecznie uwalnianie innych neurotransmiterów (GABA lub glutaminianu). Reguluje plastyczność synaptyczną, odczuwanie bólu, apetyt oraz wygaszanie negatywnych wspomnień lękowych.
 
-* **Mój genotyp (WGS):**
-  * `rs2020720` — NOT_IN_DBSNP
-  * `rs2023239` — **TT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=0/0
-  * `rs806368` — **TC** (ensembl, high) — ensembl; depth=43,avg=43.0; gt=0/1
-
 ### 4. Tabela Wariantów
-**rs2020720**
+**rs2023239**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

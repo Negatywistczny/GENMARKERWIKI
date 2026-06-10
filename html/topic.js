@@ -26,7 +26,16 @@
       .replace(/"/g, "&quot;");
   }
 
+  function parseProfileTone(value) {
+    const tone = String(value || "").trim().toLowerCase();
+    return tone === "positive" || tone === "negative" || tone === "neutral" ? tone : "";
+  }
+
   function variantTone(symbol, block) {
+    const fromBlock = parseProfileTone(block.tone);
+    if (fromBlock) {
+      return fromBlock;
+    }
     return window.fixedVariantTone
       ? window.fixedVariantTone(symbol, block.heading, block.genotype)
       : "neutral";
@@ -38,6 +47,7 @@
       headline: block.headline || fallbackHeadline || "",
       text: block.text || "",
       genotype: block.genotype || "",
+      tone: block.tone || "",
     };
   }
 
@@ -117,9 +127,16 @@
     const symbolHtml = `<strong class="topic-gene-symbol">${escapeHtml(symbol)}</strong>`;
     let geneTop = symbolHtml;
     if (entry && hasGeneCard(symbol)) {
-      geneTop += `<a class="topic-gene-card-link gene-card gene-card--${entry.tone}" href="gene.html?gene=${encodeURIComponent(symbol)}" data-tone="${entry.tone}">
-        <span class="gene-card__icon" aria-hidden="true">${entry.icon}</span>
-        <span class="topic-gene-card-link__label">${escapeHtml(entry.label)}</span>
+      const isMini = genesWithMini.has(symbol);
+      const linkClass = isMini
+        ? `topic-gene-card-link topic-gene-card-link--icon-only gene-card gene-card--${entry.tone}`
+        : `topic-gene-card-link gene-card gene-card--${entry.tone}`;
+      const labelHtml = isMini
+        ? ""
+        : `<span class="topic-gene-card-link__label">${escapeHtml(entry.label)}</span>`;
+      const ariaLabel = isMini ? ` aria-label="${escapeHtml(entry.label)} — karta genu"` : "";
+      geneTop += `<a class="${linkClass}" href="gene.html?gene=${encodeURIComponent(symbol)}" data-tone="${entry.tone}"${ariaLabel}>
+        <span class="gene-card__icon" aria-hidden="true">${entry.icon}</span>${labelHtml}
       </a>`;
     }
     const roleHtml = role

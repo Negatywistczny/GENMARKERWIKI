@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen przekraczania linii pośrodkowej, architekt spoidła wielkiego
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs715 / Mutacje patogenne typu utraty funkcji
+* **Główny rsID / wariant:** rs715
 * **Lokalizacja chromosomalna:** Chromosom 18 (18q21.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Receptor dla netryny-1, kluczowy dla mechanizmu naprowadzania aksonów (axon guidance). Odpowiada za przyciąganie rosnących aksonów w kierunku linii pośrodkowej ciała, decydując o prawidłowym skrzyżowaniu dróg ruchowych (piramidowych) oraz uformowaniu spoidła wielkiego (ciała modzelowatego).
-
-* **Mój genotyp (WGS):**
-  * `rs715` — **TC** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs715**

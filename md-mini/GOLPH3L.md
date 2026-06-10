@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Rezyduje w trans-sieci aparatu Golgiego (TGN). Odpowiada za fizyczne formowanie pęcherzyków transportowych i sortowanie glikoproteidów kierowanych na powierzchnię neuronu – w tym cząsteczek adhezyjnych oraz receptorów synaptycznych.
 
-* **Mój genotyp (WGS):**
-  * `rs11660233` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs11660233**
 

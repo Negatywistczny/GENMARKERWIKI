@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje homeodomenowy czynnik transkrypcyjny zaangażowany we wczesne różnicowanie neuronów oraz strukturyzację przestrzenną międzymózgowia i podwzgórza. Decyduje o integralności sieci łączących jądra podstawne z korą.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **NKX2-4 — warianty**
 

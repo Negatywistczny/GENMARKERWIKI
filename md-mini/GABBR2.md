@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje podjednostkę heterodimerycznego receptora GABA-B. W przeciwieństwie do jonotropowego GABA-A, receptor GABA-B działa wolniej, lecz długofalowo – poprzez białka G (Gi/o) i aktywację kanałów potasowych GIRK. Wywołuje głęboką hiperpolaryzację, stabilizując błonę postsynaptyczną i zapobiegając uogólnionym wyładowaniom drgawkowym.
 
-* **Mój genotyp (WGS):**
-  * `rs1435252` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs1435252**
 

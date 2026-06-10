@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje receptor śródbłonkowy zaangażowany w angiogenezę i remodeling naczyń krwionośnych. Współpracuje z układem angiopoetyn, kontrolując fizyczną szczelność, stabilność strukturalną oraz odporność mechaniczną naczyń włosowatych tworzących barierę krew-mózg (BBB).
 
-* **Mój genotyp (WGS):**
-  * `rs2230026` — **AA** (ensembl+bam, high) — marker_report
-  * `rs2797285` — **GG** (ensembl, high) — ensembl; depth=39,avg=39.0; gt=1/1
-
 ### 4. Tabela Wariantów
 **rs2230026**
 

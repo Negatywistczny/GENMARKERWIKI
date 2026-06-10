@@ -4,17 +4,14 @@
 * **Nazwy potoczne i medialne:** Główny sygnał GWAS neurorozwoju, gen terminacji transkrypcji
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs1465223 (lub powiązane silne sygnały GWAS w locus 20p11.22)
+* **Główny rsID / wariant:** rs1465223
 * **Lokalizacja chromosomalna:** Chromosom 20 (20p11.22)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** XRN2 odpowiada za degradację RNA i prawidłową terminację transkrypcji realizowanej przez polimerazę RNA II (model "torpedy"). Odgrywa kluczową rolę w kontroli jakości RNA oraz usuwaniu wadliwych, niedokończonych transkryptów w komórkach progenitorowych mózgu.
 
-* **Mój genotyp (WGS):**
-  * `rs1465223` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
-**rs1465223 (lub powiązane silne sygnały GWAS w locus 20p11.22)**
+**rs1465223**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

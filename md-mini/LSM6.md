@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje składnik pierścienia Lsm (Like-Sm), który wiąże małe jądrowe RNA (snRNA) ułatwiając formowanie spliceosomu (prawidłowy splicing pre-mRNA). Uczestniczy także w procesie decappingu (usuwania czapeczki) i degradacji zużytych nici mRNA w cytoplazmie, kontrolując czas trwania sygnału transkrypcyjnego w synapsie.
 
-* **Mój genotyp (WGS):**
-  * `rs1051566` — **CC** (ensembl+bam, high) — marker_report
-  * `rs13107325` — **CT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=0/1
-
 ### 4. Tabela Wariantów
 **rs1051566**
 

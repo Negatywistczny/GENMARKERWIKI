@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen integracji synaptycznej, marker GWAS schizofrenii
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs11645009 / Rzadkie mutacje utraty funkcji (LoF)
+* **Główny rsID / wariant:** rs11645009
 * **Lokalizacja chromosomalna:** Chromosom 16 (16p13.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje podjednostkę GluN2A receptora NMDA. W miarę dojrzewania mózgu zastępuje ona podjednostkę GluN2B, co przyspiesza kinetykę deaktywacji kanału wapniowego, stabilizując dojrzałe synapsy i zamykając okresy krytyczne rozwoju.
-
-* **Mój genotyp (WGS):**
-  * `rs11645009` — **TT** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs11645009**

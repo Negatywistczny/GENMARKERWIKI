@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen podatności na ciężkie uzależnienia stymulujące
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs144754751 / rs6498305
+* **Główny rsID / wariant:** rs144754751
 * **Lokalizacja chromosomalna:** Chromosom 8 (8p21.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje podjednostkę receptorów nikotynowych $a2$, obecnych m.in. w interneuronach hamujących kory i prążkowia. Moduluje uwalnianie somatostatyny, GABA i dopaminy, pełniąc funkcję stabilizatora pętli sprzężenia zwrotnego w obwodach nagrody i kontroli impulsów.
-
-* **Mój genotyp (WGS):**
-  * `rs144754751` — **CC** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs144754751**

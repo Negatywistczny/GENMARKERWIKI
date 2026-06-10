@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje neurokan – proteoglikan siarczanu chondroityny, będący fundamentalnym składnikiem macierzy zewnątrzkomórkowej (ECM) w mózgu. Bierze udział w adhezji komórek, hamuje wzrost neurytów w dojrzałym mózgu (stabilizuje sieć), tworzy tzw. sieci perineuronalne (PNN) owijające neurony hamujące GABA.
 
-* **Mój genotyp (WGS):**
-  * `rs1064395` — **GG** (ensembl+bam, high) — marker_report
-* **Dopasowany profil:** Genotyp G/G (Wariant ryzyka afektywnego)
-
 ### 4. Tabela Wariantów
 **rs1064395**
 

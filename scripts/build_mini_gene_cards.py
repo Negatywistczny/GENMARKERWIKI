@@ -92,10 +92,25 @@ def rsid_from_wgs(wgs: str) -> str | None:
     return hits[0].lower() if hits else None
 
 
+def primary_wgs_rsid(wgs: str, wgs_rs: dict[str, str]) -> str | None:
+    """Pierwszy rsID z bloku WGS z poprawnym calliem nukleotydowym (nie NOT_IN_DBSNP)."""
+    for m in re.finditer(r"(rs\d+)", wgs or "", flags=re.I):
+        rs = m.group(1).lower()
+        gt = wgs_rs.get(rs, "")
+        if gt in SKIP_GT or "/" in gt or len(gt) != 2 or not gt.isalpha():
+            continue
+        return rs
+    return None
+
+
 def is_cnv_deletion_profile(title: str, short_desc: str, long_desc: str) -> bool:
     """Warianty strukturalne bez pojedynczego genotypu nukleotydowego."""
-    blob = f"{title} {short_desc} {long_desc}".lower()
-    return bool(re.search(r"\bcnv\b|delecj|rearanż", blob))
+    title_short = f"{title} {short_desc}".lower()
+    if re.search(r"\bcnv\b|delecj|rearanż", title_short):
+        return True
+    if re.search(r"\bdelecj\b|rearanż", long_desc.lower()):
+        return True
+    return False
 
 
 def parse_wgs_block(body: str) -> tuple[str, str | None]:
@@ -294,11 +309,12 @@ def alleles_equivalent(left: str, right: str) -> bool:
 
 def diploid_matches_strand(row_genotype: str, user_genotype: str) -> bool:
     row = norm_genotype(row_genotype)
-    user = user_genotype.upper().strip()
-    if "/" not in row or len(user) != 2 or "/" in user:
+    user = user_gt_to_slash(user_genotype)
+    if "/" not in row or "/" not in user:
         return False
+    u_a, u_b = user.split("/", 1)
     a, b = row.split("/", 1)
-    for left, right in ((user[0], user[1]), (user[1], user[0])):
+    for left, right in ((u_a, u_b), (u_b, u_a)):
         if alleles_equivalent(left, a) and alleles_equivalent(right, b):
             return True
         if alleles_equivalent(left, b) and alleles_equivalent(right, a):
@@ -313,6 +329,46 @@ def genotype_matches_user(row_genotype: str, user_genotype: str) -> bool:
     if row in genotype_variants(user_genotype):
         return True
     return diploid_matches_strand(row, user_genotype)
+
+
+def is_hom_wgs(user_genotype: str) -> bool:
+    u = user_genotype.upper().strip()
+    return len(u) == 2 and u[0] == u[1] and u.isalpha()
+
+
+def is_het_wgs(user_genotype: str) -> bool:
+    u = user_genotype.upper().strip()
+    return len(u) == 2 and u[0] != u[1] and u.isalpha()
+
+
+def user_gt_to_slash(user_genotype: str) -> str:
+    user = user_genotype.upper().strip()
+    if "/" in user:
+        return norm_genotype(user)
+    if len(user) == 2 and user.isalpha():
+        return norm_genotype(f"{user[0]}/{user[1]}")
+    return user
+
+
+def direct_diploid_match(row_genotype: str, user_genotype: str) -> bool:
+    row = norm_genotype(row_genotype)
+    user = user_gt_to_slash(user_genotype)
+    if not row or row in {"—", "-"} or "/" not in row:
+        return False
+    if "/" not in user:
+        return False
+    return user == row
+
+
+def het_row_indices(genotypes: list[str]) -> list[int]:
+    indices: list[int] = []
+    for i, gt in enumerate(genotypes):
+        if "/" not in gt:
+            continue
+        a, b = gt.split("/", 1)
+        if a != b:
+            indices.append(i)
+    return indices
 
 
 def matched_profile_score(title: str, short_desc: str, matched: str | None) -> int:
@@ -342,9 +398,20 @@ def user_profile_index(
 ) -> int | None:
     if not user_genotype or not ref or not alt or total < 1:
         return None
+    hom_user = is_hom_wgs(user_genotype)
+    het_user = is_het_wgs(user_genotype)
     for i in range(total):
         expected = genotype_from_alleles(ref, alt, i, total)
-        if genotype_matches_user(expected, user_genotype):
+        if "/" not in expected:
+            continue
+        exp_a, exp_b = expected.split("/", 1)
+        if hom_user and exp_a != exp_b:
+            continue
+        if het_user and exp_a == exp_b:
+            continue
+        if direct_diploid_match(expected, user_genotype):
+            return i
+        if het_user and diploid_matches_strand(expected, user_genotype):
             return i
     return None
 
@@ -360,19 +427,132 @@ def personal_row_score(
     total_profiles: int,
     ref: str | None,
     alt: str | None,
-    use_dbsnp_index: bool = True,
+    uses_report_alleles: bool = False,
+    tones: list[str] | None = None,
 ) -> int:
     score = matched_profile_score(title, short_desc, matched)
-    title_gt = genotype_from_title(title)
-    if user_genotype and title_gt and genotype_matches_user(title_gt, user_genotype):
-        score = max(score, 90)
-    if use_dbsnp_index:
-        expected_idx = user_profile_index(user_genotype, ref, alt, total_profiles)
-        if expected_idx is not None and row_index == expected_idx:
-            score = max(score, 85)
-    if user_genotype and genotype_matches_user(row_genotype, user_genotype):
-        score = max(score, 80)
+    expected_idx = (
+        user_profile_index(user_genotype, ref, alt, total_profiles)
+        if user_genotype and ref and alt
+        else None
+    )
+
+    row_parts = norm_genotype(row_genotype).split("/", 1)
+    row_is_hom = len(row_parts) == 2 and row_parts[0] == row_parts[1]
+
+    if user_genotype and row_genotype and row_genotype not in {"—", "-"}:
+        if uses_report_alleles:
+            if is_hom_wgs(user_genotype) and row_is_hom and direct_diploid_match(
+                row_genotype, user_genotype
+            ):
+                score = max(score, 100)
+            elif is_het_wgs(user_genotype) and not row_is_hom:
+                if direct_diploid_match(row_genotype, user_genotype):
+                    score = max(score, 100)
+                elif diploid_matches_strand(row_genotype, user_genotype):
+                    score = max(score, 92)
+        else:
+            title_gt = genotype_from_title(title)
+            if title_gt and genotype_matches_user(title_gt, user_genotype):
+                score = max(score, 90)
+            if direct_diploid_match(row_genotype, user_genotype):
+                score = max(score, 80)
+            elif is_hom_wgs(user_genotype) and row_is_hom and genotype_matches_user(
+                row_genotype, user_genotype
+            ):
+                score = max(score, 80)
+            elif is_het_wgs(user_genotype) and not row_is_hom and genotype_matches_user(
+                row_genotype, user_genotype
+            ):
+                score = max(score, 80)
+            if expected_idx is not None and row_index == expected_idx:
+                score = max(score, 85)
+
+    if uses_report_alleles and expected_idx is not None and ref and alt:
+        expected_gt = genotype_from_alleles(ref, alt, expected_idx, total_profiles)
+        exp_parts = norm_genotype(expected_gt).split("/", 1)
+        exp_is_hom = len(exp_parts) == 2 and exp_parts[0] == exp_parts[1]
+        if is_hom_wgs(user_genotype or "") and row_is_hom and exp_is_hom:
+            if norm_genotype(row_genotype) == norm_genotype(expected_gt):
+                score = max(score, 95)
+        elif is_het_wgs(user_genotype or "") and not row_is_hom and not exp_is_hom:
+            if norm_genotype(row_genotype) == norm_genotype(expected_gt):
+                score = max(score, 95)
+            elif diploid_matches_strand(row_genotype, expected_gt):
+                score = max(score, 93)
+
+    if (
+        uses_report_alleles
+        and expected_idx is not None
+        and row_index == expected_idx
+        and tones
+        and expected_idx < len(tones)
+        and row_index < len(tones)
+        and tones[row_index] == tones[expected_idx]
+    ):
+        if is_hom_wgs(user_genotype or "") or (
+            is_het_wgs(user_genotype or "") and expected_idx == 1
+        ):
+            score = max(score, 88)
+
     return score
+
+
+def personal_row_fallback_score(
+    row_index: int,
+    row_genotype: str,
+    user_genotype: str | None,
+    *,
+    all_genotypes: list[str],
+    expected_idx: int | None,
+    tones: list[str] | None,
+) -> int:
+    if not user_genotype:
+        return 0
+    het_rows = het_row_indices(all_genotypes)
+    hom_rows = [
+        i
+        for i, gt in enumerate(all_genotypes)
+        if "/" in gt and gt.split("/", 1)[0] == gt.split("/", 1)[1]
+    ]
+    if is_het_wgs(user_genotype) and len(het_rows) == 1 and row_index == het_rows[0]:
+        return 86
+    if is_hom_wgs(user_genotype) and expected_idx is not None and row_index == expected_idx:
+        return 84
+    if (
+        is_hom_wgs(user_genotype)
+        and expected_idx is not None
+        and tones
+        and expected_idx < len(tones)
+        and row_index < len(tones)
+        and tones[row_index] == tones[expected_idx]
+        and row_genotype in {"—", "-"}
+    ):
+        return 82
+    if (
+        is_hom_wgs(user_genotype)
+        and len(hom_rows) == 2
+        and expected_idx is not None
+        and row_index == hom_rows[0]
+        and expected_idx == 0
+    ):
+        return 81
+    if (
+        is_hom_wgs(user_genotype)
+        and all(gt in {"—", "-"} for gt in all_genotypes)
+        and row_index == 0
+        and tones
+        and tones[0] == "positive"
+    ):
+        return 80
+    if (
+        is_het_wgs(user_genotype)
+        and expected_idx is None
+        and het_rows
+        and row_index == het_rows[0]
+    ):
+        return 85
+    return 0
 
 
 def user_genotype_for_rsid(
@@ -405,8 +585,16 @@ def format_genotype_cell(genotype: str, star: str) -> str:
 # Ręczna kolorystyka profili minikart (edytuj tutaj, potem uruchom build_mini_gene_cards.py).
 # Klucz: SYMBOL_GENU -> lista tonów w kolejności wierszy tabeli (positive | neutral | negative).
 MANUAL_PROFILE_TONES: dict[str, list[str]] = {
-    # Przykład — dopisz lub nadpisz per gen:
-    # "HTR1B": ["positive", "neutral", "negative"],
+    "GRM5": ["positive", "neutral", "neutral"],
+    "AKAP11": ["positive", "neutral", "neutral"],
+    "PTEN": ["positive", "neutral", "neutral"],
+    "RIMS1": ["positive", "neutral", "neutral"],
+    "UBE3A": ["positive", "neutral", "negative"],
+}
+
+# Gdy myvariant zwraca A/T, a call z BAM/Ensembl to G/G (wieloalleliczny A/G/T).
+ALLELE_OVERRIDES: dict[str, tuple[str, str]] = {
+    "rs2797285": ("G", "A"),
 }
 
 
@@ -436,9 +624,31 @@ def build_card(
     meta = parse_metadata(body)
     wgs, matched = parse_wgs_block(body)
     profiles = parse_profiles(body)
-    rsid_key = primary_rsid(meta.get("rsid", "")) or rsid_from_wgs(wgs)
-    ref, alt = allele_info_for_rsid(rsid_key, allele_cache)
     wgs_rs_early = parse_wgs_rs_genotypes(wgs)
+    meta_rs = primary_rsid(meta.get("rsid", ""))
+    wgs_primary = primary_wgs_rsid(wgs, wgs_rs_early)
+
+    def resolved_wgs_call(rsid: str | None) -> bool:
+        if not rsid:
+            return False
+        gt = wgs_rs_early.get(rsid.lower(), "")
+        return bool(
+            gt
+            and gt not in SKIP_GT
+            and "/" not in gt
+            and len(gt) == 2
+            and gt.isalpha()
+        )
+
+    if meta_rs and resolved_wgs_call(meta_rs):
+        rsid_key = meta_rs
+    elif wgs_primary:
+        rsid_key = wgs_primary
+    else:
+        rsid_key = meta_rs or rsid_from_wgs(wgs)
+    ref, alt = allele_info_for_rsid(rsid_key, allele_cache)
+    if rsid_key and rsid_key.lower() in ALLELE_OVERRIDES:
+        ref, alt = ALLELE_OVERRIDES[rsid_key.lower()]
     if not ref:
         for rs in re.findall(r"rs\d+", wgs or "", flags=re.I):
             ref2, alt2 = allele_info_for_rsid(rs.lower(), allele_cache)
@@ -465,7 +675,9 @@ def build_card(
     if not user_gt:
         user_gt = user_genotype_for_rsid(None, wgs_rs)
     total_profiles = len(profiles)
-    uses_report_alleles = any(genotype_from_title(t) for t, _ in profiles)
+    uses_report_alleles = any(genotype_from_title(t) for t, _ in profiles) or bool(
+        user_gt and len(user_gt) == 2 and user_gt.isalpha()
+    )
     built_rows: list[tuple[str, str, str, str, str]] = []
     for i, (title, desc) in enumerate(profiles):
         genotype, short_desc, long_desc = split_profile(title, desc)
@@ -500,6 +712,12 @@ def build_card(
         tone = tones[i] if i < len(tones) else "neutral"
         built_rows.append((title, short_desc, long_desc, genotype, tone))
 
+    all_genotypes = [row[3] for row in built_rows]
+    expected_idx = (
+        user_profile_index(user_gt, ref, alt, total_profiles)
+        if user_gt and ref and alt
+        else None
+    )
     personal_idx = -1
     personal_best = 0
     for i, (title, short_desc, _long, genotype, _tone) in enumerate(built_rows):
@@ -513,7 +731,19 @@ def build_card(
             total_profiles=total_profiles,
             ref=ref,
             alt=alt,
-            use_dbsnp_index=not uses_report_alleles,
+            uses_report_alleles=uses_report_alleles,
+            tones=tones,
+        )
+        score = max(
+            score,
+            personal_row_fallback_score(
+                i,
+                genotype,
+                user_gt,
+                all_genotypes=all_genotypes,
+                expected_idx=expected_idx,
+                tones=tones,
+            ),
         )
         if score > personal_best:
             personal_best = score
@@ -530,16 +760,14 @@ def build_card(
             "| **—** | Profil populacyjny | neutral | Brak szczegółowej tabeli wariantów w raporcie źródłowym. |"
         )
 
-    wgs_section = ""
-    if wgs:
-        wgs_bullets = "\n".join(
-            f"  * {ln.strip().lstrip('-* ').strip()}" for ln in wgs.splitlines() if ln.strip()
-        )
-        wgs_section = f"\n* **Mój genotyp (WGS):**\n{wgs_bullets}\n"
-        if matched:
-            wgs_section += f"* **Dopasowany profil:** {matched}\n"
+    display_rsid = rsid
+    primary = primary_rsid(rsid)
+    if primary and re.search(r"rs\d+", rsid, re.I):
+        display_rsid = primary
+    if rsid_key and rsid_key.startswith("rs") and not resolved_wgs_call(primary_rsid(rsid or "")):
+        display_rsid = rsid_key
 
-    rsid_label = rsid.split("/")[0].strip()
+    rsid_label = display_rsid.split("/")[0].strip()
     if rsid_label.startswith("rs"):
         table_title = f"**{rsid_label}**"
     else:
@@ -551,12 +779,12 @@ def build_card(
 * **Nazwy potoczne i medialne:** {aliases}
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** {rsid}
+* **Główny rsID / wariant:** {display_rsid}
 * **Lokalizacja chromosomalna:** {location}
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** {role}
-{wgs_section}
+
 ### 4. Tabela Wariantów
 {table_title}
 
@@ -575,10 +803,6 @@ def collect_mini_rsids(sections: list[tuple[str, str]], existing: set[str]) -> s
         rs = primary_rsid(meta.get("rsid", ""))
         if rs:
             rsids.add(rs)
-        wgs, _ = parse_wgs_block(body)
-        rsids.update(parse_wgs_rs_genotypes(wgs).keys())
-        for rs in re.findall(r"rs\d+", wgs or "", flags=re.I):
-            rsids.add(rs.lower())
     return rsids
 
 
@@ -610,7 +834,7 @@ def main() -> int:
     js_lines.append("")
     OUT_JS.write_text("\n".join(js_lines), encoding="utf-8")
 
-    print(f"[done] {len(mini_genes)} minikart → {OUT_DIR.name}/")
+    print(f"[done] {len(mini_genes)} minikart -> {OUT_DIR.name}/")
     print(f"[done] {OUT_JS.name}")
     return 0
 

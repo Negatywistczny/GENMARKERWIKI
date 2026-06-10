@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen ochrony przed nadmiernym przycinaniem synaps, top-hit GWAS schizofrenii
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs10503253 / rs2023306
+* **Główny rsID / wariant:** rs10503253
 * **Lokalizacja chromosomalna:** Chromosom 8 (8p23.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Olbrzymie białko błonowe wykazujące silną ekspresję w stożkach wzrostu aksonów i w synapsach. CSMD1 działa jako inhibitor kaskady dopełniacza – hamuje odkładanie się białek C3b i C4A na zdrowych połączeniach synaptycznych, chroniąc je przed niesłusznym "pożarciem" przez mikroglej.
-
-* **Mój genotyp (WGS):**
-  * `rs10503253` — **CC** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs10503253**

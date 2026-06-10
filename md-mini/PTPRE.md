@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Usuwa grupy fosforanowe z kluczowych białek sygnałowych. W mózgu działa jako negatywny regulator aktywności kinaz z rodziny Src, bezpośrednio tonizując i wygaszając nadmierną fosforylację postsynaptycznych receptorów NMDA oraz uczestnicząc w naprowadzaniu aksonów i mielinizacji.
 
-* **Mój genotyp (WGS):**
-  * `rs708453` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs708453**
 

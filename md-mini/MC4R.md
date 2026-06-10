@@ -4,15 +4,11 @@
 * **Nazwy potoczne i medialne:** Gen podwzgórzowej kontroli sytości, gen otyłości monogenowej
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs17782344 / Rzadkie mutacje typu utraty funkcji (LoF)
+* **Główny rsID / wariant:** rs17782344
 * **Lokalizacja chromosomalna:** Chromosom 18 (18q21.32)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Receptor sprzężony z białkiem Gs, zlokalizowany w jądrze przykomorowym podwzgórza. Jest kluczowym elementem osi leptynowo-melanokortynowej. Aktywacja MC4R przez alfa-MSH wysyła do kory mózgowej potężny, nadrzędny sygnał sytości oraz stymuluje obwodowy wydatek energetyczny.
-
-* **Mój genotyp (WGS):**
-  * `rs17782344` — **TT** (ensembl+bam, high) — marker_report
-* **Dopasowany profil:** Genotyp T/T (Typ dziki / Prawidłowa kontrola łaknienia)
 
 ### 4. Tabela Wariantów
 **rs17782344**

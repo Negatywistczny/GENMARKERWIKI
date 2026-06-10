@@ -10,15 +10,11 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje latrofilinę-3, receptor adhezyjny niezbędny do tworzenia, naprowadzania i strukturalnego dopasowania synaps w układzie dopaminergicznym (szczególnie na osi kora-prążkowie).
 
-* **Mój genotyp (WGS):**
-  * `rs6551665` — **GG** (ensembl, high) — ensembl; depth=43,avg=43.0; gt=0/0
-  * `rs1397547` — **CC** (ensembl, high) — ensembl; depth=40,avg=40.0; gt=1/1
-
 ### 4. Tabela Wariantów
 **rs6551665**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **T/T** | Typ dziki | positive | Stabilna architektura połączeń synaptycznych w prążkowiu. Prawidłowa kontrola impulsów i wysoka zdolność do podtrzymywania uwagi. |
+| **★ T/T** | Typ dziki | positive | Stabilna architektura połączeń synaptycznych w prążkowiu. Prawidłowa kontrola impulsów i wysoka zdolność do podtrzymywania uwagi. |
 | **C/T** | Ryzyko umiarkowane | neutral | Drobne wahania w gęstości synaptycznej; profil wykazuje wyższą zależność od stymulacji środowiskowej. |
-| **★ C/C** | Wariant wysokiego ryzyka | negative | Wyraźne zmniejszenie gęstości połączeń synaptycznych w rejonach przedczołowych. W badaniach genomicznych potężnie podwyższa ryzyko ciężkiego fenotypu ADHD, zachowań opozycyjno-buntowniczych (ODD) oraz skłonności do uzależnień. |
+| **C/C** | Wariant wysokiego ryzyka | negative | Wyraźne zmniejszenie gęstości połączeń synaptycznych w rejonach przedczołowych. W badaniach genomicznych potężnie podwyższa ryzyko ciężkiego fenotypu ADHD, zachowań opozycyjno-buntowniczych (ODD) oraz skłonności do uzależnień. |

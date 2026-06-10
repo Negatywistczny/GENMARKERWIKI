@@ -4,22 +4,17 @@
 * **Nazwy potoczne i medialne:** Receptor mGluR5, gen osi pobudzenia postsynaptycznego, molekularny klucz Zespołu Łamliwego X
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs2129571
+* **Główny rsID / wariant:** rs362990
 * **Lokalizacja chromosomalna:** Chromosom 11 (11q14.2-q14.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Receptor mGluR5 (sprzężony z białkiem Gq/11) jest zlokalizowany postsynaptycznie, głównie w gęstości postsynaptycznej (PSD). Jego aktywacja stymuluje fosfolipazę C, prowadząc do uwolnienia wapnia z zapasów wewnątrzkomórkowych i aktywacji lokalnej translacji białek synaptycznych. Jest nadrzędnym modulatorem długotrwałego osłabienia synaptycznego (LTD) oraz plastyczności synaps.
 
-* **Mój genotyp (WGS):**
-  * `rs2129571` — NOT_IN_DBSNP
-  * `rs362990` — **TT** (ensembl, high) — ensembl; depth=52,avg=52.0; gt=1/1
-  * `rs362584` — **AA** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
-
 ### 4. Tabela Wariantów
-**rs2129571**
+**rs362990**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **G/G** | Zbalansowana odpowiedź mGluR5 | positive | Optymalna plastyczność synaptyczna. Prawidłowy przebieg procesów LTD i LTP, wysoka zdolność adaptacji kognitywnej i prawidłowa synteza białek strukturalnych synaps. |
-| **G/A** | Umiarkowane przesunięcia ekspresji | neutral | Drobne różnice w prędkości adaptacji sensorycznej i podatności na zmęczenie poznawcze. |
-| **★ A/A** | Np. w zespole łamliwego X | negative | Brak hamowania translacji zależnej od mGluR5 (z powodu braku białka FMRP) prowadzi do permanentnej, chaotycznej nadekspresji białek synaptycznych i patologicznego wydłużenia kolców dendrytycznych. Skutkuje to drastyczną niepełnosprawnością intelektualną, ekstremalnym lękiem społecznym, lękiem przed kontaktem wzrokowym i głębokim fenotypem ASD. |
+| **A/A** | Zbalansowana odpowiedź mGluR5 | positive | Optymalna plastyczność synaptyczna. Prawidłowy przebieg procesów LTD i LTP, wysoka zdolność adaptacji kognitywnej i prawidłowa synteza białek strukturalnych synaps. |
+| **A/T** | Umiarkowane przesunięcia ekspresji | neutral | Drobne różnice w prędkości adaptacji sensorycznej i podatności na zmęczenie poznawcze. |
+| **★ T/T** | Homozygota alleliczna T | neutral | Typowy profil populacyjny mGluR5 przy homozygotii allelicznej T. Bez cech patologicznego rozprzężenia szlaku (patologiczna nadekspresja mGluR5 dotyczy głównie braku FMRP w zespole łamliwego X, nie tego tag-SNP). |

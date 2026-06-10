@@ -4,18 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen receptora TPO, regulator nisz komórek macierzystych mózgu
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rzadkie mutacje utraty funkcji / rs2228511
+* **Główny rsID / wariant:** rs139606423
 * **Lokalizacja chromosomalna:** Chromosom 1 (1p34.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Klasycznie znany jako receptor kontrolujący produkcję płytek krwi. Jednak najnowsze badania wykazują silną ekspresję MPL w komórkach macierzystych układu nerwowego (NSCs). Sygnalizacja TPO/MPL utrzymuje komórki progenitorowe mózgu w stanie spoczynku (quiescence), chroniąc nisze neurogenne przed przedwczesnym wyczerpaniem.
 
-* **Mój genotyp (WGS):**
-  * `rs2228511` — NOT_IN_DBSNP
-  * `rs139606423` — **CC** (ensembl, high) — ensembl; depth=59,avg=59.0; gt=0/0
-
 ### 4. Tabela Wariantów
-**MPL — warianty**
+**rs139606423**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

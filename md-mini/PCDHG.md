@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Gigantyczny klaster kodujący homofilowe cząsteczki adhezji komórkowej. Protokadheryny gamma tworzą na powierzchni każdego neuronu unikalny "kod kreskowy". Umożliwia to proces samo-unikania (ang. *self-avoidance*): dendryty tego samego neuronu odpychają się, co wymusza ich prawidłowe, szerokie rozprzestrzenienie przestrzenne bez tworzenia pętli autozapętleń. Klaster decyduje też o selektywnym tworzeniu synaps z innymi komórkami.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **PCDHG — warianty**
 

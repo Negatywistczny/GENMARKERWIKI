@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Eksport profili osobistych (★ w md/*.md) do html/personal-gene-profiles.js."""
+"""Eksport profili osobistych (★ w md/*.md i md-mini/*.md) do html/personal-gene-profiles.js."""
 
 from __future__ import annotations
 
@@ -8,6 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MD_DIR = ROOT / "md"
+MD_MINI_DIR = ROOT / "md-mini"
 OUT = ROOT / "html" / "personal-gene-profiles.js"
 SKIP = {"UNIWERSALNY_SZABLON_MARKERA.md"}
 STAR = "★"
@@ -53,9 +54,17 @@ def parse_sections(text: str) -> dict[int, str]:
     return {n: "\n".join(lines).strip() for n, lines in parts.items()}
 
 
+def parse_tone_cell(value: str) -> str:
+    tone = strip_md(value).lower()
+    if tone in ("positive", "neutral", "negative"):
+        return tone
+    return ""
+
+
 def parse_personal_rows(sec4: str) -> list[dict]:
     rows: list[dict] = []
     current_heading = ""
+    tone_idx: int | None = None
     for line in sec4.splitlines():
         stripped = line.strip()
         if stripped and not stripped.startswith("|") and not stripped.startswith("###"):
@@ -65,7 +74,15 @@ def parse_personal_rows(sec4: str) -> list[dict]:
         if not line.startswith("|") or ":---" in line:
             continue
         raw = [c.strip() for c in line.split("|")[1:-1]]
-        if len(raw) < 3 or raw[0].lower().startswith("genotyp"):
+        if len(raw) < 3:
+            continue
+        if raw[0].lower().startswith("genotyp"):
+            tone_idx = next(
+                (i for i, h in enumerate(raw) if strip_md(h).lower() == "ton"),
+                None,
+            )
+            if tone_idx is None and len(raw) >= 4:
+                tone_idx = 2
             continue
         if STAR not in raw[0]:
             continue
@@ -73,6 +90,7 @@ def parse_personal_rows(sec4: str) -> list[dict]:
         genotype = strip_md(raw[0].split("(")[0]).strip("* ")
         activity = strip_md(raw[1]) if len(raw) > 1 else ""
         impact = strip_md(raw[-1])
+        tone = parse_tone_cell(raw[tone_idx]) if tone_idx is not None and tone_idx < len(raw) else ""
         rows.append(
             {
                 "genotype": genotype,
@@ -80,6 +98,7 @@ def parse_personal_rows(sec4: str) -> list[dict]:
                 "activity": activity,
                 "impact": impact,
                 "heading": current_heading,
+                "tone": tone,
             }
         )
     return rows
@@ -114,12 +133,15 @@ def variant_headline(row: dict) -> str:
 
 def variant_entry(row: dict, text: str) -> dict:
     snippet = text[:420] + ("…" if len(text) > 420 else "")
-    return {
+    entry: dict = {
         "headline": variant_headline(row),
         "text": snippet,
         "heading": row.get("heading", ""),
         "genotype": row.get("genotype_cell") or row.get("genotype", ""),
     }
+    if row.get("tone"):
+        entry["tone"] = row["tone"]
+    return entry
 
 
 def match_row_for_label(rows: list[dict], label: str) -> dict | None:
@@ -133,11 +155,36 @@ def match_row_for_label(rows: list[dict], label: str) -> dict | None:
     return None
 
 
+CLINICAL_ADVICE_LABELS = frozenset({
+    "suplementacja",
+    "farmakologia",
+    "diagnostyka",
+    "rehabilitacja",
+    "genetyka rodzinna",
+    "ostrzeżenie kliniczne",
+})
+
+
+def is_gene_level_advice(label: str) -> bool:
+    return label.strip().lower() in CLINICAL_ADVICE_LABELS
+
+
+def is_reference_profile(row: dict) -> bool:
+    blob = f"{row.get('activity', '')} {row.get('impact', '')}".lower()
+    if row.get("tone") == "positive":
+        return True
+    return any(
+        w in blob
+        for w in ("norma", "prawidłow", "prawidlow", "normotyp", "typ dziki", "referencyj")
+    )
+
+
 def pick_topic_variants(
     topic_id: str, rows: list[dict], bullets: list[tuple[str, str]]
 ) -> list[dict]:
     seen: set[tuple[str, str]] = set()
     out: list[dict] = []
+    primary = rows[0] if rows else None
 
     def add(row: dict, text: str) -> None:
         key = (row.get("heading", ""), row.get("genotype_cell") or row.get("genotype", ""))
@@ -152,6 +199,8 @@ def pick_topic_variants(
             add(row, text)
 
     for label, body in bullets:
+        if primary and is_gene_level_advice(label) and is_reference_profile(primary):
+            continue
         combined = f"{label}: {body}" if label else body
         sc = score_text(combined, topic_id)
         if label and score_text(label, topic_id) > 0:
@@ -164,10 +213,13 @@ def pick_topic_variants(
 
 
 def tone_ctx(row: dict) -> dict:
-    return {
+    ctx: dict = {
         "heading": row.get("heading", ""),
         "genotype": row.get("genotype_cell") or row.get("genotype", ""),
     }
+    if row.get("tone"):
+        ctx["tone"] = row["tone"]
+    return ctx
 
 
 def default_summary(rows: list[dict]) -> dict | None:
@@ -207,6 +259,29 @@ def js_key(key: str) -> str:
     return js_str(key)
 
 
+def profile_from_sections(sections: dict[int, str], *, bullets_section: int) -> dict | None:
+    rows = parse_personal_rows(sections.get(4, ""))
+    if not rows:
+        return None
+    bullets = extract_bullets(sections.get(bullets_section, ""))
+    default = default_summary(rows)
+    if not default:
+        return None
+    variants = [variant_entry(row, row["impact"]) for row in rows]
+    by_topic: dict[str, dict] = {}
+    for topic_id in TOPIC_KEYWORDS:
+        topic_variants = pick_topic_variants(topic_id, rows, bullets)
+        if topic_variants:
+            by_topic[topic_id] = {"variants": topic_variants}
+    return {
+        "headline": default["headline"],
+        "impact": default["impact"],
+        "toneCtx": tone_ctx(rows[0]),
+        "variants": variants,
+        "byTopic": by_topic,
+    }
+
+
 def build_profiles() -> dict[str, dict]:
     profiles: dict[str, dict] = {}
     for path in sorted(MD_DIR.glob("*.md")):
@@ -214,42 +289,42 @@ def build_profiles() -> dict[str, dict]:
             continue
         gene = path.stem.upper()
         sections = parse_sections(path.read_text(encoding="utf-8"))
-        rows = parse_personal_rows(sections.get(4, ""))
-        if not rows:
+        profile = profile_from_sections(sections, bullets_section=6)
+        if profile:
+            profiles[gene] = profile
+
+    for path in sorted(MD_MINI_DIR.glob("*.md")):
+        gene = path.stem.upper()
+        if gene in profiles:
             continue
-        bullets = extract_bullets(sections.get(6, ""))
-        default = default_summary(rows)
-        if not default:
-            continue
-        variants = [variant_entry(row, row["impact"]) for row in rows]
-        by_topic: dict[str, dict] = {}
-        for topic_id in TOPIC_KEYWORDS:
-            topic_variants = pick_topic_variants(topic_id, rows, bullets)
-            if topic_variants:
-                by_topic[topic_id] = {"variants": topic_variants}
-        profiles[gene] = {
-            "headline": default["headline"],
-            "impact": default["impact"],
-            "toneCtx": tone_ctx(rows[0]),
-            "variants": variants,
-            "byTopic": by_topic,
-        }
+        sections = parse_sections(path.read_text(encoding="utf-8"))
+        profile = profile_from_sections(sections, bullets_section=3)
+        if profile:
+            profiles[gene] = profile
+
     return profiles
 
 
 def js_tone_ctx(ctx: dict) -> str:
-    return (
-        f"{{ heading: {js_str(ctx.get('heading', ''))}, "
-        f"genotype: {js_str(ctx.get('genotype', ''))} }}"
-    )
+    parts = [
+        f"heading: {js_str(ctx.get('heading', ''))}",
+        f"genotype: {js_str(ctx.get('genotype', ''))}",
+    ]
+    if ctx.get("tone"):
+        parts.append(f"tone: {js_str(ctx['tone'])}")
+    return "{ " + ", ".join(parts) + " }"
 
 
 def js_variant_entry(entry: dict) -> str:
-    return (
-        f"{{ headline: {js_str(entry['headline'])}, text: {js_str(entry['text'])}, "
-        f"heading: {js_str(entry.get('heading', ''))}, "
-        f"genotype: {js_str(entry.get('genotype', ''))} }}"
-    )
+    parts = [
+        f"headline: {js_str(entry['headline'])}",
+        f"text: {js_str(entry['text'])}",
+        f"heading: {js_str(entry.get('heading', ''))}",
+        f"genotype: {js_str(entry.get('genotype', ''))}",
+    ]
+    if entry.get("tone"):
+        parts.append(f"tone: {js_str(entry['tone'])}")
+    return "{ " + ", ".join(parts) + " }"
 
 
 def js_by_topic_entry(entry: dict) -> str:
@@ -265,7 +340,7 @@ def js_by_topic_entry(entry: dict) -> str:
 
 def write_js(profiles: dict[str, dict]) -> None:
     lines = [
-        "/** Profil osobisty per gen — z wierszy ★ w md/*.md. Generowane: scripts/build_personal_gene_profiles_js.py */",
+        "/** Profil osobisty per gen — z wierszy ★ w md/*.md i md-mini/*.md. Generowane: scripts/build_personal_gene_profiles_js.py */",
         "window.PERSONAL_GENE_PROFILES = {",
     ]
     entries = []

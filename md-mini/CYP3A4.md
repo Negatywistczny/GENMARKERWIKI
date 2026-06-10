@@ -4,17 +4,14 @@
 * **Nazwy potoczne i medialne:** Główny enzym metabolizmu leków psychiatrycznych i kortyzolu
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** CYP3A4*22 (rs11568824 - niska aktywność) lub CYP3A4*1B (rs2740574 - wysoka aktywność)
+* **Główny rsID / wariant:** rs11568824
 * **Lokalizacja chromosomalna:** Chromosom 7 (7q22.1)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Najważniejszy enzym metabolizmu ksenobiotyków w organizmie ludzkim (wątroba, jelita). Odpowiada za biotransformację ponad 50% leków dostępnych na rynku, w tym neuroleptyków (kwetiapina, arypiprazol), antydepresantów (sertralina, citalopram), benzodiazepin oraz endogennych hormonów sterydowych (kortyzol, testosteron).
 
-* **Mój genotyp (WGS):**
-  * `rs11568824` — **CC** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
-**CYP3A4 — warianty**
+**rs11568824**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

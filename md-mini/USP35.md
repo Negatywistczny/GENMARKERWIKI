@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** USP35 to enzym deubikwitynujący (DUB), który usuwa łańcuchy ubikwityny z białek docelowych, chroniąc je przed zniszczeniem w proteasomach. W mózgu kontroluje czas życia i stabilność receptorów postsynaptycznych oraz kluczowych białek mitochondrialnych, zapobiegając ich przedwczesnej utylizacji.
 
-* **Mój genotyp (WGS):**
-  * `rs1014166` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs1014166**
 

@@ -4,17 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen szlaku transsulfuracji, gen homocystynurii
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** CBS C699T (rs234706), CBS T833C lub rzadkie mutacje patogenne
+* **Główny rsID / wariant:** rs234706
 * **Lokalizacja chromosomalna:** Chromosom 21 (21q22.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Przekształca homocysteinę w cystationinę przy użyciu witaminy B6 (PLP) jako kofaktora. Przekierowuje metabolizm z cyklu metylacji do szlaku transsulfuracji, co prowadzi do produkcji najsilniejszego endogennego antyoksydantu – glutationu – oraz tauryny.
 
-* **Mój genotyp (WGS):**
-  * `rs234706` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
-**CBS — warianty**
+**rs234706**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |

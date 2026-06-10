@@ -354,7 +354,7 @@ def load_existing_profiles_from_md() -> dict[str, dict]:
 
 def write_profiles(profiles: dict[str, dict]) -> None:
     lines = [
-        "/** Profil osobisty per gen — ★ z md/*.md + geny tematów bez kart (build_topic_gene_profiles.py). */",
+        "/** Profil osobisty per gen — ★ z md/*.md i md-mini/*.md (build_personal_gene_profiles_js.py). */",
         "window.PERSONAL_GENE_PROFILES = {",
     ]
     entries = []
@@ -367,11 +367,16 @@ def write_profiles(profiles: dict[str, dict]) -> None:
         topics_block = f"{{ {topics} }}" if topics else "{}"
         variants_js = ", ".join(js_variant_entry(v) for v in p.get("variants", []))
         tone = p.get("toneCtx") or {}
+        tone_ctx_parts = [
+            f"heading: {js_str(tone.get('heading', ''))}",
+            f"genotype: {js_str(tone.get('genotype', ''))}",
+        ]
+        if tone.get("tone"):
+            tone_ctx_parts.append(f"tone: {js_str(tone['tone'])}")
         entries.append(
             f"  {js_key(gene)}: {{ headline: {js_str(p['headline'])}, "
             f"impact: {js_str(p['impact'])}, "
-            f"toneCtx: {{ heading: {js_str(tone.get('heading', ''))}, "
-            f"genotype: {js_str(tone.get('genotype', ''))} }}, "
+            f"toneCtx: {{ {', '.join(tone_ctx_parts)} }}, "
             f"variants: [{variants_js}], byTopic: {topics_block} }}"
         )
     lines.append(",\n".join(entries))
@@ -381,11 +386,15 @@ def write_profiles(profiles: dict[str, dict]) -> None:
 
 
 def js_variant_entry(entry: dict) -> str:
-    return (
-        f"{{ headline: {js_str(entry['headline'])}, text: {js_str(entry['text'])}, "
-        f"heading: {js_str(entry.get('heading', ''))}, "
-        f"genotype: {js_str(entry.get('genotype', ''))} }}"
-    )
+    parts = [
+        f"headline: {js_str(entry['headline'])}",
+        f"text: {js_str(entry['text'])}",
+        f"heading: {js_str(entry.get('heading', ''))}",
+        f"genotype: {js_str(entry.get('genotype', ''))}",
+    ]
+    if entry.get("tone"):
+        parts.append(f"tone: {js_str(entry['tone'])}")
+    return "{ " + ", ".join(parts) + " }"
 
 
 def js_by_topic_entry(entry: dict) -> str:
@@ -413,9 +422,9 @@ def write_report(
         "",
         f"Geny na stronach tematów bez kart wiki: **{len(candidates)}**",
         f"Z callami WGS uzupełniono w `personal-gene-profiles.js`: **{len(added)}**",
-        f"Profile łącznie (tylko ★ z md/*.md): **{len(profiles)}**",
+        f"Profile łącznie (★ z md/*.md i md-mini/*.md): **{len(profiles)}**",
         "",
-        "_Geny tematów bez kart nie dostają treści z Bazy/WGS — unikamy generycznych opisów w kolumnie „U mnie”._",
+        "_Geny tematów bez kart i bez ★ w md-mini nie dostają treści z Bazy/WGS._",
         "",
         "## Uzupełnione geny (kolumna „U mnie” na topic.html)",
         "",
@@ -428,11 +437,7 @@ def write_report(
         )
         lines.append(f"- **{g}** — tematy: {tops}; {vars_txt}")
     lines.extend(["", "## Bez calla WGS (pozostają „—”)", ""])
-    no_wgs = []
-    for g in candidates:
-        if g in added:
-            continue
-        no_wgs.append(g)
+    no_wgs = [g for g in candidates if g not in added and g not in profiles]
     for g in sorted(no_wgs):
         tops = ", ".join(sorted(topics_by_gene.get(g, [])))
         lines.append(f"- **{g}** ({tops})")
@@ -461,8 +466,9 @@ def main() -> None:
 
     write_profiles(profiles)
     write_report(profiles, added, candidates, wiki, topics_by_gene, gene_rows, baza, rsid_gt)
-    print(f"Profile łącznie: {len(profiles)} genów (tylko ★ z md/*.md)")
-    print(f"Pominięto geny tematów bez kart (brak ★): {len(candidates)}")
+    with_profile = len([g for g in candidates if g in profiles])
+    print(f"Profile lacznie: {len(profiles)} genow (md/ + md-mini/)")
+    print(f"Geny tematów z profilem: {with_profile}/{len(candidates)}")
 
 
 if __name__ == "__main__":

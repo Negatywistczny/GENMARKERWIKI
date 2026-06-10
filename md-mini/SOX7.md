@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** SOX7 moduluje szlaki sygnałowe Wnt/beta-kateniny oraz VEGF. Jest kluczowy dla prawidłowej angiogenezy w rozwijającym się przodomózgowiu, formowania szczelnej bariery krew-mózg oraz regulacji podziałów komórek macierzystych w niszach neurogennych.
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **SOX7 — warianty**
 

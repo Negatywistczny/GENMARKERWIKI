@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje białko, które moduluje aktywność czynników transkrypcyjnych w jądrze komórkowym. Działa jako inhibitor szlaku sygnałowego Wnt/beta-kateniny (kluczowego dla wczesnej polaryzacji mózgowia, wyznaczania osi przód-tył oraz proliferacji komórek glejowych).
 
-* **Mój genotyp (WGS):**
-  * `rs2280031` — **CC** (ensembl+bam, high) — marker_report
-  * `rs10246939` — **CC** (ensembl, high) — ensembl; depth=49,avg=49.0; gt=1/1
-
 ### 4. Tabela Wariantów
 **rs2280031**
 

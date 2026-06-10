@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Białko ZSWIM6 odgrywa fundamentalną rolę we wczesnym rozwoju układu nerwowego, w szczególności kontrolując morfogenezę aksonów, naprowadzanie neurytów (axon guidance) oraz prawidłowe formowanie struktur prążkowia (striatum).
 
-* **Mój genotyp (WGS):**
-  * Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
-
 ### 4. Tabela Wariantów
 **ZSWIM6 — warianty**
 

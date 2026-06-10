@@ -10,10 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Proteaza serynowa, która w mózgu odpowiada za enzymatyczne cięcie prekursora neurotrofiny (proBDNF) do jej dojrzałej, funkcjonalnej formy (**mBDNF**). Podczas gdy proBDNF promuje apoptozę i usuwanie synaps (poprzez receptor p75NTR), mBDNF stymuluje wzrost neuronów i LTP (poprzez receptor TrkB). Furin decyduje o tym krytycznym dla mózgu balansie.
 
-* **Mój genotyp (WGS):**
-  * `rs4702` — **GA** (ensembl+bam, high) — marker_report
-* **Dopasowany profil:** Genotyp A/G (Umiarkowany)
-
 ### 4. Tabela Wariantów
 **rs4702**
 

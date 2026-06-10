@@ -10,14 +10,11 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Artemina należy do rodziny czynników neurotroficznych GDNF (GFRa3/RET). Jest nadrzędnym czynnikiem warunkującym przeżywalność, wzrost i naprowadzanie aksonów neuronów czuciowych (nocyceptywnych) w zwojach korzeni grzbietowych oraz neuronów współczulnych, precyzyjnie kalibrując obwodowy próg bólu.
 
-* **Mój genotyp (WGS):**
-  * `rs2516480` — brak calla
-
 ### 4. Tabela Wariantów
 **rs2516480**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **C/C** | Prawidłowa trofika czuciowa | positive | Optymalna gęstość i prawidłowa struktura włókien nocyceptywnych. Zrównoważony, fizjologiczny próg odczuwania bólu i bodźców termicznych. |
+| **★ C/C** | Prawidłowa trofika czuciowa | positive | Optymalna gęstość i prawidłowa struktura włókien nocyceptywnych. Zrównoważony, fizjologiczny próg odczuwania bólu i bodźców termicznych. |
 | **C/A** | Umiarkowane | neutral | Standardowe różnice osobnicze w tolerancji na ból fizyczny i bodźce dotykowe. |
 | **A/A** | Niska ekspresja Arteminy | negative | Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. Skutkuje patologicznym obniżeniem progu bólu (allodynia, hiperalgezja) oraz ekstremalną tkliwością na dotyk (nadwrażliwość taktylna), będącą powszechnym komponentem dysfunkcji sensorycznych w ASD. |

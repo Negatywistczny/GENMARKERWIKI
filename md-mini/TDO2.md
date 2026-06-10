@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** TDO2 to drugi (obok IDO1) nadrzędny enzym inicjujący szlak kynureninowy. Kluczowa różnica polega na regulacji: podczas gdy IDO1 jest aktywowany przez cytokiny zapalne, **TDO2 reaguje bezpośrednio na glukokortykoidy (kortyzol)**. Odpowiada za masową degradację systemowego tryptofanu pod wpływem przewlekłego, psychologicznego stresu, uniemożliwiając jego wykorzystanie do produkcji serotoniny i melatoniny.
 
-* **Mój genotyp (WGS):**
-  * `rs1010816` — **TT** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs1010816**
 

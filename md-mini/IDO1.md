@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** IDO1 to enzym aktywowany przez cytokiny zapalne (głównie IFN-gamma, IL-6, TNF-alpha). Przekierowuje on metabolizm tryptofanu: zamiast do serotoniny i melatoniny, tryptofan jest masowo zużywany do produkcji neurotoksycznych metabolitów szlaku kynureninowego.
 
-* **Mój genotyp (WGS):**
-  * `rs9657182` — **TT** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs9657182**
 

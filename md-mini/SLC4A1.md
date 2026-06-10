@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Odpowiada za sprzężoną wymianę jonów chlorkowych (Cl⁻) na wodorowęglanowe (HCO₃⁻) przez błony komórkowe. W układzie nerwowym precyzyjnie kalibruje pH wewnątrzkomórkowe i zewnątrzkomórkowe. Zmiany pH rzędu ułamków jednostki drastycznie modyfikują przewodnictwo postsynaptycznych receptorów NMDA oraz czułość kanałów potasowych.
 
-* **Mój genotyp (WGS):**
-  * `rs2235081` — **GG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs2235081**
 

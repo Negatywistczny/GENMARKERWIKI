@@ -1237,6 +1237,11 @@ body.gene-page--mini .variants-layout {
   line-height: 1.3;
 }
 
+.topic-gene-card-link--icon-only {
+  padding: 0.35rem;
+  gap: 0;
+}
+
 .topic-gene-chip {
   display: inline-block;
   font-family: ui-monospace, "Cascadia Code", Menlo, monospace;

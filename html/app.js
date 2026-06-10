@@ -346,34 +346,11 @@ function parseManualTone(value) {
   return tone === "positive" || tone === "negative" || tone === "neutral" ? tone : "neutral";
 }
 
-function renderWgsCallout(markdownChunk) {
-  const lines = String(markdownChunk || "")
-    .split(/\r?\n/)
-    .map((line) => line.trim())
-    .filter(Boolean);
-  const items = lines
-    .filter((line) => /^[-*]/.test(line) || /`rs\d+/i.test(line))
-    .map((line) => stripMarkdown(line.replace(/^[-*]\s*/, "")))
-    .filter(Boolean);
-  if (!items.length) {
-    return window.marked ? window.marked.parse(markdownChunk) : markdownChunk;
-  }
-  return `<aside class="wgs-callout" aria-label="Mój genotyp WGS">
-    <p class="wgs-callout__title">Mój genotyp (WGS)</p>
-    <ul class="wgs-callout__list">${items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>
-  </aside>`;
-}
-
 function renderMechanismBody(markdownBody) {
   const marker = "* **Mój genotyp (WGS):**";
   const idx = markdownBody.indexOf(marker);
-  if (idx < 0) {
-    return window.marked ? window.marked.parse(markdownBody) : markdownBody;
-  }
-  const before = markdownBody.slice(0, idx).trim();
-  const wgsChunk = markdownBody.slice(idx).trim();
-  const mainHtml = before ? (window.marked ? window.marked.parse(before) : before) : "";
-  return `${mainHtml}${renderWgsCallout(wgsChunk)}`;
+  const body = idx >= 0 ? markdownBody.slice(0, idx).trim() : markdownBody;
+  return body ? (window.marked ? window.marked.parse(body) : body) : "";
 }
 
 function renderVariantTiles(table, context = {}) {

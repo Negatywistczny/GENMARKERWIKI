@@ -4,14 +4,11 @@
 * **Nazwy potoczne i medialne:** Główny gen Zespołu Niespokojnych Nóg
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs12469063 / rs2300478
+* **Główny rsID / wariant:** rs12469063
 * **Lokalizacja chromosomalna:** Chromosom 2 (2q14.2)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje czynnik transkrypcyjny z rodziny homeodomen TALE, zaangażowany we wczesną specyfikację przestrzenną struktur mózgowia, rozwój hematopoetyczny oraz homeostazę dopaminergiczną prążkowia. Reguluje gęstość receptorów dopaminy oraz metabolizm i wiązanie żelaza w strukturach podkorowych.
-
-* **Mój genotyp (WGS):**
-  * `rs12469063` — **AA** (ensembl+bam, high) — marker_report
 
 ### 4. Tabela Wariantów
 **rs12469063**

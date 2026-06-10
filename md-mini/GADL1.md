@@ -10,9 +10,6 @@
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje enzym odpowiedzialny za syntezę tauryny (kwasu 2-aminoetanosulfonowego) oraz beta-alaniny z aminokwasów kwasowych. Tauryna w mózgu działa jako nadrzędny agonista receptorów GABA-A i glicynowych, stabilizując tonus neuroelektryczny i chroniąc neurony przed ekscytotoksycznością glutaminianu.
 
-* **Mój genotyp (WGS):**
-  * `rs704180` — **AG** (ensembl+bam, high) — marker_report
-
 ### 4. Tabela Wariantów
 **rs704180**
 

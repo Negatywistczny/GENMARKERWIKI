@@ -9,7 +9,6 @@ Scalony kompendium genów bez pełnych kart w wiki — Każdy gen: trzy profile 
 ## CZĘŚĆ I. Neurorozwój syndromiczny, chromatyna i geny o wysokiej penetracji
 
 ### ANK2
-### ANK2
 
 * **Główny symbol genu:** ANK2
 * **Pełna nazwa biochemiczna:** Ankiryna 2 (ang. *Ankyrin 2*)
@@ -19,7 +18,11 @@ Scalony kompendium genów bez pełnych kart w wiki — Każdy gen: trzy profile 
 * **Rola biologiczna genu/białka:** ANK2 koduje ankirynę-B – białko strukturalne, które kotwiczy integralne białka błonowe (kanały jonowe, transportery, cząsteczki adhezyjne) w cytoszkieleletu aktynowo-spektrynowym. Odgrywa krytyczną rolę w organizacji synaps, morfogenezie dendrytów oraz aksonalnym transporcie pęcherzyków synaptycznych.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs1939197` — **AA** (ensembl+bam, high) — ensembl; depth=20,avg=20.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Brak mutacji patogennych)**
@@ -35,7 +38,6 @@ Drastyczne zaburzenie rozwoju wypustek neuronalnych. Prowadzi do patologicznej h
 
 ---
 ### ARID1B
-### ARID1B
 
 * **Główny symbol genu:** ARID1B
 * **Pełna nazwa biochemiczna:** Białko zawierające domenę wiążącą AT-bogaty region 1B (ang. *AT-rich interaction domain-containing protein 1B*)
@@ -46,6 +48,7 @@ Drastyczne zaburzenie rozwoju wypustek neuronalnych. Prowadzi do patologicznej h
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Brak mutacji patogennych)**
@@ -61,7 +64,6 @@ Spadek wydajności kompleksu SWI/SNF prowadzący do Zespołu Coffin-Siris lub ni
 
 ---
 ### CHD8
-### CHD8
 
 * **Główny symbol genu:** CHD8
 * **Pełna nazwa biochemiczna:** Białko helikazy chromodomenowej wiążące DNA 8 (ang. *Chromodomain helicase DNA-binding protein 8*)
@@ -71,7 +73,11 @@ Spadek wydajności kompleksu SWI/SNF prowadzący do Zespołu Coffin-Siris lub ni
 * **Rola biologiczna genu/białka:** CHD8 reguluje strukturę chromatyny poprzez ATP-zależną supresję lub aktywację szlaku sygnałowego Wnt/beta-kateniny. Jest nadrzędnym regulatorem proliferacji wczesnych progenitorów neuronów – decyduje o ostatecznej masie i objętości mózgowia.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs10122956` — **GG** (ensembl+bam, high) — ensembl; depth=36,avg=36.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Ekspresja zbalansowana)**
@@ -87,7 +93,6 @@ Klasyczny podtyp kliniczny CHD8-ASD. Przełamany hamulec proliferacji skutkuje w
 
 ---
 ### DYRK1A
-### DYRK1A
 
 * **Główny symbol genu:** DYRK1A
 * **Pełna nazwa biochemiczna:** Kinaza regulowana fosforylacją tyrozyny o podwójnej specyficzności 1A (ang. *Dual specificity tyrosine-phosphorylation-regulated kinase 1A*)
@@ -97,7 +102,9 @@ Klasyczny podtyp kliniczny CHD8-ASD. Przełamany hamulec proliferacji skutkuje w
 * **Rola biologiczna genu/białka:** DYRK1A fosforyluje kluczowe czynniki transkrypcyjne oraz białka cytoszkieletu. Kontroluje krytyczne przejście neuronów z fazy proliferacji komórkowej do fazy różnicowania (neurogeneza). Zarówno nadekspresja, jak i niedobór białka drastycznie zaburzają architekturę mózgu.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs8025580` — **AA** (ensembl+bam, high) — ensembl; depth=48,avg=48.0; gt=0/0; chr21 proxy
+
+
 
 
 **Typ Dziki (Zbalansowana ekspresja)**
@@ -113,7 +120,6 @@ Zespół niepełnosprawności intelektualnej związany z DYRK1A. Skutkuje cięż
 
 ---
 ### GRIN2B
-### GRIN2B
 
 * **Główny symbol genu:** GRIN2B
 * **Pełna nazwa biochemiczna:** Podjednostka 2B receptora glutaminianergicznego jonotropowego NMDA (ang. *Glutamate ionotropic receptor NMDA type subunit 2B*)
@@ -123,7 +129,11 @@ Zespół niepełnosprawności intelektualnej związany z DYRK1A. Skutkuje cięż
 * **Rola biologiczna genu/białka:** Koduje podjednostkę GluN2B receptora NMDA, kluczowego dla postsynaptycznego napływu jonów wapnia (Ca²⁺). Odpowiada za indukcję długotrwałego wzmocnienia synaptycznego (LTP), plastyczność rozwojową mózgu oraz funkcjonowanie pamięci roboczej.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs7301328` — **GC** (ensembl+bam, high) — ncbi; depth=40,avg=40.0; gt=0/1
+
+
+
+
 
 
 **Typ Dziki (Optymalna przewodność receptora)**
@@ -139,7 +149,6 @@ Encefalopatia neurorozwojowa GRIN2B. Powoduje drastyczne zaburzenie plastycznoś
 
 ---
 ### KMT2D
-### KMT2D
 
 * **Główny symbol genu:** KMT2D
 * **Pełna nazwa biochemiczna:** Metylotransferaza lizynowa 2D (ang. *Lysine methyltransferase 2D*)
@@ -149,7 +158,10 @@ Encefalopatia neurorozwojowa GRIN2B. Powoduje drastyczne zaburzenie plastycznoś
 * **Rola biologiczna genu/białka:** KMT2D odpowiada za mono-, di- i trimetylację lizyny 4 w histonie H3 (H3K4me1/2/3). Modyfikacja ta stanowi nadrzędny sygnał epigenetyczny do rozluźnienia struktury chromatyny (przejście w euchromatynę), co umożliwia aktywację transkrypcji genów kluczowych dla rozwoju twarzoczaszki, narządów wewnętrznych oraz neurogenezy w hipokampie.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs772057441` — **AA** (ensembl+bam, high) — ncbi; depth=29,avg=29.0; gt=0/0
+
+
+
 
 
 **Typ Dziki (Prawidłowa metylacja histonów)**
@@ -163,32 +175,34 @@ Zablokowanie otwierania chromatyny dla kluczowych genów rozwojowych. Skutkuje u
 
 ---
 ### PTEN
-### PTEN
 
 * **Główny symbol genu:** PTEN
 * **Pełna nazwa biochemiczna:** Homolog fosfatazy i tensyny (ang. *Phosphatase and tensin homolog*)
 * **Nazwy potoczne i medialne:** Gen Zespołu Cowdena, główny hamulec wzrostu komórkowego (szlak mTOR)
-* **Główny rsID / Wariant:** Mutacje typu utraty funkcji (*de novo* lub dziedziczne) o charakterze haploinsuficjencji
+* **Główny rsID / Wariant:** rs701848 (tag-SNP) / mutacje LoF PTEN (osobno, sekwencjonowanie)
 * **Lokalizacja chromosomalna:** Chromosom 10 (10q23.31)
 * **Rola biologiczna genu/białka:** PTEN to enzym działający jako jeden z najważniejszych supresorów nowotworowych w organizmie. Jest bezpośrednim negatywnym regulatorem szlaku PI3K/Akt/mTOR. Hamuje nadmierną proliferację, przerost somatyczny neuronów oraz patologiczne zagęszczenie wypustek synaptycznych.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs701848` — **CC** (ensembl+bam, high) — ncbi; depth=32,avg=32.0; gt=1/1
 
 
-**Typ Dziki (Pełna supresja szlaku mTOR)**
+
+
+
+
+**T/T (Typ referencyjny — pełna supresja mTOR)**
 Precyzyjnie kontrolowany metabolizm i wzrost komórkowy. Optymalna wielkość somatyczna neuronów, prawidłowa makrostruktura kory mózgowej i obwód głowy w normie.
 
-**Warianty populacyjne o obniżonej ekspresji**
-Subtelne przesunięcia w kinetyce szlaku mTOR. Mogą skutkować łagodną tendencją do wyższych percentyli wzrostu tkankowego lub przyspieszonego rozwoju fizycznego.
+**T/C (Wariant heterozygoticzny)**
+Subtelne przesunięcia w kinetyce szlaku mTOR. Mogą skutkować łagodną tendencją do wyższych percentyli wzrostu tkankowego.
 
-**Mutacja Patogenna (Heterozygota LoF / Zespół Cowdena / PHTS)**
-Całkowity brak kontroli nad szlakiem mTOR w mózgu. Prowadzi do ekstremalnego przerostu neuronów, makrocefalii (często >+3 SD), powstawania hamartomów i polipów w układzie pokarmowym oraz drastycznego ryzyka onkologicznego. U dzieci manifestuje się głębokim autyzmem makrocefalicznym i opóźnieniem psychoruchowym.
-
----
+**C/C (Homozygota alleliczna C)**
+Typowy profil populacyjny tag-SNP rs701848. Nie oznacza Zespołu Cowdena ani mutacji LoF — te wymagają osobnej analizy sekwencji/CNV.
 
 ---
-### TCF4
+
+---
 ### TCF4
 
 * **Główny symbol genu:** TCF4
@@ -200,6 +214,7 @@ Całkowity brak kontroli nad szlakiem mTOR w mózgu. Prowadzi do ekstremalnego p
 
 * **Mój genotyp (WGS):**
   `rs17597926` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Prawidłowa transkrypcja bHLH)**
@@ -215,34 +230,36 @@ Silnie powiązane genetycznie ze zmianami podatności na schizofrenię, manie or
 
 ---
 ### UBE3A
-### UBE3A
 
 * **Główny symbol genu:** UBE3A
 * **Pełna nazwa biochemiczna:** Ligaza białkowa ubikwityny E3A (ang. *Ubiquitin protein ligase E3A*)
 * **Nazwy potoczne i medialne:** Gen Zespołu Angelmana, gen piętnowania genomowego (imprinting)
-* **Główny rsID / Wariant:** Delecja regionu 15q11-q13, mutacje punktowe allelu matczynego lub disomia ojcowska
+* **Główny rsID / Wariant:** rs1807588 (tag-SNP) / delecje 15q11-q13, imprinting (osobno)
 * **Lokalizacja chromosomalna:** Chromosom 15 (15q11.2)
 * **Rola biologiczna genu/białka:** UBE3A koduje ligazę ubikwityny, która kieruje specyficzne białka (np. Arc – regulator receptorów AMPA) do degradacji w proteasomach. W neuronach ludzkiego mózgu ekspresji ulega *wyłącznie* kopia pochodząca od matki; kopia ojcowska jest całkowicie wyciszona epigenetycznie.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs1807588` — **AG** (ensembl+bam, high) — ncbi; depth=33,avg=33.0; gt=0/1
 
 
-**Prawidłowa Ekspresja Matczyna (Typ dziki)**
+
+
+
+
+**A/A (Typ referencyjny)**
 Optymalna utylizacja białek synaptycznych. Prawidłowa plastyczność, właściwe wygaszanie zbędnych impulsów elektrycznych i harmonijny rozwój psychoruchowy.
 
-**Nadekspresja Matczyna (np. Zespół duplikacji 15q11-q13 / Dup15q)**
-Nadmierna, patologiczna degradacja białek strukturalnych synaps. Powoduje ciężki fenotyp ASD, głęboką hipotonię mięśniową, opóźnienie rozwoju mowy oraz lekooporną padaczkę.
+**A/G (Wariant heterozygoticzny)**
+Standardowy profil populacyjny tag-SNP rs1807588. Nie oznacza duplikacji 15q11-q13 (Dup15q) — CNV wymaga osobnej analizy.
 
-**Utrata Kopii Matczynej (Delecja / Mutacja LoF / Disomia ojcowska)**
-**Zespół Angelmana**. Całkowity brak funkcjonalnego białka UBE3A w neuronach. Manifestuje się ciężką ataksją (nieskoordynowane ruchy marionetkowe), całkowitym brakiem mowy, charakterystycznymi napadami niekontrolowanego śmiechu i afektu radosnego oraz głęboką niepełnosprawnością intelektualną.
+**G/G (Homozygota alleliczna G)**
+Homozygota alleliczna G przy tag-SNP — typowy wariant populacyjny bez cech zespołu Angelmana (Angelmana wymaga utraty ekspresji matczynej UBE3A).
 
 ---
 
 ---
 
 ## CZĘŚĆ II. Szlaki monoaminergiczne — transportery i receptory
-### DRD4
 ### DRD4
 
 * **Główny symbol genu:** DRD4
@@ -257,12 +274,12 @@ Nadmierna, patologiczna degradacja białek strukturalnych synaps. Powoduje cię�
   - `rs1800955` — **TC** (ensembl, high) — ensembl; depth=6,avg=6.0; gt=0/1
   - `rs3758653` — **TT** (ensembl, high) — ensembl; depth=9,avg=9.0; gt=0/0
 
+
 * **Warianty Krótkie (np. 4R/4R - Typ dziki):** Prawidłowa czułość receptora na dopaminę. Stabilna samoregulacja, mniejsza potrzeba gratyfikacji zewnętrznej, wysoka efektywność uczenia się na błędach.
 * **Warianty Pośrednie (2R/4R lub 4R/7R):** Umiarkowana modyfikacja plastyczności behawioralnej. Wyraźna zależność profilu od bodźców środowiskowych (hipoteza podatności różnicowej).
 * **Wariant 7R/7R (Niska czułość receptora):** Tępa odpowiedź na dopaminę. Wymaga ekstremalnych stymulantów (sporty ekstremalne, hazard, wysokie ryzyko) do osiągnięcia satysfakcji. Silnie powiązany z ADHD, ale w wysoce wspierającym środowisku koreluje z wybitną kreatywnością i zdolnościami przywódczymi.
 
 ---
-### DRD5
 ### DRD5
 
 * **Główny symbol genu:** DRD5
@@ -276,6 +293,7 @@ Nadmierna, patologiczna degradacja białek strukturalnych synaps. Powoduje cię�
   Mikrosatelita promotorowa — brak VNTR w WGS; proxy SNP:
   - `rs1800762` — **CC** (ensembl, high) — ensembl; depth=55,avg=55.0; gt=0/0
   - `rs10033951` — **CT** (ensembl, high) — ensembl; depth=35,avg=35.0; gt=0/1
+
 
 
 **Warianty Standardowe (Brak alelu ryzyka)**
@@ -293,7 +311,6 @@ Powoduje zaburzenie gęstości ekspresji receptora D5 w strukturach przedczołow
 
 ---
 ### HTR1B
-### HTR1B
 
 * **Główny symbol genu:** HTR1B
 * **Pełna nazwa biochemiczna:** Receptor serotoninowy 1B (ang. *5-hydroxytryptamine receptor 1B*)
@@ -305,6 +322,7 @@ Powoduje zaburzenie gęstości ekspresji receptora D5 w strukturach przedczołow
 * **Mój genotyp (WGS):**
   - `rs6296` — **CC** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=0/0
   - `rs6297` — **TT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=1/1
+
 
 
 **Genotyp G/G (Wariant referencyjny / Stabilny)**
@@ -320,7 +338,6 @@ Zmieniona gęstość lub czułość receptorów, skutkująca rozregulowaniem pę
 
 ---
 ### HTR2A
-### HTR2A
 
 * **Główny symbol genu:** HTR2A
 * **Pełna nazwa biochemiczna:** Receptor serotoninowy 2A (ang. *5-hydroxytryptamine receptor 2A*)
@@ -333,6 +350,7 @@ Zmieniona gęstość lub czułość receptorów, skutkująca rozregulowaniem pę
   - `rs6311` — **CT** (ensembl, high) — ensembl; depth=68,avg=68.0; gt=0/1
   - `rs6313` — **GA** (ensembl, high) — ensembl; depth=69,avg=69.0; gt=0/1
 
+
 * **Genotyp G/G (Wariant A/A w starym nazewnictwie - Wysoka gęstość receptorów):** Zwiększona ekspresja HTR2A. Ekstremalna wrażliwość na bodźce emocjonalne i społeczne. Wysoka podatność na traumę, ale też doskonała odpowiedź na terapię i substancje modulujące ten receptor.
 * **Genotyp A/G (Ekspresja umiarkowana):** Zrównoważona gęstość receptorowa. Prawidłowe przetwarzanie afektu, stabilna odporność na zmienność środowiskową.
 * **Genotyp A/A (Wariant G/G w starym nazewnictwie - Niska gęstość receptorów):** Obniżona ekspresja receptora. Niższa reaktywność na stres psychologiczny, wysoka stabilność emocjonalna, lecz potencjalnie mniejsza elastyczność poznawcza i słabsza odpowiedź na klasyczne leki SSRI.
@@ -342,7 +360,6 @@ Zmieniona gęstość lub czułość receptorów, skutkująca rozregulowaniem pę
 ## BLOK 2: Układ Glutaminianergiczny i Plastyczność Synaptyczna
 
 ---
-### HTR4
 ### HTR4
 
 * **Główny symbol genu:** HTR4
@@ -358,6 +375,7 @@ Zmieniona gęstość lub czułość receptorów, skutkująca rozregulowaniem pę
   - `rs6440851` — **CC** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
 
 
+
 **Genotyp Wysokiej Aktywności (Prokognitywny / Rezylientny)**
 Wydajna stymulacja szlaku cAMP-BDNF. Przyspieszona konsolidacja śladów pamięciowych, wysoka plastyczność hipokampa, doskonała naturalna odpowiedź na klasyczne leki przeciwdepresyjne i odporność na anhedonię.
 
@@ -371,7 +389,6 @@ Obniżony potencjał aktywacji cAMP pod wpływem serotoniny. Skutkuje gorszą pa
 
 ---
 ### HTR6
-### HTR6
 
 * **Główny symbol genu:** HTR6
 * **Pełna nazwa biochemiczna:** Receptor serotoninowy 6 (ang. *5-hydroxytryptamine receptor 6*)
@@ -381,7 +398,12 @@ Obniżony potencjał aktywacji cAMP pod wpływem serotoniny. Skutkuje gorszą pa
 * **Rola biologiczna genu/białka:** Receptor postsynaptyczny sprzężony z białkiem Gs, stymulujący produkcję cAMP. Posiada unikalną, niemal wyłączną lokalizację w OUN (kora, hipokamp, jądra podstawne). Reguluje uwalnianie acetylocholiny i glutaminianu, wpływając bezpośrednio na plastyczność synaptyczną, pamięć roboczą i konsolidację śladów pamięciowych.
 
 * **Mój genotyp (WGS):**
-  `rs1131441` — NOT_IN_DBSNP
+  - `rs1131441` — NOT_IN_DBSNP
+  - `rs3813929` — **CC** (ensembl+bam, high) — ensembl; depth=20,avg=20.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Referencyjny (Optymalna gęstość receptorowa)**
@@ -397,7 +419,6 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 
 ---
 ### SLC6A2
-### SLC6A2
 
 * **Główny symbol genu:** SLC6A2
 * **Pełna nazwa biochemiczna:** Transporter noradrenaliny (ang. *Solute carrier family 6 member 2*)
@@ -411,12 +432,12 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
   - `rs3785157` — **TT** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
 * **Dopasowany profil:** Genotyp A/A (Wysoka wydajność NET):
 
+
 * **Genotyp A/A (Wysoka wydajność NET):** Szybki wychwyt zwrotny noradrenaliny. Stabilność emocjonalna, mniejsza reaktywność lękowa, ale w niesprzyjających warunkach ryzyko apatii lub trudności z podtrzymaniem uwagi.
 * **Genotyp A/G (Wydajność pośrednia):** Prawidłowa fizjologia przekaźnictwa noradrenergicznego. Optymalny balans pomiędzy czujnością a spokojem.
 * **Genotyp G/G (Niska wydajność NET):** Wolniejsze usuwanie noradrenaliny. Wyższa spoczynkowa czujność, lepsza koncentracja w warunkach wymagających presji, ale też obniżony próg lękowy i tendencja do somatyzacji stresu (kołatania serca, drżenie rąk).
 
 ---
-### SLC6A3
 ### SLC6A3
 
 * **Główny symbol genu:** SLC6A3
@@ -428,7 +449,11 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 
 * **Mój genotyp (WGS):**
   VNTR 40-bp (3'UTR, 9R/10R) — brak bezpośredniego calla w WGS; proxy SNP:
-  - brak proxy SNP w panelu ADHD/WGS
+  - `rs27072` — **CC** (ensembl+bam, high) — ncbi; depth=22,avg=22.0; gt=0/0
+
+
+
+
 
 * **9R/9R (Niska ekspresja DAT):** Wolniejszy wychwyt zwrotny. Wyższy podstawowy poziom dopaminy w synapsach prążkowia. Lepsza koncentracja i motywacja wewnętrzna, mniejsza impulsywność.
 * **9R/10R (Ekspresja umiarkowana):** Zrównoważona dynamika dopaminergiczna. Dobra elastyczność behawioralna, optymalne zarządzanie układem nagrody.
@@ -437,7 +462,6 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 ---
 
 ## CZĘŚĆ III. Glutaminian, GABA i plastyczność synaptyczna
-### GABBR2
 ### GABBR2
 
 * **Główny symbol genu:** GABBR2
@@ -450,6 +474,7 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 * **Mój genotyp (WGS):**
   `rs1435252` — **GG** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Referencyjny (Wysoka sprawność hamowania wolnego):** Stabilna kontrola pobudliwości sieciowej. Doskonała zdolność do relaksacji układu nerwowego, prawidłowa jakość snu głębokiego (wolnofalowego), wysoka odporność na lęk napadowy.
 * **Genotyp Pośredni (Heterozygota):** Standardowe, populacyjne parametry kinetyki hamowania metabotropowego.
 * **Genotyp Niskiej Aktywności / Mutacje Patogenne:** Niewydolność długofalowego hamowania. Układ nerwowy nie potrafi utrzymać stanu wyciszenia. Skutkuje to permanentnym napięciem psychoruchowym, ciężką bezsennością, skłonnością do mioklonii i padaczki, a także koreluje ze sztywnością poznawczą i zachowaniami obsesyjnymi w spektrum autyzmu.
@@ -459,7 +484,6 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 ## BLOK 9: Kanały Jonowe i Homeostaza Elektrofizjologiczna
 
 ---
-### GADL1
 ### GADL1
 
 * **Główny symbol genu:** GADL1
@@ -471,6 +495,7 @@ Obniżona ekspresja HTR6. Skutkuje gorszymi wynikami w testach pamięciowych, os
 
 * **Mój genotyp (WGS):**
   `rs704180` — **AG** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp T/T (Wysoka wydajność enzymatyczna)**
@@ -486,7 +511,6 @@ Chroniczny niedobór tauryny w strukturach podkorowych. Skutkuje osłabieniem ha
 
 ---
 ### GRIA2
-### GRIA2
 
 * **Główny symbol genu:** GRIA2
 * **Pełna nazwa biochemiczna:** Podjednostka 2 jonotropowego receptora glutaminianergicznego AMPA (ang. *Glutamate ionotropic receptor AMPA type subunit 2*)
@@ -496,7 +520,11 @@ Chroniczny niedobór tauryny w strukturach podkorowych. Skutkuje osłabieniem ha
 * **Rola biologiczna genu/białka:** Koduje kluczową podjednostkę (GluA2) receptora AMPA pośredniczącego w szybkiej neurotransmisji synaptycznej. Transkrypty GRIA2 podlegają niemal w 100% procesowi posttranskrypcyjnego redagowania RNA (zamiana aminokwasu Q na R). Ta pojedyncza zmiana sprawia, że receptor AMPA staje się **całkowicie nieprzepuszczalny dla jonów wapnia (Ca²⁺)**, co jest absolutnym fundamentem ochrony neuronów przed toksycznym zalaniem wapniowym.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs13182811` — **CC** (ensembl+bam, high) — ensembl; depth=37,avg=37.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Pełne, prawidłowe redagowanie RNA)**
@@ -512,7 +540,6 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 
 ---
 ### GRIN2A
-### GRIN2A
 
 * **Główny symbol genu:** GRIN2A
 * **Pełna nazwa biochemiczna:** Podjednostka 1A receptora glutaminianergicznego NMDA (ang. *Glutamate ionotropic receptor NMDA type subunit 1A*)
@@ -524,12 +551,12 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 * **Mój genotyp (WGS):**
   `rs11645009` — **TT** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Referencyjny (Prawidłowy przełącznik GluN2B -> GluN2A):** Precyzyjne zamykanie faz rozwoju kory mózgowej. Optymalna filtracja sensoryczna, prawidłowe funkcjonowanie pamięci długotrwałej.
 * **Warianty Polimorficzne (Sygnały GWAS):** Subtelne rozkoordynowanie kinetyki receptora. Może objawiać się przejściowymi trudnościami z koncentracją lub nadwrażliwością na szum informacyjny.
 * **Mutacja Patogenna (LoF / Mutacje punktowe):** Ciężkie spektrum padaczkowo-afatyczne (np. zespół Landaua-Klefnera), głębokie opóźnienie rozwoju mowy, dysfazja oraz drastycznie podwyższone ryzyko schizofrenii i zachowań psychotycznych.
 
 ---
-### GRM3
 ### GRM3
 
 * **Główny symbol genu:** GRM3
@@ -540,7 +567,12 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 * **Rola biologiczna genu/białka:** Koduje autoreceptor presynaptyczny mGluR3 sprzężony z białkiem Gi. Jego aktywacja hamuje nadmierne uwalnianie glutaminianu do szczeliny synaptycznej, pełniąc rolę nadrzędnego bezpiecznika chroniącego neurony przed toksycznym przestymulowaniem.
 
 * **Mój genotyp (WGS):**
-  `rs6465084` — NOT_IN_DBSNP
+  `rs6465084` — **AA** (ensembl+bam, high) — ensembl; depth=60,avg=60.0; gt=0/0
+* **Dopasowany profil:** Genotyp A/A (Wysoka ekspresja autoreceptora):
+
+
+
+
 
 * **Genotyp A/A (Wysoka ekspresja autoreceptora):** Wydajna kontrola homeostazy glutaminianu. Wysoka odporność na stres neurobiologiczny, doskonała ochrona przed neurodegeneracją.
 * **Genotyp A/G (Ekspresja zrównoważona):** Prawidłowa regulacja neurotransmisji pobudzającej.
@@ -552,26 +584,30 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 
 ---
 ### GRM5
-### GRM5
 
 * **Główny symbol genu:** GRM5
 * **Pełna nazwa biochemiczna:** Metabotropowy receptor glutaminianergiczny 5 (ang. *Glutamate metabotropic receptor 5*)
 * **Nazwy potoczne i medialne:** Receptor mGluR5, gen osi pobudzenia postsynaptycznego, molekularny klucz Zespołu Łamliwego X
-* **Główny rsID:** rs2129571
+* **Główny rsID:** rs362990
 * **Lokalizacja chromosomalna:** Chromosom 11 (11q14.2-q14.3)
 * **Rola biologiczna genu/białka:** Receptor mGluR5 (sprzężony z białkiem Gq/11) jest zlokalizowany postsynaptycznie, głównie w gęstości postsynaptycznej (PSD). Jego aktywacja stymuluje fosfolipazę C, prowadząc do uwolnienia wapnia z zapasów wewnątrzkomórkowych i aktywacji lokalnej translacji białek synaptycznych. Jest nadrzędnym modulatorem długotrwałego osłabienia synaptycznego (LTD) oraz plastyczności synaps.
 
 * **Mój genotyp (WGS):**
-  - `rs2129571` — NOT_IN_DBSNP
-  - `rs362990` — **TT** (ensembl, high) — ensembl; depth=52,avg=52.0; gt=1/1
+  - `rs362990` — **TT** (ensembl+bam, high) — ensembl; depth=52,avg=52.0; gt=1/1
   - `rs362584` — **AA** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
+  - `rs2129571` — NOT_IN_DBSNP (martwy tag w panelu)
 
-* **Genotyp Referencyjny (Zbalansowana odpowiedź mGluR5):** Optymalna plastyczność synaptyczna. Prawidłowy przebieg procesów LTD i LTP, wysoka zdolność adaptacji kognitywnej i prawidłowa synteza białek strukturalnych synaps.
-* **Warianty Populacyjne (Umiarkowane przesunięcia ekspresji):** Drobne różnice w prędkości adaptacji sensorycznej i podatności na zmęczenie poznawcze.
-* **Dysfunkcja / Patologiczne Rozprzężenie (Np. w zespole łamliwego X):** Brak hamowania translacji zależnej od mGluR5 (z powodu braku białka FMRP) prowadzi do permanentnej, chaotycznej nadekspresji białek synaptycznych i patologicznego wydłużenia kolców dendrytycznych. Skutkuje to drastyczną niepełnosprawnością intelektualną, ekstremalnym lękiem społecznym, lękiem przed kontaktem wzrokowym i głębokim fenotypem ASD.
+
+**A/A (Zbalansowana odpowiedź mGluR5)**
+Optymalna plastyczność synaptyczna. Prawidłowy przebieg procesów LTD i LTP, wysoka zdolność adaptacji kognitywnej i prawidłowa synteza białek strukturalnych synaps.
+
+**A/T (Umiarkowane przesunięcia ekspresji)**
+Drobne różnice w prędkości adaptacji sensorycznej i podatności na zmęczenie poznawcze.
+
+**T/T (Homozygota alleliczna T)**
+Typowy profil populacyjny mGluR5 przy homozygotii allelicznej T. Bez cech patologicznego rozprzężenia szlaku (patologiczna nadekspresja mGluR5 dotyczy głównie braku FMRP w zespole łamliwego X, nie tego tag-SNP).
 
 ---
-### SLC12A5
 ### SLC12A5
 
 * **Główny symbol genu:** SLC12A5
@@ -582,7 +618,11 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 * **Rola biologiczna genu/białka:** Koduje transporter KCC2, który wypompowuje jony chlorkowe ($Cl^-$) z wnętrza neuronu na zewnątrz. Jest to absolutnie fundamentalne: wysoka aktywność KCC2 w dojrzałym mózgu sprawia, że otwarcie kanału GABA-A powoduje napływ $Cl^-$ do środka i **hiperpolaryzację (hamowanie neuronu)**. W niedojrzałym mózgu lub przy dysfunkcji KCC2, GABA działa paradoksalnie – pobudzająco!
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs2885267` — **AG** (ensembl+bam, high) — ncbi; depth=53,avg=53.0; gt=0/1
+
+
+
+
 
 * **Typ Dziki (Wysoka ekspresja KCC2):** Prawidłowy, niski poziom chlorków wewnątrzkomórkowych. Układ GABA działa doskonale hamująco – zapewnia wyciszenie, redukcję lęku, relaksację mięśniową i stabilność neuroelektryczną.
 * **Warianty Polimorficzne (Suboptymalna ekspresja):** Lekkie osłabienie potencjału hamującego GABA. Objawia się gorszą tolerancją na stres sensoryczny i podatnością na stany lękowe przy zmęczeniu.
@@ -591,7 +631,6 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 ---
 
 ## CZĘŚĆ IV. Receptory cholinergiczne, kanabinoidowe i histaminowe
-### CHRNA2
 ### CHRNA2
 
 * **Główny symbol genu:** CHRNA2
@@ -603,6 +642,7 @@ Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory A
 
 * **Mój genotyp (WGS):**
   `rs144754751` — **CC** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Standardowa ekspresja)**
@@ -618,7 +658,6 @@ Osłabienie "hamulca" cholinergicznego w obwodach motywacyjnych. W badaniach neu
 
 ---
 ### CHRNA4
-### CHRNA4
 
 * **Główny symbol genu:** CHRNA4
 * **Pełna nazwa biochemiczna:** Podjednostka alfa-4 nikotynowego receptora acetylocholiny (ang. *Cholinergic receptor nicotinic alpha 4 subunit*)
@@ -630,6 +669,7 @@ Osłabienie "hamulca" cholinergicznego w obwodach motywacyjnych. W badaniach neu
 * **Mój genotyp (WGS):**
   - `rs1044396` — **GG** (ensembl, high) — ensembl; depth=33,avg=33.0; gt=0/0
   - `rs2273502` — **TT** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=1/1
+
 
 
 **Genotyp T/T (Wysoka wydajność receptorowa)**
@@ -645,7 +685,6 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
 
 ---
 ### CHRNA7
-### CHRNA7
 
 * **Główny symbol genu:** CHRNA7
 * **Pełna nazwa biochemiczna:** Podjednostka alfa-7 nikotynowego receptora acetylocholiny (ang. *Cholinergic receptor nicotinic alpha 7 subunit*)
@@ -659,12 +698,12 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
   - `rs2064070` — **TT** (ensembl, high) — ensembl; depth=24,avg=24.0; gt=1/1
   - `rs6494223` — **CC** (ensembl, high) — ensembl; depth=14,avg=14.0; gt=0/0
 
+
 * **Genotyp Referencyjny (Wysoka ekspresja receptorów):** Sprawne bramkowanie sensoryczne (prawidłowy test tłumienia P50). Doskonała koncentracja selektywna, odporność na szum informacyjny i wysoka wydajność pamięci roboczej.
 * **Genotyp Pośredni / Polimorfizmy eQTL:** Umiarkowane fluktuacje w gęstości receptorowej, dające okresową podatność na dystrakcję pod wpływem zmęczenia lub przebodźcowania.
 * **Niska Ekspresja / Mikrodelecja 15q13.3 (Patologia):** Całkowite załamanie filtracji sensorycznej. Mózg zalewany jest chaotycznymi bodźcami. Skutkuje to deficytami uwagi, trudnościami integracji sensorycznej w ASD oraz drastycznym wzrostem podatności na schizofrenię i epizody psychotyczne.
 
 ---
-### CNR1
 ### CNR1
 
 * **Główny symbol genu:** CNR1
@@ -679,12 +718,12 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
   - `rs2023239` — **TT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=0/0
   - `rs806368` — **TC** (ensembl, high) — ensembl; depth=43,avg=43.0; gt=0/1
 
+
 * **Genotyp Standardowy (Optymalna gęstość CB1):** Prawidłowa dynamika retrogradacji synaptycznej. Sprawne wygaszanie reakcji lękowych na bodźce, które przestały stanowić zagrożenie; zrównoważony próg odczuwania przyjemności (hedonizm).
 * **Warianty Populacyjne (Umiarkowane przesunięcia ekspresji):** Niewielkie zmiany w zapotrzebowaniu na stymulację układu nagrody; zmienna podatność na stany lękowe w warunkach stresu.
 * **Genotyp Ryzyka (Niska ekspresja / Obniżone powinowactwo):** Utrata elastyczności endokanabinoidowej. Niemożność biochemicznego "wygaszenia" utrwalonych śladów pamięci lękowej (skłonność do PTSD, lęku uogólnionego), podatność na anhedonię oraz wysokie genetyczne ryzyko rozwoju uzależnień (od konopi, alkoholu, jedzenia).
 
 ---
-### HRH3
 ### HRH3
 
 * **Główny symbol genu:** HRH3
@@ -699,6 +738,7 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
   - `rs3743419` — **GG** (ensembl, high) — ensembl; depth=49,avg=49.0; gt=1/1
   - `rs16840066` — **AA** (ensembl, high) — ensembl; depth=74,avg=74.0; gt=0/0
 
+
 * **Genotyp Referencyjny (Zbalansowane sprzężenie zwrotne):** Prawidłowy rytm dobowy. Wysoka ostrość umysłu w fazie czuwania, głęboka regeneracja w fazie snu, stabilna gospodarka neurotransmiterowa.
 * **Genotyp Pośredni (Wariant populacyjny):** Standardowa elastyczność przystosowawcza do zmian faz dobowych (np. tolerancja na jet-lag).
 * **Genotyp Ryzyka (Niezrównoważona nadekspresja H3):** Permanentne, nadmierne blokowanie uwalniania acetylocholiny i dopaminy w korze mózgowej. Skutkuje chroniczną sennością, deficytami pamięci roboczej, zaburzeniami snu REM i silną korelacją z zaburzeniami nastroju oraz deficytami poznawczymi w ADHD.
@@ -708,7 +748,6 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
 ## BLOK 8: Sygnalizacja Wewnątrzkomórkowa i Kaskady Przeżywalności Neuronów
 
 ---
-### MCHR1
 ### MCHR1
 
 * **Główny symbol genu:** MCHR1
@@ -720,6 +759,7 @@ Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (kore
 
 * **Mój genotyp (WGS):**
   `rs13306893` — **TC** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Zbalansowana sygnalizacja MCH)**
@@ -737,7 +777,6 @@ Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). Skutkuje n
 
 ## CZĘŚĆ V. Neurorozwój poligenowy — GWAS, TWAS i architektura mózgu
 ### ADGRL3
-### ADGRL3
 
 * **Główny symbol genu:** ADGRL3
 * **Pełna nazwa biochemiczna:** Receptor adhezyjny sprzężony z białkiem G L3 (ang. *Adhesion G protein-coupled receptor L3*)
@@ -750,30 +789,35 @@ Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). Skutkuje n
   - `rs6551665` — **GG** (ensembl, high) — ensembl; depth=43,avg=43.0; gt=0/0
   - `rs1397547` — **CC** (ensembl, high) — ensembl; depth=40,avg=40.0; gt=1/1
 
+
 * **Genotyp T/T (Typ dziki):** Stabilna architektura połączeń synaptycznych w prążkowiu. Prawidłowa kontrola impulsów i wysoka zdolność do podtrzymywania uwagi.
 * **Genotyp C/T (Ryzyko umiarkowane):** Drobne wahania w gęstości synaptycznej; profil wykazuje wyższą zależność od stymulacji środowiskowej.
 * **Genotyp C/C (Wariant wysokiego ryzyka):** Wyraźne zmniejszenie gęstości połączeń synaptycznych w rejonach przedczołowych. W badaniach genomicznych potężnie podwyższa ryzyko ciężkiego fenotypu ADHD, zachowań opozycyjno-buntowniczych (ODD) oraz skłonności do uzależnień.
 
 ---
 ### AKAP11
-### AKAP11
 
 * **Główny symbol genu:** AKAP11
 * **Pełna nazwa biochemiczna:** Białko kotwiczące kinazę A 11 (ang. *A-kinase anchoring protein 11*)
 * **Nazwy potoczne i medialne:** Gen stabilizacji nastroju, nowo odkryty "master gene" ChAD
-* **Główny rsID / Wariant:** Mutacje typu utraty funkcji (LoF) oraz warianty eQTL
+* **Główny rsID / Wariant:** rs10936545 (tag-SNP) / mutacje LoF (osobno, sekwencjonowanie)
 * **Lokalizacja chromosomalna:** Chromosom 13 (13q14.11)
 * **Rola biologiczna genu/białka:** AKAP11 działa jako rusztowanie molekularne, które fizycznie wiąże kinazę białkową A (PKA) z kinazą GSK3B (głównym celem terapeutycznym litu). Reguluje wewnątrzkomórkowe szlaki sygnałowe odpowiedzialne za przeżywalność neuronów i plastyczność synaptyczną.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs10936545` — **TT** (ensembl+bam, high) — ncbi; depth=69,avg=69.0; gt=1/1
 
-* **Typ Dziki (Brak mutacji LoF):** Prawidłowa interakcja PKA-GSK3B. Stabilna neuroprotekcja, wysoka odporność na cykliczne zaburzenia afektywne.
-* **Warianty Polimorficzne (Łagodne):** Subtelne zmiany w dynamice przewodnictwa sygnałów, mogące korelować z okresową podatnością na wahania napędu psychoruchowego.
-* **Mutacja Patogenna (Heterozygota LoF):** Jeden z najsilniejszych poznanych punktowych czynników ryzyka genetycznego w psychiatrii. Powoduje drastyczną destabilizację szlaku GSK3B, skutkując ekstremalnie wysokim ryzykiem rozwoju choroby afektywnej dwubiegunowej (ChAD) oraz schizofrenii.
+
+**C/C (Typ referencyjny)**
+Prawidłowa interakcja PKA-GSK3B. Stabilna neuroprotekcja, wysoka odporność na cykliczne zaburzenia afektywne.
+
+**C/T (Wariant heterozygoticzny)**
+Subtelne zmiany w dynamice przewodnictwa sygnałów, mogące korelować z okresową podatnością na wahania napędu psychoruchowego.
+
+**T/T (Homozygota alleliczna T)**
+Typowy profil populacyjny tag-SNP rs10936545. Nie oznacza mutacji LoF ani klinicznego ChAD — patogenne LoF wymagają osobnej analizy sekwencji/CNV.
 
 ---
-### AKT3
 ### AKT3
 
 * **Główny symbol genu:** AKT3
@@ -784,14 +828,18 @@ Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). Skutkuje n
 * **Rola biologiczna genu/białka:** Jeden z trzech kluczowych homologów kinazy AKT, wykazujący dominującą ekspresję w tkance mózgowej. Koordynuje wzrost komórkowy, przeżywalność neuronów, synaptogenezę oraz architektonikę korową poprzez bezpośrednią aktywację kompleksu mTORC1.
 
 * **Mój genotyp (WGS):**
-  `rs1441334` — NOT_IN_DBSNP
+  - `rs1441334` — NOT_IN_DBSNP
+  - `rs4599042` — **CC** (ensembl+bam, high) — ncbi; depth=34,avg=34.0; gt=0/0
+
+
+
+
 
 * **Typ Dziki (Zbalansowany sygnał wzrostowy):** Prawidłowa objętość istoty szarej, symetryczny wzrost półkul mózgowych, stabilne i precyzyjne formowanie sieci synaptycznych.
 * **Warianty Polimorficzne (Sygnały GWAS):** Subtelne różnice w tempie proliferacji, korelujące z ogólną sprawnością przetwarzania informacji bez anomalii strukturalnych.
 * **Mutacja Patogenna / CNV (Delecja lub Duplikacja):** Drastyczne zaburzenie rozmiaru mózgu. Utrata funkcji (LoF/delecja) skutkuje ciężką mikrocefalią (małogłowiem) i niedorozwojem psychoruchowym. Z kolei nadekspresja (duplikacja) prowadzi do megalencefalii (wielkogłowia), lekoopornej padaczkowej encefalopatii oraz głębokiego podtypu ASD.
 
 ---
-### ARTN
 ### ARTN
 
 * **Główny symbol genu:** ARTN
@@ -802,7 +850,11 @@ Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). Skutkuje n
 * **Rola biologiczna genu/białka:** Artemina należy do rodziny czynników neurotroficznych GDNF (GFRa3/RET). Jest nadrzędnym czynnikiem warunkującym przeżywalność, wzrost i naprowadzanie aksonów neuronów czuciowych (nocyceptywnych) w zwojach korzeni grzbietowych oraz neuronów współczulnych, precyzyjnie kalibrując obwodowy próg bólu.
 
 * **Mój genotyp (WGS):**
-  `rs2516480` — brak calla
+  `rs2516480` — **CC** (ensembl+bam, low) — ensembl; depth=5,avg=5.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Prawidłowa trofika czuciowa)**
@@ -818,7 +870,6 @@ Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. S
 
 ---
 ### ASTN2
-### ASTN2
 
 * **Główny symbol genu:** ASTN2
 * **Pełna nazwa biochemiczna:** Astrotaktyna 2 (ang. *Astrotactin 2*)
@@ -832,12 +883,12 @@ Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. S
   - `rs6470054` — **GA** (ensembl, high) — ensembl; depth=49,avg=49.0; gt=0/1
   - `rs1857050` — **TT** (ensembl, high) — ensembl; depth=41,avg=41.0; gt=0/0
 
+
 * **Typ Dziki (Prawidłowa migracja warstwowa):** Precyzyjna, warstwowa struktura kory mózgowej i móżdżku. Bezbłędne uformowanie makrosieci neuronalnych, prawidłowa integracja sensoryczno-motoryczna.
 * **Warianty Polimorficzne (Modyfikujące):** Subtelne przesunięcia w tempie migracji komórkowej, mogące nieznacznie modyfikować profil przetwarzania bodźców motorycznych i równowagi.
 * **Rearanżacja Patogenna (CNV / Delecja ASTN2):** Uszkodzenie strukturalne genu prowadzi do zatrzymania lub zaburzenia topografii migracji neuronów. Skutkuje to dysplazją korową lub hipoplazją móżdżku. Klinicznie manifestuje się jako silny fenotyp ADHD, globalne opóźnienie rozwoju, zaburzenia mowy, dyspraksja oraz cechy ASD.
 
 ---
-### ATP2A2
 ### ATP2A2
 
 * **Główny symbol genu:** ATP2A2
@@ -848,7 +899,11 @@ Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. S
 * **Rola biologiczna genu/białka:** Koduje pompę SERCA2, która aktywnie (zużywając ATP) przepompowuje jony wapnia ($Ca^{2+}$) z cytoplazmy z powrotem do wnętrza siateczki śródplazmatycznej (retikulum endoplazmatycznego). Precyzyjnie wygasza w ten sposób sygnały wapniowe po pobudzeniu neuronu i zapobiega wewnątrzkomórkowej toksyczności wapniowej.
 
 * **Mój genotyp (WGS):**
-  `rs2070366` — NOT_IN_DBSNP
+  `rs2070366` — **CC** (ensembl+bam, high) — ensembl; depth=62,avg=62.0; gt=0/0
+
+
+
+
 
 * **Typ Dziki (Wysoka wydajność SERCA2):** Błyskawiczny powrót do spoczynkowych poziomów wapnia w cytoplazmie. Prawidłowe funkcjonowanie neurosekrecji, stabilność mitochondrialna, wysoka ochrona przed stresem komórkowym.
 * **Warianty Polimorficzne (Średnia wydajność):** Standardowy profil populacyjny; drobne modyfikacje w komórkowej odporności na przeciążenia metaboliczne.
@@ -860,7 +915,6 @@ Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. S
 
 ---
 ### BCL11B
-### BCL11B
 
 * **Główny symbol genu:** BCL11B
 * **Pełna nazwa biochemiczna:** Czynnik transkrypcyjny BCL11B (ang. *B-cell lymphoma/leukemia 11B*)
@@ -871,6 +925,7 @@ Przedwczesna degradacja lub nieprawidłowe naprowadzanie włókien czuciowych. S
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Prawidłowa ekspresja)**
@@ -886,7 +941,6 @@ Zablokowanie różnicowania neuronów warstwy V i niedorozwój limfocytów. Skut
 
 ---
 ### DUSP6
-### DUSP6
 
 * **Główny symbol genu:** DUSP6
 * **Pełna nazwa biochemiczna:** Fosfataza o podwójnej specyficzności 6 (ang. *Dual specificity phosphatase 6*)
@@ -896,7 +950,11 @@ Zablokowanie różnicowania neuronów warstwy V i niedorozwój limfocytów. Skut
 * **Rola biologiczna genu/białka:** DUSP6 to negatywny regulator (fosfataza) szlaku sygnałowego ERK/MAPK, który jest aktywowany przez czynniki wzrostu (BDNF, FGF). Kontroluje proliferację i różnicowanie neuronów w niszach neurogennych oraz odgrywa kluczową rolę w wygaszaniu reakcji lękowych w strukturach limbicznych.
 
 * **Mój genotyp (WGS):**
-  `rs6583347` — NOT_IN_DBSNP
+  `rs6583347` — **GG** (ensembl+bam, medium) — ncbi; depth=8,avg=8.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Wysokiej Aktywności (Silne tłumienie szlaku ERK)**
@@ -912,7 +970,6 @@ Osłabienie hamowania szlaku MAPK. Prowadzi do niekontrolowanej, chaotycznej akt
 
 ---
 ### FOXP2
-### FOXP2
 
 * **Główny symbol genu:** FOXP2
 * **Pełna nazwa biochemiczna:** Białko Forkhead-box P2 (ang. *Forkhead box P2*)
@@ -926,12 +983,12 @@ Osłabienie hamowania szlaku MAPK. Prowadzi do niekontrolowanej, chaotycznej akt
   - `rs2396753` — **CA** (ensembl, high) — ensembl; depth=48,avg=48.0; gt=0/1
   - `rs7782412` — **TC** (ensembl, high) — ensembl; depth=57,avg=57.0; gt=0/1
 
+
 * **Typ Dziki (Ekspresja prawidłowa):** Prawidłowe formowanie struktur prążkowia. Wysoka płynność mowy, bezproblemowe przyswajanie gramatyki, wysoka koordynacja ruchowa.
 * **Warianty Polimorficzne (Modyfikujące):** Subtelne różnice w tempie przetwarzania fonologicznego lub predyspozycje do dysleksji bez cech dysmorfii.
 * **Mutacja Patogenna (Haploinsuficjencja / LoF):** Wywołuje Werbalną Dyspraksję Rozwojową (orofacjalną). Objawia się całkowitą niemożnością skoordynowania ruchów języka i warg w celu wypowiedzenia złożonych słów, upośledzeniem rozumienia gramatyki oraz głębokim regresorem językowym wpisującym się w ASD.
 
 ---
-### LINC01795
 ### LINC01795
 
 * **Główny symbol genu:** LINC01795
@@ -945,6 +1002,7 @@ Osłabienie hamowania szlaku MAPK. Prowadzi do niekontrolowanej, chaotycznej akt
   `rs12048493` — **AC** (ensembl+bam, high) — marker_report
 
 
+
 **Genotyp Referencyjny (Prawidłowe dostrojenie eQTL)**
 Zrównoważona i precyzyjna kontrola nad ekspresją genów sąsiednich, optymalny rozwój kognitywny kory przedczołowej.
 
@@ -956,7 +1014,6 @@ Wywołuje patologiczne przesunięcia w poziomie transkrypcji genów osi neuroroz
 
 ---
 ### MACROD2
-### MACROD2
 
 * **Główny symbol genu:** MACROD2
 * **Pełna nazwa biochemiczna:** Domena MACRO zawierająca białko 2 (ang. *MACRO domain-containing protein 2*)
@@ -966,7 +1023,11 @@ Wywołuje patologiczne przesunięcia w poziomie transkrypcji genów osi neuroroz
 * **Rola biologiczna genu/białka:** Koduje hydrolazę usuwającą modyfikacje ADP-rybozylowania z białek (kluczowa regulacja posttranslacyjna). Odgrywa fundamentalną rolę w utrzymaniu stabilności chromosomalnej i precyzyjnej regulacji genów zaangażowanych w rozwój struktur przodomózgowia odpowiedzialnych za ekspresję mowy.
 
 * **Mój genotyp (WGS):**
-  `rs6116204` — NOT_IN_DBSNP
+  `rs6116204` — **AT** (ensembl+bam, high) — ensembl; depth=39,avg=39.0; gt=0/1
+
+
+
+
 
 
 **Typ Dziki (Brak rearanżacji strukturalnych)**
@@ -982,7 +1043,6 @@ Strukturalne uszkodzenia genu MACROD2 są bezpośrednio powiązane z agenezją c
 
 ---
 ### MDFIC
-### MDFIC
 
 * **Główny symbol genu:** MDFIC
 * **Pełna nazwa biochemiczna:** Białko zawierające domenę inhibitora rodziny MyoD (ang. *MyoD family inhibitor domain-containing protein*)
@@ -994,6 +1054,7 @@ Strukturalne uszkodzenia genu MACROD2 są bezpośrednio powiązane z agenezją c
 * **Mój genotyp (WGS):**
   - `rs2280031` — **CC** (ensembl+bam, high) — marker_report
   - `rs10246939` — **CC** (ensembl, high) — ensembl; depth=49,avg=49.0; gt=1/1
+
 
 
 **Typ Dziki (Prawidłowa regulacja Wnt)**
@@ -1009,7 +1070,6 @@ Subtelne anomalie w kinetyce szlaku Wnt, mogące prowadzić do mikrostrukturalny
 
 ---
 ### MED8
-### MED8
 
 * **Główny symbol genu:** MED8
 * **Pełna nazwa biochemiczna:** Podjednostka kompleksu mediatora 8 (ang. *Mediator complex subunit 8*)
@@ -1021,6 +1081,7 @@ Subtelne anomalie w kinetyce szlaku Wnt, mogące prowadzić do mikrostrukturalny
 * **Mój genotyp (WGS):**
   - `rs2273574` — NOT_IN_DBSNP
   - `rs2797285` — **GG** (ensembl, high) — ensembl; depth=39,avg=39.0; gt=1/1
+
 
 
 **Typ Dziki (Wydajna transkrypcja dynamiczna)**
@@ -1036,7 +1097,6 @@ Niewielkie spowolnienie dynamiki transkrypcyjnej genów zależnych od aktywnośc
 
 ---
 ### MEIS1
-### MEIS1
 
 * **Główny symbol genu:** MEIS1
 * **Pełna nazwa biochemiczna:** Homeoboks MEIS1 (ang. *Meis homeobox 1*)
@@ -1047,6 +1107,7 @@ Niewielkie spowolnienie dynamiki transkrypcyjnej genów zależnych od aktywnośc
 
 * **Mój genotyp (WGS):**
   `rs12469063` — **AA** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Wariant ochronny)**
@@ -1062,7 +1123,6 @@ Najsilniejszy populacyjny marker genetyczny dla **Zespołu Niespokojnych Nóg (R
 
 ---
 ### MPL
-### MPL
 
 * **Główny symbol genu:** MPL
 * **Pełna nazwa biochemiczna:** Protoonkogen MPL, receptor trombopoetyny (ang. *MPL proto-oncogene, thrombopoietin receptor*)
@@ -1074,6 +1134,7 @@ Najsilniejszy populacyjny marker genetyczny dla **Zespołu Niespokojnych Nóg (R
 * **Mój genotyp (WGS):**
   - `rs2228511` — NOT_IN_DBSNP
   - `rs139606423` — **CC** (ensembl, high) — ensembl; depth=59,avg=59.0; gt=0/0
+
 
 
 **Typ Dziki (Prawidłowa ochrona nisz neurogennych)**
@@ -1089,7 +1150,6 @@ Przedwczesne, masowe wyjście komórek macierzystych ze stanu spoczynku i ich gw
 
 ---
 ### MSRA
-### MSRA
 
 * **Główny symbol genu:** MSRA
 * **Pełna nazwa biochemiczna:** Reduktaza sulfotlenku metioniny A (ang. *Methionine sulfoxide reductase A*)
@@ -1099,7 +1159,11 @@ Przedwczesne, masowe wyjście komórek macierzystych ze stanu spoczynku i ich gw
 * **Rola biologiczna genu/białka:** MSRA to kluczowy enzym naprawczy, który redukuje utleniony sulfotlenek metioniny w białkach z powrotem do formy funkcjonalnej (metioniny). Chroni neurony przed uszkodzeniami strukturalnymi wywołanymi przez permanentny stres oksydacyjny (ROS).
 
 * **Mój genotyp (WGS):**
-  `rs10957973` — NOT_IN_DBSNP
+  `rs10957973` — **TT** (ensembl+bam, high) — ensembl; depth=33,avg=33.0; gt=1/1
+
+
+
+
 
 
 **Genotyp Wysokiej Aktywności (Homozygota referencyjna)**
@@ -1115,7 +1179,6 @@ Spadek wydajności naprawczej enzymu o blisko 40-50%. Drastyczny wzrost podatno�
 
 ---
 ### NEK4
-### NEK4
 
 * **Główny symbol genu:** NEK4
 * **Pełna nazwa biochemiczna:** Kinaza powiązana z NIMA 4 (ang. *NIMA related kinase 4*)
@@ -1126,6 +1189,7 @@ Spadek wydajności naprawczej enzymu o blisko 40-50%. Drastyczny wzrost podatno�
 
 * **Mój genotyp (WGS):**
   `rs1051543` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Stabilny cytoszkielet aksonalny)**
@@ -1141,7 +1205,6 @@ Lokalna niestabilność mikrotubul w rosnących wypustkach, mogąca prowadzić d
 
 ---
 ### NKX2-2
-### NKX2-2
 
 * **Główny symbol genu:** NKX2-2
 * **Pełna nazwa biochemiczna:** Homeoboks NK2, czynnik 2 (ang. *NK2 homeobox 2*)
@@ -1152,6 +1215,7 @@ Lokalna niestabilność mikrotubul w rosnących wypustkach, mogąca prowadzić d
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Maksymalna wydajność mielinizacji)**
@@ -1167,7 +1231,6 @@ Upośledzenie dojrzewania strukturalnego oligodendrocytów. Powoduje subtelne de
 
 ---
 ### NKX2-4
-### NKX2-4
 
 * **Główny symbol genu:** NKX2-4
 * **Pełna nazwa biochemiczna:** Homeoboks NK2, czynnik 4 (ang. *NK2 homeobox 4*)
@@ -1178,6 +1241,7 @@ Upośledzenie dojrzewania strukturalnego oligodendrocytów. Powoduje subtelne de
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Genotyp Referencyjny (Wariant standardowy)**
@@ -1193,7 +1257,6 @@ Znaczne obniżenie ekspresji tkankowej genu w mózgowiu (szczególnie w móżdż
 
 ---
 ### POU3F2
-### POU3F2
 
 * **Główny symbol genu:** POU3F2
 * **Pełna nazwa biochemiczna:** Czynnik transkrypcyjny klasy POU 3, składowa 2 (ang. *POU class 3 homeobox 2*)
@@ -1204,6 +1267,7 @@ Znaczne obniżenie ekspresji tkankowej genu w mózgowiu (szczególnie w móżdż
 
 * **Mój genotyp (WGS):**
   `rs1015362` — **CT** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Prawidłowa cytoarchitektonika)**
@@ -1217,7 +1281,6 @@ Wyraźne obniżenie ekspresji tkankowej genu w trakcie embrionalnego rozwoju mó
 
 ---
 ### RORB
-### RORB
 
 * **Główny symbol genu:** RORB
 * **Pełna nazwa biochemiczna:** Sierocy receptor jądrowy powiązany z receptorem kwasu retinowego beta (ang. *RAR-related orphan receptor beta*)
@@ -1227,7 +1290,11 @@ Wyraźne obniżenie ekspresji tkankowej genu w trakcie embrionalnego rozwoju mó
 * **Rola biologiczna genu/białka:** Receptor jądrowy działający jako ligand-zależny czynnik transkrypcyjny. Wykazuje silną, specyficzną ekspresję w warstwie IV kory nowej (główna warstwa odbierająca informacje sensoryczne ze wzgórza) oraz w siatkówce i jądrach nadskrzyżowaniowych podwzgórza. Koordynuje przetwarzanie bodźców czuciowych oraz synchronizację zegara biologicznego.
 
 * **Mój genotyp (WGS):**
-  `rs2730573` — NOT_IN_DBSNP
+  `rs2730573` — **GG** (ensembl+bam, high) — ensembl; depth=53,avg=53.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Prawidłowa integracja wzgórzowo-korowa)**
@@ -1245,7 +1312,6 @@ Wywołuje uogólnione padaczki dziecięce (w tym ciężką padaczkę miokloniczn
 
 ---
 ### SESTD1
-### SESTD1
 
 * **Główny symbol genu:** SESTD1
 * **Pełna nazwa biochemiczna:** Białko 1 zawierające domeny SEC14 i spektrynowe (ang. *SEC14 and spectrin domains 1*)
@@ -1256,6 +1322,7 @@ Wywołuje uogólnione padaczki dziecięce (w tym ciężką padaczkę miokloniczn
 
 * **Mój genotyp (WGS):**
   `rs10811234` — **CT** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Zbalansowana regulacja TRPC)**
@@ -1271,7 +1338,6 @@ Zaburzenie gęstości kanałów TRPC w synapsach, prowadzące do destabilizacji 
 
 ---
 ### SORCS3
-### SORCS3
 
 * **Główny symbol genu:** SORCS3
 * **Pełna nazwa biochemiczna:** Receptor sortyliny 3 (ang. *Sortilin-related VPS10 domain containing receptor 3*)
@@ -1284,6 +1350,7 @@ Zaburzenie gęstości kanałów TRPC w synapsach, prowadzące do destabilizacji 
   - `rs10881512` — **CT** (ensembl+bam, high) — marker_report
   - `rs139885610` — **GG** (ensembl, high) — ensembl; depth=35,avg=35.0; gt=0/0
   - `rs56163402` — **GG** (ensembl, high) — ensembl; depth=28,avg=28.0; gt=1/1
+
 
 
 **Genotyp Referencyjny (Prawidłowy recykling receptorów)**
@@ -1301,7 +1368,6 @@ Upośledzenie recyklingu receptorów AMPA oraz deficyty w dystrybucji BDNF. W mi
 
 ---
 ### SOX7
-### SOX7
 
 * **Główny symbol genu:** SOX7
 * **Pełna nazwa biochemiczna:** Czynnik transkrypcyjny SRY-box 7 (ang. *SRY-box transcription factor 7*)
@@ -1312,6 +1378,7 @@ Upośledzenie recyklingu receptorów AMPA oraz deficyty w dystrybucji BDNF. W mi
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Ekspresja prawidłowa)**
@@ -1327,7 +1394,6 @@ Zaburzenie wczesnej neurogenezy i stabilności naczyniowej mózgu. Generuje zło
 
 ---
 ### ST3GAL3
-### ST3GAL3
 
 * **Główny symbol genu:** ST3GAL3
 * **Pełna nazwa biochemiczna:** Alfa-2,3-sialylotransferaza 3 (ang. *ST3 beta-galactoside alpha-2,3-sialyltransferase 3*)
@@ -1338,6 +1404,7 @@ Zaburzenie wczesnej neurogenezy i stabilności naczyniowej mózgu. Generuje zło
 
 * **Mój genotyp (WGS):**
   `rs1138844` — **TT** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Prawidłowa sialilacja synaptyczna)**
@@ -1353,7 +1420,6 @@ Ciężka, autosomalna recesywna niepełnosprawność intelektualna (MRT12). Brak
 
 ---
 ### STX16-NPEPL1
-### STX16-NPEPL1
 
 * **Główny symbol genu:** STX16 / NPEPL1 (Region intergeniczny / blok sprzężeń)
 * **Pełna nazwa biochemiczna:** Syntaksyna 16 / Aminopeptidase-like 1 locus (ang. *Syntaxin 16 / Aminopeptidase like 1 region*)
@@ -1363,7 +1429,11 @@ Ciężka, autosomalna recesywna niepełnosprawność intelektualna (MRT12). Brak
 * **Rola biologiczna genu/białka:** STX16 koduje białko t-SNARE zaangażowane w transport pęcherzykowy między endosomami a aparatem Golgiego. NPEPL1 koduje metaloproteazę aminopeptydową. Ten specyficzny region genomu kontroluje wewnątrzkomórkowy transport transporterów glukozy (GLUT4) oraz precyzyjną obróbkę neuropeptydów w neuronach.
 
 * **Mój genotyp (WGS):**
-  `rs6033475` — NOT_IN_DBSNP
+  `rs6033475` — **TT** (ensembl+bam, high) — ensembl; depth=41,avg=41.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Referencyjny (Wydajny transport Golgiego)**
@@ -1379,7 +1449,6 @@ Zaburzenia w wewnątrzkomórkowym transporcie pęcherzyków, skutkujące subopty
 
 ---
 ### TRANK1
-### TRANK1
 
 * **Główny symbol genu:** TRANK1
 * **Pełna nazwa biochemiczna:** Białko zawierające domeny tetratrikopeptydowe powtarzalne i kinazowe 1 (ang. *Tetratricopeptide repeat and kinase domain containing 1*)
@@ -1389,7 +1458,12 @@ Zaburzenia w wewnątrzkomórkowym transporcie pęcherzyków, skutkujące subopty
 * **Rola biologiczna genu/białka:** TRANK1 wykazuje silną ekspresję w OUN pod wpływem leków normotymicznych (litu i walproinianów). Choć dokładny mechanizm białka jest wciąż badany, jest ono kluczowym modulatorem ekspresji genów zapalnych oraz stabilizatorem cytoszkieletu w stanach stresu komórkowego.
 
 * **Mój genotyp (WGS):**
-  `rs9834970` — NOT_IN_DBSNP
+  `rs9834970` — **TT** (ensembl+bam, high) — ensembl; depth=58,avg=58.0; gt=0/0
+* **Dopasowany profil:** Genotyp T/T (Wariant referencyjny):
+
+
+
+
 
 * **Genotyp T/T (Wariant referencyjny):** Standardowa ekspresja genu. Prawidłowa odporność komórkowa na bodźce destabilizujące neurochemię.
 * **Genotyp C/T (Pośredni):** Średnia wrażliwość na czynniki normotymiczne; standardowy profil odpowiedzi populacyjnej.
@@ -1401,7 +1475,6 @@ Zaburzenia w wewnątrzkomórkowym transporcie pęcherzyków, skutkujące subopty
 
 ---
 ### XRN2
-### XRN2
 
 * **Główny symbol genu:** XRN2
 * **Pełna nazwa biochemiczna:** 5'-3' egzorybonukleaza 2 (ang. *5'-3' exoribonuclease 2*)
@@ -1412,6 +1485,7 @@ Zaburzenia w wewnątrzkomórkowym transporcie pęcherzyków, skutkujące subopty
 
 * **Mój genotyp (WGS):**
   `rs1465223` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Wariant ochronny)**
@@ -1427,7 +1501,6 @@ Najsilniejszy statystycznie sygnał w wielkoskalowych badaniach asocjacyjnych dl
 
 ---
 ### ZSWIM6
-### ZSWIM6
 
 * **Główny symbol genu:** ZSWIM6
 * **Pełna nazwa biochemiczna:** Białko zawierające domenę cynkowo-palcową SWIM 6 (ang. *Zinc finger SWIM-type containing 6*)
@@ -1438,6 +1511,7 @@ Najsilniejszy statystycznie sygnał w wielkoskalowych badaniach asocjacyjnych dl
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Brak mutacji patogennych)**
@@ -1455,7 +1529,6 @@ Wywołuje zespół dysmorfii twarzowo-czaszowej (Acromelic Frontonasal Dysostosi
 
 ## CZĘŚĆ VI. Neuroimmunologia, HLA i zapalenie OUN
 ### C1R
-### C1R
 
 * **Główny symbol genu:** C1R
 * **Pełna nazwa biochemiczna:** Składnik dopełniacza 1, podskładnik r (ang. *Complement component 1, r subcomponent*)
@@ -1465,7 +1538,12 @@ Wywołuje zespół dysmorfii twarzowo-czaszowej (Acromelic Frontonasal Dysostosi
 * **Rola biologiczna genu/białka:** C1r to proteaza serynowa tworząca kompleks C1 (kluczowy inicjator klasycznej drogi aktywacji dopełniacza). Oprócz niszczenia patogenów, bierze udział w remodelowaniu macierzy zewnątrzkomórkowej oraz – wspólnie z opisywanym wcześniej C4A – uczestniczy w znakowaniu synaps do przycinania.
 
 * **Mój genotyp (WGS):**
-  `rs11545624` — NOT_IN_DBSNP
+  - `rs11545624` — NOT_IN_DBSNP
+  - `rs1806698` — **GG** (ensembl+bam, medium) — ensembl; depth=15,avg=15.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Zbalansowana aktywacja dopełniacza)**
@@ -1481,7 +1559,6 @@ Wywołuje **Przyzębiowy Zespół Ehlersa-Danlosa (pEDS)**, charakteryzujący si
 
 ---
 ### C4A
-### C4A
 
 * **Główny symbol genu:** C4A
 * **Pełna nazwa biochemiczna:** Składnik dopełniacza 4A (ang. *Complement component 4A*)
@@ -1491,14 +1568,16 @@ Wywołuje **Przyzębiowy Zespół Ehlersa-Danlosa (pEDS)**, charakteryzujący si
 * **Rola biologiczna genu/białka:** Białko dopełniacza C4A "znakuje" słabe lub mało aktywne synapsy w okresie dojrzewania, dając sygnał mikroglejowi do ich fizycznego pożarcia i eliminacji (synaptic pruning). Proces ten zachodzi intensywnie w korze przedczołowej w wieku nastoletnim.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs1137101` — **AG** (ensembl+bam, high) — ncbi; depth=48,avg=48.0; gt=0/1
+
+
+
 
 * **Niska liczba kopii C4A (Zbalansowany pruning):** Selektywne, precyzyjne usunięcie niepotrzebnych synaps. Zachowanie wysokiej gęstości połączeń korowych, optymalne zdolności analityczne, minimalne ryzyko psychozy.
 * **Umiarkowana liczba kopii:** Standardowa populacyjna przebudowa sieci neuronalnej.
 * **Wysoka liczba kopii (Nadekspresja strukturalna C4A):** Patologiczna hiperaktywność mikrogleju. Dochodzi do masowego, bezlitosnego niszczenia zdrowych połączeń synaptycznych w korze przedczołowej. Skutkuje to drastycznym "ocienieniem" istoty szarej, zaburzeniami poznawczymi i stanowi **główny molekularny mechanizm wyzwalający schizofrenię**.
 
 ---
-### CRP
 ### CRP
 
 * **Główny symbol genu:** CRP
@@ -1510,6 +1589,7 @@ Wywołuje **Przyzębiowy Zespół Ehlersa-Danlosa (pEDS)**, charakteryzujący si
 
 * **Mój genotyp (WGS):**
   `rs1205` — **CT** (ensembl+bam, high) — marker_report
+
 
 
 **Warianty Niskiej Ekspresji (Niskie bazowe CRP)**
@@ -1525,7 +1605,6 @@ Genetycznie zaprogramowane, stale podwyższone stężenie CRP we krwi (nawet prz
 
 ---
 ### HLA-B
-### HLA-B
 
 * **Główny symbol genu:** HLA-B
 * **Pełna nazwa biochemiczna:** Główny kompleks zgodności tkankowej, klasa I, B (ang. *Major histocompatibility complex, class I, B*)
@@ -1535,7 +1614,12 @@ Genetycznie zaprogramowane, stale podwyższone stężenie CRP we krwi (nawet prz
 * **Rola biologiczna genu/białka:** Prezentuje peptydy pochodzenia wewnątrzkomórkowego limfocytom T cytotoksycznym (CD8+). W ośrodkowym układzie nerwowym cząsteczki MHC klasy I pełnią kluczową rolę nieimmunologiczną: regulują proces "pruningu" (synaptycznego przycinania) realizowanego przez mikroglej w trakcie rozwoju kory mózgowej.
 
 * **Mój genotyp (WGS):**
-  Allele HLA wymagają typowania haplotypowego (nie pojedynczego rsID); brak pełnego calla w uproszczonym WGS SNP.
+  - `rs3135388` — **AA** (ensembl+bam, low) — proxy (OptiType niedostepny); ncbi; depth=3,avg=3.0; gt=0/0
+  - (OptiType niedostepny; proxy tag-SNP — nie pelne typowanie alleli HLA)
+
+
+
+
 
 
 **Allele Referencyjne (Zbalansowany pruning)**
@@ -1551,7 +1635,6 @@ Przewlekła, patologiczna aktywacja immunologiczna w obrębie OUN. Autoreaktywno
 
 ---
 ### HLA-DQB1
-### HLA-DQB1
 
 * **Główny symbol genu:** HLA-DQB1
 * **Pełna nazwa biochemiczna:** Główny kompleks zgodności tkankowej, klasa II, DQ beta 1 (ang. *Major histocompatibility complex, class II, DQ beta 1*)
@@ -1561,7 +1644,12 @@ Przewlekła, patologiczna aktywacja immunologiczna w obrębie OUN. Autoreaktywno
 * **Rola biologiczna genu/białka:** Koduje podjednostkę receptora MHC klasy II na komórkach prezentujących antygen (APC). Odpowiada za inicjację odpowiedzi odpornościowej na antygeny zewnątrzkomórkowe – w tym białka pokarmowe (gluten, kazeina) oraz patogeny w świetle jelita.
 
 * **Mój genotyp (WGS):**
-  Allele HLA wymagają typowania haplotypowego (nie pojedynczego rsID); brak pełnego calla w uproszczonym WGS SNP.
+  - `rs7775228` — **TT** (ensembl+bam, low) — proxy (OptiType niedostepny); ncbi; depth=5,avg=5.0; gt=0/0
+  - (OptiType niedostepny; proxy tag-SNP — nie pelne typowanie alleli HLA)
+
+
+
+
 
 
 **Allele Neutralne (Populacyjne)**
@@ -1577,7 +1665,6 @@ Agresywna odpowiedź immunologiczna na antygeny pokarmowe. Prowadzi do enteropat
 
 ---
 ### HLA-DRB1
-### HLA-DRB1
 
 * **Główny symbol genu:** HLA-DRB1
 * **Pełna nazwa biochemiczna:** Główny kompleks zgodności tkankowej, klasa II, DR beta 1 (ang. *Major histocompatibility complex, class II, DR beta 1*)
@@ -1587,7 +1674,12 @@ Agresywna odpowiedź immunologiczna na antygeny pokarmowe. Prowadzi do enteropat
 * **Rola biologiczna genu/białka:** Kluczowy receptor MHC klasy II odpowiedzialny za prezentację antygenów limfocytom CD4+. U kobiet w ciąży obecność specyficznych wariantów HLA-DRB1 determinuje patologiczną skłonność do produkcji specyficznych autoprzeciwciał IgG skierowanych przeciwko białkom mózgowym płodu.
 
 * **Mój genotyp (WGS):**
-  Allele HLA wymagają typowania haplotypowego (nie pojedynczego rsID); brak pełnego calla w uproszczonym WGS SNP.
+  - `rs9268839` — **AA** (ensembl+bam, medium) — proxy (OptiType niedostepny); ncbi; depth=16,avg=16.0; gt=0/0
+  - (OptiType niedostepny; proxy tag-SNP — nie pelne typowanie alleli HLA)
+
+
+
+
 
 
 **Genotyp Matczyny Standardowy**
@@ -1603,7 +1695,6 @@ Wymuszona produkcja matczynych autoprzeciwciał IgG (skierowanych m.in. przeciwk
 
 ---
 ### IDO1
-### IDO1
 
 * **Główny symbol genu:** IDO1
 * **Pełna nazwa biochemiczna:** 2,3-dioksygenaza indoloaminowa 1 (ang. *Indoleamine 2,3-dioxygenase 1*)
@@ -1615,12 +1706,12 @@ Wymuszona produkcja matczynych autoprzeciwciał IgG (skierowanych m.in. przeciwk
 * **Mój genotyp (WGS):**
   `rs9657182` — **TT** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Niskiej Aktywności (Odporność na depresję zapalną):** Mimo obecności obwodowego stanu zapalnego, enzym nie ulega gwałtownej nadekspresji. Tryptofan bezpiecznie zasilają syntezę serotoniny. Wysoka rezyliencja psychiczna w trakcie infekcji.
 * **Genotyp Umiarkowany (Typ dziki):** Standardowa fizjologiczna odpowiedź immunologiczno-Metaboliczna.
 * **Genotyp Wysokiej Aktywności (Homozygota ryzyka / Nadreaktywność):** Błyskawiczna indukcja IDO1 przy minimalnym wzroście cytokin. Dochodzi do "podkradania" tryptofanu – nagły spadek serotoniny wywołuje ciężką anhedonię, stany lękowe oraz tzw. "brain fog" i zachowania chorobowe (sickness behavior).
 
 ---
-### IL6
 ### IL6
 
 * **Główny symbol genu:** IL6
@@ -1633,6 +1724,7 @@ Wymuszona produkcja matczynych autoprzeciwciał IgG (skierowanych m.in. przeciwk
 * **Mój genotyp (WGS):**
   `rs1800795` — **GG** (ensembl+bam, high) — marker_report
 * **Dopasowany profil:** Genotyp G/G (Wysoka podstawowa i reaktywna produkcja IL-6)
+
 
 
 **Genotyp C/C (Niska podstawowa produkcja IL-6)**
@@ -1648,7 +1740,6 @@ Zrównoważona odpowiedź immunologiczna; typowy profil populacyjny.
 
 ---
 ### KMO
-### KMO
 
 * **Główny symbol genu:** KMO
 * **Pełna nazwa biochemiczna:** Monooksygenaza kynureninowa (ang. *Kynurenine 3-monooxygenase*)
@@ -1660,6 +1751,7 @@ Zrównoważona odpowiedź immunologiczna; typowy profil populacyjny.
 * **Mój genotyp (WGS):**
   `rs2275163` — **CT** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Niskiej Aktywności (Wariant neuroprotekcyjny):** Kynurenina jest chętniej przekształcana przez inny enzym (KAT) do kwasu kynurenionowego (KYNA), który blokuje receptory NMDA i chroni mózg. Niższe ryzyko stanów lękowych i psychotycznych.
 * **Genotyp Pośredni:** Zrównoważony metabolizm kynurenin w OUN.
 * **Genotyp Wysokiej Aktywności (Nadekspresja KMO):** Drastyczne przesunięcie metabolizmu w stronę neurotoksycznego kwasu chinolinowego (QUIN). Powoduje chroniczny mikrostan zapalny, niszczenie astrocytów, silny lęk wolnopłynący i jest mocno powiązany z patofizjologią epizodów maniakalnych oraz depresji endogennej odpornej na leczenie.
@@ -1670,7 +1762,6 @@ Zrównoważona odpowiedź immunologiczna; typowy profil populacyjny.
 
 ---
 ### MICA
-### MICA
 
 * **Główny symbol genu:** MICA
 * **Pełna nazwa biochemiczna:** Sekwencja A powiązana z polipeptydem MHC klasy I (ang. *MHC class I polypeptide-related sequence A*)
@@ -1680,7 +1771,11 @@ Zrównoważona odpowiedź immunologiczna; typowy profil populacyjny.
 * **Rola biologiczna genu/białka:** MICA koduje białko stresu komórkowego, które nie prezentuje antygenów, lecz działa jako bezpośredni ligand dla aktywującego receptora NKG2D na komórkach NK (Natural Killer) oraz limfocytach T. Jest wskaźnikiem uszkodzenia komórki, infekcji lub przewlekłego stresu metabolicznego.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs2596542` — **CC** (ensembl+bam, low) — ncbi; depth=1,avg=1.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Alerty zbalansowane)**
@@ -1696,7 +1791,6 @@ Chroniczna, patologiczna ekspresja MICA na powierzchni astrocytów i mikrogleju 
 
 ---
 ### TDO2
-### TDO2
 
 * **Główny symbol genu:** TDO2
 * **Pełna nazwa biochemiczna:** 2,3-dioksygenaza tryptofanowa wątrobowa (ang. *Tryptophan 2,3-dioxygenase*)
@@ -1707,6 +1801,7 @@ Chroniczna, patologiczna ekspresja MICA na powierzchni astrocytów i mikrogleju 
 
 * **Mój genotyp (WGS):**
   `rs1010816` — **TT** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Niskiej Aktywności (Odporność na stresowy drenaż)**
@@ -1722,7 +1817,6 @@ Błyskawiczne "wypalanie" zapasów tryptofanu przy najmniejszym wzroście poziom
 
 ---
 ### TNFA
-### TNFA
 
 * **Główny symbol genu:** TNF (TNFA)
 * **Pełna nazwa biochemiczna:** Czynnik martwicy nowotworu alfa (ang. *Tumor necrosis factor alpha*)
@@ -1732,7 +1826,12 @@ Błyskawiczne "wypalanie" zapasów tryptofanu przy najmniejszym wzroście poziom
 * **Rola biologiczna genu/białka:** TNF-alpha to nadrzędna cytokina prozapalna kaskady immunologicznej. W mózgu jest wydzielana przez aktywowany mikroglej. Stymuluje astrocyty do masowego, patologicznego uwalniania glutaminianu (indukcja ekscytotoksyczności) przy jednoczesnym wymuszaniu endocytozy (fagocytozy) postsynaptycznych receptorów AMPA, co prowadzi do fizycznego demontażu i zaniku połączeń synaptycznych.
 
 * **Mój genotyp (WGS):**
-  `rs1800629` — brak calla
+  `rs1800629` — **GG** (ensembl+bam, medium) — ncbi; depth=8,avg=8.0; gt=0/0
+* **Dopasowany profil:** Genotyp G/G (Standardowa, niska produkcja TNF)
+
+
+
+
 
 
 **Genotyp G/G (Standardowa, niska produkcja TNF)**
@@ -1750,7 +1849,6 @@ Potężna, destrukcyjna siła zapalna. Przewlekły stan wysokiej ekspresji wywo�
 
 ## CZĘŚĆ VII. Oś stresu (HPA), hormony i modulatory behawioralne
 ### CRHR1
-### CRHR1
 
 * **Główny symbol genu:** CRHR1
 * **Pełna nazwa biochemiczna:** Receptor czynnika uwalniającego kortykotropinę 1 (ang. *Corticotropin-releasing hormone receptor 1*)
@@ -1761,6 +1859,7 @@ Potężna, destrukcyjna siła zapalna. Przewlekły stan wysokiej ekspresji wywo�
 
 * **Mój genotyp (WGS):**
   `rs11078013` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Diplotyp H1/H1 (Wysoka reaktywność osi stresu)**
@@ -1776,7 +1875,6 @@ Tłumiona odpowiedź osi HPA, skłonność do specyficznych, nietypowych reakcji
 
 ---
 ### GPR151
-### GPR151
 
 * **Główny symbol genu:** GPR151
 * **Pełna nazwa biochemiczna:** Receptor 151 sprzężony z białkiem G (ang. *G-protein coupled receptor 151*)
@@ -1787,6 +1885,7 @@ Tłumiona odpowiedź osi HPA, skłonność do specyficznych, nietypowych reakcji
 
 * **Mój genotyp (WGS):**
   `rs11652495` — **CC** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Wysoka ekspresja w uzdeczce)**
@@ -1804,7 +1903,6 @@ Osłabienie sygnalizacji w "węźle rozczarowania". Mózg słabiej rejestruje ne
 
 ---
 ### NR3C1
-### NR3C1
 
 * **Główny symbol genu:** NR3C1
 * **Pełna nazwa biochemiczna:** Receptor glukokortykoidowy (ang. *Nuclear receptor subfamily 3 group C member 1*)
@@ -1814,14 +1912,18 @@ Osłabienie sygnalizacji w "węźle rozczarowania". Mózg słabiej rejestruje ne
 * **Rola biologiczna genu/białka:** Koduje receptor GR, który wiąże kortyzol i działa jako czynnik transkrypcyjny wygaszający oś stresu HPA poprzez ujemne sprzężenie zwrotne. Odpowiada za biochemiczne "zresetowanie" organizmu po ustąpieniu zagrożenia.
 
 * **Mój genotyp (WGS):**
-  `rs41423247` — NOT_IN_DBSNP
+  `rs41423247` — **GG** (ensembl+bam, high) — ensembl; depth=35,avg=35.0; gt=0/0
+* **Dopasowany profil:** Wariant G/G (Wysoka czułość na kortyzol / Podatność na stres):
+
+
+
+
 
 * **Wariant G/G (Wysoka czułość na kortyzol / Podatność na stres):** Nadreaktywność na glukokortykoidy. Błyskawiczne wygaszanie osi HPA, ale kosztem skłonności do chronicznie niskiego poziomu spoczynkowego kortyzolu (hipokortyzolemia). Silna korelacja z zespołem stresu pourazowego (PTSD), wypaleniem zawodowym i chronicznym zmęczeniem.
 * **Wariant C/G (Pośredni):** Prawidłowa, plastyczna odpowiedź receptorowa na stres środowiskowy.
 * **Wariant C/C (Niska czułość na kortyzol / Rezyliencja):** Zmniejszona wrażliwość receptora GR. Oś HPA potrzebuje więcej czasu na wygaszenie (dłuższy wyrzut kortyzolu), co daje wysoką wrodzoną odporność na traumę psychologiczną i brak ulegania paraliżowi w kryzysie.
 
 ---
-### NR3C2
 ### NR3C2
 
 * **Główny symbol genu:** NR3C2
@@ -1833,6 +1935,7 @@ Osłabienie sygnalizacji w "węźle rozczarowania". Mózg słabiej rejestruje ne
 
 * **Mój genotyp (WGS):**
   `rs5522` — **TT** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp A/A (Wariant referencyjny / Optymalna czułość MR)**
@@ -1850,7 +1953,6 @@ Słabsze wiązanie spoczynkowego kortyzolu. Powoduje chroniczne, kompensacyjne p
 
 ## CZĘŚĆ VIII. Kanały jonowe i homeostaza elektrofizjologiczna
 ### CACNB2
-### CACNB2
 
 * **Główny symbol genu:** CACNB2
 * **Pełna nazwa biochemiczna:** Podjednostka beta-2 napięciowo-zależnego kanału wapniowego (ang. *Calcium voltage-gated channel subunit beta 2*)
@@ -1862,6 +1964,7 @@ Słabsze wiązanie spoczynkowego kortyzolu. Powoduje chroniczne, kompensacyjne p
 * **Mój genotyp (WGS):**
   `rs1051375` — **GA** (query_rsid, high)
 
+
 * **Genotyp Referencyjny (Stabilny prąd wapniowy):** Precyzyjne dozowanie jonów wapnia. Zrównoważona odpowiedź synaptyczna, stabilna transmisja sygnałów bez generowania szumu elektrofizjologicznego.
 * **Genotyp Pośredni:** Prawidłowe populacyjne funkcjonowanie kanałów napięciowych.
 * **Genotyp Ryzyka (Homozygota GWAS):** Patologiczne wydłużenie czasu otwarcia kanału wapniowego. Powoduje przewlekły nadmiar intracelularnego wapnia w neuronach kory przedczołowej i struktur limbicznych. W międzynarodowych megabadaniach genetycznych PGC wariant ten okazał się **wspólnym mianownikiem plejotropowym**, podnoszącym u tego samego pacjenta ryzyko jednoczesnego wystąpienia: ADHD, ChAD, schizofrenii oraz ciężkiej depresji nawracającej.
@@ -1872,7 +1975,6 @@ Słabsze wiązanie spoczynkowego kortyzolu. Powoduje chroniczne, kompensacyjne p
 
 ---
 ### HCN1
-### HCN1
 
 * **Główny symbol genu:** HCN1
 * **Pełna nazwa biochemiczna:** Kanał potasowo-sodowy aktywowany hiperpolaryzacją i modulowany cyklicznymi nukleotydami 1 (ang. *Hyperpolarization activated cyclic nucleotide gated potassium channel 1*)
@@ -1882,14 +1984,17 @@ Słabsze wiązanie spoczynkowego kortyzolu. Powoduje chroniczne, kompensacyjne p
 * **Rola biologiczna genu/białka:** Koduje kanał generujący prąd rozrusznikowy $I_h$. Kanał ten otwiera się paradoksalnie przy *hiperpolaryzacji* błony, generując dokomórkowy prąd depolaryzacyjny. Odpowiada za generowanie rytmicznej aktywności oscylacyjnej sieci neuronalnych (szczególnie w hipokampie i korze) oraz kontroluje spoczynkowy potencjał błonowy.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs789088` — **CC** (ensembl+bam, high) — ncbi; depth=62,avg=62.0; gt=0/0
+
+
+
+
 
 * **Typ Dziki (Prawidłowa kinetyka Ih):** Stabilne oscylacje sieciowe (rytm theta i gamma), niezbędne do prawidłowego kodowania informacji przestrzennych i pamięciowych. Ochrona neuronów przed nadmiernym wyciszeniem lub hiperreaktywnością.
 * **Warianty Populacyjne (Łagodne przesunięcia napięciowe):** Drobne modyfikacje w amplitudzie oscylacji, wpływające na indywidualne predyspozycje do głębokości faz snu.
 * **Mutacja Patogenna (De novo GoF lub LoF):** Katastrofalna destabilizacja elektryczna mózgu. Mutacje zwiększające funkcję (GoF) wywołują ciężką, wczesnodziecięcą encefalopatię padaczkową (zespół o charakterze zbliżonym do zespołu Dravet) z głęboką regresją rozwoju intelektualnego, ataksją ruchową i utratą kompetencji komunikacyjnych (ASD).
 
 ---
-### KCNN2
 ### KCNN2
 
 * **Główny symbol genu:** KCNN2
@@ -1900,7 +2005,11 @@ Słabsze wiązanie spoczynkowego kortyzolu. Powoduje chroniczne, kompensacyjne p
 * **Rola biologiczna genu/białka:** Koduje kanał potasowy SK2, który otwiera się w odpowiedzi na wzrost stężenia intracelularnego wapnia. Generuje prąd hiperpolaryzacji pościegłowej (AHP), pełniąc funkcję "hamulca bezpieczeństwa" – ogranicza częstotliwość wyładowań neuronu i chroni go przed przestymulowaniem. Kluczowy dla plastyczności synaptycznej w hipokampie.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs6480535` — **TT** (ensembl+bam, high) — ncbi; depth=45,avg=45.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Wysokiej Aktywności (Silne hamowanie)**
@@ -1916,7 +2025,6 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 
 ---
 ### KCNQ3
-### KCNQ3
 
 * **Główny symbol genu:** KCNQ3
 * **Pełna nazwa biochemiczna:** Napięciowo-zależny kanał potasowy, podrodzina Q, składowa 3 (ang. *Potassium voltage-gated channel subfamily Q member 3*)
@@ -1928,6 +2036,7 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 * **Mój genotyp (WGS):**
   `rs13271739` — **CG** (ensembl+bam, high) — marker_report
 
+
 * **Typ Dziki (Maksymalna stabilizacja błonowa):** Wydajne tłumienie seryjnych wyładowań. Wysoki próg drgawkowy, doskonała ochrona przed przestymulowaniem sensorycznym, stabilna praca sieci korowych.
 * **Warianty Populacyjne (Subtelne wahania ekspresji):** Niewielkie różnice w podatności na zmęczenie neuroelektryczne; sporadyczne bóle głowy typu migrenowego przy przeciążeniach bodźcami.
 * **Mutacja Patogenna (LoF - Utrata funkcji):** Łagodne rodzinne drgawki noworodków (BFNC) lub ciężkie encefalopatie neurorozwojowe. Brak prądu M powoduje, że neurony po pojedynczym bodźcu wpadają w niekontrolowane, permanentne serie wyładowań. Efekt kliniczny: ciężka hiperreaktywność sensoryczna, zaburzenia uwagi, niepełnosprawność intelektualna i autyzm.
@@ -1935,7 +2044,6 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 ---
 
 ## CZĘŚĆ IX. Adhezja, migracja neuronów i architektura synaptyczna
-### CSMD1
 ### CSMD1
 
 * **Główny symbol genu:** CSMD1
@@ -1948,12 +2056,12 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 * **Mój genotyp (WGS):**
   `rs10503253` — **CC** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Referencyjny (Wysoka ochrona synaps):** Precyzyjne blokowanie dopełniacza. Wysoka gęstość połączeń korowych, doskonała pamięć, prawidłowa plastyczność i pełna odporność na patologiczny pruning (przycinanie).
 * **Genotyp Pośredni (Heterozygota):** Zrównoważona dynamika ochrony i eliminacji połączeń synaptycznych.
 * **Genotyp Ryzyka (Niska ekspresja / Sygnał GWAS):** Drastyczny spadek ochrony synaptycznej. Białko C4A bez przeszkód znakuje zdrowe, aktywne połączenia neuronalne. Mikroglej masowo niszczy sieć synaptyczną w korze przedczołowej. Wariant ten jest jednym z najbardziej powtarzalnych sygnałów w genomicznych badaniach nad schizofrenią, spektrum autyzmu oraz zaburzeniami poznawczymi.
 
 ---
-### DCC
 ### DCC
 
 * **Główny symbol genu:** DCC
@@ -1966,12 +2074,12 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 * **Mój genotyp (WGS):**
   `rs715` — **TC** (ensembl+bam, high) — marker_report
 
+
 * **Typ Dziki (Prawidłowa lateralizacja i spoidła):** Perfekcyjne uformowanie połączeń międzypółkulowych. Prawidłowe skrzyżowanie dróg korowo-rdzeniowych, wysoka koordynacja ruchów obustronnych (biliterealnych), prawidłowa lateralizacja funkcji mózgowych.
 * **Warianty Populacyjne (Łagodne):** Subtelne różnice w gęstości włókien spoidłowych, wpływające na indywidualny profil asymetrii półkulowej.
 * **Mutacja Patogenna (Heterozygota LoF):** Wywołuje **wrodzone ruchy lustrzane** (ang. *congenital mirror movements*) – patologię, w której ruch jednej ręki jest bezwiednie i symetrycznie kopiowany przez drugą rękę z powodu braku skrzyżowania dróg nerwowych. Ponadto mutacje w tym genie silnie korelują z agenezją ciała modzelowatego, głęboką niepełnosprawnością intelektualną oraz fenotypem autystycznym.
 
 ---
-### FURIN
 ### FURIN
 
 * **Główny symbol genu:** FURIN
@@ -1984,6 +2092,7 @@ Utrata kontroli nad wygaszaniem pobudzenia. Przewlekła hiperaktywność sieci n
 * **Mój genotyp (WGS):**
   `rs4702` — **GA** (ensembl+bam, high) — marker_report
 * **Dopasowany profil:** Genotyp A/G (Umiarkowany)
+
 
 
 **Genotyp A/A (Wysoka wydajność Furin / Pro-kognitywny)**
@@ -2001,7 +2110,6 @@ Znaczny spadek ekspresji tkankowej Furin. Nadmiar proBDNF kosztem niedoboru funk
 
 ---
 ### NCAM1
-### NCAM1
 
 * **Główny symbol genu:** NCAM1
 * **Pełna nazwa biochemiczna:** Cząsteczka adhezji komórek nerwowych 1 (ang. *Neural cell adhesion molecule 1*)
@@ -2012,6 +2120,7 @@ Znaczny spadek ekspresji tkankowej Furin. Nadmiar proBDNF kosztem niedoboru funk
 
 * **Mój genotyp (WGS):**
   `rs1943620` — **GA** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Prawidłowa adhezja i stabilizacja synaps)**
@@ -2027,7 +2136,6 @@ Zaburzenia mechanicznej stabilności synaps i osłabienie sygnalizacji neurotrof
 
 ---
 ### NCAN
-### NCAN
 
 * **Główny symbol genu:** NCAN
 * **Pełna nazwa biochemiczna:** Neurokan (ang. *Neurocan*)
@@ -2040,12 +2148,12 @@ Zaburzenia mechanicznej stabilności synaps i osłabienie sygnalizacji neurotrof
   `rs1064395` — **GG** (ensembl+bam, high) — marker_report
 * **Dopasowany profil:** Genotyp G/G (Wariant ryzyka afektywnego):
 
+
 * **Genotyp A/A (Wariant standardowy):** Stabilna, prawidłowo uwodniona macierz zewnątrzkomórkowa. Dobrze wykształcone sieci perineuronalne chroniące neurony GABAergiczne, wysoka stabilność neurochemiczna.
 * **Genotyp A/G (Pośredni):** Standardowa elastyczność i gęstość macierzy tkanki nerwowej.
 * **Genotyp G/G (Wariant ryzyka afektywnego):** Zmieniona struktura neurokanu upośledza formowanie sieci perineuronalnych wokół neuronów hamujących. Skutkuje to utratą osłony komórkowej i podatnością na destabilizację elektrofizjologiczną. W badaniach genomicznych wariant ten wykazuje potężną, powtarzalną asocjację z **chorobą afektywną dwubiegunową (ChAD)**, manią oraz epizodami psychotycznymi.
 
 ---
-### NEGR1
 ### NEGR1
 
 * **Główny symbol genu:** NEGR1
@@ -2056,7 +2164,11 @@ Zaburzenia mechanicznej stabilności synaps i osłabienie sygnalizacji neurotrof
 * **Rola biologiczna genu/białka:** Białko zakotwiczone w błonie przez GPI, należące do rodziny IgLON. Kontroluje wzrost neurytów, powstawanie wypustek synaptycznych oraz fizyczne dopasowanie struktur komórkowych w hipokampie. Ponadto wykazuje silną ekspresję w podwzgórzu, kontrolując anatomię obwodów łaknienia.
 
 * **Mój genotyp (WGS):**
-  `rs3101336` — NOT_IN_DBSNP
+  `rs3101336` — **CC** (ensembl+bam, high) — ensembl; depth=56,avg=56.0; gt=1/1
+
+
+
+
 
 
 **Genotyp Referencyjny (Wariant prokognitywny / Ochronny przed otyłością)**
@@ -2072,7 +2184,6 @@ Zmniejszenie gęstości synaptycznej w hipokampie przy jednoczesnym rozregulowan
 
 ---
 ### PCDHG
-### PCDHG
 
 * **Główny symbol genu:** PCDHG (locus obejmujący geny od A1 do C5)
 * **Pełna nazwa biochemiczna:** Protokadheryny gamma (ang. *Protocadherin gamma gene cluster*)
@@ -2083,6 +2194,7 @@ Zmniejszenie gęstości synaptycznej w hipokampie przy jednoczesnym rozregulowan
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Prawidłowa Ekspresja Klastra (Maksymalna różnorodność kodów)**
@@ -2098,7 +2210,6 @@ Katastrofalne zaburzenie samo-unikania. Dendryty gubią drogę, tworząc patolog
 
 ---
 ### PTPRE
-### PTPRE
 
 * **Główny symbol genu:** PTPRE
 * **Pełna nazwa biochemiczna:** Receptorowa fosfataza tyrozynowa typu E (ang. *Protein tyrosine phosphatase receptor type E*)
@@ -2109,6 +2220,7 @@ Katastrofalne zaburzenie samo-unikania. Dendryty gubią drogę, tworząc patolog
 
 * **Mój genotyp (WGS):**
   `rs708453` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Zrównoważona defosforylacja)**
@@ -2124,7 +2236,6 @@ Utrata kontroli nad wygaszaniem kinaz Src. Skutkuje chroniczną nadreaktywności
 
 ---
 ### PTPRF
-### PTPRF
 
 * **Główny symbol genu:** PTPRF
 * **Pełna nazwa biochemiczna:** Receptorowa fosfataza tyrozynowa typu F (ang. *Protein tyrosine phosphatase receptor type F / LAR phosphatase*)
@@ -2136,6 +2247,7 @@ Utrata kontroli nad wygaszaniem kinaz Src. Skutkuje chroniczną nadreaktywności
 * **Mój genotyp (WGS):**
   - `rs1049581` — **AG** (ensembl+bam, high) — marker_report
   - `rs10996110` — **GG** (ensembl, high) — ensembl; depth=59,avg=59.0; gt=0/0
+
 
 
 **Typ Dziki (Prawidłowa gęstość synaptyczna)**
@@ -2153,7 +2265,6 @@ Osłabienie strukturalnego wiązania synaptycznego. Prowadzi do przedwczesnej de
 
 ---
 ### RET
-### RET
 
 * **Główny symbol genu:** RET
 * **Pełna nazwa biochemiczna:** Protoonkogen RET, receptorowa kinaza tyrozynowa (ang. *RET proto-oncogene*)
@@ -2164,6 +2275,7 @@ Osłabienie strukturalnego wiązania synaptycznego. Prowadzi do przedwczesnej de
 
 * **Mój genotyp (WGS):**
   `rs1800858` — **AG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Prawidłowa ekspresja RET)**
@@ -2179,7 +2291,6 @@ Skłonność do czynnościowych zaburzeń jelitowych (np. IBS o typie zaparciowy
 
 ---
 ### RIMS1
-### RIMS1
 
 * **Główny symbol genu:** RIMS1
 * **Pełna nazwa biochemiczna:** Białko regulujące uwalnianie neurotransmiterów 1 (ang. *Regulating synaptic membrane exocytosis 1*)
@@ -2192,19 +2303,19 @@ Skłonność do czynnościowych zaburzeń jelitowych (np. IBS o typie zaparciowy
   `rs11064560` — **TT** (ensembl+bam, high) — marker_report
 
 
-**Typ Dziki (Precyzyjny, synchroniczny wyrzut pęcherzyków)**
+
+**G/G (Typ referencyjny)**
 Perfekcyjna synchronizacja neurotransmisji bez opóźnień i szumów tła. Optymalna plastyczność synaptyczna krótko- i długoterminowa, wysoka sprawność przetwarzania bodźców sensorycznych.
 
-**Warianty Populacyjne (Łagodne)**
+**G/T (Wariant heterozygoticzny)**
 Subtelne, bezobjawowe różnice w kinetyce wyrzutu neurotransmiterów, w pełni kompensowane homeostatycznie.
 
-**Wariant Patogenny / Ryzyka (LoF / Sygnał GWAS)**
-Asynchronia i rozkoordynowanie wyrzutu pęcherzyków (patologiczny szum synaptyczny). Skutkuje załamaniem mechanizmów plastyczności synaptycznej, manifestując się klinicznie deficytami poznawczymi, wysoką podatnością na schizofrenię oraz cechami autystycznymi (ASD).
+**T/T (Homozygota alleliczna T)**
+Typowy profil populacyjny tag-SNP rs11064560. Nie oznacza mutacji LoF ani klinicznego ryzyka schizofrenii — rzadkie LoF wymagają sekwencjonowania.
 
 ---
 
 ---
-### SHISA9
 ### SHISA9
 
 * **Główny symbol genu:** SHISA9
@@ -2215,7 +2326,12 @@ Asynchronia i rozkoordynowanie wyrzutu pęcherzyków (patologiczny szum synaptyc
 * **Rola biologiczna genu/białka:** Koduje CKAMP44 – integralną podjednostkę pomocniczą postsynaptycznych receptorów glutaminianergicznych AMPA. CKAMP44 precyzyjnie kontroluje kinetykę desensytyzacji (odczulenia) oraz deaktywacji receptorów AMPA, bezpośrednio modyfikując siłę, amplitudę i czas trwania pobudzającego prądu synaptycznego.
 
 * **Mój genotyp (WGS):**
-  `rs117039014` — NOT_IN_DBSNP
+  - `rs117039014` — NOT_IN_DBSNP
+  - `rs7192086` — **AA** (ensembl+bam, high) — ncbi; depth=55,avg=55.0; gt=1/1; GWAS lead SHISA9
+
+
+
+
 
 
 **Typ Dziki (Zbalansowana kinetyka AMPA)**
@@ -2231,7 +2347,6 @@ Opóźnienie wygaszania prądu lub zaburzenie odczulania receptorów AMPA, prowa
 
 ---
 ### THSD7A
-### THSD7A
 
 * **Główny symbol genu:** THSD7A
 * **Pełna nazwa biochemiczna:** Domena trombospondyny typu 1 zawierająca białko 7A (ang. *Thrombospondin type 1 domain-containing protein 7A*)
@@ -2242,6 +2357,7 @@ Opóźnienie wygaszania prądu lub zaburzenie odczulania receptorów AMPA, prowa
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Ekspresja optymalna)**
@@ -2257,7 +2373,6 @@ Utrata integralności mechanicznej i funkcjonalnej synaps. Osłabienie adhezji k
 
 ---
 ### TIE1
-### TIE1
 
 * **Główny symbol genu:** TIE1
 * **Pełna nazwa biochemiczna:** Receptorowa kinaza tyrozynowa śródbłonka 1 (ang. *Tyrosine kinase with immunoglobulin like and EGF like domains 1*)
@@ -2269,6 +2384,7 @@ Utrata integralności mechanicznej i funkcjonalnej synaps. Osłabienie adhezji k
 * **Mój genotyp (WGS):**
   - `rs2230026` — **AA** (ensembl+bam, high) — marker_report
   - `rs2797285` — **GG** (ensembl, high) — ensembl; depth=39,avg=39.0; gt=1/1
+
 
 
 **Typ Dziki (Maksymalna szczelność naczyń)**
@@ -2286,7 +2402,6 @@ Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczel
 
 ## CZĘŚĆ X. Czynniki transkrypcyjne i cytoarchitektura kory
 ### GSK3B
-### GSK3B
 
 * **Główny symbol genu:** GSK3B
 * **Pełna nazwa biochemiczna:** Syntaza kinazy glikogenu 3 beta (ang. *Glycogen synthase kinase 3 beta*)
@@ -2298,12 +2413,12 @@ Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczel
 * **Mój genotyp (WGS):**
   `rs3025366` — **CC** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp Niskiej Aktywności (Neuroprotekcyjny):** Stabilnie niska podstawowa aktywność kinazy. Promuje przeżywalność neuronów, chroni przed patologiczną hiperfosforylacją białka tau i zapewnia wysoką rezyliencję na stres psychofizyczny.
 * **Genotyp Umiarkowany (Typ dziki):** Zrównoważony metabolizm komórkowy i plastyczność synaptyczna w normie.
 * **Genotyp Wysokiej Aktywności (Konstrukcja ryzyka afektywnego):** Chroniczna nadaktywność enzymu. Przyspiesza degradację neuroplastyczną, destabilizuje nastrój i indukuje podatność na ciężkie, nawracające epizody depresyjne oraz afektywne dwubiegunowe. Silny marker zapotrzebowania na terapię jonami litu.
 
 ---
-### PDE4B
 ### PDE4B
 
 * **Główny symbol genu:** PDE4B
@@ -2314,7 +2429,11 @@ Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczel
 * **Rola biologiczna genu/białka:** Hydrolizuje cykliczny AMP (cAMP) – kluczowy wtórny przekaźnik informacji w neuronie. PDE4B tworzy kompleks strukturalny z białkiem DISC1 (Disrupted in Schizophrenia 1). Kontroluje siłę sygnału niezbędnego do aktywacji czynnika CREB, co decyduje o konsolidacji pamięci i plastyczności synaptycznej.
 
 * **Mój genotyp (WGS):**
-  `rs7412571` — NOT_IN_DBSNP
+  `rs7412571` — **TT** (ensembl+bam, high) — ensembl; depth=43,avg=43.0; gt=0/0
+
+
+
+
 
 * **Genotyp Niskiej Aktywności (Wariant prokognitywny):** Wolniejsze rozkładanie cAMP. Wyższe stężenia drugiego przekaźnika stymulują plastyczność synaptyczną, podnosząc sprawność uczenia się, pamięci długotrwałej i elastyczności poznawczej.
 * **Genotyp Umiarkowany (Typ dziki):** Prawidłowa homeostaza nukleotydów cyklicznych w neuronach.
@@ -2323,7 +2442,6 @@ Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczel
 ---
 
 ## CZĘŚĆ XI. Modyfikacje RNA, translacja i epigenetyka enzymatyczna
-### LSM6
 ### LSM6
 
 * **Główny symbol genu:** LSM6
@@ -2336,6 +2454,7 @@ Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczel
 * **Mój genotyp (WGS):**
   - `rs1051566` — **CC** (ensembl+bam, high) — marker_report
   - `rs13107325` — **CT** (ensembl, high) — ensembl; depth=53,avg=53.0; gt=0/1
+
 
 
 **Typ Dziki (Prawidłowy splicing i klirens RNA)**
@@ -2351,7 +2470,6 @@ Subtelne opóźnienia w degradacji zużytych nici mRNA w kolcach dendrytycznych,
 
 ---
 ### NSUN2
-### NSUN2
 
 * **Główny symbol genu:** NSUN2
 * **Pełna nazwa biochemiczna:** Metylotransferaza RNA 2 (ang. *NOP2/Sun RNA methyltransferase 2*)
@@ -2361,7 +2479,11 @@ Subtelne opóźnienia w degradacji zużytych nici mRNA w kolcach dendrytycznych,
 * **Rola biologiczna genu/białka:** NSUN2 odpowiada za metylację cytozyny do 5-metylocytozyny (m5C) w cząsteczkach tRNA, mRNA i niekodujących RNA. Metylacja ta chroni tRNA przed pękaniem i degradacją pod wpływem stresu komórkowego. Jest to absolutnie krytyczne dla precyzji i tempa translacji białek strukturalnych rozwijającego się mózgu.
 
 * **Mój genotyp (WGS):**
-  `rs11553556` — NOT_IN_DBSNP
+  `rs11553556` — **CC** (ensembl+bam, high) — ensembl; depth=51,avg=51.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Pełna ochrona i stabilność RNA)**
@@ -2377,17 +2499,17 @@ Brak metylacji m5C skutkuje masowym cięciem tRNA przez endonukleazy. Blokada tr
 
 ---
 ### NSUN6
-### NSUN6
 
 * **Główny symbol genu:** NSUN6
 * **Pełna nazwa biochemiczna:** Metylotransferaza RNA 6 (ang. *NOP2/Sun RNA methyltransferase 6*)
 * **Nazwy potoczne i medialne:** Precyzyjny kalibrator translacji synaptycznej
-* **Główny rsID:** rs2241604
-* **Lokalizacja chromosomalna:** Chromosom 10 (10p12.1)
+* **Główny rsID:** brak tag-SNP (region bez wspólnych SNV w WGS)
+* **Lokalizacja chromosomalna:** Chromosom 10 (10q21.1, ~18.5 Mb hg38)
 * **Rola biologiczna genu/białka:** Podobnie jak NSUN2, wprowadza modyfikacje m5C, lecz wykazuje wysoce specyficzne powinowactwo do konkretnych pozycji (C72 i C73) w pętlach akceptorowych tRNA dla cysteiny i treoniny. Decyduje o ostatecznym dopasowaniu przestrzennym tRNA i jego wydajności w rybosomach podczas budowania specyficznych białek receptorowych.
 
 * **Mój genotyp (WGS):**
-  `rs2241604` — NOT_IN_DBSNP
+  Brak populacyjnego tag-SNP w ciele genu — ocena wyłącznie sekwencyjna (rs2241604 w panelu mapuje błędnie na chr5).
+
 
 
 **Typ Dziki (Precyzyjna translacja)**
@@ -2403,7 +2525,6 @@ Zwolnienie kinetyki translacji specyficznych izoform białek synaptycznych, wywo
 
 ---
 ### QTRT1
-### QTRT1
 
 * **Główny symbol genu:** QTRT1
 * **Pełna nazwa biochemiczna:** Podjednostka katalityczna transferazy queuine-tRNA 1 (ang. *Queuine tRNA-ribosyltransferase catalytic subunit 1*)
@@ -2414,6 +2535,7 @@ Zwolnienie kinetyki translacji specyficznych izoform białek synaptycznych, wywo
 
 * **Mój genotyp (WGS):**
   `rs2290432` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Maksymalna integracja mikroskładnika)**
@@ -2429,7 +2551,6 @@ Upośledzenie modyfikacji tRNA przy promowaniu niestabilności rybosomalnej. Sko
 
 ---
 ### RPS26
-### RPS26
 
 * **Główny symbol genu:** RPS26
 * **Pełna nazwa biochemiczna:** Białko rybosomalne S26 (ang. *Ribosomal protein S26*)
@@ -2441,6 +2562,7 @@ Upośledzenie modyfikacji tRNA przy promowaniu niestabilności rybosomalnej. Sko
 * **Mój genotyp (WGS):**
   - `rs11171739` — **CT** (ensembl+bam, high) — marker_report
   - `rs3760707` — **TT** (ensembl, high) — ensembl; depth=45,avg=45.0; gt=0/0
+
 
 
 **Genotyp Referencyjny (Prawidłowa selekcja stresowa)**
@@ -2458,7 +2580,6 @@ Zaburzenie dystrybucji rybosomalnej i utrata kontroli nad translacją specyficzn
 
 ---
 ### TRMT61A
-### TRMT61A
 
 * **Główny symbol genu:** TRMT61A
 * **Pełna nazwa biochemiczna:** Katalityczna podjednostka tRNA metylotransferazy 61A (ang. *tRNA methyltransferase 61 subunit A*)
@@ -2469,6 +2590,7 @@ Zaburzenie dystrybucji rybosomalnej i utrata kontroli nad translacją specyficzn
 
 * **Mój genotyp (WGS):**
   `rs2275608` — **TT** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Maksymalna stabilność translacji)**
@@ -2484,7 +2606,6 @@ Wzrost niestabilności translacyjnej, prowadzący do aktywacji komórkowego szla
 
 ---
 ### TYW5
-### TYW5
 
 * **Główny symbol genu:** TYW5
 * **Pełna nazwa biochemiczna:** Białko 5 syntetyzujące wybutozynę tRNA (ang. *tRNA wybutosine-synthesizing protein 5*)
@@ -2495,6 +2616,7 @@ Wzrost niestabilności translacyjnej, prowadzący do aktywacji komórkowego szla
 
 * **Mój genotyp (WGS):**
   `rs12140417` — **CC** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Bezbłędny odczyt kodu)**
@@ -2512,7 +2634,6 @@ Utrata wybutozyny w tRNA-Phe powoduje masowe błędy i powstawanie uciętych, ni
 
 ## CZĘŚĆ XII. Foliany, metylacja i szlaki metaboliczne
 ### CBS
-### CBS
 
 * **Główny symbol genu:** CBS
 * **Pełna nazwa biochemiczna:** Beta-syntaza cystationiny (ang. *Cystathionine beta-synthase*)
@@ -2523,6 +2644,7 @@ Utrata wybutozyny w tRNA-Phe powoduje masowe błędy i powstawanie uciętych, ni
 
 * **Mój genotyp (WGS):**
   `rs234706` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Wariant C/C (Aktywność zrównoważona / Typ dziki)**
@@ -2538,7 +2660,6 @@ Całkowity blok enzymatyczny. Ekstremalna akumulacja homocysteiny i metioniny. O
 
 ---
 ### DHFR
-### DHFR
 
 * **Główny symbol genu:** DHFR
 * **Pełna nazwa biochemiczna:** Reduktaza dihydrofolianu (ang. *Dihydrofolate reductase*)
@@ -2548,7 +2669,11 @@ Całkowity blok enzymatyczny. Ekstremalna akumulacja homocysteiny i metioniny. O
 * **Rola biologiczna genu/białka:** DHFR redukuje dihydrofolian do tetrahydrofolianu (THF). Jest to absolutnie kluczowy etap cyklu folianowego, niezbędny do syntezy puryn, tymidylanów oraz remetylacji homocysteiny do metioniny (która generuje SAMe – główny kofaktor dla COMT). Wpływa bezpośrednio na syntezę neurotransmiterów oraz kofaktora BH4.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs1650699` — **TT** (ensembl+bam, high) — ncbi; depth=49,avg=49.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Ins/Ins (Wysoka wydajność enzymatyczna)**
@@ -2564,7 +2689,6 @@ Wyraźny spadek sprawności szlaku folianowego. Skutkuje zaburzeniami remetylacj
 
 ---
 ### MC4R
-### MC4R
 
 * **Główny symbol genu:** MC4R
 * **Pełna nazwa biochemiczna:** Receptor melanokortyny 4 (ang. *Melanocortin 4 receptor*)
@@ -2576,6 +2700,7 @@ Wyraźny spadek sprawności szlaku folianowego. Skutkuje zaburzeniami remetylacj
 * **Mój genotyp (WGS):**
   `rs17782344` — **TT** (ensembl+bam, high) — marker_report
 * **Dopasowany profil:** Genotyp T/T (Typ dziki / Prawidłowa kontrola łaknienia)
+
 
 
 **Genotyp T/T (Typ dziki / Prawidłowa kontrola łaknienia)**
@@ -2591,7 +2716,6 @@ Drastyczne upośledzenie sygnału sytości w podwzgórzu (mózg stale interpretu
 
 ## CZĘŚĆ XIII. Farmakogenetyka, detoksykacja i bariera krew–mózg
 ### ABCB1
-### ABCB1
 
 * **Główny symbol genu:** ABCB1
 * **Pełna nazwa biochemiczna:** Glikoproteina P (ang. *ATP-binding cassette sub-family B member 1*)
@@ -2603,12 +2727,12 @@ Drastyczne upośledzenie sygnału sytości w podwzgórzu (mózg stale interpretu
 * **Mój genotyp (WGS):**
   `rs1045642` — **AA** (ensembl+bam, high) — marker_report
 
+
 * **Genotyp C/C (Wysoka ekspresja P-gp):** "Bariera pancerna". Wyjątkowo wydajne oczyszczanie mózgu z toksyn i substancji obcych. Skutek kliniczny: wysoka oporność na farmakoterapię psychiatryczną (leki nie mogą osiągnąć stężenia terapeutycznego w OUN, wymagane wyższe dawki).
 * **Genotyp C/T (Ekspresja umiarkowana):** Standardowa, prawidłowa przepuszczalność bariery krew-mózg dla większości cząsteczek leczniczych.
 * **Genotyp T/T (Niska ekspresja P-gp):** "Bariera nieszczelna". Pompa działa słabo, pozwalając lekom i toksynom na swobodną penetrację i akumulację w tkance mózgowej. Skutek kliniczny: **ekstremalna podatność na toksyczność i skutki uboczne leków** nawet przy minimalnych dawkach (np. natychmiastowe objawy pozapiramidowe po neuroleptykach lub silna sedacja).
 
 ---
-### ABCB6
 ### ABCB6
 
 * **Główny symbol genu:** ABCB6
@@ -2620,6 +2744,7 @@ Drastyczne upośledzenie sygnału sytości w podwzgórzu (mózg stale interpretu
 
 * **Mój genotyp (WGS):**
   `rs1482110` — **TT** (ensembl+bam, high) — marker_report
+
 
 
 **Genotyp Referencyjny (Wysoka neuroprotekcja)**
@@ -2635,7 +2760,6 @@ Zwiększona wrażliwość mitochondriów na stres oksydacyjny i uszkodzenia wywo
 
 ---
 ### CYP2B6
-### CYP2B6
 
 * **Główny symbol genu:** CYP2B6
 * **Pełna nazwa biochemiczna:** Cytochrom P450, podrodzina 2, podgrupa B, polipeptyd 6 (ang. *Cytochrome P450 family 2 subfamily B member 6*)
@@ -2645,14 +2769,17 @@ Zwiększona wrażliwość mitochondriów na stres oksydacyjny i uszkodzenia wywo
 * **Rola biologiczna genu/białka:** Enzym mikrosomalny wątroby (ale wykazujący też ekspresję lokalną w mózgu). Odpowiada za główny szlak metaboliczny (hydroksylację) bupropionu (stosowanego w ADHD i rzucaniu palenia), efawirenzu oraz anestetyków/dysocjantów (ketamina, propofol).
 
 * **Mój genotyp (WGS):**
-  `rs3745274` — NOT_IN_DBSNP
+  `rs3745274` — **GG** (ensembl+bam, high) — ensembl; depth=51,avg=51.0; gt=0/0
+
+
+
+
 
 * Allel *1/*1 (Szybki metabolizator - EM):** Prawidłowa prędkość rozkładu leków. Stabilne, przewidywalne okno terapeutyczne dla bupropionu i ketaminy.
 * Allel *1/*6 (Pośredni metabolizator - IM):** Umiarkowane zwolnienie klirensu lekowego; standardowe dawkowanie jest zazwyczaj dobrze tolerowane.
 * Allel *6/*6 (Wolny metabolizator - PM):** Katastrofalny spadek aktywności enzymatycznej. Bupropion nie jest przekształcany do aktywnego metabolitu (hydroksybupropionu), co znosi jego skuteczność w ADHD, wywołując jednocześnie gigantyczną akumulację formy macierzystej leku. Skutkuje to drastycznym obniżeniem progu drgawkowego, ciężkimi stanami lękowymi, bezsennością i objawami neurotoksycznymi przy standardowych dawkach.
 
 ---
-### CYP3A4
 ### CYP3A4
 
 * **Główny symbol genu:** CYP3A4
@@ -2664,6 +2791,7 @@ Zwiększona wrażliwość mitochondriów na stres oksydacyjny i uszkodzenia wywo
 
 * **Mój genotyp (WGS):**
   `rs11568824` — **CC** (ensembl+bam, high) — marker_report
+
 
 
 Allel *1/*1 (Szybki metabolizator - EM)**
@@ -2681,7 +2809,6 @@ Wyraźny spadek aktywności enzymatycznej o 40-50%. Drastyczne spowolnienie elim
 
 ## CZĘŚĆ XIV. Transportery, lizosomy, naprawa DNA i markery strukturalne
 ### ALMS1
-### ALMS1
 
 * **Główny symbol genu:** ALMS1
 * **Pełna nazwa biochemiczna:** Białko zespołu Alströma 1 (ang. *Alström syndrome protein 1*)
@@ -2692,6 +2819,7 @@ Wyraźny spadek aktywności enzymatycznej o 40-50%. Drastyczne spowolnienie elim
 
 * **Mój genotyp (WGS):**
   Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+
 
 
 **Typ Dziki (Prawidłowa funkcja rzęsek)**
@@ -2709,7 +2837,6 @@ Drobne wahania w tempie metabolizmu obwodowego i zmienna wrażliwość na sygna�
 
 ---
 ### CYREN
-### CYREN
 
 * **Główny symbol genu:** CYREN (stara nazwa: *MRI / MRI1*)
 * **Pełna nazwa biochemiczna:** Regulator cyklu komórkowego naprawy NHEJ (ang. *Cell cycle regulator of NHEJ*)
@@ -2719,7 +2846,11 @@ Drobne wahania w tempie metabolizmu obwodowego i zmienna wrażliwość na sygna�
 * **Rola biologiczna genu/białka:** CYREN działa jako nadrzędny przełącznik w mechanizmach naprawy pęknięć obydwu nici DNA (DSB). W fazie G1 cyklu komórkowego promuje szybką naprawę metodą niehomologicznego łączenia końców (NHEJ), chroniąc komórki progenitorowe mózgu przed niestabilnością genomową podczas intensywnych podziałów.
 
 * **Mój genotyp (WGS):**
-  `rs2240901` — NOT_IN_DBSNP
+  `rs2240901` — **AA** (ensembl+bam, high) — ensembl; depth=26,avg=26.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Wysoka wierność naprawy DNA)**
@@ -2735,7 +2866,6 @@ Opóźnienie w naprawie uszkodzeń DNA, prowadzące do akumulacji mikromutacji w
 
 ---
 ### GOLPH3L
-### GOLPH3L
 
 * **Główny symbol genu:** GOLPH3L
 * **Pełna nazwa biochemiczna:** Białko fosfoproteinowe aparatu Golgiego 3-podobne (ang. *Golgi phosphoprotein 3 like*)
@@ -2746,6 +2876,7 @@ Opóźnienie w naprawie uszkodzeń DNA, prowadzące do akumulacji mikromutacji w
 
 * **Mój genotyp (WGS):**
   `rs11660233` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Wydajny transport z aparatu Golgiego)**
@@ -2761,7 +2892,6 @@ Subtelne opóźnienia w dostarczaniu świeżo zsyntetyzowanych receptorów do sy
 
 ---
 ### NAGA
-### NAGA
 
 * **Główny symbol genu:** NAGA
 * **Pełna nazwa biochemiczna:** Alfa-N-acetylgalactosaminidaza (ang. *Alpha-N-acetylgalactosaminidase*)
@@ -2772,6 +2902,7 @@ Subtelne opóźnienia w dostarczaniu świeżo zsyntetyzowanych receptorów do sy
 
 * **Mój genotyp (WGS):**
   `rs1051513` — **CC** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Wydajny klirens lizosomalny)**
@@ -2787,7 +2918,6 @@ Toksyczna akumulacja glikokoniugatów w neuronach i aksonach. Skutkuje postępuj
 
 ---
 ### PROZ
-### PROZ
 
 * **Główny symbol genu:** PROZ
 * **Pełna nazwa biochemiczna:** Białko Z (ang. *Protein Z, vitamin K-dependent plasma glycoprotein*)
@@ -2797,7 +2927,11 @@ Toksyczna akumulacja glikokoniugatów w neuronach i aksonach. Skutkuje postępuj
 * **Rola biologiczna genu/białka:** Białko Z działa jako kluczowy kofaktor dla inhibitora proteazy zależnego od białka Z (ZPI), wygaszając kaskadę krzepnięcia (hamuje czynnik Xa). W mózgu wykazuje bezpośrednie działanie neuroprotekcyjne: chroni śródbłonek BBB oraz neurony przed apoptozą wywołaną niedotlenieniem lub lokalnym odczynem zakrzepowo-zapalnym.
 
 * **Mój genotyp (WGS):**
-  `rs4253243` — NOT_IN_DBSNP
+  `rs4253243` — **TT** (ensembl+bam, high) — ensembl; depth=55,avg=55.0; gt=0/0
+
+
+
+
 
 
 **Genotyp Referencyjny (Wysoki poziom Białka Z / Neuroprotekcja)**
@@ -2813,7 +2947,6 @@ Zwiększona podatność na lokalne mikro-pętle zakrzepowe i subkliniczne niedot
 
 ---
 ### SLC4A1
-### SLC4A1
 
 * **Główny symbol genu:** SLC4A1
 * **Pełna nazwa biochemiczna:** Wymiennik anionowy 1 (ang. *Solute carrier family 4 member 1*)
@@ -2824,6 +2957,7 @@ Zwiększona podatność na lokalne mikro-pętle zakrzepowe i subkliniczne niedot
 
 * **Mój genotyp (WGS):**
   `rs2235081` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Perfekcyjna homeostaza pH)**
@@ -2839,7 +2973,6 @@ Lokalne mikro-wahania pH w szczelinach synaptycznych, prowadzące do niestabilno
 
 ---
 ### TMEM140
-### TMEM140
 
 * **Główny symbol genu:** TMEM140
 * **Pełna nazwa biochemiczna:** Białko transbłonowe 140 (ang. *Transmembrane protein 140*)
@@ -2849,7 +2982,11 @@ Lokalne mikro-wahania pH w szczelinach synaptycznych, prowadzące do niestabilno
 * **Rola biologiczna genu/białka:** Koduje białko transbłonowe o wyjątkowo silnej ekspresji w astrocytach. TMEM140 reguluje morfologię wypustek astrocytarnych, które owijają synapsy (tworząc tzw. synapsę trójdzielną) oraz kontroluje wydzielanie prozapalnych cytokin i chemokin przez glej w odpowiedzi na stres metaboliczny.
 
 * **Mój genotyp (WGS):**
-  `rs2228074` — NOT_IN_DBSNP
+  `rs2228074` — **GG** (ensembl+bam, high) — ensembl; depth=32,avg=32.0; gt=0/0
+
+
+
+
 
 
 **Typ Dziki (Zbalansowana odpowiedź glejowa)**
@@ -2865,7 +3002,6 @@ Astrocyty łatwiej wchodzą w tryb reaktywny (astrogliosis), kurcząc swoje wypu
 
 ---
 ### USP35
-### USP35
 
 * **Główny symbol genu:** USP35
 * **Pełna nazwa biochemiczna:** Peptydaza ubikwityno-specyficzna 35 (ang. *Ubiquitin specific peptidase 35*)
@@ -2876,6 +3012,7 @@ Astrocyty łatwiej wchodzą w tryb reaktywny (astrogliosis), kurcząc swoje wypu
 
 * **Mój genotyp (WGS):**
   `rs1014166` — **GG** (ensembl+bam, high) — marker_report
+
 
 
 **Typ Dziki (Stabilny proteom synaptyczny)**
@@ -2893,7 +3030,6 @@ Przyspieszona, patologiczna degradacja białek strukturalnych synaps lub kompone
 
 ## CZĘŚĆ XV. Tau, pamięć epizodyczna i starzenie neuronalne
 ### MAPT
-### MAPT
 
 * **Główny symbol genu:** MAPT
 * **Pełna nazwa biochemiczna:** Białko tau powiązane z mikrotubulami (ang. *Microtubule-associated protein tau*)
@@ -2903,7 +3039,11 @@ Przyspieszona, patologiczna degradacja białek strukturalnych synaps lub kompone
 * **Rola biologiczna genu/białka:** MAPT odpowiada za stabilizację mikrotubul w cytoszkielecie aksonalnym neuronów, co umożliwia prawidłowy transport wewnątrzkomórkowy. Blok inwersyjny całkowicie znosi rekombinację genetyczną w tym regionie, tworząc dwa odmienne ewolucyjnie haplotypy.
 
 * **Mój genotyp (WGS):**
-  Brak populacyjnego tag-SNP — ocena wyłącznie sekwencyjna/CNV (mutacje de novo / LoF nie wykrywalne w panelu SNP).
+  `rs1800547` — **AA** (ensembl+bam, high) — ncbi; depth=32,avg=32.0; gt=0/0
+
+
+
+
 
 
 **Diplotyp H1/H1 (Wariant bezpośredni, klasyczny)**

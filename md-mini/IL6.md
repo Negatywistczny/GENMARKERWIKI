@@ -4,18 +4,14 @@
 * **Nazwy potoczne i medialne:** Gen "mgły mózgowej" i zapalnego drenażu nastroju
 
 ### 2. Identyfikator (rsID)
-* **Główny rsID / wariant:** rs1800795 (słynny polimorfizm -174G/C w regionie promotorowym)
+* **Główny rsID / wariant:** rs1800795
 * **Lokalizacja chromosomalna:** Chromosom 7 (7p15.3)
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Koduje plejotropową cytokinę, która w warunkach stresu psychofizycznego lub infekcji przenika przez barierę krew-mózg. W OUN aktywuje mikroglej, zaburza neurogenezę w hipokampie, obniża ekspresję BDNF i nasila aktywność enzymu IDO1, drastycznie ograniczając syntezę serotoniny.
 
-* **Mój genotyp (WGS):**
-  * `rs1800795` — **GG** (ensembl+bam, high) — marker_report
-* **Dopasowany profil:** Genotyp G/G (Wysoka podstawowa i reaktywna produkcja IL-6)
-
 ### 4. Tabela Wariantów
-**rs1800795 (słynny polimorfizm -174G**
+**rs1800795**
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
