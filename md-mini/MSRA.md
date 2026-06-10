@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **C/C** | Homozygota referencyjna | positive | Maksymalna wydajność naprawy utlenionych białek. Wysoka rezyliencja neuronów wobec stresorów toksycznych i metabolicznych, stabilna ochrona synaps przed degradacją wolnorodnikową. |
 | **C/T** | Heterozygota | neutral | Standardowa ochrona antyoksydacyjna. Wydolna w warunkach fizjologicznych; przy skrajnym stresie komórkowym może dochodzić do przejściowego zmęczenia kognitywnego. |
-| **★ T/T** | Homozygota ryzyka / Sygnał GWAS | negative | Spadek wydajności naprawczej enzymu o blisko 40-50%. Drastyczny wzrost podatności neuronów na stres oksydacyjny. W wielkoskalowych badaniach genomicznych silnie powiązany z patofizjologią schizofrenii, autyzmu oraz zaburzeń afektywnych. |
+| **★ T/T** | tag-SNP GWAS | neutral | Typowy profil populacyjny rs10957973 (T/T). W metaanalizach GWAS ten wariant koreluje ze statystyczną podatnością na schizofrenię, autyzm i zaburzenia afektywne — nie oznacza to patogennej mutacji MSRA ani klinicznej diagnozy. |

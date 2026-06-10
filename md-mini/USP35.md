@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **A/A** | Stabilny proteom synaptyczny | positive | Precyzyjna kontrola nad obrotem białkowym. Ochrona ważnych receptorów przed niesłuszną degradacją, stabilna energetyka mitochondrialna. |
 | **A/G** | Umiarkowane | neutral | Standardowe populacyjne tempo utylizacji i deubikwitynacji białek. |
-| **★ G/G** | Niska ekspresja USP35 | negative | Przyspieszona, patologiczna degradacja białek strukturalnych synaps lub komponentów łańcucha oddechowego. Skorelowany w GWAS z przyspieszonym zmęczeniem neurobiologicznym, podatnością na schizofrenię i depresję. |
+| **★ G/G** | tag-SNP GWAS | neutral | Profil populacyjny rs1014166 (G/G). W GWAS powiązany ze statystyczną podatnością na zmęczenie, depresję i schizofrenię — nie oznacza patologicznej degradacji białek ani klinicznej diagnozy. |

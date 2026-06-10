@@ -590,6 +590,11 @@ MANUAL_PROFILE_TONES: dict[str, list[str]] = {
     "PTEN": ["positive", "neutral", "neutral"],
     "RIMS1": ["positive", "neutral", "neutral"],
     "UBE3A": ["positive", "neutral", "negative"],
+    "MSRA": ["positive", "neutral", "neutral"],
+    "NEGR1": ["positive", "neutral", "neutral"],
+    "SHISA9": ["positive", "neutral", "neutral"],
+    "USP35": ["positive", "neutral", "neutral"],
+    "MDFIC": ["positive", "neutral", "neutral"],
 }
 
 # Gdy myvariant zwraca A/T, a call z BAM/Ensembl to G/G (wieloalleliczny A/G/T).

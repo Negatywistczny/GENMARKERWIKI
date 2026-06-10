@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **T/T** | Prawidłowa regulacja Wnt | positive | Symetryczny i precyzyjnie kontrolowany podział komórkowy w fazie embriogenezy. Prawidłowy rozwój struktur podkorowych. |
 | **T/C** | Umiarkowane | neutral | Standardowe populacyjne przesunięcia w dynamice transkrypcyjnej. |
-| **★ C/C** | Niezrównoważona ekspresja MDFIC | negative | Subtelne anomalie w kinetyce szlaku Wnt, mogące prowadzić do mikrostrukturalnych przesunięć w gęstości neuronów korowych. Skorelowany w GWAS z podatnością na zaburzenia ze spektrum autyzmu i dyspraksję. |
+| **★ C/C** | tag-SNP GWAS | neutral | Profil populacyjny rs2280031 (C/C). W GWAS skorelowany ze statystyczną podatnością na ASD i dyspraksję — nie oznacza zaburzeń ze spektrum autyzmu ani defektu genu MDFIC. |

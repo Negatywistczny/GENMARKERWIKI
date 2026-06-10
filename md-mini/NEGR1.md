@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **T/T** | Wariant prokognitywny / Ochronny przed otyłością | positive | Wysoka ekspresja NEGR1. Precyzyjne formowanie kolców dendrytycznych w hipokampie (wysokie IQ, doskonała pamięć) oraz prawidłowo zaprogramowany próg sytości w podwzgórzu. |
 | **T/C** | Heterozygota | neutral | Standardowe populacyjne parametry plastyczności synaptycznej i stabilny metabolizm. |
-| **★ C/C** | Niska ekspresja NEGR1 | negative | Zmniejszenie gęstości synaptycznej w hipokampie przy jednoczesnym rozregulowaniu podwzgórzowej kontroli łaknienia. W międzynarodowych badaniach GWAS wariant ten stanowi jeden z najsilniejszych, powtarzalnych punktów wspólnych łączących **podatność do otyłości z podwyższonym ryzykiem niepełnosprawności intelektualnej, ADHD oraz schizofrenii**. |
+| **★ C/C** | tag-SNP GWAS | neutral | Profil populacyjny rs3101336 (C/C). W międzynarodowych badaniach GWAS koreluje ze statystyczną podatnością na otyłość, ADHD i schizofrenię — nie oznacza klinicznej niepełnosprawności intelektualnej ani defektu genu NEGR1. |

@@ -1063,8 +1063,8 @@ Symetryczny i precyzyjnie kontrolowany podział komórkowy w fazie embriogenezy.
 **Warianty Populacyjne (Umiarkowane)**
 Standardowe populacyjne przesunięcia w dynamice transkrypcyjnej.
 
-**Wariant Ryzyka (Niezrównoważona ekspresja MDFIC)**
-Subtelne anomalie w kinetyce szlaku Wnt, mogące prowadzić do mikrostrukturalnych przesunięć w gęstości neuronów korowych. Skorelowany w GWAS z podatnością na zaburzenia ze spektrum autyzmu i dyspraksję.
+**Homozygota alleliczna C/C (tag-SNP GWAS)**
+Profil populacyjny rs2280031 (C/C). W GWAS skorelowany ze statystyczną podatnością na ASD i dyspraksję — nie oznacza zaburzeń ze spektrum autyzmu ani defektu genu MDFIC.
 
 ---
 
@@ -1172,8 +1172,8 @@ Maksymalna wydajność naprawy utlenionych białek. Wysoka rezyliencja neuronów
 **Genotyp Średniej Aktywności (Heterozygota)**
 Standardowa ochrona antyoksydacyjna. Wydolna w warunkach fizjologicznych; przy skrajnym stresie komórkowym może dochodzić do przejściowego zmęczenia kognitywnego.
 
-**Genotyp Niskiej Aktywności (Homozygota ryzyka / Sygnał GWAS)**
-Spadek wydajności naprawczej enzymu o blisko 40-50%. Drastyczny wzrost podatności neuronów na stres oksydacyjny. W wielkoskalowych badaniach genomicznych silnie powiązany z patofizjologią schizofrenii, autyzmu oraz zaburzeń afektywnych.
+**Genotyp alleliczny T/T (tag-SNP GWAS)**
+Typowy profil populacyjny rs10957973 (T/T). W metaanalizach GWAS ten wariant koreluje ze statystyczną podatnością na schizofrenię, autyzm i zaburzenia afektywne — nie oznacza to patogennej mutacji MSRA ani klinicznej diagnozy.
 
 ---
 
@@ -2177,8 +2177,8 @@ Wysoka ekspresja NEGR1. Precyzyjne formowanie kolców dendrytycznych w hipokampi
 **Genotyp Pośredni (Heterozygota)**
 Standardowe populacyjne parametry plastyczności synaptycznej i stabilny metabolizm.
 
-**Genotyp Ryzyka (Niska ekspresja NEGR1)**
-Zmniejszenie gęstości synaptycznej w hipokampie przy jednoczesnym rozregulowaniu podwzgórzowej kontroli łaknienia. W międzynarodowych badaniach GWAS wariant ten stanowi jeden z najsilniejszych, powtarzalnych punktów wspólnych łączących **podatność do otyłości z podwyższonym ryzykiem niepełnosprawności intelektualnej, ADHD oraz schizofrenii**.
+**Genotyp alleliczny C/C (tag-SNP GWAS)**
+Profil populacyjny rs3101336 (C/C). W międzynarodowych badaniach GWAS koreluje ze statystyczną podatnością na otyłość, ADHD i schizofrenię — nie oznacza klinicznej niepełnosprawności intelektualnej ani defektu genu NEGR1.
 
 ---
 
@@ -2340,8 +2340,8 @@ Optymalny czas trwania impulsu pobudzającego. Sprawny proces desensytyzacji chr
 **Warianty Polimorficzne (Średnia aktywność)**
 Standardowe populacyjne parametry kinetyki synaptycznej i przewodnictwa glutaminianergicznego.
 
-**Wariant Ryzyka (Zmieniona ekspresja CKAMP44)**
-Opóźnienie wygaszania prądu lub zaburzenie odczulania receptorów AMPA, prowadzące do destabilizacji elektrofizjologicznej synapsy. W badaniach GWAS powiązany z deficytami uwagi, trudnościami w integracji bodźców sensorycznych oraz podatnością na schizofrenię.
+**Homozygota alleliczna A/A (tag-SNP GWAS)**
+Profil populacyjny rs7192086 (A/A). W badaniach GWAS skorelowany ze statystyczną podatnością na deficyty uwagi i schizofrenię — nie oznacza zaburzeń klinicznych ani LoF w SHISA9.
 
 ---
 
@@ -3021,8 +3021,8 @@ Precyzyjna kontrola nad obrotem białkowym. Ochrona ważnych receptorów przed n
 **Warianty Populacyjne (Umiarkowane)**
 Standardowe populacyjne tempo utylizacji i deubikwitynacji białek.
 
-**Wariant Ryzyka (Niska ekspresja USP35)**
-Przyspieszona, patologiczna degradacja białek strukturalnych synaps lub komponentów łańcucha oddechowego. Skorelowany w GWAS z przyspieszonym zmęczeniem neurobiologicznym, podatnością na schizofrenię i depresję.
+**Homozygota alleliczna G/G (tag-SNP GWAS)**
+Profil populacyjny rs1014166 (G/G). W GWAS powiązany ze statystyczną podatnością na zmęczenie, depresję i schizofrenię — nie oznacza patologicznej degradacji białek ani klinicznej diagnozy.
 
 ---
 

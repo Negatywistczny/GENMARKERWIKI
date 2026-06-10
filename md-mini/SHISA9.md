@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **T/T** | Zbalansowana kinetyka AMPA | positive | Optymalny czas trwania impulsu pobudzającego. Sprawny proces desensytyzacji chroni synapsę przed przestymulowaniem, przy jednoczesnym zachowaniu wysokiej wierności i ostrości przekazu sygnału. |
 | **T/A** | Średnia aktywność | neutral | Standardowe populacyjne parametry kinetyki synaptycznej i przewodnictwa glutaminianergicznego. |
-| **★ A/A** | Zmieniona ekspresja CKAMP44 | negative | Opóźnienie wygaszania prądu lub zaburzenie odczulania receptorów AMPA, prowadzące do destabilizacji elektrofizjologicznej synapsy. W badaniach GWAS powiązany z deficytami uwagi, trudnościami w integracji bodźców sensorycznych oraz podatnością na schizofrenię. |
+| **★ A/A** | tag-SNP GWAS | neutral | Profil populacyjny rs7192086 (A/A). W badaniach GWAS skorelowany ze statystyczną podatnością na deficyty uwagi i schizofrenię — nie oznacza zaburzeń klinicznych ani LoF w SHISA9. |

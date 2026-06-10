@@ -155,18 +155,30 @@ def match_row_for_label(rows: list[dict], label: str) -> dict | None:
     return None
 
 
-CLINICAL_ADVICE_LABELS = frozenset({
+GENE_LEVEL_ADVICE_LABELS = frozenset({
     "suplementacja",
     "farmakologia",
-    "diagnostyka",
+    "diagnostika",
     "rehabilitacja",
     "genetyka rodzinna",
     "ostrzeżenie kliniczne",
+    "sport",
+    "nutrigenomika i dieta białkowa",
+    "nutrigenomika",
+    "terapia psychodietetyczna",
+    "rygor zegara dobowego",
+    "dieta",
 })
 
 
-def is_gene_level_advice(label: str) -> bool:
-    return label.strip().lower() in CLINICAL_ADVICE_LABELS
+def is_gene_level_advice(label: str, body: str = "") -> bool:
+    lab = label.strip().lower()
+    if lab in GENE_LEVEL_ADVICE_LABELS:
+        return True
+    bare = body.strip().rstrip(":").lower()
+    if not label and bare in GENE_LEVEL_ADVICE_LABELS:
+        return True
+    return False
 
 
 def is_reference_profile(row: dict) -> bool:
@@ -175,8 +187,27 @@ def is_reference_profile(row: dict) -> bool:
         return True
     return any(
         w in blob
-        for w in ("norma", "prawidłow", "prawidlow", "normotyp", "typ dziki", "referencyj")
+        for w in (
+            "norma",
+            "prawidłow",
+            "prawidlow",
+            "normotyp",
+            "typ dziki",
+            "referencyj",
+            "ochronn",
+            "dzik",
+            "haplotyp ochron",
+        )
     )
+
+
+def is_trivial_advice(text: str) -> bool:
+    low = text.strip().lower().rstrip(":")
+    if not low or len(low) < 8:
+        return True
+    if low in GENE_LEVEL_ADVICE_LABELS:
+        return True
+    return bool(re.fullmatch(r"[a-ząćęłńóśźż0-9 /\-]+", low) and len(low) < 24)
 
 
 def pick_topic_variants(
@@ -188,7 +219,7 @@ def pick_topic_variants(
 
     def add(row: dict, text: str) -> None:
         key = (row.get("heading", ""), row.get("genotype_cell") or row.get("genotype", ""))
-        if key in seen or is_generic_snippet(text):
+        if key in seen or is_generic_snippet(text) or is_trivial_advice(text):
             return
         seen.add(key)
         out.append(variant_entry(row, text))
@@ -198,16 +229,8 @@ def pick_topic_variants(
         if score_text(text, topic_id) > 0:
             add(row, text)
 
-    for label, body in bullets:
-        if primary and is_gene_level_advice(label) and is_reference_profile(primary):
-            continue
-        combined = f"{label}: {body}" if label else body
-        sc = score_text(combined, topic_id)
-        if label and score_text(label, topic_id) > 0:
-            sc += 2
-        if sc > 0:
-            row = match_row_for_label(rows, label) or rows[0]
-            add(row, combined)
+    # Sekcja 6 (md/) i mechanizm (md-mini/) — zalecenia ogólne, nie „Twój wariant”.
+    # Nie doklejamy bulletów do byTopic; tylko opis z wiersza ★ powyżej.
 
     return out
 
