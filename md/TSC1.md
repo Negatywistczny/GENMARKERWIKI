@@ -8,10 +8,10 @@
 * **Główny rsID:** rs7874234 (intron, ryzyko TSC)
 * **Lokalizacja chromosomalna:** Chromosom 9, prążek 9q34.13
 * **Typ wariantu:** SNP regulacyjne/introniczne; rzadkie missense patogenne
-* **Zapis zmiany nukleotydowej (HGVS):** rs7874234: intron; rs121912582: c.1844C>T (p.Ser615Leu) – patogenny
+* **Zapis zmiany nukleotydowej (HGVS):** rs7874234: intron; rs1588355838: c.232G>T (p.Glu78Ter) – patogenny nonsense (chr9:132925718)
 * **Orientacja nici i mapowanie alleli:** rs7874234 – C (referencyjny) vs T (ryzyko); weryfikuj z raportem
-* **Powiązane markery / haplotyp (opcjonalnie):** rs1073123, rs13295634, rs627566, rs121912582
-* **Klasyfikacja bazowa (opcjonalnie):** rs121912582 – pathogenic (ClinVar); rs7874234 – ryzyko w kohortach TSC
+* **Powiązane markery / haplotyp (opcjonalnie):** rs1073123, rs13295634, rs1588355838
+* **Klasyfikacja bazowa (opcjonalnie):** rs1588355838 – pathogenic (ClinVar); rs7874234 – ryzyko w kohortach TSC
 
 ### 3. Mechanizm działania
 * **Rola biologiczna genu/białka:** Hamartyna tworzy z tuberyną (TSC2) kompleks TSC — hamuje mTORC1. Reguluje wzrost komórkowy, autophagię, synaptogenezę i plastyczność dendrytyczną.
@@ -33,13 +33,6 @@
 | **★ A/A** | Referencyjna | Standardowy fenotyp TSC |
 | **A/G** | Pośrednia | Modyfikacja nasilenia padaczki |
 | **G/G** | Alternatywna | Potencjalnie łagodniejszy fenotyp w niektórych rodzinach |
-**rs121912582 (c.1844C>T, p.Ser615Leu, patogenny)**
-
-| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- |
-| **★ C/C** | Prawidłowa hamartyna | Norma |
-| **C/T** | Heterozygot patogenny | TSC: guzy SNC, padaczka, plamki hipopigmentacyjne |
-| **T/T** | Homozygot patogenny | Ciężki fenotyp TSC; rzadki |
 **rs13295634 (intron 5, przeżywalność CRC)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
@@ -47,12 +40,12 @@
 | **G/G** | Referencyjna | Brak zwiększonego ryzyka onkologicznego z tego SNP |
 | **★ G/T** | Pośrednia | Asocjacja z gorszą przeżywalnością w raku jelita grubego (kohorty) |
 | **T/T** | Alternatywna | Silniejsza asocjacja prognostyczna w CRC |
-**rs627566 (c.232G>T, p.Glu78Ter — patogenny nonsense)**
+**rs1588355838 (c.232G>T, p.Glu78Ter — patogenny nonsense; chr9:132925718)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
-| **G/G** | Prawidłowa hamartyna | Brak mutacji patogennej |
-| **★ G/T** | Heterozygot patogenny | Ryzyko TSC (nonsense); wymaga potwierdzenia klinicznego |
+| **★ G/G** | Prawidłowa hamartyna | Brak mutacji patogennej |
+| **G/T** | Heterozygot patogenny | Ryzyko TSC (nonsense); wymaga potwierdzenia klinicznego |
 | **T/T** | Homozygot patogenny | Ciężki fenotyp TSC; ekstremalnie rzadki |
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** TSC ~1:6 000–1:10 000 urodzeń; TSC1 ~20% przypadków

@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 """Generate personal variant report and sync ★ markers from genotype sources + md/*.md.
 
-Źródła genotypów (priorytet): wybrane_markery.csv → WGS (query_rsid_results.csv) → WGS (raw/*.ai_full.csv) → MyHeritage.
+Źródła genotypów (priorytet): wybrane_markery.csv → WGS (wgs_full_genome_lookup.csv / full.csv)
+→ WGS (.work query_rsid) → WGS (raw/*.ai_full.csv) → MyHeritage.
 
 Gwiazdka ★ w md/*.md (sekcja 4) oznacza wyłącznie wiersz potwierdzonego genotypem
 właściciela — ustawiana tylko przez dopasowanie do powyższych źródeł.
@@ -17,6 +18,11 @@ import sys
 from collections import defaultdict
 from datetime import date
 from pathlib import Path
+
+_SCRIPTS = Path(__file__).resolve().parent
+if str(_SCRIPTS) not in sys.path:
+    sys.path.insert(0, str(_SCRIPTS))
+from wgs_full_genome import load_lookup_csv, lookup_rsids
 
 ROOT = Path(__file__).resolve().parents[1]
 MD_DIR = ROOT / "md"
@@ -56,6 +62,10 @@ MISSING_SEC4_GENOTYPES_PATH = Path(
 ADHD_GENOTYPES_PATH = Path(
     r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
     r"\.work\adhd_genotypes.csv"
+)
+WGS_FULL_LOOKUP_PATH = Path(
+    r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
+    r"\.work\wgs_full_genome_lookup.csv"
 )
 MAOA_VNTR_PATH = Path(
     r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER"
@@ -127,7 +137,7 @@ RSID_ALIASES: dict[tuple[str, str, str], list[str]] = {
     ("SLC45A2", "rs375077956", "GG"): ["C/C", "G/G"],
     ("ZEB2", "rs587776604", "TT"): ["G/G", "T/T"],
     ("TSC1", "rs13295634", "GT"): ["G/T", "T/G"],
-    ("TSC1", "rs627566", "CT"): ["G/T", "T/G", "C/T", "T/C"],
+    ("TSC1", "rs1588355838", "CC"): ["G/G", "C/C"],
     ("MECP2", "rs2075596", "GG"): ["C/C", "G/G"],
     ("CHRM2", "rs1824024", "CC"): ["G/G", "C/C"],
     ("SLC45A2", "rs2287949", "TT"): ["A/A", "T/T"],
@@ -263,8 +273,20 @@ def load_wgs_raw(needed: set[str]) -> dict[str, str]:
     return found
 
 
+def load_wgs_full(needed: set[str]) -> dict[str, str]:
+    needed_l = {r.lower() for r in needed}
+    found = load_lookup_csv(WGS_FULL_LOOKUP_PATH, needed)
+    missing = needed_l - set(found)
+    if missing:
+        for rs, gt in lookup_rsids(missing).items():
+            found.setdefault(rs, gt)
+    return found
+
+
 def load_wgs(needed: set[str]) -> dict[str, str]:
-    found = load_query_rsid(needed)
+    found = load_wgs_full(needed)
+    for rs, gt in load_query_rsid(needed).items():
+        found.setdefault(rs, gt)
     for rs, gt in load_wgs_raw(needed).items():
         found.setdefault(rs, gt)
     return found

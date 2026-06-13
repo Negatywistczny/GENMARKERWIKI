@@ -4,9 +4,13 @@
 from __future__ import annotations
 
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
+SCRIPTS = Path(__file__).resolve().parent
+sys.path.insert(0, str(SCRIPTS))
+from variant_tone_lookup import fixed_variant_tone  # noqa: E402
 MD_DIR = ROOT / "md"
 MD_MINI_DIR = ROOT / "md-mini"
 OUT = ROOT / "html" / "personal-gene-profiles.js"
@@ -131,7 +135,18 @@ def variant_headline(row: dict) -> str:
     return f"{genotype} — {activity}" if activity else genotype
 
 
-def variant_entry(row: dict, text: str) -> dict:
+def resolve_row_tone(row: dict, gene: str = "") -> str:
+    tone = row.get("tone") or ""
+    if tone:
+        return tone
+    return fixed_variant_tone(
+        gene,
+        row.get("heading", ""),
+        row.get("genotype_cell") or row.get("genotype", ""),
+    )
+
+
+def variant_entry(row: dict, text: str, *, gene: str = "") -> dict:
     snippet = text[:420] + ("…" if len(text) > 420 else "")
     entry: dict = {
         "headline": variant_headline(row),
@@ -139,8 +154,9 @@ def variant_entry(row: dict, text: str) -> dict:
         "heading": row.get("heading", ""),
         "genotype": row.get("genotype_cell") or row.get("genotype", ""),
     }
-    if row.get("tone"):
-        entry["tone"] = row["tone"]
+    tone = resolve_row_tone(row, gene)
+    if tone:
+        entry["tone"] = tone
     return entry
 
 
@@ -211,7 +227,11 @@ def is_trivial_advice(text: str) -> bool:
 
 
 def pick_topic_variants(
-    topic_id: str, rows: list[dict], bullets: list[tuple[str, str]]
+    topic_id: str,
+    rows: list[dict],
+    bullets: list[tuple[str, str]],
+    *,
+    gene: str = "",
 ) -> list[dict]:
     seen: set[tuple[str, str]] = set()
     out: list[dict] = []
@@ -222,7 +242,7 @@ def pick_topic_variants(
         if key in seen or is_generic_snippet(text) or is_trivial_advice(text):
             return
         seen.add(key)
-        out.append(variant_entry(row, text))
+        out.append(variant_entry(row, text, gene=gene))
 
     for row in rows:
         text = row["impact"]
@@ -235,13 +255,14 @@ def pick_topic_variants(
     return out
 
 
-def tone_ctx(row: dict) -> dict:
+def tone_ctx(row: dict, *, gene: str = "") -> dict:
     ctx: dict = {
         "heading": row.get("heading", ""),
         "genotype": row.get("genotype_cell") or row.get("genotype", ""),
     }
-    if row.get("tone"):
-        ctx["tone"] = row["tone"]
+    tone = resolve_row_tone(row, gene)
+    if tone:
+        ctx["tone"] = tone
     return ctx
 
 
@@ -282,7 +303,9 @@ def js_key(key: str) -> str:
     return js_str(key)
 
 
-def profile_from_sections(sections: dict[int, str], *, bullets_section: int) -> dict | None:
+def profile_from_sections(
+    sections: dict[int, str], *, bullets_section: int, gene: str = ""
+) -> dict | None:
     rows = parse_personal_rows(sections.get(4, ""))
     if not rows:
         return None
@@ -290,16 +313,16 @@ def profile_from_sections(sections: dict[int, str], *, bullets_section: int) -> 
     default = default_summary(rows)
     if not default:
         return None
-    variants = [variant_entry(row, row["impact"]) for row in rows]
+    variants = [variant_entry(row, row["impact"], gene=gene) for row in rows]
     by_topic: dict[str, dict] = {}
     for topic_id in TOPIC_KEYWORDS:
-        topic_variants = pick_topic_variants(topic_id, rows, bullets)
+        topic_variants = pick_topic_variants(topic_id, rows, bullets, gene=gene)
         if topic_variants:
             by_topic[topic_id] = {"variants": topic_variants}
     return {
         "headline": default["headline"],
         "impact": default["impact"],
-        "toneCtx": tone_ctx(rows[0]),
+        "toneCtx": tone_ctx(rows[0], gene=gene),
         "variants": variants,
         "byTopic": by_topic,
     }
@@ -312,7 +335,7 @@ def build_profiles() -> dict[str, dict]:
             continue
         gene = path.stem.upper()
         sections = parse_sections(path.read_text(encoding="utf-8"))
-        profile = profile_from_sections(sections, bullets_section=6)
+        profile = profile_from_sections(sections, bullets_section=6, gene=gene)
         if profile:
             profiles[gene] = profile
 
@@ -321,7 +344,7 @@ def build_profiles() -> dict[str, dict]:
         if gene in profiles:
             continue
         sections = parse_sections(path.read_text(encoding="utf-8"))
-        profile = profile_from_sections(sections, bullets_section=3)
+        profile = profile_from_sections(sections, bullets_section=3, gene=gene)
         if profile:
             profiles[gene] = profile
 

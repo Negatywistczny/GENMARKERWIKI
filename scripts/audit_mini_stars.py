@@ -115,6 +115,9 @@ def dbsnp_row_index(user: str, ref: str, alt: str, total: int) -> int | None:
 
 
 def main() -> int:
+    if sys.stdout.encoding and sys.stdout.encoding.lower() != "utf-8":
+        sys.stdout.reconfigure(encoding="utf-8")
+
     sys.path.insert(0, str(ROOT / "scripts"))
     cache = json.loads(CACHE_PATH.read_text(encoding="utf-8"))
 
@@ -190,6 +193,11 @@ def main() -> int:
     for item in no_star:
         print(" | ".join(str(x) for x in item))
 
+    issues = len(ref_mismatch) + len(no_match)
+    if issues:
+        print(f"\n[FAIL] Problemy gwiazdek: {issues}", flush=True)
+        return 1
+    print("\n[OK] Wszystkie minikarty z WGS: ★ zgodne", flush=True)
     return 0
 
 

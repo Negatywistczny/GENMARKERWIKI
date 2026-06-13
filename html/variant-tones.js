@@ -157,11 +157,6 @@ const FIXED_VARIANT_TONES = {
       "a g": "neutral",
       "g g": "negative",
     },
-    "rs17290659 intron marker asocjacyjny locus": {
-      "a a": "positive",
-      "a g": "neutral",
-      "g g": "negative",
-    },
     "mutacje patogenne cdfe epilepsja": {
       "dziki allel": "positive",
       "heterozygot de novo": "negative",
@@ -362,11 +357,6 @@ const FIXED_VARIANT_TONES = {
       "g g": "negative",
     },
     "rs216009 intron asocjacja psychiatryczna": {
-      "c c": "positive",
-      "c t": "neutral",
-      "t t": "negative",
-    },
-    "rs2281845 regulacyjny cav1 2 w mozgu": {
       "c c": "positive",
       "c t": "neutral",
       "t t": "negative",
@@ -1301,22 +1291,42 @@ const FIXED_VARIANT_TONES = {
       "c t": "neutral",
       "t t": "negative",
     },
+    "rs7874234": {
+      "c c": "positive",
+      "c t": "neutral",
+      "t t": "negative",
+    },
     "rs1073123 intron modyfikator fenotypu": {
       "a a": "positive",
       "a g": "neutral",
-      "g g": "negative",
+      "g g": "neutral",
     },
-    "rs121912582 c 1844c t p ser615leu patogenny": {
-      "c c": "positive",
-      "c t": "negative",
-      "t t": "negative",
+    "rs1073123": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "neutral",
     },
     "rs13295634 intron 5 przezywalnosc crc": {
       "g g": "positive",
       "g t": "neutral",
       "t t": "negative",
     },
-    "rs627566 c 232g t p glu78ter patogenny nonsense": {
+    "rs13295634": {
+      "g g": "positive",
+      "g t": "neutral",
+      "t t": "negative",
+    },
+    "rs1588355838 c 232g t p glu78ter patogenny nonsense chr9 132925718": {
+      "g g": "positive",
+      "g t": "negative",
+      "t t": "negative",
+    },
+    "rs1588355838 c 232g t p glu78ter patogenny nonsense": {
+      "g g": "positive",
+      "g t": "negative",
+      "t t": "negative",
+    },
+    "rs1588355838": {
       "g g": "positive",
       "g t": "negative",
       "t t": "negative",

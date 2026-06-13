@@ -1,6 +1,6 @@
 # Raport osobisty — geny i warianty (GENMARKERWIKI)
 
-**Data:** 2026-06-09  
+**Data:** 2026-06-14  
 **Źródła genotypów:** panel markerów z gene-rsids.js + WGS (bam_genotypes_final.csv) + WGS (neurodev_genotypes.csv) + WGS (neurodev_wiki_genotypes.csv)  
 **Opisy kliniczne:** włączone w niniejszy raport (profil, mechanizm, warianty, zalecenia)
 
@@ -9,8 +9,8 @@
 | Metryka | Wartość |
 |--------|---------|
 | Genów w panelu | 59 |
-| Markerów (rsID) w panelu | 244 |
-| Markerów z Twoim genotypem | 244 |
+| Markerów (rsID) w panelu | 241 |
+| Markerów z Twoim genotypem | 241 |
 | Bez danych genotypowych | 0 |
 
 > Raport ma charakter informacyjny. Nie zastępuje konsultacji lekarskiej ani genetyka klinicznego.
@@ -30,12 +30,12 @@
 - **AR** — Gen męskości (3/3 markerów z genotypem)
 - **AVPR1A** — Gen monogamii (4/4 markerów z genotypem)
 - **BDNF** — Gen plastyczności mózgu (1/1 markerów z genotypem)
-- **CACNA1C** — Gen Timothy'ego (9/9 markerów z genotypem)
+- **CACNA1C** — Gen Timothy'ego (8/8 markerów z genotypem)
 - **CDH13** — Kadheryna sercowa (16/16 markerów z genotypem)
 - **CHRM2** — Gen inteligencji (5/5 markerów z genotypem)
 - **CHRNA5** — Gen uzależnienia od nikotyny (4/4 markerów z genotypem)
 - **CLOCK** — Gen zegara biologicznego (1/1 markerów z genotypem)
-- **CNTNAP2** — Gen mowy i autyzmu (3/3 markerów z genotypem)
+- **CNTNAP2** — Gen mowy i autyzmu (2/2 markerów z genotypem)
 - **COMT** — Gen Wojownika i Zamartwiacza (1/1 markerów z genotypem)
 - **CYP1A2** — Gen kofeiny (1/1 markerów z genotypem)
 - **CYP2C19** — Gen Plavix (6/6 markerów z genotypem)
@@ -72,7 +72,7 @@
 - **SYNGAP1** — Gen SYNGAP1-DEE (2/2 markerów z genotypem)
 - **TAS2R38** — Gen supersmakosza (3/3 markerów z genotypem)
 - **TPH2** — Gen miłych gości (1/1 markerów z genotypem)
-- **TSC1** — Gen hamartyny (TSC) (5/5 markerów z genotypem)
+- **TSC1** — Gen hamartyny (TSC) (4/4 markerów z genotypem)
 - **TSC2** — Gen tuberyny (TSC) (5/5 markerów z genotypem)
 - **VDR** — Gen receptora witaminy D (4/4 markerów z genotypem)
 - **VKORC1** — Gen warfaryny (6/6 markerów z genotypem)
@@ -330,6 +330,11 @@ _rs1800497 (Taq1A / ANKK1)_
 - Efekt funkcjonalny: Skutki to neurodegeneracja, podwyższone ryzyko otępienia i zmiany metabolizmu lipidów – zależnie od haplotypu ε2/ε3/ε4 (sekcja 4)
 
 ### Twoje warianty (znane genotypy)
+#### Haplotyp APOE (rs429358 + rs7412)
+
+- **Twój profil:** rs429358 `TT`, rs7412 `CC` → Typ referencyjny. Najbardziej powszechny, całkowicie ewolucyjnie i metabolicznie poprawny. Optymalne zdolności wiązania VLDL, brak wpływu na akumulację beta-amyloidu.
+- **Źródło:** WGS
+
 #### rs4420638
 _rs4420638 (APOC1 proxy (14 kb od APOE; sprzężenie z ε4))_
 
@@ -551,15 +556,6 @@ _rs4765905 (intron — kognicja i nastrój)_
 - **Aktywność / status:** Referencyjna modulacja Cav1.2
 - **Wpływ fenotypowy:** Brak zwiększonego ryzyka zaburzeń poznawczych z tego SNP
 
-#### rs2281845
-_rs2281845 (regulacyjny — CaV1.2 w mózgu)_
-
-- **Genotyp (WGS):** `TT`
-- **Źródło:** WGS
-- **Profil w tabeli wariantów:** T/T
-- **Aktywność / status:** Zmieniona regulacja alleliczna
-- **Wpływ fenotypowy:** Skorelowany z deficytami pamięci roboczej i wyższym ryzykiem BD w metaanalizach; ostrożność z lekami wydłużającymi QT przy mutacjach patogennych
-
 #### rs216009
 _rs216009 (intron — asocjacja psychiatryczna)_
 
@@ -666,7 +662,7 @@ _rs324640 (intron — kognicja i alkohol)_
 - Typ wariantu: SNP introniczne/regulacyjne
 - Zapis zmiany nukleotydowej (HGVS): rs7794745: intron; rs2710102: intron (haplotyp)
 - Orientacja nici i mapowanie alleli: rs7794745 – A (referencyjny) vs G (alternatywny); weryfikuj z raportem
-- Powiązane markery / haplotyp (opcjonalnie): rs2710102, rs17290659
+- Powiązane markery / haplotyp (opcjonalnie): rs2710102
 - Klasyfikacja bazowa (opcjonalnie): rs7794745 – asocjacje z ASD, opóźnieniem mowy; mutacje rzadkie – CDFE, epilepsja ogniskowa
 
 ### Mechanizm i wpływ biologiczny
@@ -692,15 +688,6 @@ _rs2710102 (haplotyp z rs7794745)_
 - **Profil w tabeli wariantów:** A/G
 - **Aktywność / status:** Pośrednia
 - **Wpływ fenotypowy:** Wariant ryzyka ADHD/ASD; subkliniczne cechy autystyczne
-
-#### rs17290659
-_rs17290659 (intron, marker asocjacyjny locus)_
-
-- **Genotyp (WGS):** `GG`
-- **Źródło:** WGS
-- **Profil w tabeli wariantów:** G/G
-- **Aktywność / status:** Alternatywna
-- **Wpływ fenotypowy:** Homozygot alternatywny; marker asocjacyjny w badaniach locus CNTNAP2
 
 ### Zalecenia praktyczne
 - Logopedia: Wczesna interwencja przy opóźnieniu mowy; terapia AAC.
@@ -1730,10 +1717,10 @@ _rs4570625 (promotor — synteza serotoniny TPH2)_
 - Główny rsID: rs7874234 (intron, ryzyko TSC)
 - Lokalizacja chromosomalna: Chromosom 9, prążek 9q34.13
 - Typ wariantu: SNP regulacyjne/introniczne; rzadkie missense patogenne
-- Zapis zmiany nukleotydowej (HGVS): rs7874234: intron; rs121912582: c.1844C>T (p.Ser615Leu) – patogenny
+- Zapis zmiany nukleotydowej (HGVS): rs7874234: intron; rs1588355838: c.232G>T (p.Glu78Ter) – patogenny nonsense (chr9:132925718)
 - Orientacja nici i mapowanie alleli: rs7874234 – C (referencyjny) vs T (ryzyko); weryfikuj z raportem
-- Powiązane markery / haplotyp (opcjonalnie): rs1073123, rs13295634, rs627566, rs121912582
-- Klasyfikacja bazowa (opcjonalnie): rs121912582 – pathogenic (ClinVar); rs7874234 – ryzyko w kohortach TSC
+- Powiązane markery / haplotyp (opcjonalnie): rs1073123, rs13295634, rs1588355838
+- Klasyfikacja bazowa (opcjonalnie): rs1588355838 – pathogenic (ClinVar); rs7874234 – ryzyko w kohortach TSC
 
 ### Mechanizm i wpływ biologiczny
 - Rola biologiczna genu/białka: Hamartyna tworzy z tuberyną (TSC2) kompleks TSC — hamuje mTORC1. Reguluje wzrost komórkowy, autophagię, synaptogenezę i plastyczność dendrytyczną.
@@ -1768,23 +1755,14 @@ _rs13295634 (intron 5, przeżywalność CRC)_
 - **Aktywność / status:** Pośrednia
 - **Wpływ fenotypowy:** Asocjacja z gorszą przeżywalnością w raku jelita grubego (kohorty)
 
-#### rs627566
-_rs627566 (c.232G>T, p.Glu78Ter — patogenny nonsense)_
-
-- **Genotyp (WGS):** `CT`
-- **Źródło:** WGS
-- **Profil w tabeli wariantów:** G/T
-- **Aktywność / status:** Heterozygot patogenny
-- **Wpływ fenotypowy:** Ryzyko TSC (nonsense); wymaga potwierdzenia klinicznego
-
-#### rs121912582
-_rs121912582 (c.1844C>T, p.Ser615Leu, patogenny)_
+#### rs1588355838
+_rs1588355838 (c.232G>T, p.Glu78Ter — patogenny nonsense; chr9:132925718)_
 
 - **Genotyp (WGS):** `CC`
 - **Źródło:** WGS
-- **Profil w tabeli wariantów:** C/C
+- **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Prawidłowa hamartyna
-- **Wpływ fenotypowy:** Norma
+- **Wpływ fenotypowy:** Brak mutacji patogennej
 
 ### Zalecenia praktyczne
 - Neurologia: EEG od niemowlęctwa; everolimus/sirolimus (inhibitory mTOR) przy SEGA i padaczce.
@@ -4010,6 +3988,6 @@ _rs1815739 (R577X — włókna szybkokurczliwe)_
 
 # Uwagi
 
-**0 markerów** z panelu (244 łącznie) bez genotypemu w dostępnych źródłach (CSV/WGS query/MyHeritage).
+**0 markerów** z panelu (241 łącznie) bez genotypemu w dostępnych źródłach (CSV/WGS query/MyHeritage).
 
 Genotypy bez dopasowanego wiersza w tabeli (allel referencyjny, inna orientacja nici) są w sekcjach „Twoje warianty” przy danym genie.

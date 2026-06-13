@@ -245,6 +245,12 @@
     "rsid": "rs13271739",
     "source": "myvariant.info/dbsnp"
   },
+  "rs13295634": {
+    "alt": "T",
+    "ref": "G",
+    "rsid": "rs13295634",
+    "source": "myvariant.info/dbsnp"
+  },
   "rs13306893": {
     "alt": "C",
     "ref": "T",
@@ -687,6 +693,12 @@
     "alt": "T",
     "ref": "A",
     "rsid": "rs6116204",
+    "source": "myvariant.info/dbsnp"
+  },
+  "rs627566": {
+    "alt": "T",
+    "ref": "C",
+    "rsid": "rs627566",
     "source": "myvariant.info/dbsnp"
   },
   "rs6296": {

@@ -10,7 +10,7 @@
 * **Typ wariantu:** SNP introniczne/regulacyjne
 * **Zapis zmiany nukleotydowej (HGVS):** rs7794745: intron; rs2710102: intron (haplotyp)
 * **Orientacja nici i mapowanie alleli:** rs7794745 – A (referencyjny) vs G (alternatywny); weryfikuj z raportem
-* **Powiązane markery / haplotyp (opcjonalnie):** rs2710102, rs17290659
+* **Powiązane markery / haplotyp (opcjonalnie):** rs2710102
 * **Klasyfikacja bazowa (opcjonalnie):** rs7794745 – asocjacje z ASD, opóźnieniem mowy; mutacje rzadkie – CDFE, epilepsja ogniskowa
 
 ### 3. Mechanizm działania
@@ -33,13 +33,6 @@
 | **A/A** | Referencyjna | Brak zwiększonego ryzyka |
 | **★ A/G** | Pośrednia | Wariant ryzyka ADHD/ASD; subkliniczne cechy autystyczne |
 | **G/G** | Alternatywna | Silniejsza asocjacja z opóźnieniem mowy przy współwystępowaniu z rs7794745 G |
-**rs17290659 (intron, marker asocjacyjny locus)**
-
-| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- |
-| **A/A** | Referencyjna | Brak zwiększonego ryzyka z tego markera |
-| **A/G** | Pośrednia | Marker haplotypowy; dane fenotypowe zależne od kontekstu |
-| **★ G/G** | Alternatywna | Homozygot alternatywny; marker asocjacyjny w badaniach locus CNTNAP2 |
 **Mutacje patogenne (CDFE, epilepsja)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |

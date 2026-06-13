@@ -11,8 +11,7 @@ Wpis koncentruje się na analizie genetycznej i klinicznej najważniejszych poli
 * **rs7874234**: Jeden z najważniejszych niekodujących wariantów regulacyjnych, zlokalizowany w obrębie intronu 1\.5 Odgrywa kluczową funkcję w modulacji ekspresji genu poprzez wpływ na powinowactwo receptorów hormonalnych.5  
 * **rs1073123**: Najszerzej zbadany polimorfizm kodujący w eksonie 10 (c.965T\>C; p.Met322Thr), będący częstym wariantem o istotnym znaczeniu farmakogenetycznym.  
 * **rs13295634**: Wariant intronowy (Intron 5, G/T), badany w kontekście przeżywalności w nowotworach przewodu pokarmowego.5  
-* **rs627566**: Klasyczna, rzadka mutacja nonsensowna (c.232G\>T; p.Glu78Ter) o wysokiej penetracji, stanowiąca bezpośrednią przyczynę jednogenowych postaci stwardnienia guzowatego.7  
-* **rs121912582**: Patogenny wariant typu przesunięcia ramki odczytu (c.1257delC; p.Arg420fs), prowadzący do całkowitej utraty funkcji białka.8
+* **rs1588355838**: Patogenna mutacja nonsense (c.232G\>T; p.Glu78Ter; chr9:132925718) o wysokiej penetracji — prawidłowy rsID dla Glu78Ter w TSC1 (dbSNP; nie mylić z rs627566 na chr15).7
 
 W bazie ClinVar zdeponowanych jest ponad 5600 wariantów w obrębie locus *TSC1*, z czego większość stanowią rzadkie mutacje o charakterze utraty funkcji (ang. *loss-of-function*, LoF).8
 
@@ -39,8 +38,7 @@ Poniższa tabela przedstawia molekularną i kliniczną charakterystykę kluczowy
 | rs7874234 | Intron 1 (C/T) / Region regulacyjny | CC, CT, TT | Allel T tworzy funkcjonalny element odpowiedzi na estrogen (ERE), co stymuluje transkrypcję TSC1 pod wpływem estrogenów. Wyższa ekspresja hamartyny skuteczniej wycisza mTORC1. U kobiet z rakiem piersi ER+ posiadających genotyp TT wiek diagnozy jest średnio o 9 lat późniejszy w porównaniu do nosicielek genotypu CC.5 |
 | rs1073123 | c.965T\>C (p.Met322Thr) / Ekson 10 (modyfikujący) | TT, TC, CC | Klasyfikowany jako wariant łagodny w kontekście klasycznego TSC. Wykazuje jednak znaczenie farmakogenetyczne – obecność allelu C (Thr) koreluje z istotnie dłuższym czasem przeżycia bez progresji choroby (PFS) u pacjentów z niedrobnokomórkowym rakiem płuca leczonych chemioterapią opartą na platynie. |
 | rs13295634 | Intron 5 (G/T) / Region niekodujący | GG, GT, TT | Polimorfizm asocjacyjny. Obecność allelu wariantowego T (szczególnie w układzie genotypu TG/GG, referencyjnie do nici kodującej) jest statystycznie powiązana z najgorszymi wskaźnikami przeżywalności u pacjentów z rakiem jelita grubego.6 |
-| rs627566 | c.232G\>T (p.Glu78Ter) / Ekson 5 (nonsense) | GG, GT, TT | Wariant wysoce patogenny. Wprowadzenie przedwczesnego kodonu stop wywołuje nonsensowną degradację transkryptu (NMD) lub powstawanie skróconego, niefunkcjonalnego białka. Blokuje hamowanie mTORC1, wywołując pełnoobjawowe stwardnienie guzowate, padaczkę i opóźnienie rozwoju.7 |
-| rs121912582 | c.1257delC (p.Arg420fs) / Ekson 10 (frameshift) | Del/Del, Del/Wt, Wt/Wt | Usunięcie pojedynczej cytozyny powoduje przesunięcie ramki odczytu (p.Arg420Gfs\*20) i przedwczesną terminację. Powoduje brak funkcjonalnej hamartyny, drastycznie zaburza rozwój dendrytów, integralność cytoszkieletu neuronalnego i wywołuje TSC oraz LAM.8 |
+| rs1588355838 | c.232G\>T (p.Glu78Ter) / Ekson 5 (nonsense; chr9:132925718) | GG, GT, TT | Wariant wysoce patogenny. Wprowadzenie przedwczesnego kodonu stop wywołuje nonsensowną degradację transkryptu (NMD) lub powstawanie skróconego, niefunkcjonalnego białka. Blokuje hamowanie mTORC1, wywołując pełnoobjawowe stwardnienie guzowate, padaczkę i opóźnienie rozwoju.7 |
 
 ## **5\. Statystyki populacyjne**
 
@@ -56,7 +54,7 @@ Rozkład częstości genotypów dla głównych polimorfizmów genu *TSC1* wykazu
 | rs1073123 | Globalna (gnomAD) 13 | 71,6 (TT) | 25,9 (TC) | 2,5 (CC) | 0,154 (C) |
 |  | Europejska (Kaukaska) 14 | 85,5 (TT) | 14,2 (TC) | 0,3 (CC) | 0,074 (C) |
 
-Warianty patogenne o charakterze mutacji punktowych (np. rs627566 lub rs121912582) charakteryzują się skrajnie niską częstością występowania (MAF dążący do 0 we wszystkich grupach populacyjnych) ze względu na silną presję selekcyjną skierowaną przeciwko letalnym zmianom w genach wykazujących haploinsuficjencję.2 Niedawne analizy z wykorzystaniem wnioskowania o lokalnym pochodzeniu przodków (LAI – *Local Ancestry Inference*) w bazie gnomAD wykazały, że aż do 85% rzadkich wariantów w grupach o złożonej strukturze genetycznej (np. populacje afroamerykańskie) wykazuje znaczne różnice w częstościach alleli specyficznych dla poszczególnych komponentów genomu.15 Pozwala to na bardziej precyzyjne odróżnianie rzadkich wariantów łagodnych od rzeczywistych mutacji chorobotwórczych i redukcję liczby wariantów o niepewnym znaczeniu klinicznym (VUS).15
+Warianty patogenne o charakterze mutacji punktowych (np. rs1588355838) charakteryzują się skrajnie niską częstością występowania (MAF dążący do 0 we wszystkich grupach populacyjnych) ze względu na silną presję selekcyjną skierowaną przeciwko letalnym zmianom w genach wykazujących haploinsuficjencję.2 Niedawne analizy z wykorzystaniem wnioskowania o lokalnym pochodzeniu przodków (LAI – *Local Ancestry Inference*) w bazie gnomAD wykazały, że aż do 85% rzadkich wariantów w grupach o złożonej strukturze genetycznej (np. populacje afroamerykańskie) wykazuje znaczne różnice w częstościach alleli specyficznych dla poszczególnych komponentów genomu.15 Pozwala to na bardziej precyzyjne odróżnianie rzadkich wariantów łagodnych od rzeczywistych mutacji chorobotwórczych i redukcję liczby wariantów o niepewnym znaczeniu klinicznym (VUS).15
 
 ## **6\. Wpływ na życie (Zalecenia)**
 

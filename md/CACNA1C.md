@@ -66,13 +66,6 @@
 | **C/C** | Referencyjny profil transkrypcji | Brak typowej asocjacji z chorobami afektywnymi z tego SNP |
 | **C/T** | Pośrednia modulacja | Umiarkowane ryzyko zaburzeń nastroju w silnym LD z rs1006737 |
 | **★ T/T** | Alternatywny haplotyp | Asocjacja z podwyższonym ryzykiem depresji i lęku w części kohort; profilaktyka stresu i monitoring ciśnienia |
-**rs2281845 (regulacyjny — CaV1.2 w mózgu)**
-
-| Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
-| :--- | :--- | :--- |
-| **C/C** | Standardowa regulacja ekspresji | Typowy fenotyp kognitywny; brak dodatkowego ryzyka psychiatrycznego |
-| **C/T** | Pośrednia | Umiarkowana modulacja ekspresji Cav1.2 w tkance mózgowej |
-| **★ T/T** | Zmieniona regulacja alleliczna | Skorelowany z deficytami pamięci roboczej i wyższym ryzykiem BD w metaanalizach; ostrożność z lekami wydłużającymi QT przy mutacjach patogennych |
 **rs4765905 (intron — kognicja i nastrój)**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
