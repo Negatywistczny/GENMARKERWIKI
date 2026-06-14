@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **G/G** | Maksymalna szczelność naczyń | positive | Prawidłowo uformowane, stabilne mikrokrążenie mózgowe. Wysoka ochrona przed przeciekiem cytokin obwodowych do miąższu mózgu. |
 | **G/A** | Umiarkowane | neutral | Standardowa, wydolna homeostaza naczyniowa kompensowana przez inne czynniki angiogenne. |
-| **★ A/A** |  | negative | Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczelnień BBB pod wpływem nadciśnienia lub infekcji. Umożliwia ułatwioną penetrację cząsteczek zapalnych do OUN, napędzając neuroinflammation i zaostrzając objawy neuropsychiatryczne (np. w ChAD i ASD). |
+| **★ A/A** | Wariant Ryzyka / Obniżona Ekspresja TIE1 | negative | Lokalna niestabilność mikronaczyń i skłonność do mikroskopijnych rozszczelnień BBB pod wpływem nadciśnienia lub infekcji. Umożliwia ułatwioną penetrację cząsteczek zapalnych do OUN, napędzając neuroinflammation i zaostrzając objawy neuropsychiatryczne (np. w ChAD i ASD). |

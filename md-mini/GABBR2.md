@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **★ G/G** | Wysoka sprawność hamowania wolnego | positive | Stabilna kontrola pobudliwości sieciowej. Doskonała zdolność do relaksacji układu nerwowego, prawidłowa jakość snu głębokiego (wolnofalowego), wysoka odporność na lęk napadowy. |
 | **G/A** | Heterozygota | neutral | Standardowe, populacyjne parametry kinetyki hamowania metabotropowego. |
-| **A/A** | Niewydolność długofalowego hamowania. | negative | Układ nerwowy nie potrafi utrzymać stanu wyciszenia. Skutkuje to permanentnym napięciem psychoruchowym, ciężką bezsennością, skłonnością do mioklonii i padaczki, a także koreluje ze sztywnością poznawczą i zachowaniami obsesyjnymi w spektrum autyzmu. |
+| **A/A** | Genotyp Niskiej Aktywności / Mutacje Patogenne | negative | Niewydolność długofalowego hamowania. Układ nerwowy nie potrafi utrzymać stanu wyciszenia. Skutkuje to permanentnym napięciem psychoruchowym, ciężką bezsennością, skłonnością do mioklonii i padaczki, a także koreluje ze sztywnością poznawczą i zachowaniami obsesyjnymi w spektrum autyzmu. |

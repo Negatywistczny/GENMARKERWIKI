@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **T/T** | Zbalansowana sygnalizacja MCH | positive | Prawidłowa struktura snu z regularnymi fazami REM. Stabilny bilans energetyczny i prawidłowa adaptacja emocjonalna po odpoczynku. |
 | **★ T/C** | Umiarkowane przesunięcia | neutral | Drobne wahania w długości trwania snu marzeń sennych; zmienna tendencja do jedzenia afektywnego. |
-| **C/C** | Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). | negative | Skutkuje nasilonym lękiem wolnopłynącym, przewlekłym zmęczeniem psychicznym oraz tendencją do kompulsywnego podjadania w stanach deprywacji snu. |
+| **C/C** | Wariant Ryzyka / Obniżona Ekspresja | negative | Rozregulowanie fazy REM (skrócenie lub chaotyczna fragmentacja snu). Skutkuje nasilonym lękiem wolnopłynącym, przewlekłym zmęczeniem psychicznym oraz tendencją do kompulsywnego podjadania w stanach deprywacji snu. |

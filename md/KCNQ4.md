@@ -47,6 +47,7 @@
 | **★ G/G** | Trp276/Trp276 — prawidłowy Kv7.4 | Norma słuchu; brak mutacji patogennej DFNA2A |
 | **G/C** | Trp276/Ser276 (nosiciel) | Dominująco-negatywny efekt (~12,5% funkcji kanału); postępująca głuchota AD — genetyka rodzinna i audiometria |
 | **C/C** | Ser276/Ser (teoretycznie) | Ciężka głuchota; praktycznie nieobserwowane u homozygot w populacji ogólnej |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A rs4660470 zróżnicowany geograficznie (dane gnomAD)
 * **Europa (NFE):** rs4660470: allel A rzadki do umiarkowanego (weryfikuj gnomAD NFE); polaryzacja EUR vs Azja

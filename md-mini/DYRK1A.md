@@ -15,6 +15,6 @@
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| ★ — | Zbalansowana ekspresja | positive | Optymalne tempo neurogenezy. Prawidłowa gęstość neuronów w korze mózgowej, obwód głowy stabilny w normie populacyjnej. |
-| — | np. Trisomia 21 / Zespół Downa | neutral | Przedwczesne wyjście progenitorów ze stadium podziałów, wczesne starzenie się neuronów, upośledzenie plastyczności synaptycznej i upośledzenie funkcji kognitywnych. |
-| — | LoF - Heterozygota | negative | Zespół niepełnosprawności intelektualnej związany z DYRK1A. Skutkuje ciężką mikrocefalią (małogłowiem), głębokim deficytem mowy, hipertonią mięśniową oraz stereotypiami ruchowymi wpisującymi się w spektrum autyzmu. |
+| ★ — | Typ Dziki | positive | Optymalne tempo neurogenezy. Prawidłowa gęstość neuronów w korze mózgowej, obwód głowy stabilny w normie populacyjnej. |
+| — | Nadekspresja | neutral | Przedwczesne wyjście progenitorów ze stadium podziałów, wczesne starzenie się neuronów, upośledzenie plastyczności synaptycznej i upośledzenie funkcji kognitywnych. |
+| — | Mutacja Utraty Funkcji | negative | Zespół niepełnosprawności intelektualnej związany z DYRK1A. Skutkuje ciężką mikrocefalią (małogłowiem), głębokim deficytem mowy, hipertonią mięśniową oraz stereotypiami ruchowymi wpisującymi się w spektrum autyzmu. |

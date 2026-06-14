@@ -40,6 +40,7 @@
 | **T/T** | Ekspresja referencyjna | Brak dodatkowej modulacji eQTL poza tłem populacyjnym |
 | **T/C** | Pośrednia | Umiarkowany wpływ na ryzyko uzależnienia w modelach diplotypowych |
 | **★ C/C** | Zmieniona ekspresja α5 | Część architektury haplotypowej CHRNA3–CHRNA5; interpretacja łącznie z rs16969968 i rs1051730 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel A (MAF) ~23–26%
 * **Europa (NFE):** Allel A 34–36,6%; homozygoty A/A ~10–15%

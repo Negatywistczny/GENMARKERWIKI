@@ -47,6 +47,7 @@
 | **★ C/C** | Referencyjny haplotyp bloku FADS | Standardowy profil elongacji i desaturacji PUFA; interpretacja łącznie z rs174575 i rs174537 |
 | **C/T** | Pośredni haplotyp | Umiarkowana modulacja stężeń AA i EPA w osoczu |
 | **T/T** | Alternatywny haplotyp (MAF ~20–31% EUR) | Skorelowany z wyższym indeksem desaturacji; wpływ na zawartość DHA w mleku matki i profil lipidowy |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF G (rs174575) ~4–8% w EUR; wyższy w niektórych kohortach azjatyckich
 * **Europa (NFE):** rs174583 T MAF ~20–31%; rs1535 G MAF ~31% (HELENA: AA 49%, AG 42%, GG 9%)

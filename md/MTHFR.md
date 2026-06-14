@@ -36,6 +36,7 @@
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
 | :--- | :--- | :--- |
 | **677C/T + 1298A/C (heterozygota złożona)** | ~50% (spadek o połowę) | Kaskada obu błędów; obraz zbliżony do ciężkiej homozygoty 677 T/T – uszczuplenie folianów, podwyższona homocysteina |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość alleli zależy od wariantu; dla C677T globalny udział allelu T jest zróżnicowany regionalnie i nie ma jednej stabilnej wartości dla wszystkich kohort
 * **Europa (NFE):** Dla C677T częstość allelu T zwykle ok. 34-36% (genotyp T/T ok. 10-15%); dla A1298C allel C często ok. 31%

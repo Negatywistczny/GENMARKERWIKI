@@ -26,6 +26,7 @@
 | **★ A/A** | Standardowa | Typowy metabolizm Hcy; wrażliwość na niedobór B12 i folianów |
 | **A/G** | Podwyższona | Obniżona homocysteina przy dobrej podaży B12; umiarkowane zużycie kobalaminy |
 | **G/G** | Najwyższa | Najniższa Hcy przy suplementacji; ryzyko szybszego wyczerpania B12 przy diecie ubogiej; ostrożność z N₂O |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF G ~20–25%
 * **Europa (NFE):** MAF G ~22%; AA ~61%, AG ~33%, GG ~6%

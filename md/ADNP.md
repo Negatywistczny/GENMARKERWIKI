@@ -39,6 +39,7 @@
 | **★ T/T** | Referencyjna | Brak zwiększonego ryzyka neuro |
 | **T/C** | Pośrednia | Umiarkowane ryzyko onkologiczne |
 | **C/C** | Alternatywna | Asocjacja ze wzrostem ryzyka raka prostaty (RAF ~0,93) |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Mutacje patogenne MAF 0% w gnomAD; zespół ~1:20 000 urodzeń
 * **Europa (NFE):** ~0,17% ASD przypisuje się mutacjom ADNP; incydencja HVDAS ~1:20 000

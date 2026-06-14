@@ -38,6 +38,7 @@
 | :--- | :--- | :--- |
 | **Dziki allel** | Prawidłowe FMRP | Normotypowy rozwój |
 | **Mutacja de novo** | Brak funkcjonalnego FMRP | ID, ASD, fenotyp FXS |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** FXS ~1:4 000 mężczyzn, ~1:8 000 kobiet; nosicielstwo premutacji ~1:151 kobiet
 * **Europa (NFE):** Częstość zgodna z globalną

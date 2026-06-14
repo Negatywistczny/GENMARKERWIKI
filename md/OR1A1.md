@@ -26,6 +26,7 @@
 | **★ G/G** | Pełna | Normalne wykrywanie mięty, kolendry, cytrusów; typowa percepcja mentolu |
 | **G/T** | Pośrednia | Obniżona czułość na karwon; mieszane odczucia przy niskich stężeniach |
 | **T/T** | Brak / pseudogen | Specyficzna anosmia karwonowa (~8% populacji); nie odczuwa „miętowego” zapachu |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Anosmia karwonowa ~8% (zależna od haplotypu)
 * **Europa (NFE):** Częstość pseudogenizacji ~7–9%

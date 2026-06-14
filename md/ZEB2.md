@@ -68,6 +68,7 @@
 | **★ G/G** | Referencyjna | Brak patologii mendlowskiej z tego SNP (brak dup c.1426) |
 | **G/GT** | Nosiciel | Weryfikacja ClinVar u nosicieli |
 | **GT/GT** | Rzadki | Możliwa patogenność — wyłącznie z oceną kliniczną i sekwencjonowaniem ZEB2 (duplikacje/delecje exon 8 są główną przyczyną MWS) |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu ryzyka rs2252641 ~43–47,5% (silny sygnał CAD)
 * **Europa (EUR):** >45% nosicielstwa allelu ryzyka w kohortach z powikłaniami wieńcowymi

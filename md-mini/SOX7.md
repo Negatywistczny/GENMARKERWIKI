@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | — | Ekspresja prawidłowa | positive | Prawidłowo wykształcone mikrokrążenie mózgowe, wysoka integralność bariery krew-mózg. Zrównoważony proces różnicowania progenitorów neuronalnych. |
 | — | Średnia ekspresja | neutral | Drobne, bezobjawowe fluktuacje w gęstości unaczynienia specyficznych obszarów podkorowych; bez bezpośredniego przełożenia na patologię. |
-| — | Zaburzenie wczesnej neurogenezy i stabilności naczyniowej mózgu. | negative | Generuje złożony fenotyp neurorozwojowy: wady sercowo-naczyniowe, specyficzną dysmorfię oraz wysokie ryzyko niepełnosprawności intelektualnej z cechami spektrum autyzmu. |
+| — | Zmniejszona Ekspresja / Mikrodelecja 8p23.1 | negative | Zaburzenie wczesnej neurogenezy i stabilności naczyniowej mózgu. Generuje złożony fenotyp neurorozwojowy: wady sercowo-naczyniowe, specyficzną dysmorfię oraz wysokie ryzyko niepełnosprawności intelektualnej z cechami spektrum autyzmu. |

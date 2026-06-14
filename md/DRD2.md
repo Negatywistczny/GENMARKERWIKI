@@ -61,6 +61,7 @@
 | **★ C/C** | Referencyjna ekspresja DRD2 | Brak zwiększonego ryzyka uzależnień z tego SNP w izolacji |
 | **C/T** | Pośrednia modulacja | Umiarkowane ryzyko substancji psychoaktywnych w silnym LD z klastrem 11q23 |
 | **T/T** | Alternatywny haplotyp | Skorelowany z wyższym ryzykiem opioidów i kokainy w metaanalizach; wczesna profilaktyka uzależnień |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1800497 – allel T/A1 ok. 32,5% (dbSNP/ALFA); rs6277 – allel T często dominuje w kohortach europejskich (~55%), z dużą heterogenicznością między regionami
 * **Europa (NFE):** rs1800497 T ~19–20%; rs6277 T ~55% (kaukaski paradoks niestabilnego mRNA); rs1076560 T ~13–14%; rs1799732 Del ~10–17%

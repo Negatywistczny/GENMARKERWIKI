@@ -54,6 +54,7 @@
 | **★ C/C** | Pełne białko | Norma pigmentacji |
 | **C/A** | Nosiciel | Brak fenotypu u heterozygoty |
 | **A/A** | Brak funkcji (skrócone białko) | OCA4 — ciężka hipopigmentacja, konieczna ochrona UV i monitoring onkologiczny skóry |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu G (F374) silnie zróżnicowane geograficznie
 * **Europa (NFE):** MAF G ~96,5–99% (prawie wszyscy G/G); selekcja pozytywna (Tajima D = −1,718)

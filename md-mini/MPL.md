@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **★ C/C** | Prawidłowa ochrona nisz neurogennych | positive | Zbalansowana, długofalowa neurogeneza dorosła (w hipokampie). Zachowanie pełnego potencjału regeneracyjnego i plastycznego mózgu przez całe życie. |
 | **C/T** | Średnia ekspresja | neutral | Standardowa populacyjna dynamika odnawiania komórek progenitorowych. |
-| **T/T** |  | negative | Przedwczesne, masowe wyjście komórek macierzystych ze stanu spoczynku i ich gwałtowna proliferacja, prowadząca do wczesnego wyczerpania puli neurogennej. Skutkuje postępującym spadkiem plastyczności kognitywnej, zaburzeniami pamięci oraz wysoką korelacją z ciężkimi zespołami neuroatypowymi. |
+| **T/T** | Mutacja Patogenna / Silny Wariant Ryzyka | negative | Przedwczesne, masowe wyjście komórek macierzystych ze stanu spoczynku i ich gwałtowna proliferacja, prowadząca do wczesnego wyczerpania puli neurogennej. Skutkuje postępującym spadkiem plastyczności kognitywnej, zaburzeniami pamięci oraz wysoką korelacją z ciężkimi zespołami neuroatypowymi. |

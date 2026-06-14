@@ -54,6 +54,7 @@
 | **Haplotyp 1 (baT/baT)** | Standardowa | Profil referencyjny w wielu kohortach europejskich |
 | **Haplotyp 2 (BAt/BAt)** | Obniżona | Niższa BMD; korzyść z wyższej podaży D i wapnia |
 | **Haplotyp 3 (bAT/bAT)** | Podwyższona | Lepsza odpowiedź kości na wit. D w części badań |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF FokI T (f) ~40%
 * **Europa (NFE):** ff ~18%; Ff ~49%; FF ~33%

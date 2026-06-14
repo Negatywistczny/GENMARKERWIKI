@@ -54,6 +54,7 @@
 | **★ G/G** | Referencyjna ekspresja M2 | Brak zwiększonego ryzyka delirium tremens; typowa odpowiedź na antycholinergiki |
 | **G/T** | Pośrednia | Umiarkowane ryzyko uzależnienia od alkoholu w kohortach europejskich |
 | **T/T** | Allel ryzyka (alkohol) | Skorelowany z cięższym alkoholizmem i gorszą odpowiedzią na leki antycholinergiczne w POChP; wsparcie rodzinne łagodzi fenotyp |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak kompletnych statystyk ALL
 * **Europa (NFE):** rs324650: AA ~20%, AT ~48%, TT ~32%; rs1824024: GG ~40%, GT ~56%, TT ~4%; haplotyp T-T-T >40%

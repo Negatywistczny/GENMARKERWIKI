@@ -47,6 +47,7 @@
 | **★ C/C** | Pełna aktywność ALDH2 | Norma metabolizmu aldehydu |
 | **C/T** | Obniżona funkcja | Możliwy rumieniec i nietolerancja alkoholu |
 | **T/T** | Krytycznie obniżona aktywność | Silna nietolerancja etanolu; profil ochronny przed nadmiernym piciem przy wysokim dyskomforcie |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A ok. 10–12% w zbiorach mieszanych; wartość mało reprezentatywna ze względu na skrajny gradient geograficzny
 * **Europa (NFE):** Allel A praktycznie nieobecny (MAF <0,1%); niemal wyłącznie G/G

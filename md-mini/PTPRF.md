@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **A/A** | Prawidłowa gęstość synaptyczna | positive | Stabilne, precyzyjnie uformowane synapsy w korze mózgowej i hipokampie. Wysoka wierność transmisji sygnałów bez utraty pęcherzyków. |
 | **★ A/G** | Łagodne | neutral | Niewielkie wahania w tempie remodelowania synaps, bez wyraźnych deficytów poznawczych. |
-| **G/G** | Osłabienie strukturalnego wiązania synaptycznego. | negative | Prowadzi do przedwczesnej destabilizacji kolców dendrytycznych i utraty połączeń korowych. W badaniach neuropsychiatrycznych powiązany z deficytami funkcji wykonawczych, podatnością na schizofrenię oraz zaburzeniami uwagi. |
+| **G/G** | Obniżona Ekspresja / Wariant Ryzyka LoF | negative | Osłabienie strukturalnego wiązania synaptycznego. Prowadzi do przedwczesnej destabilizacji kolców dendrytycznych i utraty połączeń korowych. W badaniach neuropsychiatrycznych powiązany z deficytami funkcji wykonawczych, podatnością na schizofrenię oraz zaburzeniami uwagi. |

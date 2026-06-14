@@ -15,7 +15,6 @@
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **A/A** |  | positive | Zmienność liczby kopii (CNV) - strukturalne warianty AL (mózgowy nadmiar kopii) |
-| **★ A/T** | Zbalansowany pruning | neutral | Selektywne, precyzyjne usunięcie niepotrzebnych synaps. Zachowanie wysokiej gęstości połączeń korowych, optymalne zdolności analityczne, minimalne ryzyko psychozy. |
-| **A/T** |  | neutral | Standardowa populacyjna przebudowa sieci neuronalnej. |
-| **T/T** | Nadekspresja strukturalna C4A | negative | Patologiczna hiperaktywność mikrogleju. Dochodzi do masowego, bezlitosnego niszczenia zdrowych połączeń synaptycznych w korze przedczołowej. Skutkuje to drastycznym "ocienieniem" istoty szarej, zaburzeniami poznawczymi i stanowi **główny molekularny mechanizm wyzwalający schizofrenię**. |
+| — | Niska liczba kopii C4A | positive | Selektywne, precyzyjne usunięcie niepotrzebnych synaps. Zachowanie wysokiej gęstości połączeń korowych, optymalne zdolności analityczne, minimalne ryzyko psychozy. |
+| ★ — | Umiarkowana liczba kopii | neutral | Standardowa populacyjna przebudowa sieci neuronalnej. |
+| — | Wysoka liczba kopii | negative | Patologiczna hiperaktywność mikrogleju. Dochodzi do masowego, bezlitosnego niszczenia zdrowych połączeń synaptycznych w korze przedczołowej. Skutkuje to drastycznym "ocienieniem" istoty szarej, zaburzeniami poznawczymi i stanowi **główny molekularny mechanizm wyzwalający schizofrenię**. |

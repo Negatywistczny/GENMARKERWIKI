@@ -33,6 +33,7 @@
 | **★ C/C** | Prawidłowa ekspresja MRP8 w wątrobie i szpiku | Norma ekspresji transportera; prawidłowy efflux 5-FU i metabolitów. Niższe ryzyko ciężkiej leukopenii (WHO g3/4) przy chemioterapii fluoropirymidynowej |
 | **C/T** | Obniżona ekspresja MRP8 (~połowa normy) | Podwyższone ryzyko ciężkiej leukopenii i akumulacji toksycznego 5-FU w leukocytach. Przed 5-FU warto omówić test genetyczny z onkologiem |
 | **T/T** | Silnie obniżona ekspresja MRP8 | Ryzyko ciężkiej leukopenii wielokrotnie wyższe niż u C/C; wysoka akumulacja 5-FU w komórkach krwi. Personalizacja dawki lub alternatywa terapeutyczna |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel A (suchy typ) MAF ok. 15–25% w agregatach globalnych; silna zależność od pochodzenia
 * **Europa (NFE):** Allel A bardzo rzadki (MAF ok. 1–3%); dominują G/G i G/A; fenotyp suchy u ok. 2–5% populacji

@@ -23,6 +23,7 @@
 | **C/C** | R/R (Dziki); Pełna / Optymalna | **Wysoka Siła Eksplozywna:** Dominacja włókien szybkokurczliwych. Predyspozycje do sprintów, skoków i sportów siłowych. Zwiększona stabilność prążka Z znakomicie chroni komórki mięśniowe przed uszkodzeniami i mikrourazami w trakcie gwałtownych ruchów. |
 | **C/T** | R/X (Mieszany) | **Aktywność resztkowa:** Częściowa<br><br>**Profil Zrównoważony:** Złoty środek stanowiący kompromis pomiędzy wydolnością tlenową a beztlenową (siłową). Szlaki wewnątrzkomórkowe pozostają w równowadze. Idealny genotyp do sportów o charakterystyce interwałowej i wielokierunkowej (np. koszykówka, sztuki walki, piłka nożna). |
 | **★ T/T** | X/X (Mutacja); Całkowity Deficyt | **Dominacja Wytrzymałości:** Przejście metabolizmu w stronę tlenową. Brak zdolności do maksymalnego zrywu, jednak wybitna odporność na wyczerpanie. Kosztem jest drastycznie osłabiona struktura prążka Z, co skutkuje potężnym wzrostem ryzyka mikrouszkodzeń tkanki (potreningowe "zakwasy" i bolesność) po treningach siłowych. |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Około 18–20% populacji stanowią homozygoty X/X (deficyt ACTN3), co odpowiada ok. 1,5 mld osób
 * **Europa (NFE):** Allel R występuje z częstością ok. 57%, a genotyp X/X u ok. 18% populacji

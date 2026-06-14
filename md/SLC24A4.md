@@ -47,6 +47,7 @@
 | **★ G/G** | Referencyjna | Norma pigmentacji i ekspresji w neuronach |
 | **G/T** | Pośrednia | Profil pośredni kognitywny/metaboliczny |
 | **T/T** | Alternatywna | Modulacja transkrypcji w badaniach asocjacyjnych; interpretacja z rs12590654 i rs12896399 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu T rs12896399 ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** MAF T ok. 70–85%; T/T u ok. 50–70% (jasne fenotypy)

@@ -33,6 +33,7 @@
 | **C/C** | Standardowa | Referencyjna (profil referencyjny) |
 | **★ C/T** | Pośrednia | Modulacja ekspresji w kohortach azjatyckich |
 | **T/T** | Obniżona | Asocjacja z wyższą Hcy w połączeniu z A66G |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF G (rs1801394) ~25–30%
 * **Europa (NFE):** MAF G ~26%; AA ~55%, AG ~38%, GG ~7%

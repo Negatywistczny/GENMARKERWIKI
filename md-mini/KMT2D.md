@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **★ A/A** | Prawidłowa metylacja histonów | positive | Stabilna, skoordynowana transkrypcja zależna od stanu euchromatyny. Harmonijny rozwój struktur somatycznych oraz prawidłowy przebieg neurogenezy dorosłej w hipokampie. |
-| **A/G** |  | neutral | Subtelne przesunięcia w profilu metylacji histonów, mogące skutkować drobnymi, bezobjawowymi cechami anatomii twarzy lub niewielkimi różnicami w dynamice zapamiętywania. |
+| **A/G** | Warianty populacyjne / Polimorfizmy | neutral | Subtelne przesunięcia w profilu metylacji histonów, mogące skutkować drobnymi, bezobjawowymi cechami anatomii twarzy lub niewielkimi różnicami w dynamice zapamiętywania. |
 | **G/G** | Heterozygota LoF / Zespół Kabuki typ 1 | negative | Zablokowanie otwierania chromatyny dla kluczowych genów rozwojowych. Skutkuje unikalną dysmorfią twarzy (długie szpary powiekowe, wywinięcie dolnej powieki, duże małżowiny uszne), wrodzonymi wadami serca, niepełnosprawnością intelektualną, znacznym opóźnieniem rozwoju mowy oraz cechami spektrum autyzmu powiązanymi z upośledzeniem plastyczności hipokampa. |

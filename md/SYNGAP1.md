@@ -40,6 +40,7 @@
 | **G/G** | Prawidłowy splicing | Fenotyp prawidłowy |
 | **G/A** | Haploinsuficjencja; NMD | Ciężka encefalopatia padaczkowa, hipotonia |
 | **A/A** | Brak ekspresji funkcjonalnej | Patogenny homozygot – brak w populacji zdrowej |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Patogenne allely MAF 0% w gnomAD
 * **Europa (NFE):** Częstość zespołu ~1:50 000–1:100 000 urodzeń; jednolita w populacjach

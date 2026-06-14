@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **★ C/C** | Wysoka ekspresja receptorów | positive | Sprawne bramkowanie sensoryczne (prawidłowy test tłumienia P50). Doskonała koncentracja selektywna, odporność na szum informacyjny i wysoka wydajność pamięci roboczej. |
-| **C/T** |  | neutral | Umiarkowane fluktuacje w gęstości receptorowej, dające okresową podatność na dystrakcję pod wpływem zmęczenia lub przebodźcowania. |
+| **C/T** | Genotyp Pośredni / Polimorfizmy eQTL | neutral | Umiarkowane fluktuacje w gęstości receptorowej, dające okresową podatność na dystrakcję pod wpływem zmęczenia lub przebodźcowania. |
 | — | Patologia | negative | Całkowite załamanie filtracji sensorycznej. Mózg zalewany jest chaotycznymi bodźcami. Skutkuje to deficytami uwagi, trudnościami integracji sensorycznej w ASD oraz drastycznym wzrostem podatności na schizofrenię i epizody psychotyczne. |

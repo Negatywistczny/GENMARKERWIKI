@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **A/A** | Prawidłowa ekspresja RET | positive | Pełne unaczynienie i prawidłowe unerwienie splotów jelitowych (Auerbacha i Meissnera). Sprawna motoryka przewodu pokarmowego, prawidłowy rozwój linii dopaminergicznych, doskonała komunikacja na osi jelita-mózg. |
-| **★ A/T** | Skłonność do czynnościowych zaburzeń jelitowych (np. | neutral | IBS o typie zaparciowym) pod wpływem stresu psychofizycznego. |
+| **★ A/T** | Warianty Polimorficzne o Niskiej Penetracji | neutral | Skłonność do czynnościowych zaburzeń jelitowych (np. IBS o typie zaparciowym) pod wpływem stresu psychofizycznego. |
 | **T/T** | Heterozygota LoF | negative | **Choroba Hirschsprunga** (wrodzone neurogenne zaparcie megacolon z powodu agenezji splotów jelitowych). U pacjentów neurorozwojowych mutacje o mniejszej sile ekspresji leżą u podłoża ciężkich, opornych na leczenie dysfunkcji motoryki jelitowej, które drastycznie zaostrzają behawioralny fenotyp autystyczny (ASD) poprzez pętlę prozapalną. |

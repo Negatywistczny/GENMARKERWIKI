@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **C/C** | Wariant neuroprotekcyjny | positive | Kynurenina jest chętniej przekształcana przez inny enzym (KAT) do kwasu kynurenionowego (KYNA), który blokuje receptory NMDA i chroni mózg. Niższe ryzyko stanów lękowych i psychotycznych. |
-| **★ C/T** |  | neutral | Zrównoważony metabolizm kynurenin w OUN. |
+| **★ C/T** | Genotyp Pośredni | neutral | Zrównoważony metabolizm kynurenin w OUN. |
 | **T/T** | Nadekspresja KMO | negative | Drastyczne przesunięcie metabolizmu w stronę neurotoksycznego kwasu chinolinowego (QUIN). Powoduje chroniczny mikrostan zapalny, niszczenie astrocytów, silny lęk wolnopłynący i jest mocno powiązany z patofizjologią epizodów maniakalnych oraz depresji endogennej odpornej na leczenie. |

@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **★ G/G** | Ekspresja zbalansowana | positive | Prawidłowy, symetryczny podział komórkowy w fazie neurogenezy. Obwód czaszki w normie populacyjnej, prawidłowa homeostaza szlaku Wnt i harmonijny rozwój struktur korowych. |
-| **G/A** |  | neutral | Łagodna tendencja do wyższych percentyli obwodu głowy (w granicach normy), bez strukturalnych zaburzeń architektury mózgu i bez nasilonych cech behawioralnych. |
+| **G/A** | Warianty populacyjne o niskiej penetracji | neutral | Łagodna tendencja do wyższych percentyli obwodu głowy (w granicach normy), bez strukturalnych zaburzeń architektury mózgu i bez nasilonych cech behawioralnych. |
 | **A/A** | Heterozygota LoF | negative | Klasyczny podtyp kliniczny CHD8-ASD. Przełamany hamulec proliferacji skutkuje wyraźną makrocefalią (wielkogłowiem). Towarzyszą mu specyficzne dysfunkcje osi jelitowej (przewlekłe zaparcia), głębokie zaburzenia architektury snu oraz nasilony fenotyp autystyczny. |

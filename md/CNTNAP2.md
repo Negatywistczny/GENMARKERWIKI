@@ -39,6 +39,7 @@
 | :--- | :--- | :--- |
 | **Dziki allel** | Prawidłowe Caspr2 | Normotypowy rozwój |
 | **Heterozygot de novo** | Utrata funkcji | Dysplazja korowa ogniskowa, padaczka, opóźnienie rozwoju |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs7794745 allel G MAF ~35–45% (zależnie od populacji)
 * **Europa (NFE):** Allel G ~40%; asocjacje z ASD potwierdzone w meta-analizach

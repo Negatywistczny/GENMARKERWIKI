@@ -15,6 +15,6 @@
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| — | Brak rearanżacji strukturalnych | positive | Prawidłowa dynamika formowania korowych ośrodków mowy (w tym obszaru Broki i Wernickego). Harmonijny rozwój kompetencji językowych i płynności poznawczej. |
-| **★ A/T** | Częste w populacji modyfikatory tempa rozwoju mowy u dzieci. | neutral | Mogą wywoływać przejściowe opóźnienia ekspresji językowej (SLI) przy całkowicie zachowanym potencjale intelektualnym. |
-| — | Delecja eksonów / LoF | negative | Strukturalne uszkodzenia genu MACROD2 są bezpośrednio powiązane z agenezją ciała modzelowatego, głębokimi, trwałymi zaburzeniami rozwoju mowy, mutyzmem wybiórczym oraz wysokim ryzykiem klinicznego fenotypu autystycznego. |
+| — | Typ Dziki | positive | Prawidłowa dynamika formowania korowych ośrodków mowy (w tym obszaru Broki i Wernickego). Harmonijny rozwój kompetencji językowych i płynności poznawczej. |
+| ★ — | Warianty populacyjne / Polimorfizmy introniczne | neutral | Częste w populacji modyfikatory tempa rozwoju mowy u dzieci. Mogą wywoływać przejściowe opóźnienia ekspresji językowej (SLI) przy całkowicie zachowanym potencjale intelektualnym. |
+| — | Rearanżacja Patogenna | negative | Strukturalne uszkodzenia genu MACROD2 są bezpośrednio powiązane z agenezją ciała modzelowatego, głębokimi, trwałymi zaburzeniami rozwoju mowy, mutyzmem wybiórczym oraz wysokim ryzykiem klinicznego fenotypu autystycznego. |

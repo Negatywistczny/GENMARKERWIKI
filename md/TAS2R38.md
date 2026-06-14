@@ -38,6 +38,7 @@
 | **★ G/G** | Funkcjonalny (PAV) | **Aktywność receptora:** Pełna aktywność w haplotypie PAV<br><br>**Fenotyp immunologiczny:** Współtworzy supersmakosza z rs713598/rs1726866 |
 | **G/A** | Pośrednia | **Aktywność receptora:** Umiarkowana transmisja sygnału<br><br>**Fenotyp immunologiczny:** Elastyczny profil dietetyczny |
 | **A/A** | Niefunkcjonalny (AVI) | **Aktywność receptora:** Brak pełnej funkcji w haplotypie AVI<br><br>**Fenotyp immunologiczny:** Non-taster w połączeniu z C na rs713598 i T na rs1726866 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej uniwersalnej wartości globalnej, ponieważ częstości dotyczą haplotypów (PAV/AVI/AAI), a nie pojedynczego allelu
 * **Europa (NFE):** Wysoka równowaga haplotypów: PAV ok. 45,66% i AVI ok. 49,22%

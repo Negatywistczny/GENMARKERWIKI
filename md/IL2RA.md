@@ -40,6 +40,7 @@
 | **C/C** | Ochronny | Niższe ryzyko stwardnienia rozsianego |
 | **★ C/T** | Pośrednia | Umiarkowane ryzyko |
 | **T/T** | Ryzykowny | Zwiększone ryzyko MS w metaanalizach GWAS |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF T (rs2104286) ~40–45%
 * **Europa (NFE):** MAF T ~42%; CC ~34%, CT ~48%, TT ~18%

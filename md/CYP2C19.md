@@ -61,6 +61,7 @@
 | **C/C** | Brak allelu *7 | Prawidłowy klirens inhibitorów pompy protonowej i klopidogrelu |
 | **C/T** | Heterozygota *7 | Częściowa utrata funkcji; umiarkowanie wydłużony klirens omeprazolu i pantoprazolu |
 | **★ T/T** | Homozygota *7/*7 | Silnie obniżona aktywność CYP2C19; ryzyko interakcji lekowych i słabszej aktywacji klopidogrelu — personalizacja dawki wg CPIC |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** ~40% populacji ma ≥1 allel o zmienionej funkcjonalności; diplotyp *1/*1 najczęstszy globalnie
 * **Europa (NFE):** *2 (rs4244285) umiarkowany; *17 wyższy w Europie Środkowej (Słowacja, Polska); *3 rzadki

@@ -54,6 +54,7 @@
 | **★ C/C** | Niska ekspresja FADS1 (tag) | Niższy poziom AA w osoczu; ochrona kardiometaboliczna przy diecie zachodniej, ryzyko niedoboru DHA |
 | **C/T** | Pośrednia | Umiarkowany indeks desaturacji 20:4n-6/18:2n-6 |
 | **T/T** | Wysoka aktywność D5D | Szybka konwersja LA→AA; presja neolityczna allelu G w Europie; ogranicz omega-6 przy G/G rs174537 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu T (rs174537) silnie zróżnicowany geograficznie
 * **Europa (NFE):** MAF T ~34%; GG ~46%, GT ~43%, TT ~11%

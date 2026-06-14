@@ -60,6 +60,7 @@
 | :--- | :--- | :--- |
 | **GoF (np. p.Ala263Val)** | Hiperpobudliwość kanału | Zespół Ohtahara, padaczka wczesna; karbamazepina/fenytoina skuteczne |
 | **LoF (np. nonsense)** | Haploinsuficjencja Nav1.2 | ASD, opóźnienie rozwoju; blokery sodowe przeciwwskazane |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs10174400 allel T MAF ~33,7–34,0%
 * **Europa (NFE):** C/C ~47%, C/T ~42%, T/T ~11%

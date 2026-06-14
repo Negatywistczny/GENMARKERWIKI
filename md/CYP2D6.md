@@ -96,6 +96,7 @@
 | **★ C/C** | Profil referencyjny | Brak obniżenia AS z tego locus; nie stosować jako samodzielnego markera (orientacja nici!) |
 | **C/T** | Heterozygota | Pośredni metabolizm w haplotypie z allelami LoF |
 | **T/T** | Alternatywny haplotyp | Skorelowany z wolniejszym metabolizmem; u nosicieli C/T + metylofenidat — lepsza poprawa uwagi w części kohort ADHD |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** ~36,4% non-NM; najwyższe w Algierii (61%), najniższe w Gambii (2,7%)
 * **Europa (NFE):** *4 ~18,5%; *41 ~9%; NM ~70–80%; UM ~2–3%; gradient *4 od NW do SE Europy

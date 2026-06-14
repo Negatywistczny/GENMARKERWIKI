@@ -47,6 +47,7 @@
 | **G/G** | Częsty allel w Europie | Współudział w jasnej pigmentacji w modelach predykcyjnych |
 | **G/T** | Pośrednia | Profil mieszany |
 | **★ T/T** | Alternatywna | Modyfikuje przewidywanie koloru włosów/skóry w testach kosmetycznych |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel G rzadki poza Europą; MAF G ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** MAF allelu G ok. 50–80% (Skandynawia do 80–90% GG); allel A ok. 20–50%

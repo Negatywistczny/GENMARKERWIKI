@@ -54,6 +54,7 @@
 | **★ T/T** | Referencyjna transkrypcja upstream | Typowy profil opóźniania gratyfikacji; brak zwiększonej impulsywności behawioralnej z tego markera |
 | **T/A** | Pośrednia modulacja ekspresji | Umiarkowana skłonność do preferowania natychmiastowej nagrody |
 | **A/A** | Zmieniona regulacja promotorowa | Skorelowany z wyższym delayed reward discounting (impulsywność ekonomiczna); warto ćwiczenia opóźniania gratyfikacji i CBT |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstości alleli rs1800544 i rs553668 silnie zróżnicowane między kontynentami; brak jednej wartości globalnej
 * **Europa (NFE):** rs1800544: allel C ~73–75%, G ~25–27%; rs553668 allel ryzyka A ~15%

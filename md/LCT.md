@@ -33,6 +33,7 @@
 | **★ C/C** | Brak allelu persystencji (tag) | Skorelowany z hipolaktazją dorosłych w LD z rs4988235 C; typowa nietolerancja laktozy przy C/C rs4988235 |
 | **C/T** | Heterozygota | Pośrednia ekspresja laktazy; tolerancja standardowych porcji mleka u większości dorosłych |
 | **T/T** | Allel persystencji (tag) | Wspiera utrzymanie laktazy u dorosłych; pełna tolerancja nabiału przy zgodności z rs4988235 T/T |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu T szacowana jest na ok. 39,6-40,9%
 * **Europa (NFE):** Częstość allelu T jest wysoka, ale zmienna geograficznie (północ Europy wyraźnie wyżej niż południe)

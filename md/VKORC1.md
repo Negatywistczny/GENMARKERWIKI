@@ -61,6 +61,7 @@
 | **★ A/A** | Haplotyp referencyjny (C) | Standardowa dawka początkowa warfaryny; zgodność z rs9923231 C/C u większości Europejczyków |
 | **A/G** | Haplotyp pośredni | Redukcja dawki początkowej; częstsze dostosowanie INR w pierwszych tygodniach |
 | **G/G** | Haplotyp ekstremalnej wrażliwości | Bardzo niskie dawki (0,5–2 mg/d) u Azjatów Wschodnich w LD; wysokie ryzyko krwawień bez genotypowania |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel T (wrażliwość) MAF ~33,8%
 * **Europa (NFE):** Allel T ~38,5%; genotypy CC ~39%, CT ~47%, TT ~14%

@@ -47,6 +47,7 @@
 | **★ G/G** | Referencyjny haplotyp | Standardowa stabilność PKMζ w hipokampie |
 | **G/A** | Pośredni | Umiarkowana modulacja LTP w badaniach asocjacyjnych |
 | **A/A** | Alternatywny haplotyp | Skorelowany z wolniejszym tempem starzenia poznawczego u nosicieli allelu T rs17070145; ochrona przed późnym AD w części kohort |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości ALL; allel T częsty w wielu kohortach
 * **Europa (NFE):** Allel T ~32–38%; genotypy CC ~44%, CT ~41%, TT ~15% (kohorty europejskie/Rosja)

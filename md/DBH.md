@@ -82,6 +82,7 @@
 | **A/A** | Referencyjna | Brak dodatkowego sygnału z tego locus |
 | **A/G** | Pośrednia | Umiarkowana predyspozycja ADHD w haplotypie |
 | **★ G/G** | Alternatywna | Część haplotypu obniżającego DBH; rozważ atomoksetynę przy ADHD |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1611115 – allel C (ochronny) ~79,65%; allel T ~20,16% (gnomAD/ALFA)
 * **Europa (NFE):** C ~78,95%; T ~21,05%. Genotypy: CC ~59–66%, CT ~30–35%, TT ~4–6%. rs1108580 allel A ~53,6–54,7%

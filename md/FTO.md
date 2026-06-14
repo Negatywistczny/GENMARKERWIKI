@@ -52,6 +52,7 @@
 | **T/T** | Haplotyp ochronny | Niższe ryzyko przy T-T-T; mindful eating i ruch |
 | **C/T** | Pośrednia | Profil pośredni |
 | **★ C/C** | Haplotyp ryzyka (często C-G-A) | Wyższe ryzyko otyłości i słabsza kontrola apetytu w modelu IRX3 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstość allelu A wynosi ok. 40,82% (n=151 874)
 * **Europa (NFE):** Częstość allelu A wynosi ok. 40,80%

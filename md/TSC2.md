@@ -47,6 +47,7 @@
 | **A/A** | Referencyjny haplotyp | Prawidłowa regulacja mTOR; brak zwiększonego ryzyka |
 | **★ A/G** | Heterozygot | Pośrednia ekspresja; umiarkowane ryzyko w kohortach rodzinnych |
 | **G/G** | Alternatywny haplotyp | Zmiana ekspresji; asocjacje z nasileniem fenotypu TSC |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** TSC ~1:6 000–1:10 000; TSC2 ~80% przypadków
 * **Europa (NFE):** rs28934872 MAF <0,01% (patogenny)

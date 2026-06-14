@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **★ G/G** | Prawidłowa integracja wzgórzowo-korowa | positive | Precyzyjna dystrybucja impulsów czuciowych, słuchowych i wzrokowych w korze nowej. Stabilny, prawidłowo zsynchronizowany z zewnętrznym światłem rytm okołodobowy. |
 | **G/C** | Umiarkowane | neutral | Standardowe różnice osobnicze w chronotypie (poranny ptaszek vs nocny marek) oraz drobne wahania w indywidualnej tolerancji na silne bodźce zmysłowe. |
-| **C/C** |  | negative | Wywołuje uogólnione padaczki dziecięce (w tym ciężką padaczkę miokloniczno-atoniczną) oraz złożone zaburzenia neurorozwojowe charakteryzujące się głęboką niepełnosprawnością intelektualną, stereotypiami ruchowymi i ekstremalną nadwrażliwością sensoryczną w ASD. |
+| **C/C** | Mutacja Patogenna / Silny Wariant Ryzyka | negative | Wywołuje uogólnione padaczki dziecięce (w tym ciężką padaczkę miokloniczno-atoniczną) oraz złożone zaburzenia neurorozwojowe charakteryzujące się głęboką niepełnosprawnością intelektualną, stereotypiami ruchowymi i ekstremalną nadwrażliwością sensoryczną w ASD. |

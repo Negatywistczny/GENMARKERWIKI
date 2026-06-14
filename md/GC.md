@@ -34,6 +34,7 @@
 | **Gc1s/1s** | G/G + C/C | Wysokie stężenie całkowite; klasyczny profil europejski; u palaczy zwiększone ryzyko POChP |
 | **Gc2/2** | T/T + A/A | Najniższe stężenie VDBP; szybsze uwalnianie wolnego kalcyfediolu; asocjacja ochronna w SM (kohorta łotewska); podatność na sepsę (rs4588-AA) i nefropatię cukrzycową |
 | **★ Gc1s/2** | G/T + C/A | Najczęstszy mieszany diplotyp w Europie; umiarkowanie obniżone VDBP |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu C rs2282679 ok. 35–40% w zbiorach mieszanych; haplotypy Gc silnie zależne od pochodzenia
 * **Europa (NFE):** Wysoka częstość Gc1s i Gc2; MAF rs2282679-C ok. 35–45%; gradient północ–południe (więcej Gc1s na północy)

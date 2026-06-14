@@ -17,4 +17,4 @@
 | :--- | :--- | :--- | :--- |
 | **★ A/A** | Zbalansowany pruning | positive | Prawidłowa, selektywna eliminacja zbędnych lub słabych połączeń synaptycznych w dzieciństwie. Stabilna tolerancja immunologiczna, optymalna gęstość sieci neuronowych. |
 | **A/C** | Występujące u ok. 44% pacjentów w grupach badawczych ASD | neutral | Zmienione powinowactwo prezentacji antygenowej na komórkach glejowych. Skutkuje anomaliami w tempie i precyzji eliminacji synaps, co prowadzi do lokalnego "przebodźcowania" sieci neuronalnych i predyspozycji do cech neurorozwojowych. |
-| **C/C** | Przewlekła, patologiczna aktywacja immunologiczna w obrębie OUN. | negative | Autoreaktywność limfocytów, niszczenie zdrowych połączeń synaptycznych, permanentny stan zapalny (neuroinflammation) i głęboki behawioralny fenotyp ASD. |
+| **C/C** | Dysfunkcja / Profil Autoimmunologiczny HLA | negative | Przewlekła, patologiczna aktywacja immunologiczna w obrębie OUN. Autoreaktywność limfocytów, niszczenie zdrowych połączeń synaptycznych, permanentny stan zapalny (neuroinflammation) i głęboki behawioralny fenotyp ASD. |

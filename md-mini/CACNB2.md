@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **G/G** | Stabilny prąd wapniowy | positive | Precyzyjne dozowanie jonów wapnia. Zrównoważona odpowiedź synaptyczna, stabilna transmisja sygnałów bez generowania szumu elektrofizjologicznego. |
-| **★ G/C** |  | neutral | Prawidłowe populacyjne funkcjonowanie kanałów napięciowych. |
+| **★ G/C** | Genotyp Pośredni | neutral | Prawidłowe populacyjne funkcjonowanie kanałów napięciowych. |
 | **C/C** | Homozygota GWAS | negative | Patologiczne wydłużenie czasu otwarcia kanału wapniowego. Powoduje przewlekły nadmiar intracelularnego wapnia w neuronach kory przedczołowej i struktur limbicznych. W międzynarodowych megabadaniach genetycznych PGC wariant ten okazał się **wspólnym mianownikiem plejotropowym**, podnoszącym u tego samego pacjenta ryzyko jednoczesnego wystąpienia: ADHD, ChAD, schizofrenii oraz ciężkiej depresji nawracającej. |

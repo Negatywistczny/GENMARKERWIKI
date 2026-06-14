@@ -15,6 +15,6 @@
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **★ A/A** | Prawidłowa tolerancja immunologiczna ciąży. | positive | Brak krążących przeciwciał przeciwmózgowych, w pełni bezpieczny, niezakłócony rozwój neurobiologiczny płodu. |
+| **★ A/A** | Genotyp Matczyny Standardowy | positive | Prawidłowa tolerancja immunologiczna ciąży. Brak krążących przeciwciał przeciwmózgowych, w pełni bezpieczny, niezakłócony rozwój neurobiologiczny płodu. |
 | **A/C** | Heterozygota u matki | neutral | Podwyższona skłonność do subklinicznej autoimmunizacji. Zwiększone ryzyko silnej aktywacji immunologicznej i reakcji krzyżowej limfocytów B pod wpływem infekcji wirusowych w trakcie ciąży. |
 | **C/C** | Homozygota ryzyka / Konstelacja patogenna | negative | Wymuszona produkcja matczynych autoprzeciwciał IgG (skierowanych m.in. przeciwko CRMP1, CRMP2, GDA). Przechodzą one przez łożysko do krążenia płodu, penetrują barierę krew-mózg i nieodwracalnie niszczą architekturę rozwijającej się kory mózgowej, indukując u dziecka podtyp MAR-ASD (ciężki autyzm z makrocefalią i regresją rozwojową). |

@@ -54,6 +54,7 @@
 | **A/A** | Lys/Lys | Typowy haplotyp |
 | **A/G** | Lys/Arg | Pośrednia |
 | **★ G/G** | Thr/Thr (rs7926083) | Modulacja haplotypu aldehydowego w LD z OR6A2 |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A (proxy rs7107418-G) ok. 25–40% w kohortach mieszanych
 * **Europa (NFE):** MAF A ok. 35–40%; ~15–20% deklaruje awersję do kolendry (ankiety ≠ sam genotyp)

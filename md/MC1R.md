@@ -60,6 +60,7 @@
 | **★ G/G** | Arg/Arg | Norma pigmentacji; niższe ryzyko przebarwień posłonecznych |
 | **G/A** | Arg/Gln | Pośredni; skłonność do plam i przebarwień |
 | **A/A** | Gln/Gln | Niskopenetrujący wariant „r”; plamy posłoneczne, jaśniejsza skóra; monitoring zmian barwnikowych |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Częstości zależą od konkretnego rsID; przykładowo rs1805005 wynosi globalnie ok. 8,20%
 * **Europa (NFE):** Najwyższe częstości wariantów rozjaśniających, m.in. rs1805007 ok. 12,1-14,2%, rs1805008 ok. 7,72-10,8%, rs1805005 ok. 10,0-15,0%

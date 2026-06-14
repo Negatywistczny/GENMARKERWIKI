@@ -80,6 +80,7 @@
 | **★ C/C** | Referencyjny haplotyp intronowy | Brak typowej asocjacji kardiologicznej lub psychiatrycznej z tego markera |
 | **C/T** | Pośrednia | Umiarkowana modulacja ekspresji w LD z rs1006737 |
 | **T/T** | Alternatywny allel | Skorelowany z wyższym ryzykiem EH i zaburzeń afektywnych w części kohort; kontrola ciśnienia i nastroju |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1006737 – allel A (ryzyko) często ~30–35% w bazach populacyjnych (zależnie od kohorty)
 * **Europa (NFE):** rs1006737 allel A ~29%; rs1051375 homozygota G/G <2%

@@ -60,6 +60,7 @@
 | **G/G** | Referencyjna | Brak izolowanego efektu klinicznego |
 | **★ G/A** | Pośrednia | Umiarkowana modulacja ośi stresowej |
 | **A/A** | Alternatywna | W haplotypie z rs1360780-C i rs9470080-T zwiększa ryzyko objawów po traumie dziecięcej |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Allel T (ryzyko) ~32,78%; allel C (dziki) ~67,22% (gnomAD)
 * **Europa (NFE):** Allel T ~30–35%; ewolucyjna „czujność” łowców w surowym klimacie

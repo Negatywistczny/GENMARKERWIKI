@@ -32,6 +32,9 @@ def main() -> int:
         ("Audyt patogennych rsID", [py, str(SCRIPTS / "audit_pathogenic_rsids.py")]),
         ("Audyt profili tematów", [py, str(SCRIPTS / "audit_topic_profiles.py")]),
         ("Audyt gwiazdek minikart", [py, str(SCRIPTS / "audit_mini_stars.py")]),
+        ("Audyt struktury md/", ["node", str(SCRIPTS / "verify_structure.mjs")]),
+        ("Audyt minikart md-mini/", [py, str(SCRIPTS / "audit_mini_cards.py")]),
+        ("Audyt spójności md/md-mini", [py, str(SCRIPTS / "audit_md_coherence.py")]),
     ]
     failed = []
     for label, cmd in steps:

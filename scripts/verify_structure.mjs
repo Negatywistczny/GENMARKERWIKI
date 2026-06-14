@@ -161,14 +161,14 @@ for (const file of fs.readdirSync(mdDir).sort()) {
         }
       }
     }
-    const sec4Text = sec4.body.join("\n");
-    if (/\|[^|\n]+\n### 5\./.test(sec4Text)) {
-      issues.push({
-        gene,
-        type: "spacing",
-        detail: "Brak pustej linii między ostatnią tabelą §4 a ### 5",
-      });
-    }
+  }
+
+  if (/\|[^\n]*\r?\n### 5\./.test(md)) {
+    issues.push({
+      gene,
+      type: "spacing",
+      detail: "Brak pustej linii między ostatnią tabelą §4 a ### 5",
+    });
   }
 
   const sec6 = sections.find((s) => s.num === 6);

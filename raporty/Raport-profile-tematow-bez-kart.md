@@ -2,7 +2,7 @@
 
 Geny na stronach tematów bez kart wiki: **113**
 Z callami WGS uzupełniono w `personal-gene-profiles.js`: **0**
-Profile łącznie (★ z md/*.md i md-mini/*.md): **165**
+Profile łącznie (★ z md/*.md i md-mini/*.md): **167**
 
 _Geny tematów bez kart i bez ★ w md-mini nie dostają treści z Bazy/WGS._
 
@@ -14,8 +14,6 @@ _Geny tematów bez kart i bez ★ w md-mini nie dostają treści z Bazy/WGS._
 - **ALMS1** (chad)
 - **ARID1B** (asd, neurodev)
 - **BCL11B** (mdd)
-- **DYRK1A** (asd, neurodev)
-- **GRM5** (adhd)
 - **NKX2-2** (adhd)
 - **NSUN6** (chad)
 - **PCDHG** (chad)

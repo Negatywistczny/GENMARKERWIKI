@@ -60,6 +60,7 @@
 | :--- | :--- | :--- |
 | **Heterozygotyczna utrata genu** | Drastyczne obniżenie SHANK3 w PSD | Zespół Phelan-McDermid: opóźnienie mowy, hipotonia, ASD, niepełnosprawność intelektualna |
 | **Duplikacja locus** | Nadmiar ekspresji SHANK3 | Nadaktywność psychoruchowa, hiperkinetyczność, przerost kolców dendrytycznych |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs9616915 allel C (ryzyko w niektórych kohortach) – MAF zależny od populacji
 * **Europa (NFE):** Allel C ~53,3%; genotyp C/C powszechny u Kaukazów

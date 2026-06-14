@@ -15,6 +15,6 @@
 
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
-| **★ C/C** | Prawidłowa migracja warstwowa | positive | Precyzyjna, warstwowa struktura kory mózgowej i móżdżku. Bezbłędne uformowanie makrosieci neuronalnych, prawidłowa integracja sensoryczno-motoryczna. |
-| **C/T** | Modyfikujące | neutral | Subtelne przesunięcia w tempie migracji komórkowej, mogące nieznacznie modyfikować profil przetwarzania bodźców motorycznych i równowagi. |
-| — | CNV / Delecja ASTN2 | negative | Uszkodzenie strukturalne genu prowadzi do zatrzymania lub zaburzenia topografii migracji neuronów. Skutkuje to dysplazją korową lub hipoplazją móżdżku. Klinicznie manifestuje się jako silny fenotyp ADHD, globalne opóźnienie rozwoju, zaburzenia mowy, dyspraksja oraz cechy ASD. |
+| ★ — | Typ Dziki | positive | Precyzyjna, warstwowa struktura kory mózgowej i móżdżku. Bezbłędne uformowanie makrosieci neuronalnych, prawidłowa integracja sensoryczno-motoryczna. |
+| — | Warianty Polimorficzne | neutral | Subtelne przesunięcia w tempie migracji komórkowej, mogące nieznacznie modyfikować profil przetwarzania bodźców motorycznych i równowagi. |
+| — | Rearanżacja Patogenna | negative | Uszkodzenie strukturalne genu prowadzi do zatrzymania lub zaburzenia topografii migracji neuronów. Skutkuje to dysplazją korową lub hipoplazją móżdżku. Klinicznie manifestuje się jako silny fenotyp ADHD, globalne opóźnienie rozwoju, zaburzenia mowy, dyspraksja oraz cechy ASD. |

@@ -47,6 +47,7 @@
 | **★ G/G** | His/His — referencyjny | Typowa pigmentacja OCA2; współdziała z rs12913832 i rs1800407 |
 | **G/A** | His/Arg | Pośredni kolor oczu/skóry |
 | **A/A** | Arg/Arg | Jaśniejsza pigmentacja; część epistazy przy brązowych oczach mimo rs12913832 G/G |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs1800407-T MAF ok. 8–11% w Europie; rs1800414-G prawie wyłącznie EAS (50–79%)
 * **Europa (NFE):** rs12913832-G MAF 50–90% (gradient północ–południe); rs1800407-T ok. 8–11%; rs1800414-G <0,3%

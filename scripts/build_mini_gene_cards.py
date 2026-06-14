@@ -38,7 +38,7 @@ SKIP_GT = frozenset(
 COMPLEMENT = str.maketrans("ACGT", "TGCA")
 
 SKIP_PROFILE_TITLE = re.compile(
-    r"główny (symbol|rsid)|pełna nazwa|lokalizacja|rola biologiczna|nazwy potoczne|dopasowany profil|mój genotyp",
+    r"główny (symbol|rsid|wariant)|pełna nazwa|lokalizacja|rola biologiczna|nazwy potoczne|dopasowany profil|mój genotyp",
     re.I,
 )
 
@@ -55,7 +55,7 @@ BULLET_KEYS = {
     "symbol": re.compile(r"główny symbol", re.I),
     "fullname": re.compile(r"pełna nazwa", re.I),
     "aliases": re.compile(r"nazwy potoczne", re.I),
-    "rsid": re.compile(r"główny rsid", re.I),
+    "rsid": re.compile(r"główny (rsid|wariant)", re.I),
     "location": re.compile(r"lokalizacja chromosomalna", re.I),
     "role": re.compile(r"rola biologiczna", re.I),
 }
@@ -212,7 +212,84 @@ def parse_profiles(body: str) -> list[tuple[str, str]]:
 
         i += 1
 
-    return profiles[:4]
+    return profiles[:3]
+
+
+CNV_MARKERS = re.compile(
+    r"\bcnv\b|liczba kopii|zmienność liczby|zmienność strukturalna|metylacja promotor",
+    re.I,
+)
+
+
+def is_cnv_only_gene(meta: dict[str, str], profiles: list[tuple[str, str]]) -> bool:
+    """Geny opisane głównie jako CNV / liczba kopii, nie klasyczny SNP 3-wierszowy."""
+    rsid_field = meta.get("rsid", "")
+    if CNV_MARKERS.search(rsid_field):
+        return True
+    if not profiles:
+        return False
+    cnv_profiles = sum(
+        1 for title, desc in profiles if CNV_MARKERS.search(f"{title} {desc}")
+    )
+    return cnv_profiles >= len(profiles) - 1 and len(profiles) >= 2
+
+
+def ensure_short_desc(
+    title: str, short_desc: str, long_desc: str, *, cnv_only: bool = False
+) -> tuple[str, str]:
+    """Uzupełnij pusty opis krótki z tytułu profilu lub pierwszego zdania."""
+    if short_desc.strip():
+        return short_desc.strip(), long_desc.strip()
+
+    title_clean = title.strip()
+    paren = re.match(r"^([^(]+)\(([^)]+)\)\s*$", title_clean)
+    if paren:
+        label = paren.group(1).strip()
+        inner = paren.group(2).strip()
+        if cnv_only:
+            return label, long_desc.strip() or inner
+        if inner:
+            return inner, long_desc.strip() or label
+
+    if title_clean and len(title_clean) <= 80:
+        return title_clean, long_desc.strip()
+
+    if long_desc.strip():
+        parts = re.split(r"(?<=[.!?])\s+", long_desc.strip(), maxsplit=1)
+        if parts[0] and len(parts[0]) <= 120:
+            rest = parts[1].strip() if len(parts) > 1 else ""
+            return parts[0], rest or long_desc.strip()
+
+    short = re.sub(r"\s+", " ", title_clean)
+    if len(short) > 80:
+        short = short[:77].rstrip() + "…"
+    return short, long_desc.strip()
+
+
+def dedupe_built_rows(
+    rows: list[tuple[str, str, str, str, str]],
+    *,
+    matched: str | None = None,
+) -> list[tuple[str, str, str, str, str]]:
+    """Usuń zduplikowane wiersze po genotypie; zachowaj lepsze dopasowanie profilu."""
+    best: dict[str, tuple[str, str, str, str, str]] = {}
+    best_score: dict[str, int] = {}
+    order: list[str] = []
+    for row in rows:
+        _title, short, long, genotype, _tone = row
+        key = norm_genotype(genotype) if genotype not in {"—", "-"} else f"—:{short[:40]}"
+        score = matched_profile_score(row[0], short, matched)
+        if not short.strip() and long.strip():
+            score -= 10
+        if key not in best:
+            order.append(key)
+            best[key] = row
+            best_score[key] = score
+            continue
+        if score > best_score[key]:
+            best[key] = row
+            best_score[key] = score
+    return [best[k] for k in order]
 
 
 def split_profile(title: str, desc: str) -> tuple[str, str, str]:
@@ -277,8 +354,17 @@ def parse_wgs_rs_genotypes(wgs: str) -> dict[str, str]:
     return found
 
 
+GENOTYPE_IN_TITLE = re.compile(
+    r"^(?:genotyp|diplotyp)\s+([ACGT0-9]+/[ACGT0-9]+)",
+    re.I,
+)
+
+
 def genotype_from_title(title: str) -> str | None:
     bare = GENOTYPE_PREFIX.sub("", title.strip()).strip()
+    m = GENOTYPE_IN_TITLE.match(title.strip())
+    if m:
+        return norm_genotype(m.group(1))
     m = re.match(r"^([ACGT0-9]+/[ACGT0-9]+|\d+R/\d+R)\s*(?:\(|$)", bare, re.I)
     if m:
         return norm_genotype(m.group(1))
@@ -674,24 +760,35 @@ def build_card(
     location = meta.get("location", "—")
     role = meta.get("role", "—")
 
+    cnv_only = is_cnv_only_gene(meta, profiles)
     tones = profile_tones_for_gene(gene, len(profiles))
     wgs_rs = wgs_rs_early
     user_gt = user_genotype_for_rsid(rsid_key, wgs_rs)
     if not user_gt:
         user_gt = user_genotype_for_rsid(None, wgs_rs)
     total_profiles = len(profiles)
-    uses_report_alleles = any(genotype_from_title(t) for t, _ in profiles) or bool(
-        user_gt and len(user_gt) == 2 and user_gt.isalpha()
+    uses_report_alleles = (
+        not cnv_only
+        and (
+            any(genotype_from_title(t) for t, _ in profiles)
+            or bool(user_gt and len(user_gt) == 2 and user_gt.isalpha())
+        )
     )
     built_rows: list[tuple[str, str, str, str, str]] = []
     for i, (title, desc) in enumerate(profiles):
         genotype, short_desc, long_desc = split_profile(title, desc)
+        if not long_desc.strip():
+            long_desc = desc.strip()
+        if cnv_only:
+            short_desc, long_desc = ensure_short_desc(title, "", long_desc, cnv_only=True)
+        else:
+            short_desc, long_desc = ensure_short_desc(title, short_desc, long_desc)
         if not short_desc and long_desc:
             parts = re.split(r"(?<=[.!?])\s+", long_desc, maxsplit=1)
             if len(parts) == 2 and len(parts[0]) <= 120:
                 short_desc, long_desc = parts[0].strip(), parts[1].strip()
         title_gt = genotype_from_title(title)
-        if is_cnv_deletion_profile(title, short_desc, long_desc):
+        if cnv_only or is_cnv_deletion_profile(title, short_desc, long_desc):
             genotype = "—"
         elif title_gt:
             genotype = title_gt
@@ -717,42 +814,62 @@ def build_card(
         tone = tones[i] if i < len(tones) else "neutral"
         built_rows.append((title, short_desc, long_desc, genotype, tone))
 
+    built_rows = dedupe_built_rows(built_rows, matched=matched)
+    tones = profile_tones_for_gene(gene, len(built_rows))
+    for i, row in enumerate(built_rows):
+        built_rows[i] = (row[0], row[1], row[2], row[3], tones[i] if i < len(tones) else row[4])
+
+    total_profiles = len(built_rows)
     all_genotypes = [row[3] for row in built_rows]
     expected_idx = (
         user_profile_index(user_gt, ref, alt, total_profiles)
-        if user_gt and ref and alt
+        if user_gt and ref and alt and not cnv_only
         else None
     )
     personal_idx = -1
     personal_best = 0
-    for i, (title, short_desc, _long, genotype, _tone) in enumerate(built_rows):
-        score = personal_row_score(
-            title,
-            short_desc,
-            genotype,
-            matched,
-            user_gt,
-            row_index=i,
-            total_profiles=total_profiles,
-            ref=ref,
-            alt=alt,
-            uses_report_alleles=uses_report_alleles,
-            tones=tones,
-        )
-        score = max(
-            score,
-            personal_row_fallback_score(
-                i,
+
+    if cnv_only and user_gt and total_profiles == 3:
+        if is_het_wgs(user_gt):
+            personal_idx = 1
+            personal_best = 100
+        elif is_hom_wgs(user_gt):
+            personal_idx = 0
+            personal_best = 90
+            for i, (title, short_desc, _long, _gt, _tone) in enumerate(built_rows):
+                if matched_profile_score(title, short_desc, matched) >= 90:
+                    personal_idx = i
+                    personal_best = 100
+                    break
+    if personal_best == 0:
+        for i, (title, short_desc, _long, genotype, _tone) in enumerate(built_rows):
+            score = personal_row_score(
+                title,
+                short_desc,
                 genotype,
+                matched,
                 user_gt,
-                all_genotypes=all_genotypes,
-                expected_idx=expected_idx,
+                row_index=i,
+                total_profiles=total_profiles,
+                ref=ref,
+                alt=alt,
+                uses_report_alleles=uses_report_alleles,
                 tones=tones,
-            ),
-        )
-        if score > personal_best:
-            personal_best = score
-            personal_idx = i
+            )
+            score = max(
+                score,
+                personal_row_fallback_score(
+                    i,
+                    genotype,
+                    user_gt,
+                    all_genotypes=all_genotypes,
+                    expected_idx=expected_idx,
+                    tones=tones,
+                ),
+            )
+            if score > personal_best:
+                personal_best = score
+                personal_idx = i
 
     rows: list[str] = []
     for i, (title, short_desc, long_desc, genotype, tone) in enumerate(built_rows):

@@ -68,6 +68,7 @@
 | **C/C** | Referencyjna modulacja | Standardowa odpowiedź synaptyczna; brak zwiększonego ryzyka ASD |
 | **★ C/T** | Pośrednia | Umiarkowane ryzyko nadpobudliwości w kohortach z autyzmem |
 | **T/T** | Alternatywny haplotyp | Skorelowany z deficytami w zadaniach wykonawczych i gorszą odpowiedzią fMRI w PFC |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Brak jednej wartości ALL w raportach
 * **Europa (NFE):** rs3746544: allel T ~62%, G ~38%; rs363050: A i G ~50% każdy (dobór stabilizujący)

@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | **★ C/C** | Pełne, prawidłowe redagowanie RNA | positive | Receptory AMPA przepuszczają wyłącznie jony sodu i potasu. Precyzyjna kontrola nad napływem wapnia (który może wchodzić tylko przez receptory NMDA). Prawidłowa plastyczność synaptyczna bez ryzyka śmierci komórkowej. |
-| **C/A** |  | neutral | Subtelne wahania w gęstości postsynaptycznej receptorów, modyfikujące próg zmęczenia synaptycznego podczas intensywnej pracy intelektualnej. |
+| **C/A** | Warianty populacyjne / Obniżony poziom ekspresji | neutral | Subtelne wahania w gęstości postsynaptycznej receptorów, modyfikujące próg zmęczenia synaptycznego podczas intensywnej pracy intelektualnej. |
 | **A/A** | Brak redagowania / Mutacje de novo utraty funkcji | negative | Katastrofalne dopuszczenie do masowego napływu jonów Ca²⁺ przez receptory AMPA. Wywołuje permanentną ekscytotoksyczność. Objawia się ciężką, lekooporną padaczką, głęboką niepełnosprawnością intelektualną, wczesnym zanikiem neuronów ruchowych oraz nasilonym fenotypem neurorozwojowym (ASD). |

@@ -61,6 +61,7 @@
 | **★ G/G** | Referencyjna | Norma percepcji |
 | **G/A** | Pośrednia | Pośredni fenotyp zapachowy |
 | **A/A** | Alternatywna | Możliwa zmiana intensywności zapachu szparagów |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** MAF allelu A ok. 35–40%; anosmia szparagowa u ok. 40–50% (zmienna metodologia)
 * **Europa (NFE):** MAF A ok. 40–50%; anosmia u mężczyzn częściej niż u kobiet (GWAS BMJ 2016)

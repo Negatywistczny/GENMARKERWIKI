@@ -16,5 +16,5 @@
 | Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
 | :--- | :--- | :--- | :--- |
 | — | Ekspresja optymalna | positive | Prawidłowa migracja neuronów do odpowiednich warstw kory. Wysoka integralność strukturalna i stabilność połączeń synaptycznych, prawidłowe formowanie sieci neuronowych. |
-| — | Subtelne, lokalne wahania w gęstości synaptycznej. | neutral | Mogą manifestować się drobnymi różnicami w tempie przetwarzania bodźców sensorycznych bez ewidentnych deficytów klinicznych. |
-| — | Utrata integralności mechanicznej i funkcjonalnej synaps. | negative | Osłabienie adhezji komórkowej w mózgu prowadzi do przedwczesnej eliminacji połączeń, manifestując się trudnościami poznawczymi, dysfunkcjami sensorycznymi i silną korelacją z ASD. |
+| — | Heterozygota / Polimorfizmy eQTL | neutral | Subtelne, lokalne wahania w gęstości synaptycznej. Mogą manifestować się drobnymi różnicami w tempie przetwarzania bodźców sensorycznych bez ewidentnych deficytów klinicznych. |
+| — | Wariant Patogenny / Silne obniżenie ekspresji | negative | Utrata integralności mechanicznej i funkcjonalnej synaps. Osłabienie adhezji komórkowej w mózgu prowadzi do przedwczesnej eliminacji połączeń, manifestując się trudnościami poznawczymi, dysfunkcjami sensorycznymi i silną korelacją z ASD. |

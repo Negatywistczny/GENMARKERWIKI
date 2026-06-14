@@ -47,6 +47,7 @@
 | **★ G/G** | Prawidłowa hamartyna | Brak mutacji patogennej |
 | **G/T** | Heterozygot patogenny | Ryzyko TSC (nonsense); wymaga potwierdzenia klinicznego |
 | **T/T** | Homozygot patogenny | Ciężki fenotyp TSC; ekstremalnie rzadki |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** TSC ~1:6 000–1:10 000 urodzeń; TSC1 ~20% przypadków
 * **Europa (NFE):** rs7874234 – dane kohortowe zależne od regionu

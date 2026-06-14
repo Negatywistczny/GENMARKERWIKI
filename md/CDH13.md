@@ -131,6 +131,7 @@
 | **★ A/A** | Norma metylacji (major) | Brak ustalonego fenotypu klinicznego |
 | **A/C** | Nosiciel wysoce rzadkiego allelu | Potencjalna modulacja chromatyny — wymaga profilu całego panelu CDH13 |
 | **C/C** | Homozygoty rzadkiego meQTL | Możliwa dysregulacja ekspresji CDH13; dane fenotypowe bardzo ograniczone |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** rs11649622 allel A ~21,5%; rs2199430 allel G ~33–35%; rs4783244 allel T ~37–41% (gnomAD/ALFA)
 * **Europa (NFE):** rs11649622 A ~17,4–17,8% (miliony nosicieli – mit „gena ułamka promila” obalony); rs2199430 G ~34,8%; rs4783244 T ~46%

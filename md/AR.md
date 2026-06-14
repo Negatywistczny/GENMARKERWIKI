@@ -40,6 +40,7 @@
 | **★ G/G** | Dłuższe powtórzenia CAG (mediana ~23) | **Stężenie PSA:** niższe PSA<br><br>**Wpływ fenotypowy:** Typowe progi PSA; mniejsze ryzyko fałszywie podwyższonego PSA i niepotrzebnej biopsji |
 | **G/A** | Pośrednia (profil CAG i PSA) | Umiarkowanie zmienione normy PSA; indywidualna ocena z urologiem |
 | **A/A** | Krótsze CAG (mediana ~20) | **Stężenie PSA:** wyższe PSA<br><br>**Wpływ fenotypowy:** Do ~65% wyższe ryzyko przekroczenia progów PSA bez nowotworu; konieczna korekta progów i ocena ryzyka raka prostaty/jajnika w kontekście rodzinnym |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Rozkład allelu G/A silnie zależny od pochodzenia; globalne MAF allelu A ok. 15–25% w zbiorach mieszanych
 * **Europa (NFE):** Allel G (ryzyka) ok. 76–86%; allel A ok. 14–24%; rs6152 ma wartość predykcyjną dla AGA

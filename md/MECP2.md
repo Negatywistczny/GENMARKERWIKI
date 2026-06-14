@@ -47,6 +47,7 @@
 | **Dziki allel** | Prawidłowe MeCP2 | Normotypowy rozwój |
 | **Heterozygot de novo (♀)** | Haploinsuficjencja | Zespół Rett: regresja, padaczka, ataksja |
 | **Hemizygot (♂)** | Brak funkcjonalnego MeCP2 | Ciężka encefalopatia wczesnodziecięca |
+
 ### 5. Statystyki populacyjne
 * **Średnia globalna (ALL):** Rett ~1:10 000–1:15 000 urodzeń dziewczynek
 * **Europa (NFE):** ~95% mutacji de novo; rs2734647 MAF zależny od populacji
