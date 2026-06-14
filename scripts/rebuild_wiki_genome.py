@@ -28,6 +28,7 @@ def main() -> int:
         ("Raport osobisty + gwiazdki", [py, str(SCRIPTS / "generate_personal_report.py")]),
         ("Profile genów JS", [py, str(SCRIPTS / "build_personal_gene_profiles_js.py")]),
         ("Audyt rsID (locus)", [py, str(SCRIPTS / "audit_all_gene_rsids.py")]),
+        ("Audyt sync gene-rsids.js", [py, str(SCRIPTS / "audit_gene_rsids_sync.py")]),
         ("Audyt patogennych rsID", [py, str(SCRIPTS / "audit_pathogenic_rsids.py")]),
         ("Audyt profili tematów", [py, str(SCRIPTS / "audit_topic_profiles.py")]),
         ("Audyt gwiazdek minikart", [py, str(SCRIPTS / "audit_mini_stars.py")]),

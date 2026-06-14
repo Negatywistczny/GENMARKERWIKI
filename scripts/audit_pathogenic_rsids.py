@@ -52,6 +52,19 @@ def load_wgs() -> dict[str, str]:
     return out
 
 
+def rsids_with_local_pathogenic(text: str) -> list[str]:
+    """rsID tylko gdy marker patogenny dotyczy tego samego fragmentu linii."""
+    out: list[str] = []
+    for m in RSID_RE.finditer(text):
+        start = m.start()
+        nxt = RSID_RE.search(text, m.end())
+        end = nxt.start() if nxt else len(text)
+        chunk = text[start:end]
+        if PATHOGENIC_MARKERS.search(chunk):
+            out.append(m.group(0).lower())
+    return out
+
+
 def parse_md_pathogenic() -> list[dict]:
     items: list[dict] = []
     for md in sorted(MD.glob("*.md")):
@@ -63,13 +76,18 @@ def parse_md_pathogenic() -> list[dict]:
             s = line.strip()
             if s.startswith("**") and "rs" in s.lower():
                 current_heading = s.strip("*")
-            if not PATHOGENIC_MARKERS.search(s) and not PATHOGENIC_MARKERS.search(current_heading):
+            heading_hit = bool(PATHOGENIC_MARKERS.search(current_heading))
+            line_rsids = rsids_with_local_pathogenic(s)
+            if heading_hit:
+                for rs in RSID_RE.findall(current_heading):
+                    line_rsids.append(rs.lower())
+            if not line_rsids:
                 continue
-            for rs in RSID_RE.findall(s) + RSID_RE.findall(current_heading):
+            for rs in dict.fromkeys(line_rsids):
                 items.append(
                     {
                         "gene": gene_sym,
-                        "rsid": rs.lower(),
+                        "rsid": rs,
                         "heading": current_heading[:120],
                         "file": md.name,
                     }

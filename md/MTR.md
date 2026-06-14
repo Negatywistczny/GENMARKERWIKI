@@ -10,7 +10,7 @@
 * **Typ wariantu:** SNP missense (A2756G, Asp919Gly)
 * **Zapis zmiany nukleotydowej (HGVS):** c.2756A>G (p.Asp919Gly)
 * **Orientacja nici i mapowanie alleli:** Allel A — wild type; allel G — zwiększona aktywność enzymu (paradoksalnie korzystna przy prawidłowym B12)
-* **Powiązane markery:** rs1805087 w LD z wariantami MTRR (rs1801394)
+* **Powiązane markery:** rs1805087 (w LD z MTRR)
 * **Klasyfikacja bazowa:** Wariant populacyjny; nie mylić z rzadką mutacją cblG (homozygotą patogenną)
 
 ### 3. Mechanizm działania

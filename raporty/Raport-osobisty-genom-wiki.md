@@ -2630,7 +2630,7 @@ _rs1801131 (A1298C, Glu429Ala, egzon 7)_
 - Typ wariantu: SNP missense (A2756G, Asp919Gly)
 - Zapis zmiany nukleotydowej (HGVS): c.2756A>G (p.Asp919Gly)
 - Orientacja nici i mapowanie alleli: Allel A — wild type; allel G — zwiększona aktywność enzymu (paradoksalnie korzystna przy prawidłowym B12)
-- Powiązane markery: rs1805087 w LD z wariantami MTRR (rs1801394)
+- Powiązane markery: rs1805087 (w LD z MTRR)
 - Klasyfikacja bazowa: Wariant populacyjny; nie mylić z rzadką mutacją cblG (homozygotą patogenną)
 
 ### Mechanizm i wpływ biologiczny
@@ -2667,7 +2667,7 @@ _rs1805087 (A2756G, Asp919Gly)_
 - Typ wariantu: SNP missense (A66G, Ile22Met)
 - Zapis zmiany nukleotydowej (HGVS): c.66A>G (p.Ile22Met)
 - Orientacja nici i mapowanie alleli: Allel A — wild type; allel G — obniżona aktywność reduktazy
-- Powiązane markery: rs1532268 (C/T, intron), rs162036 (LD)
+- Powiązane markery: rs1532268 (C/T, intron), rs162036 (LD, opcjonalnie)
 - Klasyfikacja bazowa: Wariant populacyjny; kluczowy modulator regeneracji metylokobalaminy dla MTR
 
 ### Mechanizm i wpływ biologiczny
@@ -2946,7 +2946,7 @@ _rs1667394 (intron HERC2 (pigmentacja skóry/włosów))_
 - Typ wariantu: SNP (NIHL — noise-induced hearing loss); patogenne missense w ClinVar
 - Zapis zmiany nukleotydowej (HGVS): rs28937588: c.853G>A p.Gly285Ser; rs80358277: c.827G>C p.Trp276Ser (patogenne)
 - Orientacja nici i mapowanie alleli: rs4660470: allel ryzyka A; referencyjny T
-- Powiązane markery / haplotyp: rs4660468, rs28937588, rs80358277, rs80358275
+- Powiązane markery / haplotyp: rs4660468, rs28937588, rs80358277, rs80358275 (opcjonalnie)
 - Klasyfikacja bazowa: rs4660470/0468 — cecha poligenowa NIHL; mutacje missense — patogenne (DFNA2A)
 
 ### Mechanizm i wpływ biologiczny

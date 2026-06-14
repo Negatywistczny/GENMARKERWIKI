@@ -20,6 +20,7 @@ from generate_personal_report import (  # noqa: E402
     match_row,
     parse_sections,
     primary_rsid,
+    row_keys,
     split_rs_blocks,
 )
 
@@ -61,7 +62,14 @@ def main() -> None:
                         known["rs7412"]["genotype"],
                         block,
                     )
-                    if row and STAR not in row["genotype_cell"]:
+                    if not row:
+                        continue
+                    star_ok = any(
+                        STAR in line and row["keys"] & row_keys(line.split("|")[1])
+                        for line in block.splitlines()
+                        if line.startswith("|") and ":---" not in line
+                    )
+                    if not star_ok:
                         no_star.append(
                             (
                                 gene,

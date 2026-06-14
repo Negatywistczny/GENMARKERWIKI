@@ -31,10 +31,10 @@ def parse_gene_rsids() -> dict[str, list[str]]:
         if gm:
             current = gm.group(1)
             out[current] = []
-            continue
         if current:
             for rs in RS_RE.findall(line):
-                out[current].append(rs.lower())
+                if rs.lower() not in out[current]:
+                    out[current].append(rs.lower())
     return out
 
 

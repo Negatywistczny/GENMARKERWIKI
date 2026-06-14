@@ -7,6 +7,7 @@ from __future__ import annotations
 GENE_RSID_WHITELIST: dict[str, set[str]] = {
     "ALDH2": {"rs1229984"},  # ADH1B chr4 — opisany w karcie ALDH2
     "ZEB2": {"rs2252641", "rs35500812"},  # cis-regulatory / CAD GWAS
+    "OR1A1": {"rs2073153"},  # paralogia OR chr6/17 — HORDE/OR1A1 chr17, Ensembl czasem chr6
 }
 
 # Pary (gen, rsid) z błędnym chromosomem — po naprawie wiki powinno być puste

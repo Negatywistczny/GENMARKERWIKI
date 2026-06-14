@@ -57,6 +57,11 @@ const FIXED_VARIANT_TONES = {
     },
   },
   SLC6A4: {
+    "rs25531 promotor a g podzial l a l g w 5 httlpr": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
+    },
     "a haplotypy regionu promotorowego 5 httlpr rs25531": {
       "l a l a l l a a": "positive",
       "l a l g lub l a s a": "neutral",
@@ -585,6 +590,7 @@ const FIXED_VARIANT_TONES = {
       "c c": "negative",
     },
     "rs72554632 p gln296ter rzadka patologia": {
+      "c c": "positive",
       "t nosiciel": "negative",
     },
     "rs1800466 vntr promotor aktywnosc enzymu": {
@@ -1349,6 +1355,9 @@ const FIXED_VARIANT_TONES = {
       "c c": "negative",
     },
     "rs2074969 rs2073636 haplotyp regulacyjny": {
+      "a a": "positive",
+      "a g": "neutral",
+      "g g": "negative",
       "referencyjny haplotyp": "positive",
       "heterozygot": "neutral",
       "alternatywny haplotyp": "negative",

@@ -10,7 +10,7 @@
 * **Typ wariantu:** SNP (NIHL — noise-induced hearing loss); patogenne missense w ClinVar
 * **Zapis zmiany nukleotydowej (HGVS):** rs28937588: c.853G>A p.Gly285Ser; rs80358277: c.827G>C p.Trp276Ser (patogenne)
 * **Orientacja nici i mapowanie alleli:** rs4660470: allel ryzyka A; referencyjny T
-* **Powiązane markery / haplotyp:** rs4660468, rs28937588, rs80358277, rs80358275
+* **Powiązane markery / haplotyp:** rs4660468, rs28937588, rs80358277, rs80358275 (opcjonalnie)
 * **Klasyfikacja bazowa:** rs4660470/0468 — cecha poligenowa NIHL; mutacje missense — patogenne (DFNA2A)
 
 ### 3. Mechanizm działania

@@ -3,8 +3,12 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const app = fs.readFileSync(path.join(root, "html", "app.js"), "utf8");
-const tonesMatch = app.match(/const FIXED_VARIANT_TONES = (\{[\s\S]*?\n\});/);
+const variantTones = fs.readFileSync(path.join(root, "html", "variant-tones.js"), "utf8");
+const tonesMatch = variantTones.match(/const FIXED_VARIANT_TONES = (\{[\s\S]*?\n\});/);
+if (!tonesMatch) {
+  console.error("Nie znaleziono FIXED_VARIANT_TONES w html/variant-tones.js");
+  process.exit(2);
+}
 const FIXED_VARIANT_TONES = Function(`return ${tonesMatch[1]}`)();
 
 function stripMarkdown(value) {

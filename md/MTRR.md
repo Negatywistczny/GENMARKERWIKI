@@ -10,7 +10,7 @@
 * **Typ wariantu:** SNP missense (A66G, Ile22Met)
 * **Zapis zmiany nukleotydowej (HGVS):** c.66A>G (p.Ile22Met)
 * **Orientacja nici i mapowanie alleli:** Allel A — wild type; allel G — obniżona aktywność reduktazy
-* **Powiązane markery:** rs1532268 (C/T, intron), rs162036 (LD)
+* **Powiązane markery:** rs1532268 (C/T, intron), rs162036 (LD, opcjonalnie)
 * **Klasyfikacja bazowa:** Wariant populacyjny; kluczowy modulator regeneracji metylokobalaminy dla MTR
 
 ### 3. Mechanizm działania
