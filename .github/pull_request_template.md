@@ -9,6 +9,6 @@
 - [ ] Walidacja tonów: `node scripts/verify-tones.mjs` kończy się sukcesem (0 błędów)
 
 ## Zgodność ze Standardami DevEx
-- [ ] Zmiany przestrzegają zasad czystości root (`devex-standards`)
+- [ ] Zmiany są zgodne z wytycznymi w `.agents/rules/project.md`
 - [ ] Zastosowano konwencję Conventional Commits
 - [ ] Nagłówki Breadcrumbs dodane do nowych plików `.md`
