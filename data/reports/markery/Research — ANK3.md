@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — ANK3](Research — ANK3.md)
+
+---
+
 # **Raport Badawczy: Dogłębna Analiza Markera Genetycznego ANK3**
 
 Rozwój nowoczesnej genetyki molekularnej, neurobiologii strukturalnej oraz wielkoskalowych badań asocjacyjnych całego genomu (GWAS) doprowadził do bezprecedensowego poszerzenia naszej wiedzy na temat molekularnych podstaw złożonych schorzeń neuropsychiatrycznych. Przez dekady patogeneza zaburzeń afektywnych i psychotycznych była rozpatrywana głównie przez pryzmat hipotez monoaminowych. Obecnie jednak paradygmat ten ulega ewolucji, a uwaga badaczy coraz częściej skupia się na architekturze synaptycznej, plastyczności neuronalnej oraz kanałopatiach jonowych. W centrum tego naukowego zainteresowania znajduje się gen ANK3, kodujący ankirynę-G (AnkG) – kluczowe białko strukturalne odpowiedzialne za organizację mikrodomen błonowych w komórkach pobudliwych. Niniejszy raport stanowi wyczerpującą, wysoce zdetalizowaną analizę markera genetycznego ANK3, łączącą dane transkryptomiczne, epigenetyczne, populacyjne oraz kliniczne, celem dostarczenia pełnego obrazu jego wpływu na ludzki fenotyp.

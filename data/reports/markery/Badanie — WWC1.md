@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — WWC1](Badanie — WWC1.md)
+
+---
+
 # **Kompleksowy raport naukowy dotyczący markera genetycznego WWC1 (KIBRA): Charakterystyka molekularna, warianty polimorficzne oraz ich implikacje kliniczne i poznawcze**
 
 ## **Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../README.md) > [genes](README.md) > [UNIWERSALNY_SZABLON_MARKERA](UNIWERSALNY_SZABLON_MARKERA.md)
+
+---
+
 ### 1. Nagłówek i Nazwy
 * **Główny symbol genu:** [SYMBOL] (ang. *[NAZWA_ANGIELSKA]*)
 * **Pełna nazwa biochemiczna:** [PELNA_NAZWA_PL] (ang. *[PELNA_NAZWA_ANG]*)

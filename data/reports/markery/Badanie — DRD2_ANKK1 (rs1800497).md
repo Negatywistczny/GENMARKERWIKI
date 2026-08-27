@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — DRD2_ANKK1 (rs1800497)](Badanie — DRD2_ANKK1 (rs1800497).md)
+
+---
+
 # **Polimorfizm rs1800497 w locus ANKK1/DRD2: Kompleksowe opracowanie neurogenetyczne i kliniczne**
 
 ## **Symbol genu i nazewnictwo**

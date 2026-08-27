@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — ASD](Baza — ASD.md)
+
+---
+
 # **Zestawienie genów i wariantów genetycznych związanych z ASD**
 
 Poniższe tabele zawierają wszystkie geny i warianty wymienione w dokumencie, przekonwertowane do wymaganego, ujednoliconego formatu tabelarycznego ze spójną klasyfikacją biotypów oraz standaryzowaną lokalizacją (Chromosom/Prążek \+ ID wariantu).

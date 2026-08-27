@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SLC24A4](Badanie — SLC24A4.md)
+
+---
+
 # **Kompleksowa analiza genomiczna genu SLC24A4: Biologia molekularna, warianty polimorficzne i znaczenie fenotypowe wymiennika NCKX4**
 
 ## **Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — OR2M](Badanie — OR2M.md)
+
+---
+
 # **Kompleksowa analiza genetyczna i molekularna podrodziny receptorów węchowych OR2M**
 
 ## **1\. Nagłówek i Nazwy**

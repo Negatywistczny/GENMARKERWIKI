@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — BDNF (rs6265)](Badanie — BDNF (rs6265).md)
+
+---
+
 # **Kompleksowy raport neurogenetyczny: Analiza strukturalna i funkcjonalna polimorfizmu rs6265 (Val66Met) w genie BDNF**
 
 ## **Klasyfikacja, symbolika i nomenklatura**

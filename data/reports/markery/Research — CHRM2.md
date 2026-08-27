@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — CHRM2](Research — CHRM2.md)
+
+---
+
 # **Kompleksowy raport genomiczny: Receptor muskarynowy M2 (CHRM2) – od mechanizmów molekularnych do fenotypów neuropsychiatrycznych i kardiofizjologicznych**
 
 ## **1\. Nagłówek i Nazwy**

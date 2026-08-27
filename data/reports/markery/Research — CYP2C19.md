@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — CYP2C19](Research — CYP2C19.md)
+
+---
+
 # **Analiza farmakogenomiczna i kliniczna genu CYP2C19**
 
 ## **1\. Nagłówek i Nazwy**

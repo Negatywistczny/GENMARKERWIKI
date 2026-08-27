@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Kompendium — ChAD](Kompendium — ChAD.md)
+
+---
+
 # **Architektura genomowa i kategoryzacja molekularna zaburzenia afektywnego dwubiegunowego: Kompendium dla systemów predykcji biotypów i obliczania ryzyka poligenowego**
 
 Zaburzenie afektywne dwubiegunowe (ChAD), znane w literaturze międzynarodowej jako Bipolar Disorder (BD), stanowi jedno z najbardziej złożonych wyzwań współczesnej genetyki psychiatrycznej. Jest to schorzenie o wysokiej odziedziczalności, charakteryzujące się nawracającymi epizodami manii (lub hipomanii) oraz depresji, co prowadzi do znaczącego upośledzenia funkcjonowania społecznego i zawodowego.1 Badania oparte na bliźniętach i rodzinach konsekwentnie wskazują na odziedziczalność rzędu 60% do 90%, co stawia ChAD w rzędzie najbardziej genetycznie uwarunkowanych chorób psychicznych.2 Mimo tak silnego komponentu dziedzicznego, mechanizmy molekularne leżące u podstaw tego zaburzenia pozostawały przez dziesięciolecia nieuchwytne, głównie ze względu na jego poliogeniczną naturę, gdzie tysiące wariantów genetycznych o małym efekcie sumują się, tworząc podatność na zachorowanie.5

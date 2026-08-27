@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — SYNGAP1](Research — SYNGAP1.md)
+
+---
+
 # **Kompleksowa analiza neurobiologiczna i kliniczna markera genetycznego SYNGAP1**
 
 ## **1\. Nagłówek i Nazwy**

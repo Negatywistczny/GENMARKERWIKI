@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SLC6A4](Badanie — SLC6A4.md)
+
+---
+
 # **Raport Badawczy: Bioinformatyczna i Farmakogenomiczna Analiza Markera Genetycznego SLC6A4**
 
 ## **1\. Nagłówek i Nazwy**

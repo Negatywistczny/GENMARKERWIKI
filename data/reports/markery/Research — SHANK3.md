@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — SHANK3](Research — SHANK3.md)
+
+---
+
 # **Analiza bioinformatyczna i molekularna genu SHANK3: Mechanizmy synaptyczne, polimorfizmy i strategie terapeutyczne**
 
 ## **1\. Nagłówek i Nazwy**

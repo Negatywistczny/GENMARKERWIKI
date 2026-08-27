@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — CACNA1C](Research — CACNA1C.md)
+
+---
+
 # **CACNA1C: Kompleksowa Analiza Bioinformatyczna, Farmakogenomiczna i Ewolucyjna Markera Genetycznego**
 
 ## **1\. Nagłówek i Nazwy**

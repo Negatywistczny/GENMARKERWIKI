@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FMR1](Badanie — FMR1.md)
+
+---
+
 # **Analiza bioinformatyczna i molekularna genu FMR1: Warianty alleliczne, patomechanizmy oraz wytyczne kliniczne**
 
 ## **Nagłówek i nazwy**

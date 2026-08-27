@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FTO (rs9939609)](Badanie — FTO (rs9939609).md)
+
+---
+
 # **Kompleksowa analiza genetyczno-molekularna wariantu rs9939609 w genie FTO: Patofizjologia, dystrybucja populacyjna i rekomendacje kliniczne**
 
 ## **1\. Nagłówek i nazwy**

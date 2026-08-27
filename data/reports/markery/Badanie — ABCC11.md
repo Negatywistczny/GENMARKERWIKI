@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ABCC11](Badanie — ABCC11.md)
+
+---
+
 # **Analiza molekularna genu ABCC11 i wariantu rs17822931: Charakterystyka funkcjonalna, kliniczna oraz populacyjna**
 
 ## **Główny symbol i nazewnictwo genu**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — MAOA](Badanie — MAOA.md)
+
+---
+
 # **Kompleksowy Raport Badawczy: Analiza Bioinformatyczna, Strukturalna i Funkcjonalna Markera Genetycznego MAOA**
 
 ## **1\. Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — CYP2D6](Research — CYP2D6.md)
+
+---
+
 # **Kompleksowy raport naukowy: Charakterystyka i znaczenie kliniczne markera genetycznego CYP2D6**
 
 ## **1\. Nagłówek i Nazwy**

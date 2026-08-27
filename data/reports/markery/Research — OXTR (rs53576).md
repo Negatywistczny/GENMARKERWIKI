@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — OXTR (rs53576)](Research — OXTR (rs53576).md)
+
+---
+
 # **Kompleksowy Raport Bioinformatyczny: Genetyka Molekularna, Sygnalizacja Komórkowa i Fenotypowe Implikacje Markera OXTR (rs53576)**
 
 ## **1\. Nagłówek i Nazwy**

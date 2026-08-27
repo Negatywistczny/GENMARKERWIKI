@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — HERC2](Badanie — HERC2.md)
+
+---
+
 # **Monografia naukowa genu HERC2: Biologia molekularna, mechanizmy regulacyjne i znaczenie kliniczne**
 
 ## **Nagłówek i Nazwy**

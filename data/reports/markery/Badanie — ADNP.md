@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ADNP](Badanie — ADNP.md)
+
+---
+
 # **Raport naukowy: Analiza molekularna genu ADNP i zespołu Helsmoortel-Van der Aa**
 
 ## **1\. Nagłówek i Nazwy**

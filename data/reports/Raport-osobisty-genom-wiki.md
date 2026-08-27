@@ -1,3 +1,7 @@
+[Strona główna](../../README.md) > [reports](README.md) > [Raport-osobisty-genom-wiki](Raport-osobisty-genom-wiki.md)
+
+---
+
 # Raport osobisty — geny i warianty (GENMARKERWIKI)
 
 **Data:** 2026-06-14  

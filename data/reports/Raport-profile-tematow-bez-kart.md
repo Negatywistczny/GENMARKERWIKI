@@ -1,3 +1,7 @@
+[Strona główna](../../README.md) > [reports](README.md) > [Raport-profile-tematow-bez-kart](Raport-profile-tematow-bez-kart.md)
+
+---
+
 # Raport profili tematów — geny bez kart md/
 
 Geny na stronach tematów bez kart wiki: **113**

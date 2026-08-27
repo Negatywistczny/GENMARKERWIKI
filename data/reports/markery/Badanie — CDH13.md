@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CDH13](Badanie — CDH13.md)
+
+---
+
 # **Wpis Encyklopedyczny: Marker Genetyczny CDH13**
 
 ## **1\. Nagłówek i Nazwy**

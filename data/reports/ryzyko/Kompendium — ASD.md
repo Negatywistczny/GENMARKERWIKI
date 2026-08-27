@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Kompendium — ASD](Kompendium — ASD.md)
+
+---
+
 # **Architektura genetyczna i molekularna stratyfikacja zaburzeń spektrum autyzmu: Kompendium dla systemów analizy genomowej i predykcji biotypów**
 
 Zaburzenia spektrum autyzmu (ASD) stanowią jedną z najbardziej złożonych i heterogennych grup dysfunkcji neurorozwojowych, których etiologia opiera się na wielowarstwowych interakcjach między rzadkimi wariantami o wysokiej penetracji a powszechnymi wariantami genetycznymi o małym efekcie.1 Współczesna nauka odeszła od postrzegania autyzmu jako pojedynczej jednostki chorobowej na rzecz koncepcji „autyzmów”, co wymusza stosowanie zaawansowanych narzędzi bioinformatycznych do stratyfikacji pacjentów na tzw. biotypy.3 Dziedziczność ASD szacowana jest na poziomie od 70% do 90%, co czyni to zaburzenie idealnym kandydatem do precyzyjnej diagnostyki molekularnej.5 Niniejszy raport stanowi wyczerpujące opracowanie danych genetycznych niezbędnych do implementacji w systemach analizy kodu genetycznego, mających na celu wyliczenie prawdopodobieństwa wystąpienia określonych biotypów klinicznych.

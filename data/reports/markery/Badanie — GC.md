@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — GC](Badanie — GC.md)
+
+---
+
 # **Kompleksowy raport bioinformatyczny: Charakterystyka genu GC, genomowe warianty rs7041, rs4588 i rs2282679 oraz ich implikacje kliniczne**
 
 ## **1\. Nagłówek i nazwy genu**

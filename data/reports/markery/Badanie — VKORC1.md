@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — VKORC1](Badanie — VKORC1.md)
+
+---
+
 # **Kompleksowy raport farmakogenetyczny i encyklopedyczny genu VKORC1**
 
 ## **Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — ADHD](Baza — ADHD.md)
+
+---
+
 # **Zestawienie genów i wariantów genetycznych związanych z ADHD**
 
 Poniższe tabele zawierają kompleksowy wykaz genów ryzyka, wariantów PRS oraz sygnatur molekularnych wyekstrahowanych z analiz asocjacyjnych GWAS i TWAS. Dane zostały ujednolicone pod kątem mapowania bioinformatycznego z podziałem na kluczowe biotypy ADHD.

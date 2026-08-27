@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FKBP5](Badanie — FKBP5.md)
+
+---
+
 # **Raport Badawczy: Marker Genetyczny FKBP5 (Białko Wiążące FK506 51\)**
 
 ## **1\. Nagłówek i Nazwy**

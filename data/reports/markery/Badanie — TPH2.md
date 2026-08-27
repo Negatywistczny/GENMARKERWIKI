@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TPH2](Badanie — TPH2.md)
+
+---
+
 # **Raport Badawczy: Kompleksowa Analiza Bioinformatyczna i Genetyczna Markera TPH2**
 
 ## **1\. Nagłówek i Nazwy**

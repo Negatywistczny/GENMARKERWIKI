@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FADS1](Badanie — FADS1.md)
+
+---
+
 # **Kompleksowy raport genomowy dla locus FADS1: Analiza bioinformatyczna, mechanizmy molekularne i wytyczne kliniczno-dietetyczne**
 
 ## **1\. Nagłówek i Nazwy**

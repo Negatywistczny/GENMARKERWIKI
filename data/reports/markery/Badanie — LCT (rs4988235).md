@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — LCT (rs4988235)](Badanie — LCT (rs4988235).md)
+
+---
+
 # **Kompleksowy Raport Badawczy: Fenotypowa i Genotypowa Analiza Markera rs4988235**
 
 ## **1\. Nagłówek i Nazwy**

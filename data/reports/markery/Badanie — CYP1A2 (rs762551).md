@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CYP1A2 (rs762551)](Badanie — CYP1A2 (rs762551).md)
+
+---
+
 # **Wpis Encyklopedyczny: Marker Genetyczny CYP1A2 (rs762551)**
 
 ## **1\. Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ACTN3 (rs1815739)](Badanie — ACTN3 (rs1815739).md)
+
+---
+
 # **Raport Badawczy: Analiza Markera Genetycznego ACTN3 (rs1815739)**
 
 ## **1\. Nagłówek i Nazwy**

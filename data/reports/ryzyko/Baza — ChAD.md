@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — ChAD](Baza — ChAD.md)
+
+---
+
 # **Zestawienie genów i wariantów genetycznych związanych z ChAD (BD)**
 
 Poniższe tabele zawierają kompleksowy wykaz genów ryzyka, izoform transkryptomicznych (TWAS) oraz markerów farmakogenetycznych zidentyfikowanych w największych badaniach GWAS (w tym PGC 2025\) oraz badaniach biotypów psychozy (B-SNIP). Dane zoptymalizowano pod kątem mapowania genomowego.

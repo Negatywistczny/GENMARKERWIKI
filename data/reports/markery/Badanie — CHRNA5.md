@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CHRNA5](Badanie — CHRNA5.md)
+
+---
+
 # **Dogłębny Raport Badawczy: Molekularna, Kliniczna i Ewolucyjna Analiza Markera Genetycznego CHRNA5**
 
 ## **1\. Nagłówek i Nazwy**

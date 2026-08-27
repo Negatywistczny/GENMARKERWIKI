@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TSC1](Badanie — TSC1.md)
+
+---
+
 # **Kompleksowy raport naukowy: Charakterystyka molekularna, genetyczna i kliniczna genu TSC1**
 
 ## **1\. Nagłówek i Nazwy**

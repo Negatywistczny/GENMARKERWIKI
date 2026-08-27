@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TAS2R38](Badanie — TAS2R38.md)
+
+---
+
 # **Analiza genomiczna loci TAS2R38: Wpływ polimorfizmów sensorycznych na homeostazę metaboliczną i immunologiczną**
 
 ## **Nagłówek i Nazwy**

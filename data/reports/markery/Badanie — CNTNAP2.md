@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CNTNAP2](Badanie — CNTNAP2.md)
+
+---
+
 # **Gen CNTNAP2 i jego polimorfizmy rs7794745 oraz rs2710102: Kompleksowa analiza molekularna, funkcjonalna i ewolucyjna**
 
 ## **1\. Nagłówek i Nazwy**

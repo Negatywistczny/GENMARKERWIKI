@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CLOCK (rs1801260)](Badanie — CLOCK (rs1801260).md)
+
+---
+
 # **Raport Badawczy: Analiza Markera Genetycznego CLOCK (rs1801260)**
 
 ## **1\. Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — OR6A2](Badanie — OR6A2.md)
+
+---
+
 # **Analiza biomedyczna genu OR6A2: Od molekularnej transdukcji sygnałów olfaktorycznych do immunometabolicznej patologii naczyń krwionośnych**
 
 ## **1\. Nagłówek i nazwy**

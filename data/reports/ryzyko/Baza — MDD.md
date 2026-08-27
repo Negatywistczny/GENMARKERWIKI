@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — MDD](Baza — MDD.md)
+
+---
+
 # **Zestawienie genów i wariantów genetycznych związanych z MDD**
 
 Poniższe tabele zawierają kompleksowy wykaz genów ryzyka, wariantów PRS oraz markerów farmakogenetycznych (PGx) wyekstrahowanych z analiz asocjacyjnych GWAS (m.in. PGC MDD2025). Dane zostały ujednolicone pod kątem mapowania bioinformatycznego z podziałem na 4 kluczowe biotypy depresji.

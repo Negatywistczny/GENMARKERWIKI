@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SLC45A2](Badanie — SLC45A2.md)
+
+---
+
 # **Raport Badawczy: Analiza Bioinformatyczna i Molekularna Markera Genetycznego SLC45A2**
 
 ## **1\. Nagłówek i Nazwy**

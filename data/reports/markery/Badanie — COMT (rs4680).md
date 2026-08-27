@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — COMT (rs4680)](Badanie — COMT (rs4680).md)
+
+---
+
 # **Analiza Molekularna, Fenotypowa i Kliniczna Markera Genetycznego COMT rs4680 (Val158Met)**
 
 ## **1\. Nagłówek i Nazwy**

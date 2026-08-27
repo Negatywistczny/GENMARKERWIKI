@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — AVPR1A](Badanie — AVPR1A.md)
+
+---
+
 # **Raport badawczy: Kompleksowa analiza strukturalno-funkcjonalna i kliniczna genu AVPR1A**
 
 ## **1\. Klasyfikacja i nomenklatura genu**

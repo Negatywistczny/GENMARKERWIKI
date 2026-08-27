@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ADRA2A](Badanie — ADRA2A.md)
+
+---
+
 # **Raport Genetyczny: Marker ADRA2A**
 
 ## **1\. Nagłówek i Nazwy**

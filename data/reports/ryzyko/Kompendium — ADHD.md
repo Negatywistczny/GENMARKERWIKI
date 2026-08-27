@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Kompendium — ADHD](Kompendium — ADHD.md)
+
+---
+
 # **Architektura Genetyczna ADHD: Kompleksowy Wykaz Genów Ryzyka, Punktacji Poligenicznej (PRS) oraz Neurobiologicznych Biotypów dla Precyzyjnej Analizy Kodu Genetycznego**
 
 ## **Genetyczne fundamenty heterogeniczności zespołu nadpobudliwości psychoruchowej**

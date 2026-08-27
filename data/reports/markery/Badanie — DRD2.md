@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — DRD2](Badanie — DRD2.md)
+
+---
+
 # **Gen DRD2: Kompleksowy Raport Bioinformatyczny, Neurogenetyczny i Farmakogenomiczny**
 
 ## **1\. Nagłówek i Nazwy**

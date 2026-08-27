@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ALDH2](Badanie — ALDH2.md)
+
+---
+
 # **Kompleksowy raport naukowy dotyczący wariantu rs671 w genie ALDH2**
 
 ## **Nagłówek i nazwy**

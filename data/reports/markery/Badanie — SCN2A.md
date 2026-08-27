@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SCN2A](Badanie — SCN2A.md)
+
+---
+
 # **Kompleksowy raport encyklopedyczny: Gen SCN2A i jego znaczenie kliniczne, poznawcze oraz populacyjne**
 
 ## **1\. Nagłówek i Nazwy**

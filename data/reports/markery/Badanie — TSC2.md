@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TSC2](Badanie — TSC2.md)
+
+---
+
 # **Gen TSC2 i tuberina – charakterystyka molekularna, warianty genetyczne oraz ich wpływ na fizjologię i zdrowie człowieka**
 
 ## **Nagłówek i Nazwy**

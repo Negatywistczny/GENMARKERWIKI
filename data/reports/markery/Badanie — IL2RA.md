@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — IL2RA](Badanie — IL2RA.md)
+
+---
+
 # **Analiza kliniczno-genetyczna genu IL2RA: Charakterystyka receptorowa, warianty polimorficzne i implikacje kliniczne**
 
 ## **Nagłówek i Nazwy**

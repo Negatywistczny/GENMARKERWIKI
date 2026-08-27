@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — KCNQ4](Badanie — KCNQ4.md)
+
+---
+
 # **Kompleksowa analiza genetyczna markera KCNQ4: Funkcja fizjologiczna, warianty polimorficzne i znaczenie kliniczne**
 
 ## **Nagłówek i nazewnictwo genu**

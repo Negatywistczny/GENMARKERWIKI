@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Zbiorowe badanie markerów](Zbiorowe badanie markerów.md)
+
+---
+
 # Zbiorowe badanie markerów
 
 Scalony kompendium genów bez pełnych kart w wiki — Każdy gen: trzy profile genotypowe (referencyjny / pośredni / ryzyko lub patogenny).

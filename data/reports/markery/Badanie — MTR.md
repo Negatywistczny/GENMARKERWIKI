@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — MTR](Badanie — MTR.md)
+
+---
+
 # **Syntaza metioninowa (MTR) i polimorfizm rs1805087: Analiza molekularna, mechanizmy biochemiczne i implikacje kliniczne**
 
 ## **1\. Nagłówek i Nazwy**

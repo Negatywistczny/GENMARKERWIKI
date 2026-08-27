@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — MECP2](Badanie — MECP2.md)
+
+---
+
 # **Kompleksowy raport neurogenetyczny: Gen MECP2 jako kluczowy regulator epigenetyczny i modulator fenotypów behawioralnych**
 
 ## **1\. Nagłówek i nazwy**

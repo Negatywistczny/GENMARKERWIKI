@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SNAP25](Badanie — SNAP25.md)
+
+---
+
 # **Analiza genomowa i funkcjonalna genu SNAP25**
 
 ## **1\. Nagłówek i nazwy**

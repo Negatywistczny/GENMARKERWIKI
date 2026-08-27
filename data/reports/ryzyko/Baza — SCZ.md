@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — SCZ](Baza — SCZ.md)
+
+---
+
 # **Zestawienie genów i wariantów genetycznych związanych ze schizofrenią (SCZ)**
 
 Poniższe tabele zawierają kompleksowy wykaz genów priorytetowych zidentyfikowanych w badaniach GWAS (PGC3) oraz genów i izoform z analiz transkryptomicznych (TWAS), służących do predykcji biotypów psychotycznych w ramach konsorcjum B-SNIP. Dane zostały ujednolicone pod kątem mapowania genomowego.

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — OR1A1](Badanie — OR1A1.md)
+
+---
+
 # **Kompleksowy raport bioinformatyczny i molekularny dla markera genetycznego OR1A1: Charakterystyka strukturalna, funkcje ektopowe i analizy populacyjne**
 
 ## **1\. Nagłówek i Nazwy**

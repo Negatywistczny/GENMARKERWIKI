@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — ZEB2](Research — ZEB2.md)
+
+---
+
 # **Raport Badawczy: Analiza Genetyczna, Molekularna i Kliniczna Markera ZEB2**
 
 ## **1\. Nagłówek i Nazwy**

@@ -1,3 +1,7 @@
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Kompendium — MDD](Kompendium — MDD.md)
+
+---
+
 # **Architektura genomowa zaburzeń depresyjnych: Kompleksowe mapowanie genów na potrzeby obliczania ryzyka poligenicznego i stratyfikacji biotypów**
 
 Ewolucja zrozumienia genetycznego podłoża epizodów depresji o dużym nasileniu (Major Depressive Disorder \- MDD) przeszła w ostatnich latach fundamentalną transformację, odchodząc od uproszczonych modeli opartych na pojedynczych genach kandydatach w stronę zaawansowanych badań asocjacyjnych całego genomu (GWAS) o zasięgu globalnym.1 MDD jest obecnie definiowane jako zaburzenie o skrajnej poligeniczności, w którym tysiące wariantów genetycznych o małym efekcie jednostkowym kumulują się, tworząc ogólną podatność biologiczną jednostki.3 Najnowsze dane pochodzące z konsorcjum Psychiatric Genomics Consortium (PGC) MDD2025, obejmujące analizę ponad pięciu milionów osób, zidentyfikowały 697 niezależnych asocjacji w 636 loci genetycznych, co stanowi kamień milowy w mapowaniu biologicznych fundamentów depresji.1 Niniejszy raport dostarcza szczegółowej analizy tych markerów, kategoryzując je pod kątem przydatności w obliczaniu poligenicznych wskaźników ryzyka (Polygenic Risk Scores \- PRS) oraz stratyfikacji pacjentów na konkretne biotypy, co jest niezbędne dla rozwoju psychiatrii precyzyjnej.
