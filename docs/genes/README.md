@@ -22,7 +22,7 @@ Katalog zawiera 50 pełnych kart polimorfizmów SNP w języku polskim z 8 ujedno
 * [ABCC11](ABCC11.md), [HERC2](HERC2.md), [KCNQ4](KCNQ4.md), [MC1R](MC1R.md), [OCA2](OCA2.md), [OR1A1](OR1A1.md), [OR2M](OR2M.md)
 
 ### 🏃 4. Kondycja fizyczna, sen i rytm dobowy
-* [ACTN3](ACTN3.md), [ACE](ACE.md), [CLOCK](CLOCK.md), [COL1A1](COL1A1.md), [COL5A1](COL5A1.md), [PPARG](PPARG.md)
+* [ACTN3](ACTN3.md), [CLOCK](CLOCK.md), ACE, COL1A1, COL5A1, PPARG
 
 ### 🛡️ 5. Układ odpornościowy i detoksykacja
-* [GSTM1](GSTM1.md), [GSTP1](GSTP1.md), [HLA-B](HLA-B.md), [NAT2](NAT2.md), [NQO1](NQO1.md), [SOD2](SOD2.md)
+* GSTM1, GSTP1, HLA-B, NAT2, NQO1, SOD2
