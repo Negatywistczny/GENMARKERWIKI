@@ -11,8 +11,8 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "scripts"))
 from audit_topic_profiles import parse_profiles_js, audit_mini_stars  # noqa: E402
 
-PROFILES = ROOT / "html" / "personal-gene-profiles.js"
-MD_MINI = ROOT / "md-mini"
+PROFILES = ROOT / "public" / "html" / "personal-gene-profiles.js"
+MD_MINI = ROOT / "docs" / "genes-mini"
 
 GWAS_ALARM = (
     "schizofren",

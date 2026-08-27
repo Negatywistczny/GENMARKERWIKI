@@ -8,8 +8,8 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_DIR = ROOT / "md"
-GENE_RSIDS = ROOT / "html" / "gene-rsids.js"
+MD_DIR = ROOT / "docs" / "genes"
+GENE_RSIDS = ROOT / "public" / "html" / "gene-rsids.js"
 
 GENE_RE = re.compile(r"^\s+([A-Z0-9]+):\s*\[", re.M)
 RS_RE = re.compile(r"rs\d+", re.I)

@@ -198,8 +198,8 @@ def collect_rsids_from_md_tables(md_dir: Path) -> set[str]:
 
 def collect_all_rsids() -> set[str]:
     rsids: set[str] = set()
-    rsids.update(collect_rsids_from_gene_rsids_js(ROOT / "html" / "gene-rsids.js"))
-    rsids.update(collect_rsids_from_md_tables(ROOT / "md"))
+    rsids.update(collect_rsids_from_gene_rsids_js(ROOT / "public" / "html" / "gene-rsids.js"))
+    rsids.update(collect_rsids_from_md_tables(ROOT / "docs" / "genes"))
     return rsids
 
 

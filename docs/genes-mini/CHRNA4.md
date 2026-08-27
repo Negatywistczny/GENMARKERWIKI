@@ -1,0 +1,24 @@
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [CHRNA4](CHRNA4.md)
+
+---
+
+### 1. Nagłówek i Nazwy
+* **Główny symbol genu:** CHRNA4
+* **Pełna nazwa biochemiczna:** Podjednostka alfa-4 nikotynowego receptora acetylocholiny (ang. *Cholinergic receptor nicotinic alpha 4 subunit*)
+* **Nazwy potoczne i medialne:** Gen nocnej padaczki czołowej, modulator tonusu uwagi i czujności kory
+
+### 2. Identyfikator (rsID)
+* **Główny rsID / wariant:** rs1044396
+* **Lokalizacja chromosomalna:** Chromosom 20 (20q13.33)
+
+### 3. Mechanizm działania
+* **Rola biologiczna genu/białka:** Koduje podjednostkę alfa-4, która wspólnie z podjednostką beta-2 tworzy najpowszechniejszy i wysoce czuły receptor nikotynowy (α4β2) w ośrodkowym układzie nerwowym. Receptor ten reguluje presynaptyczny wyrzut dopaminy, GABA i acetylocholiny, decydując o wzmocnieniu uwagi, pamięci roboczej i stabilności snu.
+
+### 4. Tabela Wariantów
+**rs1044396**
+
+| Genotyp | Opis krótki | Ton | Wpływ fenotypowy |
+| :--- | :--- | :--- | :--- |
+| **★ T/T** | Wysoka wydajność receptorowa | positive | Prawidłowa, silna ekspresja receptorów α4β2. Wysoki poziom skupienia uwagi, świetna pamięć robocza, dobra stabilizacja faz snu i wysoka efektywność stymulacji kognitywnej. |
+| **C/T** | Wariant pośredni | neutral | Zrównoważona gęstość receptorów cholinergicznych; standardowy profil uwagi populacyjnej. |
+| **C/C** | Niska ekspresja / ADNFLE | negative | Znaczne obniżenie tonusu acetylocholinergicznego. Powoduje deficyty uwagi (korelacja z ADHD) oraz tendencję do wybudzeń. Specyficzne mutacje punktowe w tym genie są bezpośrednią przyczyną **Autosomalnej Dominującej Nocnej Padaczki z Napadami z Kory Czołowej (ADNFLE)**, charakteryzującej się gwałtownymi, hiperkinetycznymi napadami ruchowymi wyłącznie w trakcie snu. |

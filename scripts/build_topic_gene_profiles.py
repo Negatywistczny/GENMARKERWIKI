@@ -10,10 +10,10 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_DIR = ROOT / "md"
-RISK_DIR = ROOT / "raporty" / "ryzyko"
-OUT = ROOT / "html" / "personal-gene-profiles.js"
-OUT_REPORT = ROOT / "raporty" / "Raport-profile-tematow-bez-kart.md"
+MD_DIR = ROOT / "docs" / "genes"
+RISK_DIR = ROOT / "data" / "reports" / "ryzyko"
+OUT = ROOT / "public" / "html" / "personal-gene-profiles.js"
+OUT_REPORT = ROOT / "data" / "reports" / "Raport-profile-tematow-bez-kart.md"
 WORK = Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER\.work")
 
 GENE_ALIASES = {
@@ -92,7 +92,7 @@ def topic_genes() -> dict[str, set[str]]:
     by_gene: dict[str, set[str]] = defaultdict(set)
 
     # topic-pages.js — id: "asd" wewnątrz topics (pomijamy id grup)
-    pages = (ROOT / "html" / "topic-pages.js").read_text(encoding="utf-8")
+    pages = (ROOT / "public" / "html" / "topic-pages.js").read_text(encoding="utf-8")
     for sym_m in re.finditer(r'symbol:\s*"([^"]+)"', pages):
         before = pages[: sym_m.start()]
         topic_id = None
@@ -106,7 +106,7 @@ def topic_genes() -> dict[str, set[str]]:
                 by_gene[g].add(topic_id)
 
     # topic-psychiatry-sections.js — asd: [ ... symbol: "GENE"
-    psych = (ROOT / "html" / "topic-psychiatry-sections.js").read_text(encoding="utf-8")
+    psych = (ROOT / "public" / "html" / "topic-psychiatry-sections.js").read_text(encoding="utf-8")
     current: str | None = None
     for line in psych.splitlines():
         key_m = re.match(r"^\s{2}([a-z0-9-]+):\s*\[", line)

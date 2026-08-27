@@ -7,8 +7,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_IN = ROOT / "raporty" / "Raport-osobisty-genom-wiki.md"
-HTML_OUT = ROOT / "raporty" / "Raport-osobisty-genom-wiki.html"
+MD_IN = ROOT / "data" / "reports" / "Raport-osobisty-genom-wiki.md"
+HTML_OUT = ROOT / "data" / "reports" / "Raport-osobisty-genom-wiki.html"
 
 THEMES_META = {
     "Mózg, nastrój, stres i uwaga": {"icon": "🧠", "color": "#6b8cff", "id": "theme-mozg"},

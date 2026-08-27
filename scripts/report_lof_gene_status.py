@@ -8,7 +8,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 MISSING = ROOT / "scripts" / "data" / "missing_mini_wgs_from_bam.csv"
-MD_MINI = ROOT / "md-mini"
+MD_MINI = ROOT / "docs" / "genes-mini"
 
 LOF_GENES = [
     "ALMS1",

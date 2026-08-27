@@ -11,7 +11,7 @@ from collections import defaultdict
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md"
+REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
 WORK = Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER\.work")
 FASTQ = Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER")
 MARKER_GT = WORK / "marker_report_genotypes.csv"

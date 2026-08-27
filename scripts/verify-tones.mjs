@@ -3,7 +3,7 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const variantTones = fs.readFileSync(path.join(root, "html", "variant-tones.js"), "utf8");
+const variantTones = fs.readFileSync(path.join(root, "public", "html", "variant-tones.js"), "utf8");
 const tonesMatch = variantTones.match(/const FIXED_VARIANT_TONES = (\{[\s\S]*?\n\});/);
 if (!tonesMatch) {
   console.error("Nie znaleziono FIXED_VARIANT_TONES w html/variant-tones.js");
@@ -170,12 +170,12 @@ function parseTable(lines) {
   return { rows: data };
 }
 
-const mdDir = path.join(root, "md");
+const mdDir = path.join(root, "docs", "genes");
 const issues = [];
 let total = 0;
 
 for (const file of fs.readdirSync(mdDir)) {
-  if (!file.endsWith(".md") || file === "UNIWERSALNY_SZABLON_MARKERA.md" || file === "index.md") {
+  if (!file.endsWith(".md") || file === "UNIWERSALNY_SZABLON_MARKERA.md" || file === "index.md" || file === "README.md") {
     continue;
   }
   const md = fs.readFileSync(path.join(mdDir, file), "utf8");

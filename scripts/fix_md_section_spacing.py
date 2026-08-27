@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD = ROOT / "md"
+MD = ROOT / "docs" / "genes"
 SKIP = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md"})
 
 

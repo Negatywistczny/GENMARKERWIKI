@@ -25,11 +25,11 @@ if str(_SCRIPTS) not in sys.path:
 from wgs_full_genome import load_lookup_csv, lookup_rsids
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_DIR = ROOT / "md"
-OUT = ROOT / "raporty" / "Raport-osobisty-genom-wiki.md"
-RSIDS_JS = ROOT / "html" / "gene-rsids.js"
-GENE_INDEX_JS = ROOT / "html" / "gene-index.js"
-GENE_CATEGORIES_JS = ROOT / "html" / "gene-categories.js"
+MD_DIR = ROOT / "docs" / "genes"
+OUT = ROOT / "data" / "reports" / "Raport-osobisty-genom-wiki.md"
+RSIDS_JS = ROOT / "public" / "html" / "gene-rsids.js"
+GENE_INDEX_JS = ROOT / "public" / "html" / "gene-index.js"
+GENE_CATEGORIES_JS = ROOT / "public" / "html" / "gene-categories.js"
 
 CSV_PATH = Path(
     r"C:\Users\kacpe\Documents\.PERSONALNA BAZA DANYCH"
@@ -1108,7 +1108,7 @@ def main(by_gene: dict[str, list[dict]] | None = None) -> None:
     try:
         from report_html import convert_md_to_html
 
-        convert_md_to_html(OUT, ROOT / "raporty" / "Raport-osobisty-genom-wiki.html")
+        convert_md_to_html(OUT, ROOT / "data" / "reports" / "Raport-osobisty-genom-wiki.html")
     except Exception as exc:
         print(f"Uwaga: HTML nie wygenerowany ({exc})")
 

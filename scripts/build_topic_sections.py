@@ -7,8 +7,8 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RISK_DIR = ROOT / "raporty" / "ryzyko"
-OUT = ROOT / "html" / "topic-psychiatry-sections.js"
+RISK_DIR = ROOT / "data" / "reports" / "ryzyko"
+OUT = ROOT / "public" / "html" / "topic-psychiatry-sections.js"
 
 ALIASES = {
     "DAT1": "SLC6A3",

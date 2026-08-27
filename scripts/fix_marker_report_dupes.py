@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-REPORT = ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md"
+REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
 
 WGS_MARKER = "* **Mój genotyp (WGS):**"
 PROFILE_MARKER = "* **Dopasowany profil:**"

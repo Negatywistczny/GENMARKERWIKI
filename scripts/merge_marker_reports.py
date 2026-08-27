@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MARKER_DIR = ROOT / "raporty" / "markery"
+MARKER_DIR = ROOT / "data" / "reports" / "markery"
 SOURCES = [MARKER_DIR / f"Zbiorowe badanie markerów{i}.md" for i in range(1, 7)]
 OUT = MARKER_DIR / "Zbiorowe badanie markerów.md"
 

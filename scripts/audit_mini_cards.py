@@ -8,7 +8,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_MINI = ROOT / "md-mini"
+MD_MINI = ROOT / "docs" / "genes-mini"
 
 TABLE_HEADER = re.compile(r"^\| Genotyp \| Opis krótki \| Ton \| Wpływ fenotypowy \|")
 ROW = re.compile(r"^\| (.+?) \| (.+?) \| (\w+) \| (.+?) \|$")

@@ -10,7 +10,7 @@ from functools import lru_cache
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-TONES_JS = ROOT / "html" / "variant-tones.js"
+TONES_JS = ROOT / "public" / "html" / "variant-tones.js"
 
 _GENOTYPE_TOKEN_RE = re.compile(
     r"(?:^|[\s,;]|lub\s+)"

@@ -9,7 +9,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_MINI = ROOT / "md-mini"
+MD_MINI = ROOT / "docs" / "genes-mini"
 CACHE_PATH = ROOT / "scripts" / "data" / "rsid_allele_cache.json"
 
 COMPLEMENT = str.maketrans("ACGT", "TGCA")

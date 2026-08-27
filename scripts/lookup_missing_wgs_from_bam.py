@@ -13,8 +13,8 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_MINI = ROOT / "md-mini"
-REPORT = ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md"
+MD_MINI = ROOT / "docs" / "genes-mini"
+REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
 FASTQ = Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER")
 BAM_DIR = FASTQ / "BAM"
 RSID_CSV = BAM_DIR / "ULCEDCBF2693.rsid.csv"

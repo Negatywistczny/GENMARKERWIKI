@@ -9,7 +9,7 @@ from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
 INDEX = ROOT / "index.md"
-MINI_JS = ROOT / "html" / "genes-with-mini.js"
+MINI_JS = ROOT / "public" / "html" / "genes-with-mini.js"
 MARKER = "## Minikarty (md-mini/)"
 
 

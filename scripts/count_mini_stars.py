@@ -7,7 +7,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD_MINI = ROOT / "md-mini"
+MD_MINI = ROOT / "docs" / "genes-mini"
 SKIP = frozenset({"NOT_IN_DBSNP", "NOT_FOUND", "NO_CALL", "BRAK", "--", ""})
 WGS_LINE = re.compile(
     r"`(rs\d+)`\s*[\u2014\u2013\-]+\s*\*\*([A-Z0-9/*]+)\*\*",

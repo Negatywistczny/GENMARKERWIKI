@@ -20,10 +20,10 @@ from rsid_allele_lookup import (  # noqa: E402
     primary_rsid,
     resolve_genotype,
 )
-REPORT = ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md"
-MD_DIR = ROOT / "md"
-OUT_DIR = ROOT / "md-mini"
-OUT_JS = ROOT / "html" / "genes-with-mini.js"
+REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
+MD_DIR = ROOT / "docs" / "genes"
+OUT_DIR = ROOT / "docs" / "genes-mini"
+OUT_JS = ROOT / "public" / "html" / "genes-with-mini.js"
 SKIP_GT = frozenset(
     {
         "",

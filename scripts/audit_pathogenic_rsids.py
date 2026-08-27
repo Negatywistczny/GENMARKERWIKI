@@ -17,8 +17,8 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 from audit_rsID_rules import filter_pathogenic_noise
 
-MD = ROOT / "md"
-REPORT = ROOT / "raporty" / "Raport-osobisty-genom-wiki.md"
+MD = ROOT / "docs" / "genes"
+REPORT = ROOT / "data" / "reports" / "Raport-osobisty-genom-wiki.md"
 WGS_PATHS = [
     Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER\.work\wgs_full_genome_lookup.csv"),
     Path(r"C:\Users\kacpe\Documents\GitHub\FASTQ-CONVERTER\.work\missing_sec4_genotypes.csv"),

@@ -11,9 +11,9 @@ ROOT = Path(__file__).resolve().parents[1]
 SCRIPTS = Path(__file__).resolve().parent
 sys.path.insert(0, str(SCRIPTS))
 from variant_tone_lookup import fixed_variant_tone  # noqa: E402
-MD_DIR = ROOT / "md"
-MD_MINI_DIR = ROOT / "md-mini"
-OUT = ROOT / "html" / "personal-gene-profiles.js"
+MD_DIR = ROOT / "docs" / "genes"
+MD_MINI_DIR = ROOT / "docs" / "genes-mini"
+OUT = ROOT / "public" / "html" / "personal-gene-profiles.js"
 SKIP = {"UNIWERSALNY_SZABLON_MARKERA.md"}
 STAR = "★"
 

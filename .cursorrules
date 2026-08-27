@@ -1,0 +1,23 @@
+# GenMarkerWiki — AI Rules & Protocols
+
+Jesteś asystentem AI pracującym przy projekcie **GenMarkerWiki** (baza wiedzy i generator kart markerów genetycznych).
+
+## 1. Źródło Prawdy (SSOT)
+Projekt przestrzega globalnych zasad architektury i czystości:
+- Centralna Konstytucja: `https://github.com/kacperczeczot/devex-standards`
+- Certyfikat Zgodności: `docs/STANDARDS.md`
+- Protokół Standaryzacji dla AI: `https://github.com/kacperczeczot/devex-standards/blob/main/docs/STANDARDIZATION_PLAYBOOK.md`
+
+## 2. Zasady Domenowe i Kanon Root
+1. **Kanon Root:** W korzeniu dozwolone są wyłącznie foldery: `docs/`, `public/`, `data/`, `scripts/`, `.agents/`, `.github/` oraz pliki konfiguracyjne.
+2. **Karty Genów (`docs/genes/`):** Każda karta genu MUSI zawierać 8 ujednoliconych sekcji:
+   - `### 1. Nagłówek i Nazwy`
+   - `### 2. Identyfikator (rsID) i Charakterystyka Wariantu`
+   - `### 3. Mechanizm działania`
+   - `### 4. Tabela Wariantów`
+   - `### 5. Statystyki populacyjne`
+   - `### 6. Wpływ na życie (Zalecenia)`
+   - `### 7. Ciekawostki`
+   - `### 8. Źródła (Referencje)`
+3. **Kanon Breadcrumbs:** Każdy plik Markdown (`.md`) MUSI posiadać pasek nawigacyjny na samej górze.
+4. **Weryfikacja:** Po każdej edycji kart uruchom `node scripts/verify_structure.mjs && node scripts/verify-tones.mjs`.

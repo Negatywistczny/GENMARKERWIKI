@@ -16,7 +16,7 @@ if str(SCRIPTS) not in __import__("sys").path:
     __import__("sys").path.insert(0, str(SCRIPTS))
 from audit_rsID_rules import is_critical_wrong_chr, is_whitelisted
 
-GENE_RSIDS = ROOT / "html" / "gene-rsids.js"
+GENE_RSIDS = ROOT / "public" / "html" / "gene-rsids.js"
 
 GENE_RE = re.compile(r"^\s+([A-Z0-9]+):\s*\[", re.M)
 RS_RE = re.compile(r'"(rs\d+)"')

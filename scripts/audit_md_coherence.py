@@ -8,12 +8,12 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-MD = ROOT / "md"
-MD_MINI = ROOT / "md-mini"
-REPORT = ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md"
-GENES_WITH_MD = ROOT / "html" / "genes-with-md.js"
-GENES_WITH_MINI = ROOT / "html" / "genes-with-mini.js"
-SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md"})
+MD = ROOT / "docs" / "genes"
+MD_MINI = ROOT / "docs" / "genes-mini"
+REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
+GENES_WITH_MD = ROOT / "public" / "html" / "genes-with-md.js"
+GENES_WITH_MINI = ROOT / "public" / "html" / "genes-with-mini.js"
+SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md"})
 
 MINI_TABLE_HEADER = re.compile(r"^\| Genotyp \| Opis krótki \| Ton \| Wpływ fenotypowy \|")
 MINI_ROW = re.compile(r"^\| (.+?) \| (.+?) \| (\w+) \| (.+?) \|$")
@@ -55,6 +55,8 @@ def md_spacing_issues() -> list[str]:
 def mini_content_issues() -> list[str]:
     issues: list[str] = []
     for path in sorted(MD_MINI.glob("*.md")):
+        if path.name in SKIP_MD:
+            continue
         body = path.read_text(encoding="utf-8")
         in_table = False
         rows = 0
@@ -117,7 +119,7 @@ def main() -> int:
     issues: list[str] = []
 
     md_genes = {p.stem.upper() for p in MD.glob("*.md") if p.name not in SKIP_MD}
-    mini_genes = {p.stem.upper() for p in MD_MINI.glob("*.md")}
+    mini_genes = {p.stem.upper() for p in MD_MINI.glob("*.md") if p.name not in SKIP_MD}
     overlap = md_genes & mini_genes
     if overlap:
         issues.append(f"overlap md/md-mini: {sorted(overlap)}")

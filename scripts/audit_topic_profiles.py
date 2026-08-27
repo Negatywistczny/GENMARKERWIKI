@@ -8,9 +8,9 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-PROFILES = ROOT / "html" / "personal-gene-profiles.js"
-MD = ROOT / "md"
-MD_MINI = ROOT / "md-mini"
+PROFILES = ROOT / "public" / "html" / "personal-gene-profiles.js"
+MD = ROOT / "docs" / "genes"
+MD_MINI = ROOT / "docs" / "genes-mini"
 
 SECTION6_MARKERS = (
     "sport:",

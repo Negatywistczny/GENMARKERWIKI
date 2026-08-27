@@ -3,8 +3,8 @@ import path from "path";
 import { fileURLToPath } from "url";
 
 const root = path.join(path.dirname(fileURLToPath(import.meta.url)), "..");
-const mdDir = path.join(root, "md");
-const SKIP = new Set(["UNIWERSALNY_SZABLON_MARKERA.md", "index.md"]);
+const mdDir = path.join(root, "docs", "genes");
+const SKIP = new Set(["UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md"]);
 
 const EXPECTED_SECTIONS = [
   "Nagłówek i Nazwy",

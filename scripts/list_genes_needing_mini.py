@@ -3,10 +3,10 @@ from pathlib import Path
 import re
 
 ROOT = Path(__file__).resolve().parents[1]
-md = {p.stem.upper() for p in (ROOT / "md").glob("*.md")}
-idx = (ROOT / "html" / "gene-index.js").read_text(encoding="utf-8")
+md = {p.stem.upper() for p in (ROOT / "docs" / "genes").glob("*.md")}
+idx = (ROOT / "public" / "html" / "gene-index.js").read_text(encoding="utf-8")
 index_genes = re.findall(r'gene: "([^"]+)"', idx)
-report = (ROOT / "raporty" / "markery" / "Zbiorowe badanie markerów.md").read_text(encoding="utf-8")
+report = (ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md").read_text(encoding="utf-8")
 report_genes = re.findall(r"^### ([A-Z0-9][A-Z0-9-]+)", report, re.M)
 report_set = set(report_genes)
 need_from_index = [g for g in index_genes if g not in md]
