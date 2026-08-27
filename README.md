@@ -4,18 +4,14 @@
 
 ---
 
-## 1. Dokumentacja i Standardy
+## 1. Nawigacja po Bazie Wiedzy
 
-Projekt funkcjonuje w oparciu o model **Single-App** ([`template-single-app`](https://github.com/kacperczeczot/template-single-app)) i przestrzega standardów inżynieryjnych ekosystemu:
 
 | Dokument / Sekcja | Opis |
 | :--- | :--- |
-| [Standardy Projektu (`docs/STANDARDS.md`)](docs/STANDARDS.md) | Deklaracja zgodności ze standardami DevEx i procedury testów |
 | [Baza Dokumentacji (`docs/README.md`)](docs/README.md) | Centralny hub dokumentacyjny projektu |
 | [Karty Genów (`docs/genes/`)](docs/genes/README.md) | Pełny katalog 50 kart markerów SNP z podziałem na kategorie |
 | [Minikarty WGS (`docs/genes-mini/`)](docs/genes-mini/README.md) | Ponad 240 zwięzłych kart markerów WGS |
-| [Rejestr Decyzji ADR (`docs/adr/`)](docs/adr/README.md) | Rejestr Decyzji Architektonicznych projektu |
-| [Globalne Standardy DevEx (`devex-standards`)](https://github.com/kacperczeczot/devex-standards) | Nadrzędna Konstytucja inżynieryjna ekosystemu |
 | [Reguły AI Projektu (`.agents/rules/project.md`)](.agents/rules/project.md) | Instrukcje domenowe dla asystentów AI |
 
 ---
