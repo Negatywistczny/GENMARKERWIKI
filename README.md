@@ -1,7 +1,3 @@
-[Strona główna](README.md)
-
----
-
 # GenMarkerWiki — Baza Wiedzy o Markerach Genetycznych
 
 > Baza wiedzy, generator raportów i interaktywna przeglądarka polimorfizmów genetycznych (SNP) o znaczeniu funkcjonalnym, behawioralnym i metabolicznym.
