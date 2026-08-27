@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [STX16-NPEPL1](STX16-NPEPL1.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](00_indeks.md) > [STX16-NPEPL1](STX16-NPEPL1.md)
 
 ---
 

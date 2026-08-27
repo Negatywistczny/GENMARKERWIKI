@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TPH2](Badanie — TPH2.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — TPH2](Badanie — TPH2.md)
 
 ---
 

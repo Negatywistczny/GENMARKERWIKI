@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Research — APOE](Research — APOE.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — APOE](Research — APOE.md)
 
 ---
 

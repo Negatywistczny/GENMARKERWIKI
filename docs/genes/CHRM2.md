@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [CHRM2](CHRM2.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [CHRM2](CHRM2.md)
 
 ---
 

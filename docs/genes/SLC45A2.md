@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [SLC45A2](SLC45A2.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [SLC45A2](SLC45A2.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [IL2RA](IL2RA.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [IL2RA](IL2RA.md)
 
 ---
 

@@ -13,7 +13,7 @@ MD_MINI = ROOT / "docs" / "genes-mini"
 REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
 GENES_WITH_MD = ROOT / "public" / "html" / "genes-with-md.js"
 GENES_WITH_MINI = ROOT / "public" / "html" / "genes-with-mini.js"
-SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md"})
+SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md", "00_indeks.md"})
 
 MINI_TABLE_HEADER = re.compile(r"^\| Genotyp \| Opis krótki \| Ton \| Wpływ fenotypowy \|")
 MINI_ROW = re.compile(r"^\| (.+?) \| (.+?) \| (\w+) \| (.+?) \|$")

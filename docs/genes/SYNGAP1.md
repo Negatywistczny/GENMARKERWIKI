@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [SYNGAP1](SYNGAP1.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [SYNGAP1](SYNGAP1.md)
 
 ---
 

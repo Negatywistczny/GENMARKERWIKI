@@ -1,0 +1,5 @@
+---
+
+# ADR
+
+Indeks folderu.

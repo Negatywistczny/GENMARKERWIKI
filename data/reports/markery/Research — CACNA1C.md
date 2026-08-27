@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Research — CACNA1C](Research — CACNA1C.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — CACNA1C](Research — CACNA1C.md)
 
 ---
 

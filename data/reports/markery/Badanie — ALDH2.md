@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ALDH2](Badanie — ALDH2.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — ALDH2](Badanie — ALDH2.md)
 
 ---
 

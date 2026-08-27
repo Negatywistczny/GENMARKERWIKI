@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [ryzyko](README.md) > [Kompendium — ChAD](Kompendium — ChAD.md)
+[Strona główna](../../../00_indeks.md) > [ryzyko](00_indeks.md) > [Kompendium — ChAD](Kompendium — ChAD.md)
 
 ---
 

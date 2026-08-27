@@ -1,0 +1,5 @@
+---
+
+# SCRIPTS
+
+Indeks folderu.

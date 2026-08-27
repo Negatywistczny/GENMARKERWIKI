@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — ADHD](Baza — ADHD.md)
+[Strona główna](../../../00_indeks.md) > [ryzyko](00_indeks.md) > [Baza — ADHD](Baza — ADHD.md)
 
 ---
 

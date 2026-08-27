@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Research — ANK3](Research — ANK3.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — ANK3](Research — ANK3.md)
 
 ---
 

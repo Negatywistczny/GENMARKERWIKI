@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SLC6A4](Badanie — SLC6A4.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — SLC6A4](Badanie — SLC6A4.md)
 
 ---
 

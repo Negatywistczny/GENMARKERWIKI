@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CYP1A2 (rs762551)](Badanie — CYP1A2 (rs762551).md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — CYP1A2 (rs762551)](Badanie — CYP1A2 (rs762551).md)
 
 ---
 

@@ -1,0 +1,5 @@
+---
+
+# RYZYKO
+
+Indeks folderu.

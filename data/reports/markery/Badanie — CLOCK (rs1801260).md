@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CLOCK (rs1801260)](Badanie — CLOCK (rs1801260).md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — CLOCK (rs1801260)](Badanie — CLOCK (rs1801260).md)
 
 ---
 

@@ -1,4 +1,4 @@
-[Strona główna](../README.md) > [scripts](README.md)
+[Strona główna](../README.md) > [scripts](00_indeks.md)
 
 ---
 

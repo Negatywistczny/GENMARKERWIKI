@@ -1,4 +1,4 @@
-[Strona główna](../README.md) > [Dokumentacja](README.md) > [Standardy](STANDARDS.md)
+[Strona główna](../README.md) > [Dokumentacja](00_indeks.md) > [Standardy](STANDARDS.md)
 
 ---
 
@@ -14,7 +14,6 @@ Projekt funkcjonuje w oparciu o model architektoniczny **Single-App** ([`templat
 | :--- | :--- | :--- |
 | **Conventional Commits** | Commity w języku angielskim (`feat:`, `fix:`, `docs:`, `refactor:`) | [conventionalcommits.org](https://www.conventionalcommits.org/pl/v1.0.0/) |
 | **Semantic Versioning** | SemVer (`MAJOR.MINOR.PATCH`) | [semver.org](https://semver.org/lang/pl/) |
-| **Keep a Changelog** | [`CHANGELOG.md`](../CHANGELOG.md) wg specyfikacji 1.1.0 | [keepachangelog.com](https://keepachangelog.com/pl/1.1.0/) |
 | **ADR** | Rejestr Decyzji w [`docs/adr/`](adr/README.md) | [adr.github.io](https://adr.github.io/) |
 | **EditorConfig** | [`.editorconfig`](../.editorconfig) w root dla spójności IDE | [editorconfig.org](https://editorconfig.org/) |
 

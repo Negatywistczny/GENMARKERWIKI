@@ -1,0 +1,5 @@
+---
+
+# GENMARKERWIKI
+
+Indeks folderu.

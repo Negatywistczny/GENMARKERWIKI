@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Research — MC1R](Research — MC1R.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — MC1R](Research — MC1R.md)
 
 ---
 

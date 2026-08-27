@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — OR2M](Badanie — OR2M.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — OR2M](Badanie — OR2M.md)
 
 ---
 

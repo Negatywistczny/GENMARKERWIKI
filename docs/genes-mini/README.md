@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty](README.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty](00_indeks.md)
 
 ---
 

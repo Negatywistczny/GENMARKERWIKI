@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Research — ZEB2](Research — ZEB2.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — ZEB2](Research — ZEB2.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — AVPR1A](Badanie — AVPR1A.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — AVPR1A](Badanie — AVPR1A.md)
 
 ---
 

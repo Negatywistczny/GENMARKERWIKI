@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — COMT (rs4680)](Badanie — COMT (rs4680).md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — COMT (rs4680)](Badanie — COMT (rs4680).md)
 
 ---
 

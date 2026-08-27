@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — GC](Badanie — GC.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — GC](Badanie — GC.md)
 
 ---
 

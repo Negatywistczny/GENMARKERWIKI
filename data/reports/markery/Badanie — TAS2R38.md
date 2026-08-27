@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TAS2R38](Badanie — TAS2R38.md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — TAS2R38](Badanie — TAS2R38.md)
 
 ---
 

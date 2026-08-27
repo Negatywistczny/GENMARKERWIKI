@@ -1,0 +1,5 @@
+---
+
+# GENES-MINI
+
+Indeks folderu.

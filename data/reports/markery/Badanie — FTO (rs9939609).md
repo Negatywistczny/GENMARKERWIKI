@@ -1,4 +1,4 @@
-[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FTO (rs9939609)](Badanie — FTO (rs9939609).md)
+[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — FTO (rs9939609)](Badanie — FTO (rs9939609).md)
 
 ---
 
