@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — SNAP25](Badanie — SNAP25.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — SNAP25](Badanie — SNAP25.md)
 
 ---
 

@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — FMR1](Badanie — FMR1.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FMR1](Badanie — FMR1.md)
 
 ---
 

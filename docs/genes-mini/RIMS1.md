@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](00_indeks.md) > [RIMS1](RIMS1.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [RIMS1](RIMS1.md)
 
 ---
 

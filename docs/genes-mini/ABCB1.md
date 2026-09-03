@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](00_indeks.md) > [ABCB1](ABCB1.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [ABCB1](ABCB1.md)
 
 ---
 

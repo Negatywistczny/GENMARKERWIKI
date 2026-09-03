@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [OR2M](OR2M.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [OR2M](OR2M.md)
 
 ---
 

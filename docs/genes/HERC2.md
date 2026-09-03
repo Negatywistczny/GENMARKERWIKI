@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [HERC2](HERC2.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [HERC2](HERC2.md)
 
 ---
 

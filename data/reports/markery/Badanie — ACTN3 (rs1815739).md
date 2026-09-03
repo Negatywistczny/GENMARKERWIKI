@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — ACTN3 (rs1815739)](Badanie — ACTN3 (rs1815739).md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — ACTN3 (rs1815739)](Badanie — ACTN3 (rs1815739).md)
 
 ---
 

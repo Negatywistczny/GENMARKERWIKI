@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](00_indeks.md) > [MICA](MICA.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [MICA](MICA.md)
 
 ---
 

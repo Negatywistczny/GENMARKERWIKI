@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [MC1R](MC1R.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [MC1R](MC1R.md)
 
 ---
 

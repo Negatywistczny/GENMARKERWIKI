@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](00_indeks.md) > [NR3C2](NR3C2.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Minikarty Genów](README.md) > [NR3C2](NR3C2.md)
 
 ---
 

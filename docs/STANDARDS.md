@@ -1,4 +1,4 @@
-[Strona główna](../README.md) > [Dokumentacja](00_indeks.md) > [Standardy](STANDARDS.md)
+[Strona główna](../README.md) > [Dokumentacja](README.md) > [Standardy](STANDARDS.md)
 
 ---
 

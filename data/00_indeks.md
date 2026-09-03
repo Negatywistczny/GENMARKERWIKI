@@ -1,5 +1,0 @@
----
-
-# DATA
-
-Indeks folderu.

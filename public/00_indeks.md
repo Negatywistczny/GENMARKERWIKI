@@ -1,5 +1,0 @@
----
-
-# PUBLIC
-
-Indeks folderu.

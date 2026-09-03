@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — SYNGAP1](Research — SYNGAP1.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — SYNGAP1](Research — SYNGAP1.md)
 
 ---
 

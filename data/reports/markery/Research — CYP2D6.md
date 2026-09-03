@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — CYP2D6](Research — CYP2D6.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — CYP2D6](Research — CYP2D6.md)
 
 ---
 

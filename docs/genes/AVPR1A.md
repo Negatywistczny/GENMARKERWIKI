@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](00_indeks.md) > [AVPR1A](AVPR1A.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [Karty Genów](README.md) > [AVPR1A](AVPR1A.md)
 
 ---
 

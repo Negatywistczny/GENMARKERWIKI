@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — FADS1](Badanie — FADS1.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FADS1](Badanie — FADS1.md)
 
 ---
 

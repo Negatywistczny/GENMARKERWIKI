@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Research — OXTR (rs53576)](Research — OXTR (rs53576).md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Research — OXTR (rs53576)](Research — OXTR (rs53576).md)
 
 ---
 

@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — MECP2](Badanie — MECP2.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — MECP2](Badanie — MECP2.md)
 
 ---
 

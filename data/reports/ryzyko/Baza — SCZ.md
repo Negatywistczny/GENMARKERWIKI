@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [ryzyko](00_indeks.md) > [Baza — SCZ](Baza — SCZ.md)
+[Strona główna](../../../README.md) > [ryzyko](README.md) > [Baza — SCZ](Baza — SCZ.md)
 
 ---
 

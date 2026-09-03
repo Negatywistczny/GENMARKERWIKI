@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — OCA2](Badanie — OCA2.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — OCA2](Badanie — OCA2.md)
 
 ---
 

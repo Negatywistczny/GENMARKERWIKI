@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — HERC2](Badanie — HERC2.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — HERC2](Badanie — HERC2.md)
 
 ---
 

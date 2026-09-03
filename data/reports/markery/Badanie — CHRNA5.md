@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — CHRNA5](Badanie — CHRNA5.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CHRNA5](Badanie — CHRNA5.md)
 
 ---
 

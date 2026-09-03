@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — FKBP5](Badanie — FKBP5.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — FKBP5](Badanie — FKBP5.md)
 
 ---
 

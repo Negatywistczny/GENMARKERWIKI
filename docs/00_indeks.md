@@ -1,5 +1,0 @@
----
-
-# DOCS
-
-Indeks folderu.

@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](00_indeks.md) > [Szablon](0000-szablon-decyzji.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](README.md) > [Szablon](0000-szablon-decyzji.md)
 
 ---
 

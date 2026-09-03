@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — CDH13](Badanie — CDH13.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — CDH13](Badanie — CDH13.md)
 
 ---
 

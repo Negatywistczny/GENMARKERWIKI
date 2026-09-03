@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — LCT (rs4988235)](Badanie — LCT (rs4988235).md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — LCT (rs4988235)](Badanie — LCT (rs4988235).md)
 
 ---
 

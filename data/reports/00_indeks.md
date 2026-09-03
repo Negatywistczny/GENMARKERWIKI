@@ -1,5 +1,0 @@
----
-
-# REPORTS
-
-Indeks folderu.

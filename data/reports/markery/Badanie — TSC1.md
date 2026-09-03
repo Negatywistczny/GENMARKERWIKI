@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — TSC1](Badanie — TSC1.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — TSC1](Badanie — TSC1.md)
 
 ---
 

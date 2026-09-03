@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](00_indeks.md) > [ADR 0001](0001-markdown-and-static-html-viewer.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](README.md) > [ADR 0001](0001-markdown-and-static-html-viewer.md)
 
 ---
 

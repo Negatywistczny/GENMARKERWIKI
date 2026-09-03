@@ -1,5 +1,0 @@
----
-
-# MARKERY
-
-Indeks folderu.

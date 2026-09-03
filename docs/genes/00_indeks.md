@@ -1,5 +1,0 @@
----
-
-# GENES
-
-Indeks folderu.

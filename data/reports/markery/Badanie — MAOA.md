@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — MAOA](Badanie — MAOA.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — MAOA](Badanie — MAOA.md)
 
 ---
 

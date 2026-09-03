@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — VKORC1](Badanie — VKORC1.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — VKORC1](Badanie — VKORC1.md)
 
 ---
 

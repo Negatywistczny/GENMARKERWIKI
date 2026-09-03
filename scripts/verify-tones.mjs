@@ -175,7 +175,7 @@ const issues = [];
 let total = 0;
 
 for (const file of fs.readdirSync(mdDir)) {
-  if (!file.endsWith(".md") || file === "UNIWERSALNY_SZABLON_MARKERA.md" || file === "index.md" || file === "README.md") {
+  if (!file.endsWith(".md") || file.startsWith("._") || file === "UNIWERSALNY_SZABLON_MARKERA.md" || file === "index.md" || file === "README.md") {
     continue;
   }
   const md = fs.readFileSync(path.join(mdDir, file), "utf8");

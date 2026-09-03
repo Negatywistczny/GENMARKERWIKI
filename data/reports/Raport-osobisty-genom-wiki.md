@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [reports](00_indeks.md) > [Raport-osobisty-genom-wiki](Raport-osobisty-genom-wiki.md)
+[Strona główna](../../README.md) > [reports](README.md) > [Raport-osobisty-genom-wiki](Raport-osobisty-genom-wiki.md)
 
 ---
 

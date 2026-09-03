@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [reports](00_indeks.md) > [Raport-profile-tematow-bez-kart](Raport-profile-tematow-bez-kart.md)
+[Strona główna](../../README.md) > [reports](README.md) > [Raport-profile-tematow-bez-kart](Raport-profile-tematow-bez-kart.md)
 
 ---
 

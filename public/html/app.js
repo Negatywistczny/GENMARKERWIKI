@@ -647,14 +647,30 @@ async function fetchMarkdownFrom(path) {
 }
 
 async function fetchGeneMarkdown(geneSymbol) {
-  const fullMarkdown = await fetchMarkdownFrom(`../md/${geneSymbol}.md`);
-  if (fullMarkdown) {
-    return { markdown: fullMarkdown, isMini: false };
+  const fullCandidates = [
+    `../../docs/genes/${geneSymbol}.md`,
+    `../docs/genes/${geneSymbol}.md`,
+    `../md/${geneSymbol}.md`,
+  ];
+  for (const path of fullCandidates) {
+    const fullMarkdown = await fetchMarkdownFrom(path);
+    if (fullMarkdown) {
+      return { markdown: fullMarkdown, isMini: false };
+    }
   }
-  const miniMarkdown = await fetchMarkdownFrom(`../md-mini/${geneSymbol}.md`);
-  if (miniMarkdown) {
-    return { markdown: miniMarkdown, isMini: true };
+
+  const miniCandidates = [
+    `../../docs/genes-mini/${geneSymbol}.md`,
+    `../docs/genes-mini/${geneSymbol}.md`,
+    `../md-mini/${geneSymbol}.md`,
+  ];
+  for (const path of miniCandidates) {
+    const miniMarkdown = await fetchMarkdownFrom(path);
+    if (miniMarkdown) {
+      return { markdown: miniMarkdown, isMini: true };
+    }
   }
+
   return null;
 }
 

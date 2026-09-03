@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Badanie — IL2RA](Badanie — IL2RA.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Badanie — IL2RA](Badanie — IL2RA.md)
 
 ---
 

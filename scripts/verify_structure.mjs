@@ -100,7 +100,7 @@ function hasValidBlockTitle(title) {
 const issues = [];
 
 for (const file of fs.readdirSync(mdDir).sort()) {
-  if (!file.endsWith(".md") || SKIP.has(file)) continue;
+  if (!file.endsWith(".md") || file.startsWith("._") || SKIP.has(file)) continue;
   const gene = file.replace(/\.md$/i, "");
   const md = fs.readFileSync(path.join(mdDir, file), "utf8");
 

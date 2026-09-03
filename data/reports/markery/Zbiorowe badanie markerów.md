@@ -1,4 +1,4 @@
-[Strona główna](../../../00_indeks.md) > [markery](00_indeks.md) > [Zbiorowe badanie markerów](Zbiorowe badanie markerów.md)
+[Strona główna](../../../README.md) > [markery](README.md) > [Zbiorowe badanie markerów](Zbiorowe badanie markerów.md)
 
 ---
 

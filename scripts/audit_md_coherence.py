@@ -13,7 +13,7 @@ MD_MINI = ROOT / "docs" / "genes-mini"
 REPORT = ROOT / "data" / "reports" / "markery" / "Zbiorowe badanie markerów.md"
 GENES_WITH_MD = ROOT / "public" / "html" / "genes-with-md.js"
 GENES_WITH_MINI = ROOT / "public" / "html" / "genes-with-mini.js"
-SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md", "00_indeks.md"})
+SKIP_MD = frozenset({"UNIWERSALNY_SZABLON_MARKERA.md", "index.md", "README.md"})
 
 MINI_TABLE_HEADER = re.compile(r"^\| Genotyp \| Opis krótki \| Ton \| Wpływ fenotypowy \|")
 MINI_ROW = re.compile(r"^\| (.+?) \| (.+?) \| (\w+) \| (.+?) \|$")
@@ -118,8 +118,8 @@ def rsid_report_vs_mini(report: str, report_genes: set[str]) -> list[str]:
 def main() -> int:
     issues: list[str] = []
 
-    md_genes = {p.stem.upper() for p in MD.glob("*.md") if p.name not in SKIP_MD}
-    mini_genes = {p.stem.upper() for p in MD_MINI.glob("*.md") if p.name not in SKIP_MD}
+    md_genes = {p.stem.upper() for p in MD.glob("*.md") if p.name not in SKIP_MD and not p.name.startswith("._")}
+    mini_genes = {p.stem.upper() for p in MD_MINI.glob("*.md") if p.name not in SKIP_MD and not p.name.startswith("._")}
     overlap = md_genes & mini_genes
     if overlap:
         issues.append(f"overlap md/md-mini: {sorted(overlap)}")

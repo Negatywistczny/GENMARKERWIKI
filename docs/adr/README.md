@@ -1,4 +1,4 @@
-[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](00_indeks.md)
+[Strona główna](../../README.md) > [Dokumentacja](../README.md) > [ADR](README.md)
 
 ---
 
