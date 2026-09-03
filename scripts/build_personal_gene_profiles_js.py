@@ -331,7 +331,7 @@ def profile_from_sections(
 def build_profiles() -> dict[str, dict]:
     profiles: dict[str, dict] = {}
     for path in sorted(MD_DIR.glob("*.md")):
-        if path.name in SKIP:
+        if path.name in SKIP or path.name.startswith("."):
             continue
         gene = path.stem.upper()
         sections = parse_sections(path.read_text(encoding="utf-8"))
@@ -340,6 +340,8 @@ def build_profiles() -> dict[str, dict]:
             profiles[gene] = profile
 
     for path in sorted(MD_MINI_DIR.glob("*.md")):
+        if path.name in SKIP or path.name.startswith("."):
+            continue
         gene = path.stem.upper()
         if gene in profiles:
             continue

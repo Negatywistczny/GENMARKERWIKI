@@ -44,7 +44,7 @@ def extract_primary_rsid(text: str) -> str | None:
 def md_spacing_issues() -> list[str]:
     issues: list[str] = []
     for path in sorted(MD.glob("*.md")):
-        if path.name in SKIP_MD:
+        if path.name in SKIP_MD or path.name.startswith("."):
             continue
         text = path.read_text(encoding="utf-8")
         if re.search(r"\|[^\n]*\n### 5\.", text):
@@ -55,7 +55,7 @@ def md_spacing_issues() -> list[str]:
 def mini_content_issues() -> list[str]:
     issues: list[str] = []
     for path in sorted(MD_MINI.glob("*.md")):
-        if path.name in SKIP_MD:
+        if path.name in SKIP_MD or path.name.startswith("."):
             continue
         body = path.read_text(encoding="utf-8")
         in_table = False
@@ -88,7 +88,7 @@ def mini_content_issues() -> list[str]:
 
 def rsid_report_vs_mini(report: str, report_genes: set[str]) -> list[str]:
     issues: list[str] = []
-    md_genes = {p.stem.upper() for p in MD.glob("*.md") if p.name not in SKIP_MD}
+    md_genes = {p.stem.upper() for p in MD.glob("*.md") if p.name not in SKIP_MD and not p.name.startswith(".")}
     parts = re.split(r"^### ", report, flags=re.M)[1:]
     report_bodies: dict[str, str] = {}
     for part in parts:

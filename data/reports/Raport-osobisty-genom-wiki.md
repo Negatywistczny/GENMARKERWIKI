@@ -2918,7 +2918,7 @@ _rs916977 (intron HERC2 (BEH3, pigmentacja))_
 - **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Modyfikator pigmentacji
-- **Wpływ fenotypowy:** Skorelowany z jasną skórą i włosami w haplotypie BEH3; brak wpływu na neuroprzekaźniki
+- **Wpływ fenotypowy:** Skorelowany z jasną skórą i włosami w haplotypie BEH3
 
 #### rs1667394
 _rs1667394 (intron HERC2 (pigmentacja skóry/włosów))_
@@ -3030,7 +3030,7 @@ _rs1805007 (R151C)_
 - **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Nominalna (100%)
-- **Wpływ fenotypowy:** Mechanizm / ekspresja: wydajny szlak eumelaniny<br><br>Pigmentacja: Ciemne włosy, skóra o wysokiej tolerancji na słońce<br><br>Nocycepcja: Standardowa nocycepcja
+- **Wpływ fenotypowy:** Mechanizm / ekspresja: wydajny szlak eumelaniny<br><br>Pigmentacja: Ciemne włosy, skóra o wysokiej tolerancji na słońce
 
 #### rs1805008
 _rs1805008 (R160W)_
@@ -3039,7 +3039,7 @@ _rs1805008 (R160W)_
 - **Źródło:** WGS
 - **Profil w tabeli wariantów:** C/C
 - **Aktywność / status:** Nominalna (100%)
-- **Wpływ fenotypowy:** Pigmentacja: Typowa pigmentacja eumelaninowa<br><br>Nocycepcja: Brak wpływu na ból
+- **Wpływ fenotypowy:** Typowa pigmentacja eumelaninowa
 
 #### rs1805009
 _rs1805009 (D294H)_
@@ -3048,7 +3048,7 @@ _rs1805009 (D294H)_
 - **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/G
 - **Aktywność / status:** Nominalna (100%)
-- **Wpływ fenotypowy:** Pigmentacja: Standardowa synteza barwnika<br><br>Nocycepcja: Nocycepcja w normie
+- **Wpływ fenotypowy:** Standardowa synteza barwnika
 
 #### rs2228479
 _rs2228479 (V92M)_
@@ -3057,7 +3057,7 @@ _rs2228479 (V92M)_
 - **Źródło:** WGS
 - **Profil w tabeli wariantów:** G/A
 - **Aktywność / status:** Nieznacznie obniżona
-- **Wpływ fenotypowy:** Pigmentacja: Jasna karnacja, skłonność do oparzeń i powstawania przebarwień<br><br>Nocycepcja: Brak dowodów na wpływ nerwowy
+- **Wpływ fenotypowy:** Jasna karnacja, skłonność do oparzeń i powstawania przebarwień
 
 #### rs1805005
 _rs1805005 (Val60Leu (V60L, słaby allel „r”))_

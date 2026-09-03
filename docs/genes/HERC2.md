@@ -43,7 +43,7 @@
 | :--- | :--- | :--- |
 | **T/T** | Typ europejski jasny | Część haplotypu jasnej skóry/włosów w modelach forensics |
 | **T/C** | Pośrednia | Mieszany fenotyp pigmentacji |
-| **★ C/C** | Modyfikator pigmentacji | Skorelowany z jasną skórą i włosami w haplotypie BEH3; brak wpływu na neuroprzekaźniki |
+| **★ C/C** | Modyfikator pigmentacji | Skorelowany z jasną skórą i włosami w haplotypie BEH3 |
 **rs1667394 (intron HERC2 (pigmentacja skóry/włosów))**
 
 | Genotyp | Aktywność / ekspresja | Wpływ fenotypowy (kliniczny i funkcjonalny) |
